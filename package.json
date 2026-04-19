@@ -1,0 +1,22 @@
+{
+  "name": "ai-curator",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate": "npx tsx scripts/generate.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^6.1.8",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.21.0"
+  }
+}

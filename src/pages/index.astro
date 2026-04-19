@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const reports = (await getCollection('reports')).sort(
+  (a, b) => b.data.date.localeCompare(a.data.date)
+);
+
+const latest = reports[0];
+const past = reports.slice(1);
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout>
+  {!latest ? (
+    <p class="text-zinc-500">아직 리포트가 없습니다.</p>
+  ) : (
+    <>
+      <section class="mb-12">
+        <p class="mb-1 text-xs uppercase tracking-wider text-zinc-500">latest</p>
+        <h1 class="mb-2 text-2xl font-bold text-zinc-100">{latest.data.title}</h1>
+        <p class="mb-4 text-sm text-zinc-400">{latest.data.summary}</p>
+        <a href={`${base}${latest.data.date}`} class="text-sm text-blue-400 hover:underline">
+          읽기 →
+        </a>
+      </section>
+
+      {past.length > 0 && (
+        <section>
+          <p class="mb-4 text-xs uppercase tracking-wider text-zinc-500">archive</p>
+          <ul class="space-y-3">
+            {past.map((r) => (
+              <li class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
+                <a href={`${base}${r.data.date}`} class="text-sm text-zinc-300 hover:text-white">
+                  {r.data.title}
+                </a>
+                <span class="ml-4 shrink-0 text-xs text-zinc-600">{r.data.date}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </>
+  )}
+</BaseLayout>
