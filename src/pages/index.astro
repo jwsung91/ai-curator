@@ -2,27 +2,24 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="AI Curator — 준비 중" description="AI 기반 데일리 테크 리포트, 준비 중입니다.">
-  <div class="flex flex-col items-start gap-6">
-    <div>
-      <p class="mb-1 font-mono text-xs uppercase tracking-wider text-zinc-500">status</p>
-      <span class="rounded bg-amber-900/40 px-2 py-1 font-mono text-xs uppercase tracking-wider text-amber-400">
+<BaseLayout title="AI Curator — jwsung91" description="AI 기반 데일리 테크 리포트, 준비 중입니다.">
+  <section class="mb-16">
+    <p class="mb-2 font-mono text-sm text-zinc-500">jwsung91.github.io / ai-curator</p>
+    <h1 class="mb-3 text-3xl font-bold text-zinc-900 dark:text-zinc-100 md:text-4xl">AI Curator</h1>
+    <p class="max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+      AI가 기술 소식을 수집·요약해 매일 데일리 리포트로 제공하는 사이트입니다.
+    </p>
+  </section>
+
+  <section class="rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100/50 dark:bg-zinc-900/50 p-5">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="rounded bg-amber-100/50 text-amber-700 dark:bg-amber-900/50 dark:text-amber-300 px-2 py-1 font-mono text-xs uppercase tracking-wider">
         wip
       </span>
+      <span class="font-mono text-xs text-zinc-500">개발 중</span>
     </div>
-
-    <div>
-      <h1 class="mb-2 text-2xl font-bold text-zinc-100">AI Curator</h1>
-      <p class="max-w-sm text-sm leading-relaxed text-zinc-400">
-        AI가 기술 소식을 수집·요약해 매일 데일리 리포트로 제공하는 사이트입니다. 현재 개발 중입니다.
-      </p>
-    </div>
-
-    <a
-      href="https://jwsung91.github.io"
-      class="font-mono text-sm text-blue-400 hover:underline"
-    >
-      ← jwsung91.github.io
-    </a>
-  </div>
+    <p class="text-sm text-zinc-600 dark:text-zinc-400">
+      현재 준비 중입니다. 완성되면 이 자리에 데일리 리포트가 게시됩니다.
+    </p>
+  </section>
 </BaseLayout>
