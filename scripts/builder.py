@@ -18,11 +18,15 @@ def generate_summary(items):
         items_text += f"- [{item['title']}]({item['link']})\n  {short_desc}\n\n"
         
     prompt = f"""
-You are an expert AI technology curator. Read the following recent AI news/papers and create a daily summary.
+You are an expert Robotics Software Engineer and AI Researcher. 
+Read the following recent trends from robotics, AI, and tech sources and create a professional daily curation report.
+
+Your goal is to provide insightful summaries for a technical audience (other robotics engineers).
+Highlight architectural improvements, new algorithms, ROS 2 integration, and significant industry milestones.
 
 Format your response exactly as a JSON object with two fields:
-- "title": A catchy Korean title for today's curation (e.g., "오늘의 AI 동향: 새로운 LLM 모델 발표")
-- "summary": A well-structured Markdown summary in Korean highlighting the key points of the provided items.
+- "title": A professional and catchy Korean title (e.g., "로보틱스 & AI 데일리: 새로운 경로 계획 알고리즘과 비전 모델 동향")
+- "summary": A well-structured Markdown summary in Korean. Use bullet points and bold text to make it readable. Focus on "Why this matters" for engineers.
 
 Items:
 {items_text}

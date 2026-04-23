@@ -5,26 +5,36 @@ from dotenv import load_dotenv
 # Add scripts directory to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from fetcher import fetch_arxiv_trends, fetch_ros2_discourse_trends, fetch_hackernews_trends
+from fetcher import (
+    fetch_arxiv_ai_trends,
+    fetch_arxiv_robotics_trends,
+    fetch_weekly_robotics_trends,
+    fetch_ieee_robotics_trends,
+    fetch_ros2_discourse_trends,
+    fetch_hackernews_trends
+)
 from builder import generate_summary, save_to_markdown
 
 def main():
     load_dotenv()
-    print("🚀 Starting Data Pipeline...")
+    print("🚀 Starting Robotics & AI Data Pipeline...")
 
     print("📡 Fetching data from sources...")
     
-    # Aggregate data from multiple sources
     all_data = []
     
-    print("- Fetching ArXiv...")
-    all_data.extend(fetch_arxiv_trends())
-    
-    print("- Fetching ROS2 Discourse...")
-    all_data.extend(fetch_ros2_discourse_trends())
-    
-    print("- Fetching HackerNews...")
-    all_data.extend(fetch_hackernews_trends())
+    sources = [
+        ("ArXiv (AI)", fetch_arxiv_ai_trends),
+        ("ArXiv (Robotics)", fetch_arxiv_robotics_trends),
+        ("Weekly Robotics", fetch_weekly_robotics_trends),
+        ("IEEE Spectrum", fetch_ieee_robotics_trends),
+        ("ROS2 Discourse", fetch_ros2_discourse_trends),
+        ("HackerNews", fetch_hackernews_trends),
+    ]
+
+    for name, fetch_func in sources:
+        print(f"- Fetching {name}...")
+        all_data.extend(fetch_func())
 
     if not all_data:
         print("⚠️ No data found from any source. Exiting.")
