@@ -6,32 +6,47 @@ from unittest.mock import patch, MagicMock
 # Add scripts directory to path to import modules
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'scripts'))
 
-from fetcher import fetch_arxiv_trends
+from fetcher import fetch_arxiv_trends, fetch_ros2_discourse_trends, fetch_hackernews_trends
 from builder import generate_summary, save_to_markdown
 
-def test_fetch_arxiv_trends(mocker):
-    # Mock feedparser.parse
+def setup_mock_feed(mocker, entries_data):
     mock_feed = MagicMock()
-    
-    mock_entry1 = MagicMock()
-    mock_entry1.title = "Test Paper 1"
-    mock_entry1.link = "http://arxiv.org/abs/1"
-    mock_entry1.summary = "This is a test summary 1."
-    
-    mock_entry2 = MagicMock()
-    mock_entry2.title = "Test Paper 2"
-    mock_entry2.link = "http://arxiv.org/abs/2"
-    mock_entry2.summary = "This is a test summary 2."
-    
-    mock_feed.entries = [mock_entry1, mock_entry2]
-    
+    mock_entries = []
+    for entry in entries_data:
+        m_entry = MagicMock()
+        m_entry.title = entry['title']
+        m_entry.link = entry['link']
+        m_entry.summary = entry['summary']
+        mock_entries.append(m_entry)
+    mock_feed.entries = mock_entries
     mocker.patch('fetcher.feedparser.parse', return_value=mock_feed)
-    
+
+def test_fetch_arxiv_trends(mocker):
+    setup_mock_feed(mocker, [
+        {"title": "ArXiv Paper", "link": "http://arxiv/1", "summary": "ArXiv Summary"}
+    ])
     results = fetch_arxiv_trends()
-    
-    assert len(results) == 2
-    assert results[0]['title'] == "Test Paper 1"
+    assert len(results) == 1
+    assert results[0]['title'] == "ArXiv Paper"
     assert results[0]['source'] == "ArXiv (cs.AI)"
+
+def test_fetch_ros2_discourse_trends(mocker):
+    setup_mock_feed(mocker, [
+        {"title": "ROS2 News", "link": "http://ros2/1", "summary": "ROS2 Summary"}
+    ])
+    results = fetch_ros2_discourse_trends()
+    assert len(results) == 1
+    assert results[0]['title'] == "ROS2 News"
+    assert results[0]['source'] == "ROS2 Discourse"
+
+def test_fetch_hackernews_trends(mocker):
+    setup_mock_feed(mocker, [
+        {"title": "HN Post", "link": "http://hn/1", "summary": "HN Summary"}
+    ])
+    results = fetch_hackernews_trends()
+    assert len(results) == 1
+    assert results[0]['title'] == "HN Post"
+    assert results[0]['source'] == "HackerNews"
 
 def test_generate_summary(mocker, monkeypatch):
     monkeypatch.setenv("GEMINI_API_KEY", "dummy_key")
