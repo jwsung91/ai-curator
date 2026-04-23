@@ -25,3 +25,8 @@ pnpm-debug.log*
 
 # local instructions
 CLAUDE.md
+
+# Python virtual env
+.venv/
+
+__pycache__/

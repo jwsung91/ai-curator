@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # 마크다운 파일 커밋/푸시를 위해 write 권한 부여
   pages: write
   id-token: write
 
@@ -21,12 +21,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npm run build
+          
+      - name: Install Node dependencies
+        run: npm ci
+        
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+        
+      # TODO: 파이프라인 스크립트 구현 후 아래 주석 해제
+      # - name: Run Data Pipeline (Generate AI Report)
+      #   run: npm run generate
+      #   env:
+      #     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          
+      # - name: Commit and Push generated files
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: "chore: auto-generate daily AI curation report"
+      #     branch: main
+      #     file_pattern: "src/content/curation/*.md"
+          
+      - name: Build Astro Site
+        run: npm run build
+        
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
