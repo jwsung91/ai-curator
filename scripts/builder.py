@@ -44,35 +44,52 @@ Items:
 """
     
     max_retries = 2
-    for attempt in range(max_retries):
-        try:
-            response = client.models.generate_content(
-                model='gemini-2.0-flash',
-                contents=prompt,
-            )
-            text = response.text
-            
-            # Try to parse JSON from markdown block
-            json_match = re.search(r'```(?:json)?\n(.*?)\n```', text, re.DOTALL)
-            if json_match:
-                text = json_match.group(1)
-            else:
-                first_brace = text.find('{')
-                last_brace = text.rfind('}')
-                if first_brace != -1 and last_brace != -1:
-                    text = text[first_brace:last_brace+1]
-            
-            summary_data = json.loads(text)
-            summary_data['items'] = items
-            summary_data['itemCount'] = len(items)
-            return summary_data
-        except (errors.ClientError, errors.ServerError) as e:
-            if attempt < max_retries - 1 and ("429" in str(e) or "503" in str(e)):
-                print(f"⚠️ API Busy (Attempt {attempt+1}/{max_retries}). Retrying in 30s...")
-                time.sleep(30)
-                continue
-            # Raise exception on last attempt or other errors
-            raise e
+    # List of models that are actually available based on client.models.list()
+    model_names = ['gemini-flash-latest', 'gemini-2.0-flash', 'gemini-flash-lite-latest']
+    
+    last_exception = None
+    for model_name in model_names:
+        for attempt in range(max_retries):
+            try:
+                print(f"🤖 Trying model: {model_name} (Attempt {attempt+1})")
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                )
+                text = response.text
+                
+                # Try to parse JSON from markdown block
+                json_match = re.search(r'```(?:json)?\n(.*?)\n```', text, re.DOTALL)
+                if json_match:
+                    text = json_match.group(1)
+                else:
+                    first_brace = text.find('{')
+                    last_brace = text.rfind('}')
+                    if first_brace != -1 and last_brace != -1:
+                        text = text[first_brace:last_brace+1]
+                
+                summary_data = json.loads(text)
+                summary_data['items'] = items
+                summary_data['itemCount'] = len(items)
+                return summary_data
+            except (errors.ClientError, errors.ServerError) as e:
+                last_exception = e
+                if "429" in str(e) or "503" in str(e):
+                    if attempt < max_retries - 1:
+                        print(f"⚠️ {model_name} Busy. Retrying in 30s...")
+                        time.sleep(30)
+                        continue
+                    else:
+                        print(f"⏭️ {model_name} failed. Trying next model...")
+                        break
+                raise e
+            except Exception as e:
+                print(f"Error with {model_name}: {e}")
+                last_exception = e
+                break
+    
+    if last_exception:
+        raise last_exception
 
 def save_to_markdown(data):
     date_str = datetime.now().strftime('%Y-%m-%d')
