@@ -27,7 +27,7 @@ def generate_summary(items):
 2. **리포트 제목 (title)**: 반드시 "YYYY-MM-DD" 형식의 날짜만 작성하세요.
 3. **요약 (one_sentence_summary)**: 오늘 수집된 정보 중 가장 중요한 기술적 성취나 트렌드를 **딱 한 문장**으로 요약하여 작성하세요. 이 문장은 리스트 페이지에서 설명(Description)으로 사용됩니다.
 4. **본문 (report_body)**: 
-   - 줄글을 최소화하고 **글머리 기호(Bullet points)**를 적극 활용하세요.
+   - 줄글(Paragraph)을 최소화하고 **글머리 기호(Bullet points)**를 적극 활용하세요.
    - 주요 기술 용어나 핵심 개념은 **굵게(Bold)** 표시하세요.
    - 각 항목의 요약 바로 아래에 **"> 💡 인사이트:"** 형태의 인용구를 추가하여 실무적 중요성을 설명하세요.
    - 각 요약 내용 끝에 출처 번호를 표기하세요 (예: [1]).
@@ -43,7 +43,7 @@ Items:
 {items_text}
 """
     
-    max_retries = 3
+    max_retries = 2
     for attempt in range(max_retries):
         try:
             response = client.models.generate_content(
@@ -57,7 +57,6 @@ Items:
             if json_match:
                 text = json_match.group(1)
             else:
-                # If no code block, try to find the first '{' and last '}'
                 first_brace = text.find('{')
                 last_brace = text.rfind('}')
                 if first_brace != -1 and last_brace != -1:
@@ -68,23 +67,12 @@ Items:
             summary_data['itemCount'] = len(items)
             return summary_data
         except (errors.ClientError, errors.ServerError) as e:
-            if "429" in str(e) or "503" in str(e):
-                print(f"⚠️ API Limit/Busy (Attempt {attempt+1}/{max_retries}). Retrying in 60s...")
-                time.sleep(60)
+            if attempt < max_retries - 1 and ("429" in str(e) or "503" in str(e)):
+                print(f"⚠️ API Busy (Attempt {attempt+1}/{max_retries}). Retrying in 30s...")
+                time.sleep(30)
                 continue
+            # Raise exception on last attempt or other errors
             raise e
-        except Exception as e:
-            print(f"Error generating summary from Gemini: {e}")
-            break
-
-    date_now = datetime.now().strftime('%Y-%m-%d')
-    return {
-        "title": date_now,
-        "one_sentence_summary": "리포트 생성 중 에러가 발생했습니다.",
-        "report_body": "요약을 생성하는 중 에러가 발생했습니다.",
-        "items": items,
-        "itemCount": len(items)
-    }
 
 def save_to_markdown(data):
     date_str = datetime.now().strftime('%Y-%m-%d')
