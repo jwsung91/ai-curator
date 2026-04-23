@@ -45,9 +45,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://jwsung91
   <body class="min-h-screen bg-white font-sans text-base leading-relaxed text-zinc-700 transition-colors duration-200 dark:bg-zinc-950 dark:text-zinc-300">
     <header class="sticky top-0 z-50 border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md">
       <div class="mx-auto flex h-14 max-w-2xl items-center justify-between px-6 md:px-8">
-        <a href={base} class="font-mono text-sm font-semibold text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors duration-200">
-          ai-curator
-        </a>
+        <div class="flex items-center gap-4">
+          <a href={base} class="font-mono text-sm font-semibold text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors duration-200">
+            ai-curator
+          </a>
+          <a href={`${base}rss.xml`} class="text-zinc-400 hover:text-orange-500 transition-colors" title="RSS Feed">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+          </a>
+        </div>
         <a href="https://jwsung91.github.io" class="font-mono text-xs text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 transition-colors duration-200">
           jwsung91
         </a>

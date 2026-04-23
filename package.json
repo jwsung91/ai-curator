@@ -13,6 +13,7 @@
     "generate": "python scripts/main.py"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.18",
     "@fontsource/jetbrains-mono": "^5.2.8",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.2",
