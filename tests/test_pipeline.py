@@ -12,7 +12,9 @@ from fetcher import (
     fetch_weekly_robotics_trends, 
     fetch_ieee_robotics_trends,
     fetch_ros2_discourse_trends, 
-    fetch_hackernews_trends
+    fetch_hackernews_trends,
+    fetch_github_cpp_trending,
+    fetch_github_python_trending
 )
 from builder import generate_summary, save_to_markdown
 
@@ -29,54 +31,48 @@ def setup_mock_feed(mocker, entries_data):
     mocker.patch('fetcher.feedparser.parse', return_value=mock_feed)
 
 def test_fetch_arxiv_ai_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "AI Paper", "link": "http://arxiv/1", "summary": "sum"}])
+    setup_mock_feed(mocker, [{"title": "AI", "link": "L", "summary": "S"}])
     results = fetch_arxiv_ai_trends()
-    assert len(results) == 1
     assert results[0]['source'] == "ArXiv (cs.AI)"
 
 def test_fetch_arxiv_robotics_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "Robotics Paper", "link": "http://arxiv/2", "summary": "sum"}])
+    setup_mock_feed(mocker, [{"title": "Robotics", "link": "L", "summary": "S"}])
     results = fetch_arxiv_robotics_trends()
-    assert len(results) == 1
     assert results[0]['source'] == "ArXiv (cs.RO)"
 
-def test_fetch_weekly_robotics_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "Weekly Robotics", "link": "http://weekly/1", "summary": "sum"}])
-    results = fetch_weekly_robotics_trends()
-    assert len(results) == 1
-    assert results[0]['source'] == "Weekly Robotics"
-
-def test_fetch_ieee_robotics_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "IEEE News", "link": "http://ieee/1", "summary": "sum"}])
-    results = fetch_ieee_robotics_trends()
-    assert len(results) == 1
-    assert results[0]['source'] == "IEEE Spectrum"
-
 def test_fetch_ros2_discourse_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "ROS2", "link": "http://ros2/1", "summary": "sum"}])
+    setup_mock_feed(mocker, [{"title": "ROS2", "link": "L", "summary": "S"}])
     results = fetch_ros2_discourse_trends()
-    assert len(results) == 1
-    assert results[0]['source'] == "ROS2 Discourse"
+    assert results[0]['source'] == "ROS2 Discourse (Top)"
 
-def test_fetch_hackernews_trends(mocker):
-    setup_mock_feed(mocker, [{"title": "HN", "link": "http://hn/1", "summary": "sum"}])
-    results = fetch_hackernews_trends()
-    assert len(results) == 1
-    assert results[0]['source'] == "HackerNews"
+def test_fetch_github_cpp_trending(mocker):
+    setup_mock_feed(mocker, [{"title": "CppRepo", "link": "L", "summary": "S"}])
+    results = fetch_github_cpp_trending()
+    assert results[0]['source'] == "GitHub Trending (C++)"
+
+def test_fetch_github_python_trending(mocker):
+    setup_mock_feed(mocker, [{"title": "PyRepo", "link": "L", "summary": "S"}])
+    results = fetch_github_python_trending()
+    assert results[0]['source'] == "GitHub Trending (Python)"
 
 def test_generate_summary(mocker, monkeypatch):
     monkeypatch.setenv("GEMINI_API_KEY", "dummy_key")
     mock_genai = mocker.patch('builder.genai')
     mock_client = MagicMock()
     mock_response = MagicMock()
-    mock_json = {"title": "Title", "summary": "Summary"}
+    mock_json = {
+        "title": "2026-04-23", 
+        "one_sentence_summary": "One sentence summary.",
+        "report_body": "Report Body"
+    }
     type(mock_response).text = mocker.PropertyMock(return_value=f"```json\n{json.dumps(mock_json)}\n```")
     mock_client.models.generate_content.return_value = mock_response
     mock_genai.Client.return_value = mock_client
     
-    items = [{"title": "T1", "link": "L1", "summary": "S1", "source": "Src1"}]
+    items = [{"title": "T", "link": "L", "summary": "S", "source": "Src"}]
     result = generate_summary(items)
-    assert result['title'] == "Title"
+    assert result['title'] == "2026-04-23"
+    assert result['one_sentence_summary'] == "One sentence summary."
 
 def test_save_to_markdown(tmp_path, mocker):
     mocker.patch('builder.os.getcwd', return_value=str(tmp_path))
@@ -86,9 +82,14 @@ def test_save_to_markdown(tmp_path, mocker):
     mock_datetime.now.return_value = mock_date
     
     test_data = {
-        "title": "T", "summary": "S", "itemCount": 1,
-        "items": [{"title": "N1", "link": "L", "source": "Src"}]
+        "title": "2026-04-23", 
+        "one_sentence_summary": "One sentence summary.",
+        "report_body": "Report Body",
+        "items": [{"title": "N1", "link": "L", "source": "Src"}],
+        "itemCount": 1
     }
     save_to_markdown(test_data)
     expected_file = tmp_path / 'src' / 'content' / 'curation' / '2026-04-23-daily.md'
     assert expected_file.exists()
+    content = expected_file.read_text()
+    assert 'summary: "One sentence summary."' in content

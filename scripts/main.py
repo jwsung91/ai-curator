@@ -11,25 +11,29 @@ from fetcher import (
     fetch_weekly_robotics_trends,
     fetch_ieee_robotics_trends,
     fetch_ros2_discourse_trends,
-    fetch_hackernews_trends
+    fetch_hackernews_trends,
+    fetch_github_cpp_trending,
+    fetch_github_python_trending
 )
 from builder import generate_summary, save_to_markdown
 
 def main():
     load_dotenv()
-    print("🚀 Starting Robotics & AI Data Pipeline...")
+    print("🚀 Starting Robotics & AI Data Pipeline (Popularity Focus)...")
 
-    print("📡 Fetching data from sources...")
+    print("📡 Fetching high-signal data from sources...")
     
     all_data = []
     
     sources = [
-        ("ArXiv (AI)", fetch_arxiv_ai_trends),
-        ("ArXiv (Robotics)", fetch_arxiv_robotics_trends),
+        ("ArXiv AI", fetch_arxiv_ai_trends),
+        ("ArXiv Robotics", fetch_arxiv_robotics_trends),
         ("Weekly Robotics", fetch_weekly_robotics_trends),
         ("IEEE Spectrum", fetch_ieee_robotics_trends),
-        ("ROS2 Discourse", fetch_ros2_discourse_trends),
-        ("HackerNews", fetch_hackernews_trends),
+        ("ROS2 Discourse (Top)", fetch_ros2_discourse_trends),
+        ("HackerNews (Top)", fetch_hackernews_trends),
+        ("GitHub C++", fetch_github_cpp_trending),
+        ("GitHub Python", fetch_github_python_trending),
     ]
 
     for name, fetch_func in sources:
@@ -46,12 +50,7 @@ def main():
     summary_data = generate_summary(all_data)
 
     print("📝 Saving report to markdown...")
-    save_to_markdown({
-        "title": summary_data.get("title", "No Title"),
-        "summary": summary_data.get("summary", ""),
-        "itemCount": len(all_data),
-        "items": all_data
-    })
+    save_to_markdown(summary_data)
 
     print("✅ Pipeline completed successfully!")
 

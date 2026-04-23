@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 1 * * *'  # 매일 KST 10:00
+    - cron: '0 21 * * *'  # 매일 KST 06:00 (UTC 21:00)
   workflow_dispatch:
 
 permissions:
@@ -40,18 +40,17 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
         
-      # TODO: 파이프라인 스크립트 구현 후 아래 주석 해제
-      # - name: Run Data Pipeline (Generate AI Report)
-      #   run: npm run generate
-      #   env:
-      #     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Run Data Pipeline (Generate AI Report)
+        run: npm run generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           
-      # - name: Commit and Push generated files
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: "chore: auto-generate daily AI curation report"
-      #     branch: main
-      #     file_pattern: "src/content/curation/*.md"
+      - name: Commit and Push generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate daily AI curation report"
+          branch: main
+          file_pattern: "src/content/curation/*.md"
           
       - name: Build Astro Site
         run: npm run build
