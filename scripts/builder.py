@@ -69,8 +69,6 @@ summary: "{short_summary}"
 itemCount: {data['itemCount']}
 ---
 
-## 🤖 오늘의 AI 요약
-
 {data['summary']}
 
 ---

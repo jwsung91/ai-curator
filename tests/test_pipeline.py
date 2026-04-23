@@ -88,5 +88,5 @@ def test_save_to_markdown(tmp_path, mocker):
     content = expected_file.read_text(encoding='utf-8')
     assert 'title: "테스트 리포트"' in content
     assert 'itemCount: 1' in content
-    assert '## 🤖 오늘의 AI 요약' in content
+    assert '첫 번째 줄\n두 번째 줄' in content
     assert '[논문 1](http://link) (ArXiv)' in content
