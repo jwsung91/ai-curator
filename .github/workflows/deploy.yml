@@ -40,12 +40,16 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
         
+      # 스케줄 실행 또는 수동 실행 시에만 파이프라인 작동
       - name: Run Data Pipeline (Generate AI Report)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: npm run generate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           
+      # 스케줄 실행 또는 수동 실행 시에만 커밋/푸시 작동
       - name: Commit and Push generated files
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-generate daily AI curation report"
