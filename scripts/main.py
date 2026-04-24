@@ -2,64 +2,65 @@ import os
 import sys
 from dotenv import load_dotenv
 
-# Add scripts directory to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fetcher import (
-    fetch_arxiv_ai_trends,
-    fetch_arxiv_robotics_trends,
-    fetch_weekly_robotics_trends,
-    fetch_ieee_robotics_trends,
-    fetch_ros2_discourse_trends,
-    fetch_hackernews_trends,
-    fetch_github_cpp_trending,
-    fetch_github_python_trending
+    fetch_arxiv_robotics, fetch_ros2_discourse, fetch_ros2_releases,
+    fetch_arxiv_cv, fetch_arxiv_ai, fetch_weekly_robotics,
+    fetch_simon_willison, fetch_tldr_ai, fetch_hackernews_devai, fetch_devai_releases,
+    fetch_ieee_robotics, fetch_the_robot_report,
 )
 from builder import generate_summary, save_to_markdown
 
+SOURCES = [
+    ('로보틱스 실무',   fetch_arxiv_robotics),
+    ('로보틱스 실무',   fetch_ros2_discourse),
+    ('로보틱스 실무',   fetch_ros2_releases),
+    ('AI × 로보틱스',  fetch_arxiv_cv),
+    ('AI × 로보틱스',  fetch_arxiv_ai),
+    ('AI × 로보틱스',  fetch_weekly_robotics),
+    ('개발자 AI 도구',  fetch_simon_willison),
+    ('개발자 AI 도구',  fetch_tldr_ai),
+    ('개발자 AI 도구',  fetch_hackernews_devai),
+    ('개발자 AI 도구',  fetch_devai_releases),
+    ('업계 동향',       fetch_ieee_robotics),
+    ('업계 동향',       fetch_the_robot_report),
+]
+
+
 def main():
     load_dotenv()
-    print("🚀 Starting Robotics & AI Data Pipeline (Popularity Focus)...")
+    print("🚀 Starting AI Curation Pipeline...")
 
     try:
-        print("📡 Fetching high-signal data from sources...")
-        
-        all_data = []
-        
-        sources = [
-            ("ArXiv AI", fetch_arxiv_ai_trends),
-            ("ArXiv Robotics", fetch_arxiv_robotics_trends),
-            ("Weekly Robotics", fetch_weekly_robotics_trends),
-            ("IEEE Spectrum", fetch_ieee_robotics_trends),
-            ("ROS2 Discourse (Top)", fetch_ros2_discourse_trends),
-            ("HackerNews (Top)", fetch_hackernews_trends),
-            ("GitHub C++", fetch_github_cpp_trending),
-            ("GitHub Python", fetch_github_python_trending),
-        ]
+        all_items = []
+        current_section = None
+        for section, fetch_fn in SOURCES:
+            if section != current_section:
+                print(f"\n📡 [{section}]")
+                current_section = section
+            print(f"  - {fetch_fn.__name__}...")
+            items = fetch_fn()
+            for item in items:
+                item['section_hint'] = section
+            all_items.extend(items)
 
-        for name, fetch_func in sources:
-            print(f"- Fetching {name}...")
-            all_data.extend(fetch_func())
-
-        if not all_data:
-            print("⚠️ No data found from any source. Exiting.")
+        if not all_items:
+            print("⚠️  No data collected. Exiting.")
             return
 
-        print(f"📦 Total items collected: {len(all_data)}")
+        print(f"\n📦 Total collected: {len(all_items)}")
+        print("🧠 Generating report...")
+        data = generate_summary(all_items)
 
-        print("🧠 Generating AI summary...")
-        # If this fails, it will raise an exception and go to the except block
-        summary_data = generate_summary(all_data)
-
-        print("📝 Saving report to markdown...")
-        save_to_markdown(summary_data)
-
-        print("✅ Pipeline completed successfully!")
+        print("📝 Saving...")
+        save_to_markdown(data)
+        print("✅ Done!")
 
     except Exception as e:
-        print(f"❌ Pipeline failed with error: {e}")
-        # Exit with error code to notify GitHub Actions
+        print(f"❌ Failed: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

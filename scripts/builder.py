@@ -1,120 +1,156 @@
 import os
 import json
-import re
 import time
 from datetime import datetime, timezone, timedelta
 from google import genai
-from google.genai import errors
+from google.genai import errors, types
+
+
+SECTION_DEFS = [
+    ('section_robotics',    '🤖 로보틱스 실무'),
+    ('section_ai_robotics', '🧠 AI × 로보틱스'),
+    ('section_devtools',    '🛠️ 개발자 AI 도구'),
+    ('section_industry',    '📰 업계 동향'),
+]
+
+
+def build_prompt(items):
+    items_text = ""
+    for i, item in enumerate(items, 1):
+        hint = item.get('section_hint', '')
+        items_text += f"[{i}] [{hint}] {item['title']} ({item['link']})\n  {item['summary'][:350]}\n\n"
+
+    return f"""당신은 로봇 시스템에 AI를 통합하는 시니어 소프트웨어 엔지니어입니다.
+수집된 기술 정보를 4개 섹션으로 분류하고, 오늘 실무에 바로 적용할 수 있는 데일리 리포트를 작성하세요.
+
+---
+
+## 섹션 분류 기준
+
+**section_robotics — 🤖 로보틱스 실무**
+포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·이슈, SLAM·오도메트리·모션 제어·플래닝 논문, 임베디드·실시간 시스템
+제외: 순수 AI 연구, 정책·비즈니스 뉴스
+
+**section_ai_robotics — 🧠 AI × 로보틱스**
+포함: 로봇 인식(perception)·플래닝·조작(manipulation)에 적용 가능한 AI, VLM/VLA·Diffusion Policy·embodied AI, 센서 퓨전 ML
+제외: 순수 NLP·텍스트 생성, 로봇과 무관한 ML 논문
+
+**section_devtools — 🛠️ 개발자 AI 도구**
+포함: 오늘 설치·호출 가능한 AI 도구 업데이트, LLM API 변경사항, IDE/코딩 어시스턴트, MCP 서버, 로컬 LLM 추론 도구
+제외: 추상적 AI 연구, 비즈니스 뉴스, 이미 다른 섹션에 포함된 항목
+
+**section_industry — 📰 업계 동향**
+포함: 로보틱스 산업 동향, 정책, 제품 출시, 컨퍼런스
+제외: 위 3개 섹션에 이미 포함된 항목
+
+---
+
+## 작성 규칙
+
+1. 각 항목 형식 (모든 섹션 동일):
+   ```
+   - **항목명**: 핵심 내용 한 줄 [번호]
+     > 💡 인사이트: 구체적인 실무 적용 방법 (패키지명, API, 명령어 포함)
+   ```
+2. 인사이트는 "무엇을 해야 하는가"가 명확해야 합니다. "~될 것으로 예상된다" 같은 전망은 피하세요.
+3. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
+4. covered_count는 4개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
+5. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
+
+---
+
+## 수집 항목 ({len(items)}개)
+
+{items_text}
+
+---
+
+## 응답 형식
+
+아래 JSON 스키마를 정확히 따르세요:
+{{
+  "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
+  "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
+  "section_ai_robotics": "마크다운 내용 (없으면 빈 문자열)",
+  "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
+  "section_industry": "마크다운 내용 (없으면 빈 문자열)",
+  "covered_count": 숫자
+}}"""
+
 
 def generate_summary(items):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("GEMINI_API_KEY is not set in environment variables.")
-    
+        raise ValueError("GEMINI_API_KEY is not set.")
+
     client = genai.Client(api_key=api_key)
-    
-    items_text = ""
-    for i, item in enumerate(items, 1):
-        short_desc = item['summary'][:200] + '...' if len(item['summary']) > 200 else item['summary']
-        items_text += f"[{i}] {item['title']} ({item['link']})\n  {short_desc}\n\n"
-        
-    prompt = f"""
-당신은 전문 로보틱스 소프트웨어 엔지니어이자 AI 연구원입니다. 
-제공된 기술 정보를 읽고 동료 엔지니어들이 즉시 업무에 참고할 수 있는 수준의 **전문 데일리 큐레이션 리포트**를 작성하세요.
+    prompt = build_prompt(items)
 
-작성 지침:
-1. **언어**: 모든 내용은 한국어로 작성하세요.
-2. **리포트 제목 (title)**: 반드시 "YYYY-MM-DD" 형식의 날짜만 작성하세요.
-3. **요약 (one_sentence_summary)**: 오늘 수집된 정보 중 가장 중요한 기술적 성취나 트렌드를 **딱 한 문장**으로 요약하여 작성하세요. 이 문장은 리스트 페이지에서 설명(Description)으로 사용됩니다.
-4. **본문 (report_body)**: 
-   - 줄글(Paragraph)을 최소화하고 **글머리 기호(Bullet points)**를 적극 활용하세요.
-   - 주요 기술 용어나 핵심 개념은 **굵게(Bold)** 표시하세요.
-   - 각 항목의 요약 바로 아래에 **"> 💡 인사이트:"** 형태의 인용구를 추가하여 실무적 중요성을 설명하세요.
-   - 각 요약 내용 끝에 출처 번호를 표기하세요 (예: [1]).
-
-응답은 반드시 아래 세 필드를 가진 JSON 객체 형식이어야 합니다:
-{{
-  "title": "YYYY-MM-DD",
-  "one_sentence_summary": "오늘의 핵심을 관통하는 기술적 요약 한 문장",
-  "report_body": "구조화된 마크다운 본문"
-}}
-
-Items:
-{items_text}
-"""
-    
-    max_retries = 2
-    # List of models that are actually available based on client.models.list()
-    model_names = ['gemini-flash-latest', 'gemini-2.0-flash', 'gemini-flash-lite-latest']
-    
+    model_names = ['gemini-2.0-flash', 'gemini-flash-latest', 'gemini-flash-lite-latest']
     last_exception = None
+
     for model_name in model_names:
-        for attempt in range(max_retries):
+        for attempt in range(2):
             try:
-                print(f"🤖 Trying model: {model_name} (Attempt {attempt+1})")
+                print(f"  🤖 {model_name} (attempt {attempt + 1})")
                 response = client.models.generate_content(
                     model=model_name,
                     contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type='application/json',
+                    ),
                 )
-                text = response.text
-                
-                # Try to parse JSON from markdown block
-                json_match = re.search(r'```(?:json)?\n(.*?)\n```', text, re.DOTALL)
-                if json_match:
-                    text = json_match.group(1)
-                else:
-                    first_brace = text.find('{')
-                    last_brace = text.rfind('}')
-                    if first_brace != -1 and last_brace != -1:
-                        text = text[first_brace:last_brace+1]
-                
-                summary_data = json.loads(text)
-                summary_data['items'] = items
-                summary_data['itemCount'] = len(items)
-                return summary_data
+                data = json.loads(response.text)
+                data['items'] = items
+                return data
             except (errors.ClientError, errors.ServerError) as e:
                 last_exception = e
-                if "429" in str(e) or "503" in str(e):
-                    if attempt < max_retries - 1:
-                        print(f"⚠️ {model_name} Busy. Retrying in 30s...")
+                if '429' in str(e) or '503' in str(e):
+                    if attempt == 0:
+                        print(f"  ⚠ Rate limited. Retrying in 30s...")
                         time.sleep(30)
                         continue
-                    else:
-                        print(f"⏭️ {model_name} failed. Trying next model...")
-                        break
+                    print(f"  ⏭ Trying next model...")
+                    break
                 raise e
             except Exception as e:
-                print(f"Error with {model_name}: {e}")
+                print(f"  ✗ {e}")
                 last_exception = e
                 break
-    
-    if last_exception:
-        raise last_exception
+
+    raise last_exception
+
 
 def save_to_markdown(data):
     kst = timezone(timedelta(hours=9))
     date_str = datetime.now(kst).strftime('%Y-%m-%d')
     file_name = f"{date_str}-daily.md"
     dir_path = os.path.join(os.getcwd(), 'src', 'content', 'curation')
-
     os.makedirs(dir_path, exist_ok=True)
 
-    title = date_str
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
-    
-    items_md_list = []
-    for i, item in enumerate(data.get('items', []), 1):
-        items_md_list.append(f"{i}. [{item['title']}]({item['link']}) — *{item['source']}*")
-    items_md = "\n\n".join(items_md_list)
-    
+    covered_count = data.get('covered_count', 0)
+
+    parts = []
+    for key, heading in SECTION_DEFS:
+        content = data.get(key, '').strip()
+        if content:
+            parts.append(f"## {heading}\n\n{content}")
+    report_body = '\n\n---\n\n'.join(parts)
+
+    items_md = "\n\n".join(
+        f"{i}. [{item['title']}]({item['link']}) — *{item['source']}*"
+        for i, item in enumerate(data.get('items', []), 1)
+    )
+
     markdown_content = f"""---
 date: "{date_str}"
-title: "{title}"
+title: "{date_str}"
 summary: "{summary_desc}"
-itemCount: {data.get('itemCount', 0)}
+itemCount: {covered_count}
 ---
 
-{data.get('report_body', '')}
+{report_body}
 
 ---
 
@@ -122,9 +158,9 @@ itemCount: {data.get('itemCount', 0)}
 
 {items_md}
 """
-    
+
     file_path = os.path.join(dir_path, file_name)
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
-        
-    print(f"Report saved to src/content/curation/{file_name}")
+
+    print(f"  Saved: src/content/curation/{file_name} ({covered_count} items covered)")
