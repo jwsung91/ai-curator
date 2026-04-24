@@ -33,7 +33,7 @@ def build_prompt(items):
         items_text += f"[{i}] [{hint}] {item['title']} ({item['link']})\n  {item['summary'][:350]}\n\n"
 
     return f"""당신은 로봇 시스템에 AI를 통합하는 시니어 소프트웨어 엔지니어입니다.
-수집된 기술 정보를 3개 섹션으로 분류하고, 오늘 실무에 바로 적용할 수 있는 데일리 리포트를 작성하세요.
+수집된 기술 정보를 3개 섹션으로 분류하고, 오늘 실무에 참고할 수 있는 데일리 리포트를 작성하세요.
 
 ---
 
@@ -58,13 +58,16 @@ def build_prompt(items):
 1. 각 항목 형식 (모든 섹션 동일):
    ```
    - **항목명**: 핵심 내용 한 줄 [번호]
-     > 💡 인사이트: 구체적인 실무 적용 방법 (패키지명, API, 명령어 포함)
    ```
-2. 인사이트는 "무엇을 해야 하는가"가 명확해야 합니다. "~될 것으로 예상된다" 같은 전망은 피하세요.
-3. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
-4. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
-5. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
-6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
+2. 섹션 끝에 해당 섹션 전체를 아우르는 인사이트 블록을 **하나만** 추가하세요:
+   ```
+   > 💡 **핵심**: 중요도 기준 상위 2~3가지를 선별해, 각각 어떤 상황·문제에서 도움이 되는지 간결하게 서술하세요.
+   ```
+3. 인사이트는 "~하는 경우", "~할 때", "~가 필요하다면" 등 **상황 중심**으로 작성하세요. 명령형("~하세요") 대신 상황형("~인 경우 참고")으로 작성합니다.
+4. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
+5. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
+6. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
+7. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
 
@@ -132,6 +135,36 @@ def generate_summary(items):
     raise last_exception
 
 
+def _renumber_citations(section_contents):
+    """Renumber [N] citations to sequential order of first appearance across sections."""
+    combined = '\n'.join(c for c in section_contents if c)
+
+    seen = []
+    for m in re.finditer(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', combined):
+        for n_str in m.group(1).split(','):
+            n_str = n_str.strip()
+            if n_str.isdigit():
+                idx = int(n_str)
+                if idx not in seen:
+                    seen.append(idx)
+
+    mapping = {old: new for new, old in enumerate(seen, 1)}
+
+    def replace_nums(m):
+        nums = [n.strip() for n in m.group(1).split(',')]
+        replaced = [str(mapping.get(int(n), n)) if n.isdigit() else n for n in nums]
+        return f'[{", ".join(replaced)}]'
+
+    new_sections = []
+    for content in section_contents:
+        if content:
+            new_sections.append(re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_nums, content))
+        else:
+            new_sections.append(content)
+
+    return new_sections, seen  # seen = original indices in order of first appearance
+
+
 def save_to_markdown(data):
     kst = timezone(timedelta(hours=9))
     date_str = datetime.now(kst).strftime('%Y-%m-%d')
@@ -142,29 +175,32 @@ def save_to_markdown(data):
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
     covered_count = data.get('covered_count', 0)
 
+    # 인용 번호를 본문 등장 순서 기준으로 재번호 매기기
+    section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]
+    renumbered, ordered_orig_indices = _renumber_citations(section_contents)
+
     # 본문 섹션 조합 + 인용 번호 앵커 링크 삽입
     parts = []
-    for key, heading in SECTION_DEFS:
-        content = data.get(key, '').strip()
+    for (key, heading), content in zip(SECTION_DEFS, renumbered):
         if content:
             parts.append(f"## {heading}\n\n{add_citation_anchors(content)}")
     report_body = '\n\n---\n\n'.join(parts)
 
-    # 실제 인용된 항목만 출처에 포함
+    # 출처 목록: 등장 순서대로, 순차 번호로 정렬
     all_items = data.get('items', [])
-    used = set(data.get('used_indices', range(1, len(all_items) + 1)))
     source_parts = []
-    for i, item in enumerate(all_items, 1):
-        if i in used:
+    for seq_num, orig_idx in enumerate(ordered_orig_indices, 1):
+        if 1 <= orig_idx <= len(all_items):
+            item = all_items[orig_idx - 1]
             source_parts.append(
-                f'<span id="ref-{i}"></span>\n\n'
-                f'{i}. [{item["title"]}]({item["link"]}) — *{item["source"]}*'
+                f'<span id="ref-{seq_num}"></span>\n\n'
+                f'{seq_num}. [{item["title"]}]({item["link"]}) — *{item["source"]}*'
             )
     items_md = '\n\n'.join(source_parts)
 
     markdown_content = f"""---
 date: "{date_str}"
-title: "{date_str}"
+title: "{date_str} 리포트"
 summary: "{summary_desc}"
 itemCount: {covered_count}
 ---

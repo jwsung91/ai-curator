@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const tocHeadings = headings.filter(h => h.depth === 2);
 ---
 
-<BaseLayout title={`${entry.data.date} — AI Curator`} description={entry.data.summary}>
+<BaseLayout title={`${entry.data.title} — AI Curator`} description={entry.data.summary}>
   <article class="mb-16">
     <header class="mb-10">
       <a
