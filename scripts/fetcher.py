@@ -86,6 +86,10 @@ def fetch_ros2_releases():
 
 # ── Section 2: 개발자 AI 도구 ─────────────────────────────────────
 
+def fetch_openai_news():
+    return fetch_rss('https://openai.com/news/rss.xml', 'OpenAI News', limit=3)
+
+
 SIMON_KEYWORDS = {
     'llm', 'gpt', 'claude', 'gemini', 'openai', 'anthropic', 'deepseek',
     'mistral', 'llama', 'mcp', 'agent', 'embedding', 'inference', 'fine-tun',
