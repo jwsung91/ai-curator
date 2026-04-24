@@ -2,7 +2,7 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const curation = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './reports' }),
+  loader: glob({ pattern: '**/*.md', base: './reports/daily' }),
   schema: z.object({
     date: z.string(),           // YYYY-MM-DD
     title: z.string(),
