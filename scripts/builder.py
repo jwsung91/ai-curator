@@ -62,7 +62,7 @@ def build_prompt(items):
 2. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
 3. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
 4. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
-5. cross_insight는 오늘 3개 섹션을 가로질러 보이는 큰 흐름을 2~3문장으로 서술하세요. 단순히 항목을 나열하거나 재진술하지 말고, 섹션 간 연결고리나 공통 맥락을 짚어주세요.
+5. cross_insight는 오늘 3개 섹션을 가로질러 보이는 큰 흐름을 **정확히 3개의 불릿**으로 서술하세요. 각 불릿은 한 문장이며, 단순 항목 재진술이 아닌 섹션 간 연결고리나 공통 맥락을 짚어야 합니다. 형식: "- 문장1\n- 문장2\n- 문장3"
 6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
@@ -78,7 +78,7 @@ def build_prompt(items):
 아래 JSON 스키마를 정확히 따르세요:
 {{
   "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
-  "cross_insight": "3개 섹션을 아우르는 오늘의 큰 흐름 (2~3문장)",
+  "cross_insight": "- 문장1\n- 문장2\n- 문장3",
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
   "section_industry": "마크다운 내용 (없으면 빈 문자열)",
@@ -180,7 +180,7 @@ def save_to_markdown(data):
     cross_insight = data.get('cross_insight', '').strip()
     parts = []
     if cross_insight:
-        parts.append(f"> 💡 {cross_insight}")
+        parts.append(f"💡 **오늘의 흐름**\n\n{cross_insight}")
     for (key, heading), content in zip(SECTION_DEFS, renumbered):
         if content:
             parts.append(f"## {heading}\n\n{add_citation_anchors(content)}")
