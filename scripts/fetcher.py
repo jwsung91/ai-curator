@@ -86,8 +86,19 @@ def fetch_ros2_releases():
 
 # ── Section 2: 개발자 AI 도구 ─────────────────────────────────────
 
+SIMON_KEYWORDS = {
+    'llm', 'gpt', 'claude', 'gemini', 'openai', 'anthropic', 'deepseek',
+    'mistral', 'llama', 'mcp', 'agent', 'embedding', 'inference', 'fine-tun',
+    'prompt', 'multimodal', 'ai model', 'language model', 'vision model',
+}
+
 def fetch_simon_willison():
-    return fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=5)
+    items = fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=10)
+    filtered = [
+        item for item in items
+        if any(kw in item['title'].lower() for kw in SIMON_KEYWORDS)
+    ]
+    return filtered[:5]
 
 def fetch_changelog():
     return fetch_rss('https://changelog.com/news/feed', 'The Changelog', limit=3)

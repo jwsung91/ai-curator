@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "generate": "python scripts/main.py"
+    "generate": "python3 scripts/main.py"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
