@@ -59,15 +59,11 @@ def build_prompt(items):
    ```
    - **항목명**: 핵심 내용 한 줄 [번호]
    ```
-2. 섹션 끝에 해당 섹션 전체를 아우르는 인사이트 블록을 **하나만** 추가하세요:
-   ```
-   > 💡 **핵심**: 중요도 기준 상위 2~3가지를 선별해, 각각 어떤 상황·문제에서 도움이 되는지 간결하게 서술하세요.
-   ```
-3. 인사이트는 "~하는 경우", "~할 때", "~가 필요하다면" 등 **상황 중심**으로 작성하세요. 명령형("~하세요") 대신 상황형("~인 경우 참고")으로 작성합니다.
-4. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
-5. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
-6. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
-7. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
+2. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
+3. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
+4. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
+5. cross_insight는 오늘 3개 섹션을 가로질러 보이는 큰 흐름을 2~3문장으로 서술하세요. 단순히 항목을 나열하거나 재진술하지 말고, 섹션 간 연결고리나 공통 맥락을 짚어주세요.
+6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
 
@@ -82,6 +78,7 @@ def build_prompt(items):
 아래 JSON 스키마를 정확히 따르세요:
 {{
   "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
+  "cross_insight": "3개 섹션을 아우르는 오늘의 큰 흐름 (2~3문장)",
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
   "section_industry": "마크다운 내용 (없으면 빈 문자열)",
@@ -179,8 +176,11 @@ def save_to_markdown(data):
     section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]
     renumbered, ordered_orig_indices = _renumber_citations(section_contents)
 
-    # 본문 섹션 조합 + 인용 번호 앵커 링크 삽입
+    # 크로스 인사이트 + 본문 섹션 조합 + 인용 번호 앵커 링크 삽입
+    cross_insight = data.get('cross_insight', '').strip()
     parts = []
+    if cross_insight:
+        parts.append(f"> 💡 {cross_insight}")
     for (key, heading), content in zip(SECTION_DEFS, renumbered):
         if content:
             parts.append(f"## {heading}\n\n{add_citation_anchors(content)}")

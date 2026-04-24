@@ -52,6 +52,9 @@ def deduplicate(items: list, seen: dict) -> list:
 
 def main():
     load_dotenv()
+    dry_run = '--dry-run' in sys.argv
+    if dry_run:
+        print("🧪 Dry-run mode: seen_links will not be updated")
     print("🚀 Starting AI Curation Pipeline...")
 
     kst = timezone(timedelta(hours=9))
@@ -86,7 +89,8 @@ def main():
         print("📝 Saving...")
         save_to_markdown(data)
 
-        save_seen(seen, date_str, [item['link'] for item in all_items])
+        if not dry_run:
+            save_seen(seen, date_str, [item['link'] for item in all_items])
         print("✅ Done!")
 
     except Exception as e:
