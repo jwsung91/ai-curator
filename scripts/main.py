@@ -5,26 +5,21 @@ from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fetcher import (
-    fetch_arxiv_robotics, fetch_ros2_discourse, fetch_ros2_releases,
-    fetch_arxiv_cv, fetch_arxiv_ai, fetch_weekly_robotics,
+    fetch_ros2_discourse, fetch_ros2_releases,
     fetch_simon_willison, fetch_tldr_ai, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
 from builder import generate_summary, save_to_markdown
 
 SOURCES = [
-    ('로보틱스 실무',   fetch_arxiv_robotics),
-    ('로보틱스 실무',   fetch_ros2_discourse),
-    ('로보틱스 실무',   fetch_ros2_releases),
-    ('AI × 로보틱스',  fetch_arxiv_cv),
-    ('AI × 로보틱스',  fetch_arxiv_ai),
-    ('AI × 로보틱스',  fetch_weekly_robotics),
-    ('개발자 AI 도구',  fetch_simon_willison),
-    ('개발자 AI 도구',  fetch_tldr_ai),
-    ('개발자 AI 도구',  fetch_hackernews_devai),
-    ('개발자 AI 도구',  fetch_devai_releases),
-    ('업계 동향',       fetch_ieee_robotics),
-    ('업계 동향',       fetch_the_robot_report),
+    ('로보틱스 실무',  fetch_ros2_discourse),
+    ('로보틱스 실무',  fetch_ros2_releases),
+    ('개발자 AI 도구', fetch_simon_willison),
+    ('개발자 AI 도구', fetch_tldr_ai),
+    ('개발자 AI 도구', fetch_hackernews_devai),
+    ('개발자 AI 도구', fetch_devai_releases),
+    ('업계 동향',      fetch_ieee_robotics),
+    ('업계 동향',      fetch_the_robot_report),
 ]
 
 

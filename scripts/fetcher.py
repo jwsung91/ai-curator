@@ -1,6 +1,6 @@
 import feedparser
 
-DEVAI_KEYWORDS = {
+DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'claude', 'copilot', 'cursor', 'windsurf', 'mcp', 'model context protocol',
     'llm', 'ollama', 'vscode', 'code generation', 'code assist',
     'anthropic', 'gemini api', 'openai api', 'github models',
@@ -32,9 +32,6 @@ def fetch_github_releases(repo, label, limit=1):
 
 # ── Section 1: 로보틱스 실무 ──────────────────────────────────────
 
-def fetch_arxiv_robotics():
-    return fetch_rss('https://export.arxiv.org/rss/cs.RO', 'ArXiv cs.RO', limit=5)
-
 def fetch_ros2_discourse():
     return fetch_rss('https://discourse.ros.org/top/daily.rss', 'ROS2 Discourse', limit=5)
 
@@ -51,19 +48,7 @@ def fetch_ros2_releases():
     return items
 
 
-# ── Section 2: AI × 로보틱스 ─────────────────────────────────────
-
-def fetch_arxiv_cv():
-    return fetch_rss('https://export.arxiv.org/rss/cs.CV', 'ArXiv cs.CV', limit=3)
-
-def fetch_arxiv_ai():
-    return fetch_rss('https://export.arxiv.org/rss/cs.AI', 'ArXiv cs.AI', limit=3)
-
-def fetch_weekly_robotics():
-    return fetch_rss('https://weeklyrobotics.com/blog?format=rss', 'Weekly Robotics', limit=3)
-
-
-# ── Section 3: 개발자 AI 도구 ─────────────────────────────────────
+# ── Section 2: 개발자 AI 도구 ─────────────────────────────────────
 
 def fetch_simon_willison():
     return fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=3)
@@ -102,7 +87,7 @@ def fetch_devai_releases():
     return items
 
 
-# ── Section 4: 업계 동향 ──────────────────────────────────────────
+# ── Section 3: 업계 동향 ──────────────────────────────────────────
 
 def fetch_ieee_robotics():
     return fetch_rss('https://spectrum.ieee.org/rss/robotics/fulltext', 'IEEE Spectrum', limit=3)

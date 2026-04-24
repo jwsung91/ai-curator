@@ -7,10 +7,9 @@ from google.genai import errors, types
 
 
 SECTION_DEFS = [
-    ('section_robotics',    '🤖 로보틱스 실무'),
-    ('section_ai_robotics', '🧠 AI × 로보틱스'),
-    ('section_devtools',    '🛠️ 개발자 AI 도구'),
-    ('section_industry',    '📰 업계 동향'),
+    ('section_robotics', '🤖 로보틱스 실무'),
+    ('section_devtools', '🛠️ 개발자 AI 도구'),
+    ('section_industry', '📰 업계 동향'),
 ]
 
 
@@ -21,27 +20,23 @@ def build_prompt(items):
         items_text += f"[{i}] [{hint}] {item['title']} ({item['link']})\n  {item['summary'][:350]}\n\n"
 
     return f"""당신은 로봇 시스템에 AI를 통합하는 시니어 소프트웨어 엔지니어입니다.
-수집된 기술 정보를 4개 섹션으로 분류하고, 오늘 실무에 바로 적용할 수 있는 데일리 리포트를 작성하세요.
+수집된 기술 정보를 3개 섹션으로 분류하고, 오늘 실무에 바로 적용할 수 있는 데일리 리포트를 작성하세요.
 
 ---
 
 ## 섹션 분류 기준
 
 **section_robotics — 🤖 로보틱스 실무**
-포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·이슈, SLAM·오도메트리·모션 제어·플래닝 논문, 임베디드·실시간 시스템
-제외: 순수 AI 연구, 정책·비즈니스 뉴스
-
-**section_ai_robotics — 🧠 AI × 로보틱스**
-포함: 로봇 인식(perception)·플래닝·조작(manipulation)에 적용 가능한 AI, VLM/VLA·Diffusion Policy·embodied AI, 센서 퓨전 ML
-제외: 순수 NLP·텍스트 생성, 로봇과 무관한 ML 논문
+포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, 임베디드·실시간 시스템
+제외: AI 연구, 정책·비즈니스 뉴스
 
 **section_devtools — 🛠️ 개발자 AI 도구**
 포함: 오늘 설치·호출 가능한 AI 도구 업데이트, LLM API 변경사항, IDE/코딩 어시스턴트, MCP 서버, 로컬 LLM 추론 도구
-제외: 추상적 AI 연구, 비즈니스 뉴스, 이미 다른 섹션에 포함된 항목
+제외: 비즈니스 뉴스, 이미 다른 섹션에 포함된 항목
 
 **section_industry — 📰 업계 동향**
-포함: 로보틱스 산업 동향, 정책, 제품 출시, 컨퍼런스
-제외: 위 3개 섹션에 이미 포함된 항목
+포함: 로보틱스·AI 산업 동향, 정책, 투자, 제품 출시, 컨퍼런스
+제외: 위 2개 섹션에 이미 포함된 항목
 
 ---
 
@@ -54,7 +49,7 @@ def build_prompt(items):
    ```
 2. 인사이트는 "무엇을 해야 하는가"가 명확해야 합니다. "~될 것으로 예상된다" 같은 전망은 피하세요.
 3. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
-4. covered_count는 4개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
+4. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
 5. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
@@ -71,7 +66,6 @@ def build_prompt(items):
 {{
   "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
-  "section_ai_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
   "section_industry": "마크다운 내용 (없으면 빈 문자열)",
   "covered_count": 숫자
@@ -86,7 +80,7 @@ def generate_summary(items):
     client = genai.Client(api_key=api_key)
     prompt = build_prompt(items)
 
-    model_names = ['gemini-2.0-flash', 'gemini-flash-latest', 'gemini-flash-lite-latest']
+    model_names = ['gemini-flash-latest']
     last_exception = None
 
     for model_name in model_names:
@@ -105,12 +99,14 @@ def generate_summary(items):
                 return data
             except (errors.ClientError, errors.ServerError) as e:
                 last_exception = e
-                if '429' in str(e) or '503' in str(e):
+                err_str = str(e)
+                if '429' in err_str or '503' in err_str:
                     if attempt == 0:
                         print(f"  ⚠ Rate limited. Retrying in 30s...")
                         time.sleep(30)
                         continue
-                    print(f"  ⏭ Trying next model...")
+                if '404' in err_str or '400' in err_str:
+                    print(f"  ⏭ {model_name} unavailable, trying next...")
                     break
                 raise e
             except Exception as e:
