@@ -1,84 +1,78 @@
-# 🤖 AI Curator (jwsung91/ai-curator)
+# AI Curator
 
-AI가 매일 기술 소식을 수집하고 요약하여 정적 사이트로 배포하는 **Serverless Static Curation System**입니다.
+로보틱스 소프트웨어 엔지니어를 위한 데일리 기술 큐레이션 사이트.
+AI가 매일 KST 06:00에 기술 소식을 수집·분류·요약하여 GitHub Pages에 자동 배포합니다.
 
-## 🏗️ 전체 아키텍처
+**→ [jwsung91.github.io/ai-curator](https://jwsung91.github.io/ai-curator)**
 
-본 프로젝트는 **Python 기반 데이터 파이프라인**과 **Astro(SSG) 프론트엔드**가 결합된 구조로, GitHub Actions를 통해 100% 자동화되어 운영됩니다.
+## 아키텍처
 
-```mermaid
-graph TD
-    A[GitHub Actions 스케줄러] -->|매일 아침 실행| B(Python 파이프라인)
-    B --> C{데이터 수집}
-    C -->|ArXiv RSS| D[Gemini API]
-    D -->|AI 요약 생성| E[Markdown 파일 생성]
-    E -->|src/content/curation/| F(Astro Build)
-    F --> G[GitHub Pages 배포]
+```
+GitHub Actions (매일 KST 06:00)
+  └─ scripts/main.py
+       ├─ fetcher.py   RSS 수집 (ROS2, GitHub Releases, HN, Simon Willison 등)
+       ├─ 중복 제거    seen_links.json 7일 롤링 윈도우
+       └─ builder.py  Gemini Flash API → 한국어 요약 + 섹션 분류
+            └─ src/content/curation/YYYY-MM-DD-daily.md 생성
+  └─ npm run build (Astro SSG)
+  └─ GitHub Pages 배포
 ```
 
-## 📂 프로젝트 구조
+## 콘텐츠 구성
 
-```text
-ai-curator/
-├── .github/workflows/
-│   └── deploy.yml           # 매일 아침 자동 실행 및 배포 스케줄러
-├── scripts/                 # 데이터 파이프라인 (Python)
-│   ├── main.py              # 파이프라인 실행 진입점
-│   ├── fetcher.py           # 데이터 수집 로직 (ArXiv RSS 등)
-│   ├── builder.py           # Gemini API 연동 및 마크다운 생성
-│   └── requirements.txt     # Python 의존성 (google-genai, feedparser 등)
-├── src/
-│   ├── content/
-│   │   └── curation/        # [자동 생성] AI가 작성한 마크다운 저장소
-│   ├── pages/               # Astro 페이지 컴포넌트
-│   │   ├── index.astro      # 큐레이션 리스트 페이지
-│   │   └── curation/[id].astro # 리포트 상세 페이지
-│   └── content.config.ts    # 컨텐츠 스키마 정의 (Zod)
-├── tests/                   # 파이프라인 유닛 테스트
-│   └── test_pipeline.py     # pytest를 이용한 수집/요약/저장 테스트
-├── package.json             # Node.js 의존성 및 스크립트
-└── astro.config.mjs         # Astro 설정 파일
+리포트는 3개 섹션으로 구성됩니다.
+
+| 섹션 | 소스 |
+|------|------|
+| 🤖 로보틱스 실무 | ROS2 Discourse, GitHub Releases (rclcpp / Nav2 / MoveIt2 / Gazebo / ROS2) |
+| 🛠️ 개발자 AI 도구 | Simon Willison, The Changelog, HackerNews (키워드 필터), GitHub Releases (Anthropic SDK / MCP Servers / Ollama / Continue / LiteLLM) |
+| 📰 업계 동향 | IEEE Spectrum Robotics, The Robot Report |
+
+## 프로젝트 구조
+
+```
+scripts/
+  main.py           파이프라인 진입점 (수집 → 중복제거 → 요약 → 저장)
+  fetcher.py        RSS/Atom 수집 함수
+  builder.py        Gemini API 호출 및 마크다운 생성
+  seen_links.json   중복 방지용 최근 7일 링크 목록
+  requirements.txt
+
+src/
+  content/curation/ 자동 생성된 마크다운 리포트
+  pages/
+    index.astro     리포트 목록
+    curation/[id].astro  리포트 상세 (TOC 포함)
+  layouts/BaseLayout.astro  헤더 / 다크모드 / RSS 링크
+  styles/global.css
+
+.github/workflows/deploy.yml  스케줄 + 빌드 + 배포
 ```
 
-## 🚀 주요 기능 및 구현 상세
+## 로컬 실행
 
-### 1. 데이터 파이프라인 (Python)
-- **수집 (`fetcher.py`)**: `feedparser`를 사용하여 ArXiv(AI/ML)의 최신 논문 5개를 수집합니다.
-- **요약 (`builder.py`)**: Google의 최신 **`google-genai` SDK**를 사용하여 `gemini-1.5-flash` 모델에게 한국어 제목과 요약을 요청합니다.
-- **포맷팅**: Astro의 Content Collections 규격에 맞춰 **Frontmatter**가 포함된 마크다운 파일(`YYYY-MM-DD-daily.md`)을 생성합니다.
-
-### 2. 프론트엔드 (Astro)
-- **테마**: `zinc/blue` 계열의 모던한 디자인과 시스템 설정 연동 다크모드를 지원합니다.
-- **자동 라우팅**: `src/content/curation/`에 파일이 추가되면 빌드 시 자동으로 새로운 페이지가 생성됩니다.
-- **스타일링**: Tailwind CSS 및 `@tailwindcss/typography`를 사용하여 AI가 작성한 마크다운 본문을 미려하게 렌더링합니다.
-
-### 3. 자동화 워크플로우 (GitHub Actions)
-- **스케줄링**: 매일 KST 10:00에 실행됩니다.
-- **자동 커밋**: 파이프라인이 생성한 마크다운 파일을 `git-auto-commit-action`을 통해 레포지토리에 자동으로 반영합니다.
-
-## 🛠️ 개발 및 로컬 테스트
-
-### 파이프라인 테스트 (Python)
 ```bash
-# 가상환경 구축 및 패키지 설치
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r scripts/requirements.txt pytest pytest-mock
-
-# 테스트 실행
-pytest tests/
-
-# 수동 파이프라인 실행 (GEMINI_API_KEY 필요)
-export GEMINI_API_KEY=your_key_here
+# Python 파이프라인
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r scripts/requirements.txt
+export GEMINI_API_KEY=your_key
 python scripts/main.py
-```
 
-### 프론트엔드 실행 (Node.js)
-```bash
+# 프론트엔드
 npm install
 npm run dev
 ```
 
-## 🔑 환경 변수
-GitHub Actions 작동을 위해 아래의 Secret 등록이 필요합니다.
-- `GEMINI_API_KEY`: Google AI Studio에서 발급받은 API 키
+## 환경 변수
+
+GitHub Actions에 등록 필요:
+
+| Secret | 설명 |
+|--------|------|
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/apikey) 발급 |
+
+## 기술 스택
+
+- **Python**: feedparser, google-genai
+- **Frontend**: Astro 6, Tailwind CSS v4, @tailwindcss/typography
+- **CI/CD**: GitHub Actions, stefanzweifel/git-auto-commit-action
