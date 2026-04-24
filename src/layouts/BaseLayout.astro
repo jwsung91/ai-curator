@@ -35,6 +35,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://jwsung91
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title={title} href={`${base}rss.xml`} />
     <script is:inline>
       const stored = typeof localStorage !== 'undefined' ? localStorage.getItem('theme') : null;
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
