@@ -1,4 +1,6 @@
 import feedparser
+import urllib.request
+import urllib.error
 
 DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'claude', 'copilot', 'cursor', 'windsurf', 'mcp', 'model context protocol',
@@ -8,10 +10,15 @@ DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'prompt caching', 'rag', 'embedding model', 'fine-tun', 'quantiz',
 }
 
+_HEADERS = {'User-Agent': 'ai-curator/1.0 (github.com/jwsung91/ai-curator)'}
+
 
 def fetch_rss(url, source_name, limit=3):
     try:
-        feed = feedparser.parse(url)
+        req = urllib.request.Request(url, headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            content = resp.read()
+        feed = feedparser.parse(content)
         result = []
         for entry in feed.entries[:limit]:
             result.append({
@@ -59,7 +66,10 @@ def fetch_changelog():
 
 def fetch_hackernews_devai():
     try:
-        feed = feedparser.parse('https://news.ycombinator.com/rss')
+        req = urllib.request.Request('https://news.ycombinator.com/rss', headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            content = resp.read()
+        feed = feedparser.parse(content)
         matched = []
         for entry in feed.entries:
             if any(kw in entry.title.lower() for kw in DEVAI_KEYWORDS):

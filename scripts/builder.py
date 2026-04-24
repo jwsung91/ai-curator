@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 from datetime import datetime, timezone, timedelta
@@ -11,6 +12,18 @@ SECTION_DEFS = [
     ('section_devtools', '🛠️ 개발자 AI 도구'),
     ('section_industry', '📰 업계 동향'),
 ]
+
+
+def add_citation_anchors(text: str) -> str:
+    """[1] 또는 [2, 3, 4] 형태의 인용 번호를 앵커 링크로 변환."""
+    def replace_bracket(m):
+        nums = [n.strip() for n in m.group(1).split(',')]
+        linked = ', '.join(
+            f'<a href="#ref-{n}">{n}</a>' for n in nums if n.isdigit()
+        )
+        return f'[{linked}]'
+    # 마크다운 링크 [text](url) 와 이미지 ![](url)는 제외
+    return re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_bracket, text)
 
 
 def build_prompt(items):
@@ -50,7 +63,8 @@ def build_prompt(items):
 2. 인사이트는 "무엇을 해야 하는가"가 명확해야 합니다. "~될 것으로 예상된다" 같은 전망은 피하세요.
 3. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
 4. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
-5. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
+5. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
+6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
 
@@ -68,7 +82,8 @@ def build_prompt(items):
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
   "section_industry": "마크다운 내용 (없으면 빈 문자열)",
-  "covered_count": 숫자
+  "covered_count": 숫자,
+  "used_indices": [1, 2, 3]
 }}"""
 
 
@@ -127,17 +142,25 @@ def save_to_markdown(data):
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
     covered_count = data.get('covered_count', 0)
 
+    # 본문 섹션 조합 + 인용 번호 앵커 링크 삽입
     parts = []
     for key, heading in SECTION_DEFS:
         content = data.get(key, '').strip()
         if content:
-            parts.append(f"## {heading}\n\n{content}")
+            parts.append(f"## {heading}\n\n{add_citation_anchors(content)}")
     report_body = '\n\n---\n\n'.join(parts)
 
-    items_md = "\n\n".join(
-        f"{i}. [{item['title']}]({item['link']}) — *{item['source']}*"
-        for i, item in enumerate(data.get('items', []), 1)
-    )
+    # 실제 인용된 항목만 출처에 포함
+    all_items = data.get('items', [])
+    used = set(data.get('used_indices', range(1, len(all_items) + 1)))
+    source_parts = []
+    for i, item in enumerate(all_items, 1):
+        if i in used:
+            source_parts.append(
+                f'<span id="ref-{i}"></span>\n\n'
+                f'{i}. [{item["title"]}]({item["link"]}) — *{item["source"]}*'
+            )
+    items_md = '\n\n'.join(source_parts)
 
     markdown_content = f"""---
 date: "{date_str}"
@@ -159,4 +182,4 @@ itemCount: {covered_count}
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
-    print(f"  Saved: src/content/curation/{file_name} ({covered_count} items covered)")
+    print(f"  Saved: src/content/curation/{file_name} ({covered_count} items, {len(source_parts)} sources)")
