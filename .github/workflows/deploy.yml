@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 1 * * *'   # 매일 KST 10:00 (UTC 01:00)
+    - cron: '0 21 * * *'  # 매일 KST 06:00 (UTC 21:00)
   workflow_dispatch:
 
 permissions:
