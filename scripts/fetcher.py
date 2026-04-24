@@ -34,7 +34,35 @@ def fetch_rss(url, source_name, limit=3):
 
 
 def fetch_github_releases(repo, label, limit=1):
-    return fetch_rss(f"https://github.com/{repo}/releases.atom", f"GitHub ({label})", limit)
+    url = f"https://github.com/{repo}/releases.atom"
+    try:
+        req = urllib.request.Request(url, headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            content = resp.read()
+        feed = feedparser.parse(content)
+        result = []
+        for entry in feed.entries[:limit]:
+            version = getattr(entry, 'title', '').strip()
+            # content[0].value has the full release body HTML; fall back to summary
+            body_html = ''
+            if hasattr(entry, 'content') and entry.content:
+                body_html = entry.content[0].get('value', '')
+            elif hasattr(entry, 'summary'):
+                body_html = entry.summary
+            # strip HTML tags for a plain-text snippet
+            import re as _re
+            body_text = _re.sub(r'<[^>]+>', ' ', body_html)
+            body_text = _re.sub(r'\s+', ' ', body_text).strip()[:500]
+            result.append({
+                'title': f"{label} {version}",
+                'link': getattr(entry, 'link', ''),
+                'summary': body_text,
+                'source': f"GitHub ({label})",
+            })
+        return result
+    except Exception as e:
+        print(f"  ⚠ GitHub ({label}): {e}")
+        return []
 
 
 # ── Section 1: 로보틱스 실무 ──────────────────────────────────────

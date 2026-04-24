@@ -11,8 +11,9 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const tocHeadings = headings.filter(h => h.depth === 2);
 ---
 
 <BaseLayout title={`${entry.data.date} — AI Curator`} description={entry.data.summary}>
@@ -38,6 +39,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         {entry.data.summary}
       </h1>
     </header>
+
+    {tocHeadings.length > 0 && (
+      <nav class="mb-10 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100/50 dark:bg-zinc-900/50 px-5 py-4">
+        <p class="mb-3 font-mono text-xs uppercase tracking-wider text-zinc-500">목차</p>
+        <ul class="space-y-1.5">
+          {tocHeadings.map(h => (
+            <li>
+              <a href={`#${h.slug}`} class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
 
     <div class="prose prose-zinc dark:prose-invert max-w-none prose-p:leading-relaxed prose-h2:font-mono prose-h2:text-sm prose-h2:uppercase prose-h2:tracking-wider prose-h2:text-zinc-500 dark:prose-h2:text-zinc-400 prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-zinc-900 dark:prose-h3:text-zinc-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-pre:bg-zinc-50 dark:prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 dark:prose-pre:border-zinc-800 prose-blockquote:border-l-zinc-300 dark:prose-blockquote:border-l-zinc-700 prose-blockquote:text-zinc-600 dark:prose-blockquote:text-zinc-400 prose-hr:border-zinc-200 dark:prose-hr:border-zinc-800">
       <Content />
