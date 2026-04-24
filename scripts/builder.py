@@ -166,7 +166,7 @@ def save_to_markdown(data):
     kst = timezone(timedelta(hours=9))
     date_str = datetime.now(kst).strftime('%Y-%m-%d')
     file_name = f"{date_str}-daily.md"
-    dir_path = os.path.join(os.getcwd(), 'src', 'content', 'curation')
+    dir_path = os.path.join(os.getcwd(), 'reports')
     os.makedirs(dir_path, exist_ok=True)
 
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
@@ -218,4 +218,4 @@ itemCount: {covered_count}
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
-    print(f"  Saved: src/content/curation/{file_name} ({covered_count} items, {len(source_parts)} sources)")
+    print(f"  Saved: reports/{file_name} ({covered_count} items, {len(source_parts)} sources)")
