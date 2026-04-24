@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fetcher import (
     fetch_ros2_discourse, fetch_ros2_releases,
-    fetch_openai_news,
+    fetch_openai_news, fetch_google_deepmind,
     fetch_simon_willison, fetch_changelog, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
@@ -19,6 +19,7 @@ SOURCES = [
     ('로보틱스 실무',  fetch_ros2_discourse),
     ('로보틱스 실무',  fetch_ros2_releases),
     ('개발자 AI 도구', fetch_openai_news),
+    ('개발자 AI 도구', fetch_google_deepmind),
     ('개발자 AI 도구', fetch_simon_willison),
     ('개발자 AI 도구', fetch_changelog),
     ('개발자 AI 도구', fetch_hackernews_devai),

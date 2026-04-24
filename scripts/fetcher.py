@@ -89,6 +89,9 @@ def fetch_ros2_releases():
 def fetch_openai_news():
     return fetch_rss('https://openai.com/news/rss.xml', 'OpenAI News', limit=3)
 
+def fetch_google_deepmind():
+    return fetch_rss('https://deepmind.google/blog/rss.xml', 'Google DeepMind', limit=3)
+
 
 SIMON_KEYWORDS = {
     'llm', 'gpt', 'claude', 'gemini', 'openai', 'anthropic', 'deepseek',
