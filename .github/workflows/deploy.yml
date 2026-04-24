@@ -54,7 +54,7 @@ jobs:
         with:
           commit_message: "chore: auto-generate daily AI curation report"
           branch: main
-          file_pattern: "src/content/curation/*.md"
+          file_pattern: "src/content/curation/*.md scripts/seen_links.json"
           
       - name: Build Astro Site
         run: npm run build

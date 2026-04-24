@@ -37,10 +37,11 @@ def fetch_ros2_discourse():
 
 def fetch_ros2_releases():
     repos = [
-        ('ros2/rclcpp',                  'rclcpp'),
-        ('ros-planning/navigation2',     'Nav2'),
-        ('moveit/moveit2',               'MoveIt2'),
-        ('gazebosim/gz-sim',             'Gazebo'),
+        ('ros2/rclcpp',              'rclcpp'),
+        ('ros-planning/navigation2', 'Nav2'),
+        ('moveit/moveit2',           'MoveIt2'),
+        ('gazebosim/gz-sim',         'Gazebo'),
+        ('ros2/ros2',                'ROS2'),
     ]
     items = []
     for repo, label in repos:
@@ -51,10 +52,10 @@ def fetch_ros2_releases():
 # ── Section 2: 개발자 AI 도구 ─────────────────────────────────────
 
 def fetch_simon_willison():
-    return fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=3)
+    return fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=5)
 
-def fetch_tldr_ai():
-    return fetch_rss('https://tldr.tech/ai/rss', 'TLDR AI', limit=3)
+def fetch_changelog():
+    return fetch_rss('https://changelog.com/news/feed', 'The Changelog', limit=3)
 
 def fetch_hackernews_devai():
     try:

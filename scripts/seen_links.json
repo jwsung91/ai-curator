@@ -1,0 +1,31 @@
+{
+  "2026-04-24": [
+    "https://discourse.openrobotics.org/t/ros2-console-tools/54280",
+    "https://github.com/ros2/rclcpp/releases/tag/31.0.3",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.3.11",
+    "https://github.com/moveit/moveit2/releases/tag/kilted-2.14.3",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.2.0",
+    "https://github.com/ros2/ros2/releases/tag/release-humble-20260220",
+    "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+    "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+    "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
+    "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+    "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+    "https://changelog.com/news/184",
+    "https://changelog.com/news/183",
+    "https://changelog.com/news/182",
+    "https://ynarwal.github.io/how-llms-work/",
+    "https://www.anthropic.com/engineering/april-23-postmortem",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
+    "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
+    "https://github.com/continuedev/continue/releases/tag/v1.3.38-vscode",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.83.13-nightly",
+    "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
+    "https://spectrum.ieee.org/chinese-robots-us-ban",
+    "https://spectrum.ieee.org/socially-assistive-robotics",
+    "https://www.therobotreport.com/gms-mikell-taylor-lead-women-in-robotics-breakfast-2026-robotics-summit/",
+    "https://www.therobotreport.com/pudu-robotics-raises-nearly-150m-targets-industrial-applications/",
+    "https://www.therobotreport.com/end-of-an-era-honeywell-hands-warehouse-automation-reins-to-aip/"
+  ]
+}
