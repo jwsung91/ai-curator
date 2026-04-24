@@ -13,7 +13,7 @@ export async function GET(context: any) {
     description: 'AI가 수집하고 요약한 데일리 로보틱스 & AI 테크 리포트',
     site: site,
     items: sortedCuration.map((report) => ({
-      title: `${report.data.date} Daily Report`,
+      title: report.data.title,
       pubDate: new Date(report.data.date),
       description: report.data.summary,
       link: `${base}/curation/${report.id}/`,

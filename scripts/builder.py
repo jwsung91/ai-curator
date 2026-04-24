@@ -2,7 +2,7 @@ import os
 import json
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from google import genai
 from google.genai import errors
 
@@ -92,14 +92,15 @@ Items:
         raise last_exception
 
 def save_to_markdown(data):
-    date_str = datetime.now().strftime('%Y-%m-%d')
+    kst = timezone(timedelta(hours=9))
+    date_str = datetime.now(kst).strftime('%Y-%m-%d')
     file_name = f"{date_str}-daily.md"
     dir_path = os.path.join(os.getcwd(), 'src', 'content', 'curation')
-    
+
     os.makedirs(dir_path, exist_ok=True)
-    
-    title = data.get('title', date_str)
-    summary_desc = data.get('one_sentence_summary', "").replace('"', '\\"')
+
+    title = date_str
+    summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
     
     items_md_list = []
     for i, item in enumerate(data.get('items', []), 1):
