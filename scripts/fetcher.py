@@ -1,6 +1,8 @@
+import re
 import feedparser
 import urllib.request
 import urllib.error
+from datetime import datetime, timezone
 
 DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'claude', 'copilot', 'cursor', 'windsurf', 'mcp', 'model context protocol',
@@ -33,7 +35,7 @@ def fetch_rss(url, source_name, limit=3):
         return []
 
 
-def fetch_github_releases(repo, label, limit=1):
+def fetch_github_releases(repo, label, limit=1, max_age_days=14):
     url = f"https://github.com/{repo}/releases.atom"
     try:
         req = urllib.request.Request(url, headers=_HEADERS)
@@ -41,20 +43,22 @@ def fetch_github_releases(repo, label, limit=1):
             content = resp.read()
         feed = feedparser.parse(content)
         result = []
+        now = datetime.now(timezone.utc)
         for entry in feed.entries[:limit]:
-            version = getattr(entry, 'title', '').strip()
-            # content[0].value has the full release body HTML; fall back to summary
+            parsed = getattr(entry, 'updated_parsed', None) or getattr(entry, 'published_parsed', None)
+            if parsed:
+                age_days = (now - datetime(*parsed[:6], tzinfo=timezone.utc)).days
+                if age_days > max_age_days:
+                    continue
             body_html = ''
             if hasattr(entry, 'content') and entry.content:
                 body_html = entry.content[0].get('value', '')
             elif hasattr(entry, 'summary'):
                 body_html = entry.summary
-            # strip HTML tags for a plain-text snippet
-            import re as _re
-            body_text = _re.sub(r'<[^>]+>', ' ', body_html)
-            body_text = _re.sub(r'\s+', ' ', body_text).strip()[:500]
+            body_text = re.sub(r'<[^>]+>', ' ', body_html)
+            body_text = re.sub(r'\s+', ' ', body_text).strip()[:500]
             result.append({
-                'title': f"{label} {version}",
+                'title': f"{label} {getattr(entry, 'title', '').strip()}",
                 'link': getattr(entry, 'link', ''),
                 'summary': body_text,
                 'source': f"GitHub ({label})",
