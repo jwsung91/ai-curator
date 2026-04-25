@@ -32,5 +32,13 @@
     "https://www.therobotreport.com/from-sci-fi-to-reality-physical-ais-future-with-dr-jan-liphardt/",
     "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/",
     "https://www.therobotreport.com/ss-innovations-is-developing-a-drone-based-surgical-robot/"
+  ],
+  "2026-04-26": [
+    "https://discourse.openrobotics.org/t/what-are-you-using-for-containerization-in-ros-deployments/54303",
+    "https://discourse.openrobotics.org/t/dockerized-robotics-development-should-be-easy/54302",
+    "https://discourse.openrobotics.org/t/community-buildup/54304",
+    "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+    "https://changelog.com/news/177",
+    "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/"
   ]
 }
