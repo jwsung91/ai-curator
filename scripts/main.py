@@ -16,16 +16,16 @@ from fetcher import (
 from builder import generate_summary, save_to_markdown
 
 SOURCES = [
-    ('로보틱스 실무',  fetch_ros2_discourse),
-    ('로보틱스 실무',  fetch_ros2_releases),
-    ('개발자 AI 도구', fetch_openai_news),
-    ('개발자 AI 도구', fetch_google_deepmind),
-    ('개발자 AI 도구', fetch_simon_willison),
-    ('개발자 AI 도구', fetch_changelog),
-    ('개발자 AI 도구', fetch_hackernews_devai),
-    ('개발자 AI 도구', fetch_devai_releases),
-    ('업계 동향',      fetch_ieee_robotics),
-    ('업계 동향',      fetch_the_robot_report),
+    ('로보틱스', fetch_ros2_discourse),
+    ('로보틱스', fetch_ros2_releases),
+    ('AI',       fetch_openai_news),
+    ('AI',       fetch_google_deepmind),
+    ('AI',       fetch_simon_willison),
+    ('AI',       fetch_changelog),
+    ('AI',       fetch_hackernews_devai),
+    ('AI',       fetch_devai_releases),
+    ('트렌드',   fetch_ieee_robotics),
+    ('트렌드',   fetch_the_robot_report),
 ]
 
 SEEN_PATH = Path(__file__).parent / 'seen_links.json'
@@ -86,7 +86,7 @@ def main():
             print("⚠️  Nothing new today. Exiting.")
             return
 
-        print("🧠 Generating report...")
+        print("🤖 Generating report...")
         data = generate_summary(all_items)
 
         print("📝 Saving...")

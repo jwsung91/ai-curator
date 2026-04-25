@@ -170,11 +170,11 @@ def save_to_markdown(data):
     os.makedirs(dir_path, exist_ok=True)
 
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
-    covered_count = data.get('covered_count', 0)
 
     # 인용 번호를 본문 등장 순서 기준으로 재번호 매기기
     section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]
     renumbered, ordered_orig_indices = _renumber_citations(section_contents)
+    covered_count = len(ordered_orig_indices)  # Gemini 자체 집계 대신 실제 인용 수 사용
 
     # 크로스 인사이트 + 본문 섹션 조합 + 인용 번호 앵커 링크 삽입
     cross_insight = data.get('cross_insight', '').strip()

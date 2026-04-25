@@ -16,7 +16,7 @@ export async function GET(context: any) {
       title: report.data.title,
       pubDate: new Date(report.data.date + 'T06:00:00+09:00'),
       description: report.data.summary,
-      link: `${base}/curation/${report.id}/`,
+      link: `${site}curation/${report.id}/`,
     })),
     customData: `<language>ko-kr</language>`,
   });

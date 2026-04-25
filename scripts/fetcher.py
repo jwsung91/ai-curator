@@ -69,7 +69,7 @@ def fetch_github_releases(repo, label, limit=1, max_age_days=14):
         return []
 
 
-# ── Section 1: 로보틱스 실무 ──────────────────────────────────────
+# ── Section 1: 로보틱스 ───────────────────────────────────────────
 
 def fetch_ros2_discourse():
     return fetch_rss('https://discourse.ros.org/top/daily.rss', 'ROS2 Discourse', limit=5)
@@ -88,7 +88,7 @@ def fetch_ros2_releases():
     return items
 
 
-# ── Section 2: 개발자 AI 도구 ─────────────────────────────────────
+# ── Section 2: AI ────────────────────────────────────────────────
 
 def fetch_openai_news():
     return fetch_rss('https://openai.com/news/rss.xml', 'OpenAI News', limit=3)
@@ -112,7 +112,12 @@ def fetch_simon_willison():
     return filtered[:5]
 
 def fetch_changelog():
-    return fetch_rss('https://changelog.com/news/feed', 'The Changelog', limit=3)
+    items = fetch_rss('https://changelog.com/news/feed', 'The Changelog', limit=10)
+    filtered = [
+        item for item in items
+        if any(kw in item['title'].lower() for kw in SIMON_KEYWORDS)
+    ]
+    return filtered[:3]
 
 def fetch_hackernews_devai():
     try:
@@ -148,7 +153,7 @@ def fetch_devai_releases():
     return items
 
 
-# ── Section 3: 업계 동향 ──────────────────────────────────────────
+# ── Section 3: 트렌드 ────────────────────────────────────────────
 
 def fetch_ieee_robotics():
     return fetch_rss('https://spectrum.ieee.org/rss/robotics/fulltext', 'IEEE Spectrum', limit=3)
