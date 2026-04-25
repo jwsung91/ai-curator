@@ -40,7 +40,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
                   {report.data.itemCount} items
                 </span>
               </div>
-              <p class="text-base leading-relaxed text-zinc-700 dark:text-zinc-300 line-clamp-2">
+              <p class="mb-1.5 font-semibold text-zinc-900 dark:text-zinc-100">
+                {report.data.title}
+              </p>
+              <p class="text-sm leading-relaxed text-zinc-500 dark:text-zinc-500 line-clamp-2">
                 {report.data.summary}
               </p>
             </a>
