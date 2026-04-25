@@ -63,6 +63,11 @@ def main():
     kst = timezone(timedelta(hours=9))
     date_str = datetime.now(kst).strftime('%Y-%m-%d')
 
+    report_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.md'
+    if report_path.exists() and '--force' not in sys.argv:
+        print(f"⏭️  Report for {date_str} already exists. Use --force to regenerate.")
+        return
+
     try:
         all_items = []
         current_section = None

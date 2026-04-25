@@ -28,7 +28,9 @@
   }
 
   .code-copy-button {
-    @apply absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded border border-zinc-700 bg-zinc-900/85 text-zinc-100 shadow-sm transition-colors duration-150 hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-zinc-950;
+    @apply absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded border shadow-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2;
+    @apply border-zinc-300 bg-white/90 text-zinc-600 hover:bg-zinc-100 focus:ring-offset-white;
+    @apply dark:border-zinc-700 dark:bg-zinc-900/85 dark:text-zinc-100 dark:hover:bg-zinc-800 dark:focus:ring-offset-zinc-950;
   }
 
   .code-copy-button.is-copied {
