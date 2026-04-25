@@ -200,7 +200,7 @@ def save_to_markdown(data):
 
     markdown_content = f"""---
 date: "{date_str}"
-title: "{date_str} 리포트"
+title: "데일리 리포트 - {date_str}"
 summary: "{summary_desc}"
 itemCount: {covered_count}
 ---
