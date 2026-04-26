@@ -40,5 +40,10 @@
     "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
     "https://changelog.com/news/177",
     "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/"
+  ],
+  "2026-04-27": [
+    "https://discourse.openrobotics.org/t/i-validated-a-nasa-robot-model-in-minutes-without-ros-setup-or-blender/54310",
+    "https://discourse.openrobotics.org/t/private-urdf-xacro-validation-no-storage-ci-ready/54314",
+    "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/"
   ]
 }
