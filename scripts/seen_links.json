@@ -77,5 +77,23 @@
     "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
     "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
     "https://www.therobotreport.com/appetronix-acquires-cibotica-to-automate-restaurant-kitchens/"
+  ],
+  "2026-04-30": [
+    "https://discourse.openrobotics.org/t/micro-ros-public-infrastructure-transition/54375",
+    "https://discourse.openrobotics.org/t/clarification-robot-spawn-position-and-initial-joint-angles/54374",
+    "https://discourse.openrobotics.org/t/robotcad-10-8-1-released/54384",
+    "https://discourse.openrobotics.org/t/new-ros-controller-app/54393",
+    "https://discourse.openrobotics.org/t/rosbag-resurrector-pandas-like-analysis-for-mcap-ros-2-bag-files/54395",
+    "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+    "https://openai.com/index/our-commitment-to-community-safety",
+    "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
+    "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+    "https://github.com/anthropics/claude-code/issues/53262",
+    "https://neal.fun/cursor-camp/",
+    "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+    "https://github.com/BerriAI/litellm/releases/tag/1.84.0-dev.1",
+    "https://www.therobotreport.com/xela-robotics-adds-2-enhancements-uskin-sensor-family-ahead-robotics-summit/",
+    "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/",
+    "https://www.therobotreport.com/project-ceti-deploys-autonomous-underwater-gliders-better-observe-sperm-whales/"
   ]
 }
