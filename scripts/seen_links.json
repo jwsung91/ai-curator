@@ -95,5 +95,27 @@
     "https://www.therobotreport.com/xela-robotics-adds-2-enhancements-uskin-sensor-family-ahead-robotics-summit/",
     "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/",
     "https://www.therobotreport.com/project-ceti-deploys-autonomous-underwater-gliders-better-observe-sperm-whales/"
+  ],
+  "2026-05-01": [
+    "https://discourse.openrobotics.org/t/buoyancy-and-hydrodynamics-improvements-across-gazebo/54407",
+    "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-release-illustration-and-swag/54432",
+    "https://discourse.openrobotics.org/t/lyrical-luth-test-and-tutorial-party-instructions/54427",
+    "https://discourse.openrobotics.org/t/number-of-ports-in-trials/54405",
+    "https://discourse.openrobotics.org/t/zenoh-1-8-0-packages-available-on-packages-osrfoundation-org-prerelease/54406",
+    "https://github.com/ros2/rclcpp/releases/tag/32.0.0",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.3.12",
+    "https://github.com/ros2/ros2/releases/tag/release-lyrical-beta-20260429",
+    "https://openai.com/index/advanced-account-security",
+    "https://openai.com/index/where-the-goblins-came-from",
+    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+    "https://deepmind.google/blog/ai-co-clinician/",
+    "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
+    "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
+    "https://twitter.com/theo/status/2049645973350363168",
+    "https://github.com/ollama/ollama/releases/tag/v0.22.1",
+    "https://spectrum.ieee.org/daimon-robotics-physical-ai",
+    "https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/",
+    "https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/",
+    "https://www.therobotreport.com/launchpad-build-ai-offers-manufacturing-language-model-industrial-automation/"
   ]
 }
