@@ -132,5 +132,11 @@
     "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
     "https://www.therobotreport.com/top-10-robotics-stories-april-2026/",
     "https://www.therobotreport.com/why-deformable-materials-are-physical-ai-real-manufacturing-test/"
+  ],
+  "2026-05-03": [
+    "https://github.com/microsoft/vscode/pull/310226",
+    "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
+    "https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/",
+    "https://www.therobotreport.com/art-crossing-chasm-when-startup-ready-enterprise-adoption/"
   ]
 }
