@@ -138,5 +138,13 @@
     "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
     "https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/",
     "https://www.therobotreport.com/art-crossing-chasm-when-startup-ready-enterprise-adoption/"
+  ],
+  "2026-05-04": [
+    "https://discourse.openrobotics.org/t/i-tested-urdf-format-conversion-on-nasa-valkyrie-ur5-and-franka-panda-results-and-a-free-tool/54476",
+    "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+    "https://github.com/bschoepke/ableton-live-mcp",
+    "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+    "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
+    "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/"
   ]
 }
