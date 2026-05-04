@@ -146,5 +146,20 @@
     "https://github.com/ollama/ollama/releases/tag/v0.23.0",
     "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
     "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/"
+  ],
+  "2026-05-05": [
+    "https://discourse.openrobotics.org/t/rvizsplat-visualize-3d-gaussian-splats-in-rviz/54487",
+    "https://discourse.openrobotics.org/t/ouster-unveil-the-first-native-color-lidar-sensor/54504",
+    "https://discourse.openrobotics.org/t/overall-competition-scoring/54485",
+    "https://discourse.openrobotics.org/t/interop-sig-7-may-2026-open-rmf-upcoming-zone-feature/54490",
+    "https://discourse.openrobotics.org/t/ros-stack-for-cognitive-machines/54514",
+    "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "https://www.b-list.org/weblog/2026/apr/09/llms/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.98.1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.1",
+    "https://spectrum.ieee.org/familiar-machines-and-magic",
+    "https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/",
+    "https://www.therobotreport.com/inside-colin-angle-bid-build-companion-robots-familiar/",
+    "https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/"
   ]
 }
