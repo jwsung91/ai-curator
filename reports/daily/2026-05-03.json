@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-03",
+  "items": [
+    {
+      "title": "Phase stability regulator based on two dynamic parameters for autonomous mobile robots",
+      "link": "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
+      "source": "The Robot Report",
+      "summary": "두 개의 실시간 동적 매개변수를 활용하여 자율 이동 로봇(AMR)의 주행 안정성을 향상시키는 제어 기술 제안",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+      "link": "https://github.com/microsoft/vscode/pull/310226",
+      "source": "HackerNews",
+      "summary": "실제 사용 여부와 무관하게 커밋 메시지에 'Co-Authored-by Copilot' 문구가 강제 삽입되는 이슈 보고",
+      "section_hint": "AI"
+    },
+    {
+      "title": "FAULHABER designs DualGear for autonomous logistics systems",
+      "link": "https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/",
+      "source": "The Robot Report",
+      "summary": "공간 제약이 있는 자율 물류 시스템의 고성능 구현을 위한 신규 듀얼 기어 설계 공개",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The art of crossing the chasm: When is a startup ready for enterprise adoption?",
+      "link": "https://www.therobotreport.com/art-crossing-chasm-when-startup-ready-enterprise-adoption/",
+      "source": "The Robot Report",
+      "summary": "스타트업이 캐즘을 극복하고 대기업 시장에 안착하기 위한 혁신 및 전략적 파트너십 구축 방안",
+      "section_hint": "트렌드"
+    }
+  ]
+}

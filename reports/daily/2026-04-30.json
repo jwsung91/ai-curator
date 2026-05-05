@@ -1,0 +1,103 @@
+{
+  "date": "2026-04-30",
+  "items": [
+    {
+      "title": "micro-ROS public infrastructure transition",
+      "link": "https://discourse.openrobotics.org/t/micro-ros-public-infrastructure-transition/54375",
+      "source": "ROS2 Discourse",
+      "summary": "micro-ROS의 공공 인프라가 Vulcanexus 생태계로 전환되며 거버넌스 경계가 명확화됨",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Clarification: Robot Spawn Position and Initial Joint Angles",
+      "link": "https://discourse.openrobotics.org/t/clarification-robot-spawn-position-and-initial-joint-angles/54374",
+      "source": "ROS2 Discourse",
+      "summary": "로봇의 스폰 위치와 초기 조인트 각도 설정에 대한 시뮬레이션 환경에서의 가이드 제공",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "RobotCAD 10.8.1 released!",
+      "link": "https://discourse.openrobotics.org/t/robotcad-10-8-1-released/54384",
+      "source": "ROS2 Discourse",
+      "summary": "텍스트를 통한 로봇 생성 AI 툴과 Explode View 도구 개선 사항이 포함된 신규 버전 출시",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New ROS controller app",
+      "link": "https://discourse.openrobotics.org/t/new-ros-controller-app/54393",
+      "source": "ROS2 Discourse",
+      "summary": "ROS2 기반 4족 보행 로봇 등을 제어할 수 있는 안드로이드 앱의 플레이스토어 승인 및 출시",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "RosBag Resurrector — pandas-like analysis for MCAP / ROS 2 bag files",
+      "link": "https://discourse.openrobotics.org/t/rosbag-resurrector-pandas-like-analysis-for-mcap-ros-2-bag-files/54395",
+      "source": "ROS2 Discourse",
+      "summary": "ROS 2 백파일 및 MCAP 데이터를 pandas 데이터프레임 형식으로 분석할 수 있는 오픈소스 라이브러리",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Cybersecurity in the Intelligence Age",
+      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "source": "OpenAI News",
+      "summary": "OpenAI의 지능형 보안 강화 계획을 통한 AI 기반 사이버 방어 도구의 민주화 추진",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "CLI 및 파이썬 라이브러리 LLM의 대규모 리팩토링이 적용된 알파 버전 릴리스",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting OpenAI Codex base_instructions",
+      "link": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "Codex 모델의 내부 동작 지침 인용을 통해 확인된 특정 동물 및 생명체 언급 제한 특성",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Cursor Camp",
+      "link": "https://neal.fun/cursor-camp/",
+      "source": "HackerNews",
+      "summary": "코딩 어시스턴트 Cursor를 활용한 교육 및 프로젝트 커뮤니티인 Cursor Camp 공개",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "link": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "source": "HackerNews",
+      "summary": "LLM의 구조화된 데이터 출력에 대한 결정론적 성능을 테스트하기 위한 신규 벤치마크 도구",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM 1.84.0-dev.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/1.84.0-dev.1",
+      "source": "GitHub (LiteLLM)",
+      "summary": "cosign을 활용한 Docker 이미지 서명 검증 기능이 추가된 개발 버전 업데이트",
+      "section_hint": "AI"
+    },
+    {
+      "title": "XELA Robotics adds enhancements to uSkin sensor family ahead of Robotics Summit",
+      "link": "https://www.therobotreport.com/xela-robotics-adds-2-enhancements-uskin-sensor-family-ahead-robotics-summit/",
+      "source": "The Robot Report",
+      "summary": "Robotics Summit 참가를 앞두고 uSkin 촉각 센서 제품군의 성능 개선 사항 발표",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Schaeffler plans to deploy 1,000 Hexagon humanoids by 2032",
+      "link": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/",
+      "source": "The Robot Report",
+      "summary": "2032년까지 제조 현장에 1,000대의 Hexagon 휴머노이드 로봇을 배치하는 대규모 투자 계획 수립",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Project CETI deploys autonomous underwater gliders to better observe sperm whales",
+      "link": "https://www.therobotreport.com/project-ceti-deploys-autonomous-underwater-gliders-better-observe-sperm-whales/",
+      "source": "The Robot Report",
+      "summary": "고래 생태 관측을 위해 더 긴 기간 모니터링이 가능한 자율 수중 글라이더 배치",
+      "section_hint": "트렌드"
+    }
+  ]
+}
