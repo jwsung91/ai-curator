@@ -32,14 +32,6 @@ const tocHeadings = headings.filter(h => h.depth === 2);
         목록으로 돌아가기
       </a>
 
-      <div class="mb-4 flex items-center gap-3 flex-wrap">
-        <time datetime={entry.data.date} class="font-mono text-xs uppercase tracking-wider text-zinc-500">
-          {entry.data.weekStart} – {entry.data.weekEnd}
-        </time>
-        <span class="rounded bg-blue-100 dark:bg-blue-900 px-2 py-0.5 font-mono text-xs text-blue-700 dark:text-blue-300">
-          W{String(entry.data.weekNumber).padStart(2, '0')} · {entry.data.dailyCount}일 · {entry.data.itemCount} items
-        </span>
-      </div>
       <h1 class="text-3xl font-bold text-zinc-900 dark:text-zinc-100 md:text-4xl leading-tight">
         {entry.data.title}
       </h1>

@@ -32,14 +32,6 @@ const tocHeadings = headings.filter(h => h.depth === 2);
         목록으로 돌아가기
       </a>
 
-      <div class="mb-4 flex items-center gap-3">
-        <time datetime={entry.data.date} class="font-mono text-xs uppercase tracking-wider text-zinc-500">
-          {entry.data.date}
-        </time>
-        <span class="rounded bg-zinc-200 dark:bg-zinc-800 px-2 py-0.5 font-mono text-xs text-zinc-600 dark:text-zinc-400">
-          {entry.data.itemCount} items
-        </span>
-      </div>
       <h1 class="text-3xl font-bold text-zinc-900 dark:text-zinc-100 md:text-4xl leading-tight">
         {entry.data.title}
       </h1>
