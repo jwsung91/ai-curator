@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-04",
+  "items": [
+    {
+      "title": "I tested URDF format conversion on NASA Valkyrie, UR5, and Franka Panda results and a free tool",
+      "link": "https://discourse.openrobotics.org/t/i-tested-urdf-format-conversion-on-nasa-valkyrie-ur5-and-franka-panda-results-and-a-free-tool/54476",
+      "source": "ROS2 Discourse",
+      "summary": "NASA Valkyrie, UR5 등 주요 로봇의 URDF 모델을 Gazebo(SDF) 및 MuJoCo(MJCF) 포맷으로 변환하고 검증할 수 있는 API 기반 도구가 공개되었습니다.",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Quoting Anthropic",
+      "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "모델이 사용자의 의견에 맹목적으로 동의하지 않고 객관적 입장을 유지하는지 판별하는 자동 분류기를 도입하여 AI의 신뢰성을 강화했습니다.",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Ableton Live MCP",
+      "link": "https://github.com/bschoepke/ableton-live-mcp",
+      "source": "HackerNews",
+      "summary": "Ableton Live를 제어할 수 있는 Model Context Protocol 서버가 출시되어 음악 제작 환경에 AI 에이전트를 연동할 수 있게 되었습니다.",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.23.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+      "source": "GitHub (Ollama)",
+      "summary": "Claude Desktop 앱 지원 기능이 추가되어 데스크톱 환경에서 로컬 모델을 활용한 협업 및 Claude Code 연동이 더욱 간편해졌습니다.",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Why physical AI is the real manufacturing revolution",
+      "link": "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
+      "source": "The Robot Report",
+      "summary": "제조 분야의 Physical AI 혁명을 위해 단순한 마케팅 문구보다는 실제 현장 도입 시 발생하는 확장성 문제를 해결해야 한다는 주장이 제기되었습니다.",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
+      "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/",
+      "source": "The Robot Report",
+      "summary": "진정한 의미의 협동 로봇을 구현하기 위해 지연 시간을 최소화할 수 있는 엣지 우선 컴퓨팅 아키텍처 도입의 중요성이 강조되고 있습니다.",
+      "section_hint": "트렌드"
+    }
+  ]
+}
