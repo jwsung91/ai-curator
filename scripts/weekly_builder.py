@@ -231,12 +231,37 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], saturday: datetim
     daily_count  = len(week_data)
     total_items  = len(global_items)
 
-    # 소스 통계 (프로그래밍적으로 계산)
+    # 날짜 × 섹션 매트릭스 테이블
+    sections = ['로보틱스', 'AI', '트렌드']
+    sec_emoji = {'로보틱스': '🤖 로보틱스', 'AI': '✨ AI', '트렌드': '📈 트렌드'}
+
+    # 헤더
+    table_lines = [
+        '|  | ' + ' | '.join(sec_emoji[s] for s in sections) + ' | 합계 |',
+        '|--|' + '|'.join([':---:'] * len(sections)) + '|:---:|',
+    ]
+    col_totals = {s: 0 for s in sections}
+    for day in week_data:
+        dt = datetime.strptime(day['date'], '%Y-%m-%d')
+        day_label = f"{_DAY_NAMES[dt.weekday()]} {day['date'][5:]}"
+        counts = Counter(item.get('section_hint', '') for item in day['items'])
+        row_total = sum(counts.get(s, 0) for s in sections)
+        cells = ' | '.join(str(counts.get(s, 0)) for s in sections)
+        table_lines.append(f'| {day_label} | {cells} | {row_total} |')
+        for s in sections:
+            col_totals[s] += counts.get(s, 0)
+    # 합계 행
+    total_cells = ' | '.join(str(col_totals[s]) for s in sections)
+    table_lines.append(f'| **합계** | {total_cells} | {total_items} |')
+    matrix_table = '\n'.join(table_lines)
+
+    # 소스 통계
     top_sources = Counter(item.get('source', '') for item in global_items).most_common(5)
     stats_lines = (
         f"- 커버 기간: {week_start} ~ {week_end} ({daily_count}일)\n"
         f"- 총 수집 아이템: {total_items}개\n"
-        f"- 주요 소스: {', '.join(f'{s} ({c})' for s, c in top_sources)}"
+        f"- 주요 소스: {', '.join(f'{s} ({c})' for s, c in top_sources)}\n\n"
+        f"{matrix_table}"
     )
 
     summary_desc  = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
