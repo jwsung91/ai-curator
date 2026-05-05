@@ -2,6 +2,7 @@ import os
 import re
 import json
 import time
+from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from google import genai
 from google.genai import errors, types
@@ -194,8 +195,8 @@ def save_to_markdown(data):
     kst = timezone(timedelta(hours=9))
     date_str = datetime.now(kst).strftime('%Y-%m-%d')
     file_name = f"{date_str}.md"
-    dir_path = os.path.join(os.getcwd(), 'reports', 'daily')
-    os.makedirs(dir_path, exist_ok=True)
+    dir_path = Path(__file__).parent.parent / 'reports' / 'daily'
+    dir_path.mkdir(parents=True, exist_ok=True)
 
     summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
 
@@ -242,8 +243,7 @@ itemCount: {covered_count}
 {items_md}
 """
 
-    file_path = os.path.join(dir_path, file_name)
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(markdown_content)
+    file_path = dir_path / file_name
+    file_path.write_text(markdown_content, encoding='utf-8')
 
     print(f"  Saved: reports/daily/{file_name} ({covered_count} items, {len(source_parts)} sources)")
