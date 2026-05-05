@@ -93,18 +93,18 @@ def main():
             print("⚠️  Nothing new today. Exiting.")
             return
 
-        # 주간 리포트 생성을 위해 raw items 저장
-        json_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.json'
-        json_path.write_text(
-            json.dumps({'date': date_str, 'items': all_items}, ensure_ascii=False, indent=2),
-            encoding='utf-8',
-        )
-
         print("🤖 Generating report...")
         data = generate_summary(all_items)
 
         print("📝 Saving...")
         save_to_markdown(data)
+
+        # MD 저장 성공 후에만 JSON 저장 (weekly builder 용)
+        json_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.json'
+        json_path.write_text(
+            json.dumps({'date': date_str, 'items': all_items}, ensure_ascii=False, indent=2),
+            encoding='utf-8',
+        )
 
         if not dry_run:
             save_seen(seen, date_str, [item['link'] for item in all_items])

@@ -215,9 +215,9 @@ def _renumber_citations(section_contents: list[str]):
     return new_sections, seen
 
 
-def save_weekly_to_markdown(data: dict, week_data: list[dict], saturday: datetime):
-    kst_date  = saturday.strftime('%Y-%m-%d')
-    week_dates = get_week_dates(saturday)
+def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: datetime):
+    kst_date  = reference_date.strftime('%Y-%m-%d')
+    week_dates = get_week_dates(reference_date)
     week_start = week_dates[0]
     week_end   = week_dates[-1]
 
