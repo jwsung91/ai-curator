@@ -93,6 +93,13 @@ def main():
             print("⚠️  Nothing new today. Exiting.")
             return
 
+        # 주간 리포트 생성을 위해 raw items 저장
+        json_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.json'
+        json_path.write_text(
+            json.dumps({'date': date_str, 'items': all_items}, ensure_ascii=False, indent=2),
+            encoding='utf-8',
+        )
+
         print("🤖 Generating report...")
         data = generate_summary(all_items)
 

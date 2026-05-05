@@ -5,6 +5,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const allCuration = await getCollection('curation');
 const sortedCuration = allCuration.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
+const allWeekly = await getCollection('weekly');
+const sortedWeekly = allWeekly.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -17,8 +20,39 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </p>
   </section>
 
+  {sortedWeekly.length > 0 && (
+    <section class="mb-14">
+      <h2 class="mb-6 font-mono text-xs uppercase tracking-wider text-zinc-500">Weekly</h2>
+      <ul class="space-y-4">
+        {sortedWeekly.map((report) => (
+          <li>
+            <a
+              href={`${base}/weekly/${report.id}/`}
+              class="block rounded-lg border border-blue-200 dark:border-blue-900 bg-blue-50/50 dark:bg-blue-950/30 p-5 transition-colors duration-200 hover:border-blue-300 dark:hover:border-blue-700"
+            >
+              <div class="mb-3 flex items-center gap-3">
+                <time datetime={report.data.date} class="font-mono text-xs uppercase tracking-wider text-zinc-500">
+                  {report.data.weekStart} – {report.data.weekEnd}
+                </time>
+                <span class="rounded bg-blue-100 dark:bg-blue-900 px-2 py-0.5 font-mono text-xs text-blue-700 dark:text-blue-300">
+                  W{String(report.data.weekNumber).padStart(2, '0')} · {report.data.dailyCount}일 · {report.data.itemCount} items
+                </span>
+              </div>
+              <p class="mb-1.5 font-semibold text-zinc-900 dark:text-zinc-100">
+                {report.data.title}
+              </p>
+              <p class="text-sm leading-relaxed text-zinc-500 dark:text-zinc-500 line-clamp-2">
+                {report.data.summary}
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   <section>
-    <h2 class="mb-6 font-mono text-xs uppercase tracking-wider text-zinc-500">Reports</h2>
+    <h2 class="mb-6 font-mono text-xs uppercase tracking-wider text-zinc-500">Daily</h2>
     {sortedCuration.length === 0 ? (
       <div class="rounded-lg border border-dashed border-zinc-300 dark:border-zinc-700 p-8 text-center">
         <p class="mb-1 text-sm font-medium text-zinc-700 dark:text-zinc-300">아직 생성된 리포트가 없습니다</p>
