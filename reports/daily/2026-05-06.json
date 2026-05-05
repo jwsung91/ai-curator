@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-06",
+  "items": [
+    {
+      "title": "\"ROS 2 in a Nutshell: A Survey\" is now published in ACM Computing Surveys",
+      "link": "https://discourse.openrobotics.org/t/ros-2-in-a-nutshell-a-survey-is-now-published-in-acm-computing-surveys/54524",
+      "summary": "<p>Hi everyone,</p>\n<p>I have been a silent observer here since 2019, and this is my first post on Discourse. I hope you will excuse the sudden intrusion <img alt=\":grinning_face_with_smiling_eyes:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/grinning_face_with_smiling_eyes.png?v=15\" title=\":grinning_face_with_smiling_eyes:\"",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Humble sync 2026-05-08",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-05-08/54537",
+      "summary": "<p>We’re planning for a Humble sync on <span class=\"discourse-local-date\">Fri, May 8, 2026 7:00 AM UTC</span>.</p>\n<p>There are currently <a href=\"https://repo.ros2.org/status_page/ros_humble_default.html?q=REGRESSION\" rel=\"noopener nofollow ugc\">14 regressions</a> and <a href=\"https://repo.ros2.org/status_page/ros_humble_default.html?q=SYNC\" rel=\"",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MARPY: a <$50 micro-ROS robot",
+      "link": "https://discourse.openrobotics.org/t/marpy-a-50-micro-ros-robot/54536",
+      "summary": "<p>Hi everyone,</p>\n<p>I’ve been building <strong>MARPY</strong> (<strong>M</strong>ost <strong>A</strong>ffordable <strong>R</strong>OS 2 <strong>P</strong>latform <strong>Y</strong>et), a small open-source robot aimed at people who want to learn ROS 2 with real hardware without dropping a few hundred dollars on a commercial platform. Total BOM la",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ford is looking for a Robotics Staff Product Manager",
+      "link": "https://discourse.openrobotics.org/t/ford-is-looking-for-a-robotics-staff-product-manager/54538",
+      "summary": "<p>Please reach out to me via LinkedIn if interested. <a href=\"https://www.linkedin.com/in/rthomas982003/\" rel=\"noopener nofollow ugc\">https://www.linkedin.com/in/rthomas982003/</a></p>\n<p><strong>Robotics Staff Product Manager</strong></p>\n<p>Redford, MI, United States (Hybrid)</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-1",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenRMF is at use of real fleet of robots management systems?",
+      "link": "https://discourse.openrobotics.org/t/openrmf-is-at-use-of-real-fleet-of-robots-management-systems/54528",
+      "summary": "<p>Just wanted to ask about actual use, cause its amazing, if there a field, where its possible to contribute to software, which at use at system of control and coordination of many robot units with different specialization, form, function</p>\n<p>Just wanted to know, if there a repo or somehow maybe its possible to contribute to dedicated system at",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "GPT-5.5 Instant System Card",
+      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "summary": "",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "link": "https://openai.com/index/gpt-5-5-instant",
+      "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "New ways to buy ChatGPT ads",
+      "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-llm 0.1a7",
+      "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a7\">datasette-llm 0.1a7</a></p>\n        <blockquote>\n<ul>\n<li>Mechanism for <a href=\"https://github.com/datasette/datasette-llm/blob/main/README.md#configuration\">configuring default options</a> for specific models.</li>\n</ul>\n</blockquote>\n<p>Part of D",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-echo 0.5a0",
+      "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.5a0\">llm-echo 0.5a0</a></p>\n        <blockquote>\n<ul>\n<li>New <code>-o thinking 1</code> option to help test against <a href=\"https://llm.datasette.io/en/latest/changelog.html#a0-2026-04-28\">LLM 0.32a0</a> and higher.</li>\n</ul>\n</blockquote>\n<p>This plugin prov",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
+      "link": "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48026207\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.99.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.99.0",
+      "summary": "0.99.0 (2026-05-05) Full Changelog: v0.98.1...v0.99.0 Features client: allow targeting a workspace for OIDC federation token exchange ( 4ba8067 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.23.1",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
+      "summary": "Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ollama run gemma4:31b-coding-mtp-bf16 What's Changed Update MLX and MLX-C with threading fixes by @dhiltgen in #15845 go: bump to 1.26 by @ParthSareen in #15904 Add Gemma 4 MTP speculative decoding by @pdevine in #15980 Full Changelog : v0.23.0...v0.23.1-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "WaiV Robotics emerges from stealth to help drones take off and land at sea",
+      "link": "https://www.therobotreport.com/waiv-robotics-emerges-from-stealth-help-drones-take-off-land-at-sea/",
+      "summary": "<p>With $7.5 million in funding, WaiV Robotics is working to productize its drone landing system, and find OEM partners to work with. </p>\n<p>The post <a href=\"https://www.therobotreport.com/waiv-robotics-emerges-from-stealth-help-drones-take-off-land-at-sea/\">WaiV Robotics emerges from stealth to help drones take off and land at sea</a> appeared f",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Tutor Intelligence builds Data Factory to train robot AI in the real world",
+      "link": "https://www.therobotreport.com/tutor-intelligence-builds-data-factory-to-train-robot-ai-in-the-real-world/",
+      "summary": "<p>Tutor Intelligence is running 100 Sonny semi-humanoid robots in its headquarters while sharing technology and data with its Cassie mobile manipulator.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-builds-data-factory-to-train-robot-ai-in-the-real-world/\">Tutor Intelligence builds Data Factory to train robot AI in the",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Hiroshi Fujiwara and Robert Little selected for 2026 Joseph F. Engelberger Robotics Awards",
+      "link": "https://www.therobotreport.com/hiroshi-fujiwara-robert-little-selected-2026-joseph-f-engelberger-robotics-awards/",
+      "summary": "<p>A3 honored Hiroshi Fujiwara and Robert Little with the 2026 Engelberger Awards for their transformative leadership and robotics application breakthroughs.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hiroshi-fujiwara-robert-little-selected-2026-joseph-f-engelberger-robotics-awards/\">Hiroshi Fujiwara and Robert Little selected for 2026",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "link": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "summary": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what’s possible, moving beyond simple prompts to take on more complex tasks. The next step is bringing those capabilities into enterprise environments — where agents must operate with [&#8230",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization",
+      "link": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
+      "summary": "By early 2026, the open source project OpenClaw had become a phenomenon. In January, its GitHub star count crossed 100,000 as developer interest surged.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
