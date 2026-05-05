@@ -221,8 +221,11 @@ def save_to_markdown(data):
     for seq_num, orig_idx in enumerate(ordered_orig_indices, 1):
         if 1 <= orig_idx <= len(all_items):
             item = all_items[orig_idx - 1]
+            # Escape quotes for data attributes
+            title_esc = item["title"].replace('"', '&quot;')
+            source_esc = item["source"].replace('"', '&quot;')
             source_parts.append(
-                f'<span id="ref-{seq_num}"></span>\n\n'
+                f'<span id="ref-{seq_num}" data-title="{title_esc}" data-url="{item["link"]}" data-source="{source_esc}"></span>\n\n'
                 f'{seq_num}. [{item["title"]}]({item["link"]}) — *{item["source"]}*'
             )
     items_md = '\n\n'.join(source_parts)

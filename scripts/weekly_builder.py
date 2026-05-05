@@ -284,8 +284,10 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: d
     for seq_num, orig_idx in enumerate(ordered_orig_indices, 1):
         if 1 <= orig_idx <= len(global_items):
             item = global_items[orig_idx - 1]
+            title_esc = item["title"].replace('"', '&quot;')
+            source_esc = item["source"].replace('"', '&quot;')
             source_parts.append(
-                f'<span id="ref-{seq_num}"></span>\n\n'
+                f'<span id="ref-{seq_num}" data-title="{title_esc}" data-url="{item["link"]}" data-source="{source_esc}"></span>\n\n'
                 f'{seq_num}. [{item["title"]}]({item["link"]}) — *{item["source"]}*'
             )
     items_md = '\n\n'.join(source_parts)
