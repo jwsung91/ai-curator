@@ -25,7 +25,7 @@ const tocHeadings = headings.filter(h => h.depth === 2);
   <article class="mb-16">
     <header class="mb-10">
       <a
-        href={`${base}/`}
+        href={`${base}/curation/`}
         class="inline-flex items-center gap-2 mb-8 font-mono text-sm text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
@@ -71,10 +71,10 @@ const tocHeadings = headings.filter(h => h.depth === 2);
           >
             <span class="font-mono text-xs text-zinc-400 flex items-center gap-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-              이전
+              이전 리포트
             </span>
-            <span class="font-mono text-xs text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
-              {prev.data.date}
+            <span class="font-medium text-sm text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
+              {prev.data.title.replace('AI 큐레이션 리포트 - ', '')}
             </span>
           </a>
         )}
@@ -86,11 +86,11 @@ const tocHeadings = headings.filter(h => h.depth === 2);
             class="group flex flex-col gap-1 items-end rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-zinc-300 dark:hover:border-zinc-700"
           >
             <span class="font-mono text-xs text-zinc-400 flex items-center gap-1">
-              다음
+              다음 리포트
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </span>
-            <span class="font-mono text-xs text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
-              {next.data.date}
+            <span class="font-medium text-sm text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
+              {next.data.title.replace('AI 큐레이션 리포트 - ', '')}
             </span>
           </a>
         )}
