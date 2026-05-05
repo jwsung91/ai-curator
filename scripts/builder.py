@@ -26,11 +26,39 @@ def add_citation_anchors(text: str) -> str:
     return re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_bracket, text)
 
 
+def _cross_insight_instruction(n_items: int) -> str:
+    if n_items <= 5:
+        return (
+            "cross_insight는 수집 항목 중 실제로 연결고리가 있는 경우에만 "
+            "**1개의 불릿**으로 서술하세요. "
+            "항목들이 서로 무관하다면 오늘 가장 주목할 단일 사실 하나만 한 문장으로 작성하세요. "
+            "억지로 관계를 만들지 마세요. 형식: \"- 문장\""
+        )
+    elif n_items <= 10:
+        return (
+            "cross_insight는 항목들 사이에서 실제로 보이는 흐름을 "
+            "**1~2개의 불릿**으로 서술하세요. "
+            "각 불릿은 단순 항목 재진술이 아닌 섹션 간 연결고리나 공통 맥락이어야 합니다. "
+            "자연스러운 연결이 1개뿐이라면 1개만 작성하세요. "
+            "형식: \"- 문장1\\n- 문장2\" (또는 1개)"
+        )
+    else:
+        return (
+            "cross_insight는 오늘 수집된 항목들에서 실제로 보이는 큰 흐름을 "
+            "**3~5개의 불릿**으로 서술하세요. "
+            "각 불릿은 한 문장이며, 단순 항목 재진술이 아닌 섹션 간 연결고리나 공통 맥락을 짚어야 합니다. "
+            "관련 없는 항목들을 억지로 묶지 말고, 실제로 연결되는 흐름만 포함하세요. "
+            "형식: \"- 문장1\\n- 문장2\\n...\""
+        )
+
+
 def build_prompt(items):
     items_text = ""
     for i, item in enumerate(items, 1):
         hint = item.get('section_hint', '')
         items_text += f"[{i}] [{hint}] {item['title']} ({item['link']})\n  {item['summary'][:350]}\n\n"
+
+    cross_instruction = _cross_insight_instruction(len(items))
 
     return f"""당신은 로봇 시스템에 AI를 통합하는 시니어 소프트웨어 엔지니어입니다.
 수집된 기술 정보를 3개 섹션으로 분류하고, 오늘 실무에 참고할 수 있는 데일리 리포트를 작성하세요.
@@ -40,7 +68,7 @@ def build_prompt(items):
 ## 섹션 분류 기준
 
 **section_robotics — 🤖 로보틱스**
-포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, 임베디드·실시간 시스템
+포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클
 제외: AI 연구, 정책·비즈니스 뉴스
 
 **section_devtools — ✨ AI**
@@ -48,7 +76,7 @@ def build_prompt(items):
 제외: 비즈니스 뉴스, 이미 다른 섹션에 포함된 항목
 
 **section_industry — 📈 트렌드**
-포함: 로보틱스·AI 산업 동향, 정책·규제, 기업 투자·인수합병, 신제품 출시
+포함: 로보틱스·AI 산업 동향, 정책·규제, 기업 투자·인수합병, 신제품 출시, NVIDIA 산업 파트너십·제품 발표
 제외: 위 2개 섹션에 포함된 항목, 학술 인물 프로파일, 교육용 하드웨어 프로젝트, 네트워킹 행사·밋업
 
 ---
@@ -62,7 +90,7 @@ def build_prompt(items):
 2. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
 3. covered_count는 3개 섹션 본문에서 실제로 다룬 항목 수의 합입니다.
 4. used_indices는 본문의 [번호] 인용에 실제로 사용된 번호를 중복 없이 오름차순으로 나열하세요.
-5. cross_insight는 오늘 3개 섹션을 가로질러 보이는 큰 흐름을 **정확히 3개의 불릿**으로 서술하세요. 각 불릿은 한 문장이며, 단순 항목 재진술이 아닌 섹션 간 연결고리나 공통 맥락을 짚어야 합니다. 형식: "- 문장1\n- 문장2\n- 문장3"
+5. {cross_instruction}
 6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
@@ -78,7 +106,7 @@ def build_prompt(items):
 아래 JSON 스키마를 정확히 따르세요:
 {{
   "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
-  "cross_insight": "- 문장1\n- 문장2\n- 문장3",
+  "cross_insight": "- 문장 (항목 수에 따라 1~5개 불릿)",
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
   "section_industry": "마크다운 내용 (없으면 빈 문자열)",

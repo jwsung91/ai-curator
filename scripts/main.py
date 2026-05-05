@@ -9,8 +9,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fetcher import (
     fetch_ros2_discourse, fetch_ros2_releases,
+    fetch_nvidia_dev_blog, fetch_nvidia_blog,
     fetch_openai_news, fetch_google_deepmind,
-    fetch_simon_willison, fetch_changelog, fetch_hackernews_devai, fetch_devai_releases,
+    fetch_simon_willison, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
 from builder import generate_summary, save_to_markdown
@@ -18,14 +19,15 @@ from builder import generate_summary, save_to_markdown
 SOURCES = [
     ('로보틱스', fetch_ros2_discourse),
     ('로보틱스', fetch_ros2_releases),
+    ('로보틱스', fetch_nvidia_dev_blog),   # NVIDIA Developer Blog (robotics tag)
     ('AI',       fetch_openai_news),
     ('AI',       fetch_google_deepmind),
     ('AI',       fetch_simon_willison),
-    ('AI',       fetch_changelog),
     ('AI',       fetch_hackernews_devai),
     ('AI',       fetch_devai_releases),
     ('트렌드',   fetch_ieee_robotics),
     ('트렌드',   fetch_the_robot_report),
+    ('트렌드',   fetch_nvidia_blog),       # NVIDIA Blog (AI/로보틱스 필터)
 ]
 
 SEEN_PATH = Path(__file__).parent / 'seen_links.json'

@@ -12,6 +12,18 @@ DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'prompt caching', 'rag', 'embedding model', 'fine-tun', 'quantiz',
 }
 
+NVIDIA_KEYWORDS = {  # NVIDIA 블로그 필터 키워드
+    'robot', 'robotics', 'isaac', 'jetson', 'humanoid', 'autonomous',
+    'physical ai', 'manipulation', 'llm', 'generative ai', 'foundation model',
+    'inference', 'agent', 'simulation', 'omniverse', 'cuda', 'groot',
+}
+
+# GitHub 릴리스 프리릴리스 패턴 (nightly, rc, dev, alpha, beta)
+_PRERELEASE_RE = re.compile(
+    r'[-.]?(nightly|rc\.?\d*|dev\.?\d*|alpha\.?\d*|beta\.?\d*)',
+    re.IGNORECASE,
+)
+
 _HEADERS = {'User-Agent': 'ai-curator/1.0 (github.com/jwsung91/ai-curator)'}
 
 
@@ -35,7 +47,7 @@ def fetch_rss(url, source_name, limit=3):
         return []
 
 
-def fetch_github_releases(repo, label, limit=1, max_age_days=14):
+def fetch_github_releases(repo, label, limit=1, max_age_days=14, skip_prerelease=False):
     url = f"https://github.com/{repo}/releases.atom"
     try:
         req = urllib.request.Request(url, headers=_HEADERS)
@@ -44,7 +56,14 @@ def fetch_github_releases(repo, label, limit=1, max_age_days=14):
         feed = feedparser.parse(content)
         result = []
         now = datetime.now(timezone.utc)
-        for entry in feed.entries[:limit]:
+        # skip_prerelease 시 후보를 넉넉히 확보한 뒤 필터
+        candidates = feed.entries[:limit * 5 if skip_prerelease else limit]
+        for entry in candidates:
+            if len(result) >= limit:
+                break
+            title_raw = getattr(entry, 'title', '').strip()
+            if skip_prerelease and _PRERELEASE_RE.search(title_raw):
+                continue
             parsed = getattr(entry, 'updated_parsed', None) or getattr(entry, 'published_parsed', None)
             if parsed:
                 age_days = (now - datetime(*parsed[:6], tzinfo=timezone.utc)).days
@@ -58,7 +77,7 @@ def fetch_github_releases(repo, label, limit=1, max_age_days=14):
             body_text = re.sub(r'<[^>]+>', ' ', body_html)
             body_text = re.sub(r'\s+', ' ', body_text).strip()[:500]
             result.append({
-                'title': f"{label} {getattr(entry, 'title', '').strip()}",
+                'title': f"{label} {title_raw}",
                 'link': getattr(entry, 'link', ''),
                 'summary': body_text,
                 'source': f"GitHub ({label})",
@@ -111,13 +130,19 @@ def fetch_simon_willison():
     ]
     return filtered[:5]
 
-def fetch_changelog():
-    items = fetch_rss('https://changelog.com/news/feed', 'The Changelog', limit=10)
-    filtered = [
+def fetch_nvidia_dev_blog():
+    """NVIDIA Developer Blog — Robotics 태그 (Isaac, Jetson, Physical AI 등)"""
+    return fetch_rss('https://developer.nvidia.com/blog/tag/robotics/feed/', 'NVIDIA Dev Blog', limit=2)
+
+
+def fetch_nvidia_blog():
+    """NVIDIA 공식 블로그 — AI/로보틱스 관련 키워드 필터링"""
+    items = fetch_rss('https://blogs.nvidia.com/feed/', 'NVIDIA Blog', limit=10)
+    return [
         item for item in items
-        if any(kw in item['title'].lower() for kw in SIMON_KEYWORDS)
-    ]
-    return filtered[:3]
+        if any(kw in item['title'].lower() or kw in item['summary'].lower()
+               for kw in NVIDIA_KEYWORDS)
+    ][:2]
 
 def fetch_hackernews_devai():
     try:
@@ -141,15 +166,16 @@ def fetch_hackernews_devai():
 
 def fetch_devai_releases():
     repos = [
-        ('anthropics/anthropic-sdk-python', 'Anthropic SDK'),
-        ('modelcontextprotocol/servers',    'MCP Servers'),
-        ('ollama/ollama',                   'Ollama'),
-        ('continuedev/continue',            'Continue'),
-        ('BerriAI/litellm',                 'LiteLLM'),
+        # (repo,                              label,           skip_prerelease)
+        ('anthropics/anthropic-sdk-python', 'Anthropic SDK', False),
+        ('modelcontextprotocol/servers',    'MCP Servers',   False),
+        ('ollama/ollama',                   'Ollama',        False),
+        ('continuedev/continue',            'Continue',      False),
+        ('BerriAI/litellm',                 'LiteLLM',       True),   # nightly/rc/dev 제외
     ]
     items = []
-    for repo, label in repos:
-        items.extend(fetch_github_releases(repo, label))
+    for repo, label, skip_pre in repos:
+        items.extend(fetch_github_releases(repo, label, skip_prerelease=skip_pre))
     return items
 
 
