@@ -1,14 +1,24 @@
-name: Generate & Deploy
+name: AI Curator Pipeline
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 21 * * 1-5'  # 주중 KST 06:00 (UTC 21:00) — 월~금
+    - cron: '0 21 * * 1-5'  # Daily: Tue-Sat 06:00 KST (Mon-Fri 21:00 UTC)
+    - cron: '0 0 * * 6'     # Weekly: Sat 09:00 KST (Sat 00:00 UTC)
   workflow_dispatch:
+    inputs:
+      run_daily:
+        description: 'Run Daily Report'
+        type: boolean
+        default: true
+      run_weekly:
+        description: 'Run Weekly Report'
+        type: boolean
+        default: false
 
 permissions:
-  contents: write # 마크다운 파일 커밋/푸시를 위해 write 권한 부여
+  contents: write
   pages: write
   id-token: write
 
@@ -17,7 +27,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,21 +50,47 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
         
-      # 스케줄 실행 또는 수동 실행 시에만 파이프라인 작동
-      - name: Run Data Pipeline (Generate AI Report)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      - name: Run Daily Pipeline
+        id: daily
+        if: github.event.schedule == '0 21 * * 1-5' || (github.event_name == 'workflow_dispatch' && github.event.inputs.run_daily == 'true')
         run: npm run generate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Run Weekly Pipeline
+        id: weekly
+        if: github.event.schedule == '0 0 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.run_weekly == 'true')
+        run: npm run generate:weekly
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           
-      # 스케줄 실행 또는 수동 실행 시에만 커밋/푸시 작동
       - name: Commit and Push generated files
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-generate daily AI curation report"
+          commit_message: "chore: auto-generate reports"
           branch: main
-          file_pattern: "reports/daily/*.md reports/daily/*.json scripts/seen_links.json"
+          file_pattern: "reports/daily/*.md reports/daily/*.json reports/weekly/*.md scripts/seen_links.json"
+
+      - name: Generate Job Summary (Daily)
+        if: always() && steps.daily.outcome == 'success'
+        run: |
+          REPORT_DATE=$(TZ='Asia/Seoul' date +'%Y-%m-%d')
+          echo "### 🗞️ AI Curator: Daily Report Ready" >> $GITHUB_STEP_SUMMARY
+          echo "오늘의 기술 소식이 정리되었습니다. 아래 링크에서 확인하세요." >> $GITHUB_STEP_SUMMARY
+          echo "📅 **날짜**: $REPORT_DATE" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **[데일리 리포트 바로가기](https://jwsung91.github.io/ai-curator/curation/$REPORT_DATE/)**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Generate Job Summary (Weekly)
+        if: always() && steps.weekly.outcome == 'success'
+        run: |
+          WEEK_ID=$(TZ='Asia/Seoul' date +'%G-W%V')
+          echo "### 📚 AI Curator: Weekly Report Ready" >> $GITHUB_STEP_SUMMARY
+          echo "이번 주의 주요 소식을 모은 위클리 리포트가 발행되었습니다." >> $GITHUB_STEP_SUMMARY
+          echo "🗓️ **주차**: $WEEK_ID" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **[위클리 리포트 바로가기](https://jwsung91.github.io/ai-curator/weekly/$WEEK_ID/)**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
           
       - name: Build Astro Site
         run: npm run build
@@ -64,7 +100,7 @@ jobs:
           path: dist
 
   deploy:
-    needs: build
+    needs: build-and-deploy
     runs-on: ubuntu-latest
     environment:
       name: github-pages
