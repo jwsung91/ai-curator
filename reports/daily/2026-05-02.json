@@ -1,0 +1,96 @@
+{
+  "date": "2026-05-02",
+  "items": [
+    {
+      "title": "ROS Lyrical Luth Beta and Call for Testing",
+      "link": "https://discourse.openrobotics.org/t/ros-lyrical-luth-beta-and-call-for-testing/54441",
+      "source": "ROS2 Discourse",
+      "summary": "차세대 ROS 2 버전인 Lyrical Luth의 베타 단계 진입 및 커뮤니티 테스트 모집 시작",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 ROS Lyrical Beta 2026/04/30",
+      "link": "https://github.com/ros2/ros2/releases/tag/release-lyrical-beta-20260430",
+      "source": "GitHub (ROS2)",
+      "summary": "Ubuntu Resolute 및 RHEL 10 환경을 위한 바이너리 패키지 공식 배포",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Comparing Global Planners for navigation",
+      "link": "https://discourse.openrobotics.org/t/comparing-global-planners-for-navigation/54457",
+      "source": "ROS2 Discourse",
+      "summary": "네비게이션 성능 최적화를 위한 글로벌 플래너들의 체계적인 비교 평가 데이터 공유",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Qualifying round - Will the final evaluation randomize lighting, shadows, or sun position?",
+      "link": "https://discourse.openrobotics.org/t/qualifying-round-will-the-final-evaluation-randomize-lighting-shadows-or-sun-position/54450",
+      "source": "ROS2 Discourse",
+      "summary": "로봇 경진대회 예선 평가 시 조명 및 그림자의 무작위성 적용을 통한 시뮬레이션 환경 고도화",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS News for the Week of April 27th, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-april-27th-2026/54463",
+      "source": "ROS2 Discourse",
+      "summary": "2026년 4월 마지막 주 ROS 커뮤니티의 주요 패키지 업데이트 및 이슈 요약",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+      "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "영국 AI 보안 연구소(AISI)에서 실시한 GPT-5.5의 사이버 보안 공격 및 방어 역량 평가 결과",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Destiny – Claude Code's fortune Teller skill",
+      "link": "https://github.com/xodn348/destiny",
+      "source": "HackerNews",
+      "summary": "Claude Code의 확장성을 보여주는 새로운 포춘 텔러(Fortune Teller) 스킬 도구 공개",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM 1.84.0.dev2: Merge pull request #26961 from BerriAI/yj_bump_apr30",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/1.84.0.dev2",
+      "source": "GitHub (LiteLLM)",
+      "summary": "다중 LLM 호출 라이브러리의 인프라 버전 범프 및 최신 패치 반영",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Figure, 1X Ramp Up Humanoid Robot Production",
+      "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
+      "source": "IEEE Spectrum",
+      "summary": "Figure와 1X 등 선두 기업들의 휴머노이드 로봇 양산 라인 가동 및 생산 확대",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why deformable materials are physical AI’s real manufacturing test",
+      "link": "https://www.therobotreport.com/why-deformable-materials-are-physical-ai-real-manufacturing-test/",
+      "source": "The Robot Report",
+      "summary": "의류 조립 등 유연한 소재 처리를 위한 물리적 AI의 제조 현장 적용 가능성과 기술적 한계",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Top 10 robotics stories of April 2026",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-april-2026/",
+      "source": "The Robot Report",
+      "summary": "2026년 4월 한 달간 발생한 주요 로보틱스 기업의 투자, 특허 분쟁 및 기술적 이정표 정리",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AWS stops billing Middle East cloud customers as repairs to war damage drag on",
+      "link": "https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/",
+      "source": "HackerNews",
+      "summary": "드론 공격에 따른 중동 지역 데이터 센터 피해 복구 지연으로 인한 고객사 과금 중단 조치",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Ndimensions Labs - Robotics Navigation Engineer, Electrical Engineer (Robotics)",
+      "link": "https://discourse.openrobotics.org/t/ndimensions-labs-robotics-navigation-engineer-electrical-engineer-robotics/54460",
+      "source": "ROS2 Discourse",
+      "summary": "보스턴 소재 로봇 기업의 네비게이션 및 전기 엔지니어 채용을 통한 전문 인력 확보 움직임",
+      "section_hint": "트렌드"
+    }
+  ]
+}

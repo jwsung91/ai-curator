@@ -1,0 +1,89 @@
+{
+  "date": "2026-04-28",
+  "items": [
+    {
+      "title": "Feel like TurtleBot4_Navigation is a \"House of Cards\" for my robot",
+      "link": "https://discourse.openrobotics.org/t/feel-like-turtlebot4-navigation-is-a-house-of-cards-for-my-robot/54323",
+      "source": "ROS2 Discourse",
+      "summary": "장기 운영 데이터 기반의 TurtleBot4 내비게이션 안정성 및 실전 적용 사례 공유",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New collision avoidance exercise at Unibotics robot programming website: DWA",
+      "link": "https://discourse.openrobotics.org/t/new-collision-avoidance-exercise-at-unibotics-robot-programming-website-dwa/54330",
+      "source": "ROS2 Discourse",
+      "summary": "로봇 충돌 방지를 위한 Dynamic Window Approach(DWA) 알고리즘 실습 콘텐츠 업데이트",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "source": "OpenAI News",
+      "summary": "미 연방정부 기관 사용을 위한 ChatGPT Enterprise 및 API의 FedRAMP Moderate 인증 획득",
+      "section_hint": "AI"
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "source": "OpenAI News",
+      "summary": "이슈 트래커를 상시 가동 에이전트 시스템으로 전환하는 Codex 오케스트레이션 오픈소스 사양",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "link": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "source": "HackerNews",
+      "summary": "효율적인 비용 관리를 위한 GitHub Copilot의 사용량 기반 과금 모델 도입",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.83.14.rc.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.83.14.rc.1",
+      "source": "GitHub (LiteLLM)",
+      "summary": "Docker 이미지 서명 검증 및 보안 기능이 강화된 LiteLLM 업데이트 릴리스",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "source": "OpenAI News",
+      "summary": "파트너십 간소화 및 장기적 AI 혁신 지원을 위한 마이크로소프트와 OpenAI의 협약 수정",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "link": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source": "Google DeepMind",
+      "summary": "과학 기술 돌파구 마련을 위한 구글 딥마인드와 대한민국 정부의 AI 파트너십 체결",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "마이크로소프트와 OpenAI 간의 기술 권리 무효화 조항인 'AGI 조항' 폐지 동향",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "SquareMind raises $18M for robotic dermatology platform",
+      "link": "https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/",
+      "source": "The Robot Report",
+      "summary": "피부암 조기 진단을 위한 전신 이미징 자동화 로봇 플랫폼 개발사의 1,800만 달러 투자 유치",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Learn about the latest advances in physical AI at the Robotics Summit",
+      "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/",
+      "source": "The Robot Report",
+      "summary": "AI 기술의 로보틱스 적용 및 Physical AI 발전을 다루는 전문 트랙 논의 예정",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
+      "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/",
+      "source": "The Robot Report",
+      "summary": "Cortex 2.0 로봇 두뇌 확장 및 미국 시장 진출을 위한 Sereact의 Series B 투자 유치",
+      "section_hint": "트렌드"
+    }
+  ]
+}
