@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-07",
+  "items": [
+    {
+      "title": "Camera streaming made easy [NEW Release]",
+      "link": "https://discourse.openrobotics.org/t/camera-streaming-made-easy-new-release/54562",
+      "summary": "<p>Greetings fellow roboticists,</p>\n<p>you might know me from other projects such as ros_babel_fish, the QML ROS 2 module, or RQml.<br />\nMaybe as the dude who ends all their posts with an AI-generated image.</p>\n<p>TLDR: ros_camera_server out now (link below). Efficient streaming to ROS, robust low-bandwidth to operator station over H.264/H.265 u",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rclnodejs 2.0.0 beta — ROS 2 Lyrical (beta) and Node.js 26 support",
+      "link": "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-beta-ros-2-lyrical-beta-and-node-js-26-support/54559",
+      "summary": "<p>Hi all,</p>\n<p>I’m happy to announce that <a href=\"https://github.com/RobotWebTools/rclnodejs/releases/tag/2.0.0-beta.0\" rel=\"noopener nofollow ugc\"><strong>rclnodejs 2.0.0-beta.0</strong></a> is out — the first preview of the 2.x line, with first-class support for the upcoming <strong>ROS 2 Lyrical Luth</strong> release on <strong>Ubuntu 26.04<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ALERT: do NOT visit plotjuggler.com",
+      "link": "https://discourse.openrobotics.org/t/alert-do-not-visit-plotjuggler-com/54561",
+      "summary": "<p>Hi,</p>\n<p>avoid the page “plotjuggler DOT com”</p>\n<p>I did not create this page and I have no idea who did.</p>\n<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112619-please-do-not-download-any-file-from-there-there-is-a-high-risk-of-malware-phishing-1\" name=\"p-112619-please-do-not-download-any-file-from-there-there-is-a-high-",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Is FastDDS (default config) totally unusable for simulation with rclpy?",
+      "link": "https://discourse.openrobotics.org/t/is-fastdds-default-config-totally-unusable-for-simulation-with-rclpy/54553",
+      "summary": "<p>I was fighting some performance issues in our simulation for a subject I teach.</p>\n<p>It boiled down to one slight performance improvement in rclpy which I <a href=\"https://github.com/ros2/rclpy/issues/792#issuecomment-4384551247\" rel=\"noopener nofollow ugc\">started discussing</a>, but the larger surprise was how super-bad FastDDS is with distr",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Release] emcon_gz_hardware_interface: A DDS-bypassing hardware interface for Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/release-emcon-gz-hardware-interface-a-dds-bypassing-hardware-interface-for-gazebo-harmonic/54549",
+      "summary": "<p>Hi everyone,</p>\n<p>When scaling up multi-robot simulations or running complex network-isolated state estimators in Gazebo Harmonic, relying on the standard <code>gz_ros2_control</code> shared memory architecture can become a bottleneck or present domain isolation challenges.</p>\n<p>To solve this, I’ve open-sourced <strong><code>emcon_gz_hardwar",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How frontier enterprises are building an AI advantage",
+      "link": "https://openai.com/index/introducing-b2b-signals",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Live blog: Code w/ Claude 2026",
+      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+      "summary": "<p>I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+      "summary": "<p>I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: <a href=\"https://www.heavybit.com/library/podcasts/high-leverage/ep-9-the-ai-coding-paradigm-shift-with-simon-willison\">Ep. #9, The AI Coding Paradigm Shift with Simon Willison</a>. Here are some of my highlights, including my disturbing realization ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "link": "https://www.anthropic.com/news/higher-limits-spacex",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48037986\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Coverage Cat (YC S22) Seeks Fractional Engineer to Build AI Growth Toolkit",
+      "link": "https://www.coveragecat.com/careers/engineering/fractional-growth-engineer",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48035223\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.100.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0",
+      "summary": "0.100.0 (2026-05-06) Full Changelog: v0.99.0...v0.100.0 Features api: add support for Managed Agents multiagents and outcomes, webhooks, vault validation ( 3b3deee ) Bug Fixes api: Adjust webhook configuration ( 8c3339e )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.83.14-stable.patch.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.83.14-stable.patc",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Johnson & Johnson completes clinical study for OTTAVA robotic surgical system",
+      "link": "https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/",
+      "summary": "<p>Johnson &#038; Johnson said it has demonstrated the feasibility of OTTAVA's compact design for small operating rooms.</p>\n<p>The post <a href=\"https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/\">Johnson &#038; Johnson completes clinical study for OTTAVA robotic surgical system</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "1X begins production of NEO humanoids in California facility",
+      "link": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/",
+      "summary": "<p>1X has launched full-scale production at its 'NEO factory,' bringing vertically integrated humanoid robot manufacturing to the U.S.</p>\n<p>The post <a href=\"https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/\">1X begins production of NEO humanoids in California facility</a> appeared first on <a",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Genesis AI introduces GENE-26.5 model for more dexterous robot manipulation",
+      "link": "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/",
+      "summary": "<p>Genesis AI says its GENE-26.5 foundation model uses an advanced data engine and a proprietary robotic hand for new levels of dexterity.</p>\n<p>The post <a href=\"https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/\">Genesis AI introduces GENE-26.5 model for more dexterous robot manipulation</a> a",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

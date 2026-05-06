@@ -181,5 +181,23 @@
     "https://www.therobotreport.com/hiroshi-fujiwara-robert-little-selected-2026-joseph-f-engelberger-robotics-awards/",
     "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
     "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/"
+  ],
+  "2026-05-07": [
+    "https://discourse.openrobotics.org/t/camera-streaming-made-easy-new-release/54562",
+    "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-beta-ros-2-lyrical-beta-and-node-js-26-support/54559",
+    "https://discourse.openrobotics.org/t/alert-do-not-visit-plotjuggler-com/54561",
+    "https://discourse.openrobotics.org/t/is-fastdds-default-config-totally-unusable-for-simulation-with-rclpy/54553",
+    "https://discourse.openrobotics.org/t/release-emcon-gz-hardware-interface-a-dds-bypassing-hardware-interface-for-gazebo-harmonic/54549",
+    "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+    "https://openai.com/index/introducing-b2b-signals",
+    "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+    "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+    "https://www.anthropic.com/news/higher-limits-spacex",
+    "https://www.coveragecat.com/careers/engineering/fractional-growth-engineer",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.2",
+    "https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/",
+    "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/",
+    "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/"
   ]
 }
