@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-09",
+  "items": [
+    {
+      "title": "Need Detailed Submission Failure Logs",
+      "link": "https://discourse.openrobotics.org/t/need-detailed-submission-failure-logs/54617",
+      "summary": "<p>Hi everyone, our team name is starvla.</p>\n<p>Our model runs correctly in the local environment, but the submission has failed several times after uploading.</p>\n<p>Our setup uses micromamba to launch a separate inference environment/process for the VLA model, and the model checkpoints/parameters are packaged together with the submitted image.</",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Improving Asset Import Workflow for External Models with Textures (FBX, glTF, GLB, USDZ, etc.)",
+      "link": "https://discourse.openrobotics.org/t/improving-asset-import-workflow-for-external-models-with-textures-fbx-gltf-glb-usdz-etc/54622",
+      "summary": "<p>Hi everyone,</p>\n<p>As an end user, I find it quite difficult to import external 3D models with textures into Gazebo Sim / Fuel. Common formats downloaded from asset sites (FBX, glTF/GLB, USDZ, etc.) are not straightforward to convert to SDF-supported formats.</p>\n<p>I tried gz-usd but the conversion often fails to properly handle textures.</p>\n",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS News for the Week of May 4th, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-may-4th-2026/54641",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112769-ros-news-for-the-week-of-may-4th-2026-1\" name=\"p-112769-ros-news-for-the-week-of-may-4th-2026-1\"></a>ROS News for the Week of May 4th, 2026</h1>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/0/6/0683",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Control Algorithm Dominance Survey",
+      "link": "https://discourse.openrobotics.org/t/control-algorithm-dominance-survey/54632",
+      "summary": "<p>Hey guys, I’m doing a survey to ascertain the dominance of different control engineering paradigms in the industry, to ascertain whether there has been a noticeable shift from classical controls to more modern algorithms, or whether modern algorithms, while looking good on paper, are stuck on research papers for the most part.<br />\nI would love",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Running Codex safely at OpenAI",
+      "link": "https://openai.com/index/running-codex-safely",
+      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "link": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+      "summary": "<p><strong><a href=\"https://twitter.com/trq212/status/2052809885763747935\">Using Claude Code: The Unreasonable Effectiveness of HTML</a></strong></p>\nThought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude.</p>\n<p>The article is crammed with inter",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Dirty Frag: Universal Linux LPE",
+      "link": "https://github.com/V4bel/dirtyfrag",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48068475\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Teaching Claude Why",
+      "link": "https://www.anthropic.com/research/teaching-claude-why",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48066592\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Learn how to successfully design hospital logistics robots at the Robotics Summit",
+      "link": "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
+      "summary": "<p>Experts from Rovex Technologies, SKA Robotics, and ST Engineering Aethon will discuss design considerations for hospital robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/\">Learn how to successfully design hospital logistics robots at the Robotics Sum",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Nyobolt raises funding to bring fast charging to more robots",
+      "link": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
+      "summary": "<p>Nyobolt has grown its revenue fivefold year over year as its high-efficiency power systems enable greater robot performance.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/\">Nyobolt raises funding to bring fast charging to more robots</a> appeared first on <a href=\"https://www.thero",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How coupling stiffness and misalignment compensation impact servo performance",
+      "link": "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/",
+      "summary": "<p>Sponsored by GAM. When engineers evaluate servo performance, the motor, drive and gearbox usually get most of the attention. However, the connection between these parts also has a direct effect on how accurately motion is transmitted and the long-term health of the system. A coupling links the shaft of a servo motor to a gearbox,&#8230;</p>\n<p>T",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

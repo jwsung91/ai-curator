@@ -1,38 +1,4 @@
 {
-  "2026-04-25": [
-    "https://discourse.openrobotics.org/t/analysis-on-fusioncore-vs-robot-localization/54287",
-    "https://discourse.openrobotics.org/t/ros2-console-tools/54280",
-    "https://discourse.openrobotics.org/t/axon-an-open-source-usb-bridge-for-robot-i-o/54291",
-    "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-april-20th-2026/54297",
-    "https://discourse.openrobotics.org/t/community-group-proposal-automated-ros-upgrade-assistant/54293",
-    "https://github.com/ros2/rclcpp/releases/tag/31.0.3",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.2.0",
-    "https://openai.com/index/introducing-gpt-5-5",
-    "https://openai.com/index/gpt-5-5-system-card",
-    "https://openai.com/academy/codex-automations",
-    "https://deepmind.google/blog/decoupled-diloco/",
-    "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-    "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-    "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
-    "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
-    "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
-    "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
-    "https://changelog.com/news/184",
-    "https://changelog.com/news/183",
-    "https://changelog.com/news/182",
-    "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
-    "https://www.thehistoryblog.com/archives/75877",
-    "https://notes.andymatuschak.org/Work_with_the_garage_door_up",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.83.13-nightly",
-    "https://spectrum.ieee.org/video-friday-ping-pong-robot",
-    "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
-    "https://spectrum.ieee.org/chinese-robots-us-ban",
-    "https://www.therobotreport.com/from-sci-fi-to-reality-physical-ais-future-with-dr-jan-liphardt/",
-    "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/",
-    "https://www.therobotreport.com/ss-innovations-is-developing-a-drone-based-surgical-robot/"
-  ],
   "2026-04-26": [
     "https://discourse.openrobotics.org/t/what-are-you-using-for-containerization-in-ros-deployments/54303",
     "https://discourse.openrobotics.org/t/dockerized-robotics-development-should-be-easy/54302",
@@ -222,5 +188,18 @@
     "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/",
     "https://www.therobotreport.com/podcast-colin-angle-discusses-building-companion-robots-familiar-machines-magic/",
     "https://www.therobotreport.com/brightpick-zizka-outline-the-path-to-lights-out-warehouses-at-robotics-summit/"
+  ],
+  "2026-05-09": [
+    "https://discourse.openrobotics.org/t/need-detailed-submission-failure-logs/54617",
+    "https://discourse.openrobotics.org/t/improving-asset-import-workflow-for-external-models-with-textures-fbx-gltf-glb-usdz-etc/54622",
+    "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-may-4th-2026/54641",
+    "https://discourse.openrobotics.org/t/control-algorithm-dominance-survey/54632",
+    "https://openai.com/index/running-codex-safely",
+    "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+    "https://github.com/V4bel/dirtyfrag",
+    "https://www.anthropic.com/research/teaching-claude-why",
+    "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
+    "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
+    "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/"
   ]
 }
