@@ -138,7 +138,7 @@ def generate_summary(items):
                         response_mime_type='application/json',
                     ),
                 )
-                data = json.loads(response.text)
+                data, _ = json.JSONDecoder().raw_decode(response.text.strip())
                 data['items'] = items
                 return data
             except (errors.ClientError, errors.ServerError) as e:
@@ -153,6 +153,13 @@ def generate_summary(items):
                     print(f"  ⏭ {model_name} unavailable, trying next...")
                     break
                 raise e
+            except json.JSONDecodeError as e:
+                print(f"  ✗ JSON parse error: {e}. Retrying...")
+                last_exception = e
+                if attempt == 0:
+                    time.sleep(5)
+                    continue
+                break
             except Exception as e:
                 print(f"  ✗ {e}")
                 last_exception = e
