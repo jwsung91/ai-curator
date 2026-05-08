@@ -199,5 +199,28 @@
     "https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/",
     "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/",
     "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/"
+  ],
+  "2026-05-08": [
+    "https://discourse.openrobotics.org/t/submissions-fail-at-637s-with-empty-stdout-header-only-no-engine-logs/54604",
+    "https://discourse.openrobotics.org/t/lifecore-ros2-composing-reusable-ros-2-python-lifecycle-components/54592",
+    "https://discourse.openrobotics.org/t/getting-ros-2-running-on-android-it-s-easier-than-you-think/54606",
+    "https://discourse.openrobotics.org/t/gazebo-ros-2-runtime-suite-for-harmonic-model-import-bridge-and-ros2-control-managing/54612",
+    "https://discourse.openrobotics.org/t/empty-stdout-file-on-valid-submisison/54603",
+    "https://github.com/ros2/rclcpp/releases/tag/33.0.0",
+    "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+    "https://openai.com/index/parloa",
+    "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+    "https://deepmind.google/blog/alphaevolve-impact/",
+    "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+    "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+    "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+    "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+    "https://www.anthropic.com/research/natural-language-autoencoders",
+    "https://github.com/antirez/ds4",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc7",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.3",
+    "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/",
+    "https://www.therobotreport.com/podcast-colin-angle-discusses-building-companion-robots-familiar-machines-magic/",
+    "https://www.therobotreport.com/brightpick-zizka-outline-the-path-to-lights-out-warehouses-at-robotics-summit/"
   ]
 }

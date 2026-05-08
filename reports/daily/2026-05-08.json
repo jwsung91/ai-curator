@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-08",
+  "items": [
+    {
+      "title": "Submissions fail at ~637s with empty stdout — header only, no engine logs",
+      "link": "https://discourse.openrobotics.org/t/submissions-fail-at-637s-with-empty-stdout-header-only-no-engine-logs/54604",
+      "summary": "<p>Hi all,</p>\n<p>Every submission fails ~637s with empty stdout (just the eval header), empty stderr, result.json: <span class=\"chcklst-box fa fa-square-o\"></span>. Same pattern every time.</p>\n<p>Tried everything from <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/bha51\">@bha51</a>’s thread ( <a class=\"inline-onebox\" href=\"https://",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "lifecore_ros2: composing reusable ROS 2 Python lifecycle components",
+      "link": "https://discourse.openrobotics.org/t/lifecore-ros2-composing-reusable-ros-2-python-lifecycle-components/54592",
+      "summary": "<p>Hi ROS community,</p>\n<p>I would like to share a small ROS 2 project I have been building around lifecycle nodes in Python:</p>\n<ul>\n<li>Core library: <a class=\"inline-onebox\" href=\"https://github.com/apajon/lifecore_ros2\" rel=\"noopener nofollow ugc\">GitHub - apajon/lifecore_ros2: lifecore_ros2 is a modular ROS 2 framework designed to structure ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Getting ROS 2 Running on Android (It’s Easier Than You Think!)",
+      "link": "https://discourse.openrobotics.org/t/getting-ros-2-running-on-android-it-s-easier-than-you-think/54606",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112696-getting-ros-2-running-on-android-its-easier-than-you-think-1\" name=\"p-112696-getting-ros-2-running-on-android-its-easier-than-you-think-1\"></a>Getting ROS 2 Running on Android (It’s Easier Than You Think!)</h1>\n<p>So you want to run ROS 2 on your Android phone? Maybe you want t",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo ROS 2 Runtime Suite for Harmonic: model import, bridge, and ros2 control managing",
+      "link": "https://discourse.openrobotics.org/t/gazebo-ros-2-runtime-suite-for-harmonic-model-import-bridge-and-ros2-control-managing/54612",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112706-gazebo-ros-2-model-runtime-suite-model-import-bridge-discovery-and-control-management-for-gazebo-harmonic-1\" name=\"p-112706-gazebo-ros-2-model-runtime-suite-model-import-bridge-discovery-and-control-management-for-gazebo-harmonic-1\"></a>Gazebo ROS 2 Model Runtime Suite: model i",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Empty Stdout File on Valid Submisison",
+      "link": "https://discourse.openrobotics.org/t/empty-stdout-file-on-valid-submisison/54603",
+      "summary": "<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112692-in-the-last-submission-i-see-status-finished-not-failed-and-some-decent-scores-in-the-result-file-however-the-stdout-is-basically-empty-with-also-team-na-as-if-some-error-occurred-in-the-eval-vm-ai-for-industry-challenge-2026-1\" name=\"p-112692-in-the-last-submission-i-see-statu",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 33.0.0",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/33.0.0",
+      "summary": "33.0.0",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Parloa builds service agents customers want to talk to",
+      "link": "https://openai.com/index/parloa",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Advancing voice intelligence with new models in the API",
+      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "link": "https://deepmind.google/blog/alphaevolve-impact/",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-gemini 0.31",
+      "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.31\">llm-gemini 0.31</a></p>\n        <blockquote>\n<ul>\n<li><code>gemini-3.1-flash-lite</code> is <a href=\"https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available\">no longer a preview</a>. </li>\n</ul>\n</blockqu",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "summary": "<p><strong><a href=\"https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/\">Behind the Scenes Hardening Firefox with Claude Mythos Preview</a></strong></p>\nFascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of vulnerabilities in Firefox:</p>\n<blockquote>\n<p><st",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Notes on the xAI/Anthropic data center deal",
+      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+      "summary": "<p>There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\".</p>\n<p>As I mentioned in my <a href=\"https://simonwillison.net/2026/May/6/code-w-claude-2026/\">live blog of the keynote</a>",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "link": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48053623\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48052537\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "link": "https://github.com/antirez/ds4",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48050751\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0-rc7",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc7",
+      "summary": "disable openmp",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.83.14-stable.patch.3",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.3",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.83.14-stable.patc",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Hugging Face launches agentic toolkit for Reachy Mini",
+      "link": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/",
+      "summary": "<p>Users describe the behavior they'd like to see in plain English, and the agent writes, tests, and ships the code to Reachy Mini.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/\">Hugging Face launches agentic toolkit for Reachy Mini</a> appeared first on <a href=\"https://www.therobotr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Podcast: Colin Angle discusses building companion robots with Familiar Machines & Magic",
+      "link": "https://www.therobotreport.com/podcast-colin-angle-discusses-building-companion-robots-familiar-machines-magic/",
+      "summary": "<p>iRobot co-founder Colin Angle talks about his latest venture, creating next-gen social robots with Familiar Machines.</p>\n<p>The post <a href=\"https://www.therobotreport.com/podcast-colin-angle-discusses-building-companion-robots-familiar-machines-magic/\">Podcast: Colin Angle discusses building companion robots with Familiar Machines &#038; Magi",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Brightpick to outline the path to lights-out warehouses at Robotics Summit",
+      "link": "https://www.therobotreport.com/brightpick-zizka-outline-the-path-to-lights-out-warehouses-at-robotics-summit/",
+      "summary": "<p>Jan Zizka, co-founder and CEO of Brightpick, will outline a practical roadmap to more autonomous warehouse operations. </p>\n<p>The post <a href=\"https://www.therobotreport.com/brightpick-zizka-outline-the-path-to-lights-out-warehouses-at-robotics-summit/\">Brightpick to outline the path to lights-out warehouses at Robotics Summit</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
