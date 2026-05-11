@@ -1,12 +1,4 @@
 {
-  "2026-04-26": [
-    "https://discourse.openrobotics.org/t/what-are-you-using-for-containerization-in-ros-deployments/54303",
-    "https://discourse.openrobotics.org/t/dockerized-robotics-development-should-be-easy/54302",
-    "https://discourse.openrobotics.org/t/community-buildup/54304",
-    "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
-    "https://changelog.com/news/177",
-    "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/"
-  ],
   "2026-04-27": [
     "https://discourse.openrobotics.org/t/i-validated-a-nasa-robot-model-in-minutes-without-ros-setup-or-blender/54310",
     "https://discourse.openrobotics.org/t/private-urdf-xacro-validation-no-storage-ci-ready/54314",
@@ -201,5 +193,18 @@
     "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
     "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
     "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/"
+  ],
+  "2026-05-11": [
+    "https://discourse.openrobotics.org/t/stop-ghost-commands-on-bad-wi-fi-ros2-kinematic-guard-for-cmd-vel-safety/54681",
+    "https://discourse.openrobotics.org/t/roboinfra-is-the-missing-infrastructure-layer-for-robotics-development/54690",
+    "https://discourse.openrobotics.org/t/semev-12-a-practical-ethical-layer-for-ai-and-future-robots/54688",
+    "https://discourse.openrobotics.org/t/rbot-an-open-source-amr-simulation-stack-for-ros-2-jazzy-and-gazebo-harmonic/54694",
+    "https://discourse.openrobotics.org/t/failed-submission-but-an-empty-result-and-stderr-file/54693",
+    "https://jola.dev/posts/running-local-models-on-m4",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc12",
+    "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+    "https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/",
+    "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
+    "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/"
   ]
 }

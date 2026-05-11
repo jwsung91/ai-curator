@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-11",
+  "items": [
+    {
+      "title": "Stop “Ghost Commands” on Bad Wi-Fi: ros2_kinematic_guard for `/cmd_vel` safety",
+      "link": "https://discourse.openrobotics.org/t/stop-ghost-commands-on-bad-wi-fi-ros2-kinematic-guard-for-cmd-vel-safety/54681",
+      "summary": "<p>Hi ROS Community,</p>\n<p>Have you ever tuned DDS QoS for hours, only to see a mobile robot execute a “ghost command” after a bad Wi-Fi / 5G spike?</p>\n<p>I’ve been working on a small ROS 2 project called <strong>ros2_kinematic_guard</strong> to address what I call <strong>Wireless Command Collapse</strong>.</p>\n<p>The issue is not just packet lo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "RoboInfra is the missing infrastructure layer for robotics development",
+      "link": "https://discourse.openrobotics.org/t/roboinfra-is-the-missing-infrastructure-layer-for-robotics-development/54690",
+      "summary": "<p>Robot models defined in URDF act as the “source code” of robotic systems, but the tooling around them is fragmented, slow, and dependent on full ROS installations.</p>\n<p>RoboInfra solves this by providing a unified API platform that enables developers to:</p>\n<ol>\n<li>Validate URDF files instantly with 9+ structural checks</li>\n<li>Analyze robo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "SEMEV-12: A Practical Ethical Layer for AI and Future Robots",
+      "link": "https://discourse.openrobotics.org/t/semev-12-a-practical-ethical-layer-for-ai-and-future-robots/54688",
+      "summary": "<p>Hello everyone,</p>\n<p>I’m Marussa, a solo founder working on QERRA-v2.</p>\n<p>I’ve created SEMEV-12, a 12-dimensional ethical evaluation framework that is designed to work as a real-time safety layer for AI systems and, in the future, autonomous robots. The 12 core dimensions (Coherence Protection, Family Severance, Survival Instinct, Moral Pre",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rbot: an open-source AMR simulation stack for ROS 2 Jazzy and Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/rbot-an-open-source-amr-simulation-stack-for-ros-2-jazzy-and-gazebo-harmonic/54694",
+      "summary": "<p>Hi everyone,</p>\n<p>We are releasing <strong>rbot</strong>, an open-source Autonomous Mobile Robot simulation stack built for <strong>ROS 2 Jazzy</strong> and <strong>Gazebo Harmonic</strong>.</p>\n<p>The goal is simple: give ROS users, students, and robotics teams a practical AMR reference workspace they can run, inspect, and adapt without assem",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Failed submission but an empty result and stderr file",
+      "link": "https://discourse.openrobotics.org/t/failed-submission-but-an-empty-result-and-stderr-file/54693",
+      "summary": "<p>Hello, my submission has Failed, but I the results and stderr file are empty. Can you please check and guide me on how to proceed? The local tests with <code>docker compose -f docker/docker-compose.yaml up</code> work just fine. Here are the submission details:</p>\n<pre><code class=\"lang-auto\">AI for Industry Challenge - 2026\n------\nDate: 2026-0",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Running local models on an M4 with 24GB memory",
+      "link": "https://jola.dev/posts/running-local-models-on-m4",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48089091\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0-rc12",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc12",
+      "summary": "lint fixes",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: AI Gives Robot Hands Human-Like Dexterity",
+      "link": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/robot-hand-grips-a-blender-pitcher-to-pour-a-pink-smoothie-into-a-cup-held-in-another-robot-hand.png?id=66709264&amp;width=1245&amp;height=700&amp;coordinates=0%2C62%2C0%2C63\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How to engineer robot tracks and 7th axis systems for real-world environments",
+      "link": "https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/",
+      "summary": "<p>Experts from Güdel will focus on how harsh and dirty environments impact robot tracks and long-axis linear motion systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/\">How to engineer robot tracks and 7th axis systems for real-world environments</a> appeared first",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Cognex releases fully integrated AI-powered vision system for robotics",
+      "link": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
+      "summary": "<p>The system combines Cognex-developed edge AI, advanced AI, and rule-based vision tools with a high-performance embedded compute.</p>\n<p>The post <a href=\"https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/\">Cognex releases fully integrated AI-powered vision system for robotics</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why traditional robotics data collection is obsolete and what replaces it",
+      "link": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/",
+      "summary": "<p>Eric Chan discusses Rhoda AI's innovative approach to robotics using video data for scalable, efficient learning.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/\">Why traditional robotics data collection is obsolete and what replaces it</a> appeared first on <a hr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
