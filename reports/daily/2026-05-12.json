@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-12",
+  "items": [
+    {
+      "title": "ROSCon Global 2026 Registration Now Open! Workshop and exhibitor info now available!",
+      "link": "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112874-roscon-global-2026-registration-now-open-1\" name=\"p-112874-roscon-global-2026-registration-now-open-1\"></a>ROSCon Global 2026 Registration Now Open!</h1>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112874-workshop-and-exhibitor-info-now-available-2\" name=\"p",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How to avoid one top score team have multiple accounts",
+      "link": "https://discourse.openrobotics.org/t/how-to-avoid-one-top-score-team-have-multiple-accounts/54696",
+      "summary": "<p>30 teams will proceed to next phase. However, in these 30 teams, perhaps, two or more teams belong to one same person.</p>\n<p>How to avoid this situation?</p>\n            <p><small>1 post - 1 participant</small></p>\n            <p><a href=\"https://discourse.openrobotics.org/t/how-to-avoid-one-top-score-team-have-multiple-accounts/54696\">Read ful",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Entity delete fail after trail change",
+      "link": "https://discourse.openrobotics.org/t/entity-delete-fail-after-trail-change/54695",
+      "summary": "<p>When I test three trails, after two nic_card tests and entering the blue port insertation,  it happens that the gripper is stuck in the air and the position seems to be near the nic card in the previous trail.</p>\n<p>I guess that the entity is not deleted,  although there is no any nic card shown in the gazebo sim.</p>\n            <p><small>2 po",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Using LLM in the shebang line of a script",
+      "link": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/llm-shebang\">Using LLM in the shebang line of a script</a></p>\n        <p>Kim_Bruning <a href=\"https://news.ycombinator.com/item?id=48073246#48090590\">on Hacker News</a>:</p>\n<blockquote>\n<p>But seriously, you can put a shebang on an english text file now (if you're sufficiently b",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "link": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48085685\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AMÁLIA and the future of European Portuguese LLMs",
+      "link": "https://duarteocarmo.com/blog/amalia-and-the-future-of-european-portuguese-llms",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48065429\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.101.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0",
+      "summary": "0.101.0 (2026-05-11) Full Changelog: v0.100.0...v0.101.0 Features aws: Add AWS client for Claude Platform on AWS ( 1e70e3a ) Bug Fixes client: add missing f-string prefix in file type error message ( 06d109a ) Chores examples: bump tools_runner.py to claude-sonnet-4-5-20250929 ( #1473 ) ( 1aa8e41 ) examples: update shebang from poetry to uv ( #1497 ) ( ace8f38 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0-rc14: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc14",
+      "summary": "Conflicts: .github/workflows/test.yaml",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
+      "link": "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/",
+      "summary": "<p>RLWRLD said with RLDX-1, it aimed to include things like context memorization or force sensing, which existing models often lack.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/\">RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
