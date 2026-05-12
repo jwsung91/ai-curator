@@ -1,21 +1,4 @@
 {
-  "2026-04-28": [
-    "https://discourse.openrobotics.org/t/feel-like-turtlebot4-navigation-is-a-house-of-cards-for-my-robot/54323",
-    "https://discourse.openrobotics.org/t/acm-computing-surveys/54345",
-    "https://discourse.openrobotics.org/t/intrinsic-s-hq-phase-location/54331",
-    "https://discourse.openrobotics.org/t/did-not-receive-login-details-yet-have-tried-mailing-a-bunch-of-times-already/54321",
-    "https://discourse.openrobotics.org/t/new-collision-avoidance-exercise-at-unibotics-robot-programming-website-dwa/54330",
-    "https://openai.com/index/openai-available-at-fedramp-moderate",
-    "https://openai.com/index/next-phase-of-microsoft-partnership",
-    "https://openai.com/index/open-source-codex-orchestration-symphony",
-    "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
-    "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
-    "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14.rc.1",
-    "https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/",
-    "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/",
-    "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/"
-  ],
   "2026-04-29": [
     "https://discourse.openrobotics.org/t/nic-card-orientation/54349",
     "https://discourse.openrobotics.org/t/custom-capabilities-in-transitive-robotics-again-cloud-robotics-wg-meeting-2026-05-04/54358",
@@ -215,5 +198,21 @@
     "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0",
     "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc14",
     "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/"
+  ],
+  "2026-05-13": [
+    "https://discourse.openrobotics.org/t/visual-identification-of-the-target-port-gt-denied-policy/54741",
+    "https://discourse.openrobotics.org/t/official-state-and-timeline-of-ros2-bazel-build/54756",
+    "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-ik-solver-in-ros2-nero-arm-parametric-inverse-kinematics/54740",
+    "https://discourse.openrobotics.org/t/ecr-score-89-currently-local-hits-3-port-insertions-229-61-max-263-oracle-ceiling-sharing-the-code-for-free/54757",
+    "https://discourse.openrobotics.org/t/handling-high-hardware-communication-latency-360ms/54754",
+    "https://openai.com/academy/codex-for-work/how-finance-teams-use-codex",
+    "https://openai.com/index/nvidia",
+    "https://openai.com/index/what-parameter-golf-taught-us",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+    "https://spectrum.ieee.org/stretch-4-home-robot",
+    "https://www.therobotreport.com/comau-omron-robotics-partner-offer-robotics-more-industries/",
+    "https://www.therobotreport.com/rbr50-2026-report/",
+    "https://www.therobotreport.com/automated-tire-decloaks-smartbay-autonomous-tire-changing/",
+    "https://blogs.nvidia.com/blog/sap-specialized-agents/"
   ]
 }

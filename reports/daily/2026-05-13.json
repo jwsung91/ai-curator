@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-13",
+  "items": [
+    {
+      "title": "Visual identification of the target port (GT-denied policy)",
+      "link": "https://discourse.openrobotics.org/t/visual-identification-of-the-target-port-gt-denied-policy/54741",
+      "summary": "<p>Hi guys,</p>\n<p>I may be missing something, but none of the documentation, the forum and the issues on Github seem to answer this simple question: <strong>How is our GT-denied policy to visually identify the target port?</strong></p>\n<p>What we know:</p>\n<ol>\n<li>\n<p>Ground truth gives access to the tf between gripper tip and target port because",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Official state and timeline of ROS2 Bazel build",
+      "link": "https://discourse.openrobotics.org/t/official-state-and-timeline-of-ros2-bazel-build/54756",
+      "summary": "<p>Hi all</p>\n<p>This is a follow up question to <a class=\"inline-onebox\" href=\"https://discourse.openrobotics.org/t/will-intrinsic-supports-ros2-on-bazel-with-bzlmod/50890\">Will intrinsic supports ros2 on bazel with bzlmod?</a> .</p>\n<p>There has been recent work by Intrinsic to create a ROS2 Bazel build ( <a class=\"inline-onebox\" href=\"https://gi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How to Build a Robot Arm IK Solver in ROS2 | NERO Arm Parametric Inverse Kinematics",
+      "link": "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-ik-solver-in-ros2-nero-arm-parametric-inverse-kinematics/54740",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-112930-complete-tutorial-on-nero-arm-angle-parametric-ik-1\" name=\"p-112930-complete-tutorial-on-nero-arm-angle-parametric-ik-1\"></a>Complete Tutorial on Nero Arm Angle Parametric IK</h1>\n<p><strong>Reference paper from Tsinghua University Paper —— Inverse kinematic optimization for 7-",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ECR score 89 currently, local hits 3-port insertions (229.61 max, 263 oracle ceiling). Sharing the code for free",
+      "link": "https://discourse.openrobotics.org/t/ecr-score-89-currently-local-hits-3-port-insertions-229-61-max-263-oracle-ceiling-sharing-the-code-for-free/54757",
+      "summary": "<p>Solo dev.</p>\n<p>Currently <strong>ranked 40 on ECR with a score of 89</strong>. But my <strong>local average is 198-240 across 3 runs</strong> on the default multiobj_config, max <strong>229.61 with T1+T2 both full insertion</strong>, and <strong>263 proven achievable</strong> with a GT+DELTA oracle.</p>\n<p>The gap is ECR-specific. Last submiss",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Handling high hardware/communication latency (~360ms)",
+      "link": "https://discourse.openrobotics.org/t/handling-high-hardware-communication-latency-360ms/54754",
+      "summary": "<p>Hello,</p>\n<p>I am developing an industrial Autonomous Mobile Robot (AMR) using ROS 2 Humble and a B&amp;R PLC (communicating via OPC UA PubSub/UDP). I have measured a significant round-trip latency between ROS 2 cmd_vel and the actual wheel odometry feedback.</p>\n<p>Hardware Setup:</p>\n<pre><code class=\"lang-auto\">Processor: Intel i5-14500 (PC-",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How finance teams use Codex",
+      "link": "https://openai.com/academy/codex-for-work/how-finance-teams-use-codex",
+      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "link": "https://openai.com/index/nvidia",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0-rc15",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+      "summary": "vulkan: add windows iGPU detection",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Hello Robot Sets the Standard for Practical, Safe Home Robots",
+      "link": "https://spectrum.ieee.org/stretch-4-home-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/tall-wheeled-home-robot-with-an-extended-arm-in-a-modern-living-room-near-a-potted-cactus.jpg?id=66719760&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C187\" /><br /><br /><p>Many roboticists (and at least one robotics journalist) have been seduced by the dream of a robot butler. And th",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Comau and OMRON Robotics partner to offer robotics for more industries",
+      "link": "https://www.therobotreport.com/comau-omron-robotics-partner-offer-robotics-more-industries/",
+      "summary": "<p>Comau and OMRON Robotics are combining robotics, control, and software capabilities in flexible automation for global customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/comau-omron-robotics-partner-offer-robotics-more-industries/\">Comau and OMRON Robotics partner to offer robotics for more industries</a> appeared first on <a href",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "2026 RBR50 Robotics Innovation Awards",
+      "link": "https://www.therobotreport.com/rbr50-2026-report/",
+      "summary": "<p>We unveil the 2026 RBR50 Robotics Innovation Awards, including the Robot of the Year, Startup of the Year, Application of the Year, and Robots for Good honorees.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rbr50-2026-report/\">2026 RBR50 Robotics Innovation Awards</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Automated Tire decloaks with new autonomous tire-changing SmartBay",
+      "link": "https://www.therobotreport.com/automated-tire-decloaks-smartbay-autonomous-tire-changing/",
+      "summary": "<p>Automated Tire says its SmartBay system enables one technician to supervise vehicle tire changing in up to three bays at once.</p>\n<p>The post <a href=\"https://www.therobotreport.com/automated-tire-decloaks-smartbay-autonomous-tire-changing/\">Automated Tire decloaks with new autonomous tire-changing SmartBay</a> appeared first on <a href=\"https:",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+      "link": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+      "summary": "Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined  SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with security and governance controls.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
