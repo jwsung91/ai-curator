@@ -1,19 +1,4 @@
 {
-  "2026-04-29": [
-    "https://discourse.openrobotics.org/t/nic-card-orientation/54349",
-    "https://discourse.openrobotics.org/t/custom-capabilities-in-transitive-robotics-again-cloud-robotics-wg-meeting-2026-05-04/54358",
-    "https://discourse.openrobotics.org/t/seeking-technical-co-founder-for-qerra-v2-ethical-decision-layer-for-robots-ai/54361",
-    "https://discourse.openrobotics.org/t/hardhat-robotics-head-of-sw-head-of-hw-staff-ai-ml-engineer/54368",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-04-27/54348",
-    "https://openai.com/index/openai-on-aws",
-    "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
-    "https://chrisnager.com/blog/doom-runs-in-chatgpt-and-claude/",
-    "https://status.claude.com/incidents/9l93x2ht4s5w",
-    "https://github.com/trycua/cua",
-    "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
-    "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/",
-    "https://www.therobotreport.com/appetronix-acquires-cibotica-to-automate-restaurant-kitchens/"
-  ],
   "2026-04-30": [
     "https://discourse.openrobotics.org/t/micro-ros-public-infrastructure-transition/54375",
     "https://discourse.openrobotics.org/t/clarification-robot-spawn-position-and-initial-joint-angles/54374",
@@ -214,5 +199,25 @@
     "https://www.therobotreport.com/rbr50-2026-report/",
     "https://www.therobotreport.com/automated-tire-decloaks-smartbay-autonomous-tire-changing/",
     "https://blogs.nvidia.com/blog/sap-specialized-agents/"
+  ],
+  "2026-05-14": [
+    "https://discourse.openrobotics.org/t/github-code-hosting/54771",
+    "https://discourse.openrobotics.org/t/community-meeting-wgpu-based-sonar-plugin-for-gazebo-underwater-simulation/54783",
+    "https://discourse.openrobotics.org/t/hardware-troubleshooting-fetch-1501-main-board-24v-rail-not-activating/54764",
+    "https://discourse.openrobotics.org/t/qualification-phase-evaluation/54785",
+    "https://discourse.openrobotics.org/t/parallel-robots-in-ros/54781",
+    "https://openai.com/index/building-codex-windows-sandbox",
+    "https://openai.com/academy/how-finance-teams-use-codex",
+    "https://openai.com/index/autoscout24",
+    "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+    "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+    "https://bitplane.net/log/2026/05/rars/",
+    "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0",
+    "https://www.therobotreport.com/bridging-gap-profitability-meets-sustainability-through-physical-ai/",
+    "https://www.therobotreport.com/alva-industries-brings-frameless-motor-technology-2026-robotics-summit/",
+    "https://www.therobotreport.com/architecting-reliability-how-gmsl-diagnostics-enable-robust-vision/",
+    "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+    "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/"
   ]
 }

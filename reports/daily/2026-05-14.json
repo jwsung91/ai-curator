@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-14",
+  "items": [
+    {
+      "title": "GitHub & Code Hosting",
+      "link": "https://discourse.openrobotics.org/t/github-code-hosting/54771",
+      "summary": "<p>I just want to open a discussion here regarding github.</p>\n<p>These days, <a href=\"https://mrshu.github.io/github-statuses/\" rel=\"noopener nofollow ugc\">github’s availability has been in the gutter</a>. I have been finding it difficult to get any work done whenever I need to do things as simple as read the code to see how certain things are imp",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Community meeting: WGPU-based SONAR Plugin for Gazebo Underwater Simulation",
+      "link": "https://discourse.openrobotics.org/t/community-meeting-wgpu-based-sonar-plugin-for-gazebo-underwater-simulation/54783",
+      "summary": "<p>Hello Community!</p>\n<p>Here’s the information for our next May Meeting where we’ll talk about common sensors in underwater projects: sonars! Here are the details:</p>\n<p>“This project focuses on building a GPU-accelerated SONAR simulation plugin for Gazebo that works across different hardware, instead of being tied to CUDA and NVIDIA GPUs. It r",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Hardware Troubleshooting: Fetch 1501 Main Board - 24V Rail Not Activating",
+      "link": "https://discourse.openrobotics.org/t/hardware-troubleshooting-fetch-1501-main-board-24v-rail-not-activating/54764",
+      "summary": "<p>Hey everyone,</p>\n<p>​I’m currently doing a deep-dive hardware diagnosis on a Fetch 1501-0000 and could use some insight from anyone familiar with the proprietary power distribution logic on these boards.</p>\n<p>Fixing to put on market f</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uplo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Qualification Phase Evaluation",
+      "link": "https://discourse.openrobotics.org/t/qualification-phase-evaluation/54785",
+      "summary": "<p>What does the statement above the Leaderboard mean, “The leaderboard scores are considered official. The top 30 teams will advance to the next stage, subject to a manual review of their submissions to ensure compliance with challenge rules.”?</p>\n<p>Does it mean there will be no further evaluation and the LB score by the end of the qualification",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Parallel robots in ROS",
+      "link": "https://discourse.openrobotics.org/t/parallel-robots-in-ros/54781",
+      "summary": "<p><span lang=\"EN-GB\">Hi everyone,</span></p>\n<p><span lang=\"EN-GB\">in our lab we developed a small educational kit to build a wide variety of parallel robots, it is called PARA-ENGINEER. These robots serve as compact examples for teaching and demonstrations. Some of them can be seen in the image below. Until now, the entire software stack was impl",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "link": "https://openai.com/index/building-codex-windows-sandbox",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How finance teams use Codex",
+      "link": "https://openai.com/academy/how-finance-teams-use-codex",
+      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "link": "https://openai.com/index/autoscout24",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "link": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.32a2",
+      "link": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32a2\">llm 0.32a2</a></p>\n        <p>A bunch of useful stuff in this <a href=\"https://llm.datasette.io/\">LLM</a> alpha, but the most important detail is this one:</p>\n<blockquote>\n<p>Most reasoning-capable OpenAI models now use the <a href=\"https://platform.openai.com",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
+      "link": "https://bitplane.net/log/2026/05/rars/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48126675\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+      "link": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48126000\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.102.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0",
+      "summary": "0.102.0 (2026-05-13) Full Changelog: v0.101.0...v0.102.0 Features api: Add BetaManagedAgentsSearchResultBlock types ( 3681f10 ) api: Add support for cache diagnostics beta ( db51c6c ) internal/types: support eagerly validating pydantic iterators ( 68dabb0 ) Chores api: spec updates ( d579133 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Bridging the gap: Profitability meets sustainability through physical AI",
+      "link": "https://www.therobotreport.com/bridging-gap-profitability-meets-sustainability-through-physical-ai/",
+      "summary": "<p>Join Ranpak’s Omar Asali at the Robotics Summit to learn how physical AI scales sustainable, profitable warehouse operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bridging-gap-profitability-meets-sustainability-through-physical-ai/\">Bridging the gap: Profitability meets sustainability through physical AI</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Alva Industries to bring its frameless motor technology to the Robotics Summit",
+      "link": "https://www.therobotreport.com/alva-industries-brings-frameless-motor-technology-2026-robotics-summit/",
+      "summary": "<p>At the show, Alva will show SlimTorq, one of the thinnest and lightest frameless motors on the market.</p>\n<p>The post <a href=\"https://www.therobotreport.com/alva-industries-brings-frameless-motor-technology-2026-robotics-summit/\">Alva Industries to bring its frameless motor technology to the Robotics Summit</a> appeared first on <a href=\"https",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Architecting Reliability: How GMSL Diagnostics Enable Robust Vision",
+      "link": "https://www.therobotreport.com/architecting-reliability-how-gmsl-diagnostics-enable-robust-vision/",
+      "summary": "<p>Autonomous and robotic systems rely on highbandwidth, lowlatency sensor data to perceive and navigate the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/architecting-reliability-how-gmsl-diagnostics-enable-robust-vision/\">Architecting Reliability: How GMSL Diagnostics Enable Robust Vision</a> appeared first on <a href=\"https://ww",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+      "summary": "Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “Th",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+      "summary": "Agentic AI is changing the way users get work done. Following the success of OpenClaw, the community is embracing new open source agentic frameworks. The latest is Hermes Agent, which crossed 140,000 GitHub stars in under three months.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
