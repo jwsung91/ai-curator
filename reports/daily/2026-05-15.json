@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-15",
+  "items": [
+    {
+      "title": "jros2 Cellphone Sensor Bridge: Native ROS 2 nodes on Android",
+      "link": "https://discourse.openrobotics.org/t/jros2-cellphone-sensor-bridge-native-ros-2-nodes-on-android/54804",
+      "summary": "<p>Hey everyone,</p>\n<p>I was recently reading a book on ROS 2 and went looking for <code>ros2_java</code>. After finding out that project essentially died, I discovered <code>jros2</code> and decided to just build an app to test its limits.</p>\n<p>The result is the jros2 Cellphone Sensor Bridge. It is an Android (Jetpack Compose) application that ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Open Source] rviz_2d_plot_plugin: Live 2D Plotting Inside RViz 2",
+      "link": "https://discourse.openrobotics.org/t/open-source-rviz-2d-plot-plugin-live-2d-plotting-inside-rviz-2/54831",
+      "summary": "<p>Hi everyone,</p>\n<p>I’m happy to share an open-source RViz 2 plugin I have been working on:</p>\n<p><strong>rviz_2d_plot_plugin</strong></p>\n<p>The plugin provides live 2D plotting directly inside RViz 2 as a screen-space overlay. The goal is to make it easier to monitor ROS 2 topic data, controller signals, odometry-related values, diagnostics, ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Submission failed, stderr does not show anything",
+      "link": "https://discourse.openrobotics.org/t/submission-failed-stderr-does-not-show-anything/54810",
+      "summary": "<p>Hello,</p>\n<p>A recent submission I made failed. (Submission number 1377)<br />\nHowever when I click on the stderr file on the portal, it is empty (blank page).</p>\n<p>Could anyone please assist in this?</p>\n<pre><code class=\"lang-auto\">Date: 2026-05-14T00:06:43.049182+00:00\nTeam: PeanutNoButter\nSubmission: 1377\nRun ID: c5ab44a1-dfc5-44c9-949a-7",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "The accountability gap in ROS2: where does \"why did the robot do that?\" get answered?",
+      "link": "https://discourse.openrobotics.org/t/the-accountability-gap-in-ros2-where-does-why-did-the-robot-do-that-get-answered/54841",
+      "summary": "<p>A question I keep running into and don’t have a clean answer for: when a<br />\nROS2-based autonomous system makes a consequential decision — a mobile<br />\nrobot reroutes around a person, an arm stops mid-motion, a drone aborts —<br />\nwe can answer <em>what</em> it did. ros2 bag captures the topics. But <em>why</em> it<br />\ndid that, in a form",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Submissions fail at 334s with empty stdout/stderr",
+      "link": "https://discourse.openrobotics.org/t/submissions-fail-at-334s-with-empty-stdout-stderr/54813",
+      "summary": "<p>After testing the container locally and getting the expected results. Once uploaded, the portal displays a failed status with no stdout file and the stderr files returns 403 forbidden.</p>\n<p>Date: 2026-05-13T02:39:11.686258+00:00<br />\nTeam: FIIRBOTS<br />\nSubmission: 1279<br />\nRun ID: 9e11bacb-a34d-4f2a-a800-dd1cf6cc625e</p>\n            <p><s",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Work with Codex from anywhere",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude for Legal",
+      "link": "https://github.com/anthropics/claude-for-legal",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48141234\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.24.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
+      "summary": "launch: codex app restarts ( #16155 )",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.84.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.84.0",
+      "summary": "⚠️ Heads up — this release contains breaking changes. Read the full release notes here: v1.84.0 release notes Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/Berr",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    }
+  ]
+}
