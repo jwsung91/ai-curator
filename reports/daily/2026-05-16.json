@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-16",
+  "items": [
+    {
+      "title": "Please allow more than one submission on deadline day",
+      "link": "https://discourse.openrobotics.org/t/please-allow-more-than-one-submission-on-deadline-day/54858",
+      "summary": "<p>Please allow at least 3 submissions on the deadline day. We have worked on this for weeks to months and so many people are getting errors and we don’t even see any stderr or stdout. <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/yadunund\">@Yadunund</a> please consider this.</p>\n            <p><small>5 posts - 5 participants</small",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "What patterns of logs or warnings should an automated bridge promote to structured faults in ROS 2?",
+      "link": "https://discourse.openrobotics.org/t/what-patterns-of-logs-or-warnings-should-an-automated-bridge-promote-to-structured-faults-in-ros-2/54865",
+      "summary": "<p>We have been working on <code>ros2_medkit</code>, an Apache 2.0 fault aggregation gateway for ROS 2 that follows the SOVD model (ISO 17978-3). All of it lives in <a class=\"inline-onebox\" href=\"https://github.com/selfpatch/ros2_medkit\" rel=\"noopener nofollow ugc\">GitHub - selfpatch/ros2_medkit: ros2_medkit - diagnostics gateway for ROS 2 robots. ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New packages for Humble Hawksbill 2026-05-14",
+      "link": "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-05-14/54843",
+      "summary": "<p>We’re happy to announce 86 new packages and 565 updates to ROS 2 Humble Hawksbill <img alt=\":humble:\" class=\"emoji emoji-custom\" height=\"20\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/2X/f/fbaa172a2fbaea40452bb7de94bc71564f420ba6.png?v=15\" title=\":humble:\" width=\"20\" /></p>\n<p>This sync was tagged as <a href=\"https://github.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Last submission disappeared",
+      "link": "https://discourse.openrobotics.org/t/last-submission-disappeared/54886",
+      "summary": "<p>My last submission isn’t being showed on the “My Submissions” panel. Have submitted more details on the challenge@intrinsic.ai . Has anyone faced similar issue?</p>\n<p><a class=\"mention\" href=\"https://discourse.openrobotics.org/u/yadunund\">@Yadunund</a> Can you please take a look.</p>\n<p>Regards,</p>\n<p>Nilesh</p>\n            <p><small>1 post - ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "3we: AI-First Python API for Mobile Robot Navigation (Open Source, $300 BOM)",
+      "link": "https://discourse.openrobotics.org/t/3we-ai-first-python-api-for-mobile-robot-navigation-open-source-300-bom/54872",
+      "summary": "<p>Hi everyone,</p>\n<p>I’d like to share **<strong>3we</strong>** — an open-source platform I’ve been building that provides an AI-First Python API on top of ROS2/Nav2, targeting Embodied AI researchers who want to focus on algorithms rather than ROS2 infrastructure.</p>\n<p>## The Problem</p>\n<p>AI researchers (especially those working with VLMs/VL",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim10_10.3.0: Prepare for 10.3.0 release (#3560)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.3.0",
+      "summary": "Signed-off-by: Ian Chen iche@intrinsic.ai",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "link": "https://openai.com/index/sea-david-chen",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
+      "link": "https://spectrum.ieee.org/video-friday-material-handling-robots",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/autonomous-excavator-loads-gravel-into-a-dump-truck-at-a-construction-site.png?id=66736548&amp;width=1245&amp;height=700&amp;coordinates=0%2C88%2C0%2C89\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    }
+  ]
+}

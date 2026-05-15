@@ -1,26 +1,4 @@
 {
-  "2026-05-01": [
-    "https://discourse.openrobotics.org/t/buoyancy-and-hydrodynamics-improvements-across-gazebo/54407",
-    "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-release-illustration-and-swag/54432",
-    "https://discourse.openrobotics.org/t/lyrical-luth-test-and-tutorial-party-instructions/54427",
-    "https://discourse.openrobotics.org/t/number-of-ports-in-trials/54405",
-    "https://discourse.openrobotics.org/t/zenoh-1-8-0-packages-available-on-packages-osrfoundation-org-prerelease/54406",
-    "https://github.com/ros2/rclcpp/releases/tag/32.0.0",
-    "https://github.com/ros-navigation/navigation2/releases/tag/1.3.12",
-    "https://github.com/ros2/ros2/releases/tag/release-lyrical-beta-20260429",
-    "https://openai.com/index/advanced-account-security",
-    "https://openai.com/index/where-the-goblins-came-from",
-    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-    "https://deepmind.google/blog/ai-co-clinician/",
-    "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
-    "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
-    "https://twitter.com/theo/status/2049645973350363168",
-    "https://github.com/ollama/ollama/releases/tag/v0.22.1",
-    "https://spectrum.ieee.org/daimon-robotics-physical-ai",
-    "https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/",
-    "https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/",
-    "https://www.therobotreport.com/launchpad-build-ai-offers-manufacturing-language-model-industrial-automation/"
-  ],
   "2026-05-02": [
     "https://discourse.openrobotics.org/t/ros-lyrical-luth-beta-and-call-for-testing/54441",
     "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-april-27th-2026/54463",
@@ -213,5 +191,17 @@
     "https://github.com/anthropics/claude-for-legal",
     "https://github.com/ollama/ollama/releases/tag/v0.24.0",
     "https://github.com/BerriAI/litellm/releases/tag/v1.84.0"
+  ],
+  "2026-05-16": [
+    "https://discourse.openrobotics.org/t/please-allow-more-than-one-submission-on-deadline-day/54858",
+    "https://discourse.openrobotics.org/t/what-patterns-of-logs-or-warnings-should-an-automated-bridge-promote-to-structured-faults-in-ros-2/54865",
+    "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-05-14/54843",
+    "https://discourse.openrobotics.org/t/last-submission-disappeared/54886",
+    "https://discourse.openrobotics.org/t/3we-ai-first-python-api-for-mobile-robot-navigation-open-source-300-bom/54872",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.3.0",
+    "https://openai.com/index/personal-finance-chatgpt",
+    "https://openai.com/index/sea-david-chen",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+    "https://spectrum.ieee.org/video-friday-material-handling-robots"
   ]
 }
