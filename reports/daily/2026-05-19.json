@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-19",
+  "items": [
+    {
+      "title": "Introducing OLO: a browser-based ROS 2 platform for simulation, visualisation and robot programming",
+      "link": "https://discourse.openrobotics.org/t/introducing-olo-a-browser-based-ros-2-platform-for-simulation-visualisation-and-robot-programming/54932",
+      "summary": "<p>Hi everyone,</p>\n<p>I wanted to introduce <strong>OLO Robotics</strong>, a UK-based robotics software company building a browser-based platform for programming, simulating, visualising and controlling robots using ROS 2.</p>\n<p>Our aim is not to replace ROS 2, Gazebo, Nav2, MoveIt 2 or the wider open robotics ecosystem. It is the opposite: we ar",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Title: Would your team use an open-loop regression testing tool for ROS 2 autonomy stacks?",
+      "link": "https://discourse.openrobotics.org/t/title-would-your-team-use-an-open-loop-regression-testing-tool-for-ros-2-autonomy-stacks/54919",
+      "summary": "<p>I’m exploring an idea to help improve the CI process for robotics teams and would love honest feedback from engineers who work on deployed robots.</p>\n<p>A common workflow I hear from robotics teams looks something like:</p>\n<p>A developer makes a perception/localization/planning change → they manually replay a rosbag/MCAP log → inspect outputs ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Open Robotics in the Age of Embodied AI",
+      "link": "https://discourse.openrobotics.org/t/open-robotics-in-the-age-of-embodied-ai/54933",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113260-open-robotics-in-the-age-of-embodied-ai-why-the-stack-has-to-be-open-all-the-way-down-1\" name=\"p-113260-open-robotics-in-the-age-of-embodied-ai-why-the-stack-has-to-be-open-all-the-way-down-1\"></a>Open Robotics in the Age of Embodied AI: Why the Stack Has to Be Open All the Way",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Pre-release Distribution Freeze for Lyrical Luth",
+      "link": "https://discourse.openrobotics.org/t/pre-release-distribution-freeze-for-lyrical-luth/54938",
+      "summary": "<p>As we prepare to launch ROS Lyrical Luth later this week, effective immediately we are <img alt=\":ice:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/ice.png?v=15\" title=\":ice:\" width=\"20\" />freezing <img alt=\":ice:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/ice.png?v=15\" title=\":ice:\" width=\"20\" /",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "RoboInfra CI/CD APIs for URDF validation, auto-fix, MoveIt config generation, and Isaac Sim USD conversion",
+      "link": "https://discourse.openrobotics.org/t/roboinfra-ci-cd-apis-for-urdf-validation-auto-fix-moveit-config-generation-and-isaac-sim-usd-conversion/54937",
+      "summary": "<p>Hi everyone, I’ve been building RoboInfra, a developer-focused infrastructure platform for robot model workflows.</p>\n<p>The goal is simple:</p>\n<p>Stop robotics developers from wasting hours debugging URDFs manually.</p>\n<p>RoboInfra provides hosted APIs + CI/CD tooling for common ROS pain points:</p>\n<h2><a class=\"anchor\" href=\"https://discour",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "link": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "link": "https://openai.com/index/databricks",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "link": "https://deepmind.google/blog/ai-co-clinician/",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-llm-limits 0.1a0",
+      "link": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm-limits/releases/tag/0.1a0\">datasette-llm-limits 0.1a0</a></p>\n        <p>This plugin works in conjunction with <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> and <a href=\"https://github.com/datasette/datasette-llm-accountant\">datasette-llm-accou",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic acquires Stainless",
+      "link": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48182281\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.85.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.85.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.85.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+      "link": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-curbside-trash-can-being-lifted-by-a-mechanical-arm-attached-to-the-side-of-a-garbage-truck.jpg?id=66736070&amp;width=1245&amp;height=700&amp;coordinates=0%2C178%2C0%2C178\" /><br /><br /><p>For years, the field of robotics has used the terms “dull, dirty, and dangerous” (DDD) to describe the types",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agentic AI for Robot Teams",
+      "link": "https://events.bizzabo.com/867156",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/johns-hopkins-whiting-school-of-engineering-logo-with-shield-emblem.png?id=66700256&amp;width=980\" /><br /><br /><p>This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challen",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "summary": "The first NVIDIA Vera CPUs arrived at three of the world's leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay, SpaceXAI in Palo Alto — followed by a delivery to Oracle Cloud Infrastructure in Santa Clara on Monday. NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck hand-delivered them.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
