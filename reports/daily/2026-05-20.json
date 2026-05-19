@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-20",
+  "items": [
+    {
+      "title": "[Nav2] Poll on thoughts of AI bots / copy+paste jobs in repository interactions",
+      "link": "https://discourse.openrobotics.org/t/nav2-poll-on-thoughts-of-ai-bots-copy-paste-jobs-in-repository-interactions/54962",
+      "summary": "<p>Hi all, Your Friendly (to humans) Neighborhood Navigator here</p>\n<p>Over the past couple of months, I’ve become inundated with PRs from AI agents and/or users which are copy pasting AI outputs in PR descriptions, code blocks, and so forth. Some seem reasonable on the surface, but others will make subtle changes deep in the code to fix issues th",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Standardizing SYSTEM_DEFAULT QoS resolution across RMW implementations",
+      "link": "https://discourse.openrobotics.org/t/standardizing-system-default-qos-resolution-across-rmw-implementations/54952",
+      "summary": "<p>When a node uses <code>SystemDefaultsQoS()</code> (or leaves any policy to <code>*_SYSTEM_DEFAULT</code>), the intent is clear: delegate QoS<br />\nresolution to the underlying middleware. In theory, this is the right hook for system-wide QoS configuration without touching<br />\nnode code.</p>\n<p>In practice, the behavior is inconsistent across R",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "LiDAR Selection Guide: Practical Comparison Between M360 and MID-360 After Purchasing 20+ Units",
+      "link": "https://discourse.openrobotics.org/t/lidar-selection-guide-practical-comparison-between-m360-and-mid-360-after-purchasing-20-units/54955",
+      "summary": "<p>Our company specializes in robot integration solutions, and over the years, we have used quite a few LiDAR systems. Starting last year, we have extensively used Livox series LiDARs — mainly the <strong>MID-360</strong> and <strong>M360</strong>. To date, we have accumulated over 20 purchases across different projects.</p>\n<p>Here’s a practical c",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Hello from a ROS 2 Learner & Wheelchair Robot Builder",
+      "link": "https://discourse.openrobotics.org/t/hello-from-a-ros-2-learner-wheelchair-robot-builder/54960",
+      "summary": "<p>Hello ROS Community! <img alt=\":waving_hand:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/waving_hand.png?v=15\" title=\":waving_hand:\" width=\"20\" /></p>\n<p>My name is Hariss Abdraman Tahir, and I’m a final-year Computer Engineering student at the University of Maiduguri with a strong passion for robotics, autonomous system",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 URDF Mesh File Types",
+      "link": "https://discourse.openrobotics.org/t/ros2-urdf-mesh-file-types/54954",
+      "summary": "<p>This is highly related to the discussion on <a href=\"https://discourse.openrobotics.org/t/web-based-urdf-visualization-tool-and-library-opensourced-from-nasa-jpl/14404\">this thread</a>, but not really relevant to the title/stated purpose of the thread so I decided to make a new one.</p>\n<p>With the release of Blender 5.0, the Collada (<code>dae<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "link": "https://openai.com/index/advancing-content-provenance",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "link": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "link": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Gemini Omni",
+      "link": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The last six months in LLMs in five minutes",
+      "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+      "summary": "<p>I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the <a href=\"https://tools.simonwillison.net/annotated-presentations\">latest iteration</a> of my <a href=\"https://simonwillison.net/2023/Aug/6/annotated-presentations/\">annotated presentation tool</a>.</p>\n\n<div class=\"slide\" id=\"5-minutes-llms.001.j",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I’ve joined Anthropic",
+      "link": "https://twitter.com/karpathy/status/2056753169888334312",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48194352\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
+      "link": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48194614\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+      "link": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48170007\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.103.1",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.1",
+      "summary": "0.103.1 (2026-05-19) Full Changelog: v0.103.0...v0.103.1 Bug Fixes runner: skip tool calls SessionToolRunner does not own ( #1817 ) ( 9425c6a )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
+      "link": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-robotic-arm-holding-a-circuit-board.jpg?id=66763729&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>Electronic waste is moving up on regulatory agendas in 2026: New European <a href=\"https://environment.ec.europa.eu/topics/waste-and-recycling/waste-shipments_en\" r",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Home Robot Safety Is All About Relationships",
+      "link": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-an-elderly-persons-fingers-touching-the-silicon-hand-of-a-humanoid-robot.jpg?id=66748937&amp;width=1245&amp;height=700&amp;coordinates=0%2C469%2C0%2C469\" /><br /><br /><p>The International Organization for Standardization (ISO) is updating its <a href=\"https://www.iso.org/standard/53820.",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
+      "link": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+      "summary": "Agentic AI inference at one-tenth the cost per token with NVIDIA Vera Rubin NVL72. Agent sandboxes run 50% faster on NVIDIA Vera than traditional CPUs — while enterprise data queries are up to 3x faster with the Vera CPU. And 5,000 enterprises like Lilly, Samsung and Honeywell are running AI workloads on Dell AI Factories [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

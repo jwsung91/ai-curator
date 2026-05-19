@@ -1,10 +1,4 @@
 {
-  "2026-05-03": [
-    "https://github.com/microsoft/vscode/pull/310226",
-    "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
-    "https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/",
-    "https://www.therobotreport.com/art-crossing-chasm-when-startup-ready-enterprise-adoption/"
-  ],
   "2026-05-04": [
     "https://discourse.openrobotics.org/t/i-tested-urdf-format-conversion-on-nasa-valkyrie-ur5-and-franka-panda-results-and-a-free-tool/54476",
     "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
@@ -206,5 +200,25 @@
     "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
     "https://events.bizzabo.com/867156",
     "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+  ],
+  "2026-05-20": [
+    "https://discourse.openrobotics.org/t/nav2-poll-on-thoughts-of-ai-bots-copy-paste-jobs-in-repository-interactions/54962",
+    "https://discourse.openrobotics.org/t/standardizing-system-default-qos-resolution-across-rmw-implementations/54952",
+    "https://discourse.openrobotics.org/t/lidar-selection-guide-practical-comparison-between-m360-and-mid-360-after-purchasing-20-units/54955",
+    "https://discourse.openrobotics.org/t/hello-from-a-ros-2-learner-wheelchair-robot-builder/54960",
+    "https://discourse.openrobotics.org/t/ros2-urdf-mesh-file-types/54954",
+    "https://openai.com/index/advancing-content-provenance",
+    "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+    "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+    "https://deepmind.google/blog/introducing-gemini-omni/",
+    "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+    "https://twitter.com/karpathy/status/2056753169888334312",
+    "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+    "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.1",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+    "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+    "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+    "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/"
   ]
 }
