@@ -1,12 +1,4 @@
 {
-  "2026-05-04": [
-    "https://discourse.openrobotics.org/t/i-tested-urdf-format-conversion-on-nasa-valkyrie-ur5-and-franka-panda-results-and-a-free-tool/54476",
-    "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-    "https://github.com/bschoepke/ableton-live-mcp",
-    "https://github.com/ollama/ollama/releases/tag/v0.23.0",
-    "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
-    "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/"
-  ],
   "2026-05-05": [
     "https://discourse.openrobotics.org/t/rvizsplat-visualize-3d-gaussian-splats-in-rviz/54487",
     "https://discourse.openrobotics.org/t/ouster-unveil-the-first-native-color-lidar-sensor/54504",
@@ -220,5 +212,23 @@
     "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
     "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
     "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/"
+  ],
+  "2026-05-21": [
+    "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm/54969",
+    "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+    "https://openai.com/index/ramp",
+    "https://openai.com/index/the-next-phase-of-education-for-countries",
+    "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+    "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+    "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+    "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
+    "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
+    "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+    "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
+    "https://www.alexselimov.com/posts/forge_fragmentation/",
+    "https://spectrum.ieee.org/robotics-ai-breakthrough",
+    "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
+    "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
+    "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/"
   ]
 }

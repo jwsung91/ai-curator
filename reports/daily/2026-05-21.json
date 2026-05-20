@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-21",
+  "items": [
+    {
+      "title": "How to Build a Robot Arm RL Grasping System in Isaac Lab | NERO Arm",
+      "link": "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm/54969",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113332-how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm-1\" name=\"p-113332-how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm-1\"></a>How to Build a Robot Arm RL Grasping System in Isaac Lab | NERO Arm</h1>\n<p>This project presents a reinforcement learnin",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "link": "https://openai.com/index/ramp",
+      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Google I/O, Gemini Spark, Antigravity",
+      "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+      "summary": "<p>It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\".</p>\n<p>I actually prefer to write about things that are in general availability, because I've had instances in the past where the previews didn't match",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-gemini 0.32",
+      "link": "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.32\">llm-gemini 0.32</a></p>\n        <blockquote>\n<ul>\n<li>New model <code>gemini-3.5-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/\">Gemini 3.5 Flash</a>.</li>\n</ul>\n</blockquote>\n<p>See also my <a",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+      "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+      "summary": "<p>Today at Google I/O, Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/\">released Gemini 3.5 Flash</a>. This one skipped the <code>-preview</code> modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key products:</p>\n<blockquote>\n<p>3.5 Fla",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-llm-accountant 0.1a4",
+      "link": "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm-accountant/releases/tag/0.1a4\">datasette-llm-accountant 0.1a4</a></p>\n        <blockquote>\n<ul>\n<li>Fixed bug tracking chains of responses. Refs <a href=\"https://github.com/datasette/datasette-llm/issues/7\">datasette-llm#7</a></li>\n</ul>\n</blockquote>\n    \n    \n       ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-gemini 0.32a0",
+      "link": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.32a0\">llm-gemini 0.32a0</a></p>\n        <blockquote>\n<ul>\n<li>Compatible with <code>llm&gt;=0.32a0</code> alpha - adds the ability to stream reasoning tokens.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gemini\">g",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48207660\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+      "link": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48214188\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Handling the great code forge fragmentation",
+      "link": "https://www.alexselimov.com/posts/forge_fragmentation/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48169818\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Will Robotics Have a ChatGPT Moment?",
+      "link": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-collection-of-5-robots-against-colored-backgrounds.jpg?id=66734221&amp;width=1245&amp;height=700&amp;coordinates=0%2C88%2C0%2C88\" /><br /><br /><p>Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perform tedious tasks in warehouses, care",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Inside Verobotics’ edge AI robotics deployment at NVIDIA’s Israel campus",
+      "link": "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
+      "summary": "<p>Verobotics said its robot turns vertical surfaces from risky, one-off access zones into repeatable, data-rich robotic workspaces.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/\">Inside Verobotics&#8217; edge AI robotics deployment at NVIDIA&#8217;s Israel campus</a>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Rovex and Sphaira pioneer autonomous patient transport",
+      "link": "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
+      "summary": "<p>Patient mobility in hospital settings is ripe for automation, with Rovex and Sphaira among the innovators taking different approaches.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/\">Rovex and Sphaira pioneer autonomous patient transport</a> appeared first on <a href=\"https://www.thero",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Regal Rexnord to bring its motion control portfolio to the Robotics Summit",
+      "link": "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/",
+      "summary": "<p>At the event, Regal Rexnord will demonstrate how its unified motion ecosystem supports modern robotic system design.</p>\n<p>The post <a href=\"https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/\">Regal Rexnord to bring its motion control portfolio to the Robotics Summit</a> appeared first on <a href=",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
