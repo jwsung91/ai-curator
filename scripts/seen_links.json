@@ -1,19 +1,4 @@
 {
-  "2026-05-05": [
-    "https://discourse.openrobotics.org/t/rvizsplat-visualize-3d-gaussian-splats-in-rviz/54487",
-    "https://discourse.openrobotics.org/t/ouster-unveil-the-first-native-color-lidar-sensor/54504",
-    "https://discourse.openrobotics.org/t/overall-competition-scoring/54485",
-    "https://discourse.openrobotics.org/t/interop-sig-7-may-2026-open-rmf-upcoming-zone-feature/54490",
-    "https://discourse.openrobotics.org/t/ros-stack-for-cognitive-machines/54514",
-    "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-    "https://www.b-list.org/weblog/2026/apr/09/llms/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.98.1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.1",
-    "https://spectrum.ieee.org/familiar-machines-and-magic",
-    "https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/",
-    "https://www.therobotreport.com/inside-colin-angle-bid-build-companion-robots-familiar/",
-    "https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/"
-  ],
   "2026-05-06": [
     "https://discourse.openrobotics.org/t/ros-2-in-a-nutshell-a-survey-is-now-published-in-acm-computing-surveys/54524",
     "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-05-08/54537",
@@ -230,5 +215,28 @@
     "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
     "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
     "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/"
+  ],
+  "2026-05-22": [
+    "https://discourse.openrobotics.org/t/cfp-oceans-2026-monterey-workshops-tutorials-deadline-extended/54986",
+    "https://discourse.openrobotics.org/t/ros-oe-community-meeting-56-2026-05-25-3pm-utc/54995",
+    "https://discourse.openrobotics.org/t/discussion-why-vision-guided-robots-still-fail-in-production-even-when-detection-works/54980",
+    "https://discourse.openrobotics.org/t/medium-articles-with-overview-of-useful-ros-2-packages/54997",
+    "https://discourse.openrobotics.org/t/spatialdds-open-spatial-computing-protocol-with-ros-2-bridge/54988",
+    "https://openai.com/index/adventhealth",
+    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+    "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+    "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+    "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+    "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+    "https://arxiv.org/abs/2605.12460",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.85.1",
+    "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+    "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+    "https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/",
+    "https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/",
+    "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
+    "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
   ]
 }

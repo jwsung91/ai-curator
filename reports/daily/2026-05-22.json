@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-22",
+  "items": [
+    {
+      "title": "CfP: OCEANS 2026 Monterey Workshops & Tutorials Deadline Extended",
+      "link": "https://discourse.openrobotics.org/t/cfp-oceans-2026-monterey-workshops-tutorials-deadline-extended/54986",
+      "summary": "<p>IEEE/OES OCEANS 2026 Monterey (Mon-Thur 21-24 Sep 2026, Monterey, California) deadline for Workshop &amp; Tutorial proposals has been extended to Tuesday 26 May 2026.</p>\n<p>If you are working in ocean science, engineering, technology, autonomy, AI/ML, sensing, data systems or related fields, this is a great opportunity to contribute to the tech",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS OE Community Meeting #56 - 2026/05/25 @ 3pm UTC",
+      "link": "https://discourse.openrobotics.org/t/ros-oe-community-meeting-56-2026-05-25-3pm-utc/54995",
+      "summary": "<p>Our next meeting is on Monday. Open discussion items include: Automated CI testing, desktop support, container support, packagegroups for regression testing</p>\n<ul>\n<li>\n<p><strong>Date/Time</strong><br />\nMonday, May 25th, 2026 @ 3pm UTC, (5pm CEST / 11am EDT / 8am PDT)</p>\n</li>\n<li>\n<p><strong>Google Meet</strong><br />\nVideo call link: <a h",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Discussion] Why Vision-Guided Robots Still Fail in Production Even When Detection Works",
+      "link": "https://discourse.openrobotics.org/t/discussion-why-vision-guided-robots-still-fail-in-production-even-when-detection-works/54980",
+      "summary": "<p>Hi, guys<br />\nI developing diagnostic programs around whether  the command stream, feedback stream, timing window, and physical responses in ROS remain consistent, with a lightweight experimental software package named <code>ros2_kinematic_guard</code> . I have identified recurring issues in the vision‑guided assembly system:</p>\n<p>The robot “",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Medium articles with overview of useful ROS 2 packages",
+      "link": "https://discourse.openrobotics.org/t/medium-articles-with-overview-of-useful-ros-2-packages/54997",
+      "summary": "<p>Hi community.</p>\n<p>I have published two articles on useful tools for ROS 2 on Medium. <a href=\"https://medium.com/@sigmoid90/useful-tui-tools-for-ros-2-4ea881eda6ff\" rel=\"noopener nofollow ugc\">First</a> article on TUI based packages and <a href=\"https://medium.com/@sigmoid90/web-based-tools-for-ros2-6dbc5ae6e674\" rel=\"noopener nofollow ugc\">s",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "SpatialDDS — open spatial computing protocol with ROS 2 bridge",
+      "link": "https://discourse.openrobotics.org/t/spatialdds-open-spatial-computing-protocol-with-ros-2-bridge/54988",
+      "summary": "<p>Hi all,</p>\n<p>I’m from Open AR Cloud (<a href=\"http://openarcloud.org\" rel=\"noopener nofollow ugc\">openarcloud.org</a>), a volunteer-run non-profit promoting open and interoperable spatial computing. Our initial focus was around world-scale augmented reality and key enablers like spatial discovery and visual positioning.</p>\n<p>More recently, w",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "link": "https://openai.com/index/adventhealth",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Datasette Agent",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "summary": "<p>We just <a href=\"https://datasette.io/blog/2026/datasette-agent/\">announced the first release of Datasette Agent</a>, a new extensible AI assistant for Datasette. I've been working on my <a href=\"https://llm.datasette.io/\">LLM</a> Python library for just over three years now, and Datasette Agent represents the moment that LLM and <a href=\"https:",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent-sprites 0.1a0",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-sprites/releases/tag/0.1a0\">datasette-agent-sprites 0.1a0</a></p>\n        <p>A Datasette Agent plugin for running commands in a <a href=\"https://sprites.dev\">Fly Sprites</a> sandbox.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">s",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent-charts 0.1a2",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-charts/releases/tag/0.1a2\">datasette-agent-charts 0.1a2</a></p>\n        <blockquote>\n<ul>\n<li>\"View SQL query\" buttons below rendered charts.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent 0.1a3",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a3\">datasette-agent 0.1a3</a></p>\n        <blockquote>\n<ul>\n<li>\"View SQL query\" buttons for both visible tables and collapsed SQL result tool calls.</li>\n<li>Don't display empty reasoning chunks</li>\n<li>Improved handling of truncated responses - tab",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "link": "https://arxiv.org/abs/2605.12460",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48227923\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.104.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0",
+      "summary": "0.104.0 (2026-05-21) Full Changelog: v0.103.1...v0.104.0 Features api: Add support for thinking-token-count beta for estimated tokens in thinking block deltas when streaming ( 80d0fdf )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.85.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.85.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.85.1 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Open-Source Software Is Starting to Help Robots Think",
+      "link": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-smiling-emoji-with-red-eyes-and-a-grey-face-resembling-a-robot.jpg?id=66750560&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>When a group of academics <a href=\"https://spectrum.ieee.org/open-source-robotics-hardware-research-and-innovation\" target=\"_self\">starte",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
+      "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/hands-controlling-speaker-light-bulb-and-drone-against-minimalist-white-walls.jpg?id=66718902&amp;width=1245&amp;height=700&amp;coordinates=160%2C0%2C160%2C0\" /><br /><br /><p><em>This sponsored article is brought to you by <a href=\"https://wetourrobotics.com/\" target=\"_blank\">Wetour Robotics</a>.</",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Brain Corp partners with UC San Diego to help robots operate in complex environments",
+      "link": "https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/",
+      "summary": "<p>The AI collaboration with UC San Diego builds on Brain’s operational footprint, including more than 50,000 robots deployed globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/\">Brain Corp partners with UC San Diego to help robots operate in complex environmen",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "FANUC partners with Google to advance physical AI in its robots",
+      "link": "https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/",
+      "summary": "<p>Since FANUC released its physical AI system at IREX in Tokyo, customer interest has grown rapidly, and it is working with Google and NVIDIA.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/\">FANUC partners with Google to advance physical AI in its robots</a> appeared first on <a href=\"http",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Humanoid partners with Bosch, Schaeffler to scale robot production",
+      "link": "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
+      "summary": "<p>Humanoid is working with Bosch to make and distribute its HMND robot in Europe after also partnering with Siemens and Schaeffler.</p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/\">Humanoid partners with Bosch, Schaeffler to scale robot production</a> appeared first on <a href",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "summary": "At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
