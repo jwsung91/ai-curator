@@ -1,14 +1,14 @@
 # AI Curator
 
 로보틱스 소프트웨어 엔지니어를 위한 데일리 기술 큐레이션 사이트.
-AI가 매일 KST 06:00에 기술 소식을 수집·분류·요약하여 GitHub Pages에 자동 배포합니다.
+AI가 전날의 로보틱스/AI 기술 소식을 KST 06:00에 수집·분류·요약하여 GitHub Pages에 자동 배포합니다.
 
 **→ [jwsung91.github.io/ai-curator](https://jwsung91.github.io/ai-curator)**
 
 ## 아키텍처
 
 ```
-GitHub Actions (매일 06:00 / 매주 토 09:00 KST)
+GitHub Actions (화~토 06:00 / 매주 토 09:00 KST)
   └─ scripts/
        ├─ main.py (Daily)      RSS 수집 → Gemini 요약 → reports/daily/ 생성
        └─ weekly_main.py (Weekly) 데일리 데이터 취합 → Gemini 분석 → reports/weekly/ 생성
@@ -20,8 +20,8 @@ GitHub Actions (매일 06:00 / 매주 토 09:00 KST)
 
 리포트는 크게 두 가지 유형으로 제공됩니다.
 
-- **Daily Reports**: 매일 아침 로보틱스, AI 도구, 업계 동향의 최신 소식을 빠르게 전달합니다.
-- **Weekly Reports**: 한 주간의 데이터를 취합하여 핵심 흐름과 심층 분석을 제공합니다.
+- **Daily Reports**: 전날의 로보틱스/AI 기술 소식을 KST 06:00에 발행합니다.
+- **Weekly Reports**: 월~금 리포트를 모아 토요일 KST 09:00에 핵심 흐름과 심층 분석을 제공합니다.
 
 | 섹션 | 소스 |
 |------|------|

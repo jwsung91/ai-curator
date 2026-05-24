@@ -7,11 +7,14 @@ export async function GET(context: any) {
 
   const site = new URL(import.meta.env.BASE_URL, context.site);
 
+  const dailyPubDate = (report: (typeof curation)[number]) =>
+    new Date(report.data.publishedAt ?? `${report.data.date}T06:00:00+09:00`);
+
   const dailyItems = curation
-    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+    .sort((a, b) => dailyPubDate(b).getTime() - dailyPubDate(a).getTime())
     .map((report) => ({
       title: report.data.title,
-      pubDate: new Date(report.data.date + 'T06:00:00+09:00'),
+      pubDate: dailyPubDate(report),
       description: report.data.summary,
       link: `${site}curation/${report.id}/`,
     }));

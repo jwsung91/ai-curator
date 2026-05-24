@@ -75,11 +75,13 @@ jobs:
       - name: Generate Job Summary (Daily)
         if: always() && steps.daily.outcome == 'success'
         run: |
-          REPORT_DATE=$(TZ='Asia/Seoul' date +'%Y-%m-%d')
+          COVERAGE_DATE=$(TZ='Asia/Seoul' date -d 'yesterday' +'%Y-%m-%d')
+          PUBLISHED_AT=$(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')
           echo "### 🗞️ AI Curator: Daily Report Ready" >> $GITHUB_STEP_SUMMARY
-          echo "오늘의 기술 소식이 정리되었습니다. 아래 링크에서 확인하세요." >> $GITHUB_STEP_SUMMARY
-          echo "📅 **날짜**: $REPORT_DATE" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 **[데일리 리포트 바로가기](https://jwsung91.github.io/ai-curator/curation/$REPORT_DATE/)**" >> $GITHUB_STEP_SUMMARY
+          echo "전날의 로보틱스/AI 기술 소식이 KST 06:00에 발행되었습니다." >> $GITHUB_STEP_SUMMARY
+          echo "📅 **커버 날짜**: $COVERAGE_DATE" >> $GITHUB_STEP_SUMMARY
+          echo "🕕 **발행 시각**: $PUBLISHED_AT" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **[데일리 리포트 바로가기](https://jwsung91.github.io/ai-curator/curation/$COVERAGE_DATE/)**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
       - name: Generate Job Summary (Weekly)
@@ -87,7 +89,7 @@ jobs:
         run: |
           WEEK_ID=$(TZ='Asia/Seoul' date +'%G-W%V')
           echo "### 📚 AI Curator: Weekly Report Ready" >> $GITHUB_STEP_SUMMARY
-          echo "이번 주의 주요 소식을 모은 위클리 리포트가 발행되었습니다." >> $GITHUB_STEP_SUMMARY
+          echo "월~금 리포트를 모은 위클리 리포트가 토요일 KST 09:00에 발행되었습니다." >> $GITHUB_STEP_SUMMARY
           echo "🗓️ **주차**: $WEEK_ID" >> $GITHUB_STEP_SUMMARY
           echo "🔗 **[위클리 리포트 바로가기](https://jwsung91.github.io/ai-curator/weekly/$WEEK_ID/)**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
