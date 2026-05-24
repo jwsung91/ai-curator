@@ -14,6 +14,8 @@ SECTION_DEFS = [
     ('section_industry', '📈 트렌드'),
 ]
 
+CITATION_RE = re.compile(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()')
+
 
 def add_citation_anchors(text: str) -> str:
     """[1] 또는 [2, 3, 4] 형태의 인용 번호를 앵커 링크로 변환."""
@@ -24,7 +26,45 @@ def add_citation_anchors(text: str) -> str:
         )
         return f'[{linked}]'
     # 마크다운 링크 [text](url) 와 이미지 ![](url)는 제외
-    return re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_bracket, text)
+    return CITATION_RE.sub(replace_bracket, text)
+
+
+def _citation_indices(text: str) -> list[int]:
+    indices: list[int] = []
+    for match in CITATION_RE.finditer(text or ''):
+        for n_str in match.group(1).split(','):
+            n_str = n_str.strip()
+            if n_str.isdigit():
+                indices.append(int(n_str))
+    return indices
+
+
+def validate_daily_report(data: dict, item_count: int | None = None) -> None:
+    required_keys = [
+        'one_sentence_summary',
+        'cross_insight',
+        'section_robotics',
+        'section_devtools',
+        'section_industry',
+    ]
+    missing = [key for key in required_keys if key not in data]
+    if missing:
+        raise ValueError(f"Daily report is missing required keys: {', '.join(missing)}")
+
+    for key in required_keys:
+        if not isinstance(data.get(key), str):
+            raise ValueError(f"Daily report field '{key}' must be a string")
+
+    if item_count is None:
+        item_count = len(data.get('items', []))
+
+    section_text = '\n'.join(data.get(key, '') for key, _ in SECTION_DEFS)
+    invalid = sorted({idx for idx in _citation_indices(section_text) if idx < 1 or idx > item_count})
+    if invalid:
+        raise ValueError(
+            f"Daily report contains out-of-range citation indices: {invalid} "
+            f"(valid range: 1-{item_count})"
+        )
 
 
 def _cross_insight_instruction(n_items: int) -> str:
@@ -173,7 +213,7 @@ def _renumber_citations(section_contents):
     combined = '\n'.join(c for c in section_contents if c)
 
     seen = []
-    for m in re.finditer(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', combined):
+    for m in CITATION_RE.finditer(combined):
         for n_str in m.group(1).split(','):
             n_str = n_str.strip()
             if n_str.isdigit():
@@ -191,16 +231,19 @@ def _renumber_citations(section_contents):
     new_sections = []
     for content in section_contents:
         if content:
-            new_sections.append(re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_nums, content))
+            new_sections.append(CITATION_RE.sub(replace_nums, content))
         else:
             new_sections.append(content)
 
     return new_sections, seen  # seen = original indices in order of first appearance
 
 
-def save_to_markdown(data):
-    kst = timezone(timedelta(hours=9))
-    date_str = datetime.now(kst).strftime('%Y-%m-%d')
+def save_to_markdown(data, date_str: str | None = None, published_at: str | None = None):
+    if date_str is None:
+        kst = timezone(timedelta(hours=9))
+        date_str = datetime.now(kst).strftime('%Y-%m-%d')
+    validate_daily_report(data)
+
     file_name = f"{date_str}.md"
     dir_path = Path(__file__).parent.parent / 'reports' / 'daily'
     dir_path.mkdir(parents=True, exist_ok=True)
@@ -239,6 +282,7 @@ def save_to_markdown(data):
 
     markdown_content = f"""---
 date: "{date_str}"
+publishedAt: "{published_at or date_str + 'T06:00:00+09:00'}"
 title: "데일리 리포트 - {date_str}"
 summary: "{summary_desc}"
 itemCount: {covered_count}

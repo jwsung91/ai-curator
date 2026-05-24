@@ -5,6 +5,7 @@ const curation = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './reports/daily' }),
   schema: z.object({
     date: z.string(),
+    publishedAt: z.string().optional(),
     title: z.string(),
     summary: z.string(),
     itemCount: z.number(),

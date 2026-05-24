@@ -16,6 +16,55 @@ SECTION_DEFS = [
 ]
 
 _DAY_NAMES = ['월', '화', '수', '목', '금', '토', '일']
+CITATION_RE = re.compile(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()')
+
+
+def strip_citations(text: str) -> str:
+    stripped = CITATION_RE.sub('', text or '').strip()
+    return '\n'.join(line.rstrip() for line in stripped.splitlines())
+
+
+def _citation_indices(text: str) -> list[int]:
+    indices: list[int] = []
+    for match in CITATION_RE.finditer(text or ''):
+        for n_str in match.group(1).split(','):
+            n_str = n_str.strip()
+            if n_str.isdigit():
+                indices.append(int(n_str))
+    return indices
+
+
+def validate_weekly_report(data: dict, item_count: int | None = None) -> None:
+    required_keys = [
+        'one_sentence_summary',
+        'weekly_themes',
+        'section_robotics',
+        'section_devtools',
+        'section_industry',
+        'used_indices',
+    ]
+    missing = [key for key in required_keys if key not in data]
+    if missing:
+        raise ValueError(f"Weekly report is missing required keys: {', '.join(missing)}")
+
+    for key in required_keys[:-1]:
+        if not isinstance(data.get(key), str):
+            raise ValueError(f"Weekly report field '{key}' must be a string")
+    if not isinstance(data.get('used_indices'), list):
+        raise ValueError("Weekly report field 'used_indices' must be a list")
+    if CITATION_RE.search(data.get('weekly_themes', '')):
+        raise ValueError("Weekly report weekly_themes must not contain citation indices")
+
+    if item_count is None:
+        item_count = len(data.get('global_items', []))
+
+    section_text = '\n'.join(data.get(key, '') for key, _ in SECTION_DEFS)
+    invalid = sorted({idx for idx in _citation_indices(section_text) if idx < 1 or idx > item_count})
+    if invalid:
+        raise ValueError(
+            f"Weekly report contains out-of-range citation indices: {invalid} "
+            f"(valid range: 1-{item_count})"
+        )
 
 
 def get_week_dates(reference: datetime) -> list[str]:
@@ -107,6 +156,8 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 - 5일에 걸쳐 반복되거나 심화된 cross-day 패턴만 3~5개 불릿으로 작성하세요.
 - 단 하루에만 등장한 이슈는 포함하지 마세요.
 - 단순 항목 재진술 금지 — 여러 날의 기사를 연결하는 흐름을 서술하세요.
+- weekly_themes에는 [번호] 인용을 넣지 마세요.
+- 구체 출처 인용은 section_robotics, section_devtools, section_industry에서만 사용하세요.
 - 형식: "- 문장1\\n- 문장2\\n..."
 
 **section_robotics / section_devtools / section_industry — 섹션별 하이라이트**
@@ -187,13 +238,13 @@ def _add_citation_anchors(text: str) -> str:
             f'<a href="#ref-{n}">{n}</a>' for n in nums if n.isdigit()
         )
         return f'[{linked}]'
-    return re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_bracket, text)
+    return CITATION_RE.sub(replace_bracket, text)
 
 
 def _renumber_citations(section_contents: list[str]):
     combined = '\n'.join(c for c in section_contents if c)
     seen: list[int] = []
-    for m in re.finditer(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', combined):
+    for m in CITATION_RE.finditer(combined):
         for n_str in m.group(1).split(','):
             n_str = n_str.strip()
             if n_str.isdigit():
@@ -209,7 +260,7 @@ def _renumber_citations(section_contents: list[str]):
         return f'[{", ".join(replaced)}]'
 
     new_sections = [
-        re.sub(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()', replace_nums, c) if c else c
+        CITATION_RE.sub(replace_nums, c) if c else c
         for c in section_contents
     ]
     return new_sections, seen
@@ -230,6 +281,9 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: d
     global_items = data.get('global_items', [])
     daily_count  = len(week_data)
     total_items  = len(global_items)
+
+    data['weekly_themes'] = strip_citations(data.get('weekly_themes', ''))
+    validate_weekly_report(data, item_count=total_items)
 
     # 날짜 × 섹션 매트릭스 테이블
     sections = ['로보틱스', 'AI', '트렌드']

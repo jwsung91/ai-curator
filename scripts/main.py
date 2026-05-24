@@ -14,7 +14,7 @@ from fetcher import (
     fetch_simon_willison, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
-from builder import generate_summary, save_to_markdown
+from builder import generate_summary, save_to_markdown, validate_daily_report
 
 SOURCES = [
     ('로보틱스', fetch_ros2_discourse),
@@ -59,14 +59,17 @@ def main():
     load_dotenv()
     dry_run = '--dry-run' in sys.argv
     if dry_run:
-        print("🧪 Dry-run mode: seen_links will not be updated")
+        print("🧪 Dry-run mode: reports and seen_links will not be written")
     print("🚀 Starting AI Curation Pipeline...")
 
     kst = timezone(timedelta(hours=9))
-    date_str = datetime.now(kst).strftime('%Y-%m-%d')
+    now_kst = datetime.now(kst)
+    coverage_date = now_kst - timedelta(days=1)
+    date_str = coverage_date.strftime('%Y-%m-%d')
+    published_at = now_kst.isoformat(timespec='seconds')
 
     report_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.md'
-    if report_path.exists() and '--force' not in sys.argv:
+    if report_path.exists() and '--force' not in sys.argv and not dry_run:
         print(f"⏭️  Report for {date_str} already exists. Use --force to regenerate.")
         return
 
@@ -95,19 +98,33 @@ def main():
 
         print("🤖 Generating report...")
         data = generate_summary(all_items)
+        validate_daily_report(data, item_count=len(all_items))
+
+        if dry_run:
+            print("🧪 Dry-run result:")
+            print(json.dumps({
+                'date': date_str,
+                'publishedAt': published_at,
+                'summary': data.get('one_sentence_summary'),
+                'item_count': len(all_items),
+            }, ensure_ascii=False, indent=2))
+            return
 
         print("📝 Saving...")
-        save_to_markdown(data)
+        save_to_markdown(data, date_str=date_str, published_at=published_at)
 
         # MD 저장 성공 후에만 JSON 저장 (weekly builder 용)
         json_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.json'
         json_path.write_text(
-            json.dumps({'date': date_str, 'items': all_items}, ensure_ascii=False, indent=2),
+            json.dumps(
+                {'date': date_str, 'publishedAt': published_at, 'items': all_items},
+                ensure_ascii=False,
+                indent=2,
+            ),
             encoding='utf-8',
         )
 
-        if not dry_run:
-            save_seen(seen, date_str, [item['link'] for item in all_items])
+        save_seen(seen, date_str, [item['link'] for item in all_items])
         print("✅ Done!")
 
     except Exception as e:
