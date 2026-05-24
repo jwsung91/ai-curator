@@ -9,6 +9,8 @@ const curation = defineCollection({
     title: z.string(),
     summary: z.string(),
     itemCount: z.number(),
+    collectedCount: z.number().optional(),
+    citedCount: z.number().optional(),
   }),
 });
 
@@ -23,6 +25,8 @@ const weekly = defineCollection({
     summary: z.string(),
     dailyCount: z.number(),
     itemCount: z.number(),
+    collectedCount: z.number().optional(),
+    citedCount: z.number().optional(),
   }),
 });
 

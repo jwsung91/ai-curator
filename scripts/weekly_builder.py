@@ -38,6 +38,7 @@ def validate_weekly_report(data: dict, item_count: int | None = None) -> None:
     required_keys = [
         'one_sentence_summary',
         'weekly_themes',
+        'practical_checkpoints',
         'section_robotics',
         'section_devtools',
         'section_industry',
@@ -54,6 +55,8 @@ def validate_weekly_report(data: dict, item_count: int | None = None) -> None:
         raise ValueError("Weekly report field 'used_indices' must be a list")
     if CITATION_RE.search(data.get('weekly_themes', '')):
         raise ValueError("Weekly report weekly_themes must not contain citation indices")
+    if CITATION_RE.search(data.get('practical_checkpoints', '')):
+        raise ValueError("Weekly report practical_checkpoints must not contain citation indices")
 
     if item_count is None:
         item_count = len(data.get('global_items', []))
@@ -91,7 +94,7 @@ def read_week_data(week_dates: list[str]) -> list[dict]:
         cross_insight = ''
         if md_path.exists():
             content = md_path.read_text(encoding='utf-8')
-            m = re.search(r'## 💡 오늘의 흐름\n\n(.*?)(?=\n\n---)', content, re.DOTALL)
+            m = re.search(r'## 💡 오늘의 (?:흐름|관찰)\n\n(.*?)(?=\n\n---)', content, re.DOTALL)
             if m:
                 cross_insight = m.group(1).strip()
 
@@ -134,9 +137,22 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
             daily_ctx += f"- {_DAY_NAMES[dt.weekday()]}요일: {day['cross_insight']}\n"
 
     total = len(global_items)
+    top_sources = Counter(item.get('source', '') for item in global_items).most_common(5)
+    section_counts = Counter(item.get('section_hint', '') for item in global_items)
+    day_counts = []
+    for day in week_data:
+        dt = datetime.strptime(day['date'], '%Y-%m-%d')
+        day_counts.append(f"{_DAY_NAMES[dt.weekday()]} {len(day['items'])}")
+    stats_hint = (
+        f"- 주요 소스: {', '.join(f'{source} ({count})' for source, count in top_sources) or '없음'}\n"
+        f"- 섹션별 총량: 로보틱스 {section_counts.get('로보틱스', 0)}, "
+        f"AI {section_counts.get('AI', 0)}, 트렌드 {section_counts.get('트렌드', 0)}\n"
+        f"- 날짜별 수집량: {', '.join(day_counts) or '없음'}"
+    )
 
     return f"""당신은 로봇 시스템에 AI를 통합하는 시니어 소프트웨어 엔지니어입니다.
-이번 주(월~금) 수집된 기사 {total}개를 직접 읽고 주간 리포트를 작성하세요.
+이번 주(월~금) 수집된 기사 제목, 요약, 출처 정보를 기준으로 주간 리포트를 작성하세요.
+요약에 없는 세부 정보는 단정하지 마세요.
 
 ---
 
@@ -150,6 +166,14 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 {daily_ctx}
 ---
 
+## 주간 수집 통계 힌트
+
+{stats_hint}
+
+이 통계는 흐름 판단을 돕는 힌트입니다. 본문에 그대로 복붙하지 말고, 입력 항목과 함께 해석하세요.
+
+---
+
 ## 작성 지침
 
 **weekly_themes — 이번 주 핵심 흐름**
@@ -159,6 +183,13 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 - weekly_themes에는 [번호] 인용을 넣지 마세요.
 - 구체 출처 인용은 section_robotics, section_devtools, section_industry에서만 사용하세요.
 - 형식: "- 문장1\\n- 문장2\\n..."
+
+**practical_checkpoints — 이번 주 실무 체크포인트**
+- 로보틱스 소프트웨어 엔지니어가 이번 주 확인하면 좋은 실무 항목을 2~4개 불릿으로 작성하세요.
+- 설치/업그레이드/운영 영향, 릴리스 확인, 실험 환경 적용 여부처럼 행동 가능한 문장으로 작성하세요.
+- 과장하지 말고 입력 요약에 근거한 내용만 포함하세요.
+- practical_checkpoints에는 [번호] 인용을 넣지 마세요.
+- 형식: "- 문장1\\n- 문장2"
 
 **section_robotics / section_devtools / section_industry — 섹션별 하이라이트**
 - 각 섹션에서 이번 주 기준 상위 3~5개 항목만 선별하세요.
@@ -181,6 +212,7 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 {{
   "one_sentence_summary": "이번 주 가장 중요한 기술 흐름 한 문장",
   "weekly_themes": "- 흐름1\\n- 흐름2\\n...",
+  "practical_checkpoints": "- 체크포인트1\\n- 체크포인트2",
   "section_robotics": "마크다운 (없으면 빈 문자열)",
   "section_devtools": "마크다운 (없으면 빈 문자열)",
   "section_industry": "마크다운 (없으면 빈 문자열)",
@@ -321,13 +353,17 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: d
 
     summary_desc  = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
     weekly_themes = data.get('weekly_themes', '').strip()
+    practical_checkpoints = data.get('practical_checkpoints', '').strip()
 
     section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]
     renumbered, ordered_orig_indices = _renumber_citations(section_contents)
+    cited_count = len(ordered_orig_indices)
 
     parts = []
     if weekly_themes:
         parts.append(f'## 🗓 이번 주 핵심 흐름\n\n{weekly_themes}')
+    if practical_checkpoints:
+        parts.append(f'## ✅ 이번 주 실무 체크포인트\n\n{practical_checkpoints}')
     for (key, heading), content in zip(SECTION_DEFS, renumbered):
         if content:
             parts.append(f'## {heading}\n\n{_add_citation_anchors(content)}')
@@ -356,6 +392,8 @@ title: "위클리 리포트 - {year} W{week_number:02d}"
 summary: "{summary_desc}"
 dailyCount: {daily_count}
 itemCount: {total_items}
+collectedCount: {total_items}
+citedCount: {cited_count}
 ---
 
 {report_body}
@@ -372,4 +410,4 @@ itemCount: {total_items}
     file_path = dir_path / f'{week_str}.md'
     file_path.write_text(markdown_content, encoding='utf-8')
 
-    print(f"  Saved: reports/weekly/{week_str}.md ({daily_count} days, {len(ordered_orig_indices)} cited items)")
+    print(f"  Saved: reports/weekly/{week_str}.md ({daily_count} days, {cited_count} cited items)")

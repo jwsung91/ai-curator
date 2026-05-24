@@ -20,8 +20,9 @@ GitHub Actions (화~토 06:00 / 매주 토 09:00 KST)
 
 리포트는 크게 두 가지 유형으로 제공됩니다.
 
-- **Daily Reports**: 전날의 로보틱스/AI 기술 소식을 KST 06:00에 발행합니다.
-- **Weekly Reports**: 월~금 리포트를 모아 토요일 KST 09:00에 핵심 흐름과 심층 분석을 제공합니다.
+- **Daily Reports**: 전날의 로보틱스/AI 기술 소식을 KST 06:00에 빠른 operational digest로 발행합니다.
+- **Weekly Reports**: 월~금 리포트를 모아 토요일 KST 09:00에 한 주의 흐름과 실무 체크포인트를 제공합니다.
+- **Monthly Reports**: 자동화하지 않으며, 필요할 때 별도 회고 글로 작성합니다.
 
 | 섹션 | 소스 |
 |------|------|

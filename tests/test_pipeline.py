@@ -22,9 +22,12 @@ sys.modules.setdefault('feedparser', types.SimpleNamespace(parse=lambda content:
 import builder
 import fetcher
 import main as daily_main
+import weekly_builder
 from builder import save_to_markdown, validate_daily_report
 from weekly_builder import (
+    build_weekly_prompt,
     get_week_dates,
+    save_weekly_to_markdown,
     strip_citations,
     validate_weekly_report,
 )
@@ -63,6 +66,9 @@ def test_save_to_markdown_uses_coverage_date_and_published_at(tmp_path, monkeypa
     assert 'date: "2026-05-22"' in content
     assert 'publishedAt: "2026-05-23T06:00:00+09:00"' in content
     assert 'title: "데일리 리포트 - 2026-05-22"' in content
+    assert 'collectedCount: 2' in content
+    assert 'citedCount: 2' in content
+    assert '## 💡 오늘의 관찰' in content
 
 
 def test_validate_daily_report_rejects_out_of_range_citation():
@@ -172,6 +178,7 @@ def test_weekly_theme_citations_are_stripped_and_validated():
     data = {
         'one_sentence_summary': '주간 요약',
         'weekly_themes': strip_citations('- 흐름 [16]'),
+        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
@@ -188,6 +195,7 @@ def test_validate_weekly_report_rejects_citations_in_themes():
     data = {
         'one_sentence_summary': '주간 요약',
         'weekly_themes': '- 흐름 [1]',
+        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
@@ -199,3 +207,118 @@ def test_validate_weekly_report_rejects_citations_in_themes():
 
     with pytest.raises(ValueError, match='weekly_themes'):
         validate_weekly_report(data)
+
+
+def test_validate_weekly_report_rejects_citations_in_practical_checkpoints():
+    data = {
+        'one_sentence_summary': '주간 요약',
+        'weekly_themes': '- 흐름',
+        'practical_checkpoints': '- ROS2 릴리스를 확인하세요 [1]',
+        'section_robotics': '- **ROS2**: 업데이트 [1]',
+        'section_devtools': '',
+        'section_industry': '',
+        'used_indices': [1],
+        'global_items': [
+            {'title': 'ROS2', 'link': 'https://example.com/ros2', 'source': 'ROS2'},
+        ],
+    }
+
+    with pytest.raises(ValueError, match='practical_checkpoints'):
+        validate_weekly_report(data)
+
+
+def test_weekly_prompt_uses_summary_based_language_and_stats_hint():
+    week_data = [
+        {
+            'date': '2026-05-18',
+            'items': [
+                {
+                    'title': 'ROS2 release',
+                    'summary': 'stable runtime update',
+                    'source': 'GitHub (ROS2)',
+                    'section_hint': '로보틱스',
+                },
+                {
+                    'title': 'OpenAI SDK',
+                    'summary': 'developer tool update',
+                    'source': 'OpenAI News',
+                    'section_hint': 'AI',
+                },
+            ],
+            'cross_insight': '- 관찰',
+        }
+    ]
+    global_items = [{**item, 'date': '2026-05-18'} for item in week_data[0]['items']]
+
+    prompt = build_weekly_prompt(week_data, global_items)
+
+    assert '제목, 요약, 출처 정보를 기준으로' in prompt
+    assert '직접 읽고' not in prompt
+    assert '## 주간 수집 통계 힌트' in prompt
+    assert '주요 소스: GitHub (ROS2) (1), OpenAI News (1)' in prompt
+    assert '"practical_checkpoints"' in prompt
+
+
+def test_save_weekly_to_markdown_includes_checkpoints_and_count_fields(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(weekly_builder, '__file__', str(scripts_dir / 'weekly_builder.py'))
+
+    week_data = [
+        {
+            'date': '2026-05-18',
+            'items': [
+                {
+                    'title': 'ROS2',
+                    'link': 'https://example.com/ros2',
+                    'summary': 'runtime update',
+                    'source': 'ROS2',
+                    'section_hint': '로보틱스',
+                }
+            ],
+            'cross_insight': '',
+        }
+    ]
+    data = {
+        'one_sentence_summary': '주간 요약',
+        'weekly_themes': '- 흐름',
+        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
+        'section_robotics': '- **ROS2**: 업데이트 [1]',
+        'section_devtools': '',
+        'section_industry': '',
+        'used_indices': [1],
+        'global_items': [{**week_data[0]['items'][0], 'date': '2026-05-18'}],
+    }
+
+    save_weekly_to_markdown(data, week_data, datetime(2026, 5, 23, 9, 0, 0))
+
+    report = tmp_path / 'reports' / 'weekly' / '2026-W21.md'
+    content = report.read_text(encoding='utf-8')
+    assert 'collectedCount: 1' in content
+    assert 'citedCount: 1' in content
+    assert '## ✅ 이번 주 실무 체크포인트' in content
+
+
+def test_read_week_data_supports_old_and_new_daily_observation_headings(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    reports_dir = tmp_path / 'reports' / 'daily'
+    reports_dir.mkdir(parents=True)
+    monkeypatch.setattr(weekly_builder, '__file__', str(scripts_dir / 'weekly_builder.py'))
+
+    for date_str, heading in [
+        ('2026-05-18', '## 💡 오늘의 흐름'),
+        ('2026-05-19', '## 💡 오늘의 관찰'),
+    ]:
+        (reports_dir / f'{date_str}.json').write_text('{"items": []}', encoding='utf-8')
+        (reports_dir / f'{date_str}.md').write_text(
+            f'---\ntitle: test\n---\n\n{heading}\n\n- {date_str} 관찰\n\n---\n\n## 섹션',
+            encoding='utf-8',
+        )
+
+    week_data = weekly_builder.read_week_data(['2026-05-18', '2026-05-19'])
+
+    assert [day['cross_insight'] for day in week_data] == [
+        '- 2026-05-18 관찰',
+        '- 2026-05-19 관찰',
+    ]

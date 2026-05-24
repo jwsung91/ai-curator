@@ -259,7 +259,7 @@ def save_to_markdown(data, date_str: str | None = None, published_at: str | None
     cross_insight = data.get('cross_insight', '').strip()
     parts = []
     if cross_insight:
-        parts.append(f"## 💡 오늘의 흐름\n\n{cross_insight}")
+        parts.append(f"## 💡 오늘의 관찰\n\n{cross_insight}")
     for (key, heading), content in zip(SECTION_DEFS, renumbered):
         if content:
             parts.append(f"## {heading}\n\n{add_citation_anchors(content)}")
@@ -286,6 +286,8 @@ publishedAt: "{published_at or date_str + 'T06:00:00+09:00'}"
 title: "데일리 리포트 - {date_str}"
 summary: "{summary_desc}"
 itemCount: {covered_count}
+collectedCount: {len(all_items)}
+citedCount: {covered_count}
 ---
 
 {report_body}

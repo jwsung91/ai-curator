@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { dailyCitedCount, dailyCollectedCount, formatKstDateTime } from '../../lib/reportMeta';
 
 export async function getStaticPaths() {
   const entries = await getCollection('curation');
@@ -19,6 +20,9 @@ const { entry, prev, next } = Astro.props;
 const { Content, headings } = await render(entry);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const tocHeadings = headings.filter(h => h.depth === 2);
+const publishedAt = formatKstDateTime(entry.data.publishedAt, entry.data.date);
+const collectedCount = dailyCollectedCount(entry.data);
+const citedCount = dailyCitedCount(entry.data);
 ---
 
 <BaseLayout title={`${entry.data.title} — AI Curator`} description={entry.data.summary}>
@@ -35,6 +39,12 @@ const tocHeadings = headings.filter(h => h.depth === 2);
       <h1 class="text-3xl font-bold text-zinc-900 dark:text-zinc-100 md:text-4xl leading-tight">
         {entry.data.title}
       </h1>
+      <div class="mt-4 flex flex-wrap gap-x-4 gap-y-1 font-mono text-xs text-zinc-500 dark:text-zinc-500">
+        <span>Coverage date: {entry.data.date}</span>
+        {publishedAt && <span>Published: {publishedAt}</span>}
+        {collectedCount !== undefined && <span>Collected items: {collectedCount}</span>}
+        <span>Cited items: {citedCount}</span>
+      </div>
     </header>
 
     {tocHeadings.length > 0 && (
