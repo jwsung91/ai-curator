@@ -162,6 +162,7 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 
 **section_robotics / section_devtools / section_industry — 섹션별 하이라이트**
 - 각 섹션에서 이번 주 기준 상위 3~5개 항목만 선별하세요.
+- section_robotics 포함 기준: DDS/Fast DDS/Cyclone DDS/RMW, rosbag2, launch, rclpy, Open-RMF, Isaac ROS/NITROS 등 로보틱스 런타임·미들웨어·인프라 업데이트
 - 선별 기준 (우선순위 순):
   1. 여러 날에 걸쳐 언급되거나 후속 논의가 있는 항목
   2. 실무에 즉시 영향을 주는 릴리스·변경 (nightly/rc/dev 버전 제외)

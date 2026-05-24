@@ -20,6 +20,7 @@ sys.modules.setdefault('dotenv', types.SimpleNamespace(load_dotenv=lambda: None)
 sys.modules.setdefault('feedparser', types.SimpleNamespace(parse=lambda content: types.SimpleNamespace(entries=[])))
 
 import builder
+import fetcher
 import main as daily_main
 from builder import save_to_markdown, validate_daily_report
 from weekly_builder import (
@@ -115,6 +116,42 @@ def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
     assert 'Dry-run result' in output
     assert seen_path.read_text(encoding='utf-8') == '{}'
     assert list(reports_dir.iterdir()) == []
+
+
+def test_robotics_infra_releases_skip_prereleases_and_limit_results(monkeypatch):
+    calls = []
+
+    def fake_fetch_github_releases(repo, label, limit=1, max_age_days=14, skip_prerelease=False):
+        calls.append({
+            'repo': repo,
+            'label': label,
+            'limit': limit,
+            'max_age_days': max_age_days,
+            'skip_prerelease': skip_prerelease,
+        })
+        return [
+            {
+                'title': f'{label} release {idx}',
+                'link': f'https://example.com/{repo}/{idx}',
+                'summary': 'stable release',
+                'source': f'GitHub ({label})',
+            }
+            for idx in range(2)
+        ]
+
+    monkeypatch.setattr(fetcher, 'fetch_github_releases', fake_fetch_github_releases)
+
+    items = fetcher.fetch_robotics_infra_releases()
+
+    assert len(calls) == 10
+    assert all(call['skip_prerelease'] is True for call in calls)
+    assert all(call['limit'] == 1 for call in calls)
+    assert all(call['max_age_days'] == 14 for call in calls)
+    assert len(items) == 6
+
+
+def test_robotics_infra_source_is_registered_as_robotics():
+    assert ('로보틱스', daily_main.fetch_robotics_infra_releases) in daily_main.SOURCES
 
 
 def test_weekly_dates_are_monday_to_friday_for_saturday_run():

@@ -109,7 +109,7 @@ def build_prompt(items):
 ## 섹션 분류 기준
 
 **section_robotics — 🤖 로보틱스**
-포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클
+포함: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, DDS/Fast DDS/Cyclone DDS/RMW, rosbag2, launch, rclpy, Open-RMF, Isaac ROS/NITROS 등 로보틱스 런타임·미들웨어·인프라 업데이트, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클
 제외: AI 연구, 정책·비즈니스 뉴스
 
 **section_devtools — ✨ AI**

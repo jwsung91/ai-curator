@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from fetcher import (
-    fetch_ros2_discourse, fetch_ros2_releases,
+    fetch_ros2_discourse, fetch_ros2_releases, fetch_robotics_infra_releases,
     fetch_nvidia_dev_blog, fetch_nvidia_blog,
     fetch_openai_news, fetch_google_deepmind,
     fetch_simon_willison, fetch_hackernews_devai, fetch_devai_releases,
@@ -19,6 +19,7 @@ from builder import generate_summary, save_to_markdown, validate_daily_report
 SOURCES = [
     ('로보틱스', fetch_ros2_discourse),
     ('로보틱스', fetch_ros2_releases),
+    ('로보틱스', fetch_robotics_infra_releases),
     ('로보틱스', fetch_nvidia_dev_blog),   # NVIDIA Developer Blog (robotics tag)
     ('AI',       fetch_openai_news),
     ('AI',       fetch_google_deepmind),

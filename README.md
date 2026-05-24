@@ -25,9 +25,9 @@ GitHub Actions (화~토 06:00 / 매주 토 09:00 KST)
 
 | 섹션 | 소스 |
 |------|------|
-| 🤖 로보틱스 하이라이트 | ROS2 Discourse, GitHub Releases (rclcpp, Nav2, MoveIt2 등), The Robot Report |
-| ✨ AI 도구 하이라이트 | Simon Willison, HackerNews, GitHub (Ollama, LiteLLM, MCP Servers 등) |
-| 📈 트렌드 하이라이트 | IEEE Spectrum, OpenAI News, 주요 테크 블로그 |
+| 🤖 로보틱스 하이라이트 | ROS2 Discourse, ROS2/Gazebo/Nav2/MoveIt2 Releases, DDS/RMW/rosbag2/Open-RMF, Isaac ROS, NVIDIA Developer Blog |
+| ✨ AI 도구 하이라이트 | OpenAI News, Google DeepMind, Simon Willison, HackerNews, GitHub (Ollama, LiteLLM, MCP Servers 등) |
+| 📈 트렌드 하이라이트 | IEEE Spectrum, The Robot Report, NVIDIA Blog |
 
 ## 프로젝트 구조
 

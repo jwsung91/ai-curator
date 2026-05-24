@@ -107,6 +107,25 @@ def fetch_ros2_releases():
     return items
 
 
+def fetch_robotics_infra_releases():
+    repos = [
+        ('eProsima/Fast-DDS', 'Fast DDS', True),
+        ('eclipse-cyclonedds/cyclonedds', 'Cyclone DDS', True),
+        ('ros2/rmw_fastrtps', 'rmw_fastrtps', True),
+        ('ros2/rmw_cyclonedds', 'rmw_cyclonedds', True),
+        ('ros2/rosbag2', 'rosbag2', True),
+        ('ros2/launch', 'ROS2 launch', True),
+        ('ros2/rclpy', 'rclpy', True),
+        ('open-rmf/rmf', 'Open-RMF', True),
+        ('NVIDIA-ISAAC-ROS/isaac_ros_common', 'Isaac ROS Common', True),
+        ('NVIDIA-ISAAC-ROS/isaac_ros_nitros', 'Isaac ROS NITROS', True),
+    ]
+    items = []
+    for repo, label, skip_pre in repos:
+        items.extend(fetch_github_releases(repo, label, skip_prerelease=skip_pre))
+    return items[:6]
+
+
 # ── Section 2: AI ────────────────────────────────────────────────
 
 def fetch_openai_news():
