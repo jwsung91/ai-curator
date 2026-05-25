@@ -65,8 +65,7 @@ def main():
 
     kst = timezone(timedelta(hours=9))
     now_kst = datetime.now(kst)
-    coverage_date = now_kst - timedelta(days=1)
-    date_str = coverage_date.strftime('%Y-%m-%d')
+    date_str = now_kst.strftime('%Y-%m-%d')
     published_at = now_kst.isoformat(timespec='seconds')
 
     report_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.md'

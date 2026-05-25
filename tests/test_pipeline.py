@@ -49,23 +49,23 @@ def _daily_data():
     }
 
 
-def test_save_to_markdown_uses_coverage_date_and_published_at(tmp_path, monkeypatch):
+def test_save_to_markdown_uses_report_date_and_published_at(tmp_path, monkeypatch):
     scripts_dir = tmp_path / 'scripts'
     scripts_dir.mkdir()
     monkeypatch.setattr(builder, '__file__', str(scripts_dir / 'builder.py'))
 
     save_to_markdown(
         _daily_data(),
-        date_str='2026-05-22',
-        published_at='2026-05-23T06:00:00+09:00',
+        date_str='2026-05-25',
+        published_at='2026-05-25T06:00:00+09:00',
     )
 
-    report = tmp_path / 'reports' / 'daily' / '2026-05-22.md'
+    report = tmp_path / 'reports' / 'daily' / '2026-05-25.md'
     assert report.exists()
     content = report.read_text(encoding='utf-8')
-    assert 'date: "2026-05-22"' in content
-    assert 'publishedAt: "2026-05-23T06:00:00+09:00"' in content
-    assert 'title: "데일리 리포트 - 2026-05-22"' in content
+    assert 'date: "2026-05-25"' in content
+    assert 'publishedAt: "2026-05-25T06:00:00+09:00"' in content
+    assert 'title: "데일리 리포트 - 2026-05-25"' in content
     assert 'collectedCount: 2' in content
     assert 'citedCount: 2' in content
     assert '## 💡 오늘의 관찰' in content
