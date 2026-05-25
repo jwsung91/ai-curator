@@ -1,0 +1,118 @@
+{
+  "date": "2026-05-26",
+  "publishedAt": "2026-05-26T07:09:46+09:00",
+  "items": [
+    {
+      "title": "Rclnodejs 2.0.0 — typed Web SDK for ROS 2, ready for Lyrical",
+      "link": "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-typed-web-sdk-for-ros-2-ready-for-lyrical/55061",
+      "summary": "<p>Hi all,</p>\n<p><a href=\"https://www.npmjs.com/package/rclnodejs/v/2.0.0\" rel=\"noopener nofollow ugc\"><strong>rclnodejs</strong></a> <strong>2.0.0</strong> is out today, on the heels of the <strong>ROS 2 Lyrical Luth</strong> GA on <a href=\"https://github.com/ros2/ros2/releases/tag/release-lyrical-20260522\" rel=\"noopener nofollow ugc\"><strong>May",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS 2 Lyrical Luth and 11 Years of Fast DDS as ROS 2 Default Middleware",
+      "link": "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-and-11-years-of-fast-dds-as-ros-2-default-middleware/55062",
+      "summary": "<p>With the upcoming release of ROS 2 Lyrical Luth in May 2026, Fast DDS will continue serving as the default middleware implementation for ROS 2.</p>\n<p>For more than <strong>11 years</strong>, Fast DDS has accompanied the ROS 2 ecosystem through every distribution, continuously evolving together with the community to provide scalable, reliable, a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Seeking Robotics Integrator for AI-Powered Snacks Kiosk Project – Jamaica Market, Queens, New York, USA.",
+      "link": "https://discourse.openrobotics.org/t/seeking-robotics-integrator-for-ai-powered-snacks-kiosk-project-jamaica-market-queens-new-york-usa/55055",
+      "summary": "<p><strong>Seeking Robotics Integrator for AI-Powered Snacks Kiosk Project – Jamaica Market, Queens, New York, USA.</strong></p>\n<p>We are developing an innovative automated snacks kiosk at Jamaica Market, Queens, New York, and are looking for an experienced robotics engineer/integrator to help us select, integrate, and program the right 6-axis rob",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Independent Robotics Engineer Open for Long-Term Contracts & Full-Time Roles in Simulation, Autonomy & Robotics Systems",
+      "link": "https://discourse.openrobotics.org/t/independent-robotics-engineer-open-for-long-term-contracts-full-time-roles-in-simulation-autonomy-robotics-systems/55063",
+      "summary": "<p>Hi everyone,</p>\n<p>I’m Jasmeet Singh, an independent Robotics Systems, Simulation &amp; Autonomy Engineer currently open to long-term contract opportunities or full-time roles.</p>\n<p>Over the past few years, I’ve worked extensively on:</p>\n<ul>\n<li>\n<p>ROS 2 based autonomous robotics systems (primarily, industrial AMRs)</p>\n</li>\n<li>\n<p>Custo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "QERRA-v2 Classical: Practical integration as a Behavior Tree Condition node?",
+      "link": "https://discourse.openrobotics.org/t/qerra-v2-classical-practical-integration-as-a-behavior-tree-condition-node/55065",
+      "summary": "<p>Hello everyone,</p>\n<p>My name is Marussa Metocharaki. I’m an independent researcher from Greece working on QERRA-v2 Classical, a fully explainable ethical evaluation engine designed for robotics and autonomous systems.</p>\n<p>The system uses the SEMEV-12 framework (12 ethical vectors) and returns a transparent score with reasoning. It is comple",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 9.5.1",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/9.5.1",
+      "summary": "9.5.1",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rosbag2 0.33.3",
+      "link": "https://github.com/ros2/rosbag2/releases/tag/0.33.3",
+      "summary": "0.33.3",
+      "source": "GitHub (rosbag2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclpy 11.0.1",
+      "link": "https://github.com/ros2/rclpy/releases/tag/11.0.1",
+      "summary": "11.0.1",
+      "source": "GitHub (rclpy)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "link": "https://openai.com/index/virgin-atlantic",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent 0.1a4",
+      "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a4\">datasette-agent 0.1a4</a></p>\n        <p>Taking advantage of the new <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-makejumpsections\">makeJumpSections()</a> JavaScript plugin hook added in <a href=\"https://",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+      "link": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48270770\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0-rc25",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc25",
+      "summary": "ci: fix WoA cross-compile",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
+      "link": "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
+      "summary": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation vs. digital twin: A strategic lens on virtual manu",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Sortera uses physical AI to double capacity in a Tennessee sorting facility",
+      "link": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
+      "summary": "<p>With the new facility, Sortera has increased its annual processing capacity to an estimated 240 million lbs.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/\">Sortera uses physical AI to double capacity in a Tennessee sorting facility</a> appeared first on <a hre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
+      "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/",
+      "summary": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/\">The future of physical AI isn&#8217;t humanoid; it&#8217;s task-",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

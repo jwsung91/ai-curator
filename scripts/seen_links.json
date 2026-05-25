@@ -1,22 +1,4 @@
 {
-  "2026-05-07": [
-    "https://discourse.openrobotics.org/t/camera-streaming-made-easy-new-release/54562",
-    "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-beta-ros-2-lyrical-beta-and-node-js-26-support/54559",
-    "https://discourse.openrobotics.org/t/alert-do-not-visit-plotjuggler-com/54561",
-    "https://discourse.openrobotics.org/t/is-fastdds-default-config-totally-unusable-for-simulation-with-rclpy/54553",
-    "https://discourse.openrobotics.org/t/release-emcon-gz-hardware-interface-a-dds-bypassing-hardware-interface-for-gazebo-harmonic/54549",
-    "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-    "https://openai.com/index/introducing-b2b-signals",
-    "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-    "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
-    "https://www.anthropic.com/news/higher-limits-spacex",
-    "https://www.coveragecat.com/careers/engineering/fractional-growth-engineer",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.83.14-stable.patch.2",
-    "https://www.therobotreport.com/johnson-johnson-completes-clinical-study-ottava-robotic-surgical-system/",
-    "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/",
-    "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/"
-  ],
   "2026-05-08": [
     "https://discourse.openrobotics.org/t/submissions-fail-at-637s-with-empty-stdout-header-only-no-engine-logs/54604",
     "https://discourse.openrobotics.org/t/lifecore-ros2-composing-reusable-ros-2-python-lifecycle-components/54592",
@@ -236,5 +218,23 @@
     "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
     "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
     "https://www.therobotreport.com/ge-vernova-acquire-robotech-automation-expand-robotics-integration/"
+  ],
+  "2026-05-26": [
+    "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-typed-web-sdk-for-ros-2-ready-for-lyrical/55061",
+    "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-and-11-years-of-fast-dds-as-ros-2-default-middleware/55062",
+    "https://discourse.openrobotics.org/t/seeking-robotics-integrator-for-ai-powered-snacks-kiosk-project-jamaica-market-queens-new-york-usa/55055",
+    "https://discourse.openrobotics.org/t/independent-robotics-engineer-open-for-long-term-contracts-full-time-roles-in-simulation-autonomy-robotics-systems/55063",
+    "https://discourse.openrobotics.org/t/qerra-v2-classical-practical-integration-as-a-behavior-tree-condition-node/55065",
+    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.5.1",
+    "https://github.com/ros2/rosbag2/releases/tag/0.33.3",
+    "https://github.com/ros2/rclpy/releases/tag/11.0.1",
+    "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+    "https://openai.com/index/virgin-atlantic",
+    "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+    "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc25",
+    "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
+    "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
+    "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/"
   ]
 }
