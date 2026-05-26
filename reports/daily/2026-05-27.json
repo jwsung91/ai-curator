@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-27T07:22:08+09:00",
+  "items": [
+    {
+      "title": "🚀 Introducing Hiroz - by ZettaScale",
+      "link": "https://discourse.openrobotics.org/t/introducing-hiroz-by-zettascale/55081",
+      "summary": "<p><strong>Hiroz</strong> (High-performance Interoperable Robotics on Zenoh) is a project by <a href=\"https://www.zettascale.tech\" rel=\"noopener nofollow ugc\">ZettaScale Technology</a>, the company supporting <a href=\"https://zenoh.io\" rel=\"noopener nofollow ugc\">Eclipse Zenoh</a> — and the new name for what was previously known as <strong>ROS-Z</s",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Made Easier Now",
+      "link": "https://discourse.openrobotics.org/t/ros-made-easier-now/55076",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/4/4/44adf23924feb2971cbef28d1fbc8820cc86f26f.jpeg\" rel=\"noopener nofollow ugc\" title=\"Screenshot 2026-05-25 at 4.36.48 PM\"><img alt=\"Screenshot 2026-05-25 at 4.36.48 PM\" height=\"366\" src=\"https://us1.discourse-cdn.com/flex022",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ICRA 2026 in Vienna Open Thread",
+      "link": "https://discourse.openrobotics.org/t/icra-2026-in-vienna-open-thread/55091",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113552-icra-2026-in-vienna-open-thread-1\" name=\"p-113552-icra-2026-in-vienna-open-thread-1\"></a>ICRA 2026 in Vienna Open Thread</h1>\n<div class=\"d-image-grid\">\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Release] runtime_integrity v0.3-alpha: Turning command-to-physical execution consistency into standard ROS diagnostics",
+      "link": "https://discourse.openrobotics.org/t/release-runtime-integrity-v0-3-alpha-turning-command-to-physical-execution-consistency-into-standard-ros-diagnostics/55095",
+      "summary": "<p>Hi ROS community,</p>\n<p>Two weeks ago, I posted about a hard-braking middleware for handling Wi-Fi ghost commands. Thanks to the incredibly valuable feedback from <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/peci1\">@peci1</a>, <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/chfritz\">@chfritz</a>, and <a class=\"men",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "10 Year History of ROS on the GoPiGo3 Platform - \"Lyrical-Dave\" In Process",
+      "link": "https://discourse.openrobotics.org/t/10-year-history-of-ros-on-the-gopigo3-platform-lyrical-dave-in-process/55094",
+      "summary": "<p>With a ROS 2 Lyrical Luth GoPiGo3 robot build now in process, I took time to reflect on the 10 year history of ROS on the Raspberry Pi powered GoPiGo3 robot platform:</p>\n<p><a href=\"https://forum.dexterindustries.com/t/revisiting-ros-on-gopigo3-10-year-history/10807?u=cyclicalobsessive\" rel=\"noopener nofollow ugc\" title=\"https://forum.dexterind",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim8_8.12.0: Prepare 8.12.0 release (#3605)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.12.0",
+      "summary": "Prepare 8.12.0 release Signed-off-by: Jose Luis Rivero jrivero@honurobotics.com",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Use boring languages with LLMs",
+      "link": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48237012\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "link": "https://arxiv.org/abs/2605.26099",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48281226\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.86.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.86.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.86.1 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How humanoids learn to read the room",
+      "link": "https://www.therobotreport.com/how-humanoids-learn-to-read-the-room-2/",
+      "summary": "<p>Sponsored by Analog Devices Inc. Designing for a humanoid robot is one of the most complicated applications in robotics today. All on its own, a humanoid system has to manage movement, balance, vision and reactivity across a complex web of joints, sensors and data processing. This becomes critical when a humanoid robot operates in an&#8230;</p>\n",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "GMSL and the growing ecosystem around robotic vision systems",
+      "link": "https://www.therobotreport.com/gmsl-and-the-growing-ecosystem-around-robotic-vision-systems-2/",
+      "summary": "<p>Sponsored by Analog Devices Inc. Just a few years ago, many site owners were satisfied if a robot could move from point A to point B. That’s not quite enough anymore. Today’s robots are being asked to move faster, operate in more dynamic environments, and deal with more obstacles along the way. As those demands&#8230;</p>\n<p>The post <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "XELA Robotics to show tactile sensing at the 2026 Robotics Summit & Expo",
+      "link": "https://www.therobotreport.com/xela-robotics-show-tactile-sensing-2026-robotics-summit-expo/",
+      "summary": "<p>XELA Robotics will show at the Robotics Summit &#038; Expo its improved magnetic interference compensation and uSkin in the Universal Manipulation Interface.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xela-robotics-show-tactile-sensing-2026-robotics-summit-expo/\">XELA Robotics to show tactile sensing at the 2026 Robotics Summit &#03",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+      "summary": "The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
