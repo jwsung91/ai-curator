@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-28T07:42:46+09:00",
+  "items": [
+    {
+      "title": "Post-Qualification Contribution: Coding a Classical Robot Controller in the Age of Coding Agents, an Honest Assessment",
+      "link": "https://discourse.openrobotics.org/t/post-qualification-contribution-coding-a-classical-robot-controller-in-the-age-of-coding-agents-an-honest-assessment/55120",
+      "summary": "<p>Hello everyone!<br />\nWe competed in the AI for Industry Challenge under the team name <strong>MacCody</strong> and wanted to share our experiences in the Qualification Phase. We unfortunately did not make it in the top 30 but wanted to contribute this piece of knowledge, it may be interesting for Roboticists and people working with LLMs / Codin",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Connext Robotics Toolkit for ROS Lyrical Luth is now available",
+      "link": "https://discourse.openrobotics.org/t/connext-robotics-toolkit-for-ros-lyrical-luth-is-now-available/55110",
+      "summary": "<p>Hi ROS 2 Community,</p>\n<p>To go with the Lyrical Luth release, RTI has updated the Connext Robotics Toolkit with Connext 7.7 LTS. The toolkit provides a simple single-step Debian installation of Lyrical and Connext DDS RMW on Ubuntu Linux, now supporting both amd64 and arm64 including Raspberry Pi and NVIDIA Orin platforms. It remains free-of-c",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Part 2: Preparing for State of Cloud Robotics Survey | Cloud Robotics WG Meeting 2026-06-01",
+      "link": "https://discourse.openrobotics.org/t/part-2-preparing-for-state-of-cloud-robotics-survey-cloud-robotics-wg-meeting-2026-06-01/55114",
+      "summary": "<p>Please come and join us for this coming meeting at <span class=\"discourse-local-date\">Mon, Jun 1, 2026 4:00 PM UTC</span>→<span class=\"discourse-local-date\">Mon, Jun 1, 2026 5:00 PM UTC</span>, where we plan to continue writing the survey questions for a new State of Cloud Robotics survey. The last survey was in 2024 (see <a href=\"https://cloudr",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "link": "https://openai.com/index/cisco",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Building self-improving tax agents with Codex",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "link": "https://openai.com/index/warp",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+      "summary": "<p>Anthropic are <a href=\"https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/\">strongly rumored</a> to be about to have their first profitable quarter. Stories <a href=\"https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets\">are circulating</a> of companies s",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48296794\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "link": "https://arps18.github.io/posts/claude-code-mastery/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48289950\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
+      "link": "https://arxiv.org/abs/2605.21779",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48297723\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.86.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.86.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.86.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A guide to Day 1 of the 2026 Robotics Summit & Expo",
+      "link": "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
+      "summary": "<p>Today, the Robotics Summit &#038; Expo will be full of insightful talks, hands-on robot demos, and interesting conversations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/\">A guide to Day 1 of the 2026 Robotics Summit &#038; Expo</a> appeared first on <a href=\"https://www.therobotrepor",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why robots still struggle to see the real world",
+      "link": "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
+      "summary": "<p>Making machine perception reliable enough for real deployment requires more than better AI; it requires properly calibrated sensors, says an Orbbec co-founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/\">Why robots still struggle to see the real world</a> appeared first on <a href=",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "summary": "AI factories are token factories, converting power into intelligence in real time. And as agentic AI scales and autonomous, always-on special agents are deployed in the enterprise, performance per watt and cost per token become the economics that matter.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

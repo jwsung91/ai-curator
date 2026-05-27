@@ -1,17 +1,4 @@
 {
-  "2026-05-09": [
-    "https://discourse.openrobotics.org/t/need-detailed-submission-failure-logs/54617",
-    "https://discourse.openrobotics.org/t/improving-asset-import-workflow-for-external-models-with-textures-fbx-gltf-glb-usdz-etc/54622",
-    "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-may-4th-2026/54641",
-    "https://discourse.openrobotics.org/t/control-algorithm-dominance-survey/54632",
-    "https://openai.com/index/running-codex-safely",
-    "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
-    "https://github.com/V4bel/dirtyfrag",
-    "https://www.anthropic.com/research/teaching-claude-why",
-    "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
-    "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
-    "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/"
-  ],
   "2026-05-11": [
     "https://discourse.openrobotics.org/t/stop-ghost-commands-on-bad-wi-fi-ros2-kinematic-guard-for-cmd-vel-safety/54681",
     "https://discourse.openrobotics.org/t/roboinfra-is-the-missing-infrastructure-layer-for-robotics-development/54690",
@@ -228,5 +215,22 @@
     "https://www.therobotreport.com/gmsl-and-the-growing-ecosystem-around-robotic-vision-systems-2/",
     "https://www.therobotreport.com/xela-robotics-show-tactile-sensing-2026-robotics-summit-expo/",
     "https://blogs.nvidia.com/blog/vera-cpu-phoronix/"
+  ],
+  "2026-05-28": [
+    "https://discourse.openrobotics.org/t/post-qualification-contribution-coding-a-classical-robot-controller-in-the-age-of-coding-agents-an-honest-assessment/55120",
+    "https://discourse.openrobotics.org/t/connext-robotics-toolkit-for-ros-lyrical-luth-is-now-available/55110",
+    "https://discourse.openrobotics.org/t/part-2-preparing-for-state-of-cloud-robotics-survey-cloud-robotics-wg-meeting-2026-06-01/55114",
+    "https://openai.com/index/cisco",
+    "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+    "https://openai.com/index/warp",
+    "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+    "https://simonwillison.net/2026/May/27/product-market-fit/",
+    "https://arps18.github.io/posts/claude-code-mastery/",
+    "https://arxiv.org/abs/2605.21779",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.86.2",
+    "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
+    "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
+    "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/"
   ]
 }
