@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-29",
+  "publishedAt": "2026-05-29T07:41:58+09:00",
+  "items": [
+    {
+      "title": "AIC Qualification Phase Results & Advancing Teams",
+      "link": "https://discourse.openrobotics.org/t/aic-qualification-phase-results-advancing-teams/55138",
+      "summary": "<p>Hello everyone,</p>\n<p>It has been an incredible three months of the qualification phase for the AI for Industry Challenge (AIC), and the response and participation from the community have exceeded all our expectations. We are truly humbled by the prowess of the solutions developed and the collaborative spirit shared across the community. This c",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Didn't make it to top 30 but this is my learning experience",
+      "link": "https://discourse.openrobotics.org/t/didnt-make-it-to-top-30-but-this-is-my-learning-experience/55128",
+      "summary": "<aside class=\"onebox twitterstatus\">\n  <header class=\"source\">\n\n      <a href=\"https://x.com/lymytom20/status/2059855901511614711\" rel=\"noopener nofollow ugc\" target=\"_blank\">x.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <img alt=\"\" class=\"thumbnail onebox-avatar\" height=\"48\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/origi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Jazzy tutorial docker container",
+      "link": "https://discourse.openrobotics.org/t/jazzy-tutorial-docker-container/55140",
+      "summary": "<p>I have an intern starting next week that is new to ROS. I setup this repo to leverage docker so they can dive right into the ROS docs tutorial. The README has a checklist they can use as they progress though the documentation. Sharing in case its helpful to others.</p>\n<aside class=\"onebox githubrepo\">\n  <header class=\"source\">\n\n      <a href=\"h",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing Vulcanexus HRI: Human-Robot Interaction for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/introducing-vulcanexus-hri-human-robot-interaction-for-ros-2/55130",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113613-introducing-vulcanexus-hri-human-robot-interaction-for-ros-2-1\" name=\"p-113613-introducing-vulcanexus-hri-human-robot-interaction-for-ros-2-1\"></a>Introducing Vulcanexus HRI: Human-Robot Interaction for ROS 2</h1>\n<p>As robots become increasingly present in workplaces, public e",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Embodied Intelligence Upgraded: Self-Improving Robot Policies via RISE World Model Reasoning",
+      "link": "https://discourse.openrobotics.org/t/embodied-intelligence-upgraded-self-improving-robot-policies-via-rise-world-model-reasoning/55125",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113608-embodied-intelligence-upgraded-self-improving-robot-policies-via-rise-world-model-reasoning-1\" name=\"p-113608-embodied-intelligence-upgraded-self-improving-robot-policies-via-rise-world-model-reasoning-1\"></a>Embodied Intelligence Upgraded: Self-Improving Robot Policies via RIS",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "sqlite AGENTS.md",
+      "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+      "summary": "<p><strong><a href=\"https://github.com/sqlite/sqlite/blob/master/AGENTS.md\">sqlite AGENTS.md</a></strong></p>\nSQLite gained an AGENTS.md file <a href=\"https://github.com/sqlite/sqlite/commit/a1e5778889252d2609a59fd9b819d70392c5789e\">five days ago</a> - but it's not intended for their own development, it's presumably aimed at people who are pointing",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Opus 4.8",
+      "link": "https://www.anthropic.com/news/claude-opus-4-8",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48311647\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Various LLM Smells",
+      "link": "https://shvbsle.in/various-llm-smells/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48313810\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "link": "https://llmgame.scalex.dev",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48308376\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.105.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.0",
+      "summary": "0.105.0 (2026-05-28) Full Changelog: v0.104.1...v0.105.0 Features api: Add support for claude-opus-4-8, mid-conversation system blocks, and usage.output_tokens_details ( f18b014 ) support custom file size caps ( #1825 ) ( 7e5f944 ) Chores examples: rename managed-agents private-sandbox-worker to self-hosted-sandbox-worker ( #1822 ) ( 750f956 ) Documentation replace literal newlines ( 8f7f6c0 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not yet supported on Windows/Linux. llama3.2-vision is not yet",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The evolution of cobots in metal fabrication and construction",
+      "link": "https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/",
+      "summary": "<p>Matt Bush, the co-founder and CEO of Hirebotics, talks about how cobots are becoming a necessity for manufacturers and welders.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/\">The evolution of cobots in metal fabrication and construction</a> appeared first on <a href=\"htt",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Your guide to the last day of the 2026 Robotics Summit & Expo",
+      "link": "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
+      "summary": "<p>The fun continues in Boston for the second day of the Robotics Summit &#038; Expo, which includes the Women in Robotics breakfast and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/\">Your guide to the last day of the 2026 Robotics Summit &#038; Expo</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "link": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "summary": "Robotics is entering a new phase: moving from controlled demos and scripted automation toward generalizable, reliable embodied autonomy in the real world.  At the International Conference on Robotics and Automation (ICRA), eight of NVIDIA Research’s 28 accepted papers show how simulation-to-real transfer is becoming a foundation for that shift, hel",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

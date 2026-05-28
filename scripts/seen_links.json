@@ -1,17 +1,4 @@
 {
-  "2026-05-11": [
-    "https://discourse.openrobotics.org/t/stop-ghost-commands-on-bad-wi-fi-ros2-kinematic-guard-for-cmd-vel-safety/54681",
-    "https://discourse.openrobotics.org/t/roboinfra-is-the-missing-infrastructure-layer-for-robotics-development/54690",
-    "https://discourse.openrobotics.org/t/semev-12-a-practical-ethical-layer-for-ai-and-future-robots/54688",
-    "https://discourse.openrobotics.org/t/rbot-an-open-source-amr-simulation-stack-for-ros-2-jazzy-and-gazebo-harmonic/54694",
-    "https://discourse.openrobotics.org/t/failed-submission-but-an-empty-result-and-stderr-file/54693",
-    "https://jola.dev/posts/running-local-models-on-m4",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc12",
-    "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
-    "https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/",
-    "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
-    "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/"
-  ],
   "2026-05-12": [
     "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710",
     "https://discourse.openrobotics.org/t/how-to-avoid-one-top-score-team-have-multiple-accounts/54696",
@@ -232,5 +219,22 @@
     "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
     "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
     "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/"
+  ],
+  "2026-05-29": [
+    "https://discourse.openrobotics.org/t/aic-qualification-phase-results-advancing-teams/55138",
+    "https://discourse.openrobotics.org/t/didnt-make-it-to-top-30-but-this-is-my-learning-experience/55128",
+    "https://discourse.openrobotics.org/t/jazzy-tutorial-docker-container/55140",
+    "https://discourse.openrobotics.org/t/introducing-vulcanexus-hri-human-robot-interaction-for-ros-2/55130",
+    "https://discourse.openrobotics.org/t/embodied-intelligence-upgraded-self-improving-robot-policies-via-rise-world-model-reasoning/55125",
+    "https://openai.com/index/openai-frontier-governance-framework",
+    "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+    "https://www.anthropic.com/news/claude-opus-4-8",
+    "https://shvbsle.in/various-llm-smells/",
+    "https://llmgame.scalex.dev",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
+    "https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/",
+    "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
+    "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/"
   ]
 }
