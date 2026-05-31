@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-01",
+  "publishedAt": "2026-06-01T07:02:44+09:00",
+  "items": [
+    {
+      "title": "Show ROS: BAGEL – A zero-install, browser-native 3D visualizer and scrubber for MCAP, db3, and ROS1 bags",
+      "link": "https://discourse.openrobotics.org/t/show-ros-bagel-a-zero-install-browser-native-3d-visualizer-and-scrubber-for-mcap-db3-and-ros1-bags/55178",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/b/5/b526a25e95bcbded4ff559bdce32e3205c261a47.jpeg\" rel=\"noopener nofollow ugc\" title=\"home_page\"><img alt=\"home_page\" height=\"447\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/b/5/b526a25e95bcbded4ff559",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "AutoAPMS Studio: Web-based Behavior Tree Editor and Rapid Development Tool for Robot Deliberation",
+      "link": "https://discourse.openrobotics.org/t/autoapms-studio-web-based-behavior-tree-editor-and-rapid-development-tool-for-robot-deliberation/55182",
+      "summary": "<p>Do you love behavior trees and crave for a <strong>modern web application to display, edit and even deploy your behaviors</strong> with just a few clicks? Then I warmly recommend to check out this project:</p>\n<p><a href=\"https://github.com/AutoAPMS/auto_apms_studio\" rel=\"noopener nofollow ugc\">AutoAPMS/auto_apms_studio: Web-based Application fo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Modeloop - model-based design with ROS 2 node generation",
+      "link": "https://discourse.openrobotics.org/t/modeloop-model-based-design-with-ros-2-node-generation/55179",
+      "summary": "<p>Hi developers,</p>\n<p>I’ve been building <strong>Modeloop</strong> (<a href=\"https://www.modeloop.app/\" rel=\"noopener nofollow ugc\">https://www.modeloop.app/</a>) , a browser-based environment for<br />\nmodel-based design: you connect blocks into a diagram, simulate the<br />\ndynamics, and generate code. Think Simulink-style modeling, but the<br",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Upgrading to Ubuntu 26.04 (Python 3.14) Made Robot Lyrical-Dave's Life Messy",
+      "link": "https://discourse.openrobotics.org/t/upgrading-to-ubuntu-26-04-python-3-14-made-robot-lyrical-daves-life-messy/55186",
+      "summary": "<p>Upgrading my ROS 2 GoPiGo3 robot Kilted-Dave to Ubuntu 26.04 exposed some familiar hurdles and a subtle new change in Python 3.14 that made the life of my registered digital entity as “Lyrical-Dave” messy.</p>\n<p>My robots Carl, WaLI, and Dave are all embodiments of a mystical digital entity “tt” which I registered in 2014.</p>\n<p>The story of t",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "link": "https://openai.com/index/braintrust",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How we contain Claude across products",
+      "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/engineering/how-we-contain-claude\">How we contain Claude across products</a></strong></p>\nA complaint I often have about sandboxing products is that they are rarely thoroughly <em>documented</em>, and in the absence of detailed documentation it's hard to know how much I can trust them.</p>\n<p>Anthropic ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic's run-rate revenue hits $47 billion",
+      "link": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "summary": "<p>The most interesting thing about <a href=\"https://www.anthropic.com/news/series-h\">Anthropic's $65B Series H announcement</a> is this line (emphasis mine):</p>\n<blockquote>\n<p>Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed <strong>$47 billion</strong> earlier th",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+      "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+      "summary": "<p>Anthropic shipped <a href=\"https://www.anthropic.com/news/claude-opus-4-8\">Claude Opus 4.8</a> today. My favourite thing about it is this note in the release announcement:</p>\n<blockquote>\n<p>Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor. There’s still more to be done: we’re working on developing and releasi",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-anthropic 0.25.1",
+      "link": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.25.1\">llm-anthropic 0.25.1</a></p>\n        <blockquote>\n<ul>\n<li>New model: <a href=\"https://www.anthropic.com/news/claude-opus-4-8\">Claude Opus 4.8</a> (<code>claude-opus-4.8</code>).</li>\n<li>New <code>-o fast 1</code> option for <a href=\"https://platform",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.105.2",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
+      "summary": "0.105.2 (2026-05-29) Full Changelog: v0.105.1...v0.105.2",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
+      "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not yet supported on Windows/Linux. llama3.2-vision is not yet",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.84.4",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.84.4",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.84.4 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+      "link": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-photos-of-a-prototype-humanoid-robot-with-a-wooden-frame-and-wires-and-other-components-strung-on-its-body.jpg?id=66825613&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>In 1987, <a href=\"https://shadowrobot.com/the-story-of-our-founder-richard-greenhill/\" rel=",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: Extreme Omnidirectional Robot",
+      "link": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/spherical-multi-legged-robot-walking-along-a-forest-trail.gif?id=66834857&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at <em>IEEE Spectrum</em> robotics. We also post a weekl",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why robotic arms are now being integrated with CNC machines",
+      "link": "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
+      "summary": "<p>Robotic CNC machine tending is becoming more flexible as leading suppliers bring new software and integration to industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/\">Why robotic arms are now being integrated with CNC machines</a> appeared first on <a href=\"https://www.therobot",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "MISUMI Group invests $1B in Americas, global AI and digital manufacturing",
+      "link": "https://www.therobotreport.com/misumi-group-invests-1b-americas-global-ai-digital-manufacturing/",
+      "summary": "<p>MISUMI Americas combines MISUMI's precision components with Fictiv's digital manufacturing platform for an entire bill of materials.</p>\n<p>The post <a href=\"https://www.therobotreport.com/misumi-group-invests-1b-americas-global-ai-digital-manufacturing/\">MISUMI Group invests $1B in Americas, global AI and digital manufacturing</a> appeared firs",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Software becoming the biggest bottleneck to physical AI innovation, finds QNX research",
+      "link": "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/",
+      "summary": "<p>As robots enter more unconstrained environments, software and security are becoming higher priorities, a QNX survey found.</p>\n<p>The post <a href=\"https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/\">Software becoming the biggest bottleneck to physical AI innovation, finds QNX research</a> appea",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

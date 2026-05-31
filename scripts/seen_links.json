@@ -1,18 +1,4 @@
 {
-  "2026-05-12": [
-    "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710",
-    "https://discourse.openrobotics.org/t/how-to-avoid-one-top-score-team-have-multiple-accounts/54696",
-    "https://discourse.openrobotics.org/t/entity-delete-fail-after-trail-change/54695",
-    "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-    "https://openai.com/index/openai-campus-network-student-club-interest-form",
-    "https://openai.com/index/openai-launches-the-deployment-company",
-    "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
-    "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-    "https://duarteocarmo.com/blog/amalia-and-the-future-of-european-portuguese-llms",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc14",
-    "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/"
-  ],
   "2026-05-13": [
     "https://discourse.openrobotics.org/t/visual-identification-of-the-target-port-gt-denied-policy/54741",
     "https://discourse.openrobotics.org/t/official-state-and-timeline-of-ros2-bazel-build/54756",
@@ -236,5 +222,26 @@
     "https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/",
     "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
     "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/"
+  ],
+  "2026-06-01": [
+    "https://discourse.openrobotics.org/t/show-ros-bagel-a-zero-install-browser-native-3d-visualizer-and-scrubber-for-mcap-db3-and-ros1-bags/55178",
+    "https://discourse.openrobotics.org/t/autoapms-studio-web-based-behavior-tree-editor-and-rapid-development-tool-for-robot-deliberation/55182",
+    "https://discourse.openrobotics.org/t/modeloop-model-based-design-with-ros-2-node-generation/55179",
+    "https://discourse.openrobotics.org/t/upgrading-to-ubuntu-26-04-python-3-14-made-robot-lyrical-daves-life-messy/55186",
+    "https://openai.com/index/boston-childrens-hospital",
+    "https://openai.com/index/braintrust",
+    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+    "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+    "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+    "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+    "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.84.4",
+    "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+    "https://spectrum.ieee.org/video-friday-rabona-soccer",
+    "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
+    "https://www.therobotreport.com/misumi-group-invests-1b-americas-global-ai-digital-manufacturing/",
+    "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/"
   ]
 }
