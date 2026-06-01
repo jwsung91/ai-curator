@@ -1,20 +1,4 @@
 {
-  "2026-05-13": [
-    "https://discourse.openrobotics.org/t/visual-identification-of-the-target-port-gt-denied-policy/54741",
-    "https://discourse.openrobotics.org/t/official-state-and-timeline-of-ros2-bazel-build/54756",
-    "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-ik-solver-in-ros2-nero-arm-parametric-inverse-kinematics/54740",
-    "https://discourse.openrobotics.org/t/ecr-score-89-currently-local-hits-3-port-insertions-229-61-max-263-oracle-ceiling-sharing-the-code-for-free/54757",
-    "https://discourse.openrobotics.org/t/handling-high-hardware-communication-latency-360ms/54754",
-    "https://openai.com/academy/codex-for-work/how-finance-teams-use-codex",
-    "https://openai.com/index/nvidia",
-    "https://openai.com/index/what-parameter-golf-taught-us",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
-    "https://spectrum.ieee.org/stretch-4-home-robot",
-    "https://www.therobotreport.com/comau-omron-robotics-partner-offer-robotics-more-industries/",
-    "https://www.therobotreport.com/rbr50-2026-report/",
-    "https://www.therobotreport.com/automated-tire-decloaks-smartbay-autonomous-tire-changing/",
-    "https://blogs.nvidia.com/blog/sap-specialized-agents/"
-  ],
   "2026-05-14": [
     "https://discourse.openrobotics.org/t/github-code-hosting/54771",
     "https://discourse.openrobotics.org/t/community-meeting-wgpu-based-sonar-plugin-for-gazebo-underwater-simulation/54783",
@@ -243,5 +227,19 @@
     "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
     "https://www.therobotreport.com/misumi-group-invests-1b-americas-global-ai-digital-manufacturing/",
     "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/"
+  ],
+  "2026-06-02": [
+    "https://discourse.openrobotics.org/t/open-humanoid-ai-sapiens-with-ros-2-text-generated-motion-with-nvidia-kimodo/55194",
+    "https://discourse.openrobotics.org/t/better-launch-1-6-0-is-out/55203",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-01/55209",
+    "https://openai.com/index/stargate-michigan-data-center",
+    "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+    "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.0",
+    "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
+    "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
+    "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+    "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+    "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/"
   ]
 }

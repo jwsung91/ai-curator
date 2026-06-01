@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-02T08:03:29+09:00",
+  "items": [
+    {
+      "title": "Open Humanoid AI Sapiens with ROS 2 + Text-Generated Motion with NVIDIA Kimodo",
+      "link": "https://discourse.openrobotics.org/t/open-humanoid-ai-sapiens-with-ros-2-text-generated-motion-with-nvidia-kimodo/55194",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=2xAJzQ8V9p8\">Open Humanoid ROBOTIS AI Sapiens #2: Text-Generated Motion with NVIDIA Kimodo</a></p>\n\n<p>We are excited to share the latest progress on our open-source humanoid platform, ROBOTIS AI Sapiens.</p>\n<p>In our newest demo, we integrated NVIDIA Kimodo to generate humanoid motions directly from tex",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Better_launch 1.6.0 is out!",
+      "link": "https://discourse.openrobotics.org/t/better-launch-1-6-0-is-out/55203",
+      "summary": "<p>Hi, it’s the guy with the opinions again <img alt=\":slight_smile:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/slight_smile.png?v=15\" title=\":slight_smile:\" width=\"20\" /></p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/9/0/9007689e0bc922053ba",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo PMC Meeting Minutes 2026-06-01",
+      "link": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-01/55209",
+      "summary": "<p>Hi Gazebo Community!</p>\n<p>This week’s meeting was held on <span class=\"discourse-local-date\">Mon, Jun 1, 2026 6:00 PM UTC</span> and the following is a summary:</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113746-pmc-business-1\" name=\"p-113746-pmc-business-1\"></a>PMC Business</h2>\n<ul>\n<li>The Gazebo Future Planning Wor",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "link": "https://openai.com/index/stargate-michigan-data-center",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "link": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48358646\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.0: launch: migrate Codex config (#16397)",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
+      "summary": "launch: migrate Codex config",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NVIDIA releases new and updated tools for physical AI developers",
+      "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
+      "summary": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVIDIA releases new and updated tools for physical AI developers</a> appeared first on <a href=\"https:/",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "ANSCER Robotics closes Series A round for industrial material handling",
+      "link": "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
+      "summary": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial material handling</a> appeared first on <a href=\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Top 10 robotics stories of May 2026",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+      "summary": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+      "link": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+      "summary": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications.  NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behin",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "summary": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites. As Vera Rubin ramps into full production to power agentic AI factories worldwide, that ecosystem spans the full supply chain — from key [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
