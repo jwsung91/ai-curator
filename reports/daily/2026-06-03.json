@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-03",
+  "publishedAt": "2026-06-03T08:03:56+09:00",
+  "items": [
+    {
+      "title": "ssik 1.1 — analytical inverse kinematics for 6R / 7R arms (PyPI, Python)",
+      "link": "https://discourse.openrobotics.org/t/ssik-1-1-analytical-inverse-kinematics-for-6r-7r-arms-pypi-python/55211",
+      "summary": "<p>Hello ROS community,</p>\n<p>I’d like to share <strong>ssik</strong>, a Python library for analytical inverse kinematics on 6R and 7R revolute manipulators. Version 1.1 just shipped to PyPI, and I’m excited for you all to use it. I’d be happy to answer questions, take requests for specific arms, or help anyone integrate it into their stack.</p>\n<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "2026 State of Cloud Robotics Survey",
+      "link": "https://discourse.openrobotics.org/t/2026-state-of-cloud-robotics-survey/55226",
+      "summary": "<p>Hello, robotics developers!</p>\n<p>If you’re using cloud robotics at all, we (the Cloud Robotics Working Group) would appreciate you taking the time to fill out a survey.</p>\n<p>We’re gathering data on how cloud robotics is used, what it’s doing well, and what still needs improving.</p>\n<p>The survey link is here: <a href=\"https://forms.gle/WxXi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Built a flight recorder for ROS 2 robots — looking for brutal feedback",
+      "link": "https://discourse.openrobotics.org/t/built-a-flight-recorder-for-ros-2-robots-looking-for-brutal-feedback/55210",
+      "summary": "<p>Hey ROS community,</p>\n<p>We’ve been building something called **BlackBox** — think of it like a flight data recorder for your ROS 2 robots.</p>\n<p>The idea: every time your robot does something unexpected in the field, you shouldn’t have to dig through raw logs hoping you can reproduce it. BlackBox lets you record **episodes** (a bounded window",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Jazzy sync and patch release 2026-06-08",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-and-patch-release-2026-06-08/55225",
+      "summary": "<p>We’re planning for a Jazzy sync and patch release on <span class=\"discourse-local-date\">Mon, Jun 8, 2026 12:00 AM UTC</span>. There are currently <a href=\"http://repo.ros2.org/status_page/ros_jazzy_default.html?q=SYNC\" rel=\"noopener nofollow ugc\">523 packages to sync </a> and <a href=\"http://repo.ros2.org/status_page/ros_jazzy_default.html?q=REG",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotics integrator — autonomous pallet jack bring-up (1–2 week contract, on-site Los Angeles)",
+      "link": "https://discourse.openrobotics.org/t/robotics-integrator-autonomous-pallet-jack-bring-up-1-2-week-contract-on-site-los-angeles/55229",
+      "summary": "<p>What this is: We’re retrofitting a standard 24V electric walkie pallet truck into an autonomous</p>\n<p>unit. The autonomy software is already written and runs in simulation — your job is the hardware</p>\n<p>bring-up: drive-by-wire, sensors, and getting it driving itself in a cordoned area. This is</p>\n<p>integration and fabrication, not writing ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 28.1.19",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/28.1.19",
+      "summary": "Signed-off-by: Marco A. Gutierrez marcogg@marcogg.com",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 8.4.4",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/8.4.4",
+      "summary": "Signed-off-by: Marco A. Gutierrez marcogg@marcogg.com",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 launch 3.4.11",
+      "link": "https://github.com/ros2/launch/releases/tag/3.4.11",
+      "summary": "Signed-off-by: Marco A. Gutierrez marcogg@marcogg.com",
+      "source": "GitHub (ROS2 launch)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "link": "https://openai.com/index/travelers",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Microsoft's new MAI models",
+      "link": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "summary": "<p>Microsoft <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\">announced two new text LLMs</a> this morning - <strong><a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">MAI-Thinking-1</a></strong> (reasoning, 35B parameters, available to \"select early partners\") and <strong><a href=\"htt",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How we index images for RAG",
+      "link": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48372239\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GitHub Copilot App",
+      "link": "https://github.com/features/preview/github-app",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48373764\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.1: llm: ignore llama-server SSE ping comments (#16443)",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.1",
+      "summary": "llama.cpp b9478 added a default 30s SSE ping that emits colon-only comment frames (\":\\n\\n\") while streamed requests are idle; Ollama treated non-data SSE lines as JSON, so skip SSE comments in completion and chat streams.",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.85.3",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.85.3",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.85.3 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "2026 Robotics Summit & Expo Recap",
+      "link": "https://www.therobotreport.com/2026-robotics-summit-expo-recap/",
+      "summary": "<p>Listen to the podcast this week as The Robot Report editorial staff recaps the recent Robotics Summit &#038; Expo from Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/2026-robotics-summit-expo-recap/\">2026 Robotics Summit &#038; Expo Recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Petal Surgical adds more funding for incisionless surgical robot",
+      "link": "https://www.therobotreport.com/petal-surgical-adds-more-funding-for-incisionless-surgical-robot/",
+      "summary": "<p>Petal said its incisionless surgery method could create a new standard of care, making advanced treatments safer, more accessible and less traumatic for patients worldwide. </p>\n<p>The post <a href=\"https://www.therobotreport.com/petal-surgical-adds-more-funding-for-incisionless-surgical-robot/\">Petal Surgical adds more funding for incisionless ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "FORT Robotics acquires Mapless AI to expand teleop capabilities",
+      "link": "https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/",
+      "summary": "<p>While FORT has traditionally worked with technology in industrial environments, Mapless AI brings experience in more unstructured settings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/\">FORT Robotics acquires Mapless AI to expand teleop capabilities</a> appeared first o",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+      "link": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "summary": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours.  Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes.  At",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "link": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "summary": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Bu",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

@@ -1,24 +1,4 @@
 {
-  "2026-05-14": [
-    "https://discourse.openrobotics.org/t/github-code-hosting/54771",
-    "https://discourse.openrobotics.org/t/community-meeting-wgpu-based-sonar-plugin-for-gazebo-underwater-simulation/54783",
-    "https://discourse.openrobotics.org/t/hardware-troubleshooting-fetch-1501-main-board-24v-rail-not-activating/54764",
-    "https://discourse.openrobotics.org/t/qualification-phase-evaluation/54785",
-    "https://discourse.openrobotics.org/t/parallel-robots-in-ros/54781",
-    "https://openai.com/index/building-codex-windows-sandbox",
-    "https://openai.com/academy/how-finance-teams-use-codex",
-    "https://openai.com/index/autoscout24",
-    "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
-    "https://simonwillison.net/2026/May/12/llm/#atom-everything",
-    "https://bitplane.net/log/2026/05/rars/",
-    "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0",
-    "https://www.therobotreport.com/bridging-gap-profitability-meets-sustainability-through-physical-ai/",
-    "https://www.therobotreport.com/alva-industries-brings-frameless-motor-technology-2026-robotics-summit/",
-    "https://www.therobotreport.com/architecting-reliability-how-gmsl-diagnostics-enable-robust-vision/",
-    "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-    "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/"
-  ],
   "2026-05-15": [
     "https://discourse.openrobotics.org/t/jros2-cellphone-sensor-bridge-native-ros-2-nodes-on-android/54804",
     "https://discourse.openrobotics.org/t/open-source-rviz-2d-plot-plugin-live-2d-plotting-inside-rviz-2/54831",
@@ -241,5 +221,28 @@
     "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
     "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
     "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/"
+  ],
+  "2026-06-03": [
+    "https://discourse.openrobotics.org/t/ssik-1-1-analytical-inverse-kinematics-for-6r-7r-arms-pypi-python/55211",
+    "https://discourse.openrobotics.org/t/2026-state-of-cloud-robotics-survey/55226",
+    "https://discourse.openrobotics.org/t/built-a-flight-recorder-for-ros-2-robots-looking-for-brutal-feedback/55210",
+    "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-and-patch-release-2026-06-08/55225",
+    "https://discourse.openrobotics.org/t/robotics-integrator-autonomous-pallet-jack-bring-up-1-2-week-contract-on-site-los-angeles/55229",
+    "https://github.com/ros2/rclcpp/releases/tag/28.1.19",
+    "https://github.com/ros2/rmw_fastrtps/releases/tag/8.4.4",
+    "https://github.com/ros2/launch/releases/tag/3.4.11",
+    "https://openai.com/index/travelers",
+    "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+    "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+    "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+    "https://github.com/features/preview/github-app",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.85.3",
+    "https://www.therobotreport.com/2026-robotics-summit-expo-recap/",
+    "https://www.therobotreport.com/petal-surgical-adds-more-funding-for-incisionless-surgical-robot/",
+    "https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/",
+    "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+    "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/"
   ]
 }
