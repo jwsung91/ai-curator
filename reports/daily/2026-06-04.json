@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-04T08:06:16+09:00",
+  "items": [
+    {
+      "title": "What VAT is applied to OSRA Swag?",
+      "link": "https://discourse.openrobotics.org/t/what-vat-is-applied-to-osra-swag/55257",
+      "summary": "<p>I just ordered the Lyrical swag. And I can’t figure out what VAT is applied to it. The website does unforunately not help with figuring it out.</p>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>Subtotal (5 items)</th>\n<th>€42.93</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Standard Shipping</td>\n<td>€9.46</td>\n</tr>\n<tr>\n<td>Discount</td>\n<td>- €8.60<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Recommended way to represent robot initialization failures in RMF Web",
+      "link": "https://discourse.openrobotics.org/t/recommended-way-to-represent-robot-initialization-failures-in-rmf-web/55245",
+      "summary": "<p>Hi,</p>\n<p>I’m working on an EasyFullControl fleet adapter and would like to clarify the intended usage of the <code>uninitialized</code> robot status.</p>\n<p>The <a href=\"https://github.com/open-rmf/rmf_api_msgs/blob/main/rmf_api_msgs/schemas/robot_state.json#L9-L13\" rel=\"noopener nofollow ugc\">robot_state.json</a> schema includes:</p>\n<pre><co",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Call for Participants in a Research Study on ROS Developer Experiences",
+      "link": "https://discourse.openrobotics.org/t/call-for-participants-in-a-research-study-on-ros-developer-experiences/55260",
+      "summary": "<p>I shared this survey on ROS General previously, but I am looking for additional participants and want to hear from you!</p>\n<p>We are a group of software engineering researchers at Carnegie Mellon University, VORTEX Collab, and the University of Lisbon. We are conducting a research survey to better understand the <strong>information needs</stron",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for June 2, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-june-2-2026/55263",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0#heading=h.cwb6c9erp1hh\">ROS PMC weekly meeting agenda<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS OE Community Meeting #57 - 2026/05/25 @ 3pm UTC",
+      "link": "https://discourse.openrobotics.org/t/ros-oe-community-meeting-57-2026-05-25-3pm-utc/55262",
+      "summary": "<p>Our next meeting is on Monday. Current work involves supporting MoveIt 2 and Nav2.  Including creating container images for the Space ROS demos for local and on-target development.</p>\n<ul>\n<li>\n<p><strong>Date/Time</strong><br />\nMonday, June 8th, 2026 @ 3pm UTC, (5pm CEST / 11am EDT / 8am PDT)</p>\n</li>\n<li>\n<p><strong>Google Meet</strong><br ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rosbag2 0.26.11",
+      "link": "https://github.com/ros2/rosbag2/releases/tag/0.26.11",
+      "summary": "Jazzy 0.26.11 release",
+      "source": "GitHub (rosbag2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A blueprint for democratic governance of frontier AI",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI public policy agenda",
+      "link": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+      "link": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs\">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</a></strong></p>\nI wrote <a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin\">the other day</",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent-micropython 0.1a0",
+      "link": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-micropython/releases/tag/0.1a0\">datasette-agent-micropython 0.1a0</a></p>\n        <p>I want <a href=\"https://agent.datasette.io\">Datasette Agent</a> to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far fail",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+      "link": "https://github.com/zaydmulani09/mnemo",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48389586\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.4",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc1",
+      "summary": "What's Changed llama.cpp version update by @dhiltgen in #16463 Kill llama-server during Windows cleanup by @dhiltgen in #16458 Full Changelog : v0.30.3...v0.30.4-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.86.3",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.86.3",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.86.3 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Autonomous defense manufacturer Mach Industries raises $300M",
+      "link": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+      "summary": "<p>Mach Industries will use the funding to accelerate executing government contracts, acquire talent, develop products, and expand its network. </p>\n<p>The post <a href=\"https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/\">Autonomous defense manufacturer Mach Industries raises $300M</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "RoboBusiness 2026 opens call for speakers",
+      "link": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+      "summary": "<p>RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/\">RoboBusiness 2026 opens call for speakers</a> appeared first on <a href=\"https://www.therobotreport.com\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Festo launches lightweight pneumatic gripper and tests GripperAI",
+      "link": "https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/",
+      "summary": "<p>Festo has released a compact cobot gripper, and its robot-agnostic GripperAI enables grasping of objects without prior training.</p>\n<p>The post <a href=\"https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/\">Festo launches lightweight pneumatic gripper and tests GripperAI</a> appeared first on <a href=\"https://www.the",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "link": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before.  What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "link": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "summary": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-c",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

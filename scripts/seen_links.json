@@ -1,16 +1,4 @@
 {
-  "2026-05-15": [
-    "https://discourse.openrobotics.org/t/jros2-cellphone-sensor-bridge-native-ros-2-nodes-on-android/54804",
-    "https://discourse.openrobotics.org/t/open-source-rviz-2d-plot-plugin-live-2d-plotting-inside-rviz-2/54831",
-    "https://discourse.openrobotics.org/t/submission-failed-stderr-does-not-show-anything/54810",
-    "https://discourse.openrobotics.org/t/the-accountability-gap-in-ros2-where-does-why-did-the-robot-do-that-get-answered/54841",
-    "https://discourse.openrobotics.org/t/submissions-fail-at-334s-with-empty-stdout-stderr/54813",
-    "https://openai.com/index/work-with-codex-from-anywhere",
-    "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-    "https://github.com/anthropics/claude-for-legal",
-    "https://github.com/ollama/ollama/releases/tag/v0.24.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.84.0"
-  ],
   "2026-05-16": [
     "https://discourse.openrobotics.org/t/please-allow-more-than-one-submission-on-deadline-day/54858",
     "https://discourse.openrobotics.org/t/what-patterns-of-logs-or-warnings-should-an-automated-bridge-promote-to-structured-faults-in-ros-2/54865",
@@ -244,5 +232,26 @@
     "https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/",
     "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
     "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/"
+  ],
+  "2026-06-04": [
+    "https://discourse.openrobotics.org/t/what-vat-is-applied-to-osra-swag/55257",
+    "https://discourse.openrobotics.org/t/recommended-way-to-represent-robot-initialization-failures-in-rmf-web/55245",
+    "https://discourse.openrobotics.org/t/call-for-participants-in-a-research-study-on-ros-developer-experiences/55260",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-june-2-2026/55263",
+    "https://discourse.openrobotics.org/t/ros-oe-community-meeting-57-2026-05-25-3pm-utc/55262",
+    "https://github.com/ros2/rosbag2/releases/tag/0.26.11",
+    "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "https://openai.com/index/frontier-safety-blueprint",
+    "https://openai.com/index/public-policy-agenda",
+    "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+    "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+    "https://github.com/zaydmulani09/mnemo",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.86.3",
+    "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+    "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+    "https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/",
+    "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+    "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/"
   ]
 }
