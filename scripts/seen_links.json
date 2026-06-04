@@ -1,16 +1,4 @@
 {
-  "2026-05-16": [
-    "https://discourse.openrobotics.org/t/please-allow-more-than-one-submission-on-deadline-day/54858",
-    "https://discourse.openrobotics.org/t/what-patterns-of-logs-or-warnings-should-an-automated-bridge-promote-to-structured-faults-in-ros-2/54865",
-    "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-05-14/54843",
-    "https://discourse.openrobotics.org/t/last-submission-disappeared/54886",
-    "https://discourse.openrobotics.org/t/3we-ai-first-python-api-for-mobile-robot-navigation-open-source-300-bom/54872",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.3.0",
-    "https://openai.com/index/personal-finance-chatgpt",
-    "https://openai.com/index/sea-david-chen",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
-    "https://spectrum.ieee.org/video-friday-material-handling-robots"
-  ],
   "2026-05-19": [
     "https://discourse.openrobotics.org/t/introducing-olo-a-browser-based-ros-2-platform-for-simulation-visualisation-and-robot-programming/54932",
     "https://discourse.openrobotics.org/t/title-would-your-team-use-an-open-loop-regression-testing-tool-for-ros-2-autonomy-stacks/54919",
@@ -253,5 +241,25 @@
     "https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/",
     "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
     "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/"
+  ],
+  "2026-06-05": [
+    "https://discourse.openrobotics.org/t/sowbot-feldfreund-devkit-ros-wip-open-agricultural-robot-stack/55267",
+    "https://discourse.openrobotics.org/t/2d-scan-merger-for-ros2/55274",
+    "https://discourse.openrobotics.org/t/amazing-ros-2-mcp-native-ros-2-mcp-server-for-ai-assisted-robotics-agents/55270",
+    "https://discourse.openrobotics.org/t/phd-position-in-robotics-and-blockchain-technology-ie-university-madrid/55272",
+    "https://discourse.openrobotics.org/t/wrench-observation-isaaclab/55271",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.4.0",
+    "https://openai.com/index/endava-frontiers",
+    "https://openai.com/index/chatgpt-memory-dreaming",
+    "https://openai.com/index/biodefense-in-the-intelligence-age",
+    "https://github.com/anthropics/defending-code-reference-harness",
+    "https://castor.web.cern.ch/content/home.html",
+    "https://github.com/huawei-csl/KVarN",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.5",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.87.1",
+    "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
+    "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
+    "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/"
   ]
 }

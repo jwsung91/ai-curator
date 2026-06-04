@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-05T07:23:02+09:00",
+  "items": [
+    {
+      "title": "Sowbot / Feldfreund DevKit ROS — WIP open agricultural robot stack",
+      "link": "https://discourse.openrobotics.org/t/sowbot-feldfreund-devkit-ros-wip-open-agricultural-robot-stack/55267",
+      "summary": "<p><a href=\"https://github.com/Agroecology-Lab/feldfreund_devkit_ros\" rel=\"noopener nofollow ugc\">GitHub: Agroecology-Lab/feldfreund_devkit_ros</a> · forked from <a href=\"https://github.com/zauberzeug/feldfreund_devkit_ros\" rel=\"noopener nofollow ugc\">zauberzeug/feldfreund_devkit_ros</a></p>\n<p>We’re building Sowbot, an open-hardware precision seed",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "2D-Scan Merger for ROS2!",
+      "link": "https://discourse.openrobotics.org/t/2d-scan-merger-for-ros2/55274",
+      "summary": "<p><img alt=\"the_gif\" class=\"animated\" height=\"388\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/a/c/ac8b045ae09c64cee433b6bbddb342618548bd90.gif\" width=\"690\" /></p>\n<p><img alt=\":high_voltage:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/high_voltage.png?v=15\" title=\":high_voltage:\" width=\"20\" /> If yo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Amazing ROS 2 MCP: Native ROS 2 MCP server for AI-assisted robotics agents",
+      "link": "https://discourse.openrobotics.org/t/amazing-ros-2-mcp-native-ros-2-mcp-server-for-ai-assisted-robotics-agents/55270",
+      "summary": "<p>Hello everyone,</p>\n<p>I wanted to share a project I built a few months back: Amazing ROS 2 MCP.</p>\n<p>Amazing ROS 2 MCP is a native ROS 2 Model Context Protocol server that allows AI agents to inspect and interact with ROS 2 systems directly using rclpy, without depending on rosbridge.</p>\n<p>Some key specialties of the project:</p>\n<ul>\n<li>N",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "PhD Position in Robotics and Blockchain Technology (IE University, Madrid)",
+      "link": "https://discourse.openrobotics.org/t/phd-position-in-robotics-and-blockchain-technology-ie-university-madrid/55272",
+      "summary": "<h5><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-113838-description-1\" name=\"p-113838-description-1\"></a><strong>DESCRIPTION</strong></h5>\n<p>Are you passionate about robotics, and the future of autonomous systems? The Cyber-Physical Life research group (<a href=\"https://cyphy.life\" rel=\"noopener nofollow ugc\">https://cyphy.life</a>",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Wrench observation Isaaclab",
+      "link": "https://discourse.openrobotics.org/t/wrench-observation-isaaclab/55271",
+      "summary": "<p>Hi everyone,</p>\n<p>We were looking into using IsaacLab as an additional way to tackle the task and run further experiments. While comparing the available observations with the Gazebo setup, we noticed that the Gazebo environment exposes a wrist wrench observation through the force-torque sensor broadcaster, but we do not immediately see an equi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim10_10.4.0: Prepare For Release 10.4.0 (#3652)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.4.0",
+      "summary": "Signed-off-by: Arjo Chakravarty arjoc@intrinsic.ai Co-authored-by: Steve Peters scpeters@intrinsic.ai",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "link": "https://openai.com/index/endava-frontiers",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Biodefense in the Intelligence Age",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "link": "https://github.com/anthropics/defending-code-reference-harness",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48403980\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Castor: CERN Advanced STORage Manager",
+      "link": "https://castor.web.cern.ch/content/home.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48403753\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "link": "https://github.com/huawei-csl/KVarN",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48399974\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers 2026.6.3",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "summary": "Release 2026.6.3",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.5",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
+      "summary": "What's Changed Fix gemma4:12b floating point exception crash integrations: hermes windows install by @BruceMacD in #16487 Full Changelog : v0.30.4...v0.30.5",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.87.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.87.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.87.1 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Can surgical robots fly? SS Innovations discusses challenges, solutions",
+      "link": "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
+      "summary": "<p>The robotics developer is focusing on providing emergency care in active war zones and beyond.</p>\n<p>The post <a href=\"https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/\">Can surgical robots fly? SS Innovations discusses challenges, solutions</a> appeared first on <a href=\"https://www.therobotr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Proteus gets natural-language ability as Amazon expands European robot deployments",
+      "link": "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
+      "summary": "<p>Amazon says Proteus needs no special commands as it plans to deploy the mobile robot, as well as STARK and Vulcan, across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/\">Proteus gets natural-language ability as Amazon expands European robot deployment",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Generalist raises $400M to scale its general-purpose AI models",
+      "link": "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/",
+      "summary": "<p>Generalist claims its system improves average success rates to 99% on tasks where previous models achieved 64%.</p>\n<p>The post <a href=\"https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/\">Generalist raises $400M to scale its general-purpose AI models</a> appeared first on <a href=\"https://www.therobotr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
