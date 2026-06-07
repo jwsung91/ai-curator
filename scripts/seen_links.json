@@ -1,22 +1,4 @@
 {
-  "2026-05-19": [
-    "https://discourse.openrobotics.org/t/introducing-olo-a-browser-based-ros-2-platform-for-simulation-visualisation-and-robot-programming/54932",
-    "https://discourse.openrobotics.org/t/title-would-your-team-use-an-open-loop-regression-testing-tool-for-ros-2-autonomy-stacks/54919",
-    "https://discourse.openrobotics.org/t/open-robotics-in-the-age-of-embodied-ai/54933",
-    "https://discourse.openrobotics.org/t/pre-release-distribution-freeze-for-lyrical-luth/54938",
-    "https://discourse.openrobotics.org/t/roboinfra-ci-cd-apis-for-urdf-validation-auto-fix-moveit-config-generation-and-isaac-sim-usd-conversion/54937",
-    "https://openai.com/index/dell-codex-enterprise-partnership",
-    "https://openai.com/index/malta-chatgpt-plus-partnership",
-    "https://openai.com/index/databricks",
-    "https://deepmind.google/blog/ai-co-clinician/",
-    "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
-    "https://www.anthropic.com/news/anthropic-acquires-stainless",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.85.0",
-    "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
-    "https://events.bizzabo.com/867156",
-    "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
-  ],
   "2026-05-20": [
     "https://discourse.openrobotics.org/t/nav2-poll-on-thoughts-of-ai-bots-copy-paste-jobs-in-repository-interactions/54962",
     "https://discourse.openrobotics.org/t/standardizing-system-default-qos-resolution-across-rmw-implementations/54952",
@@ -261,5 +243,20 @@
     "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
     "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
     "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/"
+  ],
+  "2026-06-08": [
+    "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+    "https://arxiv.org/abs/2605.31514",
+    "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+    "https://github.com/devenjarvis/lathe",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.1",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.88.0",
+    "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+    "https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/",
+    "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
+    "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
+    "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+    "https://blogs.nvidia.com/blog/korea-ecosystem-2026/"
   ]
 }
