@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-10T07:25:21+09:00",
+  "items": [
+    {
+      "title": "Project TT: Developing a 20mm Biohybrid Tripod Driven by Cerebral Organoids",
+      "link": "https://discourse.openrobotics.org/t/project-tt-developing-a-20mm-biohybrid-tripod-driven-by-cerebral-organoids/55373",
+      "summary": "<p>Hello everyone,</p>\n<p>I want to share a project proposal I’ve developed for a 20 mm biohybrid soft robotic platform called the <strong>Tripodal Thinker (Project TT)</strong>.</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/1/7/170b93f3d3d896e6f10fbe2528cbbeb045ef9d",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Logging and Observability Guide Discussion | Cloud Robotics WG Meeting 2026-06-15",
+      "link": "https://discourse.openrobotics.org/t/logging-and-observability-guide-discussion-cloud-robotics-wg-meeting-2026-06-15/55370",
+      "summary": "<p>Please come and join us for this coming meeting at <span class=\"discourse-local-date\">Mon, Jun 15, 2026 4:00 PM UTC</span>→<span class=\"discourse-local-date\">Mon, Jun 15, 2026 5:00 PM UTC</span>, where we will be discussing Logging &amp; Observability tips and best practices. The group has been researching in this area for the past several month",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo ignition-gazebo6_6.18.0: Prepare for 6.18.0 (#3670)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo6_6.18.0",
+      "summary": "Signed-off-by: Addisu Z. Taddese addisuzt@intrinsic.ai",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "link": "https://openai.com/index/nextdoor",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What Codex unlocks for Notion",
+      "link": "https://openai.com/index/notion",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Setting a custom price for a model in AgentsView",
+      "link": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/agentsview-custom-model-price\">Setting a custom price for a model in AgentsView</a></p>\n        <p>I've been really enjoying <a href=\"https://agentsview.io/\">AgentsView</a> by Wes McKinney as a tool for exploring my token usage across different coding agents running on my laptop.<",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Fable 5",
+      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48463808\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "link": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48467896\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.109.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
+      "summary": "0.109.0 (2026-06-09) Full Changelog: v0.108.0...v0.109.0 Features api: add support for Managed Agents deployments and environment variable credentials ( 47633bf )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Walmart, Wing add 7 markets in drone delivery expansion",
+      "link": "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/",
+      "summary": "<p>Wing plans to bring drone deliveries to Memphis, New Orleans, Philadelphia, Phoenix, San Diego, San Francisco, and Salt Lake City.</p>\n<p>The post <a href=\"https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/\">Walmart, Wing add 7 markets in drone delivery expansion</a> appeared first on <a href=\"https://www.ther",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

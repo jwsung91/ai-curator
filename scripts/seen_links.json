@@ -1,22 +1,4 @@
 {
-  "2026-05-21": [
-    "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm/54969",
-    "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-    "https://openai.com/index/ramp",
-    "https://openai.com/index/the-next-phase-of-education-for-countries",
-    "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
-    "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
-    "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
-    "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
-    "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
-    "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
-    "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
-    "https://www.alexselimov.com/posts/forge_fragmentation/",
-    "https://spectrum.ieee.org/robotics-ai-breakthrough",
-    "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
-    "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
-    "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/"
-  ],
   "2026-05-22": [
     "https://discourse.openrobotics.org/t/cfp-oceans-2026-monterey-workshops-tutorials-deadline-extended/54986",
     "https://discourse.openrobotics.org/t/ros-oe-community-meeting-56-2026-05-25-3pm-utc/54995",
@@ -266,5 +248,17 @@
     "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
     "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
     "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/"
+  ],
+  "2026-06-10": [
+    "https://discourse.openrobotics.org/t/project-tt-developing-a-20mm-biohybrid-tripod-driven-by-cerebral-organoids/55373",
+    "https://discourse.openrobotics.org/t/logging-and-observability-guide-discussion-cloud-robotics-wg-meeting-2026-06-15/55370",
+    "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo6_6.18.0",
+    "https://openai.com/index/nextdoor",
+    "https://openai.com/index/notion",
+    "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
+    "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/"
   ]
 }
