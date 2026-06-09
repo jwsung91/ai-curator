@@ -164,7 +164,8 @@ def generate_summary(items):
     client = genai.Client(api_key=api_key)
     prompt = build_prompt(items)
 
-    model_names = ['gemini-flash-latest']
+    configured_models = os.getenv("GEMINI_MODEL_NAMES", "gemini-3-flash-preview")
+    model_names = [name.strip() for name in configured_models.split(",") if name.strip()]
     last_exception = None
 
     for model_name in model_names:

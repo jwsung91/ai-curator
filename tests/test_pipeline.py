@@ -79,6 +79,35 @@ def test_validate_daily_report_rejects_out_of_range_citation():
         validate_daily_report(data)
 
 
+def test_generate_summary_uses_gemini_3_flash_preview_by_default(monkeypatch):
+    calls = []
+
+    class FakeClient:
+        def __init__(self, api_key):
+            self.models = types.SimpleNamespace(
+                generate_content=lambda model, contents, config: (
+                    calls.append(model) or
+                    types.SimpleNamespace(text='{"one_sentence_summary": "요약"}')
+                )
+            )
+
+    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
+    monkeypatch.delenv('GEMINI_MODEL_NAMES', raising=False)
+    monkeypatch.setattr(builder.genai, 'Client', FakeClient)
+
+    builder.generate_summary([
+        {
+            'title': 'T',
+            'link': 'https://example.com/t',
+            'summary': 'S',
+            'source': 'Src',
+            'section_hint': 'AI',
+        }
+    ])
+
+    assert calls == ['gemini-3-flash-preview']
+
+
 def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
     scripts_dir = tmp_path / 'scripts'
     scripts_dir.mkdir()
@@ -225,6 +254,41 @@ def test_validate_weekly_report_rejects_citations_in_practical_checkpoints():
 
     with pytest.raises(ValueError, match='practical_checkpoints'):
         validate_weekly_report(data)
+
+
+def test_generate_weekly_summary_uses_gemini_3_flash_preview_by_default(monkeypatch):
+    calls = []
+
+    class FakeClient:
+        def __init__(self, api_key):
+            self.models = types.SimpleNamespace(
+                generate_content=lambda model, contents, config: (
+                    calls.append(model) or
+                    types.SimpleNamespace(text='{"one_sentence_summary": "주간 요약"}')
+                )
+            )
+
+    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
+    monkeypatch.delenv('GEMINI_MODEL_NAMES', raising=False)
+    monkeypatch.setattr(weekly_builder.genai, 'Client', FakeClient)
+
+    weekly_builder.generate_weekly_summary([
+        {
+            'date': '2026-05-18',
+            'cross_insight': '- 흐름',
+            'items': [
+                {
+                    'title': 'ROS2',
+                    'link': 'https://example.com/ros2',
+                    'summary': 'S',
+                    'source': 'ROS2',
+                    'section_hint': '로보틱스',
+                }
+            ],
+        }
+    ])
+
+    assert calls == ['gemini-3-flash-preview']
 
 
 def test_weekly_prompt_uses_summary_based_language_and_stats_hint():

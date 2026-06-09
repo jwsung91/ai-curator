@@ -230,7 +230,10 @@ def generate_weekly_summary(week_data: list[dict]) -> dict:
     prompt = build_weekly_prompt(week_data, global_items)
     last_exception = None
 
-    for model_name in ['gemini-flash-latest']:
+    configured_models = os.getenv('GEMINI_MODEL_NAMES', 'gemini-3-flash-preview')
+    model_names = [name.strip() for name in configured_models.split(',') if name.strip()]
+
+    for model_name in model_names:
         for attempt in range(2):
             try:
                 print(f"  🤖 {model_name} (attempt {attempt + 1})")
