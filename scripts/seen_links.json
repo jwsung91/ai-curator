@@ -1,24 +1,4 @@
 {
-  "2026-05-20": [
-    "https://discourse.openrobotics.org/t/nav2-poll-on-thoughts-of-ai-bots-copy-paste-jobs-in-repository-interactions/54962",
-    "https://discourse.openrobotics.org/t/standardizing-system-default-qos-resolution-across-rmw-implementations/54952",
-    "https://discourse.openrobotics.org/t/lidar-selection-guide-practical-comparison-between-m360-and-mid-360-after-purchasing-20-units/54955",
-    "https://discourse.openrobotics.org/t/hello-from-a-ros-2-learner-wheelchair-robot-builder/54960",
-    "https://discourse.openrobotics.org/t/ros2-urdf-mesh-file-types/54954",
-    "https://openai.com/index/advancing-content-provenance",
-    "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-    "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-    "https://deepmind.google/blog/introducing-gemini-omni/",
-    "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
-    "https://twitter.com/karpathy/status/2056753169888334312",
-    "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
-    "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.1",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
-    "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
-    "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
-    "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/"
-  ],
   "2026-05-21": [
     "https://discourse.openrobotics.org/t/how-to-build-a-robot-arm-rl-grasping-system-in-isaac-lab-nero-arm/54969",
     "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
@@ -258,5 +238,33 @@
     "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
     "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
     "https://blogs.nvidia.com/blog/korea-ecosystem-2026/"
+  ],
+  "2026-06-10": [
+    "https://discourse.openrobotics.org/t/ros-tap-zero-config-telemetry-tap-for-any-ros-robot/55363",
+    "https://discourse.openrobotics.org/t/whats-the-most-annoying-part-of-your-ros-2-workflow/55371",
+    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-06-08/55365",
+    "https://discourse.openrobotics.org/t/context-hardware-setup/55356",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-08/55361",
+    "https://github.com/ros2/rclcpp/releases/tag/28.1.20",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.13.0",
+    "https://openai.com/index/openai-submits-confidential-s-1",
+    "https://openai.com/index/built-to-benefit-everyone-our-plan",
+    "https://openai.com/index/economic-research-exchange",
+    "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+    "https://arxiv.org/abs/2603.24647",
+    "https://arxiv.org/abs/2604.19773",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.7",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.88.1",
+    "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+    "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+    "https://www.therobotreport.com/effort-establish-national-commission-on-robotics-advances-congress/",
+    "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/",
+    "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
+    "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+    "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/"
   ]
 }
