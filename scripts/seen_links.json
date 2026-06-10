@@ -1,27 +1,4 @@
 {
-  "2026-05-22": [
-    "https://discourse.openrobotics.org/t/cfp-oceans-2026-monterey-workshops-tutorials-deadline-extended/54986",
-    "https://discourse.openrobotics.org/t/ros-oe-community-meeting-56-2026-05-25-3pm-utc/54995",
-    "https://discourse.openrobotics.org/t/discussion-why-vision-guided-robots-still-fail-in-production-even-when-detection-works/54980",
-    "https://discourse.openrobotics.org/t/medium-articles-with-overview-of-useful-ros-2-packages/54997",
-    "https://discourse.openrobotics.org/t/spatialdds-open-spatial-computing-protocol-with-ros-2-bridge/54988",
-    "https://openai.com/index/adventhealth",
-    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-    "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
-    "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
-    "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
-    "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
-    "https://arxiv.org/abs/2605.12460",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.85.1",
-    "https://spectrum.ieee.org/open-source-robot-ai-platforms",
-    "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-    "https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/",
-    "https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/",
-    "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
-    "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
-  ],
   "2026-05-23": [
     "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-released/55021",
     "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-may-18th-2026/55022",
@@ -260,5 +237,27 @@
     "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
     "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
     "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/"
+  ],
+  "2026-06-11": [
+    "https://discourse.openrobotics.org/t/introducing-artemis-mission-simulator-attempting-to-simulate-nasas-artemis-missions-on-moon-before-they-actually-go/55387",
+    "https://discourse.openrobotics.org/t/task-board-bom/55385",
+    "https://discourse.openrobotics.org/t/looking-for-co-founder-cto-privacy-first-home-robot/55390",
+    "https://discourse.openrobotics.org/t/learning-from-videos-open-humanoid-ai-sapiens/55386",
+    "https://discourse.openrobotics.org/t/how-to-connect-a-raspberry-pi-to-a-dsi-display-in-robotics-projects-complete-guide/55391",
+    "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "https://openai.com/index/openai-on-oracle-cloud",
+    "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+    "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+    "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+    "https://simonwillison.net/2026/Jun/9/llm/#atom-everything",
+    "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+    "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+    "https://github.com/HelixDB/helix-db/tree/main",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1",
+    "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/",
+    "https://www.therobotreport.com/robotics-will-not-have-a-clean-llama-moment/",
+    "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/"
   ]
 }

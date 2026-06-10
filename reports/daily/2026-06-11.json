@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-11T07:53:04+09:00",
+  "items": [
+    {
+      "title": "Introducing Artemis Mission Simulator - Attempting to simulate NASA's Artemis missions on moon before they actually go",
+      "link": "https://discourse.openrobotics.org/t/introducing-artemis-mission-simulator-attempting-to-simulate-nasas-artemis-missions-on-moon-before-they-actually-go/55387",
+      "summary": "<p>This post has been long time pending but now that repo is kind of “open-source ready”, I believe the time is right.</p>\n<blockquote>\n<p><strong>Note:</strong> If you don’t already know about NASA’s Artemis programme somehow, you need to check it out first <a href=\"https://www.nasa.gov/humans-in-space/artemis/\" rel=\"noopener nofollow ugc\">here</a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Task Board BOM?",
+      "link": "https://discourse.openrobotics.org/t/task-board-bom/55385",
+      "summary": "<p>In the documentation, there is a task board BOM advertised as coming soon.<br />\nWill it be released before Phase 1 starts? It would be great for verifying our policies in the real world.</p>\n<aside class=\"onebox githubblob\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/intrinsic-dev/aic/blob/main/docs/task_board_description.md#3",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Looking for Co-Founder / CTO privacy-First Home Robot :)",
+      "link": "https://discourse.openrobotics.org/t/looking-for-co-founder-cto-privacy-first-home-robot/55390",
+      "summary": "<p><img alt=\":rocket:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/rocket.png?v=15\" title=\":rocket:\" width=\"20\" /> M&amp;N Cybernetics is looking for a Technical Co-Founder &amp; CTO!</p>\n<p>We are developing FAIZ, a next-generation, general-purpose home robot built on a privacy-first, offline Edge-AI architecture and 360° L",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Learning from Videos (Open Humanoid AI Sapiens)",
+      "link": "https://discourse.openrobotics.org/t/learning-from-videos-open-humanoid-ai-sapiens/55386",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=NeL2BmgcFJs\">Open Humanoid ROBOTIS AI Sapiens #4: Learning from Videos</a></p>\n\n<p>We are excited to share the latest progress on our open humanoid robot, ROBOTIS AI Sapiens!</p>\n<p>In this new video, our team demonstrates how AI Sapiens learns complex movements directly from raw 2D video data without any",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How to Connect a Raspberry Pi to a DSI Display in Robotics Projects – Complete Guide",
+      "link": "https://discourse.openrobotics.org/t/how-to-connect-a-raspberry-pi-to-a-dsi-display-in-robotics-projects-complete-guide/55391",
+      "summary": "<p>Hi everyone,</p>\n<p>Adding a reliable display to a Raspberry Pi-based robot is one of the most useful upgrades for real-world robotics projects. Whether you need real-time sensor data visualization, camera feeds, debugging information, or a touch-enabled HMI interface, <strong>DSI (Display Serial Interface)</strong> offers a clean, compact, and ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "DiffusionGemma: 4x faster text generation",
+      "link": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "link": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+      "summary": "<p><strong><a href=\"https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html\">If Claude Fable stops helping you, you&#x27;ll never know</a></strong></p>\nJonathon Ready highlights one of the more eyebrow-raising details from the <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee8",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Initial impressions of Claude Fable 5",
+      "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+      "summary": "<p>I didn't have early access to today's <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\">Claude Fable 5</a> release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a <em>beast</em>. It's slow, expensive and has been quite happily churning through everything I've",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.32a3",
+      "link": "https://simonwillison.net/2026/Jun/9/llm/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32a3\">llm 0.32a3</a></p>\n        <p>Almost entirely written by the new Claude Fable 5, see <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/#adding-features-to-datasette-agent-and-llm-using-claude-code\">my write-up for more details</a>.</p>\n    \n    \n    ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "link": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48478969\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "link": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48464258\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "link": "https://github.com/HelixDB/helix-db/tree/main",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48478148\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.109.1",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1",
+      "summary": "0.109.1 (2026-06-09) Full Changelog: v0.109.0...v0.109.1 Bug Fixes api: add frontier_llm refusal category ( d3a806b )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
+      "link": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/",
+      "summary": "<p>NEURA Robotics plans to expand its platforms for robot learning and global production of humanoids and other systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/\">NEURA Robotics to raise up to $1.4B in Series C funding for physical AI</a> appeared first on <a href=\"https:/",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Robotics will not have a clean Llama moment",
+      "link": "https://www.therobotreport.com/robotics-will-not-have-a-clean-llama-moment/",
+      "summary": "<p>The Llama moment in robotics will not be the day a policy becomes downloadable. It will be the day another team can take that policy, adapt it to its robot, release it into a customer process, and still know what failed weeks later when the line stops repeating.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-will-not-have-a-cle",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "link": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "summary": "A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of cities now hosting robotaxi services, this is already a reality. The robotaxi industry has moved from prototype milestones to commercial operations, with an expanding ecosystem [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+      "link": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+      "summary": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud.  Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models, custom-bui",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
