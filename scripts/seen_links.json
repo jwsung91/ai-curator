@@ -1,22 +1,4 @@
 {
-  "2026-05-23": [
-    "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-released/55021",
-    "https://discourse.openrobotics.org/t/ros-news-for-the-week-of-may-18th-2026/55022",
-    "https://discourse.openrobotics.org/t/aerial-robotics-meeting-28th-may-2026/55018",
-    "https://discourse.openrobotics.org/t/steamdeck-for-lekiwi-teleoperation/55011",
-    "https://discourse.openrobotics.org/t/introducing-mobile-openarm-open-source-ros2-supported/55001",
-    "https://github.com/ros2/rclcpp/releases/tag/33.0.1",
-    "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260522",
-    "https://openai.com/index/gartner-2026-agentic-coding-leader",
-    "https://modelrift.com/blog/openscad-llm-benchmark/",
-    "https://arxiv.org/abs/2605.22001",
-    "https://annas-archive.gl/blog/llms-txt.html",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
-    "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
-    "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
-    "https://www.therobotreport.com/ge-vernova-acquire-robotech-automation-expand-robotics-integration/"
-  ],
   "2026-05-26": [
     "https://discourse.openrobotics.org/t/rclnodejs-2-0-0-typed-web-sdk-for-ros-2-ready-for-lyrical/55061",
     "https://discourse.openrobotics.org/t/ros-2-lyrical-luth-and-11-years-of-fast-dds-as-ros-2-default-middleware/55062",
@@ -259,5 +241,21 @@
     "https://www.therobotreport.com/robotics-will-not-have-a-clean-llama-moment/",
     "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
     "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/"
+  ],
+  "2026-06-12": [
+    "https://discourse.openrobotics.org/t/announcing-gazebo-rotary/55422",
+    "https://discourse.openrobotics.org/t/iso-risk-assessment/55420",
+    "https://discourse.openrobotics.org/t/2026-ros-summer-school-hangzhou-china-jul-18-24-free-training/55421",
+    "https://openai.com/index/openai-to-acquire-ona",
+    "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+    "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+    "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+    "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.87.2",
+    "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+    "https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/",
+    "https://www.therobotreport.com/inside-xrzero-g0-a-new-2000-hour-open-dataset-for-robotics-research/"
   ]
 }

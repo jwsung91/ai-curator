@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-12T07:50:44+09:00",
+  "items": [
+    {
+      "title": "Announcing Gazebo Rotary",
+      "link": "https://discourse.openrobotics.org/t/announcing-gazebo-rotary/55422",
+      "summary": "<p>Hello Gazebo Community,</p>\n<p>The Gazebo team is happy to announce the availability of <strong>Gazebo Rotary</strong>, a new bleeding-edge release of Gazebo built nightly from the <code>main</code> branches of every constituent library. You can learn more details at the <a href=\"https://gazebosim.org/docs/rotary/rotary\">Gazebo Rotary Documentat",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Iso Risk Assessment",
+      "link": "https://discourse.openrobotics.org/t/iso-risk-assessment/55420",
+      "summary": "<p>How are you handling ISO 3691-4 risk assessments before AMR deployment?</p>\n<p>Every site to deploy to, someone spends 2-3 days manually going through the Nav2 map flagging hazards and writing them up against the standard. Feels like it should be automatable.</p>\n<p>Is this painful for your team too, or have you figured out a better way?</p>\n   ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "2026 ROS Summer School – Hangzhou, China (Jul 18–24, Free Training)",
+      "link": "https://discourse.openrobotics.org/t/2026-ros-summer-school-hangzhou-china-jul-18-24-free-training/55421",
+      "summary": "<p>Hello ROS Community,</p>\n<p>We are pleased to officially announce the <strong>2026 ROS Summer School</strong>, a long-running free technical training event hosted by the ROS Education Foundation. This year’s program will run from <strong>July 18 to July 24, 2026</strong> in Hangzhou, China, with dual venue arrangements:</p>\n<ul>\n<li>Classroom le",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Investing in multi-agent AI safety research",
+      "link": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p>\nBig scoop for Maxwell Zeff at Wired:</p>\n<blockquote>\n<p>“We’re changing Fable 5’s safeguards for frontier LLM development to ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent 0.2a0",
+      "link": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.2a0\">datasette-agent 0.2a0</a></p>\n        <p>Highlights from the release notes:</p>\n<blockquote>\n<ul>\n<li>Tools can now ask the user questions mid-execution. Tools that declare a <code>context</code> parameter receive a <code>ToolContext</code> object",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
+      "link": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48495575\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Fable 5: mid-tier results on coding tasks",
+      "link": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48492210\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.87.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.87.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.87.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Defining Autonomy for Wellness Robots in Senior Care",
+      "link": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/dreamface-technologies-llc-logo-with-abstract-silver-face-and-circles-on-teal-background.png?id=66892687&amp;width=980\" /><br /><br /><p>An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy.</p>",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Hello Robot is recognized by World Economic Forum as a tech pioneer",
+      "link": "https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/",
+      "summary": "<p>The World Economic Forum has honored Hello Robot, whose Stretch system provides mobile manipulation to older adults and people with disabilities.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/\">Hello Robot is recognized by World Economic Forum as a tech pioneer</a> app",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Inside XRZero-G0, a new 2,000-hour open dataset for robotics research",
+      "link": "https://www.therobotreport.com/inside-xrzero-g0-a-new-2000-hour-open-dataset-for-robotics-research/",
+      "summary": "<p>X Square Robot has open-sourced XRZero-G0, a framework that reduces real-robot training data requirements by up to 20x.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inside-xrzero-g0-a-new-2000-hour-open-dataset-for-robotics-research/\">Inside XRZero-G0, a new 2,000-hour open dataset for robotics research</a> appeared first on <a href=\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
