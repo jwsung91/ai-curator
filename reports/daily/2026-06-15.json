@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-15T07:13:50+09:00",
+  "items": [
+    {
+      "title": "Classical visual servoing",
+      "link": "https://discourse.openrobotics.org/t/classical-visual-servoing/55476",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-114128-why-does-visual-servoing-matter-for-aerial-robotics-1\" name=\"p-114128-why-does-visual-servoing-matter-for-aerial-robotics-1\"></a>Why does visual servoing matter for aerial robotics?</h1>\n<p>For a drone to land on a moving platform, grasp an object, or inspect a turbine blade up",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 28.1.21",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/28.1.21",
+      "summary": "Signed-off-by: Marco A. Gutierrez marcogg@marcogg.com",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "link": "https://openai.com/index/preply",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI WebRTC Audio Session, now with document context",
+      "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+      "summary": "<p><strong><a href=\"https://tools.simonwillison.net/openai-webrtc\">OpenAI WebRTC Audio Session, now with document context</a></strong></p>\nI built the first version of this tool <a href=\"https://simonwillison.net/2024/Dec/17/openai-webrtc/\">in December 2024</a> to try out the then-new OpenAI WebRTC API for interacting with their realtime audio mode",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+      "summary": "<p>After two days of experience with <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/\">Claude Fable 5</a> I think the best way to describe it is <strong>relentlessly proactive</strong>. It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal.</p>\n<p>I'll illustrate this with an example. I was hackin",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "link": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48528371\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.8",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+      "summary": "What's Changed Fixed ollama launch selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-delta kernels Full Changelog : v0.30.7...v0.30.8",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.88.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.88.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.88.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Visual Language Models Train Robots to Read Human Emotions",
+      "link": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/illustration-of-a-shoulders-up-human-silhouette-with-facial-attributes-vaguely-outlined-by-recognition-points.jpg?id=66888123&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>\n<em>This article is part of our exclusive <a href=\"https://spectrum.ieee.org/collections/jo",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+      "link": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-asian-professor-monitors-her-student-as-they-control-a-robotic-gripper.jpg?id=66879067&amp;width=1245&amp;height=700&amp;coordinates=0%2C469%2C0%2C469\" /><br /><br /><p><a href=\"https://yenlingkuo.com\" rel=\"noopener noreferrer\" target=\"_blank\">Yen-Ling Kuo</a> always wanted to understand how",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+      "link": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-picks-up-a-box-and-climbs-onto-a-table-in-a-modern-lab-workspace.gif?id=66901035&amp;width=1245&amp;height=700&amp;coordinates=0%2C116%2C0%2C116\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spect",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
+      "link": "https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/",
+      "summary": "<p>While service robotics adoption grows, industrial automation faces greater demand and bigger obstacles, notes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/\">Modernizing the global economy with industrial robotics is needed but not inevitable</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Windows for robots: Edge AI expands usability",
+      "link": "https://www.therobotreport.com/computers-software-windows-utility-robots/",
+      "summary": "<p>Before Windows, only engineers and computer scientists could work with computers. Edge AI is causing a similar accessibility shift for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/computers-software-windows-utility-robots/\">Windows for robots: Edge AI expands usability</a> appeared first on <a href=\"https://www.therobotrepor",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI in warehousing: Akash Gupta’s vision for the future",
+      "link": "https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/",
+      "summary": "<p>Explore how GreyOrange's software revolutionizes warehouse automation with AI, transforming logistics into dynamic, predictive ecosystems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/\">AI in warehousing: Akash Gupta&#8217;s vision for the future</a> appeared first on <a href=\"https",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "link": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "summary": "AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x m",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
