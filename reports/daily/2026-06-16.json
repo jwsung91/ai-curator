@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-16T08:04:13+09:00",
+  "items": [
+    {
+      "title": "ROS2 Studio Update",
+      "link": "https://discourse.openrobotics.org/t/ros2-studio-update/55482",
+      "summary": "<p>ROS2-STUDIO update— new Bag Recorder features!</p>\n<p>Just pushed some improvements to the bag recorder in ROS2-STUDIO:</p>\n<p>Storage format selection — choose between <code>sqlite3</code> and <code>mcap</code> directly from the GUI<br />\nTimed recording — set a duration (in seconds) and the recorder auto-stops when done<br />\nBatch/split recor",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Looking for a repository within ROS2 to support",
+      "link": "https://discourse.openrobotics.org/t/looking-for-a-repository-within-ros2-to-support/55489",
+      "summary": "<p>Hello guys, I have history with C, python and have worked with ROS2 and ROS2 controls, for Control Theory stuff. I would like to be involved in supporting a repository or a stable project. Kindly recommend a starting point. You can also check my github to see if I woul be suitable for your project at KevinKipkorir254.</p>\n            <p><small>1",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "QERRA-v2 Classical — deterministic ethical + physical-safety evaluation for Behavior Trees (no ROS2 build required)",
+      "link": "https://discourse.openrobotics.org/t/qerra-v2-classical-deterministic-ethical-physical-safety-evaluation-for-behavior-trees-no-ros2-build-required/55483",
+      "summary": "<p>HELLO  ROS COMMUNITY!</p>\n<p>I’ve been building an open-source project called QERRA-v2 Classical  —  a deterministic, fully explainable ethical evaluation layer (SEMEV-12, 12 vectors covering things like coercion, autonomy violation, harm intent) plus a lightweight physical-safety companion layer (QERRA-HSR — detects acute distress, isolation, e",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Kilted sync 2026-06-17",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-06-17/55493",
+      "summary": "<p>There have been several new and updated packages in Kilted since it was released, and it’s time to sync those new features and fixes to the main apt and dnf repositories.</p>\n<p>There is currently <a href=\"http://repo.ros2.org/status_page/ros_kilted_default.html?q=REGRESSION\" rel=\"noopener nofollow ugc\">1 regression</a> and <a href=\"http://repo.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo PMC Meeting Minutes 2026-06-15",
+      "link": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-15/55498",
+      "summary": "<p>Hi Gazebo Community!</p>\n<p>This week’s meeting was held on <span class=\"discourse-local-date\">Mon, Jun 15, 2026 6:00 PM UTC</span> and the following is a summary:</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-114168-pmc-business-1\" name=\"p-114168-pmc-business-1\"></a>PMC Business</h2>\n<ul>\n<li>Formally approved adding <a h",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+      "link": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos\">&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline</a></strong></p>\nLots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-s",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "US battery manufacturing output continues to break records",
+      "link": "https://fred.stlouisfed.org/series/IPG33591S",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48546616\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "link": "https://news.ycombinator.com/item?id=48542100",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48542100\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.109.2",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.2",
+      "summary": "0.109.2 (2026-06-15) Full Changelog: v0.109.1...v0.109.2 Chores api: remove retired models from API and SDKs ( d4bcfcc )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.9",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
+      "summary": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in #16609 Full Changelog : v0.30.8...v0.30.9-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Continue v1.3.40-vscode",
+      "link": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode",
+      "summary": "Pre-release of the Continue VS Code extension (final-release cleanup).",
+      "source": "GitHub (Continue)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Autonomous freight developer Einride goes public via SPAC",
+      "link": "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/",
+      "summary": "<p>Stockholm-based Einride operates a fleet of heavy-duty electric trucks servicing Global Fortune 500 companies across the U.S. and Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/\">Autonomous freight developer Einride goes public via SPAC</a> appeared first on <a href=\"http",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Burro introduces Grande 44 with proven outdoor autonomy built for heavy industry",
+      "link": "https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/",
+      "summary": "<p>The 44 hp Burro Grande brings more than 1 million hours of real-world experience to industrial towing, site logistics, and facilities operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/\">Burro introduces Grande 44 with proven outdoor autonomy built ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
