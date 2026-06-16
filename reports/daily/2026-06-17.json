@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-17T07:54:26+09:00",
+  "items": [
+    {
+      "title": "Errors in Pick and Place tutorial",
+      "link": "https://discourse.openrobotics.org/t/errors-in-pick-and-place-tutorial/55509",
+      "summary": "<p>Dear Intrinsic team,</p>\n<p>Together with my team, we have been trying to familiarize ourselves with the FlowState environment, but have encountered some issues. As already mentioned by other teams, we often get a pop-up when trying to start a solution that mentions that all VMs are in use. This severely hinders our ability to work on this chall",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Availability of Instances for Flowstate",
+      "link": "https://discourse.openrobotics.org/t/availability-of-instances-for-flowstate/55508",
+      "summary": "<p>Dear Intrinsic Team,</p>\n<p>Since the Phase 1 started yesterday, our team wanted to explore flowstate and understand the task. We have, however, not been able to launch any solution because of VM unvailability for at least a day now (even though it mentioned the 10-20 min wait time). I hope this is not a persistent issue since this would hinder ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 on STM32 serial to SBC",
+      "link": "https://discourse.openrobotics.org/t/ros2-on-stm32-serial-to-sbc/55510",
+      "summary": "<p>Hi all,</p>\n<p>I’m building a small ROS 2 robot with an STM32 microcontroller and an SBC running a Zenoh router (rmw_zenoh). I want to keep the MCU side Zenoh-native with Zephyr RTOS, and I’m trying to figure out the best communication stack between the STM32 and the rest of the graph.</p>\n<p>I’ve been looking at three options:</p>\n<ol>\n<li>micr",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "link": "https://openai.com/index/deployment-simulation",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-agent 0.3a0",
+      "link": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.3a0\">datasette-agent 0.3a0</a></p>\n        <blockquote>\n<ul>\n<li>New tool, <code>execute_write_sql</code>, which requests user approval and then writes to a database - taking user permissions into account. <a href=\"https://github.com/datasette/datasett",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Running local models is good now",
+      "link": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48555993\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "SpaceX to buy Cursor for $60B",
+      "link": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48553224\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers 2026.6.16",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "summary": "Release 2026.6.16",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.9",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2",
+      "summary": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where ollama launch claude and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog : v0.30.8...v0.30.9-rc1",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.89.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.89.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.89.1 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Pegasus Tech Ventures launches $60M fund for physical AI startups",
+      "link": "https://www.therobotreport.com/pegasus-tech-ventures-launches-60m-fund-physical-ai-startups/",
+      "summary": "<p>Pegasus and CYBERDYNE will invest in startups developing robotics, physical AI, healthcare, automation, and intelligent systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pegasus-tech-ventures-launches-60m-fund-physical-ai-startups/\">Pegasus Tech Ventures launches $60M fund for physical AI startups</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Kawasaki Robotics to debut RL030N physical AI platform at Automate",
+      "link": "https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/",
+      "summary": "<p>Kawasaki Robotics says its 8-DoF robot, Pulseboard inspection tech, and other systems will show its vision for intelligent automation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/\">Kawasaki Robotics to debut RL030N physical AI platform at Automate</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Genesis AI launches Eno general-purpose robot",
+      "link": "https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/",
+      "summary": "<p>Genesis plans to begin Eno’s production and targeted customer deployments by the end of 2026, with home deployments coming later. </p>\n<p>The post <a href=\"https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/\">Genesis AI launches Eno general-purpose robot</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+      "link": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+      "summary": "NVIDIA XR AI is now available in public beta, giving developers a framework for building multimodal AI agents for AR glasses and XR devices. &#160;",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+      "link": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+      "summary": "Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA, including NVIDIA Vera CPU and NVIDIA Agent Toolkit [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

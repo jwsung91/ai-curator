@@ -1,21 +1,4 @@
 {
-  "2026-05-28": [
-    "https://discourse.openrobotics.org/t/post-qualification-contribution-coding-a-classical-robot-controller-in-the-age-of-coding-agents-an-honest-assessment/55120",
-    "https://discourse.openrobotics.org/t/connext-robotics-toolkit-for-ros-lyrical-luth-is-now-available/55110",
-    "https://discourse.openrobotics.org/t/part-2-preparing-for-state-of-cloud-robotics-survey-cloud-robotics-wg-meeting-2026-06-01/55114",
-    "https://openai.com/index/cisco",
-    "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-    "https://openai.com/index/warp",
-    "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
-    "https://simonwillison.net/2026/May/27/product-market-fit/",
-    "https://arps18.github.io/posts/claude-code-mastery/",
-    "https://arxiv.org/abs/2605.21779",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.86.2",
-    "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
-    "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
-    "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/"
-  ],
   "2026-05-29": [
     "https://discourse.openrobotics.org/t/aic-qualification-phase-results-advancing-teams/55138",
     "https://discourse.openrobotics.org/t/didnt-make-it-to-top-30-but-this-is-my-learning-experience/55128",
@@ -258,5 +241,23 @@
     "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode",
     "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/",
     "https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/"
+  ],
+  "2026-06-17": [
+    "https://discourse.openrobotics.org/t/errors-in-pick-and-place-tutorial/55509",
+    "https://discourse.openrobotics.org/t/availability-of-instances-for-flowstate/55508",
+    "https://discourse.openrobotics.org/t/ros2-on-stm32-serial-to-sbc/55510",
+    "https://openai.com/index/deployment-simulation",
+    "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+    "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+    "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.89.1",
+    "https://www.therobotreport.com/pegasus-tech-ventures-launches-60m-fund-physical-ai-startups/",
+    "https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/",
+    "https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/",
+    "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+    "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/"
   ]
 }
