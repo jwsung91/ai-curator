@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-18T07:46:03+09:00",
+  "items": [
+    {
+      "title": "Draft REP 158: OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics",
+      "link": "https://discourse.openrobotics.org/t/draft-rep-158-openusd-conventions-for-simulation-asset-interoperability-in-open-source-robotics/55526",
+      "summary": "<p>Dear ROS Community,</p>\n<p>Following the <strong>REP-0001:2025</strong> process, I am opening this public discussion thread for <strong>Draft REP 158: OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics</strong>.</p>\n<p>The goal of this REP is to define a standardized way to use OpenUSD (Universal Scene Description)",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Release] AI Flight Integrity Observer: Measuring PX4 Offboard degradation under controlled AI inference lag",
+      "link": "https://discourse.openrobotics.org/t/release-ai-flight-integrity-observer-measuring-px4-offboard-degradation-under-controlled-ai-inference-lag/55530",
+      "summary": "<p>Hi guys,</p>\n<p>I’d like to share <strong>AI Flight Integrity Observer (AFIO)</strong>, an open-source ROS 2 / PX4 runtime assurance observer for Offboard autonomy.</p>\n<p>AFIO is designed to make one failure surface visible:</p>\n<blockquote>\n<p>When a companion computer is running VIO, visual tracking, neural planning, or heavy perception workl",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Fast DDS v3.4.3",
+      "link": "https://github.com/eProsima/Fast-DDS/releases/tag/v3.4.3",
+      "summary": "Fast DDS v3.4.3 (EOL) This is the last release for the branch 3.4.x , since it has reached EOL. This patch release includes the following security fixes : CVE-2026-22591 CVE-2026-45094 CVE-2026-45095 CVE-2026-45096 CVE-2025-63829 CVE-2025-65865 CVE-2026-45093 CVE-2026-45092 CVE-2026-45097 It also includes the following fixes : Fix RTPSParticipantAttributes internal data races ( #6387 ) Fix some null-dereference errors ( #6397 , #6405 ) Fix wrong update of default locators ( #6279 ) Make on_xxx_m",
+      "source": "GitHub (Fast DDS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48576824\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.10",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc1",
+      "summary": "What's Changed models: add Cohere2MoE model by @jmorganca in #16670 llama: update llama.cpp to b9672 by @pdevine in #16775 Full Changelog : v0.30.9...v0.30.10-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.88.3",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.88.3",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.88.3 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The Secret to Marathon-Winning Humanoid Robots",
+      "link": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-red-and-black-humanoid-runs-alone-through-a-marathon-course.jpg?id=66940897&amp;width=1245&amp;height=700&amp;coordinates=0%2C66%2C0%2C66\" /><br /><br /><p>On April 19, 2026, the <a href=\"https://www.cnn.com/2026/04/19/china/china-robot-half-marathon-intl-hnk\" rel=\"noopener noreferrer\" target=\"_bl",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Evaluating humanoids for surface finishing applications",
+      "link": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/",
+      "summary": "<p>Most manufacturing applications aim to reduce cycle time to improve throughput. Using general-purpose industrial robots that transcend human constraints is often an attractive option.</p>\n<p>The post <a href=\"https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/\">Evaluating humanoids for surface finishing applic",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Fennec Engineering earns T2 qualification for Advanced Safety Acceleration Platform",
+      "link": "https://www.therobotreport.com/fennec-engineering-earns-t2-qualification-advanced-safety-acceleration-platform/",
+      "summary": "<p>Fennec Engineering has obtained certification confirming that its automated traceability platform meets strict safety standards.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fennec-engineering-earns-t2-qualification-advanced-safety-acceleration-platform/\">Fennec Engineering earns T2 qualification for Advanced Safety Acceleration Platf",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1",
+      "link": "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/",
+      "summary": "<p>Autonomique has moved its AI-powered robots from pilot to production at F&#038;P Mfg., with plans for deployment across F-tech's global network.</p>\n<p>The post <a href=\"https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/\">Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1</a> appeared first o",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
