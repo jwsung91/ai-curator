@@ -1,25 +1,4 @@
 {
-  "2026-06-01": [
-    "https://discourse.openrobotics.org/t/show-ros-bagel-a-zero-install-browser-native-3d-visualizer-and-scrubber-for-mcap-db3-and-ros1-bags/55178",
-    "https://discourse.openrobotics.org/t/autoapms-studio-web-based-behavior-tree-editor-and-rapid-development-tool-for-robot-deliberation/55182",
-    "https://discourse.openrobotics.org/t/modeloop-model-based-design-with-ros-2-node-generation/55179",
-    "https://discourse.openrobotics.org/t/upgrading-to-ubuntu-26-04-python-3-14-made-robot-lyrical-daves-life-messy/55186",
-    "https://openai.com/index/boston-childrens-hospital",
-    "https://openai.com/index/braintrust",
-    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-    "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
-    "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
-    "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
-    "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.84.4",
-    "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
-    "https://spectrum.ieee.org/video-friday-rabona-soccer",
-    "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
-    "https://www.therobotreport.com/misumi-group-invests-1b-americas-global-ai-digital-manufacturing/",
-    "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/"
-  ],
   "2026-06-02": [
     "https://discourse.openrobotics.org/t/open-humanoid-ai-sapiens-with-ros-2-text-generated-motion-with-nvidia-kimodo/55194",
     "https://discourse.openrobotics.org/t/better-launch-1-6-0-is-out/55203",
@@ -256,5 +235,28 @@
     "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/",
     "https://www.therobotreport.com/fennec-engineering-earns-t2-qualification-advanced-safety-acceleration-platform/",
     "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/"
+  ],
+  "2026-06-19": [
+    "https://discourse.openrobotics.org/t/introducing-gz-sim-spray-painting-plugin-simulate-spray-painting-in-gazebo/55536",
+    "https://discourse.openrobotics.org/t/new-packages-and-patch-release-for-jazzy-jalisco-2026-06-18/55545",
+    "https://discourse.openrobotics.org/t/has-anyone-tried-conformal-prediction-for-sensor-gating-in-a-nav-stack/55539",
+    "https://discourse.openrobotics.org/t/ros-2-robot-v1-0-0-a-modern-gui-for-ros-2-workspace-management-like-github-desktop-for-ros/55555",
+    "https://discourse.openrobotics.org/t/seeking-feedback-is-dependency-blocking-during-ros-development-a-significant-pain-point/55553",
+    "https://github.com/ros2/ros2/releases/tag/release-jazzy-20260618",
+    "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+    "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+    "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.111.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.10",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.89.2",
+    "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/",
+    "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/",
+    "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/",
+    "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+    "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/"
   ]
 }

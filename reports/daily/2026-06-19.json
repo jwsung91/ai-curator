@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-19",
+  "publishedAt": "2026-06-19T07:57:03+09:00",
+  "items": [
+    {
+      "title": "Introducing gz_sim_spray_painting_plugin : Simulate spray painting in Gazebo!",
+      "link": "https://discourse.openrobotics.org/t/introducing-gz-sim-spray-painting-plugin-simulate-spray-painting-in-gazebo/55536",
+      "summary": "<p>While working on a project that involved spray painting using a robotic manipulator, I ran into a gap in Gazebo. There is simply no built-in way to simulate a spray painting application. So, I built one <img alt=\":hammer_and_wrench:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/hammer_and_wrench.png?v=15\" title=\":hammer_an",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New packages and patch release for Jazzy Jalisco 2026-06-18",
+      "link": "https://discourse.openrobotics.org/t/new-packages-and-patch-release-for-jazzy-jalisco-2026-06-18/55545",
+      "summary": "<p>We’re happy to announce <strong>97</strong> new packages and <strong>608</strong> updates are now available on <code>Ubuntu Noble</code> on <code>amd64</code> for Jazzy Jalisco.</p>\n<p>This sync was tagged as <a href=\"https://github.com/ros/rosdistro/blob/jazzy/2026-06-18/jazzy/distribution.yaml\" rel=\"noopener nofollow ugc\"><code>jazzy/2026-06-1",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Has anyone tried conformal prediction for sensor gating in a nav stack?",
+      "link": "https://discourse.openrobotics.org/t/has-anyone-tried-conformal-prediction-for-sensor-gating-in-a-nav-stack/55539",
+      "summary": "<p>Been thinking about this for a while.</p>\n<p>The chi-squared gate in most localization stacks assumes Gaussian noise. When when we look outdoors… it rarely is. Like doing multipath near buildings, or under tree canopy, and even around field equipment.</p>\n<p>I came across this conformal prediction (<a href=\"https://arxiv.org/abs/2107.07511\" rel=",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS 2 Robot V1.0.0 - A Modern GUI for ROS 2 Workspace Management (Like GitHub Desktop for ROS)",
+      "link": "https://discourse.openrobotics.org/t/ros-2-robot-v1-0-0-a-modern-gui-for-ros-2-workspace-management-like-github-desktop-for-ros/55555",
+      "summary": "<p>Hi everyone,</p>\n<p><em><strong>“ROS is used to build robots, but isn’t it time for ROS to have its own robot?”</strong></em></p>\n<p>I’m excited to share a tool I’ve been working on to make ROS 2 development a bit smoother: <strong>Ros2 Robot</strong>.</p>\n<p>As developers, we spend a lot of time typing repetitive terminal commands just to manag",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Seeking feedback: Is dependency blocking during ROS development a significant pain point?",
+      "link": "https://discourse.openrobotics.org/t/seeking-feedback-is-dependency-blocking-during-ros-development-a-significant-pain-point/55553",
+      "summary": "<p><strong>Seeking Feedback from Robotics Software Engineers / ROS Developers</strong></p>\n<p>Hello everyone,</p>\n<p>I hope you are doing well.</p>\n<p>I am a BE Computer Science student with a strong interest in robotics software. I am currently researching a potential software product and, before investing significant time into building it, I woul",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 ROS 2 Jazzy Jalisco - Patch Release 8",
+      "link": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20260618",
+      "summary": "These are the binary packages for ROS 2 Jazzy Jalisco Patch Release 7 (2026-16-18). For runtime dependencies, see the binary package installation instructions . Your system must be up-to-date to be compatible with the downloaded packages. Additionally, there are: [Debian packages](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html) for Ubuntu 24.04 (Noble). [RPM packages](https://docs.ros.org/en/jazzy/Installation/RHEL-Install-RPMs.html) for RHEL 9. Windows binaries are not i",
+      "source": "GitHub (ROS2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Securing the future of AI agents",
+      "link": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "summary": "<p>Chinese AI lab <a href=\"https://z.ai/\">Z.ai</a> released GLM-5.2 <a href=\"https://x.com/Zai_org/status/2065704919299235870\">to their coding plan subscribers</a> on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, <a",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
+      "link": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48584484\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Zero-Touch OAuth for MCP",
+      "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48592163\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.111.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.111.0",
+      "summary": "0.111.0 (2026-06-18) Full Changelog: v0.110.0...v0.111.0 Features helpers: tag refusal-fallback middleware requests with fallback-refusal-middleware ( #96 ) ( 2f8ac78 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.10",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
+      "summary": "What's Changed Command A and North family models now run on Apple Silicon with the MLX engine Updated the underlying llama.cpp engine to build 9672 Fixed build artifacts for MLX Full Changelog : v0.30.9...v0.30.10",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.89.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.89.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.89.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "RealSense unveils AI-native D585 Pro depth camera for robots",
+      "link": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/",
+      "summary": "<p>The D585 Pro is powered by a proprietary Gen 5 system-on-chip and delivers more than 2x better depth quality than the previous generation of RealSense cameras.</p>\n<p>The post <a href=\"https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/\">RealSense unveils AI-native D585 Pro depth camera for robots</a> app",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Kinova launches KIMA medical robotic arm",
+      "link": "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/",
+      "summary": "<p>Instead of adapting the robot from industrial technology, Kinova said it designed KIMA from the ground up for clinical use.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/\">Kinova launches KIMA medical robotic arm</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Microbot Medical to expand veteran access to robotic surgery with LIBERTY",
+      "link": "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/",
+      "summary": "<p>Lovell Government Services will become Microbot's service-disabled veteran-owned small business vendor to supply federal programs.</p>\n<p>The post <a href=\"https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/\">Microbot Medical to expand veteran access to robotic surgery with LIBERTY</a> appeared first o",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "summary": "The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations.  For companies building next-generation technologies for advertising and marketing, the question is no longer whether to adopt AI but whether their infrastructure can support it at the speed and scale the industry demands.  At Cannes Li",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
+      "link": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
+      "summary": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying applications and the French AI ecosystem [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
