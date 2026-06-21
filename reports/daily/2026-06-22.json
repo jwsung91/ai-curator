@@ -1,0 +1,97 @@
+{
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-22T07:16:44+09:00",
+  "items": [
+    {
+      "title": "Introducing CycloneDDS Insight - Graphical DDS Inspection and Debugging for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/introducing-cyclonedds-insight-graphical-dds-inspection-and-debugging-for-ros-2/55591",
+      "summary": "<p>Introducing CycloneDDS Insight - Graphical DDS Inspection and Debugging for ROS 2.</p>\n<p>CycloneDDS Insight is a graphical DDS inspection and debugging tool for ROS 2 and Eclipse Cyclone DDS.</p>\n<p>The tool provides visibility into DDS participants, topics, publishers and subscribers, helping users understand system topology, diagnose discover",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Scry — debug your ROS 2 robot from your phone, with an AI assistant",
+      "link": "https://discourse.openrobotics.org/t/scry-debug-your-ros-2-robot-from-your-phone-with-an-ai-assistant/55593",
+      "summary": "<p>After 6+ years in robotics, the pattern that kept frustrating me was field debugging. When a deployed robot stops doing what it should, whoever is standing next to it is often stuck with a laptop on one knee, several terminals open, <code>ros2 topic echo</code> scrolling past, and logs to tail across a dozen nodes, services, and processes, all w",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "AIC Phase 1: How to run custom aic_model service in Flowstate with AIC_ROUTER_ADDR?",
+      "link": "https://discourse.openrobotics.org/t/aic-phase-1-how-to-run-custom-aic-model-service-in-flowstate-with-aic-router-addr/55595",
+      "summary": "<p>Hi Intrinsic / AIC team,</p>\n<p>I’m working on AIC Phase 1 in Flowstate and trying to run my participant model as a custom Service instance named exactly <code>aic_model</code>.</p>\n<p>The baseline <code>AIC Phase 1 Submission</code> process expects:</p>\n<ul>\n<li>lifecycle service: <code>/aic_model/change_state</code></li>\n<li>action server: <co",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MetriPlane v0.2.0: replayed workcell state → evidence bundle → regression test",
+      "link": "https://discourse.openrobotics.org/t/metriplane-v0-2-0-replayed-workcell-state-evidence-bundle-regression-test/55602",
+      "summary": "<p>Hi Open Robotics community,</p>\n<p>I released <strong>MetriPlane v0.2.0</strong>, an open-source physical-observability tool for bounded workcells.</p>\n<p>The short version:</p>\n<blockquote>\n<p>MetriPlane turns replayed or calibrated workcell state into physical events, incidents, Cell Truth Reports, evidence bundles, local bundle verification, ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim8_8.14.0: Prepare for 8.14.0 (#3702)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.14.0",
+      "summary": "Signed-off-by: Addisu Z. Taddese addisuzt@intrinsic.ai",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Identity verification on Claude",
+      "link": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48618455\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Continue v2.1.0-vscode",
+      "link": "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode",
+      "summary": "chore: vscode 2.1.0 Co-authored-by: Cursor &lt;cursoragent@cursor.com&gt;",
+      "source": "GitHub (Continue)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.89.3",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.89.3",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.89.3 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Do Robots Even Need Legs?",
+      "link": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/white-service-robot-on-a-square-mobile-base-working-at-a-countertop-in-a-modern-wooden-kitchen.png?id=66959675&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+      "link": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-wheeled-home-robot-with-a-tablet-face-set-against-a-blue-heart-patterned-background.jpg?id=66906422&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>In 2018, Amazon brought me in as the lead UX Sound Designer for <a href=\"https://spectrum.ieee.org/amazon-astro-r",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026",
+      "link": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
+      "summary": "<p>Güdel has added two degrees of freedom to heavy-duty robotic grinding applications through its TMV and TMF systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/\">Güdel to show grinding beyond stationary robots with vertical, horizontal ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
+      "link": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
+      "summary": "<p>The Navy's industrial base review identified a projected need for 174,000 new workers. GrayMatter says robotics can fill this gap.</p>\n<p>The post <a href=\"https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/\">Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "U.S. robotics industry saw double-digit growth in 2025, says IFR",
+      "link": "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/",
+      "summary": "<p>The IFR said robust growth in the food industry and other non-manufacturing sectors drove this recovery in the U.S. robotics industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/\">U.S. robotics industry saw double-digit growth in 2025, says IFR</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

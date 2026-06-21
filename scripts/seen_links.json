@@ -1,18 +1,4 @@
 {
-  "2026-06-02": [
-    "https://discourse.openrobotics.org/t/open-humanoid-ai-sapiens-with-ros-2-text-generated-motion-with-nvidia-kimodo/55194",
-    "https://discourse.openrobotics.org/t/better-launch-1-6-0-is-out/55203",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-01/55209",
-    "https://openai.com/index/stargate-michigan-data-center",
-    "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-    "https://www.anthropic.com/news/confidential-draft-s1-sec",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.0",
-    "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
-    "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
-    "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
-    "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-    "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/"
-  ],
   "2026-06-03": [
     "https://discourse.openrobotics.org/t/ssik-1-1-analytical-inverse-kinematics-for-6r-7r-arms-pypi-python/55211",
     "https://discourse.openrobotics.org/t/2026-state-of-cloud-robotics-survey/55226",
@@ -258,5 +244,20 @@
     "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/",
     "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
     "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/"
+  ],
+  "2026-06-22": [
+    "https://discourse.openrobotics.org/t/introducing-cyclonedds-insight-graphical-dds-inspection-and-debugging-for-ros-2/55591",
+    "https://discourse.openrobotics.org/t/scry-debug-your-ros-2-robot-from-your-phone-with-an-ai-assistant/55593",
+    "https://discourse.openrobotics.org/t/aic-phase-1-how-to-run-custom-aic-model-service-in-flowstate-with-aic-router-addr/55595",
+    "https://discourse.openrobotics.org/t/metriplane-v0-2-0-replayed-workcell-state-evidence-bundle-regression-test/55602",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.14.0",
+    "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+    "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.89.3",
+    "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+    "https://spectrum.ieee.org/amazon-astro-robot-sound",
+    "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
+    "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
+    "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/"
   ]
 }
