@@ -1,27 +1,4 @@
 {
-  "2026-06-03": [
-    "https://discourse.openrobotics.org/t/ssik-1-1-analytical-inverse-kinematics-for-6r-7r-arms-pypi-python/55211",
-    "https://discourse.openrobotics.org/t/2026-state-of-cloud-robotics-survey/55226",
-    "https://discourse.openrobotics.org/t/built-a-flight-recorder-for-ros-2-robots-looking-for-brutal-feedback/55210",
-    "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-and-patch-release-2026-06-08/55225",
-    "https://discourse.openrobotics.org/t/robotics-integrator-autonomous-pallet-jack-bring-up-1-2-week-contract-on-site-los-angeles/55229",
-    "https://github.com/ros2/rclcpp/releases/tag/28.1.19",
-    "https://github.com/ros2/rmw_fastrtps/releases/tag/8.4.4",
-    "https://github.com/ros2/launch/releases/tag/3.4.11",
-    "https://openai.com/index/travelers",
-    "https://openai.com/index/codex-for-every-role-tool-workflow",
-    "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-    "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
-    "https://www.kapa.ai/blog/how-we-index-images-for-rag",
-    "https://github.com/features/preview/github-app",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.85.3",
-    "https://www.therobotreport.com/2026-robotics-summit-expo-recap/",
-    "https://www.therobotreport.com/petal-surgical-adds-more-funding-for-incisionless-surgical-robot/",
-    "https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/",
-    "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-    "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/"
-  ],
   "2026-06-04": [
     "https://discourse.openrobotics.org/t/what-vat-is-applied-to-osra-swag/55257",
     "https://discourse.openrobotics.org/t/recommended-way-to-represent-robot-initialization-failures-in-rmf-web/55245",
@@ -259,5 +236,22 @@
     "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
     "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
     "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/"
+  ],
+  "2026-06-23": [
+    "https://discourse.openrobotics.org/t/storage-backend-for-zenoh/55615",
+    "https://discourse.openrobotics.org/t/sw2robot-a-solidworks-urdf-exporter-with-a-browser-based-editor-free-windows-exe/55616",
+    "https://discourse.openrobotics.org/t/45-open-robotics-roles-needed-worldwide-ros-2-c-python-simulation-autonomy-computer-vision/55617",
+    "https://discourse.openrobotics.org/t/open-source-ros2-lidar-robot-vacuum-cleaner/55621",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-22/55623",
+    "https://openai.com/index/daybreak-securing-the-world",
+    "https://openai.com/index/patch-the-planet",
+    "https://openai.com/index/codex-maxxing-long-running-work",
+    "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+    "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+    "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/",
+    "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/",
+    "https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/",
+    "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+    "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/"
   ]
 }
