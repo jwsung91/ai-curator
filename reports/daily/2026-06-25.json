@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T07:20:03+09:00",
+  "items": [
+    {
+      "title": "New release cadence for Gazebo and better alignment with ROS",
+      "link": "https://discourse.openrobotics.org/t/new-release-cadence-for-gazebo-and-better-alignment-with-ros/55667",
+      "summary": "<p>Hello Gazebo Community,</p>\n<p>Based on many discussions with individuals and reading various comments from our community, the Gazebo PMC has decided to change the Gazebo release date to March and to better align Gazebo releases with ROS. For details on the motivation and all of the implications, please read the original <a href=\"https://discour",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "In-depth analysis on key robotics news",
+      "link": "https://discourse.openrobotics.org/t/in-depth-analysis-on-key-robotics-news/55666",
+      "summary": "<p>We’ve built a new weekly editorial to bring and discuss the latest happening in the world of robotics and related AI. Would love to get feedback on how we can improve it for stakeholders.</p>\n<p>Check it out here - <a href=\"https://roboticsweekly.online/\" rel=\"noopener nofollow ugc\">https://roboticsweekly.online/</a></p>\n            <p><small>2 ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "KRS Unleashed: Easier Hardware Acceleration Prototyping on FPGA",
+      "link": "https://discourse.openrobotics.org/t/krs-unleashed-easier-hardware-acceleration-prototyping-on-fpga/55664",
+      "summary": "<p>Hey All,</p>\n<p>I want to present <a href=\"https://github.com/TUD-ADS/KRS-Unleashed/tree/main\" rel=\"noopener nofollow ugc\">KRS Unleashed</a>, the tool I am now developing/refactoring/extending since 1 year as part of my PhD.</p>\n<p>Some of you might still know KRS (short for Kria Robotic Stack as originally developed by Xilinx/AMD for their Kria",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Embeddable React telemetry components — a browser ground station for MAVROS",
+      "link": "https://discourse.openrobotics.org/t/embeddable-react-telemetry-components-a-browser-ground-station-for-mavros/55665",
+      "summary": "<p>I maintain Altara, a set of MIT-licensed React components for real-time robotics telemetry (PFD, moving map, gauges, event log), and I wrote up building a small drone ground station with them that talks to MAVROS over rosbridge.</p>\n<p>The thing I was trying to solve: I wanted a status dashboard our team could open in a browser tab and drop into",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "VL53L0X Time-of-Flight sensor as a Nav2 obstacle layer (ESP32 + ROS 2 Humble)",
+      "link": "https://discourse.openrobotics.org/t/vl53l0x-time-of-flight-sensor-as-a-nav2-obstacle-layer-esp32-ros-2-humble/55673",
+      "summary": "<p><img alt=\"demo\" class=\"animated\" height=\"365\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/8/c/8c017840dd21d17450ce07a0b81b927333ef9383.gif\" width=\"640\" /></p>\n<p>Sharing a small open-source project that integrates a low-cost VL53L0X Time-of-Flight sensor into the Nav2 costmap as an obstacle source, in case it’s useful to a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "link": "https://rubyllm.com/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48660711\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NSA lost access to Mythos amid Anthropic dispute",
+      "link": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48658300\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.112.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.112.0",
+      "summary": "0.112.0 (2026-06-24) Full Changelog: v0.111.0...v0.112.0 Features client: add support for system.message streaming events ( 2450d59 ) Bug Fixes memory tool: create parent directories with the correct permissions ( #135 ) ( f2fc2a9 ) Chores api: add support for new refusal category ( 5ab533e ) api: add support for sending User Profile ID in request headers ( 83319be )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.86.7",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.86.7",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.86.7 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Reservoir acquires Contain to scale agtech startups",
+      "link": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
+      "summary": "<p>Reservoir has acquired agriculture finance platform Contain,, naming founder Nicola Kerslake general partner to help scale AI startups.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/\">Reservoir acquires Contain to scale agtech startups</a> appeared first on <a href=\"https://www.therob",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "FAULHABER focuses on torque, noise, and power with new GPT gearheads",
+      "link": "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
+      "summary": "<p>FAULHABER says its new GPT gearheads work with motors in its standard range and provide more performance with a compact design. </p>\n<p>The post <a href=\"https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/\">FAULHABER focuses on torque, noise, and power with new GPT gearheads</a> appeared first on <a href=\"https",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Humanoid maker Agility Robotics to go public through SPAC merger",
+      "link": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
+      "summary": "<p>Agility Robotics will merge with Churchill Capital Corp XI, raising $620 million to advance Digit v5 and fulfill growing customer orders.</p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/\">Humanoid maker Agility Robotics to go public through SPAC merger</a> appeared first on <a",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.  NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrast",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

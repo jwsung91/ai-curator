@@ -1,24 +1,4 @@
 {
-  "2026-06-05": [
-    "https://discourse.openrobotics.org/t/sowbot-feldfreund-devkit-ros-wip-open-agricultural-robot-stack/55267",
-    "https://discourse.openrobotics.org/t/2d-scan-merger-for-ros2/55274",
-    "https://discourse.openrobotics.org/t/amazing-ros-2-mcp-native-ros-2-mcp-server-for-ai-assisted-robotics-agents/55270",
-    "https://discourse.openrobotics.org/t/phd-position-in-robotics-and-blockchain-technology-ie-university-madrid/55272",
-    "https://discourse.openrobotics.org/t/wrench-observation-isaaclab/55271",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.4.0",
-    "https://openai.com/index/endava-frontiers",
-    "https://openai.com/index/chatgpt-memory-dreaming",
-    "https://openai.com/index/biodefense-in-the-intelligence-age",
-    "https://github.com/anthropics/defending-code-reference-harness",
-    "https://castor.web.cern.ch/content/home.html",
-    "https://github.com/huawei-csl/KVarN",
-    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.5",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.87.1",
-    "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
-    "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
-    "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/"
-  ],
   "2026-06-08": [
     "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
     "https://arxiv.org/abs/2605.31514",
@@ -251,5 +231,22 @@
     "https://www.therobotreport.com/why-physical-ai-2-0-needs-reality-check/",
     "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
     "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/"
+  ],
+  "2026-06-25": [
+    "https://discourse.openrobotics.org/t/new-release-cadence-for-gazebo-and-better-alignment-with-ros/55667",
+    "https://discourse.openrobotics.org/t/in-depth-analysis-on-key-robotics-news/55666",
+    "https://discourse.openrobotics.org/t/krs-unleashed-easier-hardware-acceleration-prototyping-on-fpga/55664",
+    "https://discourse.openrobotics.org/t/embeddable-react-telemetry-components-a-browser-ground-station-for-mavros/55665",
+    "https://discourse.openrobotics.org/t/vl53l0x-time-of-flight-sensor-as-a-nav2-obstacle-layer-esp32-ros-2-humble/55673",
+    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "https://rubyllm.com/",
+    "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.112.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.86.7",
+    "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
+    "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
+    "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
+    "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/"
   ]
 }
