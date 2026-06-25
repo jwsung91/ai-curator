@@ -44,12 +44,17 @@ const displayDate = new Intl.DateTimeFormat('ko-KR', {
       <h1 class="reader-title">
         {entry.data.title}
       </h1>
-      <p class="reader-date">{displayDate}</p>
+      <p class="reader-summary">
+        {entry.data.summary}
+      </p>
 
-      <div class="reader-controls" aria-label="읽기 설정">
-        <button type="button" class="reader-size-button" data-reader-size-action="decrease" aria-label="글자 작게" aria-pressed="false">A-</button>
-        <button type="button" class="reader-size-button" data-reader-size-action="reset" aria-label="기본 글자 크기" aria-pressed="true">A</button>
-        <button type="button" class="reader-size-button" data-reader-size-action="increase" aria-label="글자 크게" aria-pressed="false">A+</button>
+      <div class="reader-toolbar">
+        <p class="reader-date">{displayDate}</p>
+        <div class="reader-controls" aria-label="읽기 설정">
+          <button type="button" class="reader-size-button" data-reader-size-action="decrease" aria-label="글자 작게" aria-pressed="false">A-</button>
+          <button type="button" class="reader-size-button" data-reader-size-action="reset" aria-label="기본 글자 크기" aria-pressed="true">A</button>
+          <button type="button" class="reader-size-button" data-reader-size-action="increase" aria-label="글자 크게" aria-pressed="false">A+</button>
+        </div>
       </div>
     </header>
 
