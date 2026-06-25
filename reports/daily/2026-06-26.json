@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-26T07:22:15+09:00",
+  "items": [
+    {
+      "title": "Anomaly Detection. Beta testers wanted",
+      "link": "https://discourse.openrobotics.org/t/anomaly-detection-beta-testers-wanted/55677",
+      "summary": "<p>Hi, I used to work at a robotics startup that built robotic dishwashers. (<a href=\"https://armstrong.ai/\" rel=\"noopener nofollow ugc\">https://armstrong.ai/</a>) And part of my job was to set up diagnostics, monitoring and alerting.</p>\n<p>Aside from not being the most interesting part of my job, it was just plain tedious to manually set (and con",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Interop SIG, 02 July 2026: Natural-Language Control of Open-RMF Fleets via the Model Context Protocol (MCP)",
+      "link": "https://discourse.openrobotics.org/t/interop-sig-02-july-2026-natural-language-control-of-open-rmf-fleets-via-the-model-context-protocol-mcp/55687",
+      "summary": "<p><a href=\"https://meet.google.com/nyz-isrs-kzz\" rel=\"noopener nofollow ugc\">Meeting Link</a></p>\n<p><a href=\"https://calendar.google.com/calendar/u/0/embed?src=agf3kajirket8khktupm9go748@group.calendar.google.com\" rel=\"noopener nofollow ugc\">Calendar Link</a></p>\n<p><span class=\"discourse-local-date\">Thu, Jul 2, 2026 3:00 PM UTC</span></p>\n<p>At ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Tightly-Coupled Bimanual Control - Safe and Stable Dual Arm Transport",
+      "link": "https://discourse.openrobotics.org/t/tightly-coupled-bimanual-control-safe-and-stable-dual-arm-transport/55685",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=4rwVRsLNf9c\">AI WORKER #14 Tightly-Coupled Bimanual Control - Safe and Stable Dual Arm Transport</a></p>\n\n<p>If you have ever implemented dual-arm robot control, you know the pain: even a tiny sync error can crush your target object or send it flying.</p>\n<p>To solve this, our development team built “cycl",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rclnodejs 2.1: Native ESM for a Web-Native ROS 2 SDK",
+      "link": "https://discourse.openrobotics.org/t/rclnodejs-2-1-native-esm-for-a-web-native-ros-2-sdk/55679",
+      "summary": "<p>Hi all,</p>\n<p><strong><a href=\"https://github.com/RobotWebTools/rclnodejs/releases/tag/2.1.0\" rel=\"noopener nofollow ugc\">rclnodejs 2.1.0</a> is out</strong> — and it’s a step toward making rclnodejs a <strong>web-native SDK for ROS 2</strong>: a platform for bringing ROS 2 to the browser and the modern JavaScript ecosystem. With 2.1.0, the who",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A tutorial to make your quadruped robot on ROS",
+      "link": "https://discourse.openrobotics.org/t/a-tutorial-to-make-your-quadruped-robot-on-ros/55700",
+      "summary": "<p>Hello guys !</p>\n<p>I made a tutorial to make your own quadruped using ros2 jazzy !</p>\n<aside class=\"onebox githubrepo\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/joschmaCYU/quadruped\" rel=\"noopener nofollow ugc\" target=\"_blank\">github.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"github-row\">\n  <img cl",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How agents are transforming work",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.11",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+      "summary": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in #15434 launch: auto-install Claude Code by @hoyyeva in #16802 launch: auto-install opencode when missing by @hoyyeva in #16806 discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in #16669 mlxrunner: unify and tune speculative decoding by @jessegross in #16791 launch/codex: detect model drift when Codex App UI switches by @BruceMacD in #16864 llama: add sm_86 architec",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.89.4",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.89.4",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.89.4 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Hirebotics offers no-code, explosion-proof cobot for painting",
+      "link": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
+      "summary": "<p>Hirebotics' Cobot Painter supports stationary painting, with parts placed in a paint booth where robots perform all spraying operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/\">Hirebotics offers no-code, explosion-proof cobot for painting</a> appeared first on <a href",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot",
+      "link": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
+      "summary": "<p>Aptiv provides sensor fusion from radar and vision using AI to enable Robust.AI's Carter robot to move safely around people.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/\">Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot</a> appeared first on <a href=",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "ARM Institute expands RoboticsCareer.org into physical AI",
+      "link": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
+      "summary": "<p>RoboticsCareer.org now lists the growing job opportunities in physical AI and enables employers to connect to qualified talent.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/\">ARM Institute expands RoboticsCareer.org into physical AI</a> appeared first on <a href=\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

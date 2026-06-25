@@ -1,19 +1,4 @@
 {
-  "2026-06-08": [
-    "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
-    "https://arxiv.org/abs/2605.31514",
-    "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
-    "https://github.com/devenjarvis/lathe",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.1",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.88.0",
-    "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
-    "https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/",
-    "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
-    "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
-    "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
-    "https://blogs.nvidia.com/blog/korea-ecosystem-2026/"
-  ],
   "2026-06-09": [
     "https://discourse.openrobotics.org/t/ros-tap-zero-config-telemetry-tap-for-any-ros-robot/55363",
     "https://discourse.openrobotics.org/t/whats-the-most-annoying-part-of-your-ros-2-workflow/55371",
@@ -248,5 +233,18 @@
     "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
     "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
     "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/"
+  ],
+  "2026-06-26": [
+    "https://discourse.openrobotics.org/t/anomaly-detection-beta-testers-wanted/55677",
+    "https://discourse.openrobotics.org/t/interop-sig-02-july-2026-natural-language-control-of-open-rmf-fleets-via-the-model-context-protocol-mcp/55687",
+    "https://discourse.openrobotics.org/t/tightly-coupled-bimanual-control-safe-and-stable-dual-arm-transport/55685",
+    "https://discourse.openrobotics.org/t/rclnodejs-2-1-native-esm-for-a-web-native-ros-2-sdk/55679",
+    "https://discourse.openrobotics.org/t/a-tutorial-to-make-your-quadruped-robot-on-ros/55700",
+    "https://openai.com/index/how-agents-are-transforming-work",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.89.4",
+    "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
+    "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
+    "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
   ]
 }
