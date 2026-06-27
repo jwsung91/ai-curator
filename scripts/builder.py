@@ -169,13 +169,13 @@ def generate_summary(items):
     if not api_key:
         raise ValueError("GEMINI_API_KEY is not set.")
 
-    client = genai.Client(api_key=api_key)
-    prompt = build_prompt(items)
-
     configured_models = os.getenv("GEMINI_MODEL_NAMES", "gemini-3-flash-preview")
     model_names = [name.strip() for name in configured_models.split(",") if name.strip()]
     if not model_names:
         raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
+
+    client = genai.Client(api_key=api_key)
+    prompt = build_prompt(items)
     last_exception = None
 
     for model_name in model_names:

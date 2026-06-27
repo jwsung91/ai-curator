@@ -2,7 +2,7 @@ import re
 import feedparser
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'claude', 'copilot', 'cursor', 'windsurf', 'mcp', 'model context protocol',
@@ -27,14 +27,23 @@ _PRERELEASE_RE = re.compile(
 _HEADERS = {'User-Agent': 'ai-curator/1.0 (github.com/jwsung91/ai-curator)'}
 
 
-def fetch_rss(url, source_name, limit=3):
+def fetch_rss(url, source_name, limit=3, max_age_days=14):
     try:
         req = urllib.request.Request(url, headers=_HEADERS)
         with urllib.request.urlopen(req, timeout=10) as resp:
             content = resp.read()
         feed = feedparser.parse(content)
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(days=max_age_days)
         result = []
-        for entry in feed.entries[:limit]:
+        for entry in feed.entries:
+            if len(result) >= limit:
+                break
+            parsed = getattr(entry, 'updated_parsed', None) or getattr(entry, 'published_parsed', None)
+            if parsed:
+                published = datetime(*parsed[:6], tzinfo=timezone.utc)
+                if published < cutoff:
+                    continue
             result.append({
                 'title': getattr(entry, 'title', 'No Title'),
                 'link': getattr(entry, 'link', ''),
@@ -145,7 +154,7 @@ def fetch_simon_willison():
     items = fetch_rss('https://simonwillison.net/atom/everything/', 'Simon Willison', limit=10)
     filtered = [
         item for item in items
-        if any(kw in item['title'].lower() for kw in SIMON_KEYWORDS)
+        if any(kw in item['title'].lower() or kw in item['summary'].lower() for kw in SIMON_KEYWORDS)
     ]
     return filtered[:5]
 

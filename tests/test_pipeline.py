@@ -445,3 +445,74 @@ def test_read_week_data_supports_old_and_new_daily_observation_headings(tmp_path
         '- 2026-05-18 관찰',
         '- 2026-05-19 관찰',
     ]
+
+
+def test_generate_summary_raises_on_empty_model_names(monkeypatch):
+    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
+    monkeypatch.setenv('GEMINI_MODEL_NAMES', '  ,  ')
+
+    with pytest.raises(ValueError, match='no valid model names'):
+        builder.generate_summary([{
+            'title': 'T', 'link': 'https://example.com', 'summary': 'S', 'source': 'Src', 'section_hint': 'AI',
+        }])
+
+
+def test_generate_weekly_summary_raises_on_empty_model_names(monkeypatch):
+    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
+    monkeypatch.setenv('GEMINI_MODEL_NAMES', '  ,  ')
+
+    with pytest.raises(ValueError, match='no valid model names'):
+        weekly_builder.generate_weekly_summary([{
+            'date': '2026-05-18',
+            'cross_insight': '',
+            'items': [{'title': 'T', 'link': 'https://example.com', 'summary': 'S', 'source': 'Src', 'section_hint': '로보틱스'}],
+        }])
+
+
+def test_fetch_rss_filters_old_entries(monkeypatch):
+    from datetime import timezone, timedelta
+    import time as time_mod
+
+    now = datetime.now(timezone.utc)
+    old = now - timedelta(days=20)
+    recent = now - timedelta(days=3)
+
+    def to_struct(dt):
+        return time_mod.strptime(dt.strftime('%Y-%m-%dT%H:%M:%S'), '%Y-%m-%dT%H:%M:%S')
+
+    fake_entries = [
+        types.SimpleNamespace(title='Old Post', link='https://example.com/old', summary='old', updated_parsed=to_struct(old)),
+        types.SimpleNamespace(title='Recent Post', link='https://example.com/recent', summary='recent', updated_parsed=to_struct(recent)),
+    ]
+
+    fake_feed = types.SimpleNamespace(entries=fake_entries)
+
+    def fake_urlopen(req, timeout):
+        class FakeResp:
+            def read(self): return b''
+            def __enter__(self): return self
+            def __exit__(self, *a): pass
+        return FakeResp()
+
+    monkeypatch.setattr('urllib.request.urlopen', fake_urlopen)
+    monkeypatch.setattr('feedparser.parse', lambda content: fake_feed)
+
+    items = fetcher.fetch_rss('https://example.com/feed', 'Test', limit=5)
+
+    assert len(items) == 1
+    assert items[0]['title'] == 'Recent Post'
+
+
+def test_fetch_simon_willison_matches_summary_keyword(monkeypatch):
+    def fake_fetch_rss(url, source_name, limit=3, max_age_days=14):
+        return [
+            {'title': 'Interesting notes', 'link': 'https://example.com/1', 'summary': 'Using claude for code review', 'source': source_name},
+            {'title': 'Unrelated post', 'link': 'https://example.com/2', 'summary': 'A recipe for bread', 'source': source_name},
+        ]
+
+    monkeypatch.setattr(fetcher, 'fetch_rss', fake_fetch_rss)
+
+    items = fetcher.fetch_simon_willison()
+
+    assert len(items) == 1
+    assert items[0]['title'] == 'Interesting notes'
