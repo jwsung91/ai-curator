@@ -207,11 +207,9 @@ def test_weekly_theme_citations_are_stripped_and_validated():
     data = {
         'one_sentence_summary': '주간 요약',
         'weekly_themes': strip_citations('- 흐름 [16]'),
-        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
-        'used_indices': [1],
         'global_items': [
             {'title': 'ROS2', 'link': 'https://example.com/ros2', 'source': 'ROS2'},
         ],
@@ -224,35 +222,15 @@ def test_validate_weekly_report_rejects_citations_in_themes():
     data = {
         'one_sentence_summary': '주간 요약',
         'weekly_themes': '- 흐름 [1]',
-        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
-        'used_indices': [1],
         'global_items': [
             {'title': 'ROS2', 'link': 'https://example.com/ros2', 'source': 'ROS2'},
         ],
     }
 
     with pytest.raises(ValueError, match='weekly_themes'):
-        validate_weekly_report(data)
-
-
-def test_validate_weekly_report_rejects_citations_in_practical_checkpoints():
-    data = {
-        'one_sentence_summary': '주간 요약',
-        'weekly_themes': '- 흐름',
-        'practical_checkpoints': '- ROS2 릴리스를 확인하세요 [1]',
-        'section_robotics': '- **ROS2**: 업데이트 [1]',
-        'section_devtools': '',
-        'section_industry': '',
-        'used_indices': [1],
-        'global_items': [
-            {'title': 'ROS2', 'link': 'https://example.com/ros2', 'source': 'ROS2'},
-        ],
-    }
-
-    with pytest.raises(ValueError, match='practical_checkpoints'):
         validate_weekly_report(data)
 
 
@@ -320,10 +298,12 @@ def test_weekly_prompt_uses_summary_based_language_and_stats_hint():
     assert '직접 읽고' not in prompt
     assert '## 주간 수집 통계 힌트' in prompt
     assert '주요 소스: GitHub (ROS2) (1), OpenAI News (1)' in prompt
-    assert '"practical_checkpoints"' in prompt
+    assert '신뢰할 수 없는 입력 데이터' in prompt
+    assert '2일 이상 반복되거나 심화된 cross-day 패턴' in prompt
+    assert '"practical_checkpoints"' not in prompt
 
 
-def test_save_weekly_to_markdown_includes_checkpoints_and_count_fields(tmp_path, monkeypatch):
+def test_save_weekly_to_markdown_includes_count_fields_without_checkpoints(tmp_path, monkeypatch):
     scripts_dir = tmp_path / 'scripts'
     scripts_dir.mkdir()
     monkeypatch.setattr(weekly_builder, '__file__', str(scripts_dir / 'weekly_builder.py'))
@@ -346,11 +326,9 @@ def test_save_weekly_to_markdown_includes_checkpoints_and_count_fields(tmp_path,
     data = {
         'one_sentence_summary': '주간 요약',
         'weekly_themes': '- 흐름',
-        'practical_checkpoints': '- ROS2 릴리스를 확인하세요',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
-        'used_indices': [1],
         'global_items': [{**week_data[0]['items'][0], 'date': '2026-05-18'}],
     }
 
@@ -360,7 +338,7 @@ def test_save_weekly_to_markdown_includes_checkpoints_and_count_fields(tmp_path,
     content = report.read_text(encoding='utf-8')
     assert 'collectedCount: 1' in content
     assert 'citedCount: 1' in content
-    assert '## ✅ 이번 주 실무 체크포인트' in content
+    assert '## ✅ 이번 주 실무 체크포인트' not in content
 
 
 def test_read_week_data_supports_old_and_new_daily_observation_headings(tmp_path, monkeypatch):
