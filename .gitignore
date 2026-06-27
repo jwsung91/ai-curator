@@ -30,3 +30,7 @@ CLAUDE.md
 .venv/
 
 __pycache__/
+
+# agent-rules (local only)
+AGENTS.md
+GEMINI.md
