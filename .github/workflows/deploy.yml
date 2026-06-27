@@ -21,6 +21,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -71,6 +72,27 @@ jobs:
           commit_message: "chore: auto-generate reports"
           branch: main
           file_pattern: "reports/daily/*.md reports/daily/*.json reports/weekly/*.md scripts/seen_links.json"
+
+      - name: Notify Issue (Daily)
+        if: steps.daily.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPORT_DATE=$(TZ='Asia/Seoul' date +'%Y-%m-%d')
+          gh issue comment 14 --repo ${{ github.repository }} --body "### 🗞️ 데일리 리포트 — ${REPORT_DATE}
+
+🔗 [리포트 바로가기](https://jwsung91.github.io/ai-curator/curation/${REPORT_DATE}/)"
+
+      - name: Notify Issue (Weekly)
+        if: steps.weekly.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          WEEK_LABEL=$(TZ='Asia/Seoul' date +'%G-W%V')
+          WEEK_ID=$(echo "$WEEK_LABEL" | tr '[:upper:]' '[:lower:]')
+          gh issue comment 14 --repo ${{ github.repository }} --body "### 📚 위클리 리포트 — ${WEEK_LABEL}
+
+🔗 [리포트 바로가기](https://jwsung91.github.io/ai-curator/weekly/${WEEK_ID}/)"
 
       - name: Generate Job Summary (Daily)
         if: always() && steps.daily.outcome == 'success'
