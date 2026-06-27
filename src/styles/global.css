@@ -84,7 +84,7 @@
   }
 
   .reader-title {
-    @apply font-serif text-[2.15rem] font-semibold leading-tight text-stone-950 dark:text-stone-50 md:text-5xl;
+    @apply font-sans text-[2.15rem] font-semibold leading-tight text-stone-950 dark:text-stone-50 md:text-5xl;
     text-wrap: balance;
   }
 
@@ -204,7 +204,7 @@
   .report-content.prose :where(h2) {
     margin-top: 2.4em;
     margin-bottom: 0.8em;
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-size: 1.55em;
     font-weight: 600;
     line-height: 1.32;
@@ -220,7 +220,7 @@
   .report-content.prose :where(h3) {
     margin-top: 2.1em;
     margin-bottom: 0.7em;
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-size: 1.16em;
     font-weight: 600;
     line-height: 1.4;
