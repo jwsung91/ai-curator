@@ -24,6 +24,7 @@ import fetcher
 import main as daily_main
 import weekly_builder
 from builder import save_to_markdown, validate_daily_report
+from summary_utils import compact_summary
 from weekly_builder import (
     build_weekly_prompt,
     get_week_dates,
@@ -69,6 +70,29 @@ def test_save_to_markdown_uses_report_date_and_published_at(tmp_path, monkeypatc
     assert 'collectedCount: 2' in content
     assert 'citedCount: 2' in content
     assert '## 💡 오늘의 관찰' in content
+
+
+def test_compact_summary_trims_sentence_punctuation_and_limits_length():
+    assert compact_summary('짧은 서브타이틀입니다.', 20) == '짧은 서브타이틀입니다'
+    assert compact_summary('로보틱스 인프라와 AI 에이전트 통합이 산업 전반으로 확산되는 긴 설명문입니다.', 20) == '로보틱스 인프라와 AI 에이전트 통합…'
+
+
+def test_save_to_markdown_compacts_long_summary(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(builder, '__file__', str(scripts_dir / 'builder.py'))
+
+    data = _daily_data()
+    data['one_sentence_summary'] = (
+        '로보틱스 인프라와 AI 에이전트 통합이 산업 전반으로 확산되고 '
+        '시뮬레이션 표준화와 보안 검증까지 함께 강화되는 긴 설명문입니다.'
+    )
+
+    save_to_markdown(data, date_str='2026-05-25')
+
+    report = tmp_path / 'reports' / 'daily' / '2026-05-25.md'
+    content = report.read_text(encoding='utf-8')
+    assert 'summary: "로보틱스 인프라와 AI 에이전트 통합이 산업 전반으로 확산되고 시뮬레이션 표준화와 보안 검…"' in content
 
 
 def test_validate_daily_report_rejects_out_of_range_citation():
@@ -300,7 +324,25 @@ def test_weekly_prompt_uses_summary_based_language_and_stats_hint():
     assert '주요 소스: GitHub (ROS2) (1), OpenAI News (1)' in prompt
     assert '신뢰할 수 없는 입력 데이터' in prompt
     assert '2일 이상 반복되거나 심화된 cross-day 패턴' in prompt
+    assert 'one_sentence_summary — 리포트 서브타이틀' in prompt
+    assert '한국어 32~55자' in prompt
     assert '"practical_checkpoints"' not in prompt
+
+
+def test_daily_prompt_asks_for_subtitle_summary():
+    prompt = builder.build_prompt([
+        {
+            'title': 'ROS2 release',
+            'link': 'https://example.com/ros2',
+            'summary': 'runtime update',
+            'source': 'ROS2',
+            'section_hint': '로보틱스',
+        }
+    ])
+
+    assert 'one_sentence_summary는 제목 아래에 붙는 **서브타이틀**처럼 작성하세요' in prompt
+    assert '한국어 28~45자' in prompt
+    assert '"one_sentence_summary": "짧은 리포트 서브타이틀"' in prompt
 
 
 def test_save_weekly_to_markdown_includes_count_fields_without_checkpoints(tmp_path, monkeypatch):
@@ -339,6 +381,45 @@ def test_save_weekly_to_markdown_includes_count_fields_without_checkpoints(tmp_p
     assert 'collectedCount: 1' in content
     assert 'citedCount: 1' in content
     assert '## ✅ 이번 주 실무 체크포인트' not in content
+
+
+def test_save_weekly_to_markdown_compacts_long_summary(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(weekly_builder, '__file__', str(scripts_dir / 'weekly_builder.py'))
+
+    week_data = [
+        {
+            'date': '2026-05-18',
+            'items': [
+                {
+                    'title': 'ROS2',
+                    'link': 'https://example.com/ros2',
+                    'summary': 'runtime update',
+                    'source': 'ROS2',
+                    'section_hint': '로보틱스',
+                }
+            ],
+            'cross_insight': '',
+        }
+    ]
+    data = {
+        'one_sentence_summary': (
+            '로봇 시스템과 생성형 AI의 결합이 물리적 AI와 에이전트 인프라를 중심으로 '
+            '구체화되며 실무 환경의 안정성 검증이 가속화되고 있습니다.'
+        ),
+        'weekly_themes': '- 흐름',
+        'section_robotics': '- **ROS2**: 업데이트 [1]',
+        'section_devtools': '',
+        'section_industry': '',
+        'global_items': [{**week_data[0]['items'][0], 'date': '2026-05-18'}],
+    }
+
+    save_weekly_to_markdown(data, week_data, datetime(2026, 5, 23, 9, 0, 0))
+
+    report = tmp_path / 'reports' / 'weekly' / '2026-W21.md'
+    content = report.read_text(encoding='utf-8')
+    assert 'summary: "로봇 시스템과 생성형 AI의 결합이 물리적 AI와 에이전트 인프라를 중심으로 구체화되며 실무 환경의 안정성…"' in content
 
 
 def test_read_week_data_supports_old_and_new_daily_observation_headings(tmp_path, monkeypatch):
