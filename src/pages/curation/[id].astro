@@ -77,7 +77,7 @@ const displayDate = new Intl.DateTimeFormat('ko-KR', {
       </nav>
     )}
 
-    <div class="report-content prose prose-zinc dark:prose-invert w-full prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-pre:bg-zinc-50 dark:prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 dark:prose-pre:border-zinc-800 prose-blockquote:border-l-zinc-300 dark:prose-blockquote:border-l-zinc-700 prose-blockquote:text-zinc-600 dark:prose-blockquote:text-zinc-400 prose-hr:border-zinc-200 dark:prose-hr:border-zinc-800">
+    <div class="report-content prose prose-stone dark:prose-invert w-full prose-a:text-coral-600 dark:prose-a:text-coral-400 prose-a:no-underline hover:prose-a:underline prose-pre:bg-stone-100 dark:prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-stone-200 dark:prose-pre:border-stone-800 prose-blockquote:border-l-stone-300 dark:prose-blockquote:border-l-stone-700 prose-blockquote:text-stone-600 dark:prose-blockquote:text-stone-400 prose-hr:border-stone-200 dark:prose-hr:border-stone-800">
       <Content />
     </div>
 
@@ -93,18 +93,18 @@ const displayDate = new Intl.DateTimeFormat('ko-KR', {
   </article>
 
   {(prev || next) && (
-    <nav class="mx-auto flex max-w-[920px] items-center justify-between border-t border-zinc-200 pt-8 dark:border-zinc-800 gap-4">
+    <nav class="mx-auto flex max-w-[920px] items-center justify-between border-t border-stone-200 pt-8 dark:border-stone-800 gap-4">
       <div class="flex-1">
         {prev && (
           <a
             href={`${base}/curation/${prev.id}/`}
-            class="group flex flex-col gap-1 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-zinc-300 dark:hover:border-zinc-700"
+            class="group flex flex-col gap-1 rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
           >
-            <span class="font-mono text-xs text-zinc-400 flex items-center gap-1">
+            <span class="font-mono text-xs text-stone-400 flex items-center gap-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
               이전 리포트
             </span>
-            <span class="font-medium text-sm text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
+            <span class="font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
               {prev.data.title.replace('AI 큐레이션 리포트 - ', '')}
             </span>
           </a>
@@ -114,13 +114,13 @@ const displayDate = new Intl.DateTimeFormat('ko-KR', {
         {next && (
           <a
             href={`${base}/curation/${next.id}/`}
-            class="group flex flex-col gap-1 items-end rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-zinc-300 dark:hover:border-zinc-700"
+            class="group flex flex-col gap-1 items-end rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
           >
-            <span class="font-mono text-xs text-zinc-400 flex items-center gap-1">
+            <span class="font-mono text-xs text-stone-400 flex items-center gap-1">
               다음 리포트
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </span>
-            <span class="font-medium text-sm text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors truncate">
+            <span class="font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
               {next.data.title.replace('AI 큐레이션 리포트 - ', '')}
             </span>
           </a>
