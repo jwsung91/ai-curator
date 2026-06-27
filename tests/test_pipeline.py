@@ -129,7 +129,7 @@ def test_generate_summary_uses_gemini_3_flash_preview_by_default(monkeypatch):
         }
     ])
 
-    assert calls == ['gemini-3-flash-preview']
+    assert calls == ['gemini-3.5-flash']
 
 
 def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
@@ -290,7 +290,7 @@ def test_generate_weekly_summary_uses_gemini_3_flash_preview_by_default(monkeypa
         }
     ])
 
-    assert calls == ['gemini-3-flash-preview']
+    assert calls == ['gemini-3.5-flash']
 
 
 def test_weekly_prompt_uses_summary_based_language_and_stats_hint():

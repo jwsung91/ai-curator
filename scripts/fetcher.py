@@ -7,9 +7,10 @@ from datetime import datetime, timezone, timedelta
 DEVAI_KEYWORDS = {  # HackerNews 필터 키워드
     'claude', 'copilot', 'cursor', 'windsurf', 'mcp', 'model context protocol',
     'llm', 'ollama', 'vscode', 'code generation', 'code assist',
-    'anthropic', 'gemini api', 'openai api', 'github models',
+    'anthropic', 'gemini', 'openai', 'github models',
     'continue', 'litellm', 'langchain', 'local model', 'inference engine',
     'prompt caching', 'rag', 'embedding model', 'fine-tun', 'quantiz',
+    'agentic', 'computer use', 'vibe coding', 'deepseek',
 }
 
 NVIDIA_KEYWORDS = {  # NVIDIA 블로그 필터 키워드
@@ -178,8 +179,15 @@ def fetch_hackernews_devai():
         with urllib.request.urlopen(req, timeout=10) as resp:
             content = resp.read()
         feed = feedparser.parse(content)
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(days=14)
         matched = []
         for entry in feed.entries:
+            parsed = getattr(entry, 'updated_parsed', None) or getattr(entry, 'published_parsed', None)
+            if parsed:
+                published = datetime(*parsed[:6], tzinfo=timezone.utc)
+                if published < cutoff:
+                    continue
             if any(kw in entry.title.lower() for kw in DEVAI_KEYWORDS):
                 matched.append({
                     'title': entry.title,

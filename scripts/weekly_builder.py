@@ -221,7 +221,7 @@ def generate_weekly_summary(week_data: list[dict]) -> dict:
     if not api_key:
         raise ValueError('GEMINI_API_KEY is not set.')
 
-    configured_models = os.getenv('GEMINI_MODEL_NAMES', 'gemini-3-flash-preview')
+    configured_models = os.getenv('GEMINI_MODEL_NAMES', 'gemini-3.5-flash')
     model_names = [name.strip() for name in configured_models.split(',') if name.strip()]
     if not model_names:
         raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
