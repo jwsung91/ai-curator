@@ -7,6 +7,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from google import genai
 from google.genai import errors, types
+from summary_utils import compact_summary
 
 
 SECTION_DEFS = [
@@ -181,6 +182,13 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 - 구체 출처 인용은 section_robotics, section_devtools, section_industry에서만 사용하세요.
 - 형식: "- 문장1\\n- 문장2\\n..."
 
+**one_sentence_summary — 리포트 서브타이틀**
+- 제목 아래에 붙는 짧은 서브타이틀처럼 작성하세요.
+- 한국어 32~55자
+- 완전한 설명문보다 짧은 명사구/절 형태
+- 마침표 없이 끝내세요.
+- 여러 흐름을 쉼표로 나열하지 마세요.
+
 **section_robotics / section_devtools / section_industry — 섹션별 하이라이트**
 - 각 섹션에서 이번 주 기준 상위 3~5개 항목만 선별하세요.
 - section_robotics 포함 기준: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, DDS/Fast DDS/Cyclone DDS/RMW, rosbag2, launch, rclpy, Open-RMF, Isaac ROS/NITROS, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클 등 로보틱스 런타임·미들웨어·인프라 업데이트
@@ -198,7 +206,7 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 ## 응답 형식 (JSON)
 
 {{
-  "one_sentence_summary": "이번 주 가장 중요한 기술 흐름 한 문장",
+  "one_sentence_summary": "짧은 리포트 서브타이틀",
   "weekly_themes": "- 흐름1\\n- 흐름2\\n...",
   "section_robotics": "마크다운 (없으면 빈 문자열)",
   "section_devtools": "마크다운 (없으면 빈 문자열)",
@@ -340,7 +348,10 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: d
         f"{matrix_table}"
     )
 
-    summary_desc  = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
+    summary_desc  = json.dumps(
+        compact_summary(data.get('one_sentence_summary', ''), 60),
+        ensure_ascii=False,
+    )[1:-1]
     weekly_themes = data.get('weekly_themes', '').strip()
 
     section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]

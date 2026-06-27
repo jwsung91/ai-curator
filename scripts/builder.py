@@ -6,6 +6,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from google import genai
 from google.genai import errors, types
+from summary_utils import compact_summary
 
 
 SECTION_DEFS = [
@@ -135,8 +136,13 @@ def build_prompt(items):
    ```
 2. 해당 섹션과 관련 없는 항목은 제외하세요. 관련 항목이 없으면 빈 문자열("")을 반환하세요.
 3. 본문의 [번호] 인용은 반드시 아래 수집 항목 번호만 사용하세요.
-4. {cross_instruction}
-5. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
+4. one_sentence_summary는 제목 아래에 붙는 **서브타이틀**처럼 작성하세요.
+   - 한국어 28~45자
+   - 완전한 설명문보다 짧은 명사구/절 형태
+   - 마침표 없이 끝내기
+   - 여러 흐름을 쉼표로 나열하지 않기
+5. {cross_instruction}
+6. 모든 텍스트는 한국어로 작성하세요 (항목명·패키지명·API명은 원문 유지).
 
 ---
 
@@ -150,7 +156,7 @@ def build_prompt(items):
 
 아래 JSON 스키마를 정확히 따르세요:
 {{
-  "one_sentence_summary": "오늘 가장 중요한 기술 변화 한 문장",
+  "one_sentence_summary": "짧은 리포트 서브타이틀",
   "cross_insight": "- 문장 (항목 수에 따라 1~5개 불릿)",
   "section_robotics": "마크다운 내용 (없으면 빈 문자열)",
   "section_devtools": "마크다운 내용 (없으면 빈 문자열)",
@@ -251,7 +257,10 @@ def save_to_markdown(data, date_str: str | None = None, published_at: str | None
     dir_path = Path(__file__).parent.parent / 'reports' / 'daily'
     dir_path.mkdir(parents=True, exist_ok=True)
 
-    summary_desc = json.dumps(data.get('one_sentence_summary', ''), ensure_ascii=False)[1:-1]
+    summary_desc = json.dumps(
+        compact_summary(data.get('one_sentence_summary', ''), 50),
+        ensure_ascii=False,
+    )[1:-1]
 
     # 인용 번호를 본문 등장 순서 기준으로 재번호 매기기
     section_contents = [data.get(key, '').strip() for key, _ in SECTION_DEFS]
