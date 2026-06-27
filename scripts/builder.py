@@ -174,6 +174,8 @@ def generate_summary(items):
 
     configured_models = os.getenv("GEMINI_MODEL_NAMES", "gemini-3-flash-preview")
     model_names = [name.strip() for name in configured_models.split(",") if name.strip()]
+    if not model_names:
+        raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
     last_exception = None
 
     for model_name in model_names:
@@ -258,7 +260,7 @@ def save_to_markdown(data, date_str: str | None = None, published_at: str | None
     dir_path.mkdir(parents=True, exist_ok=True)
 
     summary_desc = json.dumps(
-        compact_summary(data.get('one_sentence_summary', ''), 50),
+        compact_summary(data.get('one_sentence_summary', ''), 45),
         ensure_ascii=False,
     )[1:-1]
 

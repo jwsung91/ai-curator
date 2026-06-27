@@ -92,7 +92,7 @@ def test_save_to_markdown_compacts_long_summary(tmp_path, monkeypatch):
 
     report = tmp_path / 'reports' / 'daily' / '2026-05-25.md'
     content = report.read_text(encoding='utf-8')
-    assert 'summary: "로보틱스 인프라와 AI 에이전트 통합이 산업 전반으로 확산되고 시뮬레이션 표준화와 보안 검…"' in content
+    assert 'summary: "로보틱스 인프라와 AI 에이전트 통합이 산업 전반으로 확산되고 시뮬레이션 표준화와…"' in content
 
 
 def test_validate_daily_report_rejects_out_of_range_citation():
@@ -419,7 +419,7 @@ def test_save_weekly_to_markdown_compacts_long_summary(tmp_path, monkeypatch):
 
     report = tmp_path / 'reports' / 'weekly' / '2026-W21.md'
     content = report.read_text(encoding='utf-8')
-    assert 'summary: "로봇 시스템과 생성형 AI의 결합이 물리적 AI와 에이전트 인프라를 중심으로 구체화되며 실무 환경의 안정성…"' in content
+    assert 'summary: "로봇 시스템과 생성형 AI의 결합이 물리적 AI와 에이전트 인프라를 중심으로 구체화되며 실무 환경의…"' in content
 
 
 def test_read_week_data_supports_old_and_new_daily_observation_headings(tmp_path, monkeypatch):

@@ -191,7 +191,9 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 
 **section_robotics / section_devtools / section_industry — 섹션별 하이라이트**
 - 각 섹션에서 이번 주 기준 상위 3~5개 항목만 선별하세요.
-- section_robotics 포함 기준: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, DDS/Fast DDS/Cyclone DDS/RMW, rosbag2, launch, rclpy, Open-RMF, Isaac ROS/NITROS, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클 등 로보틱스 런타임·미들웨어·인프라 업데이트
+- section_robotics 포함 기준: ROS2/Nav2/MoveIt2/Gazebo 릴리스·패치노트, ROS2 커뮤니티 이슈·패키지 업데이트, DDS/Fast DDS/Cyclone DDS/RMW, rosbag2, launch, rclpy, Open-RMF, Isaac ROS/NITROS, 임베디드·실시간 시스템, NVIDIA Isaac·Jetson 기술 아티클 등 로보틱스 런타임·미들웨어·인프라 업데이트; AI 연구·정책·비즈니스 뉴스 제외
+- section_devtools 포함 기준: 설치·호출 가능한 AI 도구 업데이트, LLM API 변경사항, IDE/코딩 어시스턴트, MCP 서버, 로컬 LLM 추론 도구; section_robotics에 포함된 항목·비즈니스 뉴스 제외
+- section_industry 포함 기준: 로보틱스·AI 산업 동향, 정책·규제, 기업 투자·인수합병, 신제품 출시, NVIDIA 산업 파트너십·제품 발표; section_robotics·section_devtools에 포함된 항목, 학술 인물 프로파일, 교육용 하드웨어 프로젝트, 네트워킹 행사·밋업 제외
 - 선별 기준 (우선순위 순):
   1. 여러 날에 걸쳐 언급되거나 후속 논의가 있는 항목
   2. 실무에 즉시 영향을 주는 릴리스·변경 (nightly/rc/dev 버전 제외)
@@ -226,6 +228,8 @@ def generate_weekly_summary(week_data: list[dict]) -> dict:
 
     configured_models = os.getenv('GEMINI_MODEL_NAMES', 'gemini-3-flash-preview')
     model_names = [name.strip() for name in configured_models.split(',') if name.strip()]
+    if not model_names:
+        raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
 
     for model_name in model_names:
         for attempt in range(2):
@@ -238,7 +242,7 @@ def generate_weekly_summary(week_data: list[dict]) -> dict:
                         response_mime_type='application/json',
                     ),
                 )
-                data = json.loads(response.text)
+                data, _ = json.JSONDecoder().raw_decode(response.text.strip())
                 data['global_items'] = global_items
                 return data
             except (errors.ClientError, errors.ServerError) as e:
@@ -349,7 +353,7 @@ def save_weekly_to_markdown(data: dict, week_data: list[dict], reference_date: d
     )
 
     summary_desc  = json.dumps(
-        compact_summary(data.get('one_sentence_summary', ''), 60),
+        compact_summary(data.get('one_sentence_summary', ''), 55),
         ensure_ascii=False,
     )[1:-1]
     weekly_themes = data.get('weekly_themes', '').strip()
