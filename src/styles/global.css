@@ -208,13 +208,13 @@
     font-size: 1.55em;
     font-weight: 600;
     line-height: 1.32;
-    color: rgb(28 25 23); /* stone-900 */
+    color: rgb(41 37 36); /* stone-800, matches body */
     letter-spacing: 0;
     text-transform: none;
   }
 
   .dark .report-content.prose :where(h2) {
-    color: rgb(245 245 244); /* stone-100 */
+    color: rgb(214 211 209); /* stone-300, matches dark body */
   }
 
   .report-content.prose :where(h3) {
