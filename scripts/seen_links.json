@@ -1,32 +1,4 @@
 {
-  "2026-06-09": [
-    "https://discourse.openrobotics.org/t/ros-tap-zero-config-telemetry-tap-for-any-ros-robot/55363",
-    "https://discourse.openrobotics.org/t/whats-the-most-annoying-part-of-your-ros-2-workflow/55371",
-    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-06-08/55365",
-    "https://discourse.openrobotics.org/t/context-hardware-setup/55356",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-08/55361",
-    "https://github.com/ros2/rclcpp/releases/tag/28.1.20",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.13.0",
-    "https://openai.com/index/openai-submits-confidential-s-1",
-    "https://openai.com/index/built-to-benefit-everyone-our-plan",
-    "https://openai.com/index/economic-research-exchange",
-    "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-    "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-    "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-    "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
-    "https://arxiv.org/abs/2603.24647",
-    "https://arxiv.org/abs/2604.19773",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.7",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.88.1",
-    "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
-    "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
-    "https://www.therobotreport.com/effort-establish-national-commission-on-robotics-advances-congress/",
-    "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/",
-    "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
-    "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-    "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/"
-  ],
   "2026-06-10": [
     "https://discourse.openrobotics.org/t/project-tt-developing-a-20mm-biohybrid-tripod-driven-by-cerebral-organoids/55373",
     "https://discourse.openrobotics.org/t/logging-and-observability-guide-discussion-cloud-robotics-wg-meeting-2026-06-15/55370",
@@ -246,5 +218,24 @@
     "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
     "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
     "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
+  ],
+  "2026-06-29": [
+    "https://discourse.openrobotics.org/t/rubi-robot-utility-board-interface-v2/55844",
+    "https://discourse.openrobotics.org/t/ros-japan-developer-kaigi-2026-8-3-roscon-jp/55842",
+    "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-07-02/55867",
+    "https://openai.com/index/previewing-gpt-5-6-sol",
+    "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+    "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+    "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+    "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+    "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+    "https://antoine.fi/mri-analysis-using-claude-code-opus",
+    "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+    "https://github.com/ollama/ollama/releases/tag/v0.30.11",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.90.0",
+    "https://spectrum.ieee.org/video-friday-robot-grippers",
+    "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
+    "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+    "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/"
   ]
 }

@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-29",
+  "publishedAt": "2026-06-29T06:51:57+09:00",
+  "items": [
+    {
+      "title": "RUBI (Robot Utility Board Interface) - v2",
+      "link": "https://discourse.openrobotics.org/t/rubi-robot-utility-board-interface-v2/55844",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/1/7/17003d85c00d05839e8377b89ef9936d9618dbe4.jpeg\" rel=\"noopener nofollow ugc\" title=\"RUBI - Preview\"><img alt=\"RUBI - Preview\" height=\"387\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/1/7/17003d85c00d",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Japan Developer Kaigi @ 筑波大学 — 2026年8月3日（ROSCon JP前日）",
+      "link": "https://discourse.openrobotics.org/t/ros-japan-developer-kaigi-2026-8-3-roscon-jp/55842",
+      "summary": "<p>ROSCon JP 2026（8/4–5・つくばCapio）の前日、8/3（月）に筑波大学で ROS Japan Developer Kaigi を開催します。</p>\n<p>日本からROS本線（upstream）への開発貢献を増やすことを目的としたオフライン会議です。ROSCon JP参加のためつくばに来られる方は、ぜひ前日からご参加ください。<br />\nROS 2のコア機能を深く理解し、主体的に本線の改善に関わりたいエンジニアの皆さまを対象としています。</p>\n<p><strong>開催概要</strong></p>\n<ul>\n<li>日時：2026年8月3日（月）14:00–17:00 JST（懇親会 18:30〜）</li>\n<li>場所：筑波大学 第三エリア 総合研究棟B",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Humble sync 2026-07-02",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-07-02/55867",
+      "summary": "<p>We’re planning for a Humble sync on <span class=\"discourse-local-date\">Thu, Jul 2, 2026 7:00 AM UTC</span>.</p>\n<p>There are currently <a href=\"https://repo.ros2.org/status_page/ros_humble_default.html?q=REGRESSION\" rel=\"noopener nofollow ugc\">6 regressions</a> and <a href=\"https://repo.ros2.org/status_page/ros_humble_default.html?q=SYNC\" rel=\"n",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Incident Report: CVE-2026-LGTM",
+      "link": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+      "summary": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p>\nSpectacular hypothetical incident report by Andrew Nesbitt.</p>\n<blockquote>\n<p><strong>Day 2, 16:00 UTC</strong> --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping <c",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting OpenAI",
+      "link": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+      "summary": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "simonw/browser-compat-db",
+      "link": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "summary": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Tom MacWright",
+      "link": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+      "summary": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction i",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "link": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48709670\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48708941\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "link": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48709187\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.30.11",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
+      "summary": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in #15434 launch: auto-install Claude Code by @hoyyeva in #16802 launch: auto-install opencode when missing by @hoyyeva in #16806 discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in #16669 mlxrunner: unify and tune speculative decoding by @jessegross in #16791 launch/codex: detect model drift when Codex App UI switches by @BruceMacD in #16864 llama: add sm_86 architec",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.90.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.90.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.90.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Give Robots a Hand",
+      "link": "https://spectrum.ieee.org/video-friday-robot-grippers",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/three-fingered-robotic-gripper-arm-crawls-upright-on-a-white-table.gif?id=67036633&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> ro",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
+      "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
+      "summary": "<p>AGIBOT has rolled out 15,000 wheeled semi-humanoid robots as it moves from embodied AI from development and production to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/\">AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment</a> ap",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+      "link": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+      "summary": "<p>Atharv Kolhar, a staff test automation engineer at Figure AI, says the robotics industry needs a testing philosophy that scales alongside autonomy. </p>\n<p>The post <a href=\"https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/\">We know how to build smarter robots. Now, we need to lear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How compact cobot integration enhances autonomous mobile robot applications",
+      "link": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+      "summary": "<p>Cobots are quickly shaping the future of warehousing, with their use rising 10-fold from 2018 to 2025, Kassow said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/\">How compact cobot integration enhances autonomous mobile robot applications</a> appeared first on",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
