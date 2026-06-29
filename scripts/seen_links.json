@@ -1,16 +1,4 @@
 {
-  "2026-06-10": [
-    "https://discourse.openrobotics.org/t/project-tt-developing-a-20mm-biohybrid-tripod-driven-by-cerebral-organoids/55373",
-    "https://discourse.openrobotics.org/t/logging-and-observability-guide-discussion-cloud-robotics-wg-meeting-2026-06-15/55370",
-    "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo6_6.18.0",
-    "https://openai.com/index/nextdoor",
-    "https://openai.com/index/notion",
-    "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
-    "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
-    "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/"
-  ],
   "2026-06-11": [
     "https://discourse.openrobotics.org/t/introducing-artemis-mission-simulator-attempting-to-simulate-nasas-artemis-missions-on-moon-before-they-actually-go/55387",
     "https://discourse.openrobotics.org/t/task-board-bom/55385",
@@ -237,5 +225,25 @@
     "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
     "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
     "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/"
+  ],
+  "2026-06-30": [
+    "https://discourse.openrobotics.org/t/guidelines-for-ai-assisted-contributions-in-the-ros-project/55903",
+    "https://discourse.openrobotics.org/t/ros2-dev-suite-a-studiocode-extension/55886",
+    "https://discourse.openrobotics.org/t/nav2-bt-editor-a-vs-code-extension-for-editing-and-previewing-nav2-behavior-trees/55893",
+    "https://discourse.openrobotics.org/t/a-standard-interface-from-llm-to-robot-actions/55894",
+    "https://discourse.openrobotics.org/t/cad-to-urdf-conversion/55892",
+    "https://openai.com/index/mapping-ai-jobs-transition-eu",
+    "https://openai.com/index/hp-frontier-partnership",
+    "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+    "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+    "https://github.com/deepreinforce-ai/Ornith-1",
+    "https://deep-reinforce.com/ornith_1_0.html",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.113.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.31.0",
+    "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+    "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+    "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+    "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
+    "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/"
   ]
 }

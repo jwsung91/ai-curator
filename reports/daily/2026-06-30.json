@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-30T07:02:27+09:00",
+  "items": [
+    {
+      "title": "Guidelines for AI-Assisted Contributions in the ROS Project",
+      "link": "https://discourse.openrobotics.org/t/guidelines-for-ai-assisted-contributions-in-the-ros-project/55903",
+      "summary": "<p>Hello fellow ROS users, maintainers, contributors and anyone else who may be passing by.</p>\n<p>Due to a recent uptick in LLM-authored pull requests, the ROS PMC has elected to extend the upstream OSRF policy on the use of generative tools to help provide some boundaries/guidelines on the use of these tools.  These tools and technologies are con",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ros2-dev-suite, a StudioCode extension",
+      "link": "https://discourse.openrobotics.org/t/ros2-dev-suite-a-studiocode-extension/55886",
+      "summary": "<p>As shared in a lightning talk at ROSConFr: I have finally completed and “clauded” a comprehensive VS Code extension for ROS 2 development: a unified explorer, live parameter tuner, service/topic/action caller, log viewer, and syntax highlighting for interface files.</p>\n<p>My favorite features of the extension, among others:</p>\n<ul>\n<li>Dynamic",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Nav2 BT Editor: a VS Code extension for editing and previewing Nav2 behavior trees",
+      "link": "https://discourse.openrobotics.org/t/nav2-bt-editor-a-vs-code-extension-for-editing-and-previewing-nav2-behavior-trees/55893",
+      "summary": "<p>Dear ROS community,</p>\n<p>As I have been using ROS 2 behavior trees more and more, especially with Nav2, I found myself in a slightly awkward workflow.</p>\n<p>For small changes or quick previews, opening Groot often felt heavier than what I needed. But once the behavior trees started growing, editing them directly in XML also became harder to r",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A Standard Interface from LLM to Robot Actions",
+      "link": "https://discourse.openrobotics.org/t/a-standard-interface-from-llm-to-robot-actions/55894",
+      "summary": "<p>Hi ROS community,</p>\n<p>I’m working on ClawsJoy Robotics, a proposal for a standard interface between LLM-based cognitive systems and ROS/2 robots. The core idea: <strong>any LLM outputs an action, any robot implements these standard topics.</strong></p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-114709-the-problem-1\" name",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Cad to urdf conversion",
+      "link": "https://discourse.openrobotics.org/t/cad-to-urdf-conversion/55892",
+      "summary": "<p>If you’re a robotics engineer, you’ve probably lost hours to URDF generation.<br />\nNot because the robot is complex but because the tooling is.</p>\n<p>Renaming mates. Fixing joint axes. Recreating reference frames. Starting over because the CAD came from the “wrong” software.</p>\n<p>I got tired of that workflow, so I built Jointly.<br />\nUpload",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "link": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+      "summary": "<p><strong><a href=\"https://deep-reinforce.com/ornith_1_0.html\">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p>\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p>\n<blockquote>\n<p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Jon Udell",
+      "link": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+      "summary": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>\n<p>I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "link": "https://github.com/deepreinforce-ai/Ornith-1",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48722052\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ornith-1.0: Self-scaffolding LLMs for agentic coding",
+      "link": "https://deep-reinforce.com/ornith_1_0.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48709744\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.113.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.113.0",
+      "summary": "0.113.0 (2026-06-29) Full Changelog: v0.112.0...v0.113.0 Features api: add support for 20260318 web fetch and support tools ( 88dbfb1 ) Bug Fixes async count_tokens missing output_format/output_config merge block ( #162 ) ( 122c958 ) Chores api: accept user profile ID's when counting tokens ( 0b4d17a ) docs: updates to descriptions and example values ( f3ab694 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.31.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.31.0",
+      "summary": "launch: check for min version for hermes desktop ( #16912 )",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
+      "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+      "summary": "<p>The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/\">BMW Group deploys Figure 03 humanoid after tests with previous version</a> appeared first on <a href=\"https:",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "MBody AI expands service robotics operations to eleven states and Canada",
+      "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+      "summary": "<p>MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.</p>\n<p>The post <a href=\"https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/\">MBody AI expands service robotics operations to eleven states and Canada</a> appeared first on <a href=\"h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Advantages of hypoid gearing over worm, bevel and bevel-planetary",
+      "link": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+      "summary": "<p>Right-angle gearing often requires engineers to compromise between torque capacity and mechanical efficiency. Hypoid gearing offers a balance of mechanical efficiency, load-carrying capability, and single-stage ratio range.</p>\n<p>The post <a href=\"https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/\">",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+      "link": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
+      "summary": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizat",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
+      "link": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+      "summary": "",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
