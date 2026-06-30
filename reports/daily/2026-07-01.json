@@ -1,0 +1,160 @@
+{
+  "date": "2026-07-01",
+  "publishedAt": "2026-07-01T07:07:02+09:00",
+  "items": [
+    {
+      "title": "New Rolling sync?",
+      "link": "https://discourse.openrobotics.org/t/new-rolling-sync/55917",
+      "summary": "<p>It’s been quite a while since last sync of Rolling distribution. There still hasn’t been one since switching to Ubuntu Resolute as the Tier 1 platform and the missing packages cause failures on some of my CI’s. Could you guys consider making a new sync?</p>\n<p><a class=\"mention\" href=\"https://discourse.openrobotics.org/u/mjcarroll\">@mjcarroll</a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Developing an autonomous ocean monitoring device",
+      "link": "https://discourse.openrobotics.org/t/developing-an-autonomous-ocean-monitoring-device/55932",
+      "summary": "<p>Hey Everyone. We have a new opening for Mechanical Designers / Consultants experienced in autonomous marine vehicles. The position is fully remote consultancy. Anyone interested check the details here <a class=\"inline-onebox\" href=\"https://techtitans.cloud/r/openjob/44?b=1\" rel=\"noopener nofollow ugc\">TechTitans – Gamified EdTech for Future Crea",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Offboard Control with PX4 & ROS 2 (Micro XRCE-DDS)",
+      "link": "https://discourse.openrobotics.org/t/offboard-control-with-px4-ros-2-micro-xrce-dds/55936",
+      "summary": "<p>I wanted to share an architectural pattern for handling autonomous drone navigation using ROS 2 (Jazzy) and PX4 Autopilot via Micro XRCE-DDS, specifically regarding the Offboard mode failsafe.</p>\n<p><strong>The Problem:</strong> When developing an autonomous flight node in C++, transitioning to PX4’s Offboard mode can be tricky. PX4 implements ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[CANCELED] ROS Deliberation Community Group Meeting - July 6, 2026",
+      "link": "https://discourse.openrobotics.org/t/canceled-ros-deliberation-community-group-meeting-july-6-2026/55970",
+      "summary": "<p>Hello all – between the North American holidays and other countries that actually take summer vacation, we have <strong>canceled</strong> the next <a href=\"https://github.com/ros-wg-delib\" rel=\"noopener nofollow ugc\">ROS Deliberation Community Group</a> meeting for <span class=\"discourse-local-date\">Mon, Jul 6, 2026 4:00 AM UTC</span>.</p>\n<p>Fo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Maritime CWG Meeting June 2026: WHOI-ROS",
+      "link": "https://discourse.openrobotics.org/t/maritime-cwg-meeting-june-2026-whoi-ros/55962",
+      "summary": "<p>Hi all,</p>\n<p>A reminder for our working group meeting today!</p>\n<p>Here are the details: <strong>When:</strong> Last Tuesday of each month, 4–5pm EST <strong>This month:</strong> June 30th, 2026</p>\n<p><strong>June agenda:</strong> “WHOI-ROS: a shared ROS 2 stack for deep-sea vehicles” presented by Nathan McGuire (WHOI)</p>\n<ul>\n<li>What WHOI",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How ChatGPT adoption has expanded",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What's new in Claude Sonnet 5",
+      "link": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "summary": "<p><strong><a href=\"https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5\">What&#x27;s new in Claude Sonnet 5</a></strong></p>\nClaude Sonnet 5 came out <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">this morning</a>. I always head straight for the \"what's new\" developer docs because they tend to have more actionable i",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "summary": "<p><a href=\"https://shot-scraper.datasette.io/en/stable/video.html\">shot-scraper video</a> is a new command introduced in today's <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a> release which accepts a <code>storyboard.yml</code> file defining a routine to run against a web application and uses Playwright to",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "shot-scraper 1.10",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a></p>\n        <p>The big new feature is <code>shot-scraper video storyboard.yml</code>, described in detail in <a href=\"https://simonwillison.net/2026/Jun/30/shot-scraper-video/\">Have your agent record video demos of its work with sho",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "link": "https://www.anthropic.com/news/claude-sonnet-5",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48736605\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "link": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48734373\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Science",
+      "link": "https://claude.com/product/claude-science",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48735770\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.115.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.0",
+      "summary": "0.115.0 (2026-06-30) Full Changelog: v0.114.0...v0.115.0 Features api: add support for Managed Agents event delta streaming, agent overrides, reverse pagination, vault credential injection scoping, and agent and deployment webhook events ( 8c23f7e )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.31.1: mlx: tighten up gemma4 moe loading code (#16964)",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
+      "summary": "This change allows .experts.gate_proj / .up_proj / .down_proj tensor names to each be used for both quantized (i.e. nvfp4 and mxfp8) and non-quantized (bf16) models. Previous to this only non-quantized models used that tensor naming scheme.",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds",
+      "link": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
+      "summary": "<p>X Square Robots' system combines foundation models, robotics hardware, a data pipeline system, and real-world deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/\">X Square Robot brings its valuation to $2.8B with four consecutive funding rounds</a> appeared fi",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Queue raises funding to build fully autonomous pharmacy",
+      "link": "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/",
+      "summary": "<p>Queue is developing automated pharmacies to expand access to prescriptions in hospitals, retail sites, and underserved communities.</p>\n<p>The post <a href=\"https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/\">Queue raises funding to build fully autonomous pharmacy</a> appeared first on <a href=\"https://www.therobotrep",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Soft, robotic cells from morph embed physical AI into hardware",
+      "link": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
+      "summary": "<p>morph launched a physically intelligent soft robotics platform that designs and manufactures what it calls “soft robotic cells.” </p>\n<p>The post <a href=\"https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/\">Soft, robotic cells from morph embed physical AI into hardware</a> appeared first on <a href=\"htt",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+      "link": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "summary": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Sc",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source e",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

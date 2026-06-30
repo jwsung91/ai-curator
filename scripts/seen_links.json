@@ -1,26 +1,4 @@
 {
-  "2026-06-11": [
-    "https://discourse.openrobotics.org/t/introducing-artemis-mission-simulator-attempting-to-simulate-nasas-artemis-missions-on-moon-before-they-actually-go/55387",
-    "https://discourse.openrobotics.org/t/task-board-bom/55385",
-    "https://discourse.openrobotics.org/t/looking-for-co-founder-cto-privacy-first-home-robot/55390",
-    "https://discourse.openrobotics.org/t/learning-from-videos-open-humanoid-ai-sapiens/55386",
-    "https://discourse.openrobotics.org/t/how-to-connect-a-raspberry-pi-to-a-dsi-display-in-robotics-projects-complete-guide/55391",
-    "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "https://openai.com/index/openai-on-oracle-cloud",
-    "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-    "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-    "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
-    "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
-    "https://simonwillison.net/2026/Jun/9/llm/#atom-everything",
-    "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-    "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
-    "https://github.com/HelixDB/helix-db/tree/main",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1",
-    "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/",
-    "https://www.therobotreport.com/robotics-will-not-have-a-clean-llama-moment/",
-    "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
-    "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/"
-  ],
   "2026-06-12": [
     "https://discourse.openrobotics.org/t/announcing-gazebo-rotary/55422",
     "https://discourse.openrobotics.org/t/iso-risk-assessment/55420",
@@ -245,5 +223,29 @@
     "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
     "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
     "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/"
+  ],
+  "2026-07-01": [
+    "https://discourse.openrobotics.org/t/new-rolling-sync/55917",
+    "https://discourse.openrobotics.org/t/developing-an-autonomous-ocean-monitoring-device/55932",
+    "https://discourse.openrobotics.org/t/offboard-control-with-px4-ros-2-micro-xrce-dds/55936",
+    "https://discourse.openrobotics.org/t/canceled-ros-deliberation-community-group-meeting-july-6-2026/55970",
+    "https://discourse.openrobotics.org/t/maritime-cwg-meeting-june-2026-whoi-ros/55962",
+    "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "https://openai.com/index/introducing-genebench-pro",
+    "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+    "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+    "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+    "https://www.anthropic.com/news/claude-sonnet-5",
+    "https://thereallo.dev/blog/claude-code-prompt-steganography",
+    "https://claude.com/product/claude-science",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.31.1",
+    "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
+    "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/",
+    "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
+    "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+    "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/"
   ]
 }
