@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T07:11:26+09:00",
+  "items": [
+    {
+      "title": "Aerial Robotics Meeting - 2nd July 2026",
+      "link": "https://discourse.openrobotics.org/t/aerial-robotics-meeting-2nd-july-2026/56017",
+      "summary": "<p>Hey fellow aerial roboticists!</p>\n<p><img alt=\":police_car_light:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/police_car_light.png?v=15\" title=\":police_car_light:\" width=\"20\" /> We’re back with a really exciting (almost last minute <img alt=\":sweat_smile:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/n",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Xbox controller teleop for TurtleBot3, with a brake and haptic feedback (sim + real robot)",
+      "link": "https://discourse.openrobotics.org/t/xbox-controller-teleop-for-turtlebot3-with-a-brake-and-haptic-feedback-sim-real-robot/55978",
+      "summary": "<p>A small ROS 2 Jazzy package for driving a TurtleBot3 with a Bluetooth Xbox controller with added haptics feedback.</p>\n<p><img alt=\"demo_real\" class=\"animated\" height=\"500\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/b/e/beb0c54afa5bb2c6efaa9205551b71d045c5e8c4.gif\" width=\"281\" /></p>\n<p><img alt=\"demo_sim\" class=\"animated",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Technical Co-Founder — Pre-Seed Surgical Robotics / Physical AI Hardware Startup (Equity)",
+      "link": "https://discourse.openrobotics.org/t/technical-co-founder-pre-seed-surgical-robotics-physical-ai-hardware-startup-equity/55979",
+      "summary": "<p>I’m a practicing microsurgeon building a pre-seed hardware startup addressing a data gap I believe is one of the core bottlenecks for surgical AI. I’m not sharing technical details publicly at this stage, but the problem is real, the approach is novel, and I’m working toward IP protection.</p>\n<p>Looking for a technical co-founder with hardware ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "urdf_validator v1.0 — physics-aware URDF validation (open source)",
+      "link": "https://discourse.openrobotics.org/t/urdf-validator-v1-0-physics-aware-urdf-validation-open-source/55977",
+      "summary": "<p>Every ROS 2 developer who’s written a URDF has hit this: <strong>check_urdf</strong> passes your file, you launch Gazebo, and the robot collapses or explodes anyway. That’s because <strong>check_urdf</strong> is syntax-only — it cannot tell you whether your inertia tensors, mass values, or joint effort limits are physically plausible. A 2024 emp",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "link": "https://openai.com/index/genebench-pro/case-studies",
+      "summary": "",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Anthropic",
+      "link": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropic",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "link": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+      "summary": "<p><strong><a href=\"https://deepmind.google/models/gemini-image/flash-lite/\">Nano Banana 2 Lite</a></strong></p>\nAlso known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href=\"https://ai.google.dev/gemini-api/docs/image-generation\">in their API</a>), this is the \"fastest and cheapest Gemini image model, engineered for ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.115.1",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.1",
+      "summary": "0.115.1 (2026-07-01) Full Changelog: v0.115.0...v0.115.1 Chores api: remove some nonfunctional types from the SDKs ( 5e7c431 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM saml-sso-e2e-demo-v1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/saml-sso-e2e-demo-v1",
+      "summary": "fix(proxy): hydrate MCP server registry from DB on startup when store…",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "In Robotics, Ruggedization Is No Longer Optional",
+      "link": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+      "summary": "<p>As autonomy moves beyond controlled environments, ruggedized design is becoming a prerequisite for reliable robotic operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/\">In Robotics, Ruggedization Is No Longer Optional</a> appeared first on <a href=\"https://www.therobotreport.com\">T",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Top 10 robotics developments of June 2026",
+      "link": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
+      "summary": "<p>Humanoid robots made many headlines in June 2026, whether it be for companies going public, new deployments, or hitting production milestones.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotic-stories-june-2026/\">Top 10 robotics developments of June 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
+      "link": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
+      "summary": "<p>Built as a data collection and training platform, Apollo 2 enables continuous learning through deployment, Apptronik said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/\">Apptronik unveils Apollo 2 and a flagship data collection and training facility</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

@@ -1,20 +1,4 @@
 {
-  "2026-06-12": [
-    "https://discourse.openrobotics.org/t/announcing-gazebo-rotary/55422",
-    "https://discourse.openrobotics.org/t/iso-risk-assessment/55420",
-    "https://discourse.openrobotics.org/t/2026-ros-summer-school-hangzhou-china-jul-18-24-free-training/55421",
-    "https://openai.com/index/openai-to-acquire-ona",
-    "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-    "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
-    "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-    "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.87.2",
-    "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
-    "https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/",
-    "https://www.therobotreport.com/inside-xrzero-g0-a-new-2000-hour-open-dataset-for-robotics-research/"
-  ],
   "2026-06-15": [
     "https://discourse.openrobotics.org/t/classical-visual-servoing/55476",
     "https://github.com/ros2/rclcpp/releases/tag/28.1.21",
@@ -247,5 +231,19 @@
     "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
     "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
     "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/"
+  ],
+  "2026-07-02": [
+    "https://discourse.openrobotics.org/t/aerial-robotics-meeting-2nd-july-2026/56017",
+    "https://discourse.openrobotics.org/t/xbox-controller-teleop-for-turtlebot3-with-a-brake-and-haptic-feedback-sim-real-robot/55978",
+    "https://discourse.openrobotics.org/t/technical-co-founder-pre-seed-surgical-robotics-physical-ai-hardware-startup-equity/55979",
+    "https://discourse.openrobotics.org/t/urdf-validator-v1-0-physics-aware-urdf-validation-open-source/55977",
+    "https://openai.com/index/genebench-pro/case-studies",
+    "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+    "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.1",
+    "https://github.com/BerriAI/litellm/releases/tag/saml-sso-e2e-demo-v1",
+    "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+    "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
+    "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
   ]
 }
