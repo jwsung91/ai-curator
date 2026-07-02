@@ -1,22 +1,4 @@
 {
-  "2026-06-15": [
-    "https://discourse.openrobotics.org/t/classical-visual-servoing/55476",
-    "https://github.com/ros2/rclcpp/releases/tag/28.1.21",
-    "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "https://openai.com/index/preply",
-    "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-    "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
-    "https://github.com/nex-agi/Nex-N2/issues/4",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.8",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.88.2",
-    "https://spectrum.ieee.org/robot-emotions-visual-language-models",
-    "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
-    "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
-    "https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/",
-    "https://www.therobotreport.com/computers-software-windows-utility-robots/",
-    "https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/",
-    "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/"
-  ],
   "2026-06-16": [
     "https://discourse.openrobotics.org/t/ros2-studio-update/55482",
     "https://discourse.openrobotics.org/t/looking-for-a-repository-within-ros2-to-support/55489",
@@ -245,5 +227,25 @@
     "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
     "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
     "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
+  ],
+  "2026-07-03": [
+    "https://discourse.openrobotics.org/t/plotjuggler-4-beta-is-here-unleashing-mulit-modal-data/56047",
+    "https://discourse.openrobotics.org/t/kc-vision-autonomous-ground-robot-with-slam-nav2-gps-boustrophedon-coverage-planner-ros-2-jazzy-gazebo-harmonic/56024",
+    "https://discourse.openrobotics.org/t/mastering-nero-how-to-configure-can-master-follower-linkage-for-dual-7-dof-robotic-arms/56028",
+    "https://discourse.openrobotics.org/t/audio-features-in-gazebo/56023",
+    "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-07-02/56051",
+    "https://github.com/ros2/rclcpp/releases/tag/33.0.2",
+    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.6.2.0",
+    "https://github.com/ros2/rclpy/releases/tag/11.0.2",
+    "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+    "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+    "https://manufact.com",
+    "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+    "https://github.com/rafal-qa/slopo",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.116.0",
+    "https://www.therobotreport.com/automate-2026-show-recap/",
+    "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
+    "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
+    "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
   ]
 }
