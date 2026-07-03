@@ -27,7 +27,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <!-- Latest Weekly Section -->
     <section>
       <div class="mb-6 flex items-baseline justify-between border-b border-stone-100 dark:border-stone-900 pb-4">
-        <h2 class="font-mono text-xs uppercase tracking-wider text-coral-600 dark:text-coral-400 font-bold">Latest Weekly</h2>
+        <h2 class="font-mono text-xs uppercase tracking-wider text-azure-600 dark:text-azure-400 font-bold">Latest Weekly</h2>
         <a href={`${base}/weekly/`} class="text-[10px] font-mono text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition-colors">View All →</a>
       </div>
 
@@ -41,7 +41,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <li>
               <a
                 href={`${base}/weekly/${report.id}/`}
-                class="block py-5 transition-colors duration-200 hover:text-coral-600 dark:hover:text-coral-400"
+                class="block py-5 transition-colors duration-200 hover:text-azure-600 dark:hover:text-azure-400"
               >
                 <p class="mb-2 text-xl font-semibold text-stone-900 dark:text-stone-100">
                   {report.data.title}
@@ -73,7 +73,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <li>
               <a
                 href={`${base}/curation/${report.id}/`}
-                class="block py-5 transition-colors duration-200 hover:text-coral-600 dark:hover:text-coral-400"
+                class="block py-5 transition-colors duration-200 hover:text-azure-600 dark:hover:text-azure-400"
               >
                 <p class="mb-2 text-xl font-semibold text-stone-900 dark:text-stone-100">
                   {report.data.title}

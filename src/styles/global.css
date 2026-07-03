@@ -8,11 +8,11 @@
   --font-serif: "Noto Serif KR", "Source Han Serif KR", "Source Han Serif K", "Nanum Myeongjo", "AppleMyungjo", "Batang", ui-serif, Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  /* Anthropic-inspired coral accent */
-  --color-coral-400: #e8906f;
-  --color-coral-500: #d97757;
-  --color-coral-600: #c45e3f;
-  --color-coral-700: #a8482c;
+  /* Anthropic-inspired azure accent */
+  --color-azure-400: #6f90e8;
+  --color-azure-500: #5777d9;
+  --color-azure-600: #3f5ec4;
+  --color-azure-700: #2c48a8;
 }
 
 :root {
@@ -110,7 +110,7 @@
   }
 
   .reader-size-button {
-    @apply inline-flex h-9 min-w-10 items-center justify-center rounded px-3 font-sans text-sm font-semibold text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-950 focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 focus:ring-offset-stone-50 dark:text-stone-400 dark:hover:bg-stone-900 dark:hover:text-stone-50 dark:focus:ring-offset-zinc-950;
+    @apply inline-flex h-9 min-w-10 items-center justify-center rounded px-3 font-sans text-sm font-semibold text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-950 focus:outline-none focus:ring-2 focus:ring-azure-400 focus:ring-offset-2 focus:ring-offset-stone-50 dark:text-stone-400 dark:hover:bg-stone-900 dark:hover:text-stone-50 dark:focus:ring-offset-zinc-950;
   }
 
   .reader-size-button[data-reader-size-action='reset'] {
@@ -142,7 +142,7 @@
   }
 
   .reader-toc-link {
-    @apply block font-serif text-base leading-relaxed text-stone-600 transition-colors hover:text-coral-600 dark:text-stone-400 dark:hover:text-coral-400;
+    @apply block font-serif text-base leading-relaxed text-stone-600 transition-colors hover:text-azure-600 dark:text-stone-400 dark:hover:text-azure-400;
   }
 
   .reader-footer {
@@ -258,7 +258,7 @@
   }
 
   .code-copy-button {
-    @apply absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded border shadow-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2;
+    @apply absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded border shadow-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-azure-400 focus:ring-offset-2;
     @apply border-stone-300 bg-stone-50/90 text-stone-600 hover:bg-stone-100 focus:ring-offset-stone-50;
     @apply dark:border-stone-700 dark:bg-zinc-900/85 dark:text-stone-100 dark:hover:bg-zinc-800 dark:focus:ring-offset-zinc-950;
   }
