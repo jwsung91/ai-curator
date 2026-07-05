@@ -1,0 +1,97 @@
+{
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T06:47:47+09:00",
+  "items": [
+    {
+      "title": "ROS 2 node for PlayStation 5 HD camera",
+      "link": "https://discourse.openrobotics.org/t/ros-2-node-for-playstation-5-hd-camera/56162",
+      "summary": "<p>Hi community.</p>\n<p>I have implemented a simple ROS 2 node for the official PlayStation 5 HD camera (<a class=\"inline-onebox\" href=\"https://www.playstation.com/en-us/accessories/hd-camera/\" rel=\"noopener nofollow ugc\">PS5 HD camera | Official HD camera for PS5 | PlayStation</a>) to get it work with my own camera. It makes the setup of the camer",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+      "summary": "<p>I wrote about the <a href=\"https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/\">sqlite-utils 4.0rc1</a> release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to <a ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "sqlite-utils 4.0rc2",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc2\">sqlite-utils 4.0rc2</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/\">sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</a>.</p>",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Better Models: Worse Tools",
+      "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+      "summary": "<p><strong><a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">Better Models: Worse Tools</a></strong></p>\nArmin reports on a weird problem he ran into while hacking on Pi:</p>\n<blockquote>\n<p>The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested <code>edits[]</code>",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Fable's judgement",
+      "link": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+      "summary": "<p>One of the most interesting tips I got from <a href=\"https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_main_stage_1230_2026_06_08t09_35_43_039z\">the Fireside Chat</a> I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "June 2026 newsletter",
+      "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+      "summary": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-06-june.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Claude Fable 5, GPT-5.6, and US export",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers Release 2026.7.4",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4 @modelcontextprotocol/server-sequential-thinking@2026.7.4 @modelcontextprotocol/server-memory@2026.7.4",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.91.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.91.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.91.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: An Earthbound Mars Rover for the Moon",
+      "link": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/mars-style-rover-prototype-on-rugged-ground-under-a-clear-sky-with-the-moon-visible.png?id=67083121&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of aw",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity",
+      "link": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+      "summary": "<p>Humanoid says its KinetIQ Ascend approach can reach 99.9% manipulation reliability at human speed and beyond for industrial tasks. </p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/\">Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity</a> ap",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Context is king: How Avride uses cloud VLMs as a safety net for delivery robots",
+      "link": "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
+      "summary": "<p>Avride uses vision-language models, or VLMs, to improve the environmental awareness of its delivery robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/\">Context is king: How Avride uses cloud VLMs as a safety net for delivery robots</a> appeared first on <a href=\"https://www.ther",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Quarterhill discusses transport modernization as U.S. marks 70 years of federal highways",
+      "link": "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/",
+      "summary": "<p>At the U.S. celebrates 250 years of independence and 70 years of its highway system, an expert looks at the future of autonomous transport. </p>\n<p>The post <a href=\"https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/\">Quarterhill discusses transport modernization as U.S. marks 70 yea",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

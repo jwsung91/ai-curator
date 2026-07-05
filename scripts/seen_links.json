@@ -1,20 +1,4 @@
 {
-  "2026-06-16": [
-    "https://discourse.openrobotics.org/t/ros2-studio-update/55482",
-    "https://discourse.openrobotics.org/t/looking-for-a-repository-within-ros2-to-support/55489",
-    "https://discourse.openrobotics.org/t/qerra-v2-classical-deterministic-ethical-physical-safety-evaluation-for-behavior-trees-no-ros2-build-required/55483",
-    "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-06-17/55493",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-15/55498",
-    "https://openai.com/index/introducing-openai-partner-network",
-    "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-    "https://fred.stlouisfed.org/series/IPG33591S",
-    "https://news.ycombinator.com/item?id=48542100",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.2",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
-    "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode",
-    "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/",
-    "https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/"
-  ],
   "2026-06-17": [
     "https://discourse.openrobotics.org/t/errors-in-pick-and-place-tutorial/55509",
     "https://discourse.openrobotics.org/t/availability-of-instances-for-flowstate/55508",
@@ -247,5 +231,20 @@
     "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
     "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
     "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
+  ],
+  "2026-07-06": [
+    "https://discourse.openrobotics.org/t/ros-2-node-for-playstation-5-hd-camera/56162",
+    "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+    "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+    "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+    "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+    "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.91.0",
+    "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+    "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+    "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
+    "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/"
   ]
 }
