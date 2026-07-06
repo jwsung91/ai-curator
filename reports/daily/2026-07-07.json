@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T07:04:53+09:00",
+  "items": [
+    {
+      "title": "Adaptation needs in robotic systems",
+      "link": "https://discourse.openrobotics.org/t/adaptation-needs-in-robotic-systems/56200",
+      "summary": "<p>Hi robotic developers,</p>\n<p>Are you working with <strong>Behavior Trees, robotics, ROS/ROS 2, autonomous systems, or robot decision-making</strong>?</p>\n<p>We are conducting a research study on adaptation needs in robotic systems that use Behavior Trees. <strong>If you work with robotic systems, we’d greatly appreciate your input.</strong></p>",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Midwest United States ROS2 mirror",
+      "link": "https://discourse.openrobotics.org/t/midwest-united-states-ros2-mirror/56198",
+      "summary": "<p>Hello all,<br />\nI am here on behalf of Nulled, a small independent hosting company based out of the Midwest United States.<br />\nSomeone in our community requested that we host the ROS2 repo on our public mirror, <a href=\"https://mirror.nulled.llc\" rel=\"noopener nofollow ugc\">https://mirror.nulled.llc</a>.  We saw no reason not to and so we hav",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Showcase: Beam AgroBot V2 – Autonomous Agricultural Robot Built with ROS 2, Nav2, MoveIt 2 and RealSense",
+      "link": "https://discourse.openrobotics.org/t/showcase-beam-agrobot-v2-autonomous-agricultural-robot-built-with-ros-2-nav2-moveit-2-and-realsense/56187",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/8/7/87d6f6b22b4f6c83562e26e7c5abf0e4723bfef2.jpeg\" rel=\"noopener nofollow ugc\" title=\"image\"><img alt=\"image\" height=\"292\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/8/7/87d6f6b22b4f6c83562e26e7c5abf0",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Autonomous Long-Horizon Whole-body Task: A BT-Based Whole-body VLA Framework",
+      "link": "https://discourse.openrobotics.org/t/autonomous-long-horizon-whole-body-task-a-bt-based-whole-body-vla-framework/56193",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=jRcUuwxFk_Y\">AI WORKER #15: Autonomous Long-Horizon Whole-body Task: A BT-Based Whole-body VLA Framework</a></p>\n\n<p>We want to share how we efficiently handle complex long-horizon whole-body tasks by combining Behavior Trees (BT) with a Vision-Language-Action (VLA) framework on our AI Worker.</p>\n<p>Whil",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Does anyone else struggle to get accurate inertia and mass values for 3D-printed parts in sim?",
+      "link": "https://discourse.openrobotics.org/t/does-anyone-else-struggle-to-get-accurate-inertia-and-mass-values-for-3d-printed-parts-in-sim/56201",
+      "summary": "<p>I was playing around with a LeRobot SO101 arm and simulating it in [MuJoCo/PyBullet/Gazebo]. Something that kept bugging me: CAD tools, URDF exporters, (and slicers’ STEP exports) compute the inertia tensor as if the part is a solid block of plastic which is not accurate at all.</p>\n<p>When you feed that solid-block inertia into a simulator, the",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "sqlite-utils 4.0rc3",
+      "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc3\">sqlite-utils 4.0rc3</a></p>\n        <p>I hoped to release <code>sqlite-utils 4.0</code> stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 <a href=\"https:/",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "link": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48809354\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.31.2-rc0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
+      "summary": "mlx: update to de7b4ed9 ( #17056 )",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
+      "link": "https://spectrum.ieee.org/humanoid-robots-japan",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-middle-aged-asian-man-seated-next-to-an-uncanny-humanoid-robot-dressed-in-identical-glasses-hair-and-clothing.jpg?id=67080305&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>“In the future, the relationship between humans and robots will deepen, and the distinctio",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Kraken Robotics acquires Covelya Group for $615M",
+      "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
+      "summary": "<p>Covelya Group expands Kraken Robotics' product offerings and total addressable market in subsea technology.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/\">Kraken Robotics acquires Covelya Group for $615M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
+      "link": "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
+      "summary": "<p>Around the 2026 FIFA World Cup, Hyundai and Boston Dynamics have taught footwork to the Atlas humanoid, while the Spot robot is on patrol.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/\">Boston Dynamics brings its legged robots to the FIFA World Cup</a> appeared first on <a",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
+      "link": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/",
+      "summary": "<p>Quantum plans to use the proceeds to expand production capacity, strengthen supply chain resilience, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/\">Quantum Systems raises $1.2B to expand drone production and deployments</a> appeared first on <a href=\"https://www",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

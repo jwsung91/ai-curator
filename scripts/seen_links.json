@@ -1,22 +1,4 @@
 {
-  "2026-06-17": [
-    "https://discourse.openrobotics.org/t/errors-in-pick-and-place-tutorial/55509",
-    "https://discourse.openrobotics.org/t/availability-of-instances-for-flowstate/55508",
-    "https://discourse.openrobotics.org/t/ros2-on-stm32-serial-to-sbc/55510",
-    "https://openai.com/index/deployment-simulation",
-    "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-    "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
-    "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
-    "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
-    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.89.1",
-    "https://www.therobotreport.com/pegasus-tech-ventures-launches-60m-fund-physical-ai-startups/",
-    "https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/",
-    "https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/",
-    "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
-    "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/"
-  ],
   "2026-06-18": [
     "https://discourse.openrobotics.org/t/draft-rep-158-openusd-conventions-for-simulation-asset-interoperability-in-open-source-robotics/55526",
     "https://discourse.openrobotics.org/t/release-ai-flight-integrity-observer-measuring-px4-offboard-degradation-under-controlled-ai-inference-lag/55530",
@@ -246,5 +228,19 @@
     "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
     "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
     "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/"
+  ],
+  "2026-07-07": [
+    "https://discourse.openrobotics.org/t/adaptation-needs-in-robotic-systems/56200",
+    "https://discourse.openrobotics.org/t/midwest-united-states-ros2-mirror/56198",
+    "https://discourse.openrobotics.org/t/showcase-beam-agrobot-v2-autonomous-agricultural-robot-built-with-ros-2-nav2-moveit-2-and-realsense/56187",
+    "https://discourse.openrobotics.org/t/autonomous-long-horizon-whole-body-task-a-bt-based-whole-body-vla-framework/56193",
+    "https://discourse.openrobotics.org/t/does-anyone-else-struggle-to-get-accurate-inertia-and-mass-values-for-3d-printed-parts-in-sim/56201",
+    "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+    "https://www.kapa.ai/blog/how-we-prune-rag-context",
+    "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
+    "https://spectrum.ieee.org/humanoid-robots-japan",
+    "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
+    "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
+    "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/"
   ]
 }
