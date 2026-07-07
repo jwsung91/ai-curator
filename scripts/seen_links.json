@@ -1,18 +1,4 @@
 {
-  "2026-06-18": [
-    "https://discourse.openrobotics.org/t/draft-rep-158-openusd-conventions-for-simulation-asset-interoperability-in-open-source-robotics/55526",
-    "https://discourse.openrobotics.org/t/release-ai-flight-integrity-observer-measuring-px4-offboard-degradation-under-controlled-ai-inference-lag/55530",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.4.3",
-    "https://openai.com/index/ai-chemist-improves-reaction",
-    "https://openai.com/index/introducing-life-sci-bench",
-    "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.88.3",
-    "https://spectrum.ieee.org/china-humanoid-robot-marathon",
-    "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/",
-    "https://www.therobotreport.com/fennec-engineering-earns-t2-qualification-advanced-safety-acceleration-platform/",
-    "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/"
-  ],
   "2026-06-19": [
     "https://discourse.openrobotics.org/t/introducing-gz-sim-spray-painting-plugin-simulate-spray-painting-in-gazebo/55536",
     "https://discourse.openrobotics.org/t/new-packages-and-patch-release-for-jazzy-jalisco-2026-06-18/55545",
@@ -242,5 +228,25 @@
     "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
     "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
     "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/"
+  ],
+  "2026-07-08": [
+    "https://discourse.openrobotics.org/t/announcement-welcoming-vicky-vm-brasseur-as-our-new-chief-program-officer/56259",
+    "https://discourse.openrobotics.org/t/ros-documentation-revision-notice/56246",
+    "https://discourse.openrobotics.org/t/update-on-bagel-bag-exploration-whats-new/56235",
+    "https://discourse.openrobotics.org/t/senior-robotics-architect-ros-2-remote-us-15-travel/56234",
+    "https://discourse.openrobotics.org/t/20-parallel-courses-available-for-2026-ros-summer-school-hangzhou-china/56233",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.5-0",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.5-0",
+    "https://openai.com/index/australian-payments-plus",
+    "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+    "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+    "https://github.com/rowboatlabs/rowboat",
+    "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
+    "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+    "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
+    "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
+    "https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/",
+    "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+    "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/"
   ]
 }

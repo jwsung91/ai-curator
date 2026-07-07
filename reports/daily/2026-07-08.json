@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T07:03:29+09:00",
+  "items": [
+    {
+      "title": "Announcement: Welcoming Vicky (VM) Brasseur as Our New Chief Program Officer",
+      "link": "https://discourse.openrobotics.org/t/announcement-welcoming-vicky-vm-brasseur-as-our-new-chief-program-officer/56259",
+      "summary": "<p>We are so pleased to announce that <strong>Vicky (VM) Brasseur</strong> <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/vmb\">@vmb</a> is taking on an expanded role within Open Robotics as our new <strong>Chief Program Officer (CPO)</strong>.</p>\n<p>Many of you already know Vicky, as we have been incredibly fortunate to have her gui",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS documentation revision notice",
+      "link": "https://discourse.openrobotics.org/t/ros-documentation-revision-notice/56246",
+      "summary": "<p><a href=\"https://discourse.openrobotics.org/t/osra-projects-documentation-overhaul-new-information-architecture-design-complete/53682\">The OSRF’s work with 3di, funded by the OSRA, to improve the documentation of our projects</a> is about to reach an important milestone. This week, we will be merging in <a href=\"https://github.com/ros2/ros2_docu",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Update on BAGEL (BAG ExpLoration): What's New",
+      "link": "https://discourse.openrobotics.org/t/update-on-bagel-bag-exploration-whats-new/56235",
+      "summary": "<p>            <img class=\"youtube-thumbnail onebox\" height=\"388\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/6/0/6070fd010bd3fa2c4062f69ef4001c1980db9037_2_690x388.jpeg\" style=\"display: none;\" width=\"690\" />\n            \n</p>\n<p>Hi again,</p>\n<p>Following up on my earlier post about BAGEL, a browser-based ROS bag viewer/edi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Senior Robotics Architect (ROS 2) — Remote (US) | ~15% Travel",
+      "link": "https://discourse.openrobotics.org/t/senior-robotics-architect-ros-2-remote-us-15-travel/56234",
+      "summary": "<p>We’re partnering with a cutting-edge robotics team within a large-scale manufacturing environment that is building and evolving a <strong>next-generation robotics ecosystem</strong> to support a diverse range of robotic systems.</p>\n<p>The current platform is built on <strong>ROS 2 and EtherCAT</strong>, and the team is seeking a <strong>Senior ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "20 parallel courses available for 2026 ROS Summer School-Hangzhou, China",
+      "link": "https://discourse.openrobotics.org/t/20-parallel-courses-available-for-2026-ros-summer-school-hangzhou-china/56233",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/b/b/bb4c126d59b47047158d93b95feb2a633d9f478e.jpeg\" rel=\"noopener nofollow ugc\" title=\"20260704\"><img alt=\"20260704\" height=\"388\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/b/b/bb4c126d59b47047158d93b9",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS Common 4.5.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.5-0",
+      "summary": "Merge pull request #241 from NVIDIA-ISAAC-ROS/release-4.5 Isaac ROS 4.5",
+      "source": "GitHub (Isaac ROS Common)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS NITROS 4.5.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.5-0",
+      "summary": "Merge pull request #74 from NVIDIA-ISAAC-ROS/release-4.5 Isaac ROS 4.5",
+      "source": "GitHub (Isaac ROS NITROS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "link": "https://openai.com/index/australian-payments-plus",
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "github-code Web Component",
+      "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/github-code-component\">github-code Web Component</a></p>\n        <p>An experimental Web Component built using GPT-5.5 and <a href=\"https://gist.github.com/simonw/0e3db21947b5ae7e29e8a4f69a0b0617\">the following prompt</a>:</p>\n<blockquote>\n<p><code>let's build a Web Component for emb",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "sqlite-utils 4.0rc4",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4\">sqlite-utils 4.0rc4</a></p>\n        <p>The last RC before the 4.0 stable release. Mainly <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">implements feedback</a> from a detailed review by Claude Fable 5.</p>\n    \n    ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "link": "https://github.com/rowboatlabs/rowboat",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48819808\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Men's average testosterone levels have halved in last 50 years",
+      "link": "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48823368\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.31.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+      "summary": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in #16966 fix cuda toolkit lookup and parallel by @MarkWard0110 in #16613 docs(cloud): update retirement list by @mxyng in #17000 discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in #16949 agent: harness core by @ParthSareen in #16963 llama: clean up dead code from llama-server work by @dhiltgen in #17007 rocm: remove no longer supported devices by @dhiltgen in #17010 compat: use UTF-8-safe file o",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "ABB Robotics includes vSLAM navigation in F712 autonomous forklift",
+      "link": "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
+      "summary": "<p>The Flexley Stacy F712 forklift uses vision to navigate, works with other robots, and complies with safety standards, says ABB Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/\">ABB Robotics includes vSLAM navigation in F712 autonomous forklift</a> appeared first on",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Tesollo initiates IPO process while developing humanoid hands",
+      "link": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
+      "summary": "<p>Tesollo, a South Korean robotic hand specialist, has officially begun preparations for its initial public offering.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/\">Tesollo initiates IPO process while developing humanoid hands</a> appeared first on <a href=\"https://www.therobotrepo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "HIVE brings in $15M to build physical AI for industrial machines",
+      "link": "https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/",
+      "summary": "<p>HIVE has deployed its technology across several sites in Scandinavia, operating autonomously across different machines.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/\">HIVE brings in $15M to build physical AI for industrial machines</a> appeared first on <a href=\"https://w",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+      "link": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era.  Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+      "link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Fac",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
