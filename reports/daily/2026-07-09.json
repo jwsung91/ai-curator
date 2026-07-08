@@ -1,0 +1,69 @@
+{
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T06:56:24+09:00",
+  "items": [
+    {
+      "title": "Our approach to government and national security partnerships",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "link": "https://danluu.com/ai-coding/#llm-variance",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48836951\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
+      "link": "https://github.com/animesh-94/Onboard-CLI",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48836813\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.31.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
+      "summary": "What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation ollama launch for Claude Code now disables telemetry by default Fixed loading models on paths with non-UTF-8 characters Updated the MLX and llama.cpp engines New Contributors @kevinpark1217 made their first contribution in #16949 Full Changelog",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
+      "link": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/three-men-in-suits-onstage-smiling-as-one-presents-an-award-medal-in-a-box.jpg?id=67107362&amp;width=1245&amp;height=700&amp;coordinates=0%2C469%2C0%2C469\" /><br /><br /><p><a href=\"https://ethw.org/Toshio_Fukuda\" rel=\"noopener noreferrer\" target=\"_blank\">Toshio Fukuda</a> has been blazing trails fo",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "ENCY Software and Stäubli Robotics partner to simplify robot programming",
+      "link": "https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/",
+      "summary": "<p>ENCY Software and Stäubli Robotics have signed a global agreement to make robot programming more intuitive, faster, and more accessible.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/\">ENCY Software and Stäubli Robotics partner to simplify robot programming</a> appeared ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.  LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
