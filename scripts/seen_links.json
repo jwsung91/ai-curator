@@ -1,19 +1,4 @@
 {
-  "2026-06-22": [
-    "https://discourse.openrobotics.org/t/introducing-cyclonedds-insight-graphical-dds-inspection-and-debugging-for-ros-2/55591",
-    "https://discourse.openrobotics.org/t/scry-debug-your-ros-2-robot-from-your-phone-with-an-ai-assistant/55593",
-    "https://discourse.openrobotics.org/t/aic-phase-1-how-to-run-custom-aic-model-service-in-flowstate-with-aic-router-addr/55595",
-    "https://discourse.openrobotics.org/t/metriplane-v0-2-0-replayed-workcell-state-evidence-bundle-regression-test/55602",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.14.0",
-    "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-    "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.89.3",
-    "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
-    "https://spectrum.ieee.org/amazon-astro-robot-sound",
-    "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
-    "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
-    "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/"
-  ],
   "2026-06-23": [
     "https://discourse.openrobotics.org/t/storage-backend-for-zenoh/55615",
     "https://discourse.openrobotics.org/t/sw2robot-a-solidworks-urdf-exporter-with-a-browser-based-editor-free-windows-exe/55616",
@@ -236,5 +221,19 @@
     "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
     "https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/",
     "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/"
+  ],
+  "2026-07-10": [
+    "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "https://openai.com/index/bio-bug-bounty",
+    "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+    "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+    "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+    "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+    "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.91.1",
+    "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
+    "https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/",
+    "https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/"
   ]
 }

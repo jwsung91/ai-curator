@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T07:11:40+09:00",
+  "items": [
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "link": "https://openai.com/index/bio-bug-bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+      "summary": "<p>OpenAI's latest flagship model <a href=\"https://openai.com/index/gpt-5-6/\">hit general availability this morning</a>, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).</p>\n<p>The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Muse Spark 1.1",
+      "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+      "summary": "<p><strong><a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">Introducing Muse Spark 1.1</a></strong></p>\nFollowing <a href=\"https://simonwillison.net/2026/Apr/8/muse-spark/\">Muse Spark in April</a>, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-meta-ai 0.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.1\">llm-meta-ai 0.1</a></p>\n        <p>Let's LLM run prompts against the new <a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">muse-spark-1.1</a> model.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.31.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.31.1\">llm 0.31.1</a></p>\n        <blockquote>\n<ul>\n<li>Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. <a href=\"https://github.com/simonw/llm/issues/1521\">#1521</a></li>\n</ul",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing GPT‑Live",
+      "link": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-live/\">Introducing GPT‑Live</a></strong></p>\nOpenAI <em>finally</em> upgraded the model used by ChatGPT voice mode!</p>\n<p>I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:</p>\n<blo",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.91.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.91.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.91.1 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "ForSight Robotics’ road to performing a fully robotic cataract surgery",
+      "link": "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
+      "summary": "<p>ForSight Robotics' JASPER Platform assists surgeons with cataract surgeries, while still leaving the power in the surgeon's hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/\">ForSight Robotics&#8217; road to performing a fully robotic cataract surgery</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Calling all robotics startups: apply to RoboBusiness Startup Alley",
+      "link": "https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/",
+      "summary": "<p>We're looking for robotics startups that are creating a full system, component, or software system to show off their work at RoboBusiness.</p>\n<p>The post <a href=\"https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/\">Calling all robotics startups: apply to RoboBusiness Startup Alley</a> appeared firs",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Rollon launches two telescopic rails with integrated magnets",
+      "link": "https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/",
+      "summary": "<p>Rollon said the magnets deliver improved load management, smoother extension, and increased durability, even under intensive operating conditions.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/\">Rollon launches two telescopic rails with integrated magnets</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
