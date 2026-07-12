@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T06:37:10+09:00",
+  "items": [
+    {
+      "title": "REP-2000 update",
+      "link": "https://discourse.openrobotics.org/t/rep-2000-update/56502",
+      "summary": "<p>REP-2000 [1] is a very useful document that defines the required dependency versions for each version of ROS 2. However, the latest distribution listed on the page is Kilted Kaiju, and information for Lyrical Luth has not yet been published. Could you please update the page to include the Lyrical Luth specifications?</p>\n<p>[1] <a class=\"inline-",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "link": "https://openai.com/index/gpt-5-6",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Fable gets another bump",
+      "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "summary": "<p>One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, <a href=\"https://x.com/claudeai/status/2076351399999557669\">bumped the date</a> that Fable stops being available in their Claude Max plans:</p>\n<blockquote>\n<p>We're extending Claude Fable 5 access on all paid plans, as well as kee",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting OpenAI",
+      "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "summary": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that compu",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48883275\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I love LLMs, I hate hype",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48883343\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The State of MCP Security [pdf]",
+      "link": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48884647\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers Release 2026.7.10",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+      "summary": "What's Changed create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in #17078 launch: warn before old agent models by @ParthSareen in #17063 cmd: agent UI by @ParthSareen in #17017 Full Changelog : v0.31.2...v0.32.0-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.92.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.92.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.92.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: A World Cup for Robots",
+      "link": "https://spectrum.ieee.org/video-friday-robot-world-cup",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&amp;width=1245&amp;height=700&amp;coordinates=0%2C312%2C0%2C313\" /><br /><br /><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of ",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Ground Robots Inherit the Kill Zone",
+      "link": "https://spectrum.ieee.org/ukraine-ground-drones",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-unmanned-ground-vehicle-moving-through-a-sparse-forest-landscape.jpg?id=67114838&amp;width=1245&amp;height=700&amp;coordinates=0%2C156%2C0%2C157\" /><br /><br /><p><a href=\"https://itarena.ua/speaker/borys-drozhak/\" rel=\"noopener noreferrer\" target=\"_blank\">Borys Drozhak</a> has a vision: a frontl",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "STEM education in the classroom, introducing BotBall",
+      "link": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+      "summary": "<p>Botball addresses STEM education with autonomous robotics, real coding, and a level playing field driven entirely by students.</p>\n<p>The post <a href=\"https://www.therobotreport.com/stem-education-classroom-introducing-botball/\">STEM education in the classroom, introducing BotBall</a> appeared first on <a href=\"https://www.therobotreport.com\">T",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Are suppliers ready for new robot safety standards?",
+      "link": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+      "summary": "<p>Suppliers that are well prepared for standard changes will benefit, while underprepared companies may face market access disruption.</p>\n<p>The post <a href=\"https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/\">Are suppliers ready for new robot safety standards?</a> appeared first on <a href=\"https://www.therobotre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why robotics teams need virtual gyms before deployment",
+      "link": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+      "summary": "<p>To address environmental and task variability, robots can benefit from 'virtual gyms' to bridge the sim-to-real gap, says SoftServe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/\">Why robotics teams need virtual gyms before deployment</a> appeared first on <a href=\"https://www.the",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

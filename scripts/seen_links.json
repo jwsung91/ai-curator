@@ -1,21 +1,4 @@
 {
-  "2026-06-23": [
-    "https://discourse.openrobotics.org/t/storage-backend-for-zenoh/55615",
-    "https://discourse.openrobotics.org/t/sw2robot-a-solidworks-urdf-exporter-with-a-browser-based-editor-free-windows-exe/55616",
-    "https://discourse.openrobotics.org/t/45-open-robotics-roles-needed-worldwide-ros-2-c-python-simulation-autonomy-computer-vision/55617",
-    "https://discourse.openrobotics.org/t/open-source-ros2-lidar-robot-vacuum-cleaner/55621",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-22/55623",
-    "https://openai.com/index/daybreak-securing-the-world",
-    "https://openai.com/index/patch-the-planet",
-    "https://openai.com/index/codex-maxxing-long-running-work",
-    "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-    "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
-    "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/",
-    "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/",
-    "https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/",
-    "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-    "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/"
-  ],
   "2026-06-24": [
     "https://discourse.openrobotics.org/t/mobile-robot-urdf-maker-v4-0-is-here/55630",
     "https://discourse.openrobotics.org/t/event-triggered-mcap-clips-from-a-continuous-ros-2-recording-preroll-included/55625",
@@ -235,5 +218,23 @@
     "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
     "https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/",
     "https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/"
+  ],
+  "2026-07-13": [
+    "https://discourse.openrobotics.org/t/rep-2000-update/56502",
+    "https://openai.com/index/deutsche-telekom",
+    "https://openai.com/index/gpt-5-6",
+    "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+    "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+    "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+    "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+    "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.92.0",
+    "https://spectrum.ieee.org/video-friday-robot-world-cup",
+    "https://spectrum.ieee.org/ukraine-ground-drones",
+    "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+    "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+    "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/"
   ]
 }
