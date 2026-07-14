@@ -1,21 +1,4 @@
 {
-  "2026-06-25": [
-    "https://discourse.openrobotics.org/t/new-release-cadence-for-gazebo-and-better-alignment-with-ros/55667",
-    "https://discourse.openrobotics.org/t/in-depth-analysis-on-key-robotics-news/55666",
-    "https://discourse.openrobotics.org/t/krs-unleashed-easier-hardware-acceleration-prototyping-on-fpga/55664",
-    "https://discourse.openrobotics.org/t/embeddable-react-telemetry-components-a-browser-ground-station-for-mavros/55665",
-    "https://discourse.openrobotics.org/t/vl53l0x-time-of-flight-sensor-as-a-nav2-obstacle-layer-esp32-ros-2-humble/55673",
-    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-    "https://rubyllm.com/",
-    "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.112.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.86.7",
-    "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
-    "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
-    "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
-    "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/"
-  ],
   "2026-06-26": [
     "https://discourse.openrobotics.org/t/anomaly-detection-beta-testers-wanted/55677",
     "https://discourse.openrobotics.org/t/interop-sig-02-july-2026-natural-language-control-of-open-rmf-fleets-via-the-model-context-protocol-mcp/55687",
@@ -228,5 +211,25 @@
     "https://github.com/ollama/ollama/releases/tag/v0.32.0",
     "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
     "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/"
+  ],
+  "2026-07-15": [
+    "https://discourse.openrobotics.org/t/linkforge-exploring-an-intermediate-representation-ir-for-robot-descriptions/56551",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-07-13/56550",
+    "https://discourse.openrobotics.org/t/ros2-info-a-terminal-workspace-lens-for-ros-2-tui-optional-local-ai/56590",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-14-2026/56591",
+    "https://github.com/ros2/launch/releases/tag/3.9.8",
+    "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+    "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+    "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+    "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+    "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+    "https://gwern.net/guardian-angel",
+    "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+    "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
+    "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
+    "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
   ]
 }

@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T06:44:15+09:00",
+  "items": [
+    {
+      "title": "LinkForge: Exploring an Intermediate Representation (IR) for Robot Descriptions",
+      "link": "https://discourse.openrobotics.org/t/linkforge-exploring-an-intermediate-representation-ir-for-robot-descriptions/56551",
+      "summary": "<p>Hi everyone,</p>\n<p>LinkForge recently passed <strong>5,000 downloads</strong> on the Blender Extensions platform, which encouraged me to share a broader idea behind the project rather than just another release announcement.</p>\n<p>Over the past year, I’ve been working on LinkForge, which started as a Blender extension for creating robot models.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo PMC Meeting Minutes 2026-07-13",
+      "link": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-07-13/56550",
+      "summary": "<p>Hi Gazebo Community!</p>\n<p>This week’s meeting was held on <span class=\"discourse-local-date\">Mon, Jul 13, 2026 6:00 PM UTC</span> and the following is a summary:</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115539-pmc-business-1\" name=\"p-115539-pmc-business-1\"></a>PMC Business</h2>\n<ul>\n<li>None</li>\n</ul>\n<h2><a class=",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ros2_info — a terminal workspace lens for ROS 2 (TUI + optional local AI)",
+      "link": "https://discourse.openrobotics.org/t/ros2-info-a-terminal-workspace-lens-for-ros-2-tui-optional-local-ai/56590",
+      "summary": "<p>Hi all,</p>\n<p>Sharing a tool I’ve been building: <strong>ros2_info</strong> — a fastfetch-style ROS 2 workstation dashboard with a full-screen terminal UI. Written in Rust, so it runs headless over SSH and on Pi/Jetson-class hardware without any Electron/webview overhead.</p>\n<p>Repo: <a class=\"inline-onebox\" href=\"https://github.com/Gaurav-x11",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for July 14, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-14-2026/56591",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0#heading=h.wvytz473flxk\">ROS PMC weekly meeting agenda<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 launch 3.9.8",
+      "link": "https://github.com/ros2/launch/releases/tag/3.9.8",
+      "summary": "3.9.8",
+      "source": "GitHub (ROS2 launch)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How to manage AI investments in the agentic era",
+      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "DOOMQL",
+      "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+      "summary": "<p><strong><a href=\"https://github.com/petergpt/doomql\">DOOMQL</a></strong></p>\nPeter Gostev built this using GPT-5.6 Sol. This is a <em>lot</em> of fun: </p>\n<blockquote>\n<p>DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?</p>\n<p>The result is a small, ori",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette code-frequency chart on GitHub",
+      "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+      "summary": "<p><strong><a href=\"https://github.com/simonw/datasette/graphs/code-frequency\">datasette code-frequency chart on GitHub</a></strong></p>\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of co",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "link": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48910676\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How to stop Claude from saying load-bearing",
+      "link": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48905248\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "link": "https://gwern.net/guardian-angel",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48906041\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "link": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&amp;width=1200&amp;height=800&amp;coordinates=115%2C0%2C115%2C0\" /><br /><br /><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment",
+      "link": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
+      "summary": "<p>RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/\">NVIDIA shares how to evaluate general-purpose robot policies for real-world dep",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
+      "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
+      "summary": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acquires DZYNE for $875.8M, expanding its defense capabilities</a> appeared first on <a href=\"https://w",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "link": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories.  As agentic AI drives token demand [&",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
