@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-16",
+  "publishedAt": "2026-07-16T06:45:20+09:00",
+  "items": [
+    {
+      "title": "Opportunity for ROS Developers: AMD AI DevMaster Hackathon Physical AI Track",
+      "link": "https://discourse.openrobotics.org/t/opportunity-for-ros-developers-amd-ai-devmaster-hackathon-physical-ai-track/56629",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115645-amd-ai-devmaster-hackathon-1\" name=\"p-115645-amd-ai-devmaster-hackathon-1\"></a>AMD AI DevMaster Hackathon</h1>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/4/d/4d1934bfbf0c47d7fa4e74752e220d68ed3c9e",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2-DDSConfig-Optimizer Support CycloneDDS Now!",
+      "link": "https://discourse.openrobotics.org/t/ros2-ddsconfig-optimizer-support-cyclonedds-now/56609",
+      "summary": "<p>Previously, we introduced a new tool — ROS2-DDSConfig-Optimizer, which is an AI-driven tool that automatically tunes DDS configuration for ROS2 applications.</p>\n<p>Initially, it only supported Fast DDS, but now it supports Cyclone DDS as well!</p>\n<p>Here we show a comparison between traditional manual tuning and using this tool:</p>\n<p></p><di",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MoveIt Community Meeting: Tuesday July 21",
+      "link": "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-july-21/56593",
+      "summary": "<p>Hi all,</p>\n<p>For the next MoveIt Community meeting, we are going to meet earlier in the day to better accommodate Asia and Europe timezones - Tuesday <span class=\"discourse-local-date\">Tue, Jul 21, 2026 1:30 PM UTC</span> . We will use this <a class=\"inline-onebox\" href=\"https://meet.google.com/nex-amje-mzp\" rel=\"noopener nofollow ugc\">Google ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ros2_lingua: a runtime capability-registration layer so LLMs only call actions that actually exist",
+      "link": "https://discourse.openrobotics.org/t/ros2-lingua-a-runtime-capability-registration-layer-so-llms-only-call-actions-that-actually-exist/56628",
+      "summary": "<p>Hi all, wanted to share a project I’ve been building and get some outside<br />\neyes on it.</p>\n<p><strong>The problem I’m trying to solve</strong></p>\n<p>When you wire an LLM up to control a robot, the usual approach is a static<br />\nsystem prompt listing available actions. That list goes stale the moment<br />\na node isn’t running, a service ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "The US is advancing AI safety through state and federal action",
+      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.ayush.digital/blog/the-memory-heist\">How I tricked Claude into leaking your deepest, darkest secrets</a></strong></p>\nI've <a href=\"https://simonwillison.net/2025/Sep/10/claude-web-fetch-tool/\">been impressed</a> by the way the Claude <code>web_fetch</code> tool is designed to avoid data exfiltration attacks. Ayush P",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "simonw/pedalican",
+      "link": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
+      "summary": "<p><strong><a href=\"https://github.com/simonw/pedalican\">simonw/pedalican</a></strong></p>\nClearly I wasn't paying attention when these were <a href=\"https://twitter.com/OpenAIDevs/status/2050301642717950166\">first announced</a> back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of <a hre",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "link": "https://brainless.swerdlow.dev",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48926085\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "link": "https://github.com/projectargus-cc/libargus.cc",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48907681\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.1-rc0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0",
+      "summary": "cmd: put current working dir in the system prompt ( #17188 )",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Walden Robotics launches at $1.1B valuation for general-purpose robots",
+      "link": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+      "summary": "<p>Leading technology companies have invested in Walden Robotics, which emerged from stealth as it develops full-stack physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/\">Walden Robotics launches at $1.1B valuation for general-purpose robots</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
+      "link": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+      "summary": "<p>Peggy Johnson, CEO of Agility, said the U.S. needs a policy framework that can strengthen what's already working for the humanoid industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/\">Agility outlines six recommendations for U.S. humanoid robot policies</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Vicarious Surgical board seeks to dissolve company",
+      "link": "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
+      "summary": "<p>The board is asking shareholders to approve their plan to dissolve and liquidate the business at a special meeting scheduled for July 21, but said it can not predict how much (if anything) investors would recover or when.</p>\n<p>The post <a href=\"https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/\">Vicarious Surgic",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+      "link": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

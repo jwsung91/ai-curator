@@ -1,17 +1,4 @@
 {
-  "2026-06-26": [
-    "https://discourse.openrobotics.org/t/anomaly-detection-beta-testers-wanted/55677",
-    "https://discourse.openrobotics.org/t/interop-sig-02-july-2026-natural-language-control-of-open-rmf-fleets-via-the-model-context-protocol-mcp/55687",
-    "https://discourse.openrobotics.org/t/tightly-coupled-bimanual-control-safe-and-stable-dual-arm-transport/55685",
-    "https://discourse.openrobotics.org/t/rclnodejs-2-1-native-esm-for-a-web-native-ros-2-sdk/55679",
-    "https://discourse.openrobotics.org/t/a-tutorial-to-make-your-quadruped-robot-on-ros/55700",
-    "https://openai.com/index/how-agents-are-transforming-work",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.89.4",
-    "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
-    "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
-    "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
-  ],
   "2026-06-29": [
     "https://discourse.openrobotics.org/t/rubi-robot-utility-board-interface-v2/55844",
     "https://discourse.openrobotics.org/t/ros-japan-developer-kaigi-2026-8-3-roscon-jp/55842",
@@ -231,5 +218,22 @@
     "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
     "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
     "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
+  ],
+  "2026-07-16": [
+    "https://discourse.openrobotics.org/t/opportunity-for-ros-developers-amd-ai-devmaster-hackathon-physical-ai-track/56629",
+    "https://discourse.openrobotics.org/t/ros2-ddsconfig-optimizer-support-cyclonedds-now/56609",
+    "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-july-21/56593",
+    "https://discourse.openrobotics.org/t/ros2-lingua-a-runtime-capability-registration-layer-so-llms-only-call-actions-that-actually-exist/56628",
+    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+    "https://openai.com/index/unlocking-self-improvement-gpt-red",
+    "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+    "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
+    "https://brainless.swerdlow.dev",
+    "https://github.com/projectargus-cc/libargus.cc",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0",
+    "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+    "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+    "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
+    "https://blogs.nvidia.com/blog/japan-ecosystem-2026/"
   ]
 }
