@@ -1,0 +1,153 @@
+{
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T06:53:35+09:00",
+  "items": [
+    {
+      "title": "[Nav2] AMD Strix Halo Based SAM3 Semantic Navigation",
+      "link": "https://discourse.openrobotics.org/t/nav2-amd-strix-halo-based-sam3-semantic-navigation/56703",
+      "summary": "<p>Howdy everyone, Your Friendly Neighborhood Navigator here!</p>\n<p>We’ve been working with AMD on something we’re really excited about: generalized semantic navigation running on the edge using Meta’s SAM3 foundation model on an AMD Strix Halo!</p>\n<p>SAM3 is text-promptable. You tell it what to segment (“floor”, “sidewalk”, “cables”, “person”, “",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Leet Robotics: Learn robotics and ROS2 with hands-on courses. Looking for feedback.",
+      "link": "https://discourse.openrobotics.org/t/leet-robotics-learn-robotics-and-ros2-with-hands-on-courses-looking-for-feedback/56681",
+      "summary": "<p>Hi everyone,</p>\n<p>I recently launched <a href=\"https://www.leetrobotics.com/\" rel=\"noopener nofollow ugc\">Leet Robotics</a>, a platform for learning robotics by actually doing it. It comes with a complete ROS2 environment that runs in the browser (Jazzy, Gazebo Harmonic, Foxglove, VS Code), so there’s nothing to install. Over time, the platfor",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Working on a New AgenticROS Physical AI ROS Robot",
+      "link": "https://discourse.openrobotics.org/t/working-on-a-new-agenticros-physical-ai-ros-robot/56706",
+      "summary": "<p>My new robot is leveraging <a href=\"https://agenticros.com\" rel=\"noopener nofollow ugc\">AgenticROS</a> to connect AI Agents (OpenClaw, Claude, Gemini, Codex, and Hermes) to ROS2 to give AI control over its own body (RealSense + Wheels + Legs + Arms etc). AgenticROS also now has a skills marketplace available at <a href=\"https://skills.agenticros",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Multi-robot Coordination package - python port of Örebro University's coordination_oru",
+      "link": "https://discourse.openrobotics.org/t/multi-robot-coordination-package-python-port-of-orebro-universitys-coordination-oru/56705",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115728-pycoordination-a-python-port-of-coordination_oru-1\" name=\"p-115728-pycoordination-a-python-port-of-coordination_oru-1\"></a>pycoordination — a Python port of coordination_oru</h1>\n<p>Hi all,</p>\n<p>I’d like to introduce <strong>pycoordination</strong>, a Python port of<br />\n<a ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Fast DDS v3.6.2",
+      "link": "https://github.com/eProsima/Fast-DDS/releases/tag/v3.6.2",
+      "summary": "Fast DDS v3.6.2 This release includes the following CVE fixes, bugfixes, improvements and CI improvements. Security fixes (CVEs) CVE-2025-63829 CVE-2025-65865 CVE-2026-45092 CVE-2026-45093 CVE-2026-45094 CVE-2026-45095 CVE-2026-45096 CVE-2026-45097 These CVEs were addressed in two squashed commits applied directly from privately reviewed branches (no public PR): Fix CVEs in Access Control parser (CVE-2026-45094, CVE-2026-45095, CVE-2026-45096) Fix several CVEs ( CVE-2025-63829 , CVE-2025-65865 ,",
+      "source": "GitHub (Fast DDS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Why teens deserve access to safe AI",
+      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "link": "https://openai.com/index/cars24",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Our approach to bioresilience",
+      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Thibault Sottiaux",
+      "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/thsottiaux/status/2077630111499882637\"><p>On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. </p>\n<p>What we have  found is that this most commonly occurs when:</p>\n<ul>\n<li>Full access mode is enabled and codex is run without sandboxing protections, including w",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Inkling: Our open-weights model",
+      "link": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+      "summary": "<p><strong><a href=\"https://thinkingmachines.ai/news/introducing-inkling/\">Inkling: Our open-weights model</a></strong></p>\nMira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 tri",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "link": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/grok-mermaid\">Mermaid to Unicode box art (grok-mermaid)</a></p>\n        <p>While <a href=\"https://simonwillison.net/2026/Jul/15/grok-build/\">exploring the codebase</a> for the newly open-sourced Grok CLI coding agent I came across <a href=\"https://github.com/xai-org/grok-build/blob/",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48939524\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NotebookLM is now Gemini Notebook",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48936451\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
+      "link": "https://blog.lyc8503.net/en/post/llm-classifier/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48936880\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.117.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0",
+      "summary": "0.117.0 (2026-07-16) Full Changelog: v0.116.0...v0.117.0 Features api: add support for dreaming ( 642eee7 ) api: add support for MCP Tunnels ( d716df6 ) Bug Fixes credentials: keep credential material out of traceback frame locals via SecretStr ( aa93a4d ) Chores docs: small updates to field descriptions ( 75d8dcc ) docs: update model example ( a57e30a ) docs: updates to descriptions and examples ( e1535b6 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.1",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
+      "summary": "What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects OLLAMA_LOAD_TIMEOUT Agent web search and fetch now tell users to run ollama signin when authentication is required The interactive agent now receives the current working directory for better project context Fixed o",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How to Make an Invisible Drone",
+      "link": "https://spectrum.ieee.org/invisible-spinning-drone",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&amp;width=1245&amp;height=700&amp;coordinates=0%2C62%2C0%2C63\" /><br /><br /><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this i",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "TerraFirma raises $115M to build robotic infrastructure for construction",
+      "link": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
+      "summary": "<p>TerraFirma has developed a platform that combines AI-enabled software, a remote command-and-control center, and retrofitted heavy machinery.</p>\n<p>The post <a href=\"https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/\">TerraFirma raises $115M to build robotic infrastructure for construction</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Xpanner rolls out X1 Panel Lift for automated solar panel installation",
+      "link": "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
+      "summary": "<p>X1 Panel Lift uses existing excavators and a single workflow so solar installation crews can focus on alignment, fastening, and quality.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/\">Xpanner rolls out X1 Panel Lift for automated solar panel installation</a> appeared f",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Lockheed Martin taps Machina’s robots for mission-critical missile parts",
+      "link": "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
+      "summary": "<p>Machina Labs secured a Lockheed Martin contract to qualify robotically formed metal components for the JASSM missile program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/\">Lockheed Martin taps Machina’s robots for mission-critical missile parts</a> appeared first",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+      "link": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge.  To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that en",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

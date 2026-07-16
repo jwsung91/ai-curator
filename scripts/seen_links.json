@@ -1,23 +1,4 @@
 {
-  "2026-06-29": [
-    "https://discourse.openrobotics.org/t/rubi-robot-utility-board-interface-v2/55844",
-    "https://discourse.openrobotics.org/t/ros-japan-developer-kaigi-2026-8-3-roscon-jp/55842",
-    "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-07-02/55867",
-    "https://openai.com/index/previewing-gpt-5-6-sol",
-    "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
-    "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
-    "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-    "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
-    "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
-    "https://antoine.fi/mri-analysis-using-claude-code-opus",
-    "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
-    "https://github.com/ollama/ollama/releases/tag/v0.30.11",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.90.0",
-    "https://spectrum.ieee.org/video-friday-robot-grippers",
-    "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
-    "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
-    "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/"
-  ],
   "2026-06-30": [
     "https://discourse.openrobotics.org/t/guidelines-for-ai-assisted-contributions-in-the-ros-project/55903",
     "https://discourse.openrobotics.org/t/ros2-dev-suite-a-studiocode-extension/55886",
@@ -235,5 +216,28 @@
     "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
     "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
     "https://blogs.nvidia.com/blog/japan-ecosystem-2026/"
+  ],
+  "2026-07-17": [
+    "https://discourse.openrobotics.org/t/nav2-amd-strix-halo-based-sam3-semantic-navigation/56703",
+    "https://discourse.openrobotics.org/t/leet-robotics-learn-robotics-and-ros2-with-hands-on-courses-looking-for-feedback/56681",
+    "https://discourse.openrobotics.org/t/working-on-a-new-agenticros-physical-ai-ros-robot/56706",
+    "https://discourse.openrobotics.org/t/multi-robot-coordination-package-python-port-of-orebro-universitys-coordination-oru/56705",
+    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.6.2",
+    "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "https://openai.com/index/cars24",
+    "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+    "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+    "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+    "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+    "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+    "https://blog.lyc8503.net/en/post/llm-classifier/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.1",
+    "https://spectrum.ieee.org/invisible-spinning-drone",
+    "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
+    "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
+    "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
+    "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
   ]
 }
