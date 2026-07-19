@@ -1,24 +1,4 @@
 {
-  "2026-06-30": [
-    "https://discourse.openrobotics.org/t/guidelines-for-ai-assisted-contributions-in-the-ros-project/55903",
-    "https://discourse.openrobotics.org/t/ros2-dev-suite-a-studiocode-extension/55886",
-    "https://discourse.openrobotics.org/t/nav2-bt-editor-a-vs-code-extension-for-editing-and-previewing-nav2-behavior-trees/55893",
-    "https://discourse.openrobotics.org/t/a-standard-interface-from-llm-to-robot-actions/55894",
-    "https://discourse.openrobotics.org/t/cad-to-urdf-conversion/55892",
-    "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "https://openai.com/index/hp-frontier-partnership",
-    "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
-    "https://github.com/deepreinforce-ai/Ornith-1",
-    "https://deep-reinforce.com/ornith_1_0.html",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.113.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.31.0",
-    "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
-    "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
-    "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
-    "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
-    "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/"
-  ],
   "2026-07-01": [
     "https://discourse.openrobotics.org/t/new-rolling-sync/55917",
     "https://discourse.openrobotics.org/t/developing-an-autonomous-ocean-monitoring-device/55932",
@@ -239,5 +219,22 @@
     "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
     "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
     "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
+  ],
+  "2026-07-20": [
+    "https://discourse.openrobotics.org/t/realistic-auv-manipulation-simulator/56778",
+    "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+    "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+    "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+    "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+    "https://github.com/openai/codex/pull/33972/files",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.93.0",
+    "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
+    "https://spectrum.ieee.org/video-friday-robotic-surgery",
+    "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
+    "https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/",
+    "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
+    "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
   ]
 }

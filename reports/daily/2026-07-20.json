@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T06:39:29+09:00",
+  "items": [
+    {
+      "title": "Realistic AUV manipulation simulator",
+      "link": "https://discourse.openrobotics.org/t/realistic-auv-manipulation-simulator/56778",
+      "summary": "<p>Hi,</p>\n<p>I’m pretty new to marine robotics, I have been looking for a simulator for underwater vision guided manipulation and found DAVE but when I checked the camera topic the rgb image is clean, where as the one I saw in stoneFish looked more realistic but the rov/auv available in it doesnt has a manipulator in it.</p>\n<p>Has anyone been at ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A scorecard for the AI age",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "summary": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p>\n<blockquote>\n<p>Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.</p>\n</blockquote>\n<p>I decided to have a poke at my",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude make Fable 5 permanent",
+      "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "summary": "<p><strong><a href=\"https://twitter.com/claudeai/status/2078302415804379218\">Claude make Fable 5 permanent</a></strong></p>\nAn update from the <code>@claudeai</code> account on Twitter:</p>\n<blockquote>\n<p>Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.</p>\n<p>Pro and Team Standard users will ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Kimi K3",
+      "link": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+      "summary": "<blockquote cite=\"https://news.ycombinator.com/item?id=48935342#48936515\"><p>Is there something I can actually help you with today?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48935342#48936515\">Kimi K3</a>, after refusing to leak its system prompt</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LLM cliché highlighter",
+      "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/llm-cliche-highlighter\">LLM cliché highlighter</a></p>\n        <p>I got frustrated reading <em>yet another</em> article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48966569\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "link": "https://github.com/openai/codex/pull/33972/files",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48965850\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.93.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.93.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.93.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
+      "link": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&amp;width=1245&amp;height=700&amp;coordinates=0%2C156%2C0%2C157\" /><br /><br /><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_b",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: Your Robot Surgeon Will See You Now",
+      "link": "https://spectrum.ieee.org/video-friday-robotic-surgery",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em>",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How to avoid the teleoperation trap in robotics development",
+      "link": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
+      "summary": "<p>Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/\">How to avoid the teleoperation trap in robotics development</a> appeared first on <a href=\"https",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Palm Garden AI develops Coherence Guard relational decision layer for human-facing robots",
+      "link": "https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/",
+      "summary": "<p>Palm Garden AI is developing a hardware-agnostic software layer, including Coherence Guard, for human-robot interaction and relationships.</p>\n<p>The post <a href=\"https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/\">Palm Garden AI develops Coherence Guard relational decision laye",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Founder of Maximo discusses how robotics is accelerating solar construction",
+      "link": "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
+      "summary": "<p>Maximo founder Deise Yumi Asami discusses the process of automating solar construction with robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/\">Founder of Maximo discusses how robotics is accelerating solar construction</a> appeared first on <a href=\"https:/",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "summary": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
