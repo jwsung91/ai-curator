@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T06:54:20+09:00",
+  "items": [
+    {
+      "title": "Community feedback wanted: Intuitive robotics math and paper walkthroughs",
+      "link": "https://discourse.openrobotics.org/t/community-feedback-wanted-intuitive-robotics-math-and-paper-walkthroughs/56797",
+      "summary": "<p>Hi everyone,</p>\n<p>My friends and I are exploring the idea of creating beginner-friendly learning resources that explain robotics mathematics and classic robotics papers with a strong focus on intuition, derivations, and practical implementation, not just the final equations.</p>\n<p>The goal is to bridge the gap between reading a paper and actu",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "PyZeROS: a Python-first alternative to `rclpy` over Zenoh",
+      "link": "https://discourse.openrobotics.org/t/pyzeros-a-python-first-alternative-to-rclpy-over-zenoh/56806",
+      "summary": "<p>Hi everyone,</p>\n<p>I am releasing <strong>PyZeROS</strong>, an experimental alternative to <code>rclpy</code> for communicating with ROS from Python. This is not a Python wheel packaging <code>rclpy</code>: I bit the bullet and wrote a client from scratch in pure Python.</p>\n<aside class=\"onebox githubrepo\">\n  <header class=\"source\">\n\n      <a ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "OnSLAM: Run LiDAR-inertial mapping on ROS1 bags directly from Windows",
+      "link": "https://discourse.openrobotics.org/t/onslam-run-lidar-inertial-mapping-on-ros1-bags-directly-from-windows/56801",
+      "summary": "<p>Hi everyone,</p>\n<p>I recently released <strong>OnSLAM</strong>, an open-source Windows application for running LiDAR-inertial odometry and mapping on ROS1 bag files.</p>\n<p>It automatically detects compatible LiDAR and IMU topics, runs the mapping pipeline locally, visualizes the trajectory and point-cloud map in the browser, and exports PLY an",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Created a generic CNC gantary system",
+      "link": "https://discourse.openrobotics.org/t/created-a-generic-cnc-gantary-system/56800",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115834-open-source-modular-cnc-gantry-platform-for-robotics-automation-1\" name=\"p-115834-open-source-modular-cnc-gantry-platform-for-robotics-automation-1\"></a>Open-Source Modular CNC Gantry Platform for Robotics &amp; Automation</h1>\n<p>I’m developing a modular, open-source CNC gantr",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gym Gazebo Sim - Reinforcement Learning using ROS2 Jazzy and Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/gym-gazebo-sim-reinforcement-learning-using-ros2-jazzy-and-gazebo-harmonic/56807",
+      "summary": "<p>Hello everyone,</p>\n<p>We very much appreciated the erlerobotics gym-gazebo framework for training RL agents in ROS1 and Gazebo Classic. And we wanted to be able to do the same in ROS2 Jazzy and Gazebo Sim Harmonic. So we followed erlerobotics lead and released gym-gazebo-sim:</p>\n<aside class=\"onebox githubfolder\">\n  <header class=\"source\">\n   ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Reverse-engineering is cheap now",
+      "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "summary": "<p>I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.</p>\n<p>I think this is an interesting illustration of the impact of the reduced cost of writing code.</p>\n<p>Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Sam Altman",
+      "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "link": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48980019\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "summary": "What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in #17217 anthropic: close text block before starting thinking block by @hoyyeva in #17225 agent: skills system by @ParthSa",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Building robots for unpredictable, infrastructure-free environments",
+      "link": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/",
+      "summary": "<p>Real-world robotics success requires building infrastructure-free systems that thrive in unpredictable, harsh outdoor environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/\">Building robots for unpredictable, infrastructure-free environments</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "BrainCo demonstrates brain-controlled robot AI platform",
+      "link": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
+      "summary": "<p>During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/\">BrainCo demonstrates brain-controlled robot AI platform</a> appeared first on <a href=\"http",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Boston Dynamics to discuss the art behind human-robot interaction",
+      "link": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/",
+      "summary": "<p>Boston Dynamics experts will share insights into design considerations for safe human-robot interaction in a webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/\">Boston Dynamics to discuss the art behind human-robot interaction</a> appeared first on <a href=\"https://www.the",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+      "link": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+      "summary": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

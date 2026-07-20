@@ -1,28 +1,4 @@
 {
-  "2026-07-01": [
-    "https://discourse.openrobotics.org/t/new-rolling-sync/55917",
-    "https://discourse.openrobotics.org/t/developing-an-autonomous-ocean-monitoring-device/55932",
-    "https://discourse.openrobotics.org/t/offboard-control-with-px4-ros-2-micro-xrce-dds/55936",
-    "https://discourse.openrobotics.org/t/canceled-ros-deliberation-community-group-meeting-july-6-2026/55970",
-    "https://discourse.openrobotics.org/t/maritime-cwg-meeting-june-2026-whoi-ros/55962",
-    "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-    "https://openai.com/index/introducing-genebench-pro",
-    "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-    "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-    "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
-    "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
-    "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
-    "https://www.anthropic.com/news/claude-sonnet-5",
-    "https://thereallo.dev/blog/claude-code-prompt-steganography",
-    "https://claude.com/product/claude-science",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.31.1",
-    "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
-    "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/",
-    "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
-    "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
-    "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/"
-  ],
   "2026-07-02": [
     "https://discourse.openrobotics.org/t/aerial-robotics-meeting-2nd-july-2026/56017",
     "https://discourse.openrobotics.org/t/xbox-controller-teleop-for-turtlebot3-with-a-brake-and-haptic-feedback-sim-real-robot/55978",
@@ -236,5 +212,21 @@
     "https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/",
     "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
     "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
+  ],
+  "2026-07-21": [
+    "https://discourse.openrobotics.org/t/community-feedback-wanted-intuitive-robotics-math-and-paper-walkthroughs/56797",
+    "https://discourse.openrobotics.org/t/pyzeros-a-python-first-alternative-to-rclpy-over-zenoh/56806",
+    "https://discourse.openrobotics.org/t/onslam-run-lidar-inertial-mapping-on-ros1-bags-directly-from-windows/56801",
+    "https://discourse.openrobotics.org/t/created-a-generic-cnc-gantary-system/56800",
+    "https://discourse.openrobotics.org/t/gym-gazebo-sim-reinforcement-learning-using-ros2-jazzy-and-gazebo-harmonic/56807",
+    "https://openai.com/index/safety-alignment-long-horizon-models",
+    "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+    "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+    "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+    "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/",
+    "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
+    "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/",
+    "https://blogs.nvidia.com/blog/siggraph-news-2026/"
   ]
 }
