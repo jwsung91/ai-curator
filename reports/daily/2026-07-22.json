@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T06:51:46+09:00",
+  "items": [
+    {
+      "title": "Nvidia Jetson price increase by up to 100%, what other boards are you using to run ROS?",
+      "link": "https://discourse.openrobotics.org/t/nvidia-jetson-price-increase-by-up-to-100-what-other-boards-are-you-using-to-run-ros/56841",
+      "summary": "<p>As avid Jetson user, I just saw there has been <a href=\"https://videocardz.com/newz/nvidia-raises-jetson-prices-by-up-to-101-agx-thor-now-costs-5499\" rel=\"noopener nofollow ugc\">50-100% price increases across all Nvidia Jetson kit/module lineup</a>, what other boards/SoCs/PCs are you using for running ROS on real world robots? I saw recent posts",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rethinking Rolling Syncs",
+      "link": "https://discourse.openrobotics.org/t/rethinking-rolling-syncs/56842",
+      "summary": "<p>Lyrical Luth has shipped and Rolling is back to being the active development target for M Turtle (May 2027) and the cycles after it. We want to change how packages move from Rolling into the main distribution mirror.</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115887-current-process-1\" name=\"p-115887-current-process-1\"><",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ros2-fast-stereo: ROS2 + TensorRT Wrapper for FastFoundationStereo Depth Estimation",
+      "link": "https://discourse.openrobotics.org/t/ros2-fast-stereo-ros2-tensorrt-wrapper-for-fastfoundationstereo-depth-estimation/56838",
+      "summary": "<p>Hi all,</p>\n<p>I’ve open-sourced <code>ros2-fast-stereo</code>, a ROS2 (Jazzy) workspace for real-time stereo depth estimation using a TensorRT-accelerated port of NVIDIA’s Fast-FoundationStereo model.</p>\n<p>Recently, foundational approaches in downstream perception tasks such as FastFoundationStereo have been closing the accuracy gap with offl",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Meetup Barcelona 8th Edition",
+      "link": "https://discourse.openrobotics.org/t/ros-meetup-barcelona-8th-edition/56814",
+      "summary": "<p><img alt=\":megaphone:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/megaphone.png?v=15\" title=\":megaphone:\" width=\"20\" /> Barcelona ROS crowd, robotics fans, and curious minds — this one’s for you! <img alt=\":mechanical_arm:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/mechanical_arm.png?v=15\" title",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Community event calendar; Get updates to only the selected events",
+      "link": "https://discourse.openrobotics.org/t/community-event-calendar-get-updates-to-only-the-selected-events/56844",
+      "summary": "<p>On the <a href=\"https://calendar.google.com/calendar/u/0/newembed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com&amp;ctz=UTC\" rel=\"noopener nofollow ugc\">community event calendar</a> (introduced in <a href=\"https://discourse.openrobotics.org/t/changes-to-the-osrf-events-calendars/48220\">discourse",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing the ChatGPT for small business program",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Nativ: Run AI models locally on your Mac",
+      "link": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "summary": "<p><strong><a href=\"https://blaizzy.github.io/nativ/\">Nativ: Run AI models locally on your Mac</a></strong></p>\nPrince Canuma is the developer behind the excellent <a href=\"https://github.com/Blaizzy/mlx-vlm\">MLX-VLM</a> Python library for running vision-LLMs using MLX on a Mac.</p>\n<p>I'm really excited about his new project, which wraps MLX in a ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "summary": "<p>Earlier this month I hosted a fireside chat session at the <a href=\"https://www.ai.engineer/worldsfair/2026\">AI Engineer World's Fair</a> with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves.</p>\n<",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48997548\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48993414\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48998404\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
+      "summary": "What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in #17217 anthropic: close text block before starting thinking block by @hoyyeva in #17225 agent: skills system by @ParthSa",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
+      "link": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
+      "summary": "<p>Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond.</p>\n<p>The post <a href=\"https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/\">Generative Bionics unveils humanoid robot with full-body tactile sensing</a> appeared first ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "MISUMI Americas releases reshoring report, supports manufacturing training bill",
+      "link": "https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/",
+      "summary": "<p>MISUMI Americas has examined reshoring of U.S. manufacturing and supported legislation to send workers overseas for training.</p>\n<p>The post <a href=\"https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/\">MISUMI Americas releases reshoring report, supports manufacturing training bill</a> ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Friction is key to making better robot world models",
+      "link": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
+      "summary": "<p>Deploying world models in real robotic systems requires a step that receives less attention than the models themselves: conditioning.</p>\n<p>The post <a href=\"https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/\">Friction is key to making better robot world models</a> appeared first on <a href=\"https://www.therobot",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+      "link": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "summary": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking m",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
