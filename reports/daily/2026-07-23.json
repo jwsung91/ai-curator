@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T06:53:53+09:00",
+  "items": [
+    {
+      "title": "Buildfarmer Dashboard: ROS & Gazebo test health in one place",
+      "link": "https://discourse.openrobotics.org/t/buildfarmer-dashboard-ros-gazebo-test-health-in-one-place/56858",
+      "summary": "<p>We are pleased to announce that the <strong>Buildfarmer Dashboard</strong> is publicly available at:</p>\n<aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <img alt=\"\" class=\"site-icon\" height=\"200\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/8/2/8272f95cfba3358fd547a50c203529334cebfae1.png\" width=\"2",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Announcement] The Buildfarm Dashboard is Live – Feedback Wanted!",
+      "link": "https://discourse.openrobotics.org/t/announcement-the-buildfarm-dashboard-is-live-feedback-wanted/56849",
+      "summary": "<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115898-topic-redirected-to-httpsdiscourseopenroboticsorgtbuildfarmer-dashboard-ros-gazebo-test-health-in-one-place56858-1\" name=\"p-115898-topic-redirected-to-httpsdiscourseopenroboticsorgtbuildfarmer-dashboard-ros-gazebo-test-health-in-one-place56858-1\"></a>Topic redirected to: <a cla",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Multisensor fusion (dual-EKF + ANN pseudo-sensor + FLS) for indoor/outdoor handoff, TurtleBot3/Humble",
+      "link": "https://discourse.openrobotics.org/t/multisensor-fusion-dual-ekf-ann-pseudo-sensor-fls-for-indoor-outdoor-handoff-turtlebot3-humble/56855",
+      "summary": "<p>Sharing a course project (Politecnico di Torino, team of five) replicating and extending Yousuf &amp; Kadri’s 2020 ANN+FLS localization paper (<em>Robotica</em>, doi:10.1017/S0263574720000351) in ROS 2 Humble/Gazebo. Full writeup with equations below; looking for critique, especially on the FLS results, they’re weaker than the reference paper an",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Guide to Imitation Learning with Cyclo Intelligence",
+      "link": "https://discourse.openrobotics.org/t/guide-to-imitation-learning-with-cyclo-intelligence/56851",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=xOyVGEDR5VY\">AI WORKER #17: A Complete Guide to Imitation Learning with Cyclo Intelligence</a></p>\n\n<p>The ROBOTIS Humanoid Division is excited to release Cyclo Intelligence, an open-source Physical AI platform designed for imitation learning workflows on AI Worker.</p>\n<p>Setting up real-robot imitation ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A Fully Automated CAD-to-URDF Pipeline with Built-in Gazebo Verification",
+      "link": "https://discourse.openrobotics.org/t/a-fully-automated-cad-to-urdf-pipeline-with-built-in-gazebo-verification/56863",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-115930-how-much-time-did-you-spend-on-your-last-robot-before-it-actually-moved-in-gazebo-1\" name=\"p-115930-how-much-time-did-you-spend-on-your-last-robot-before-it-actually-moved-in-gazebo-1\"></a>How much time did you spend on your last robot before it actually moved in Gazebo?</h1>\n<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Fast DDS v3.2.5",
+      "link": "https://github.com/eProsima/Fast-DDS/releases/tag/v3.2.5",
+      "summary": "Fast DDS v3.2.5 This release includes the following CVE fixes, bugfixes, improvements and CI improvements. Security fixes (CVEs) CVE-2025-63829 CVE-2025-65865 CVE-2025-67108 CVE-2026-22591 CVE-2026-45092 CVE-2026-45093 CVE-2026-45094 CVE-2026-45095 CVE-2026-45096 CVE-2026-45097 CVE-2026-45098 CVE-2026-49861 CVE-2026-49862 CVE-2026-49863 CVE-2026-53588 CVE-2026-53589 CVE-2026-53590 CVE-2026-55063 These CVEs were addressed in squashed commits applied directly from privately reviewed branches (no p",
+      "source": "GitHub (Fast DDS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Building AI infrastructure with the Effingham County community",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How news organizations are using AI to advance their vital missions",
+      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Advancing the next era of national science",
+      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+      "link": "https://cruciblebench.ai/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49008538\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.118.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0",
+      "summary": "0.118.0 (2026-07-22) Full Changelog: v0.117.1...v0.118.0 Features api: add support for Managed Agents model effort, initial session events, and threads delta streaming ( 712bc6f )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
+      "summary": "What's Changed launch: keep Claude Code channels available by @hoyyeva in #17210 cmd: remove dead agent prompt wrappers by @ParthSareen in #17227 agent: reorder working directory instruction by @ParthSareen in #17228 agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in #17212 agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in #17217 anthropic: close text block before starting thinking block by @hoyyeva in #17225 agent: skills system by @ParthSa",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Report shares the state of physical AI and robotics",
+      "link": "https://www.therobotreport.com/physical-ai-and-robotics/",
+      "summary": "<p>A report looks at how physical AI is increasingly enabling autonomous systems to perceive their environments, make decisions, and act in the real world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/physical-ai-and-robotics/\">Report shares the state of physical AI and robotics</a> appeared first on <a href=\"https://www.therobotreport.c",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Medtronic to launch AI compute platform for the operating room",
+      "link": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
+      "summary": "<p>Touch Surgery bridges pre-operative planning and training, intra-operative tele-mentoring and tele-proctoring, and post-operative insights.</p>\n<p>The post <a href=\"https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/\">Medtronic to launch AI compute platform for the operating room</a> appeared first on <a href=\"htt",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "U.K.-based Humanoid secures $152M in Series A funding",
+      "link": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+      "summary": "<p>Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/\">U.K.-based Humanoid secures $152M in Series A funding</a> appeared first on <a href=\"https://www.thero",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+      "link": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+      "summary": "Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

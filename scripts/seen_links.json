@@ -1,24 +1,4 @@
 {
-  "2026-07-03": [
-    "https://discourse.openrobotics.org/t/plotjuggler-4-beta-is-here-unleashing-mulit-modal-data/56047",
-    "https://discourse.openrobotics.org/t/kc-vision-autonomous-ground-robot-with-slam-nav2-gps-boustrophedon-coverage-planner-ros-2-jazzy-gazebo-harmonic/56024",
-    "https://discourse.openrobotics.org/t/mastering-nero-how-to-configure-can-master-follower-linkage-for-dual-7-dof-robotic-arms/56028",
-    "https://discourse.openrobotics.org/t/audio-features-in-gazebo/56023",
-    "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-07-02/56051",
-    "https://github.com/ros2/rclcpp/releases/tag/33.0.2",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.6.2.0",
-    "https://github.com/ros2/rclpy/releases/tag/11.0.2",
-    "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-    "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-    "https://manufact.com",
-    "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-    "https://github.com/rafal-qa/slopo",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.116.0",
-    "https://www.therobotreport.com/automate-2026-show-recap/",
-    "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
-    "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
-    "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
-  ],
   "2026-07-06": [
     "https://discourse.openrobotics.org/t/ros-2-node-for-playstation-5-hd-camera/56162",
     "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
@@ -236,5 +216,24 @@
     "https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/",
     "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
     "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/"
+  ],
+  "2026-07-23": [
+    "https://discourse.openrobotics.org/t/buildfarmer-dashboard-ros-gazebo-test-health-in-one-place/56858",
+    "https://discourse.openrobotics.org/t/announcement-the-buildfarm-dashboard-is-live-feedback-wanted/56849",
+    "https://discourse.openrobotics.org/t/multisensor-fusion-dual-ekf-ann-pseudo-sensor-fls-for-indoor-outdoor-handoff-turtlebot3-humble/56855",
+    "https://discourse.openrobotics.org/t/guide-to-imitation-learning-with-cyclo-intelligence/56851",
+    "https://discourse.openrobotics.org/t/a-fully-automated-cad-to-urdf-pipeline-with-built-in-gazebo-verification/56863",
+    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.2.5",
+    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "https://openai.com/index/how-news-organizations-are-using-ai",
+    "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+    "https://cruciblebench.ai/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.2",
+    "https://www.therobotreport.com/physical-ai-and-robotics/",
+    "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
+    "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+    "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/"
   ]
 }
