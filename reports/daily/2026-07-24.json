@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T06:54:15+09:00",
+  "items": [
+    {
+      "title": "Build Your Own Human-Sized Humanoid with the Humanoid Robotics Masterclass",
+      "link": "https://discourse.openrobotics.org/t/build-your-own-human-sized-humanoid-with-the-humanoid-robotics-masterclass/56895",
+      "summary": "<p>Hi ROS community,</p>\n<p>Humanoid robotics is one of the fastest-growing fields in robotics today. Yet despite the rapid progress, there is still no comprehensive learning path that teaches the complete modern humanoid robotics stack.</p>\n<p>To bridge this gap, we’ve created the <strong><a href=\"https://www.theconstruct.ai/humanoid-robotics-mast",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Nav2] Open Navigation's Robotics Workload Benchmark Release",
+      "link": "https://discourse.openrobotics.org/t/nav2-open-navigations-robotics-workload-benchmark-release/56909",
+      "summary": "<p>Howdy everyone - Your Friendly Neighborhood Navigator here with one more key announcement this month!</p>\n<p>We just open-sourced a robotics workload benchmark that tests compute platforms the way they’re actually used: running a full autonomous stack doing forklift pick-and-place, not simple isolated synthetic microbenchmarks. It processes 9 se",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Lift lobby and lift selection enhancement",
+      "link": "https://discourse.openrobotics.org/t/lift-lobby-and-lift-selection-enhancement/56880",
+      "summary": "<p>I would like to propose a possible enhancement to Open-RMF’s lift selection mechanism.</p>\n<p>From my understanding, when a robot plans a route that involves changing floors, the planner also decides which lift the robot will use. If there are multiple lifts serving the same lift lobby, the planner typically selects the one with the lowest estim",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotics Solution Architect / Field Application Engineer at TriOrb",
+      "link": "https://discourse.openrobotics.org/t/robotics-solution-architect-field-application-engineer-at-triorb/56881",
+      "summary": "<p><strong>We are hiring!!!</strong> Feel free to reach out if you’re interested in this role. (and Japan <img alt=\":japan:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/japan.png?v=15\" title=\":japan:\" width=\"20\" />)</p>\n<p><a href=\"https://triorb.co.jp/en/\" rel=\"noopener nofollow ugc\"><strong>TriOrb</strong></a> is a robotic",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Convert in the terminal",
+      "link": "https://discourse.openrobotics.org/t/convert-in-the-terminal/56908",
+      "summary": "<p><strong>Would you use a free CLI tool to convert CAD assemblies to URDF?</strong></p>\n<p>No CAD plugins.</p>\n<p>Just one command from your terminal to work in Ros directly.</p>\n<p>I’m thinking about open-sourcing the core of a tool I’ve been building over the past few months, and I’d love to validate the idea before releasing it.</p>\n<p>Would yo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Fast DDS v2.6.12",
+      "link": "https://github.com/eProsima/Fast-DDS/releases/tag/v2.6.12",
+      "summary": "Fast DDS v2.6.12 This release includes the following CVE fixes, bugfixes, improvements and CI improvements. Security fixes (CVEs) CVE-2026-22590 CVE-2026-22591 CVE-2026-45094 CVE-2026-45095 CVE-2026-45096 CVE-2025-63829 CVE-2025-65865 CVE-2026-45093 CVE-2026-45092 CVE-2025-67108 CVE-2026-49861 CVE-2026-53589 CVE-2026-45098 CVE-2026-49862 CVE-2026-55063 CVE-2026-49863 CVE-2026-53588 CVE-2026-53590 These CVEs were addressed in several squashed commits applied directly from privately reviewed branc",
+      "source": "GitHub (Fast DDS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Thomas Ptacek",
+      "link": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"><p>I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.</p></blockquote>\n<p class=",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "summary": "<p>This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break <em>in</em> to Hugging Face, all so it could cheat on the test by stealing the answe",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
+      "link": "https://github.com/izeigerman/claude-thermos",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49024882\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.119.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.119.0",
+      "summary": "0.119.0 (2026-07-23) Full Changelog: v0.118.0...v0.119.0 Features api: add new stop reason 'model_context_window_exceeded' ( d983cde ) Bug Fixes tools: handle binary files in agent toolset read/edit ( #283 ) ( 417b76b )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.3",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+      "summary": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. Fixed GLM tool calls being silently dropped at the end of generati",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+      "link": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+      "summary": "<p>Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/\">Holiday Robotics raises $105M for its FRIDAY wheeled humanoid</a> appeared first on <a href=\"https://www.therobot",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+      "link": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+      "summary": "<p>Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/\">Uber co-founder raises $1.7B for new robotics startup ATOMS</a> appeared first on <a href=\"https://www.therobo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+      "link": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+      "summary": "<p>AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/\">AMD unveils Kria module for real-time control, unified memory for robots</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
