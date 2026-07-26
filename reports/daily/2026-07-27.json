@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T06:45:25+09:00",
+  "items": [
+    {
+      "title": "[Release] Gazebo ROS Text-to-Speech (TTS) Plugin – From Gazebo Classic to Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/release-gazebo-ros-text-to-speech-tts-plugin-from-gazebo-classic-to-gazebo-harmonic/56982",
+      "summary": "<p>Hello ROS &amp; Gazebo Community,</p>\n<p>We’re excited to announce the release of gz_ros_tts, an open-source ROS 2 Text-to-Speech (TTS) Plugin for the latest Gazebo Harmonic.</p>\n<p>This release is the  Gazebo Classic and Gazebo harmonic ROS TTS Plugin, bringing the same idea to the modern Gazebo ecosystem with ROS 2.</p>\n<p># Project Evolution<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "summary": "<p><strong><a href=\"https://vectoral.com/blog/token-relay-market\">An Inside Look at the Relay Market Powering Token Resellers and Fraud</a></strong></p>\nFascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources.</p>\n<p>This looks to be mostly a thin",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Boris Cherny",
+      "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquot",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Ant",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "summary": "<p><strong><a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\">The first known runaway AI agent - or a very bad marketing stunt?</a></strong></p>\nMartin Alderson's commentary on the <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidental cyberattack against Hugging Face</a> includes a couple of detai",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.120.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
+      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c ) api: expand client-side fallback credit token types and add server-side fallbacks default option ( bf4e31c )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.4",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
+      "summary": "What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog : v0.32.3...v0.32.4",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
+      "link": "https://spectrum.ieee.org/ai-in-robotics",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&amp;width=1245&amp;height=700&amp;coordinates=0%2C469%2C0%2C470\" /><br /><br /><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Corn",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: An Italian Humanoid Comes to Life",
+      "link": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectru",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Magmotor makes motors for a changing world for 150+ years",
+      "link": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
+      "summary": "<p>Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/\">Magmotor makes motors for a changing world for 150+ years</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Photos: First look at J&J’s Ottava surgical robot",
+      "link": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+      "summary": "<p>The robot-in-table design is meant to save space in the operating room, with J&#038;J saying its novel architecture takes up 30-50% less space than boom-and-cart systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/\">Photos: First look at J&#038;J&#8217;s Ottava surgical robot</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
+      "link": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+      "summary": "<p>By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/\">Generalist&#8217;s GEN-1 foundation model now supports a range of robot end eff",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
