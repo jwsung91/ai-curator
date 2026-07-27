@@ -1,24 +1,4 @@
 {
-  "2026-07-08": [
-    "https://discourse.openrobotics.org/t/announcement-welcoming-vicky-vm-brasseur-as-our-new-chief-program-officer/56259",
-    "https://discourse.openrobotics.org/t/ros-documentation-revision-notice/56246",
-    "https://discourse.openrobotics.org/t/update-on-bagel-bag-exploration-whats-new/56235",
-    "https://discourse.openrobotics.org/t/senior-robotics-architect-ros-2-remote-us-15-travel/56234",
-    "https://discourse.openrobotics.org/t/20-parallel-courses-available-for-2026-ros-summer-school-hangzhou-china/56233",
-    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.5-0",
-    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.5-0",
-    "https://openai.com/index/australian-payments-plus",
-    "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
-    "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-    "https://github.com/rowboatlabs/rowboat",
-    "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
-    "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
-    "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
-    "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
-    "https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/",
-    "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-    "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/"
-  ],
   "2026-07-09": [
     "https://openai.com/index/government-national-security-partnerships",
     "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -237,5 +217,15 @@
     "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
     "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
     "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/"
+  ],
+  "2026-07-28": [
+    "https://discourse.openrobotics.org/t/stop-recording-huge-rosbags-can-we-capture-only-the-exact-perception-frame-that-caused-a-ros-latency-spike/56991",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-21-2026/56999",
+    "https://discourse.openrobotics.org/t/no-cwg-meeting-july-2026/56996",
+    "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+    "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
+    "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/"
   ]
 }

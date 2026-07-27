@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T06:54:54+09:00",
+  "items": [
+    {
+      "title": "Stop recording huge rosbags: Can we capture only the exact perception frame that caused a ROS latency spike?",
+      "link": "https://discourse.openrobotics.org/t/stop-recording-huge-rosbags-can-we-capture-only-the-exact-perception-frame-that-caused-a-ros-latency-spike/56991",
+      "summary": "<p>Hi everyone, Recently I have been thinking about a very practical debugging problem in ROS / ROS2 perception pipelines, especially for AMRs and mobile robots. When a robot behaves strangely in the field, the usual workflow is often:</p>\n<blockquote>\n<ol>\n<li><code>rosbag record</code> everything.</li>\n<li>Bring the massive data back.</li>\n<li>Re",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for July 21, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-21-2026/56999",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, July 21, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>.</p>",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "No CWG Meeting July 2026",
+      "link": "https://discourse.openrobotics.org/t/no-cwg-meeting-july-2026/56996",
+      "summary": "<p>Hi all,</p>\n<p>Just a heads up: there will be no July meeting tomorrow. I hope everyone is enjoying summer and getting out on the water!</p>\n<p>If you have ~30 seconds (literally, it’s one question) <a href=\"https://forms.gle/qcMPqLZHNE5WnV1n9\" rel=\"noopener nofollow ugc\">please fill out this survey with any topic ideas or suggestions you might ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.5",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+      "summary": "What's Changed Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. Full Changelog : v0.32.4...v0.32.5",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NORD expands compact NORDAC VFD family to 200 hp",
+      "link": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
+      "summary": "<p>NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/\">NORD expands compact NORDAC VFD family to 200 hp</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Rep",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Kraken Technology raises Series B funding for autonomous vessels",
+      "link": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+      "summary": "<p>Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/\">Kraken Technology raises Series B funding for autonomous vessels</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
