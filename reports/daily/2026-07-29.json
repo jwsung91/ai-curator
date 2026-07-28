@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T06:53:59+09:00",
+  "items": [
+    {
+      "title": "This Week at Open Robotics Headquarters (2026-07-20)",
+      "link": "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-20/57020",
+      "summary": "<p>Welcome to <em>This Week at Open Robotics Headquarters!</em> This is a new and (hopefully) regular update on what’s happening behind the scenes of Open Robotics. These updates are to give folks some insight into what we do, as well as basic information about what we have in the works. Because I hope to keep them short, I’ll only list some of the",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Opensource Alternative to ROS 2",
+      "link": "https://discourse.openrobotics.org/t/opensource-alternative-to-ros-2/57008",
+      "summary": "<p>I’d like to ask for any feedback or guidance on the framework that we just released.</p>\n<aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <img alt=\"\" class=\"site-icon\" height=\"256\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/7/f/7fc3bd49a6c088f50c3531f63b725a8ae1d8037d.webp\" width=\"256\" />\n\n      <",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Learning Zenoh: A New Communication Layer for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/learning-zenoh-a-new-communication-layer-for-ros-2/57014",
+      "summary": "<p>Hi everyone,</p>\n<p>Recently, I’ve been learning more about <strong>Zenoh</strong> and its role in the ROS 2 ecosystem. Since most ROS 2 applications rely on DDS for communication, I was curious about how Zenoh approaches the same problem and where it can provide advantages.</p>\n<p>From what I’ve learned so far, Zenoh offers a lightweight commun",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Aerial Robotics Meeting - 26th August 2026",
+      "link": "https://discourse.openrobotics.org/t/aerial-robotics-meeting-26th-august-2026/57017",
+      "summary": "<p>Hey fellow aerial roboticists!</p>\n<p><img alt=\":sun:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/sun.png?v=15\" title=\":sun:\" width=\"20\" />  We’re on summer holiday for the month of July 2026 with a really exciting session of the ROS Aerial Robotics community working group meeting lined up for August 2026!</p>\n<p><strong",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Agency Tool Company & ATC Deploy Launch",
+      "link": "https://discourse.openrobotics.org/t/agency-tool-company-atc-deploy-launch/57019",
+      "summary": "<p>Hey ROS community!</p>\n<p>I’m excited to announce today a new company building tools to help everyone fielding robots: Agency Tool Company</p>\n<p>Our first product, ATC Deploy, will ship your ROS systems onto your robots faster than ever before: <a href=\"https://youtu.be/jx0rLRVa06s?si=iOoZ4FOQL4Fz3v8U\" rel=\"noopener nofollow ugc\">https://youtu.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 33.0.4",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/33.0.4",
+      "summary": "33.0.4",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 9.5.2",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/9.5.2",
+      "summary": "9.5.2",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Scientific computing in the age of agentic AI",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "summary": "<p><strong><a href=\"https://huggingface.co/blog/agent-intrusion-technical-timeline\">Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident</a></strong></p>\nHugging Face just released this extremely detailed technical description of <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI's recent",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI just open-sourced Codex Security",
+      "link": "https://github.com/openai/codex-security",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49089755\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49088058\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "link": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49087091\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.120.2",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
+      "summary": "0.120.2 (2026-07-28) Full Changelog: v0.120.1...v0.120.2 Bug Fixes mcp: support mcp sdk v2 alongside v1 ( #300 ) ( 177f88c )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.94.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.94.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.94.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Robot Finger Feels in Color",
+      "link": "https://spectrum.ieee.org/robot-finger",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&amp;width=600&amp;height=600&amp;coordinates=250%2C0%2C250%2C0\" /><br /><br /><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the rai",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Registration is open for RoboBusiness 2026",
+      "link": "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
+      "summary": "<p>This year, join us in October in Santa Clara to celebrate 20 years of robotics excellence at RoboBusiness 2026.</p>\n<p>The post <a href=\"https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/\">Registration is open for RoboBusiness 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agency Tool Company wants to make OTA software updates easier",
+      "link": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
+      "summary": "<p>Two Scythe co-founders are using their experience building commercial robots to create tools for robotics developers at Agency Tool Co.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/\">Agency Tool Company wants to make OTA software updates easier</a> appeared first on <a href",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How integrated actuators improve humanoid robot joint performance and systemintegration",
+      "link": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
+      "summary": "<p>Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/\">How integrated actuators improve humanoi",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+      "link": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+      "summary": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it.  In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Priors, highlighted how the NVIDIA Jetson platform for edge [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

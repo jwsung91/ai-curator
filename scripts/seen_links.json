@@ -1,15 +1,4 @@
 {
-  "2026-07-09": [
-    "https://openai.com/index/government-national-security-partnerships",
-    "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "https://openai.com/index/k-12-educators-practical-skills",
-    "https://danluu.com/ai-coding/#llm-variance",
-    "https://github.com/animesh-94/Onboard-CLI",
-    "https://github.com/ollama/ollama/releases/tag/v0.31.2",
-    "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
-    "https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/",
-    "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/"
-  ],
   "2026-07-10": [
     "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
     "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
@@ -227,5 +216,26 @@
     "https://github.com/ollama/ollama/releases/tag/v0.32.5",
     "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
     "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/"
+  ],
+  "2026-07-29": [
+    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-20/57020",
+    "https://discourse.openrobotics.org/t/opensource-alternative-to-ros-2/57008",
+    "https://discourse.openrobotics.org/t/learning-zenoh-a-new-communication-layer-for-ros-2/57014",
+    "https://discourse.openrobotics.org/t/aerial-robotics-meeting-26th-august-2026/57017",
+    "https://discourse.openrobotics.org/t/agency-tool-company-atc-deploy-launch/57019",
+    "https://github.com/ros2/rclcpp/releases/tag/33.0.4",
+    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.5.2",
+    "https://openai.com/index/scientific-computing-agentic-ai",
+    "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+    "https://github.com/openai/codex-security",
+    "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.94.0",
+    "https://spectrum.ieee.org/robot-finger",
+    "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
+    "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
+    "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
+    "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/"
   ]
 }
