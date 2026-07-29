@@ -1,18 +1,4 @@
 {
-  "2026-07-10": [
-    "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-    "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-    "https://openai.com/index/bio-bug-bounty",
-    "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-    "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-    "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
-    "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-    "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.91.1",
-    "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
-    "https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/",
-    "https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/"
-  ],
   "2026-07-13": [
     "https://discourse.openrobotics.org/t/rep-2000-update/56502",
     "https://openai.com/index/deutsche-telekom",
@@ -237,5 +223,25 @@
     "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
     "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
     "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/"
+  ],
+  "2026-07-30": [
+    "https://discourse.openrobotics.org/t/chinese-legged-humanoids-banned-in-usa-what-are-the-alternatives/57040",
+    "https://discourse.openrobotics.org/t/package-xml-ament-rosdep-and-bloom-thoughts/57033",
+    "https://discourse.openrobotics.org/t/registration-for-roscon-uk-2026-is-open/57039",
+    "https://discourse.openrobotics.org/t/how-are-you-handling-firmware-updates-on-fleet-robots-without-bricking-one/57050",
+    "https://discourse.openrobotics.org/t/ros-deliberation-community-group-meeting-august-17-2026/57048",
+    "https://openai.com/index/chatgpt-for-academic-researchers",
+    "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+    "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+    "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+    "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+    "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+    "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+    "https://status.claude.com/incidents/q2kg8n613kr3",
+    "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+    "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+    "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
+    "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/"
   ]
 }

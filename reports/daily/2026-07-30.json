@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T06:44:36+09:00",
+  "items": [
+    {
+      "title": "Chinese legged/humanoids banned in USA, what are the alternatives?",
+      "link": "https://discourse.openrobotics.org/t/chinese-legged-humanoids-banned-in-usa-what-are-the-alternatives/57040",
+      "summary": "<p>Just saw that newly imported <a href=\"https://www.reuters.com/world/trump-administration-ban-new-chinese-robots-inverters-protecting-us-ai-buildout-2026-07-28/\" rel=\"noopener nofollow ugc\">Chinese legged and humanoid robots are now banned in USA</a>, what other alternatives are there? I know Unitree had ROS interface in both Go2 dog and G1 human",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Package.xml, ament, rosdep, and bloom thoughts",
+      "link": "https://discourse.openrobotics.org/t/package-xml-ament-rosdep-and-bloom-thoughts/57033",
+      "summary": "<p>Hello,</p>\n<p>I’m a mechanical engineer/controls guy/self taught C++ programmer (please forgive (and correct) me if I use the wrong terminology). I’ve been using ROS professionally for a few years. I started with humble. It’s got it’s warts but for the most part I love it!</p>\n<p>The most frequent complaint I hear from my “real” software develop",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Registration for ROSCon UK 2026 is open",
+      "link": "https://discourse.openrobotics.org/t/registration-for-roscon-uk-2026-is-open/57039",
+      "summary": "<p><img alt=\":admission_tickets:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/admission_tickets.png?v=15\" title=\":admission_tickets:\" width=\"20\" /> <a href=\"https://edin.ac/4eRYBIw\" rel=\"noopener nofollow ugc\">Register here</a> - registration is handled by the University of Edinburgh’s ePay service.</p>\n<p>Partial <a href=\"h",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How are you handling firmware updates on fleet robots without bricking one?",
+      "link": "https://discourse.openrobotics.org/t/how-are-you-handling-firmware-updates-on-fleet-robots-without-bricking-one/57050",
+      "summary": "<p>Been lurking here for a while, finally posting because this has been eating my week.</p>\n<p>We run a small fleet of AMRs (nothing fancy, mostly ROS 2 Humble on Jetson Orins with a couple of STM32s handling motor control and safety). The high level stack is fine, we push updates over the air and roll back if something misbehaves. The pain is the ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Deliberation Community Group Meeting - August 17, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-deliberation-community-group-meeting-august-17-2026/57048",
+      "summary": "<p>The next <a href=\"https://github.com/ros-wg-delib\" rel=\"noopener nofollow ugc\">ROS Deliberation Community Group</a> meeting will be held on <span class=\"discourse-local-date\">Mon, Aug 17, 2026 3:00 PM UTC</span>.</p>\n<p><strong>IMPORTANT:</strong> This is an “off-cycle” meeting. We are combining the August and September meetings into this one, s",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AI Worming through Word",
+      "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "summary": "<p><strong><a href=\"https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\">AI Worming through Word</a></strong></p>\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>\n<blockquote>\n<p>An attacker places hidden instruc",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Matthew Green",
+      "link": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "summary": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">Discovering cryptographic weaknesses with Claude</a></strong></p>\nThe best part of this article (here's <a href=\"https://github.com/anthropics/cryptography-research-demo\">the repo</a>) about how Anthropic researchers used Claude Mythos to find mathematical ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Akshat Bubna",
+      "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+      "summary": "<blockquote cite=\"https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/\"><p>We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolat",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude: Elevated errors across all models",
+      "link": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49102150\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "link": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49096188\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Some thoughts about Anthropic's new cryptanalysis results",
+      "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49099804\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
+      "link": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
+      "summary": "<p>The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/\">Experts react to FCC limits on U.S. imports of new humanoid and mobile robots</a> appeared first on <a hr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "ENvue Medical develops robotic feeding tube placement system",
+      "link": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
+      "summary": "<p>ENvue Drive is designed to assist, not replace, the clinician, who retains full control of the procedure at all times.  </p>\n<p>The post <a href=\"https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/\">ENvue Medical develops robotic feeding tube placement system</a> appeared first on <a href=\"https://www.the",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
