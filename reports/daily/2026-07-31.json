@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-31",
+  "publishedAt": "2026-07-31T06:56:28+09:00",
+  "items": [
+    {
+      "title": "Proposal: `rcl_executors` - a unified, canonical reference executor package for all client libraries",
+      "link": "https://discourse.openrobotics.org/t/proposal-rcl-executors-a-unified-canonical-reference-executor-package-for-all-client-libraries/57057",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-116251-motivation-1\" name=\"p-116251-motivation-1\"></a>Motivation</h1>\n<p>Since the Lyrical release, the client library working group has been considering various approaches to reduce the amount of bloat in <code>rclcpp</code> and <code>rclpy</code>, remove or re-implement half-baked f",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Jenkins version upgrade of build.ros2.org [Scheduled Buildfarm Downtime]",
+      "link": "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-build-ros2-org-scheduled-buildfarm-downtime/57073",
+      "summary": "<p>Hello ROS Community,</p>\n<p>The OSRF Infrastructure Project is planning to update the Jenkins version of <a href=\"https://build.ros2.org/\" rel=\"noopener nofollow ugc\">https://build.ros2.org</a> as part of our ongoing efforts to maintain and improve the ROS buildfarm infrastructure. To facilitate this migration, the following services will experi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Looking for Robotic Perception and Autonomy Engineer (Mid to Senior) - on-site - Lynchburg, VA",
+      "link": "https://discourse.openrobotics.org/t/looking-for-robotic-perception-and-autonomy-engineer-mid-to-senior-on-site-lynchburg-va/57074",
+      "summary": "<p>Framatome, Inc. Installed Base NDE services team in Lynchburg, VA, USA is hiring a Robotics Perception/Autonomy Software Engineer. This role is crucial for supporting the development of automated processes for non-destructive examination (NDE) that supports commercial nuclear power plants in USA, Canada, and Europe.</p>\n<p>We are looking for sel",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How do you understand the architecture of a large ROS 2 workspace?",
+      "link": "https://discourse.openrobotics.org/t/how-do-you-understand-the-architecture-of-a-large-ros-2-workspace/57075",
+      "summary": "<p>Hi everyone,</p>\n<p>I’m curious about how other ROS 2 developers approach understanding a large or unfamiliar workspace.</p>\n<p>When joining an existing project or reviewing a large codebase, I often find myself asking questions like:</p>\n<ul>\n<li>Which packages depend on each other?</li>\n<li>Which nodes communicate together?</li>\n<li>What topic",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Exploring Runtime Trust and Authorization Patterns for ROS2-Based Autonomous Systems",
+      "link": "https://discourse.openrobotics.org/t/exploring-runtime-trust-and-authorization-patterns-for-ros2-based-autonomous-systems/57077",
+      "summary": "<p>Hello ROS2 community,</p>\n<p>I’m exploring a challenge that I believe will become increasingly important as ROS2-based autonomous systems move from development environments into large-scale real-world deployments.</p>\n<p>Today, ROS2 enables powerful robotic applications through communication, orchestration, and ecosystem tooling. However, as aut",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 9.4.9",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/9.4.9",
+      "summary": "9.4.9",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49111237\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "2x, not 10x: coding with LLMs in 2026",
+      "link": "https://obryant.dev/p/2x-not-10x/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49047839\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "link": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49113599\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "5 Physical AI Infrastructure Platforms Shaping Robotics in 2026",
+      "link": "https://www.therobotreport.com/5-physical-ai-infrastructure-platforms-shaping-robotics-in-2026/",
+      "summary": "<p>From accelerated computing and simulation to data operations, open-source tooling, validation engineering, and continuous learning, these five platforms represent distinct control points in the emerging physical AI stack. For most of the modern AI boom, infrastructure had a single center of gravity: compute. Models grew larger, training runs con",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "DoorDash gains FAA certification to operate its own drone delivery program",
+      "link": "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
+      "summary": "<p>The FAA approval came nearly a year after DoorDash unveiled its delivery robot and reflects its increasing interest in building automation in-house.</p>\n<p>The post <a href=\"https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/\">DoorDash gains FAA certification to operate its own drone deliver",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Teradyne Robotics revenue rises 33% year over year in Q2",
+      "link": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/",
+      "summary": "<p>Teradyne Robotics said growth in the U.S. and in AI were big drivers for its revenue increase in the second quarter of 2026.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/\">Teradyne Robotics revenue rises 33% year over year in Q2</a> appeared first on <a href=\"https://www.therobot",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
