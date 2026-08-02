@@ -1,15 +1,4 @@
 {
-  "2026-07-14": [
-    "https://discourse.openrobotics.org/t/roboshield-a-low-latency-out-of-band-rtps-watchdog-and-firewall-in-rust/56538",
-    "https://discourse.openrobotics.org/t/openamrobot-v0-0-1-open-source-ros-2-mobile-robot-platform/56515",
-    "https://discourse.openrobotics.org/t/easy-mapping-navigation-with-cyclo-intelligence-ui/56532",
-    "https://discourse.openrobotics.org/t/openamrobot-v0-0-1-an-open-source-ros-2-jazzy-mobile-robotics-platform/56544",
-    "https://openai.com/academy/getting-started",
-    "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.0",
-    "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
-    "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/"
-  ],
   "2026-07-15": [
     "https://discourse.openrobotics.org/t/linkforge-exploring-an-intermediate-representation-ir-for-robot-descriptions/56551",
     "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-07-13/56550",
@@ -243,5 +232,22 @@
     "https://www.therobotreport.com/5-physical-ai-infrastructure-platforms-shaping-robotics-in-2026/",
     "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
     "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/"
+  ],
+  "2026-08-03": [
+    "https://discourse.openrobotics.org/t/ros-2-realtime-support-package/57113",
+    "https://discourse.openrobotics.org/t/uv-on-ros-2-a-field-report-on-workspace-level-virtual-environments-five-failure-modes-and-minimal-colcon-ament-proposals/57111",
+    "https://discourse.openrobotics.org/t/qerra-v2-classical-two-layer-moral-physical-safety-middleware-for-ros-2-behavior-trees/57110",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.5.0",
+    "https://openai.com/index/ten-advances-in-mathematics",
+    "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "https://openai.com/index/building-abundant-intelligence",
+    "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+    "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+    "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+    "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+    "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+    "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
+    "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+    "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/"
   ]
 }

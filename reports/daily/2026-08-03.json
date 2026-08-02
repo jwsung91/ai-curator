@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-03",
+  "publishedAt": "2026-08-03T06:42:41+09:00",
+  "items": [
+    {
+      "title": "ROS 2 Realtime Support Package",
+      "link": "https://discourse.openrobotics.org/t/ros-2-realtime-support-package/57113",
+      "summary": "<p>We have been working on adding real-time functionality to <code>rcl</code> and <code>rclcpp</code> since 2022.<br />\nIn response to this proposal, we have created a new package that provides real-time functionality without changing the existing packages.</p>\n<p><a href=\"https://github.com/esol-community/ros2_realtime_support\" rel=\"noopener nofol",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Uv on ROS 2: a field report on workspace-level virtual environments — five failure modes and minimal colcon/ament proposals",
+      "link": "https://discourse.openrobotics.org/t/uv-on-ros-2-a-field-report-on-workspace-level-virtual-environments-five-failure-modes-and-minimal-colcon-ament-proposals/57111",
+      "summary": "<p><strong>TL;DR</strong>: A workspace-level uv-managed venv works on stock apt-installed ROS 2 — including a PyTorch+CUDA node — but we hit five reproducible failure modes on the way (verified on Jazzy; none of the mechanisms are Jazzy-specific). Key measurement: the known shebang workaround (<code>[build_scripts] executable = /usr/bin/env python3",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "QERRA-v2 Classical: Two-Layer Moral & Physical Safety Middleware for ROS 2 & Behavior Trees",
+      "link": "https://discourse.openrobotics.org/t/qerra-v2-classical-two-layer-moral-physical-safety-middleware-for-ros-2-behavior-trees/57110",
+      "summary": "<p><em><strong>QERRA-v2 Classical</strong></em> is an open-source, fully explainable safety middleware layer designed to evaluate autonomous robot actions before execution.</p>\n<p>The architecture uses a two-layer design:</p>\n<ul>\n<li><strong>QERRA-HSR (Physical Safety Layer):</strong> A zero-ML, pure Python module that evaluates physical hazard pr",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim10_10.5.0: Prepare 10.5.0 release (#3857)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.5.0",
+      "summary": "Preparation for 10.5.0 release. Comparison to 10.4.0: gz-sim10_10.4.0...gz-sim10 Signed-off-by: Arjo Chakravarty arjoc@intrinsic.ai Signed-off-by: Arjo Chakravarty arjo129@gmail.com Co-authored-by: Shameek Ganguly shameek@intrinsic.ai",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Advancing responsible AI across Europe",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Building abundant intelligence",
+      "link": "https://openai.com/index/building-abundant-intelligence",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Greg Brockman",
+      "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/gdb/status/2083435180392673714\"><p>at openai, many people hook their chatgpt up to slack.</p>\n<p>people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.</p>\n<p>reinforces how much people car",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-apps 0.2a0",
+      "link": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.2a0\">datasette-apps 0.2a0</a></p>\n        <blockquote>\n<p>Changes that improve Datasette Apps when created and edited using <a href=\"https://agent.datasette.io/\">Datasette Agent</a>:</p>\n<ul>\n<li>New <code>app_debug()</code> tool allowing agent to open ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "summary": "<p><strong><a href=\"https://openai.com/index/ten-advances-in-mathematics/\">Ten advances in mathematics and theoretical computer science</a></strong></p>\nA few days ago it was Anthropic <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">discovering cryptographic weaknesses with Claude</a> using Mythos P",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "link": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "summary": "<p><strong><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\">deepseek-ai/DeepSeek-V4-Flash-0731</a></strong></p>\nThe latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch <em>well</em> above its weight.</p>\n<p>Artifi",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+      "summary": "<p>Tuesday was <a href=\"https://x.com/ade_oshineye/status/2082129440943866149\">Stateless MCP day</a> - the rollout of MCP 2.0, or <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">the 2026-07-28 Model Context Protocol specification</a> to use the more formal but less memorable name. This is the most significant change to the MCP spec",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+      "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
+      "summary": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google DeepMind says Gemini Robotics 2 enables full body control</a> appeared first on <a href=\"https://www",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Top 10 robotics stories of July 2026",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+      "summary": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing",
+      "link": "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/",
+      "summary": "<p>OSARO’s Derek Pridmore says warehouse robots are advancing, but real-world safety and reliability still depend on specialized, layered AI systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/\">FCC robot ruling shines a spotlight on U.S. policy; how n",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
