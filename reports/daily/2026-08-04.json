@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-04",
+  "publishedAt": "2026-08-04T06:55:59+09:00",
+  "items": [
+    {
+      "title": "Localization of The Gazebo Documentation",
+      "link": "https://discourse.openrobotics.org/t/localization-of-the-gazebo-documentation/57141",
+      "summary": "<p>Hello Gazebo Community,</p>\n<p>I am the author of the <a href=\"https://github.com/localizethedocs\" rel=\"noopener nofollow ugc\">Localize The Docs</a> organization. And I’m glad to announce that the <img alt=\":tada:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/tada.png?v=15\" title=\":tada:\" width=\"20\" /> <strong>gazebosim-do",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotics Technical Support Engineer - San Francisco, CA",
+      "link": "https://discourse.openrobotics.org/t/robotics-technical-support-engineer-san-francisco-ca/57119",
+      "summary": "<p><strong>Join an Industry Leader in Robotics</strong></p>\n<p>RealMan Intelligent Technology (Beijing) Co., Ltd. develops robotic technologies that are widely recognized as setting the benchmark in the industry. Our deployable robotic arms and actuator modules account for over 80% of the domestic market, reflecting both our technological leadershi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Interop SIG, 06 August 2026: Google Summer of Code for Open-RMF",
+      "link": "https://discourse.openrobotics.org/t/interop-sig-06-august-2026-google-summer-of-code-for-open-rmf/57124",
+      "summary": "<p><a href=\"https://meet.google.com/nyz-isrs-kzz\" rel=\"noopener nofollow ugc\">Meeting Link</a></p>\n<p><a href=\"https://calendar.google.com/calendar/u/0/embed?src=agf3kajirket8khktupm9go748@group.calendar.google.com\" rel=\"noopener nofollow ugc\">Calendar Link</a></p>\n<p><span class=\"discourse-local-date\">Thu, Aug 6, 2026 3:00 PM UTC</span></p>\n<p>Thi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting David Crawshaw's prompt",
+      "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "summary": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LLMs reward expertise",
+      "link": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49161518\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "link": "https://github.com/lyogavin/airllm",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49154228\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "link": "https://armature.tech/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49157807\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.95.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.95.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.95.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
+      "link": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;width=1200&amp;height=800&amp;coordinates=62%2C0%2C63%2C0\" /><br /><br /><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.o",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
+      "link": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&amp;width=1200&amp;height=800&amp;coordinates=125%2C0%2C125%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Sp",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+      "link": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+      "summary": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 600-degree rotation for industrial robots</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+      "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+      "summary": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/\">HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators</a> appe",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+      "link": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+      "summary": "<p>Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/\">Reimagine Robotics emerges from stealth with robots that &#8216;learn on the jo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

@@ -1,24 +1,4 @@
 {
-  "2026-07-15": [
-    "https://discourse.openrobotics.org/t/linkforge-exploring-an-intermediate-representation-ir-for-robot-descriptions/56551",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-07-13/56550",
-    "https://discourse.openrobotics.org/t/ros2-info-a-terminal-workspace-lens-for-ros-2-tui-optional-local-ai/56590",
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-14-2026/56591",
-    "https://github.com/ros2/launch/releases/tag/3.9.8",
-    "https://openai.com/index/managing-ai-investments-in-agentic-era",
-    "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-    "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-    "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
-    "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
-    "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-    "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-    "https://gwern.net/guardian-angel",
-    "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-    "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
-    "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
-    "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
-  ],
   "2026-07-16": [
     "https://discourse.openrobotics.org/t/opportunity-for-ros-developers-amd-ai-devmaster-hackathon-physical-ai-track/56629",
     "https://discourse.openrobotics.org/t/ros2-ddsconfig-optimizer-support-cyclonedds-now/56609",
@@ -249,5 +229,21 @@
     "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
     "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
     "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/"
+  ],
+  "2026-08-04": [
+    "https://discourse.openrobotics.org/t/localization-of-the-gazebo-documentation/57141",
+    "https://discourse.openrobotics.org/t/robotics-technical-support-engineer-san-francisco-ca/57119",
+    "https://discourse.openrobotics.org/t/interop-sig-06-august-2026-google-summer-of-code-for-open-rmf/57124",
+    "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+    "https://www.seangoedecke.com/llms-reward-expertise/",
+    "https://github.com/lyogavin/airllm",
+    "https://armature.tech/",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.95.0",
+    "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
+    "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+    "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+    "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+    "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/"
   ]
 }
