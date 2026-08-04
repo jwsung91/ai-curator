@@ -1,0 +1,146 @@
+{
+  "date": "2026-08-05",
+  "publishedAt": "2026-08-05T07:03:18+09:00",
+  "items": [
+    {
+      "title": "Curobo_ros v2 – GPU-accelerated motion planning wrapper, now on cuRobo v0.8.0",
+      "link": "https://discourse.openrobotics.org/t/curobo-ros-v2-gpu-accelerated-motion-planning-wrapper-now-on-curobo-v0-8-0/57147",
+      "summary": "<p>Hello everyone,</p>\n<p>Some of you may remember my earlier post about <strong>curobo_ros</strong>, a lightweight ROS 2 wrapper around NVIDIA’s <a href=\"https://nvlabs.github.io/curobo/latest/\" rel=\"noopener nofollow ugc\">cuRobo</a> planner. I’m happy to share that the package has now been migrated to <strong>cuRobo v2 (v0.8.0)</strong>, which wa",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Boston Robot Hackers announces August Monthly Meeting",
+      "link": "https://discourse.openrobotics.org/t/boston-robot-hackers-announces-august-monthly-meeting/57148",
+      "summary": "<p><strong>Boston Robot Hackers is pleased share info about our August meeting:</strong></p>\n<p>Topic: <a href=\"https://bostonrobothackers.com/news/23-shivam-chopra-talk-announcement.html\" rel=\"noopener nofollow ugc\">Forward &amp; Inverse Kinematics: The Math: From joint angles to end-effector poses\"</a><br />\nSpeaker:  <a href=\"https://www.linkedi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "This Week at Open Robotics Headquarters (2026-07-27)",
+      "link": "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-27/57158",
+      "summary": "<p>Hello, and welcome back to This Week at Open Robotics HQ!</p>\n<p>Did you know we have <a href=\"https://roscon.ros.org/2026/#sponsors\">53 sponsors</a> (and counting) for <a href=\"https://roscon.ros.org/2026/\">ROSCon Global</a>? And that each one of those sponsors needs assistance with logistics and planning and the like? And all of them are keen ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ros2_cuda_ipc: Zero-copy GPU data sharing between ROS 2 processes",
+      "link": "https://discourse.openrobotics.org/t/ros2-cuda-ipc-zero-copy-gpu-data-sharing-between-ros-2-processes/57157",
+      "summary": "<p>Hi everyone,</p>\n<p>I would like to introduce ros2_cuda_ipc, an experimental ROS 2 library for sharing GPU-resident data between processes without copying it through CPU memory.</p>\n<aside class=\"onebox githubrepo\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/dskkato/ros2_cuda_ipc\" rel=\"noopener nofollow ugc\" target=\"_blank\">git",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Announcing protoros2: use protobuf in ros2 without compromise",
+      "link": "https://discourse.openrobotics.org/t/announcing-protoros2-use-protobuf-in-ros2-without-compromise/57152",
+      "summary": "<p>Hi ROS Community! <img alt=\":waving_hand:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/waving_hand.png?v=15\" title=\":waving_hand:\" width=\"20\" /></p>\n<p>For years, there has been a strong and consistent demand for seamless Protobuf serialization in ROS/ROS 2. While there are excellent existing tools in the community, integ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Nav2 1.5.0",
+      "link": "https://github.com/ros-navigation/navigation2/releases/tag/1.5.0",
+      "summary": "Initial Lyrical Release Aug 4 2026",
+      "source": "GitHub (Nav2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Don't be a meat proxy",
+      "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+      "summary": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p>\nNiklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>\n<blockquote>\n<p>By all means, prompt AI. But don't just relay the output. Read it, understand i",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "link": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49166386\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research",
+      "link": "https://edotenv.com/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49172936\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49170479\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.6",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "summary": "What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usage . Truncated OpenAI responses now report finish_reason: \"length\" instead of \"tool_calls\" . ollama run kimi-k3 now offers kimi-k3:cloud for cloud-only models that publish no defau",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
+      "link": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&amp;width=1200&amp;height=800&amp;coordinates=0%2C208%2C0%2C209\" /><br /><br /><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment ",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Zoox unveils production-ready robotaxi for U.S. expansion",
+      "link": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
+      "summary": "<p>Amazon subsidiary Zoox unveiled its final production-ready robotaxi design and expanded testing following a subtle redesign to improve rider comfort.</p>\n<p>The post <a href=\"https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/\">Zoox unveils production-ready robotaxi for U.S. expansion</a> appeared first on <a",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys",
+      "link": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
+      "summary": "<p>Blue Water Autonomy creates unmanned ships that can operate autonomously on the open ocean for months a time.</p>\n<p>The post <a href=\"https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/\">U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Humanoids won’t scale on factory floors until costs drop",
+      "link": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
+      "summary": "<p>The race to commercialize humanoids is on. What’s left to prove is that humanoid robots can beat the economics of the automation manufacturers are already running.</p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/\">Humanoids won’t scale on factory floors until costs drop</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "link": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+      "summary": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction. AVs must understand the situation, reason about cause and effect, cho",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+      "link": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "summary": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today.  The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

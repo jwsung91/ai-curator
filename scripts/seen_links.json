@@ -1,21 +1,4 @@
 {
-  "2026-07-16": [
-    "https://discourse.openrobotics.org/t/opportunity-for-ros-developers-amd-ai-devmaster-hackathon-physical-ai-track/56629",
-    "https://discourse.openrobotics.org/t/ros2-ddsconfig-optimizer-support-cyclonedds-now/56609",
-    "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-july-21/56593",
-    "https://discourse.openrobotics.org/t/ros2-lingua-a-runtime-capability-registration-layer-so-llms-only-call-actions-that-actually-exist/56628",
-    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-    "https://openai.com/index/unlocking-self-improvement-gpt-red",
-    "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-    "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
-    "https://brainless.swerdlow.dev",
-    "https://github.com/projectargus-cc/libargus.cc",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0",
-    "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
-    "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
-    "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
-    "https://blogs.nvidia.com/blog/japan-ecosystem-2026/"
-  ],
   "2026-07-17": [
     "https://discourse.openrobotics.org/t/nav2-amd-strix-halo-based-sam3-semantic-navigation/56703",
     "https://discourse.openrobotics.org/t/leet-robotics-learn-robotics-and-ros2-with-hands-on-courses-looking-for-feedback/56681",
@@ -245,5 +228,27 @@
     "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
     "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
     "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/"
+  ],
+  "2026-08-05": [
+    "https://discourse.openrobotics.org/t/curobo-ros-v2-gpu-accelerated-motion-planning-wrapper-now-on-curobo-v0-8-0/57147",
+    "https://discourse.openrobotics.org/t/boston-robot-hackers-announces-august-monthly-meeting/57148",
+    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-27/57158",
+    "https://discourse.openrobotics.org/t/ros2-cuda-ipc-zero-copy-gpu-data-sharing-between-ros-2-processes/57157",
+    "https://discourse.openrobotics.org/t/announcing-protoros2-use-protobuf-in-ros2-without-compromise/57152",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.0",
+    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "https://openai.com/index/apple-is-getting-this-wrong",
+    "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+    "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+    "https://edotenv.com/",
+    "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+    "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
+    "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
+    "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
+    "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
+    "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+    "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
   ]
 }
