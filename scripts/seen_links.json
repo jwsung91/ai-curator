@@ -1,27 +1,4 @@
 {
-  "2026-07-17": [
-    "https://discourse.openrobotics.org/t/nav2-amd-strix-halo-based-sam3-semantic-navigation/56703",
-    "https://discourse.openrobotics.org/t/leet-robotics-learn-robotics-and-ros2-with-hands-on-courses-looking-for-feedback/56681",
-    "https://discourse.openrobotics.org/t/working-on-a-new-agenticros-physical-ai-ros-robot/56706",
-    "https://discourse.openrobotics.org/t/multi-robot-coordination-package-python-port-of-orebro-universitys-coordination-oru/56705",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.6.2",
-    "https://openai.com/index/why-teens-deserve-access-safe-ai",
-    "https://openai.com/index/cars24",
-    "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
-    "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
-    "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
-    "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-    "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-    "https://blog.lyc8503.net/en/post/llm-classifier/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.1",
-    "https://spectrum.ieee.org/invisible-spinning-drone",
-    "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
-    "https://www.therobotreport.com/xpanner-rolls-out-x1-panel-lift-automated-solar-panel-installation/",
-    "https://www.therobotreport.com/lockheed-martin-taps-machinas-robots-for-mission-critical-missile-parts/",
-    "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
-  ],
   "2026-07-20": [
     "https://discourse.openrobotics.org/t/realistic-auv-manipulation-simulator/56778",
     "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -250,5 +227,22 @@
     "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
     "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
     "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
+  ],
+  "2026-08-06": [
+    "https://discourse.openrobotics.org/t/last-day-to-purchase-regular-price-roscon-global-tickets-is-monday-august-24th/57162",
+    "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-07/57195",
+    "https://discourse.openrobotics.org/t/stop-making-powerpoint-presentations-come-build-brains-for-robots-with-unlimited-snacks-and-coffee-unomove-is-hiring-top-talent/57185",
+    "https://discourse.openrobotics.org/t/nav2-zigzag-navigation-in-a-large-road-environment-with-isaac-sim-rviz-localization-gradually-diverges-from-the-simulator/57184",
+    "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+    "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+    "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
+    "https://sagredo.dev/projects/sula/",
+    "https://data4sci.com/blog/building-an-advanced-agentic-harness",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.6",
+    "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
+    "https://www.therobotreport.com/gam-enterprises-to-produce-schaefflers-psc-gear-reducers/",
+    "https://www.therobotreport.com/university-of-florida-opens-new-robotics-lab-dedicated-to-industrialized-construction/"
   ]
 }
