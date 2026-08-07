@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-07",
+  "publishedAt": "2026-08-07T09:59:28+09:00",
+  "items": [
+    {
+      "title": "SIG for Physical AI Meeting, August 7th with Encord",
+      "link": "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-7th-with-encord/57199",
+      "summary": "<p>This week the <a href=\"https://physical-ai.ros.org/\">ROS Special Interest Group for Physical AI</a> is happy to share that we will be hosting <a href=\"https://encord.com/\">Encord</a> to share how their work connects to the work of the SIG.</p>\n<p>The meeting will be at <span class=\"discourse-local-date\">Fri, Aug 7, 2026 3:00 PM UTC</span> for me",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[GSoC 2026] ROS 2 Client Library Performance Monitoring: Midterm Progress Update",
+      "link": "https://discourse.openrobotics.org/t/gsoc-2026-ros-2-client-library-performance-monitoring-midterm-progress-update/57204",
+      "summary": "<blockquote>\n<p><strong>Organization:</strong> OSRF<br />\n<strong>Contributor:</strong> Ammaar Ahmed (<a href=\"https://github.com/ammaarrahmed\" rel=\"noopener nofollow ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/ammaarlatif101/\" rel=\"noopener nofollow ugc\">LinkedIn</a>)<br />\n<strong>Mentors:</strong> Kimberly McGuire (<a href=\"https://git",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Physical AI Open-source Platform: CYCLO",
+      "link": "https://discourse.openrobotics.org/t/physical-ai-open-source-platform-cyclo/57201",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=0fw_7_cnlEI\">Introducing CYCLO: A Modular Software Platform for Physical AI</a></p>\n\n<div class=\"math\">\nPhysical AI Open-source Platform: CYCLO\n</div>\n<p>Building Physical AI systems often means dealing with fragmented tools for data, training, simulation, and hardware control. To solve this, our team dev",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rosbag Resurrector — a pandas-like analysis + ML-export workbench for ROS 2 bags",
+      "link": "https://discourse.openrobotics.org/t/rosbag-resurrector-a-pandas-like-analysis-ml-export-workbench-for-ros-2-bags/57209",
+      "summary": "<p>Hi all — I’ve been building rosbag-resurrector, an analysis workbench for ROS 2 (MCAP) bags. It’s deliberately not another 3D viewer — it treats a bag like a DataFrame: pandas-like access, a DuckDB index across many bags, health/QC validation, semantic frame search, cross-bag overlay, and one-command export to LeRobot / RLDS / Parquet. It bridge",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 release-lyrical-20260807",
+      "link": "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260807",
+      "summary": "Update lyrical ros2.repos for 2026-08-07 sync ( #1852 )",
+      "source": "GitHub (ROS2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "An AI model from Meta also hacked another company during testing",
+      "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.cnn.com/2026/08/05/tech/meta-ai-hacking\">An AI model from Meta also hacked another company during testing</a></strong></p>\nStop me if you've <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">heard this one before</a>:</p>\n<blockquote>\n<p>An AI model from the parent company of Facebook and Instagram ha",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "summary": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">Introducing Muse Code and Muse Spark 1.2</a></strong></p>\nYet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!</p>\n<blockq",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "summary": "<p><strong><a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/\">Third-party cyber evaluations involving OpenAI models</a></strong></p>\nAnd <em>another one</em>. I had to create a <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental-cyberattacks tag</a> to keep track of them all!</p>\n<p>Th",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "link": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\">Incident Report: unsanctioned agent behaviour during cyber testing</a></strong></p>\nIt happened <em>again</em>. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an eval",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "link": "https://www.aleksagordic.com/blog/vllm",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49202852\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "link": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49200652\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
+      "link": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
+      "summary": "<p>The latest agreement expands HII's HYPER Program, which Path Robotics and GrayMatter Robotics joined earlier this year.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/\">HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics</a> appeared first on <a hr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How Robin, the robotic companion, keeps patients calm during hospital visits",
+      "link": "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
+      "summary": "<p>Robin is deployed across 30 different health systems, and Expper has plans to deploy 10 more in different states. </p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/\">How Robin, the robotic companion, keeps patients calm during hospital visits</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Report looks at advances in autonomous mobile robots",
+      "link": "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
+      "summary": "<p>A download looks at examples of advances in autonomous mobile robots in material handling and automated storage applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/\">Report looks at advances in autonomous mobile robots</a> appeared first on <a href=\"https://www.therobotreport",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

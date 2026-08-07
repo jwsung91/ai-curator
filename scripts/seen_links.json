@@ -1,21 +1,4 @@
 {
-  "2026-07-20": [
-    "https://discourse.openrobotics.org/t/realistic-auv-manipulation-simulator/56778",
-    "https://openai.com/index/a-scorecard-for-the-ai-age",
-    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
-    "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-    "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
-    "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
-    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-    "https://github.com/openai/codex/pull/33972/files",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.93.0",
-    "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
-    "https://spectrum.ieee.org/video-friday-robotic-surgery",
-    "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
-    "https://www.therobotreport.com/palm-garden-ai-develops-coherence-guard-relational-decision-layer-human-facing-robots/",
-    "https://www.therobotreport.com/transforming-solar-construction-through-robotics-deise-yumi-asami-maximo/",
-    "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
-  ],
   "2026-07-21": [
     "https://discourse.openrobotics.org/t/community-feedback-wanted-intuitive-robotics-math-and-paper-walkthroughs/56797",
     "https://discourse.openrobotics.org/t/pyzeros-a-python-first-alternative-to-rclpy-over-zenoh/56806",
@@ -244,5 +227,26 @@
     "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
     "https://www.therobotreport.com/gam-enterprises-to-produce-schaefflers-psc-gear-reducers/",
     "https://www.therobotreport.com/university-of-florida-opens-new-robotics-lab-dedicated-to-industrialized-construction/"
+  ],
+  "2026-08-07": [
+    "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-7th-with-encord/57199",
+    "https://discourse.openrobotics.org/t/gsoc-2026-ros-2-client-library-performance-monitoring-midterm-progress-update/57204",
+    "https://discourse.openrobotics.org/t/physical-ai-open-source-platform-cyclo/57201",
+    "https://discourse.openrobotics.org/t/rosbag-resurrector-a-pandas-like-analysis-ml-export-workbench-for-ros-2-bags/57209",
+    "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260807",
+    "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+    "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+    "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+    "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+    "https://www.aleksagordic.com/blog/vllm",
+    "https://artificialanalysis.ai/?intelligence=agentic-index",
+    "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
+    "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
+    "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
+    "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
   ]
 }
