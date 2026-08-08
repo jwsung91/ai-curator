@@ -24,7 +24,7 @@ pnpm-debug.log*
 .idea/
 
 # local instructions
-CLAUDE.md
+/CLAUDE.md
 
 # Python virtual env
 .venv/
@@ -32,5 +32,6 @@ CLAUDE.md
 __pycache__/
 
 # agent-rules (local only)
-AGENTS.md
-GEMINI.md
+/AGENTS.md
+/GEMINI.md
+/.agent-rules/bases/
