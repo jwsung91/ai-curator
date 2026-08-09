@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-10",
+  "publishedAt": "2026-08-10T06:19:42+09:00",
+  "items": [
+    {
+      "title": "Open-Source Fire Simulation Plugin for Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/open-source-fire-simulation-plugin-for-gazebo-harmonic/57257",
+      "summary": "<p>Hello Open Robotics community! <img alt=\":waving_hand:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/waving_hand.png?v=15\" title=\":waving_hand:\" width=\"20\" /></p>\n<p>We are excited to share our open-source Fire Simulation Plugin for Gazebo Harmonic / Gazebo Sim 8.</p>\n<p>The plugin provides a configurable fire simulation f",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Mppi_controller_cuda — CUDA-accelerated MPPI local planner for ROS1 & ROS2",
+      "link": "https://discourse.openrobotics.org/t/mppi-controller-cuda-cuda-accelerated-mppi-local-planner-for-ros1-ros2/57260",
+      "summary": "<p>Hi, i have developed <a href=\"https://github.com/datledoan/mppi_controller_cuda\" rel=\"noopener nofollow ugc\">mppi_controller_cuda</a>, a CUDA-accelerated MPPI (Model Predictive Path Integral) local planner, built on the <a href=\"https://github.com/ACDSLab/MPPI-Generic\" rel=\"noopener nofollow ugc\">MPPI-Generic</a> framework and based on <a href=\"",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "link": "https://openai.com/index/hsp-gruppe",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "summary": "<p><strong><a href=\"https://claude.com/blog/auto-mode-default-in-claude-code\">Auto mode is now the default in Claude Code for Pro, Max, and Team plans</a></strong></p>\nAnthropic are <em>really</em> confident in Claude Code's <a href=\"https://code.claude.com/docs/en/auto-mode-config\">auto mode</a>, to the point that they are making it the default se",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+      "summary": "<p><a href=\"https://news.ycombinator.com/item?id=49220609#49221745\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49220609\">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> &mdash; Hacker News.</p><p>I think one of the most interesting details here might be tucked away in that first bulletin point:</",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+      "summary": "<p>OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" (<a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">previously</a> on this blog). <a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY\">The video</a> was published yesterday. It's short and information dense and well w",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+      "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+      "summary": "<p><strong><a href=\"https://simonw.github.io/raccoon-heist-codex/\">Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</a></strong></p>\nOn Wednesday I wrote about <a href=\"https://simonwillison.net/2026/Aug/5/raccoon-heist/\">One-shotting a Raccoon Heist game using Claude Fable 5</a>, where I had Claude Fable 5 build a full working g",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How I use LLMs to learn complex topics",
+      "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49234675\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The tragedy of the commons, AI edition",
+      "link": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49235011\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenChamber: An Agentic Development Environment",
+      "link": "https://openchamber.dev/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49233448\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.121.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
+      "summary": "0.121.0 (2026-08-07) Full Changelog: v0.120.2...v0.121.0 Features api: add mid-conversation-tool-changes-2026-07-01 beta ( c7d1531 ) api: add support for session budgets, advisor tool, pinned inference location and skills auto-loading from GitHub ( 193bae0 ) Chores api: remove retired Claude Opus 4.1 models ( 5352a33 ) docs: small updates to descriptions ( b8d4176 ) docs: updates to a few documentation strings ( 3a5dd69 ) ensure all dependencies have major version constraints ( #274 ) ( d52999b ",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.94.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.94.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.94.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
+      "link": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&amp;width=980\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of up",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
+      "link": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+      "summary": "<p>Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness.</p>\n<p>The post <a href=\"https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/\">Analog Devices returns as strategic sponsor to aid MassRobotics startups</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Experts look ahead at the next 20 years of robotics at RoboBusiness",
+      "link": "https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/",
+      "summary": "<p>At Robobusiness, leaders in robotics will explore the technologies, opportunities, and challenges that will shape the next twenty years.</p>\n<p>The post <a href=\"https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/\">Experts look ahead at the next 20 years of robotics at RoboBusiness</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Building robots that survive the warehouse",
+      "link": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
+      "summary": "<p>Nomagic says its real moat is production data, because the messiness of real warehouses is where robots either prove themselves or fail.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-that-survive-warehouse/\">Building robots that survive the warehouse</a> appeared first on <a href=\"https://www.therobotreport.com\">The Rob",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
