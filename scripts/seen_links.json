@@ -1,23 +1,4 @@
 {
-  "2026-07-23": [
-    "https://discourse.openrobotics.org/t/buildfarmer-dashboard-ros-gazebo-test-health-in-one-place/56858",
-    "https://discourse.openrobotics.org/t/announcement-the-buildfarm-dashboard-is-live-feedback-wanted/56849",
-    "https://discourse.openrobotics.org/t/multisensor-fusion-dual-ekf-ann-pseudo-sensor-fls-for-indoor-outdoor-handoff-turtlebot3-humble/56855",
-    "https://discourse.openrobotics.org/t/guide-to-imitation-learning-with-cyclo-intelligence/56851",
-    "https://discourse.openrobotics.org/t/a-fully-automated-cad-to-urdf-pipeline-with-built-in-gazebo-verification/56863",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v3.2.5",
-    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-    "https://openai.com/index/how-news-organizations-are-using-ai",
-    "https://openai.com/index/advancing-the-next-era-of-national-science",
-    "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-    "https://cruciblebench.ai/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.2",
-    "https://www.therobotreport.com/physical-ai-and-robotics/",
-    "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
-    "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
-    "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/"
-  ],
   "2026-07-24": [
     "https://discourse.openrobotics.org/t/build-your-own-human-sized-humanoid-with-the-humanoid-robotics-masterclass/56895",
     "https://discourse.openrobotics.org/t/nav2-open-navigations-robotics-workload-benchmark-release/56909",
@@ -246,5 +227,25 @@
     "https://github.com/ollama/ollama/releases/tag/v0.32.7",
     "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
     "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/"
+  ],
+  "2026-08-12": [
+    "https://discourse.openrobotics.org/t/properly-close-windows-processes-discussion-about-implementation/57308",
+    "https://discourse.openrobotics.org/t/rostree-v1-0-0-explore-your-ros-2-dependency-graph-from-the-terminal-or-in-your-browser/57315",
+    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-03/57313",
+    "https://discourse.openrobotics.org/t/is-this-embodied-agent-project-useless/57319",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-4-2026/57314",
+    "https://openai.com/index/testing-ads-in-chatgpt",
+    "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+    "https://stolen-thoughts.com/",
+    "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+    "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.96.0",
+    "https://spectrum.ieee.org/recycling-robot",
+    "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
+    "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+    "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
+    "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+    "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
   ]
 }

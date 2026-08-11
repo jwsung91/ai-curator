@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-12",
+  "publishedAt": "2026-08-12T06:33:13+09:00",
+  "items": [
+    {
+      "title": "Properly close windows processes, discussion about implementation",
+      "link": "https://discourse.openrobotics.org/t/properly-close-windows-processes-discussion-about-implementation/57308",
+      "summary": "<p>So I went into a bit of a rabbit whole last week! <a href=\"https://ci.ros2.org/job/nightly_win_rel/\" rel=\"noopener nofollow ugc\">CI on windows</a> kept on getting this particular error:</p>\n<pre><code class=\"lang-auto\">2: [WARNING] [python.exe-2]: 'SIGINT' sent to process[python.exe-2] not supported on Windows, escalating to 'SIGTERM'\n</code></p",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rostree v1.0.0: explore your ROS 2 dependency graph from the terminal, or in your browser",
+      "link": "https://discourse.openrobotics.org/t/rostree-v1-0-0-explore-your-ros-2-dependency-graph-from-the-terminal-or-in-your-browser/57315",
+      "summary": "<p>Hi everyone! I posted an early version of <strong>rostree</strong> on reddit a while back, around 0.2.2… but never here.<br />\nThree releases later it’s at 1.0, and enough has changed that a fresh post seemed more honest than a bump comment.</p>\n<p><img alt=\"img\" class=\"animated\" height=\"388\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ro",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "This Week at Open Robotics Headquarters (2026-08-03)",
+      "link": "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-03/57313",
+      "summary": "<p>Have you ever set up dominoes for <a href=\"https://www.youtube.com/watch?v=r1XcyuL-3J0\">a truly epic fall</a>? There’s a whole lot of setup that precedes <a href=\"https://www.youtube.com/watch?v=qjqMEOm-l7c\">an impressive end result</a>. That’s what it felt like in Open Robotics HQ this past week. So many of the things we do take a lot of work a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Is this Embodied Agent project useless?",
+      "link": "https://discourse.openrobotics.org/t/is-this-embodied-agent-project-useless/57319",
+      "summary": "<p>Hello, I was working on a Embodied Agent project in University for last 9 months. The problem is we are using a regular VLM + algorithmic methods to make the robot understand its environment and do missions given by the user. I was misdirected into creating a project that would require a large team and big budget, if this project’s idea would be",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for August 4, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-4-2026/57314",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, August 4, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>.</p",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Muse Glimmer",
+      "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "summary": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">Introducing Muse Glimmer</a></strong></p>\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).</p>\n<p>They claim to have optimized it for exactly t",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "link": "https://stolen-thoughts.com/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49257876\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI’s head of ethics leaves less than a year after joining",
+      "link": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49257160\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+      "link": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49259339\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.9",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+      "summary": "NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. ollama run nemotron-3.5-lightning What's Changed Added the Nemotron 3 architecture Handle boundary condition in Muse Glimmer function calling ",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.96.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.96.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.96.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Robot Recycler Salvages Parts From Broken Machines",
+      "link": "https://spectrum.ieee.org/recycling-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;width=1245&amp;height=700&amp;coordinates=0%2C156%2C0%2C157\" /><br /><br /><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object construct",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Defense drone developer Cambridge Aerospace raises $300M",
+      "link": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
+      "summary": "<p>The round comes just months after the Cambridge Aerospace's $200 million Series B funding in April.</p>\n<p>The post <a href=\"https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/\">Defense drone developer Cambridge Aerospace raises $300M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Rep",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+      "link": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+      "summary": "<p>Since the start of the year, PlusAI said it has improved the safety validation, operational maturity, and efficiency of SuperDrive.</p>\n<p>The post <a href=\"https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/\">PlusAI reaches key milestones ahead of launching its autonomous trucks</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
+      "link": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
+      "summary": "<p>Industry experts will discuss how to scale mobile robots in the warehouse while maintaining both safety and productivity.</p>\n<p>The post <a href=\"https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/\">Webinar to discuss safety and scaling robot fleets in the warehouse</a> appeared first on <a href=\"https://www",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+      "link": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "summary": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally.  Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem. That includes NVIDIA",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "summary": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemot",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
