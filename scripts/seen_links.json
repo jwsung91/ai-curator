@@ -1,21 +1,4 @@
 {
-  "2026-07-24": [
-    "https://discourse.openrobotics.org/t/build-your-own-human-sized-humanoid-with-the-humanoid-robotics-masterclass/56895",
-    "https://discourse.openrobotics.org/t/nav2-open-navigations-robotics-workload-benchmark-release/56909",
-    "https://discourse.openrobotics.org/t/lift-lobby-and-lift-selection-enhancement/56880",
-    "https://discourse.openrobotics.org/t/robotics-solution-architect-field-application-engineer-at-triorb/56881",
-    "https://discourse.openrobotics.org/t/convert-in-the-terminal/56908",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v2.6.12",
-    "https://openai.com/index/health-in-chatgpt",
-    "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
-    "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
-    "https://github.com/izeigerman/claude-thermos",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.119.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.3",
-    "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
-    "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
-    "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/"
-  ],
   "2026-07-27": [
     "https://discourse.openrobotics.org/t/release-gazebo-ros-text-to-speech-tts-plugin-from-gazebo-classic-to-gazebo-harmonic/56982",
     "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
@@ -247,5 +230,26 @@
     "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
     "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
     "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
+  ],
+  "2026-08-13": [
+    "https://discourse.openrobotics.org/t/how-do-you-simulate-latency/57337",
+    "https://discourse.openrobotics.org/t/paid-contract-robotics-engineer-household-manipulation-prototype-hamilton-canada-hybrid/57329",
+    "https://discourse.openrobotics.org/t/analyzing-rosbags-with-llms-and-sql-queryable-nav2-behavior-trees/57339",
+    "https://discourse.openrobotics.org/t/i-built-a-3d-printed-tracked-robot-using-arduino-mega-raspberry-pi-and-opencv-looking-for-feedback/57352",
+    "https://discourse.openrobotics.org/t/roboparts-structured-dataset-selection-engine-for-bionic-robot-components/57350",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.1",
+    "https://github.com/moveit/moveit2/releases/tag/2.15.0",
+    "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+    "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "https://knownagents.com/insights",
+    "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.96.2",
+    "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
+    "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+    "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/"
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-13",
+  "publishedAt": "2026-08-13T06:32:29+09:00",
+  "items": [
+    {
+      "title": "How do you simulate latency?",
+      "link": "https://discourse.openrobotics.org/t/how-do-you-simulate-latency/57337",
+      "summary": "<p>Did someone already do something regarding simulating latency (or even jitter) in sensor data and control commands?</p>\n<p>I think the obvious approach when you work with ROS is to implement something like topic_tools/delay and plug it behind the bridge. However, that seems to massively increase the number of topics, making it very error-prone t",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Paid Contract] Robotics Engineer - Household Manipulation Prototype - Hamilton, Canada / Hybrid",
+      "link": "https://discourse.openrobotics.org/t/paid-contract-robotics-engineer-household-manipulation-prototype-hamilton-canada-hybrid/57329",
+      "summary": "<p>Hi everyone,</p>\n<p>I’m looking for a robotics engineer for a paid 4–6 week prototype project based in Hamilton, Ontario, Canada.</p>\n<p>The immediate goal is deliberately narrow: build a household manipulation prototype using an off the shelf robotic arm, cameras, and teleoperation to reliably move a standardized plate, bowl, and cup from fixed",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Analyzing rosbags with LLMs and SQL + queryable Nav2 behavior trees",
+      "link": "https://discourse.openrobotics.org/t/analyzing-rosbags-with-llms-and-sql-queryable-nav2-behavior-trees/57339",
+      "summary": "<p>A few weeks ago <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/jopequ\">@jopequ</a> shared mcp-rosbags + mcp-lab ( <a class=\"inline-onebox\" href=\"https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897\">Another MCP Server to analyze your ro",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "I built a 3D-printed tracked robot using Arduino Mega, Raspberry Pi and OpenCV — looking for feedback",
+      "link": "https://discourse.openrobotics.org/t/i-built-a-3d-printed-tracked-robot-using-arduino-mega-raspberry-pi-and-opencv-looking-for-feedback/57352",
+      "summary": "<p>Hi everyone!</p>\n<p>I recently finished a robotic tracked platform that I developed as an engineering graduation project.</p>\n<p>The goal was to build a functional mobile robot combining mechanical design, embedded control, radio communication, and basic computer vision.</p>\n<p>The platform includes:</p>\n<ul>\n<li>3D-printed tracked chassis desig",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "RoboParts — Structured Dataset & Selection Engine for Bionic Robot Components",
+      "link": "https://discourse.openrobotics.org/t/roboparts-structured-dataset-selection-engine-for-bionic-robot-components/57350",
+      "summary": "<p>RoboParts — Structured Dataset &amp; Selection Engine for Bionic Robot Components</p>\n<p>Hi ROS community,</p>\n<p>We’re building RoboParts (<a href=\"https://roboparts.cc\" rel=\"noopener nofollow ugc\">https://roboparts.cc</a>), an open structured dataset and online selection engine covering the hardware stack for humanoid / bionic robots. Sharing ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Nav2 1.5.1",
+      "link": "https://github.com/ros-navigation/navigation2/releases/tag/1.5.1",
+      "summary": "Release Lyrical Aug 11, 2026",
+      "source": "GitHub (Nav2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MoveIt2 2.15.0",
+      "link": "https://github.com/moveit/moveit2/releases/tag/2.15.0",
+      "summary": "2.15.0",
+      "source": "GitHub (MoveIt2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Daybreak models are now available on AWS",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+      "summary": "<p><strong><a href=\"https://stolen-thoughts.com/\">Stealing Reasoning Traces from Proprietary LLM APIs</a></strong></p>\nA vanity domain name (<code>stolen-thoughts.com</code>) for <a href=\"https://www.alphaxiv.org/abs/2608.09867\">a neat paper</a>:</p>\n<blockquote>\n<p>Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients t",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "link": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49274600\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "link": "https://knownagents.com/insights",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49272569\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What sort of maths are LLMs good at?",
+      "link": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49270022\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.10-rc0: nn: speed up prefill on double-scale nvfp4 models",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0",
+      "summary": "ModelOpt checkpoints apply a float32 global scale to every projection output on top of the per-group quantization scales. Running the multiply and the cast back to the activation dtype as separate eager ops costs an extra kernel launch and a materialized intermediate per projection. Compile the multiply and cast into one kernel. On an M5 Max (medians of order-swapped A/B runs against main; greedy outputs byte-identical): qwen3.6:27b prefill 703 -&gt; 769 t/s +7.9% muse-glimmer:30b prefill 790 -&",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.96.2",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.96.2",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.96.2 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio",
+      "link": "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
+      "summary": "<p>SEW-EURODRIVE's new P1.G, P2.G and P3.G gear units extend its existing PxG family below the P5.G, P6.G, and P7.G precision range.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/\">SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Q2 2026 robotics demand increased across industries, reports A3",
+      "link": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+      "summary": "<p>A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/\">Q2 2026 robotics demand increased across industries, reports A3</a> appeared first on <a href=\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
+      "link": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
+      "summary": "<p>A Stratom-led team won a U.S. Army contract to develop TALUS, an autonomous logistics system for contested environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/\">Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution</a> appeared f",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
