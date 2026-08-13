@@ -1,18 +1,4 @@
 {
-  "2026-07-27": [
-    "https://discourse.openrobotics.org/t/release-gazebo-ros-text-to-speech-tts-plugin-from-gazebo-classic-to-gazebo-harmonic/56982",
-    "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-    "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
-    "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
-    "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.4",
-    "https://spectrum.ieee.org/ai-in-robotics",
-    "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
-    "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
-    "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
-    "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/"
-  ],
   "2026-07-28": [
     "https://discourse.openrobotics.org/t/stop-recording-huge-rosbags-can-we-capture-only-the-exact-perception-frame-that-caused-a-ros-latency-spike/56991",
     "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-21-2026/56999",
@@ -251,5 +237,28 @@
     "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
     "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
     "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/"
+  ],
+  "2026-08-14": [
+    "https://discourse.openrobotics.org/t/want-to-get-involved-with-ros-2-come-to-waffle/57362",
+    "https://discourse.openrobotics.org/t/ros-meet-up-stockholm-nordic-tech-week-september-8th/57373",
+    "https://discourse.openrobotics.org/t/announcement-fix-for-advancedliftdrag-pitching-moment-computation/57364",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-11-2026/57361",
+    "https://discourse.openrobotics.org/t/launching-the-vlas-on-the-humanoid-robot-g1-t800-for-continues-tasks/57375",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim9_9.6.0",
+    "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "https://openai.com/index/previewing-ultrafast",
+    "https://openai.com/index/dali-rajic-chief-revenue-officer",
+    "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+    "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+    "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
+    "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "https://deepseek.com/harness/en/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.10",
+    "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+    "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
+    "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
   ]
 }
