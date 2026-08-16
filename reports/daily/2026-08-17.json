@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-17",
+  "publishedAt": "2026-08-17T06:09:23+09:00",
+  "items": [
+    {
+      "title": "ROS OE Community Meeting #62 - August 31st, 2026 @ 3pm UTC",
+      "link": "https://discourse.openrobotics.org/t/ros-oe-community-meeting-62-august-31st-2026-3pm-utc/57432",
+      "summary": "<p>NOTE: Our next meeting will be in 2 weeks.  Our regularly scheduled meeting tomorrow has to be postponed as I won’t be available to chair the meeting.</p>\n<ul>\n<li>\n<p><strong>Date/Time</strong><br />\nMonday, August 31st, 2026 @ 3pm UTC, (5pm CEST / 11am EDT / 8am PDT)</p>\n</li>\n<li>\n<p><strong>Google Meet</strong><br />\nVideo call link: <a clas",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "CORS Chat",
+      "link": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/cors-chat\">CORS Chat</a></p>\n        <p>I built this today (<a href=\"https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36\">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p>\n<p>It provides a we",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Don't classify. Hallucinate!",
+      "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "summary": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p>\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"w",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-gemini 0.33",
+      "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.33\">llm-gemini 0.33</a></p>\n        <p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude: System Prompts",
+      "link": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49319556\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.14",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+      "summary": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog : v0.32.13...v0.32.14",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.97.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.97.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.97.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Lift Happens",
+      "link": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><s",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How robotics is revolutionizing stroke rehabilitation",
+      "link": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+      "summary": "<p>Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/\">How robotics is revolutionizing stroke rehabilitation</a> appeared first on <a href=\"https://ww",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why robots that can’t communicate naturally won’t be adopted",
+      "link": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+      "summary": "<p>Gunnar Pétur Hauksson, the co-founder and COO at Treble Technologies, says robotics developers can't overlook the importance of hearing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/\">Why robots that can’t communicate naturally won’t be adopted</a> appeared first o",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How Protolabs turns CAD files into parts in under 24 hours",
+      "link": "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/",
+      "summary": "<p>Protolabs CTO Marc Kermisch explains how AI, simulation, and design for manufacturing turn CAD files into production parts faster.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/\">How Protolabs turns CAD files into parts in under 24 hours</a> appeared first on <a href=\"https://www.",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

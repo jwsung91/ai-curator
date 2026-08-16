@@ -1,14 +1,4 @@
 {
-  "2026-07-28": [
-    "https://discourse.openrobotics.org/t/stop-recording-huge-rosbags-can-we-capture-only-the-exact-perception-frame-that-caused-a-ros-latency-spike/56991",
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-july-21-2026/56999",
-    "https://discourse.openrobotics.org/t/no-cwg-meeting-july-2026/56996",
-    "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-    "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-    "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
-    "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/"
-  ],
   "2026-07-29": [
     "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-20/57020",
     "https://discourse.openrobotics.org/t/opensource-alternative-to-ros-2/57008",
@@ -260,5 +250,18 @@
     "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
     "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
     "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
+  ],
+  "2026-08-17": [
+    "https://discourse.openrobotics.org/t/ros-oe-community-meeting-62-august-31st-2026-3pm-utc/57432",
+    "https://simonwillison.net/2026/Aug/15/cors-chat/",
+    "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+    "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "https://platform.claude.com/docs/en/release-notes/system-prompts",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.97.0",
+    "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
+    "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+    "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+    "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/"
   ]
 }
