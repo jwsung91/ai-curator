@@ -1,25 +1,4 @@
 {
-  "2026-07-29": [
-    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-20/57020",
-    "https://discourse.openrobotics.org/t/opensource-alternative-to-ros-2/57008",
-    "https://discourse.openrobotics.org/t/learning-zenoh-a-new-communication-layer-for-ros-2/57014",
-    "https://discourse.openrobotics.org/t/aerial-robotics-meeting-26th-august-2026/57017",
-    "https://discourse.openrobotics.org/t/agency-tool-company-atc-deploy-launch/57019",
-    "https://github.com/ros2/rclcpp/releases/tag/33.0.4",
-    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.5.2",
-    "https://openai.com/index/scientific-computing-agentic-ai",
-    "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-    "https://github.com/openai/codex-security",
-    "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
-    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.94.0",
-    "https://spectrum.ieee.org/robot-finger",
-    "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
-    "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
-    "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
-    "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/"
-  ],
   "2026-07-30": [
     "https://discourse.openrobotics.org/t/chinese-legged-humanoids-banned-in-usa-what-are-the-alternatives/57040",
     "https://discourse.openrobotics.org/t/package-xml-ament-rosdep-and-bloom-thoughts/57033",
@@ -263,5 +242,22 @@
     "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
     "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
     "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/"
+  ],
+  "2026-08-18": [
+    "https://discourse.openrobotics.org/t/roboto-agents-agentic-triage-root-cause-analysis-and-data-curation-for-rosbags-and-mcap/57438",
+    "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-19/57464",
+    "https://discourse.openrobotics.org/t/exstrike-real-time-vision-safety-infrastructure-for-autonomous-systems-tactical-robotics/57440",
+    "https://discourse.openrobotics.org/t/were-hiring-sereact-ai-robotics-stuttgart-germany-boston-usa/57455",
+    "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57458",
+    "https://openai.com/index/the-defenders-window",
+    "https://openai.com/index/openai-joins-ports-pike-project",
+    "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "https://blog.roboflow.com/openai-gpt-5-6/",
+    "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/",
+    "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
+    "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
+    "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/"
   ]
 }

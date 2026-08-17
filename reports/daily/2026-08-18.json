@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-18",
+  "publishedAt": "2026-08-18T06:14:16+09:00",
+  "items": [
+    {
+      "title": "Roboto Agents: agentic triage, root cause analysis, and data curation for rosbags and MCAP",
+      "link": "https://discourse.openrobotics.org/t/roboto-agents-agentic-triage-root-cause-analysis-and-data-curation-for-rosbags-and-mcap/57438",
+      "summary": "<p>Hi ROS Community,</p>\n<p>Benji from Roboto here. At <a href=\"https://www.roboto.ai/blog/detecting-complex-events-in-robotics-data/\" rel=\"noopener nofollow ugc\">ROSCon in October last year</a>, we previewed an early experiment: could an AI agent investigate robotics data and help find the cause of a failure? As it turns out, the answer was yes.</",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Lyrical Sync 2026-08-19",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-19/57464",
+      "summary": "<p>Hello Lyrical maintainers!</p>\n<p>Starting now, I will be holding new Lyrical <a href=\"https://github.com/ros/rosdistro/\" rel=\"noopener nofollow ugc\">ros/rosdistro</a> release PRs with a plan to sync ROS Lyrical packages to the main apt repo on 2026-08-19. Please comment here if there are any issues I should know about before performing the sync",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Exstrike Real TIme Vision & Safety infrastructure for Autonomous Systems & Tactical Robotics",
+      "link": "https://discourse.openrobotics.org/t/exstrike-real-time-vision-safety-infrastructure-for-autonomous-systems-tactical-robotics/57440",
+      "summary": "<p>Hey guys,</p>\n<p>I’m building Exstrike. It’s a real-time safety filters (using Control Barrier Functions + computer vision) designed to prevent physical crashes when autonomous robots or AI navigation models mess up.</p>\n<p>The goal is to build a drop in SDK for robotics,drones,and tactical ground vehicles (dual use/defense) that forces the mach",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "We're Hiring @ Sereact (AI & Robotics | Stuttgart, Germany / Boston, USA)",
+      "link": "https://discourse.openrobotics.org/t/were-hiring-sereact-ai-robotics-stuttgart-germany-boston-usa/57455",
+      "summary": "<p>Hi everyone <img alt=\":waving_hand:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/waving_hand.png?v=15\" title=\":waving_hand:\" width=\"20\" />,</p>\n<p><a href=\"https://sereact.ai\" rel=\"noopener nofollow ugc\">Sereact</a> is hiring roboticists in both Stuttgart and Boston!</p>\n<p>We’re building the intelligence that enables rob",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Jenkins version upgrade of ci.ros2.org [Scheduled Buildfarm Downtime]",
+      "link": "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57458",
+      "summary": "<p>Hello ROS Community,</p>\n<p>The OSRF Infrastructure Project is planning to update the Jenkins version of <a href=\"https://ci.ros2.org/\" rel=\"noopener nofollow ugc\">https://ci.ros2.org</a> as part of our ongoing efforts to maintain and improve the ROS buildfarm infrastructure. To facilitate this migration, the following services will experience d",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "The Defender’s Window",
+      "link": "https://openai.com/index/the-defenders-window",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI joins PORTS-Pike project",
+      "link": "https://openai.com/index/openai-joins-ports-pike-project",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "New policy ideas for the Intelligence Age",
+      "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "summary": "<p>Friday's big release was <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B\">Qwen 3.8 27B</a>, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor <a href=\"https://simonwillison",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49331423\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "link": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49329575\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A simple fix for LLM tail latency",
+      "link": "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49295179\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
+      "link": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How Generalist uses human demonstration data for robot learning",
+      "link": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
+      "summary": "<p>Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/\">How Generalist uses human demonstration data for robot learning</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Gravis Robotics raises $200M for autonomous construction",
+      "link": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
+      "summary": "<p>Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/\">Gravis Robotics raises $200M for autonomous construction</a> appeared first on <a href=\"https://",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
