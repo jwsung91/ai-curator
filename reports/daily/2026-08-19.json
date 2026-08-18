@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T06:11:43+09:00",
+  "items": [
+    {
+      "title": "Never miss a backport again — automatic ABI checking for ROS 2 core repos (prototype ready)",
+      "link": "https://discourse.openrobotics.org/t/never-miss-a-backport-again-automatic-abi-checking-for-ros-2-core-repos-prototype-ready/57477",
+      "summary": "<p>Hi ROS community! <img alt=\":waving_hand:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/waving_hand.png?v=15\" title=\":waving_hand:\" width=\"20\" /></p>\n<p>Have you ever debugged a problem on Humble or Jazzy for hours… only to discover the fix already existed on rolling, but was never backported? <img alt=\":weary_face:\" class",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Keeps Evolving via Physical AI SIG",
+      "link": "https://discourse.openrobotics.org/t/ros-keeps-evolving-via-physical-ai-sig/57495",
+      "summary": "<p><a href=\"https://osralliance.org/\">The OSRA</a>, in collaboration with our new Special Interest Group on Physical AI (SIG PAI), <a href=\"https://osralliance.org/ros-keeps-evolving-via-physical-ai-sig/\">just published a blog post that details their recent efforts, thought processes, and roadmap for the future of Physical AI and ROS</a>. <strong>W",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MoveIt Community Meeting: 2026/08/18",
+      "link": "https://discourse.openrobotics.org/t/moveit-community-meeting-2026-08-18/57492",
+      "summary": "<p>Hi all,</p>\n<p>I’m posting on behalf of <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/nathanbrooks\">@nathanbrooks</a> .</p>\n<p>Here’s <a href=\"https://docs.google.com/document/d/14YQIdjm7nqcrJfb6hbKYGFrep9PDVbnAY49U_XCO8yY/edit?tab=t.0#heading=h.vcra3ecashs8\" rel=\"noopener nofollow ugc\">meeting notes of today’s MoveIt community m",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Bagel 2.0: ask your rosbags questions in plain English, reduce them to the seconds that matter (open source)",
+      "link": "https://discourse.openrobotics.org/t/bagel-2-0-ask-your-rosbags-questions-in-plain-english-reduce-them-to-the-seconds-that-matter-open-source/57482",
+      "summary": "<p>A little over a  year ago <a class=\"mention\" href=\"https://discourse.openrobotics.org/u/shouheng\">@shouheng</a> and I launched Bagel here.</p>\n<p>We’ll we’re back with Bagel 2.0 <img alt=\":bagel:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/bagel.png?v=15\" title=\":bagel:\" width=\"20\" />!  And we’d love this community’s eye",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Missing px4_msgs from APT",
+      "link": "https://discourse.openrobotics.org/t/missing-px4-msgs-from-apt/57491",
+      "summary": "<p>The <a href=\"https://github.com/PX4/px4_msgs\" rel=\"noopener nofollow ugc\">px4_msgs</a> package takes a lot of time to compile. It would be nice to have it on APT.</p>\n<p>I’ve seen that it is actually built by the ROS2 buildfarm for Noble:</p>\n<aside class=\"onebox allowlistedgeneric\">\n  <header class=\"source\">\n      <img alt=\"\" class=\"site-icon\" ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "link": "https://openai.com/index/partnering-with-codeai",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "summary": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is <a href=\"https://huggingface.co/zai-org/GLM-5.2\">753B</a> and th",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Cursor launches Origin, GitHub alternative",
+      "link": "https://cursor.com/changelog/origin-code-hosting",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49334209\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Universal health coverage could save $1T and 114k lives a year: study",
+      "link": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49332981\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Norway Should Buy OpenAI",
+      "link": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49351330\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers Release 2026.8.18",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Drones With Claws Perch on Arctic Icebergs",
+      "link": "https://spectrum.ieee.org/arctic-iceberg-drones",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" ",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "FORT Robotics to take safety stack public via SPAC merger",
+      "link": "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
+      "summary": "<p>FORT Robotics said it expects valuation of more than $500 million as it lists on Nasdaq with plans to accelerate safety software development.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/\">FORT Robotics to take safety stack public via SPAC merger</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Unichem acquires Loomia to accelerate entry into the humanoid ‘skin’ market",
+      "link": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
+      "summary": "<p>Automotive suppliers Unichem and R&#038;Y are working with Loomia to develop tactile sensors for automotive and robotics applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/\">Unichem acquires Loomia to accelerate entry into the humanoid &#8216;skin&#8217; market</a> ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
+      "link": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
+      "summary": "<p>Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/\">Five years of operation shape Diligent Robotics rollout of Moxi 2.0</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

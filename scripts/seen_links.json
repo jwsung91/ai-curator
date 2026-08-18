@@ -1,24 +1,4 @@
 {
-  "2026-07-30": [
-    "https://discourse.openrobotics.org/t/chinese-legged-humanoids-banned-in-usa-what-are-the-alternatives/57040",
-    "https://discourse.openrobotics.org/t/package-xml-ament-rosdep-and-bloom-thoughts/57033",
-    "https://discourse.openrobotics.org/t/registration-for-roscon-uk-2026-is-open/57039",
-    "https://discourse.openrobotics.org/t/how-are-you-handling-firmware-updates-on-fleet-robots-without-bricking-one/57050",
-    "https://discourse.openrobotics.org/t/ros-deliberation-community-group-meeting-august-17-2026/57048",
-    "https://openai.com/index/chatgpt-for-academic-researchers",
-    "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-    "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
-    "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
-    "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-    "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-    "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
-    "https://status.claude.com/incidents/q2kg8n613kr3",
-    "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-    "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
-    "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
-    "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/"
-  ],
   "2026-07-31": [
     "https://discourse.openrobotics.org/t/proposal-rcl-executors-a-unified-canonical-reference-executor-package-for-all-client-libraries/57057",
     "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-build-ros2-org-scheduled-buildfarm-downtime/57073",
@@ -259,5 +239,24 @@
     "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
     "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
     "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/"
+  ],
+  "2026-08-19": [
+    "https://discourse.openrobotics.org/t/never-miss-a-backport-again-automatic-abi-checking-for-ros-2-core-repos-prototype-ready/57477",
+    "https://discourse.openrobotics.org/t/ros-keeps-evolving-via-physical-ai-sig/57495",
+    "https://discourse.openrobotics.org/t/moveit-community-meeting-2026-08-18/57492",
+    "https://discourse.openrobotics.org/t/bagel-2-0-ask-your-rosbags-questions-in-plain-english-reduce-them-to-the-seconds-that-matter-open-source/57482",
+    "https://discourse.openrobotics.org/t/missing-px4-msgs-from-apt/57491",
+    "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "https://openai.com/index/partnering-with-codeai",
+    "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+    "https://cursor.com/changelog/origin-code-hosting",
+    "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+    "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+    "https://spectrum.ieee.org/arctic-iceberg-drones",
+    "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
+    "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
+    "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/"
   ]
 }
