@@ -1,22 +1,4 @@
 {
-  "2026-07-31": [
-    "https://discourse.openrobotics.org/t/proposal-rcl-executors-a-unified-canonical-reference-executor-package-for-all-client-libraries/57057",
-    "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-build-ros2-org-scheduled-buildfarm-downtime/57073",
-    "https://discourse.openrobotics.org/t/looking-for-robotic-perception-and-autonomy-engineer-mid-to-senior-on-site-lynchburg-va/57074",
-    "https://discourse.openrobotics.org/t/how-do-you-understand-the-architecture-of-a-large-ros-2-workspace/57075",
-    "https://discourse.openrobotics.org/t/exploring-runtime-trust-and-authorization-patterns-for-ros2-based-autonomous-systems/57077",
-    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.4.9",
-    "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-    "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-    "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-    "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-    "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-    "https://obryant.dev/p/2x-not-10x/",
-    "https://www.ctgt.ai/research/distillation-censorship-transfer",
-    "https://www.therobotreport.com/5-physical-ai-infrastructure-platforms-shaping-robotics-in-2026/",
-    "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
-    "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/"
-  ],
   "2026-08-03": [
     "https://discourse.openrobotics.org/t/ros-2-realtime-support-package/57113",
     "https://discourse.openrobotics.org/t/uv-on-ros-2-a-field-report-on-workspace-level-virtual-environments-five-failure-modes-and-minimal-colcon-ament-proposals/57111",
@@ -258,5 +240,23 @@
     "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
     "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
     "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/"
+  ],
+  "2026-08-20": [
+    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-10/57506",
+    "https://discourse.openrobotics.org/t/virtulayer-a-gui-for-nav2-virtual-layer-plugin/57524",
+    "https://discourse.openrobotics.org/t/ros-2-inspector-static-architecture-analysis-and-visualization-for-ros-2-workspaces/57523",
+    "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-21st-surveying-ai-usage-in-ros-andrea-miller-cmu/57513",
+    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-08-19/57530",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.6-0",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.6-0",
+    "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "https://openai.com/index/replit",
+    "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+    "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
+    "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
+    "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/"
   ]
 }

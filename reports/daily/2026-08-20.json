@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T06:14:28+09:00",
+  "items": [
+    {
+      "title": "This Week at Open Robotics Headquarters (2026-08-10)",
+      "link": "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-10/57506",
+      "summary": "<p>ROSCon Global Preparations <img alt=\":high_voltage:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/high_voltage.png?v=15\" title=\":high_voltage:\" width=\"20\" />INTENSIFY​<img alt=\":high_voltage:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/high_voltage.png?v=15\" title=\":high_voltage:\" width=\"20\" />. We",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "VirtuLayer - A GUI for Nav2 Virtual Layer Plugin",
+      "link": "https://discourse.openrobotics.org/t/virtulayer-a-gui-for-nav2-virtual-layer-plugin/57524",
+      "summary": "<p>I’d like to share <strong>VirtuLayer</strong>, a web-based GUI I developed to simplify the configuration and usage of my <strong>Virtual Layer Plugin for Nav2</strong>.</p>\n<p>The Virtual Layer Plugin can be used to add virtual geometries to the Nav2 costmap. VirtuLayer provides a visual interface for creating these geometries on a map and gener",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS 2 Inspector — Static Architecture Analysis and Visualization for ROS 2 Workspaces",
+      "link": "https://discourse.openrobotics.org/t/ros-2-inspector-static-architecture-analysis-and-visualization-for-ros-2-workspaces/57523",
+      "summary": "<p>Hi everyone,</p>\n<p>I’ve been working on an open-source project called <strong>ROS 2 Inspector</strong>, aimed at making it easier to understand the architecture of an unfamiliar or large ROS 2 workspace before running it.</p>\n<p>The idea came from a problem I’ve repeatedly found interesting in ROS 2 projects:</p>\n<p>When documentation is incomp",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "SIG For Physical AI Meeting, August 21st: Surveying AI usage in ROS - Andrea Miller – CMU",
+      "link": "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-21st-surveying-ai-usage-in-ros-andrea-miller-cmu/57513",
+      "summary": "<p>This week the <a href=\"https://physical-ai.ros.org/\">ROS Special Interest Group for Physical AI</a> is happy to share that we will be hosting Andrea Miller from CMU to share her research on how people are using AI in robotics development. You may have seen one of her surveys earlier this year:</p>\n<aside class=\"quote quote-modified\">\n  <div clas",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "New Packages for Lyrical 2026-08-19",
+      "link": "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-08-19/57530",
+      "summary": "<p>We’re happy to announce <strong>104</strong> new packages and <strong>150</strong> updates are now available in ROS Lyrical. This sync was tagged as <a href=\"https://github.com/ros/rosdistro/blob/lyrical/2026-08-19/lyrical/distribution.yaml\" rel=\"noopener nofollow ugc\"><code>lyrical/2026-08-19</code></a>.</p>\n<p>Thank you to every maintainer and",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS Common 4.6.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.6-0",
+      "summary": "Merge pull request #243 from NVIDIA-ISAAC-ROS/release-4.6 Isaac ROS 4.6",
+      "source": "GitHub (Isaac ROS Common)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS NITROS 4.6.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.6-0",
+      "summary": "Merge pull request #77 from NVIDIA-ISAAC-ROS/release-4.6 Isaac ROS 4.6",
+      "source": "GitHub (Isaac ROS NITROS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "link": "https://openai.com/index/replit",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Extensible Software in the age of LLMs",
+      "link": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49363668\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v0.124.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
+      "summary": "0.124.0 (2026-08-19) Full Changelog: v0.123.0...v0.124.0 Features api: Files and Skills APIs are now GA; add computer use and browser use toolsets ( 9a09e84 )",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.15",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "summary": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in #17752 Full Changelog : v0.32.14...v0.32.15-rc1",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness",
+      "link": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
+      "summary": "<p>The talk at RoboBusiness will outline the unique demands of each body zone and the challenges of scaling for production.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/\">Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness</a> appeared first on <a ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
+      "link": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
+      "summary": "<p>Now that Unitree Robotics has made its IPO, which humanoid robotics companies will follow in its footsteps?</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/\">What does Unitree Robotics&#8217; IPO mean for the humanoid industry?</a> appeared first on <a href=\"https://www.therobotre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
+      "link": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
+      "summary": "<p>Serve's robot delivery will be available from more than 100 participating Grubhub merchants in Chicago and nearly 200 in Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/\">Serve Robotics to deploy its autonomous delivery robots with Grubhub</a> appeared first on <a hre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
