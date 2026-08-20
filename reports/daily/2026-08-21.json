@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-21",
+  "publishedAt": "2026-08-21T06:16:28+09:00",
+  "items": [
+    {
+      "title": "Preparing for Kilted sync 2026-08-21",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-08-21/57533",
+      "summary": "<p>There have been several new and updated packages in Kilted since it was released, and it’s time to sync those new features and fixes to the main apt and dnf repositories.</p>\n<p>There are currently <a href=\"http://repo.ros2.org/status_page/ros_kilted_default.html?q=REGRESSION\" rel=\"noopener nofollow ugc\">0 regressions</a> and <a href=\"http://rep",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "What VPN / networking solution do you use for ROS robots?",
+      "link": "https://discourse.openrobotics.org/t/what-vpn-networking-solution-do-you-use-for-ros-robots/57544",
+      "summary": "<p>For anyone running ROS across more than a single machine or LAN, how are you handling networking today?</p>\n<p>I’m particularly curious about setups where you need remote access to robots, ROS 1/ROS 2 communication across sites or subnets, or connectivity between robots and backend/fleet systems.</p>\n<p><strong>What do you use?</strong></p>\n\n<ul",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A runtime that sits between an LLM and physical actuation - Does this fit your use case?",
+      "link": "https://discourse.openrobotics.org/t/a-runtime-that-sits-between-an-llm-and-physical-actuation-does-this-fit-your-use-case/57536",
+      "summary": "<p>Hello all,</p>\n<p>I’ve built a working runtime (I call it xZane) that sits between an AI model and physical actuation. The model proposes intents; a deterministic layer validates each one against the device’s declared capabilities before anything reaches the hardware, and the device’s own safety function runs underneath, independent of the model",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotic arm gripper issue",
+      "link": "https://discourse.openrobotics.org/t/robotic-arm-gripper-issue/57538",
+      "summary": "<p>Hi I’m building a digital twin of my robotic arm. The physical robot is already built, and in ROS 2 simulation Joint 1–5 are working correctly.<br />\nI’m stuck with the gripper kinematic closed-loop. The left gear is driven by a servo, and the right gear should mimic it. Each gear drives its respective finger.<br />\nThe problem is the support li",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "A field guide + glossary for ROS 2 data in underwater vehicles, and a worked read of a real bag",
+      "link": "https://discourse.openrobotics.org/t/a-field-guide-glossary-for-ros-2-data-in-underwater-vehicles-and-a-worked-read-of-a-real-bag/57553",
+      "summary": "<p>I’ve been working through how AUV/ROV mission data is actually structured in ROS 2, and ended up writing two things that might be useful to others coming at marine robotics from the data side rather than the controls side.</p>\n<p><strong>A field guide to the data patterns</strong> — five structural patterns in how untethered vehicles record sona",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing AI Futures",
+      "link": "https://openai.com/index/introducing-ai-futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "link": "https://openai.com/index/stampli",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "link": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p>\n        <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p>\n<blockquote>\n<p><code>Put https://smolmach",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Jeremy Morrell",
+      "link": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+      "summary": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "link": "https://github.com/zachahn/vomit",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49375996\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Hacking with Claude on a $27 smart watch",
+      "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49374772\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.0.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+      "summary": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details ( 33e2967 ) Bug Fixes beta: stop warning about output_format= on the parse/stream/tool_runner helpers ( 59bf261 ) Chores streaming: restore the original event imports in lib/streaming/_types.py ( 87e9e01 ) Documentation examples: use adaptive ",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.32.15",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
+      "summary": "What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now normalized so non-leading system messages are handled consistently MLX and llama.cpp dependency updates New Contributors @gaugarg-nv made their first contribution in #17752 Full Chan",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "ATDev gives update on its journey building autonomous wheelchairs",
+      "link": "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
+      "summary": "<p>ATDev is developing a modern power wheelchair with a coordinated robotic arm that can take on reaching and lifting tasks for the user. </p>\n<p>The post <a href=\"https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/\">ATDev gives update on its journey building autonomous wheelchairs</a> appeared first on <a hre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agtonomy releases new autonomous multi-point turning features",
+      "link": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
+      "summary": "<p>Agtonomy has added autonomous multi-point turning and enhanced field data collection to its commercial off-road platform.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/\">Agtonomy releases new autonomous multi-point turning features</a> appeared first on <a href=\"https://www.",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
