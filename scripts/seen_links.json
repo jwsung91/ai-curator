@@ -1,20 +1,4 @@
 {
-  "2026-08-04": [
-    "https://discourse.openrobotics.org/t/localization-of-the-gazebo-documentation/57141",
-    "https://discourse.openrobotics.org/t/robotics-technical-support-engineer-san-francisco-ca/57119",
-    "https://discourse.openrobotics.org/t/interop-sig-06-august-2026-google-summer-of-code-for-open-rmf/57124",
-    "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-    "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-    "https://www.seangoedecke.com/llms-reward-expertise/",
-    "https://github.com/lyogavin/airllm",
-    "https://armature.tech/",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.95.0",
-    "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-    "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
-    "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
-    "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
-    "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/"
-  ],
   "2026-08-05": [
     "https://discourse.openrobotics.org/t/curobo-ros-v2-gpu-accelerated-motion-planning-wrapper-now-on-curobo-v0-8-0/57147",
     "https://discourse.openrobotics.org/t/boston-robot-hackers-announces-august-monthly-meeting/57148",
@@ -258,5 +242,25 @@
     "https://github.com/ollama/ollama/releases/tag/v0.32.15",
     "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
     "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/"
+  ],
+  "2026-08-24": [
+    "https://discourse.openrobotics.org/t/nvidia-jetson-debloating-guide/57606",
+    "https://discourse.openrobotics.org/t/release-gzsensormonitor-real-time-sensor-feedback-inside-gazebo-harmonic/57613",
+    "https://discourse.openrobotics.org/t/update-on-qerra-v2-adding-a-3rd-layer-thrive-for-social-and-ecological-action-choices-in-robotics/57614",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.3.13",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim11_11.0.0-pre1",
+    "https://github.com/ros2/rmw_cyclonedds/releases/tag/4.2.1",
+    "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+    "https://simonwillison.net/2026/Aug/22/llm/",
+    "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+    "https://simonwillison.net/2026/Aug/21/llm/",
+    "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "https://fabiensanglard.net/agent.md/index.html",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.98.0",
+    "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
+    "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+    "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/"
   ]
 }

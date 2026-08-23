@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-24",
+  "publishedAt": "2026-08-24T06:10:08+09:00",
+  "items": [
+    {
+      "title": "Nvidia jetson debloating guide",
+      "link": "https://discourse.openrobotics.org/t/nvidia-jetson-debloating-guide/57606",
+      "summary": "<p>does anyone know of like an nvidia jetson debloating guide that exists?</p>\n<p>I was just updating my jetson to the latest jetpack release and wanted to take a go at removing some of the massive amounts of bloat that nvidia ships with jetpack. I looked around and couldn’t find really many good guides on getting rid of some of the garbage they le",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Release] GzSensorMonitor – Real-Time Sensor Feedback Inside Gazebo Harmonic",
+      "link": "https://discourse.openrobotics.org/t/release-gzsensormonitor-real-time-sensor-feedback-inside-gazebo-harmonic/57613",
+      "summary": "<p>Hello ROS and Gazebo Community,</p>\n<p>We are happy to announce the release of GzSensorMonitor, an open-source plugin for Gazebo Harmonic that enables real-time visualization of simulated sensor feedback directly inside the Gazebo environment.</p>\n<p>When working with simulated robots, sensor data is commonly inspected using external visualizati",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Update on QERRA-v2: Adding a 3rd layer (THRIVE) for social and ecological action choices in robotics",
+      "link": "https://discourse.openrobotics.org/t/update-on-qerra-v2-adding-a-3rd-layer-thrive-for-social-and-ecological-action-choices-in-robotics/57614",
+      "summary": "<p>Hi everyone, <img alt=\":slightly_smiling_face:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/slightly_smiling_face.png?v=15\" title=\":slightly_smiling_face:\" width=\"20\" /></p>\n<p>A quick update on my previous post about QERRA-v2.</p>\n<p>Over the last few weeks, I’ve been working on the third layer of the system — <strong>QE",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Nav2 1.3.13",
+      "link": "https://github.com/ros-navigation/navigation2/releases/tag/1.3.13",
+      "summary": "Jazzy sync",
+      "source": "GitHub (Nav2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo gz-sim11_11.0.0-pre1: Fix graded buoyancy for rotated collision shapes (#3880)",
+      "link": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim11_11.0.0-pre1",
+      "summary": "Assisted-by: Claude Fable 5 noreply@anthropic.com Signed-off-by: Carlos Agüero caguero@honurobotics.com",
+      "source": "GitHub (Gazebo)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_cyclonedds 4.2.1",
+      "link": "https://github.com/ros2/rmw_cyclonedds/releases/tag/4.2.1",
+      "summary": "4.2.1",
+      "source": "GitHub (rmw_cyclonedds)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "summary": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p>\nA few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p>\n<ul>\n<li>Anthropic's \"annualized revenue\" for July is up to $65bn - it ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.33",
+      "link": "https://simonwillison.net/2026/Aug/22/llm/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p>\n        <p>My highlights from this release:</p>\n<blockquote>\n<ul>\n<li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "More than just code review",
+      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "summary": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p>\n<p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeball",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.32.1",
+      "link": "https://simonwillison.net/2026/Aug/21/llm/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p>\n        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-openrouter 0.7",
+      "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p>\n        <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p>\n<blockquote>\n<ul",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "link": "https://fabiensanglard.net/agent.md/index.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49410932\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+      "summary": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume ",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.98.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.98.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.98.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Use a digital twin to explore automation before committing capital",
+      "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
+      "summary": "<p>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK.</p>\n<p>The post <a href=\"https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/\">Use a digital twin to explore automation before committing capital</a> appear",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Robots don’t run themselves: The workforce powering physical AI",
+      "link": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+      "summary": "<p>The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/\">Robots don&#8217;t run themselves: The workforce powering physical AI</a> appeared first ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The technology that could bring robot mowers to one in two American lawns",
+      "link": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+      "summary": "<p>Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/\">The technology that could bring robot mowers to one in two American lawns</a> appeared f",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
