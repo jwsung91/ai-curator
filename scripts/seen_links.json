@@ -1,26 +1,4 @@
 {
-  "2026-08-05": [
-    "https://discourse.openrobotics.org/t/curobo-ros-v2-gpu-accelerated-motion-planning-wrapper-now-on-curobo-v0-8-0/57147",
-    "https://discourse.openrobotics.org/t/boston-robot-hackers-announces-august-monthly-meeting/57148",
-    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-07-27/57158",
-    "https://discourse.openrobotics.org/t/ros2-cuda-ipc-zero-copy-gpu-data-sharing-between-ros-2-processes/57157",
-    "https://discourse.openrobotics.org/t/announcing-protoros2-use-protobuf-in-ros2-without-compromise/57152",
-    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.0",
-    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-    "https://openai.com/index/learn-teach-chatgpt-work-codex",
-    "https://openai.com/index/apple-is-getting-this-wrong",
-    "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-    "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-    "https://edotenv.com/",
-    "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
-    "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
-    "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
-    "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
-    "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
-    "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
-    "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
-  ],
   "2026-08-06": [
     "https://discourse.openrobotics.org/t/last-day-to-purchase-regular-price-roscon-global-tickets-is-monday-august-24th/57162",
     "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-07/57195",
@@ -262,5 +240,19 @@
     "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
     "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
     "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/"
+  ],
+  "2026-08-25": [
+    "https://discourse.openrobotics.org/t/ros2-pulse-per-topic-rates-and-node-liveness-including-intra-process-on-stock-binaries/57637",
+    "https://discourse.openrobotics.org/t/running-next-generation-lerobot-policies-using-lerobot-robot-ros2-zenoh-sdk/57625",
+    "https://discourse.openrobotics.org/t/aeron-systems-pollux-3-ins-integration-with-ros2-for-autonomous-robotics/57639",
+    "https://openai.com/index/gpt-5-6-in-kiro",
+    "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+    "https://github.com/l3a0/claude-plugins",
+    "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "https://picomq.com/",
+    "https://spectrum.ieee.org/video-friday-unitree-superhuman",
+    "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+    "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+    "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
   ]
 }

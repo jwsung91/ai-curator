@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-25",
+  "publishedAt": "2026-08-25T06:17:08+09:00",
+  "items": [
+    {
+      "title": "Ros2_pulse: per-topic rates and node liveness, including intra-process, on stock binaries",
+      "link": "https://discourse.openrobotics.org/t/ros2-pulse-per-topic-rates-and-node-liveness-including-intra-process-on-stock-binaries/57637",
+      "summary": "<p>I run a ROS 2 planner stack on a Jetson AGX Orin and kept hitting the same wall: I want to know whether every topic is flowing at the rate it should and which nodes are alive, and the stock tools could not tell me without changing the system under test.</p>\n<p>So I measured what watching a topic actually costs, and then built a probe that avoids",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Running Next-Generation LeRobot Policies using lerobot-robot-ros2-zenoh SDK",
+      "link": "https://discourse.openrobotics.org/t/running-next-generation-lerobot-policies-using-lerobot-robot-ros2-zenoh-sdk/57625",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=lZhRQvXYnh8\">AI MANIPULATOR #13: Running Next-Generation LeRobot Policies on OMY</a></p>\n\n<p>How can we quickly bring the latest robot learning models from the Hugging Face LeRobot ecosystem to real robots?</p>\n<p>That question drove our latest hands-on experiment.</p>\n<p>Using our open-source lerobot-rob",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Aeron Systems Pollux 3 INS Integration with ROS2 for Autonomous Robotics",
+      "link": "https://discourse.openrobotics.org/t/aeron-systems-pollux-3-ins-integration-with-ros2-for-autonomous-robotics/57639",
+      "summary": "<p>Aeron Systems has developed a dedicated <strong>ROS 2 driver for Pollux 3 (PLX3-N), a GNSS-aided Inertial Navigation System (INS)</strong> designed to support autonomous robots, UAVs and UGVs. The integration enables reliable, continuous navigation data for increasingly advanced autonomous platforms.</p>\n<p>Autonomous systems depend on accurate ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-anthropic 0.27",
+      "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p>\n        <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
+      "link": "https://github.com/l3a0/claude-plugins",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49424758\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "link": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49424387\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "link": "https://picomq.com/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49421806\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
+      "link": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+      "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+      "summary": "<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/\">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href=\"https://www.therobotreport",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "summary": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why?  Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agent to run peer comparisons and model valuations, then synthesizes ever",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
