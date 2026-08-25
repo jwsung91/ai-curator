@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-26",
+  "publishedAt": "2026-08-26T06:15:32+09:00",
+  "items": [
+    {
+      "title": "Next-Gen Open-RMF Traffic Management",
+      "link": "https://discourse.openrobotics.org/t/next-gen-open-rmf-traffic-management/57646",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-117240-next-gen-open-rmf-traffic-management-1\" name=\"p-117240-next-gen-open-rmf-traffic-management-1\"></a>Next-Gen Open-RMF Traffic Management</h1>\n<p>GSoC 2026, Open Robotics</p>\n<p><strong>Project repository:</strong> <a href=\"https://github.com/open-rmf/next_gen_prototype\" rel=\"noo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Regular Price ROSCon Tickets Extended until August 27th",
+      "link": "https://discourse.openrobotics.org/t/regular-price-roscon-tickets-extended-until-august-27th/57652",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/f/c/fc5d59c6d86b47a8f929ca962a48982599cdc4a3.png\" title=\"Toronto_LOGO_RGB\"><img alt=\"Toronto_LOGO_RGB\" height=\"79\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/f/c/fc5d59c6d86b47a8f929ca962a48982599cdc4a",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[Announcement] ROS2 Visual Servoing Controllers",
+      "link": "https://discourse.openrobotics.org/t/announcement-ros2-visual-servoing-controllers/57661",
+      "summary": "<p>Hello ROS community!</p>\n<p>Over the past few months, I have been working on the visual_servoing_controllers repository, a set of controllers for Visual Servoing tasks in ROS2 Jazzy. Specifically, it includes a Position-Based Visual Servoing and an Image-Based Visual Servoing controller. The controllers include an action server providing a param",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Open Source Mech integrated with ROS Noetic",
+      "link": "https://discourse.openrobotics.org/t/open-source-mech-integrated-with-ros-noetic/57645",
+      "summary": "<p>This summer I completed a 9-year project building a human-sized mech with four arms and mecanum wheels.</p>\n<p><a href=\"https://www.youtube.com/watch?v=9n-nx7LwbT4\">Striker: an Open Source Drumming Mech</a></p>\n\n<p>I exhibited the robot at Open Sauce in San Mateo, California and Teardown in Portland, Oregon.</p>\n<p>You might find the custom boar",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for August 18th, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-18th-2026/57664",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, August 18, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>.</",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "The full stack behind abundant intelligence",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "link": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49434378\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
+      "summary": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume ",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+      "link": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&amp;width=1245&amp;height=700&amp;coordinates=0%2C260%2C0%2C261\" /><br /><br /><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 20",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
+      "link": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+      "summary": "<p>Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.</p>\n<p>The post <a href=\"https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/\">Early bird pricing for RoboBusiness 2026 ends August 31</a> appeared first on <a href=\"https://www.therobotreport.com\">",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Humans in the loop are still needed for robotaxi fleet safety, says Guident",
+      "link": "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
+      "summary": "<p>As fleets of autonomous vehicles scale, AI and human oversight remain critical for safety, explains Guident's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/\">Humans in the loop are still needed for robotaxi fleet safety, says Guident</a> appeared first on <a href=\"htt",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA",
+      "link": "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/",
+      "summary": "<p>With Jetson Orin Nano 2, NVIDIA says that frontier intelligence has reached the edge and can now run in real time.</p>\n<p>The post <a href=\"https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/\">Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

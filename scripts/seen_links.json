@@ -1,21 +1,4 @@
 {
-  "2026-08-06": [
-    "https://discourse.openrobotics.org/t/last-day-to-purchase-regular-price-roscon-global-tickets-is-monday-august-24th/57162",
-    "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-07/57195",
-    "https://discourse.openrobotics.org/t/stop-making-powerpoint-presentations-come-build-brains-for-robots-with-unlimited-snacks-and-coffee-unomove-is-hiring-top-talent/57185",
-    "https://discourse.openrobotics.org/t/nav2-zigzag-navigation-in-a-large-road-environment-with-isaac-sim-rviz-localization-gradually-diverges-from-the-simulator/57184",
-    "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-    "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
-    "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
-    "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-    "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
-    "https://sagredo.dev/projects/sula/",
-    "https://data4sci.com/blog/building-an-advanced-agentic-harness",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.6",
-    "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
-    "https://www.therobotreport.com/gam-enterprises-to-produce-schaefflers-psc-gear-reducers/",
-    "https://www.therobotreport.com/university-of-florida-opens-new-robotics-lab-dedicated-to-industrialized-construction/"
-  ],
   "2026-08-07": [
     "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-7th-with-encord/57199",
     "https://discourse.openrobotics.org/t/gsoc-2026-ros-2-client-library-performance-monitoring-midterm-progress-update/57204",
@@ -254,5 +237,21 @@
     "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
     "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
     "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
+  ],
+  "2026-08-26": [
+    "https://discourse.openrobotics.org/t/next-gen-open-rmf-traffic-management/57646",
+    "https://discourse.openrobotics.org/t/regular-price-roscon-tickets-extended-until-august-27th/57652",
+    "https://discourse.openrobotics.org/t/announcement-ros2-visual-servoing-controllers/57661",
+    "https://discourse.openrobotics.org/t/open-source-mech-integrated-with-ros-noetic/57645",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-18th-2026/57664",
+    "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "https://openai.com/index/jalapeno-first-results",
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+    "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
+    "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+    "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+    "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
+    "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/"
   ]
 }
