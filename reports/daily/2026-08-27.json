@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-27",
+  "publishedAt": "2026-08-27T09:19:14+09:00",
+  "items": [
+    {
+      "title": "Meet Booster T2: An Open Humanoid Platform for Embodied AI Development",
+      "link": "https://discourse.openrobotics.org/t/meet-booster-t2-an-open-humanoid-platform-for-embodied-ai-development/57683",
+      "summary": "<p>We’re excited to introduce Booster T2, our flagship humanoid development platform for robotics researchers and developers.</p>\n<p>T2 is designed to support work across:</p>\n<ul>\n<li>\n<p>Whole-body locomotion and control</p>\n</li>\n<li>\n<p>Mobile manipulation and dexterous-hand research</p>\n</li>\n<li>\n<p>Perception, navigation, and human–robot int",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Suggestion: Free-look camera control",
+      "link": "https://discourse.openrobotics.org/t/suggestion-free-look-camera-control/57672",
+      "summary": "<p>When using a 360° skybox as the scene background, the view is only geometrically correct at the capture center. Gazebo’s current orbit control moves the camera around a clicked point.</p>\n<p>It would be very useful to add a shortcut, such as holding a key while dragging the mouse, to rotate yaw and pitch while keeping the camera position fixed.<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Interop SIG, 03 September 2026: Discrete Event Simulation (DES) in Bevy",
+      "link": "https://discourse.openrobotics.org/t/interop-sig-03-september-2026-discrete-event-simulation-des-in-bevy/57674",
+      "summary": "<p><a href=\"https://meet.google.com/nyz-isrs-kzz\" rel=\"noopener nofollow ugc\">Meeting Link</a></p>\n<p><a href=\"https://calendar.google.com/calendar/u/0/embed?src=agf3kajirket8khktupm9go748@group.calendar.google.com\" rel=\"noopener nofollow ugc\">Calendar Link</a></p>\n<p><span class=\"discourse-local-date\">Thu, Sep 24, 2026 3:00 PM UTC</span></p>\n<p>At",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Friendly ROS 2 Humble integration for controlling FANUC robots through fanucpy/MAPPDK. Includes robot state, teleoperation, I/O, TP programs, RViz2 visualization, and MoveIt 2 execution.",
+      "link": "https://discourse.openrobotics.org/t/friendly-ros-2-humble-integration-for-controlling-fanuc-robots-through-fanucpy-mappdk-includes-robot-state-teleoperation-i-o-tp-programs-rviz2-visualization-and-moveit-2-execution/57682",
+      "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-117296-fanucpy_ros2-a-ros-2-interface-tested-with-an-older-fanuc-r-30ia-mate-controller-1\" name=\"p-117296-fanucpy_ros2-a-ros-2-interface-tested-with-an-older-fanuc-r-30ia-mate-controller-1\"></a>fanucpy_ros2: A ROS 2 interface tested with an older FANUC R-30iA Mate controller</h1>\n<p>H",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Bridging the Gap: A Dockerized ROS 1 Noetic ↔ ROS 2 Jazzy Bridge (Ubuntu 24.04) for Gradual Migration",
+      "link": "https://discourse.openrobotics.org/t/bridging-the-gap-a-dockerized-ros-1-noetic-ros-2-jazzy-bridge-ubuntu-24-04-for-gradual-migration/57681",
+      "summary": "<p>Hi ROS Community!</p>\n<p>I want to share an open-source project I’ve been working on that solves a very real, very painful business problem: <strong>Migrating massive legacy ROS 1 robotics systems to ROS 2.</strong></p>\n<p>Like many companies, we realized that rewriting our entire historic ROS 1 codebase to ROS 2 all at once would be financially",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "summary": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p>\nAnother open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p>\n<p>It's pretty big: 125B tokens, but only 6B active which means it gets a pretty big performance bo",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies",
+      "link": "https://www.risklytics.ai/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49451495\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.1.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+      "summary": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) ( eb4a73f ) api: add missing anthropic-beta values ( dbebd15 ) api: add support for Organization API endpoints ( 5a5b8fc ) Bug Fixes docs: correct link for long requests error ( #1884 ) ( 4474f31 ), closes #1883 tools: keep the tool runner going on pause_turn ( #343 ) ( ab1ec60 ) Chores docs: clarify skill version latest support and memory version retention ( a754f3b ) internal: cancel super",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.1",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+      "summary": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in #17948 Full Changelog : v0.33.0...v0.33.1",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gatik brings in $200M to continue expanding autonomous trucking operations",
+      "link": "https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/",
+      "summary": "<p>Gatik said the funding will help it expand its model built around high-frequency regional routes connecting distribution centers and stores.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/\">Gatik brings in $200M to continue expanding autonomous trucking operations",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras",
+      "link": "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
+      "summary": "<p>IDS said Nion is suitable for applications where precise 3D data is required at real-world process speeds, such as logistics and robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/\">IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras</a> appeared first on <a href=\"",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Bedrock Robotics’ first operator-free excavator deployments take off",
+      "link": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
+      "summary": "<p>Bedrock Robotics deploys autonomous excavators to active job sites, tackling construction labor shortages with AI-powered heavy machinery.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/\">Bedrock Robotics&#8217; first operator-free excavator deployments take off</a> app",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "link": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "summary": "The next wave of AI is placing new demands on infrastructure.  As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the nex",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

@@ -1,25 +1,4 @@
 {
-  "2026-08-07": [
-    "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-7th-with-encord/57199",
-    "https://discourse.openrobotics.org/t/gsoc-2026-ros-2-client-library-performance-monitoring-midterm-progress-update/57204",
-    "https://discourse.openrobotics.org/t/physical-ai-open-source-platform-cyclo/57201",
-    "https://discourse.openrobotics.org/t/rosbag-resurrector-a-pandas-like-analysis-ml-export-workbench-for-ros-2-bags/57209",
-    "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260807",
-    "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-    "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-    "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
-    "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
-    "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
-    "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
-    "https://www.aleksagordic.com/blog/vllm",
-    "https://artificialanalysis.ai/?intelligence=agentic-index",
-    "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
-    "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
-    "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
-    "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
-  ],
   "2026-08-10": [
     "https://discourse.openrobotics.org/t/open-source-fire-simulation-plugin-for-gazebo-harmonic/57257",
     "https://discourse.openrobotics.org/t/mppi-controller-cuda-cuda-accelerated-mppi-local-planner-for-ros1-ros2/57260",
@@ -253,5 +232,24 @@
     "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
     "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
     "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/"
+  ],
+  "2026-08-27": [
+    "https://discourse.openrobotics.org/t/meet-booster-t2-an-open-humanoid-platform-for-embodied-ai-development/57683",
+    "https://discourse.openrobotics.org/t/suggestion-free-look-camera-control/57672",
+    "https://discourse.openrobotics.org/t/interop-sig-03-september-2026-discrete-event-simulation-des-in-bevy/57674",
+    "https://discourse.openrobotics.org/t/friendly-ros-2-humble-integration-for-controlling-fanuc-robots-through-fanucpy-mappdk-includes-robot-state-teleoperation-i-o-tp-programs-rviz2-visualization-and-moveit-2-execution/57682",
+    "https://discourse.openrobotics.org/t/bridging-the-gap-a-dockerized-ros-1-noetic-ros-2-jazzy-bridge-ubuntu-24-04-for-gradual-migration/57681",
+    "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "https://openai.com/index/learning-never-stops",
+    "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+    "https://www.risklytics.ai/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+    "https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/",
+    "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
+    "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
+    "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
   ]
 }
