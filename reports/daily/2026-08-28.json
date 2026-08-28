@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-28",
+  "publishedAt": "2026-08-28T13:59:40+09:00",
+  "items": [
+    {
+      "title": "Bringing ROS into your native C/C++ workflow with Conan",
+      "link": "https://discourse.openrobotics.org/t/bringing-ros-into-your-native-c-c-workflow-with-conan/57697",
+      "summary": "<p>Hi ROS community!</p>\n<p>I am Dani, a member of the <a href=\"https://conan.io\" rel=\"noopener nofollow ugc\">Conan C/C++ Package Manager</a> team, and we would like to introduce <a href=\"https://github.com/conan-io/ros-conan\" rel=\"noopener nofollow ugc\">conan-io/ros-conan</a>: a collection of Conan recipes for installing and consuming ROS Kilted o",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "tecgihan_driver 0.3.0 not syncing to main repo for Jazzy (Ubuntu Noble)",
+      "link": "https://discourse.openrobotics.org/t/tecgihan-driver-0-3-0-not-syncing-to-main-repo-for-jazzy-ubuntu-noble/57701",
+      "summary": "<p>Hello,</p>\n<p>I’m the maintainer of the tecgihan_driver package. The 0.3.0 release for Jazzy<br />\ndoes not appear to have synced to the main apt repository, even though the<br />\nbinary build succeeded over a week ago.</p>\n<p>Package: tecgihan_driver<br />\nDistro: Jazzy (Ubuntu Noble, amd64)</p>\n<p>Build status:</p>\n<ul>\n<li>\n<p>Jbin_uN64__tecg",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Micipsa - ROS2 Jazzy Autonomous Mobile Robot",
+      "link": "https://discourse.openrobotics.org/t/micipsa-ros2-jazzy-autonomous-mobile-robot/57702",
+      "summary": "<p>Hi,</p>\n<p>I’ve been working in my free time on a side project called <a href=\"https://micipsa.netlify.app\" rel=\"noopener nofollow ugc\">Micipsa</a>, a 4-wheel autonomous mobile robot meant to serve as an educational or prototype base robot.</p>\n<div class=\"d-image-grid\">\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "first VIO demo: global-shutter camera + IMU streamed over one GMSL2 coax, mapped live in ROS 2",
+      "link": "https://discourse.openrobotics.org/t/first-vio-demo-global-shutter-camera-imu-streamed-over-one-gmsl2-coax-mapped-live-in-ros-2/57700",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/f/4/f48c4aefa219ece294b0880ff1c85426a109e687.jpeg\" rel=\"noopener nofollow ugc\" title=\"2026-08-27 16.15.05\"><img alt=\"2026-08-27 16.15.05\" height=\"437\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/f/4/f4",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "summary": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p>\nAnthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini-3.5-Transcribe",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49468818\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+      "link": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49473522\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "link": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49471714\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.2.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign raw request bytes so binary file uploads work ( #531 ) ( f50e910 ) ci: resolve assignment aliases in detect-breaking-changes ( f2c4925 ) sessions: make event accumulator forward-compatible with new event types ( #533 ) ( cbbaf6e ) tools: let read return a view_range of a file over the size cap ( #538 ) ( b68e876 ) tools: ",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+      "summary": "What's Changed app: restore system dark mode by @hoyyeva in #18049 proxy: continue requests when the model catalog changes by @ParthSareen in #18058 app: synchronize macOS app handoff by @ParthSareen in #18056 Full Changelog : v0.33.1...v0.33.2-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Teradyne Robotics ramps up fight against cobot copycats",
+      "link": "https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/",
+      "summary": "<p>Teradyne Robotics sued cobot maker JAKA over alleged patent infringement, marking its second battle with a Chinese cobot company in 2026.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/\">Teradyne Robotics ramps up fight against cobot copycats</a> appeared first on <a href=\"https://www.t",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NSF to invest $90M into three new technology centers, including one focused on robotics",
+      "link": "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
+      "summary": "<p>One of the new NSF funded centers will be the Center for Human and Robot Co-Adaptation, led by The University of Texas at Austin.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/\">NSF to invest $90M into three new technology centers, including one focused on robo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
+      "link": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
+      "summary": "<p>Carbon Robotics introduced a plant foundation AI model and tractor kit, enabling farmers to customize laser weeding.</p>\n<p>The post <a href=\"https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/\">Carbon Robotics partners with iMerit to power instant in-field AI customization</a> appeared",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "summary": "NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at scale.",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

@@ -1,23 +1,4 @@
 {
-  "2026-08-10": [
-    "https://discourse.openrobotics.org/t/open-source-fire-simulation-plugin-for-gazebo-harmonic/57257",
-    "https://discourse.openrobotics.org/t/mppi-controller-cuda-cuda-accelerated-mppi-local-planner-for-ros1-ros2/57260",
-    "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-    "https://openai.com/index/hsp-gruppe",
-    "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
-    "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
-    "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
-    "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
-    "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-    "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-    "https://openchamber.dev/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.94.2",
-    "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
-    "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
-    "https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/",
-    "https://www.therobotreport.com/building-robots-that-survive-warehouse/"
-  ],
   "2026-08-11": [
     "https://discourse.openrobotics.org/t/exploring-a-human-reviewed-ros-2-agentic-pipeline-generator/57268",
     "https://discourse.openrobotics.org/t/ros2-test-compose-a-yaml-to-pytest-generator-for-ros2-integration-testing/57280",
@@ -251,5 +232,25 @@
     "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
     "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
     "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+  ],
+  "2026-08-28": [
+    "https://discourse.openrobotics.org/t/bringing-ros-into-your-native-c-c-workflow-with-conan/57697",
+    "https://discourse.openrobotics.org/t/tecgihan-driver-0-3-0-not-syncing-to-main-repo-for-jazzy-ubuntu-noble/57701",
+    "https://discourse.openrobotics.org/t/micipsa-ros2-jazzy-autonomous-mobile-robot/57702",
+    "https://discourse.openrobotics.org/t/first-vio-demo-global-shutter-camera-imu-streamed-over-one-gmsl2-coax-mapped-live-in-ros-2/57700",
+    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "https://openai.com/index/expanding-our-presence-in-brazil",
+    "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+    "https://github.com/calmrocks/ai-engineer-notebooks",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+    "https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/",
+    "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
+    "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
+    "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
   ]
 }
