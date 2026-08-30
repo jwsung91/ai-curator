@@ -1,21 +1,4 @@
 {
-  "2026-08-11": [
-    "https://discourse.openrobotics.org/t/exploring-a-human-reviewed-ros-2-agentic-pipeline-generator/57268",
-    "https://discourse.openrobotics.org/t/ros2-test-compose-a-yaml-to-pytest-generator-for-ros2-integration-testing/57280",
-    "https://discourse.openrobotics.org/t/advice-on-breaking-into-us-robotics-embedded-industry-as-a-us-citizen-with-no-us-history/57265",
-    "https://discourse.openrobotics.org/t/robotics-student-perception-systems-question/57266",
-    "https://discourse.openrobotics.org/t/some-knowledge-about-ros/57267",
-    "https://openai.com/index/responsible-ai-infrastructure-texas",
-    "https://openai.com/index/model-ml",
-    "https://openai.com/index/building-an-ai-native-finance-function",
-    "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-    "https://cactuscompute.com/needle",
-    "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
-    "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.7",
-    "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
-    "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/"
-  ],
   "2026-08-12": [
     "https://discourse.openrobotics.org/t/properly-close-windows-processes-discussion-about-implementation/57308",
     "https://discourse.openrobotics.org/t/rostree-v1-0-0-explore-your-ros-2-dependency-graph-from-the-terminal-or-in-your-browser/57315",
@@ -252,5 +235,17 @@
     "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
     "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
     "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+  ],
+  "2026-08-31": [
+    "https://github.com/moveit/moveit2/releases/tag/2.15.1",
+    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "https://simonwillison.net/2026/Aug/29/hy4/",
+    "https://academa.ai/",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.2",
+    "https://spectrum.ieee.org/video-friday-microduck-robot",
+    "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
+    "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
+    "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/"
   ]
 }
