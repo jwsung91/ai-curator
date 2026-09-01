@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-01",
+  "publishedAt": "2026-09-01T09:10:06+09:00",
+  "items": [
+    {
+      "title": "Zulip hits 1000 Open Roboticists!",
+      "link": "https://discourse.openrobotics.org/t/zulip-hits-1000-open-roboticists/57768",
+      "summary": "<p>It’s been less than a year since <a href=\"https://discourse.openrobotics.org/t/open-robotics-launches-zulip-chat-server/50673\">we announced the Open Robotics Zulip chat server</a> and as of last Friday it’s already reached 1000 members!</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploa",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Embodied-sync: Synchronize, calibrate, align, and validate multimodal robot-learning data across sensors, clocks, live sessions, and recordings",
+      "link": "https://discourse.openrobotics.org/t/embodied-sync-synchronize-calibrate-align-and-validate-multimodal-robot-learning-data-across-sensors-clocks-live-sessions-and-recordings/57766",
+      "summary": "<aside class=\"onebox githubrepo\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/anicut-ai/embodied-sync\" rel=\"noopener nofollow ugc\" target=\"_blank\">github.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"github-row\">\n  <img class=\"thumbnail\" height=\"344\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/opti",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "[GSoC 2026] QA of Reset of Core Systems",
+      "link": "https://discourse.openrobotics.org/t/gsoc-2026-qa-of-reset-of-core-systems/57775",
+      "summary": "<p><strong>[GSoC 2026] QA of Reset of Core Systems</strong></p>\n<p>Organization: Open Robotics<br />\nMentors: Arjo Chakravarty (<a href=\"https://github.com/arjo129\" rel=\"noopener nofollow ugc\">@arjo129</a>)<br />\nStudent: Yimo (<a href=\"https://github.com/XINJIANGMO\" rel=\"noopener nofollow ugc\">GitHub</a>)<br />\nProject page: <a href=\"https://githu",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Humanoid Robotics Use In Manufacturing",
+      "link": "https://discourse.openrobotics.org/t/humanoid-robotics-use-in-manufacturing/57784",
+      "summary": "<p>Hello,</p>\n<p>I am looking for anyone that has implemented a humanoid robot into their manufacturing facility. I would like to discuss the use cases, safety topics, successes, failures and any other information that would make my decision more informed. I have tried reaching out to several manufacturers to setup a meeting to discuss these topics",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Remote Teleop for arms",
+      "link": "https://discourse.openrobotics.org/t/remote-teleop-for-arms/57788",
+      "summary": "<p>Today we are announcing the addition of two new control modalities to our Remote Teleop capability: VR controllers and mouse gestures. With these you can now control arms, mobile bases, or both at the same time, from anywhere in the world. This is useful both for continuous data collection as well as on-demand intervention on deployed robots.</p",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 33.1.0",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/33.1.0",
+      "summary": "33.1.0",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "link": "https://openai.com/index/polimill",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing wrapture",
+      "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "summary": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p>\nNew from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Understanding ChatGPT Work",
+      "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "summary": "<p>OpenAI <a href=\"https://openai.com/index/chatgpt-for-your-most-ambitious-work/\">announced ChatGPT Work</a> on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.</p>\n<h4 id=\"two-products\">ChatGPT Work is actually two products</h4",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude × retrocomputing: emulating a QIC-117 tape drive",
+      "link": "https://dmitrybrant.com/2026/08/23/claude-x-retrocomputing-emulating-a-qic-117-tape-drive",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49424322\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP Servers Release 2026.8.31",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31 @modelcontextprotocol/server-sequential-thinking@2026.8.31 @modelcontextprotocol/server-everything@2026.8.31",
+      "source": "GitHub (MCP Servers)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Skild AI unveils S1 flagship robot foundation model",
+      "link": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
+      "summary": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeared first on <a href=\"https://www.therobotreport.com",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "How better grippers can unlock physical AI",
+      "link": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
+      "summary": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better grippers can unlock physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
+      "link": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/",
+      "summary": "<p>Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/\">Reframe Systems raises $40M to scale its robotic microfactories for home building</a> appeared first on <a hre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
