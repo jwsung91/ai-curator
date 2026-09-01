@@ -1,25 +1,4 @@
 {
-  "2026-08-13": [
-    "https://discourse.openrobotics.org/t/how-do-you-simulate-latency/57337",
-    "https://discourse.openrobotics.org/t/paid-contract-robotics-engineer-household-manipulation-prototype-hamilton-canada-hybrid/57329",
-    "https://discourse.openrobotics.org/t/analyzing-rosbags-with-llms-and-sql-queryable-nav2-behavior-trees/57339",
-    "https://discourse.openrobotics.org/t/i-built-a-3d-printed-tracked-robot-using-arduino-mega-raspberry-pi-and-opencv-looking-for-feedback/57352",
-    "https://discourse.openrobotics.org/t/roboparts-structured-dataset-selection-engine-for-bionic-robot-components/57350",
-    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.1",
-    "https://github.com/moveit/moveit2/releases/tag/2.15.0",
-    "https://openai.com/index/how-enterprises-put-ai-to-work",
-    "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-    "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-    "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
-    "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-    "https://knownagents.com/insights",
-    "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.96.2",
-    "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
-    "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-    "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/"
-  ],
   "2026-08-14": [
     "https://discourse.openrobotics.org/t/want-to-get-involved-with-ros-2-come-to-waffle/57362",
     "https://discourse.openrobotics.org/t/ros-meet-up-stockholm-nordic-tech-week-september-8th/57373",
@@ -244,5 +223,26 @@
     "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
     "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
     "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"
+  ],
+  "2026-09-02": [
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-1st-2026/57808",
+    "https://discourse.openrobotics.org/t/upcoming-webinar-on-using-ouster-colored-lidar/57811",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-08-31/57806",
+    "https://github.com/moveit/moveit2/releases/tag/2.5.10",
+    "https://github.com/ros2/rclpy/releases/tag/11.0.3",
+    "https://openai.com/index/ai-native-company-workflows",
+    "https://openai.com/index/path-to-astra",
+    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "https://mvakde.github.io/blog/44-on-arc-1/",
+    "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.99.0",
+    "https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/",
+    "https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/",
+    "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
+    "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/"
   ]
 }

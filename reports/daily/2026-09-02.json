@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-02T07:52:44+09:00",
+  "items": [
+    {
+      "title": "ROS PMC Minutes for September 1st, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-1st-2026/57808",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, September 1, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Upcoming webinar on using Ouster Colored Lidar",
+      "link": "https://discourse.openrobotics.org/t/upcoming-webinar-on-using-ouster-colored-lidar/57811",
+      "summary": "<p>Following on the previous announcement from Ouster about its first colored lidar</p>\n<aside class=\"quote quote-modified\">\n  <div class=\"title\">\n    <div class=\"quote-controls\"></div>\n    <img alt=\"\" class=\"avatar\" height=\"24\" src=\"https://sea2.discourse-cdn.com/flex022/user_avatar/discourse.openrobotics.org/samahu/48/18509_2.png\" width=\"24\" />\n ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Gazebo PMC Meeting Minutes 2026-08-31",
+      "link": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-08-31/57806",
+      "summary": "<p>Hi Gazebo Community!</p>\n<p>This week’s meeting was held on <span class=\"discourse-local-date\">Mon, Aug 31, 2026 6:00 PM UTC</span> and the following is a summary:</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-117484-pmc-business-1\" name=\"p-117484-pmc-business-1\"></a>PMC Business</h2>\n<ul>\n<li>None</li>\n</ul>\n<h2><a class=",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MoveIt2 2.5.10",
+      "link": "https://github.com/moveit/moveit2/releases/tag/2.5.10",
+      "summary": "2.5.10",
+      "source": "GitHub (MoveIt2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclpy 11.0.3",
+      "link": "https://github.com/ros2/rclpy/releases/tag/11.0.3",
+      "summary": "11.0.3",
+      "source": "GitHub (rclpy)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "link": "https://openai.com/index/path-to-astra",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Codex bundles LibreOffice",
+      "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "summary": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app\">rebranded</a> to just ChatGPT) has 1.7GB of stuff in ther",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49525378\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "link": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49519939\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "link": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49527573\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.3.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+      "summary": "1.3.0 (2026-09-01) Full Changelog: v1.2.0...v1.3.0 Features api: beta user profiles: add external_user_onboarded_at, remove relationship in favor of access_type ( 74080c3 ) api: manual updates ( 1dc3ce0 ) api: organization compliance settings, user-profile order_by, memory-store and toolset schema updates ( 429e719 ) Bug Fixes aws: resolve base_url from aws_region under skip_auth and with_options ( #564 ) ( b6d1732 ) batches: add results to GA raw/streaming response wrappers ( cbf9715 ) ci: don'",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.99.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.99.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.99.0 Verify using",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Top 10 robotics stories of August 2026",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/",
+      "summary": "<p>August 2026's top 10 stories included large funding rounds, updates in the humanoid robot industry, and the latest physical AI models. </p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/\">Top 10 robotics stories of August 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Re",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Learn how physical AI is being used to do real work at RoboBusiness",
+      "link": "https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/",
+      "summary": "<p>Leaders at Amazon Robotics, Teradyne Robotics, and Cobot will discuss how they're applying physical AI to robots operating in customer environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/\">Learn how physical AI is being used to do real work at RoboBusiness</a> ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Visko launches Orbis live model and closes pre-seed funding round",
+      "link": "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
+      "summary": "<p>Visko says Orbis streams 4K video at 24 frames per second, responds to user intervention, and sustains hour-scale generation without drift.</p>\n<p>The post <a href=\"https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/\">Visko launches Orbis live model and closes pre-seed funding round</a> appeared first on",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "link": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "summary": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too.  The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind, its agentic cybersecurity system developed by the Cro",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
