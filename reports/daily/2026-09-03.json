@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-03T07:53:35+09:00",
+  "items": [
+    {
+      "title": "Three bugs that changed how our sensor board talks to ROS 2",
+      "link": "https://discourse.openrobotics.org/t/three-bugs-that-changed-how-our-sensor-board-talks-to-ros-2/57825",
+      "summary": "<p>We’re working on a board that connects cameras and sensors to a robot’s compute over CAN-FD and GMSL2. Three things came up during development that changed the design more than anything we planned upfront.</p>\n<p><strong>The flash budget made the decision for us.</strong></p>\n<p>We started assuming the <a href=\"https://nxs.aliensense.com/?utm_so",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotics Software Engineer - Austin, TX - Valstad Shipworks",
+      "link": "https://discourse.openrobotics.org/t/robotics-software-engineer-austin-tx-valstad-shipworks/57814",
+      "summary": "<p>Hey all,</p>\n<p>Background on us: we’re a venture-backed startup based in Austin, Texas. We’re reinventing the way America builds ships, centered around high-mix robotics.</p>\n<p>Our current platform is designed to take a 3D model of part of a ship, automatically generate an assembly sequence, and assemble and weld it using industrial robots and",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "GPS says ~5m accuracy but the fixes agree to 9 cm. Anyone else seen this?",
+      "link": "https://discourse.openrobotics.org/t/gps-says-5m-accuracy-but-the-fixes-agree-to-9-cm-anyone-else-seen-this/57831",
+      "summary": "<p>So I’ve been chasing something for a couple of days and I figured I’d just post it, partly in case it helps someone and partly because I’m not totally sure I’m reading it right.</p>\n<p>I’ve got a u-blox on a small rover doing 1 Hz fixes. The receiver puts ~5m horizontal 1-sigma in position_covariance, which honestly seemed believable for where I",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 launch 3.10.1",
+      "link": "https://github.com/ros2/launch/releases/tag/3.10.1",
+      "summary": "3.10.1",
+      "source": "GitHub (ROS2 launch)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-gemini 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p>\n        <blockquote>\n<ul>\n<li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and hi",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "summary": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just t",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "summary": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-mcp 0.2",
+      "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p>\n        <blockquote>\n<ul>\n<li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array ele",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49537553\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "We could save petabytes of cache storage with Zstandard and Pingora",
+      "link": "https://blog.cloudflare.com/cache-transcoding/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49521909\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "link": "https://github.com/mlc-ai/web-llm",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49536411\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.3-rc2: gemma4: image and audio input support",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+      "summary": "Safetensors gemma4 imports served by the MLX engine now answer image and audio chats. Images run through both vision architectures: the transformer tower (26B, 31B, e-series) and the 12B's encoder-free unified embedder. Audio arrives through the same intake the ollama API already accepts for gemma4 GGUFs — WAV bytes in the images field, OpenAI input_audio parts, and /v1/audio/transcriptions uploads — with the e2b/e4b checkpoints running clips through their conformer audio encoder and the 12b uni",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM backup-pr38765-restack-20260902",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/backup-pr38765-restack-20260902",
+      "summary": "test(ocr): integrate parity harness with Rust bridge stack",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
+      "link": "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
+      "summary": "<p>NexCOBOT, which provides functional safety and motion controllers, discusses how physical AI benefits from 'Big Tech' and where it will grow.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/\">NexCOBOT discusses physical AI market hurdles and acceleration</a> appeared first on",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Learn why food is physical AI’s hardest problem at RoboBusiness",
+      "link": "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
+      "summary": "<p>Rajat Bhageria, the founder and CEO of Chef Robotics, will explore what makes food such a demanding benchmark for physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/\">Learn why food is physical AI&#8217;s hardest problem at RoboBusiness</a> appeared first ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AIR to use Elmo Motion Control technology in uncrewed cargo aircraft",
+      "link": "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/",
+      "summary": "<p>The partnership brings together Elmo's compact, high-power density servo drives and AIR's electric aviation design.</p>\n<p>The post <a href=\"https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/\">AIR to use Elmo Motion Control technology in uncrewed cargo aircraft</a> appeared first on <a href=\"https:",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

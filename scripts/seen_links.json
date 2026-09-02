@@ -1,27 +1,4 @@
 {
-  "2026-08-14": [
-    "https://discourse.openrobotics.org/t/want-to-get-involved-with-ros-2-come-to-waffle/57362",
-    "https://discourse.openrobotics.org/t/ros-meet-up-stockholm-nordic-tech-week-september-8th/57373",
-    "https://discourse.openrobotics.org/t/announcement-fix-for-advancedliftdrag-pitching-moment-computation/57364",
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-11-2026/57361",
-    "https://discourse.openrobotics.org/t/launching-the-vlas-on-the-humanoid-robot-g1-t800-for-continues-tasks/57375",
-    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim9_9.6.0",
-    "https://openai.com/index/builders-guide-to-gpt-5-6",
-    "https://openai.com/index/previewing-ultrafast",
-    "https://openai.com/index/dali-rajic-chief-revenue-officer",
-    "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-    "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-    "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-    "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
-    "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-    "https://deepseek.com/harness/en/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.10",
-    "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
-    "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
-    "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
-  ],
   "2026-08-17": [
     "https://discourse.openrobotics.org/t/ros-oe-community-meeting-62-august-31st-2026-3pm-utc/57432",
     "https://simonwillison.net/2026/Aug/15/cors-chat/",
@@ -244,5 +221,25 @@
     "https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/",
     "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
     "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/"
+  ],
+  "2026-09-03": [
+    "https://discourse.openrobotics.org/t/three-bugs-that-changed-how-our-sensor-board-talks-to-ros-2/57825",
+    "https://discourse.openrobotics.org/t/robotics-software-engineer-austin-tx-valstad-shipworks/57814",
+    "https://discourse.openrobotics.org/t/gps-says-5m-accuracy-but-the-fixes-agree-to-9-cm-anyone-else-seen-this/57831",
+    "https://github.com/ros2/launch/releases/tag/3.10.1",
+    "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+    "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+    "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+    "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+    "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "https://blog.cloudflare.com/cache-transcoding/",
+    "https://github.com/mlc-ai/web-llm",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+    "https://github.com/BerriAI/litellm/releases/tag/backup-pr38765-restack-20260902",
+    "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
+    "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
+    "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"
   ]
 }
