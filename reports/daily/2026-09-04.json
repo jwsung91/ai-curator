@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-04T07:55:52+09:00",
+  "items": [
+    {
+      "title": "A one-command installer for the apt-based ROS 2 path",
+      "link": "https://discourse.openrobotics.org/t/a-one-command-installer-for-the-apt-based-ros-2-path/57843",
+      "summary": "<p>I’d like ROS 2 to be installable with one command on Ubuntu:</p>\n<pre><code class=\"lang-bash\">curl -fsSL https://ros.org/install.sh | sh\nsource /opt/ros/lyrical/setup.bash\n</code></pre>\n<p>Today it’s a sequence — enable universe, look up the latest <code>ros-apt-source</code><br />\nrelease, download the .deb, <code>dpkg -i</code>, <code>apt upda",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Bimo, an open-source bipedal robotics kit with sim-to-real transfer",
+      "link": "https://discourse.openrobotics.org/t/bimo-an-open-source-bipedal-robotics-kit-with-sim-to-real-transfer/57846",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/6/5/65c22ef5b12901b16493a8617afd7fa8ed76645d.jpeg\" rel=\"noopener nofollow ugc\" title=\"Bimo SLS\"><img alt=\"Bimo SLS\" height=\"500\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/6/5/65c22ef5b12901b16493a861",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "UI/UX Improvements to the Crossflow Diagram Editor",
+      "link": "https://discourse.openrobotics.org/t/ui-ux-improvements-to-the-crossflow-diagram-editor/57838",
+      "summary": "<p><strong>Contributor:</strong> <a href=\"https://github.com/ArizmendiWan\" rel=\"noopener nofollow ugc\">Zhen Wan</a></p>\n<p><strong>Mentors:</strong> Michael Grey and Aaron Chong</p>\n<p><strong>Link to repository:</strong> <a href=\"https://github.com/open-rmf/crossflow\" rel=\"noopener nofollow ugc\">open-rmf/crossflow</a></p>\n<p><strong>Link to Demo V",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ament index ressources through unified cli interface",
+      "link": "https://discourse.openrobotics.org/t/ament-index-ressources-through-unified-cli-interface/57841",
+      "summary": "<p>Hi,</p>\n<p>While jumping from project to project you might want to know what resources are available for discoverability (plugins, config files or other custom resources).<br />\nAnd ament_index_python provide the exact tooling in order to do that. However this is yet another endpoint one user needs to know.<br />\nWhat do we think about having in",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "GPT‑6 Astra",
+      "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "summary": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p>\nGPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't hav",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "link": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49550375\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "link": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49557206\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "link": "https://arcprize.org/blog/astra",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49555691\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.33.3",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+      "summary": "What's Changed gemma4 now supports images and audio on MLX engine Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Protecting Dynamic Industrial Robot Cable Carriers",
+      "link": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&amp;width=1245&amp;height=700&amp;coordinates=0%2C104%2C0%2C104\" /><br /><br /><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
+      "link": "https://spectrum.ieee.org/moon-ball-robot",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched ",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
+      "link": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
+      "summary": "<p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p>\n<p>The post <a href=\"https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/\">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a hr",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "JAKA hits Teradyne Robotics back over patent dispute",
+      "link": "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
+      "summary": "<p>JAKA is now taking legal action against Teradyne Robotics to end public dissemination of statements it considers \"false, misleading and damaging.\"</p>\n<p>The post <a href=\"https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/\">JAKA hits Teradyne Robotics back over patent dispute</a> appeared first on <a href=\"https",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
+      "link": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
+      "summary": "<p>NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/\">NVIDIA plans to acquire Hugging Face and keep AI development platform open</a> appeared first on <a href=\"https://w",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "link": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

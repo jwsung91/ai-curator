@@ -1,17 +1,4 @@
 {
-  "2026-08-17": [
-    "https://discourse.openrobotics.org/t/ros-oe-community-meeting-62-august-31st-2026-3pm-utc/57432",
-    "https://simonwillison.net/2026/Aug/15/cors-chat/",
-    "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-    "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-    "https://platform.claude.com/docs/en/release-notes/system-prompts",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.14",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.97.0",
-    "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
-    "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
-    "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
-    "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/"
-  ],
   "2026-08-18": [
     "https://discourse.openrobotics.org/t/roboto-agents-agentic-triage-root-cause-analysis-and-data-curation-for-rosbags-and-mcap/57438",
     "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-19/57464",
@@ -241,5 +228,26 @@
     "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
     "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
     "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"
+  ],
+  "2026-09-04": [
+    "https://discourse.openrobotics.org/t/a-one-command-installer-for-the-apt-based-ros-2-path/57843",
+    "https://discourse.openrobotics.org/t/bimo-an-open-source-bipedal-robotics-kit-with-sim-to-real-transfer/57846",
+    "https://discourse.openrobotics.org/t/ui-ux-improvements-to-the-crossflow-diagram-editor/57838",
+    "https://discourse.openrobotics.org/t/ament-index-ressources-through-unified-cli-interface/57841",
+    "https://openai.com/index/daybreak-for-frontline-defenders",
+    "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "https://openai.com/index/playco-game-prototyping-with-astra",
+    "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+    "https://armature.tech/blog/which-tools-coding-agents-install",
+    "https://arcprize.org/blog/astra",
+    "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+    "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
+    "https://spectrum.ieee.org/moon-ball-robot",
+    "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
+    "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
+    "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
+    "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
   ]
 }
