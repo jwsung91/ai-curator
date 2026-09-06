@@ -1,21 +1,4 @@
 {
-  "2026-08-18": [
-    "https://discourse.openrobotics.org/t/roboto-agents-agentic-triage-root-cause-analysis-and-data-curation-for-rosbags-and-mcap/57438",
-    "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-08-19/57464",
-    "https://discourse.openrobotics.org/t/exstrike-real-time-vision-safety-infrastructure-for-autonomous-systems-tactical-robotics/57440",
-    "https://discourse.openrobotics.org/t/were-hiring-sereact-ai-robotics-stuttgart-germany-boston-usa/57455",
-    "https://discourse.openrobotics.org/t/jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57458",
-    "https://openai.com/index/the-defenders-window",
-    "https://openai.com/index/openai-joins-ports-pike-project",
-    "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-    "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-    "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-    "https://blog.roboflow.com/openai-gpt-5-6/",
-    "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/",
-    "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
-    "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
-    "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/"
-  ],
   "2026-08-19": [
     "https://discourse.openrobotics.org/t/never-miss-a-backport-again-automatic-abi-checking-for-ros-2-core-repos-prototype-ready/57477",
     "https://discourse.openrobotics.org/t/ros-keeps-evolving-via-physical-ai-sig/57495",
@@ -249,5 +232,24 @@
     "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
     "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
     "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+  ],
+  "2026-09-07": [
+    "https://discourse.openrobotics.org/t/new-cli-tool-fastdds-transport-viz-predict-measure-per-topic-dds-transport-in-ros-2/57900",
+    "https://openai.com/index/an-alien-mind",
+    "https://openai.com/index/research-acceleration-view-inside-openai",
+    "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+    "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+    "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+    "https://blog.glazer.ee/posts/converting-cronos/",
+    "https://openai.com/index/research-acceleration-view-inside-openai",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.100.0",
+    "https://spectrum.ieee.org/cyborg-rescue-roach",
+    "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+    "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+    "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+    "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"
   ]
 }

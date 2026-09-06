@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-07",
+  "publishedAt": "2026-09-07T07:30:05+09:00",
+  "items": [
+    {
+      "title": "New CLI tool: fastdds_transport_viz — predict & measure per-topic DDS transport in ROS 2",
+      "link": "https://discourse.openrobotics.org/t/new-cli-tool-fastdds-transport-viz-predict-measure-per-topic-dds-transport-in-ros-2/57900",
+      "summary": "<p>Hi all,</p>\n<p>I built <strong>fastdds_transport_viz</strong>, a CLI tool that shows which transport (UDPv4/v6, TCP, SHM, or zero-copy data-sharing) each ROS 2 topic actually uses — and why.</p>\n<ul>\n<li>Predicts the transport per writer→reader pair from Fast DDS discovery data (no changes needed on the observed nodes)</li>\n<li>With <code>--stat",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "An Alien Mind",
+      "link": "https://openai.com/index/an-alien-mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing GPT-6 Astra for developers",
+      "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "summary": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p>\nBlink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119\">1m59s</a>:</p>\n<blockquote>\n<p>Across the board, Astra has more attention to detail, better understandin",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Using Blender with coding agents on macOS",
+      "link": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p>\n        <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href=\"https://www.blender",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "summary": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href=\"https://static.simonwillis",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "link": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "summary": "<p>Here we go again... <a href=\"https://collusion.wiki\">Discovery of a new OpenAI agent message board</a> by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the <em>latest</em> <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental cyberattack</a> by models being trained by OpenAI. This time it wa",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Reverse engineering the storage format for an undocumented database",
+      "link": "https://blog.glazer.ee/posts/converting-cronos/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49561514\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49587217\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.4.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
+      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization compliance settings state ( 1de1957 ) api: add support for sending a workspace ID on more endpoints ( d1d2c01 ) Bug Fixes client: raise a clear error when an httpx object is passed instead of an httpx2 one ( 9447099 ) repair custom-code merge in messages resources ( #580 ) ( 85454ca ) Chores examples: refresh platform mode",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+      "summary": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses. Full Changelog : v0.33.3...v0.34.0-rc1",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.100.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.100.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.100.0 Verify usin",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Cyborg Roaches Can Stab You With Needles",
+      "link": "https://spectrum.ieee.org/cyborg-rescue-roach",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&amp;width=1245&amp;height=700&amp;coordinates=0%2C62%2C0%2C63\" /><br /><br /><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded need",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Video Friday: Digit Redecorates",
+      "link": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spec",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Eric Sivertson discusses FPGAs and robot security",
+      "link": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+      "summary": "<p>An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/\">Eric Sivertson discusses FPGAs and robot security</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Pressure sensors can help improve robotic gripping accuracy",
+      "link": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+      "summary": "<p>From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/\">Pressure sensors can help improve robotic gripping accuracy</a> appeared first on <a href",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
+      "link": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+      "summary": "<p>Fifteen member organizations will deliver viable working solutions within a two-year timeframe, the ARM Institute said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/\">ARM Institute gets $90M for 10 projects to modernize military manufacturing</a> appeared first",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
