@@ -1,23 +1,4 @@
 {
-  "2026-08-19": [
-    "https://discourse.openrobotics.org/t/never-miss-a-backport-again-automatic-abi-checking-for-ros-2-core-repos-prototype-ready/57477",
-    "https://discourse.openrobotics.org/t/ros-keeps-evolving-via-physical-ai-sig/57495",
-    "https://discourse.openrobotics.org/t/moveit-community-meeting-2026-08-18/57492",
-    "https://discourse.openrobotics.org/t/bagel-2-0-ask-your-rosbags-questions-in-plain-english-reduce-them-to-the-seconds-that-matter-open-source/57482",
-    "https://discourse.openrobotics.org/t/missing-px4-msgs-from-apt/57491",
-    "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-    "https://openai.com/index/partnering-with-codeai",
-    "https://openai.com/index/pacing-model-development-cyber-capabilities",
-    "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-    "https://cursor.com/changelog/origin-code-hosting",
-    "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-    "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-    "https://spectrum.ieee.org/arctic-iceberg-drones",
-    "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
-    "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
-    "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/"
-  ],
   "2026-08-20": [
     "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-10/57506",
     "https://discourse.openrobotics.org/t/virtulayer-a-gui-for-nav2-virtual-layer-plugin/57524",
@@ -251,5 +232,22 @@
     "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
     "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
     "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"
+  ],
+  "2026-09-08": [
+    "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-2026-09-09/57926",
+    "https://discourse.openrobotics.org/t/logging-and-observability-guide-review-part-3-cloud-robotics-wg-meeting-2026-10-05/57930",
+    "https://discourse.openrobotics.org/t/2026-09-09-jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57939",
+    "https://discourse.openrobotics.org/t/what-is-the-hardest-part-of-learning-ros-2-as-a-beginner/57917",
+    "https://discourse.openrobotics.org/t/slam-benchmark-on-livox-mid-360-public-dataset-our-own-uav-flight-data-kiss-icp-dlio-fast-lio2-glim/57912",
+    "https://github.com/ros2/rclcpp/releases/tag/16.0.21",
+    "https://github.com/ros2/launch/releases/tag/1.0.15",
+    "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+    "https://simonwillison.net/2026/Sep/7/equal-earth/",
+    "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+    "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+    "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+    "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
   ]
 }

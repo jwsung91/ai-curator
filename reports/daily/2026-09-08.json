@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-08",
+  "publishedAt": "2026-09-08T08:05:55+09:00",
+  "items": [
+    {
+      "title": "Preparing for Jazzy Sync 2026-09-09",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-2026-09-09/57926",
+      "summary": "<p>We’re planning a Jazzy Jalisco sync next Wednesday <span class=\"discourse-local-date\">Tue, Sep 8, 2026 4:00 PM UTC</span>. There are currently <a href=\"http://repo.ros2.org/status_page/ros_jazzy_default.html?q=SYNC\" rel=\"noopener nofollow ugc\">882 packages </a>ready to sync and <a href=\"http://repo.ros2.org/status_page/ros_jazzy_default.html?q=R",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Logging and Observability Guide Review Part 3 | Cloud Robotics WG Meeting 2026-10-05",
+      "link": "https://discourse.openrobotics.org/t/logging-and-observability-guide-review-part-3-cloud-robotics-wg-meeting-2026-10-05/57930",
+      "summary": "<p><em>The group is skipping two meetings (2026-09-07, 2026-09-21) due to members being unavailable!</em></p>\n<p>The next meeting of the CRWG will be at <span class=\"discourse-local-date\">Mon, Oct 5, 2026 4:00 PM UTC</span>→<span class=\"discourse-local-date\">Mon, Oct 5, 2026 5:00 PM UTC</span>, where we will continue editing the first draft of the ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "2026-09-09 Jenkins version upgrade of ci.ros2.org [Scheduled Buildfarm Downtime]",
+      "link": "https://discourse.openrobotics.org/t/2026-09-09-jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57939",
+      "summary": "<p>Hello ROS Community,</p>\n<p>The OSRF Infrastructure Project is planning to update the Jenkins version of <a href=\"https://ci.ros2.org/\" rel=\"noopener nofollow ugc\">https://ci.ros2.org</a> as part of our ongoing efforts to maintain and improve the ROS buildfarm infrastructure. To facilitate this migration, the following services will experience d",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "What is the hardest part of learning ROS 2 as a beginner",
+      "link": "https://discourse.openrobotics.org/t/what-is-the-hardest-part-of-learning-ros-2-as-a-beginner/57917",
+      "summary": "<p>I teach a robotics lab and my students lose about a week each semester to<br />\nworkspace and sourcing problems before they write any robot code. I recorded<br />\nthe whole thing end to end on Jazzy, including the errors rather than a clean<br />\ntake: workspace, package, first node, entry points, --symlink-install, and<br />\nwhy sourcing is per",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "SLAM benchmark on Livox Mid-360: public dataset + our own UAV flight data (KISS-ICP, DLIO, FAST-LIO2, GLIM)",
+      "link": "https://discourse.openrobotics.org/t/slam-benchmark-on-livox-mid-360-public-dataset-our-own-uav-flight-data-kiss-icp-dlio-fast-lio2-glim/57912",
+      "summary": "<p>Been building a UAV navigation stack around a Jetson Orin NX + Livox Mid-360 + Pixhawk, and wanted real numbers on the accuracy trade-offs between LiDAR-only, LiDAR-inertial odometry, and full SLAM before picking one for the platform. Ended up running two separate evaluations:</p>\n<h2><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rclcpp 16.0.21",
+      "link": "https://github.com/ros2/rclcpp/releases/tag/16.0.21",
+      "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+      "source": "GitHub (rclcpp)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 launch 1.0.15",
+      "link": "https://github.com/ros2/launch/releases/tag/1.0.15",
+      "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+      "source": "GitHub (ROS2 launch)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Supporting independent journalism in Ukraine",
+      "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting Jakub Pachocki",
+      "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "summary": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p>\n<p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue a",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Mercator ↔ Equal Earth",
+      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p>\n        <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa\">voted on at the UN</a> so I had GPT-6 Astra (medium) in C",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "summary": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p>\nApparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "This Robot Will Draw Your Blood Now",
+      "link": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+      "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+      "summary": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+      "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+      "summary": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "MassRobotics shares member survey results around FCC restrictions",
+      "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
+      "summary": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href=\"https://www.therobotrep",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
