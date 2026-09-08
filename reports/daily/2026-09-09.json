@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-09",
+  "publishedAt": "2026-09-09T08:01:54+09:00",
+  "items": [
+    {
+      "title": "Luxonis Solutions + Luxonis Agent Toolkit",
+      "link": "https://discourse.openrobotics.org/t/luxonis-solutions-luxonis-agent-toolkit/57956",
+      "summary": "<p>Hi Everyone! I’m Carson, the Global GTM Manager at Luxonis.<img alt=\":grinning_face:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/grinning_face.png?v=15\" title=\":grinning_face:\" width=\"20\" /></p>\n<p>Just wanted to pop in and mention some new items we have recently released that we feel are truly elevating the game in the ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS PMC Minutes for September 8, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, September 8, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Autonomous Navigation and Interaction Bot \"FINI\"",
+      "link": "https://discourse.openrobotics.org/t/autonomous-navigation-and-interaction-bot-fini/57947",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/4/1/41ef6ad9b5ea3aac00396302340e7a153bd79d3c.jpeg\" rel=\"noopener nofollow ugc\" title=\"IMG_20260709_024338\"><img alt=\"IMG_20260709_024338\" height=\"500\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/4/1/41",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Founding Robotics Engineer @ Merista.ai in Barcelona, Spain",
+      "link": "https://discourse.openrobotics.org/t/founding-robotics-engineer-merista-ai-in-barcelona-spain/57950",
+      "summary": "<p>Merista builds the physical AI workforce for food production. This is our founding team robotics hire, reporting to the CTO, owning the robot’s mind, and everything between intent and motion. Full-time and on-site in Barcelona.</p>\n<p><strong>The challenge</strong></p>\n<p>Food changes shape, sticks to tools, and behaves differently as containers",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "PlaceAuth/SPP v0.3.0",
+      "link": "https://discourse.openrobotics.org/t/placeauth-spp-v0-3-0/57963",
+      "summary": "<p>Hey all — I’ve been working on an experimental interoperability project called PlaceAuth, and I just pushed out SPP v0.3.0.</p>\n<p>The basic idea is pretty simple: a place defines the requirements for operating there, a machine demonstrates that it meets them, and SPP uses that evidence to determine what kind of operating profile it should get.<",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Fast DDS v2.14.7",
+      "link": "https://github.com/eProsima/Fast-DDS/releases/tag/v2.14.7",
+      "summary": "Fast DDS v2.14.7 This release includes the following CVE fixes, bugfixes, improvements and CI improvements. Security fixes (CVEs) CVE-2026-22591 CVE-2026-45094 CVE-2026-45095 CVE-2026-45096 CVE-2025-63829 CVE-2025-65865 CVE-2026-45093 CVE-2026-45092 CVE-2025-67108 CVE-2026-49861 CVE-2026-53589 CVE-2026-45098 CVE-2026-49862 CVE-2026-55063 CVE-2026-49863 CVE-2026-53588 CVE-2026-53590 GHSA-8g7x-c9fg-g6mh These CVEs were addressed in squashed commits applied directly from privately reviewed branches",
+      "source": "GitHub (Fast DDS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rosbag2 0.15.17 (#2491)",
+      "link": "https://github.com/ros2/rosbag2/releases/tag/0.15.17",
+      "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+      "source": "GitHub (rosbag2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "link": "https://openai.com/index/the-work-now-within-reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "summary": "<p><strong><a href=\"https://openai.com/index/introducing-chatgpt-images-2-5/\">Introducing ChatGPT Images 2.5</a></strong></p>\nOpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple tu",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm 0.35",
+      "link": "https://simonwillison.net/2026/Sep/7/llm/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p>\n        <blockquote>\n<ul>\n<li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">open",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "link": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49611128\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: LLM Attention Visualization",
+      "link": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49613068\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+      "link": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+      "summary": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veterans launch Dynamic Creatures to bring character",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI can’t outrun a humanoid’s hardware",
+      "link": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+      "summary": "<p>The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/\">AI can’t",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why vision AI is the safety backbone of the automated job site",
+      "link": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
+      "summary": "<p>Vision AI doesn't replace robots or human judgement; it provides the continuous perception that allows both to operate safely together.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/\">Why vision AI is the safety backbone of the automated job site</a> appeared first on <a href=\"http",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

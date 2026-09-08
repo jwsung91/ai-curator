@@ -1,22 +1,4 @@
 {
-  "2026-08-20": [
-    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-10/57506",
-    "https://discourse.openrobotics.org/t/virtulayer-a-gui-for-nav2-virtual-layer-plugin/57524",
-    "https://discourse.openrobotics.org/t/ros-2-inspector-static-architecture-analysis-and-visualization-for-ros-2-workspaces/57523",
-    "https://discourse.openrobotics.org/t/sig-for-physical-ai-meeting-august-21st-surveying-ai-usage-in-ros-andrea-miller-cmu/57513",
-    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-08-19/57530",
-    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v4.6-0",
-    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v4.6-0",
-    "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-    "https://openai.com/index/replit",
-    "https://openai.com/index/chatgpt-ads-expands-across-europe",
-    "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
-    "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
-    "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
-    "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/"
-  ],
   "2026-08-21": [
     "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-08-21/57533",
     "https://discourse.openrobotics.org/t/what-vpn-networking-solution-do-you-use-for-ros-robots/57544",
@@ -249,5 +231,25 @@
     "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
     "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
     "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
+  ],
+  "2026-09-09": [
+    "https://discourse.openrobotics.org/t/luxonis-solutions-luxonis-agent-toolkit/57956",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957",
+    "https://discourse.openrobotics.org/t/autonomous-navigation-and-interaction-bot-fini/57947",
+    "https://discourse.openrobotics.org/t/founding-robotics-engineer-merista-ai-in-barcelona-spain/57950",
+    "https://discourse.openrobotics.org/t/placeauth-spp-v0-3-0/57963",
+    "https://github.com/eProsima/Fast-DDS/releases/tag/v2.14.7",
+    "https://github.com/ros2/rosbag2/releases/tag/0.15.17",
+    "https://openai.com/index/codex-quantum-computing-experiments",
+    "https://openai.com/index/the-work-now-within-reach",
+    "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+    "https://simonwillison.net/2026/Sep/7/llm/",
+    "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+    "https://ishamf.dev/p/llm-attention-visualizer/",
+    "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+    "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+    "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/"
   ]
 }
