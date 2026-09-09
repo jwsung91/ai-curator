@@ -1,21 +1,4 @@
 {
-  "2026-08-21": [
-    "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-08-21/57533",
-    "https://discourse.openrobotics.org/t/what-vpn-networking-solution-do-you-use-for-ros-robots/57544",
-    "https://discourse.openrobotics.org/t/a-runtime-that-sits-between-an-llm-and-physical-actuation-does-this-fit-your-use-case/57536",
-    "https://discourse.openrobotics.org/t/robotic-arm-gripper-issue/57538",
-    "https://discourse.openrobotics.org/t/a-field-guide-glossary-for-ros-2-data-in-underwater-vehicles-and-a-worked-read-of-a-real-bag/57553",
-    "https://openai.com/index/introducing-ai-futures",
-    "https://openai.com/index/stampli",
-    "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
-    "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
-    "https://github.com/zachahn/vomit",
-    "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.32.15",
-    "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
-    "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/"
-  ],
   "2026-08-24": [
     "https://discourse.openrobotics.org/t/nvidia-jetson-debloating-guide/57606",
     "https://discourse.openrobotics.org/t/release-gzsensormonitor-real-time-sensor-feedback-inside-gazebo-harmonic/57613",
@@ -251,5 +234,22 @@
     "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
     "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
     "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/"
+  ],
+  "2026-09-10": [
+    "https://discourse.openrobotics.org/t/new-ros-pmc-members/57984",
+    "https://discourse.openrobotics.org/t/rcl-logging-journal-a-systemd-journald-logging-backend-for-ros-2/57971",
+    "https://discourse.openrobotics.org/t/query-and-train-directly-from-rosbags-with-a-rosbag2-storage-plugin-for-rrd/57982",
+    "https://discourse.openrobotics.org/t/this-fortnight-at-open-robotics-headquarters-2026-08-24/57970",
+    "https://discourse.openrobotics.org/t/open-source-safety-consortium-sharing-safety-evidence-not-just-code/57992",
+    "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+    "https://arxiv.org/abs/2609.09153",
+    "https://opusfived.dev/",
+    "https://github.com/OtoDock/oto-dock",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
+    "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+    "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+    "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-10",
+  "publishedAt": "2026-09-10T07:48:40+09:00",
+  "items": [
+    {
+      "title": "New ROS PMC Members",
+      "link": "https://discourse.openrobotics.org/t/new-ros-pmc-members/57984",
+      "summary": "<p>I am happy to announce that as of the <a href=\"https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957\">ROS PMC Meeting on September 8th</a>, the ROS PMC is adding three additional members to the project management committee per the <a href=\"https://osralliance.org/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS P",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rcl_logging_journal: a systemd-journald logging backend for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/rcl-logging-journal-a-systemd-journald-logging-backend-for-ros-2/57971",
+      "summary": "<p>Hi</p>\n<p>I’ve developed a new alternative logging backend for ROS 2:</p>\n<p><img alt=\":page_with_curl:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/page_with_curl.png?v=15\" title=\":page_with_curl:\" width=\"20\" /> <strong><a href=\"https://raw.githack.com/fujitatomoya/rcl_logging_journal/rolling/doc/overview.html\" rel=\"noop",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Query and train directly from rosbags with a rosbag2 storage plugin for RRD",
+      "link": "https://discourse.openrobotics.org/t/query-and-train-directly-from-rosbags-with-a-rosbag2-storage-plugin-for-rrd/57982",
+      "summary": "<p>Hi all, Isaac from <a href=\"https://rerun.io\" rel=\"noopener nofollow ugc\">Rerun</a> here. We have been working on an experimental <a href=\"https://github.com/rerun-io/rosbag2_storage_rrd\" rel=\"noopener nofollow ugc\">rosbag2 storage plugin</a>.</p>\n<p>Most ROS 2 data reaching us today arrives as an MCAP recorded with rosbag2. Now you can try usin",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "This Fortnight at Open Robotics Headquarters (2026-08-24)",
+      "link": "https://discourse.openrobotics.org/t/this-fortnight-at-open-robotics-headquarters-2026-08-24/57970",
+      "summary": "<p>Has it been two weeks already? In many ways it feels like the <a href=\"https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-08-17/\">last post</a> was just yesterday, and in just as many it feels like it was months ago. That’s how busy we’ve been: time has lost all meaning.</p>\n<p>Not <em>all</em> time, though. One pa",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Open Source Safety Consortium: sharing safety evidence, not just code",
+      "link": "https://discourse.openrobotics.org/t/open-source-safety-consortium-sharing-safety-evidence-not-just-code/57992",
+      "summary": "<p>I’d like the next autonomy team to spend less time reconstructing basic safety analysis, and more time finding what was missed.</p>\n<p>That’s why I helped start the Open Source Safety Consortium (<a href=\"http://opensourcesafe.com\" rel=\"noopener nofollow ugc\">opensourcesafe.com</a>), with Polymath Robotics as a founding member.</p>\n<p>We’re deve",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "summary": "<p><strong><a href=\"https://openai.com/index/navier-stokes-solution/\">On the Navier–Stokes Millennium Prize Problem</a></strong></p>\nImpressive result from OpenAI, who used an unreleased model to produce a resolution to <a href=\"https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness\">the Navier–Stokes existence and smoothness problem<",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "link": "https://arxiv.org/abs/2609.09153",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49629868\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude, change the “Add to Cart” button to blue",
+      "link": "https://opusfived.dev/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49623754\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+      "link": "https://github.com/OtoDock/oto-dock",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49630606\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
+      "summary": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses. Full Changelog : v0.33.3...v0.34.0-rc5",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "What bricklaying has taught Monumental about robots in construction",
+      "link": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+      "summary": "<p>The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. </p>\n<p>The post <a href=\"https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/\">What bricklaying has taught Monumental about robots in construction</a> appeared first on <a href=\"https://w",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Unitree shares down 53% from IPO debut",
+      "link": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+      "summary": "<p>The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/\">Unitree shares down 53% from IPO debut</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
+      "link": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+      "summary": "<p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/\">AGIBOT to explain how to scale humanoids from the lab to the real world ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
