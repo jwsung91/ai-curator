@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-11T07:49:49+09:00",
+  "items": [
+    {
+      "title": "ros2_fault_injection: C++ fault injection framework for ROS 2 topics, services, and assertions",
+      "link": "https://discourse.openrobotics.org/t/ros2-fault-injection-c-fault-injection-framework-for-ros-2-topics-services-and-assertions/57998",
+      "summary": "<p>Hi all,</p>\n<p>I’ve been building <code>ros2_fault_injection</code>, a C++ ROS 2 framework for injecting controlled faults into ROS 2 systems.</p>\n<p>The idea is to make it easier to test autonomy stacks before running on real hardware by proxying topics and services, applying configured faults, and checking expected outcomes with scenario asser",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROSCon Global 2026 Sponsors and Exhibitors",
+      "link": "https://discourse.openrobotics.org/t/roscon-global-2026-sponsors-and-exhibitors/58020",
+      "summary": "<div class=\"d-image-grid\">\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/0/f/0f91ab0f2e9e8b28c9395939604ea781faf011c7.jpeg\" title=\"ROSConSponsorBanner (2)\"><img alt=\"ROSConSponsorBanner (2)\" height=\"500\" src=\"https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS 2 engineering skills for coding agents: v1.5.0",
+      "link": "https://discourse.openrobotics.org/t/ros-2-engineering-skills-for-coding-agents-v1-5-0/58016",
+      "summary": "<p>Hi everyone, I’m YuJin Hong, a robotics software developer based in South Korea.</p>\n<p>I’ve been building <a href=\"https://github.com/dbwls99706/ros2-engineering-skills\" rel=\"noopener nofollow ugc\">ros2-engineering-skills</a>, a collection of guidance, reference docs, and validation tools that coding agents such as Claude Code and Codex can use",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rosbag2 0.33.4 (#2493)",
+      "link": "https://github.com/ros2/rosbag2/releases/tag/0.33.4",
+      "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+      "source": "GitHub (rosbag2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "link": "https://openai.com/index/put-data-to-work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": ".blend URL Viewer",
+      "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p>\n        <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p>\n<p>As a big fan of the <a href=\"https://en.wikipedia.org/wiki/Faberg%C",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "link": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49639408\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI Agents API",
+      "link": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49649213\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.5.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "summary": "1.5.0 (2026-09-10) Full Changelog: v1.4.0...v1.5.0 Features api: add auto mode tool permissions for Managed Agents ( 62aa21b ) api: add content_too_large web_fetch tool error code ( 4b5dec6 ) api: add the user-profiles-2026-09-04 beta value and external_user_details to user profiles ( 5f881a5 ) api: support mounting public GitHub repositories without an authorization_token in Managed Agents sessions ( 285937c ) client: add Message.to_param() and BetaMessage.to_param() ( 192a2b2 ) credentials: ad",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.0",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+      "summary": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction. Full Changelog : v0.33.3...v0.34.0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.100.1",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.100.1",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.100.1 Verify usin",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Robots Are Learning to Feel",
+      "link": "https://spectrum.ieee.org/tactile-data-robots",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/image.jpg?id=67745231&amp;width=980\" /><br /><br /><p>Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to cha",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
+      "link": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
+      "summary": "<p>New details reveal the lawsuit involves three Universal Robots patents about robot interfaces, safety brakes, and joints.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/\">Teradyne Robotics sues JAKA over 3 Universal Robots patents</a> appeared first on <a href=\"https://www.ther",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
+      "link": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
+      "summary": "<p>Swarmer, which has developed swarm software, plans to work with Ratel Robotics' unmanned ground vehicles in Ukraine.</p>\n<p>The post <a href=\"https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/\">Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Comau automates picking, handling, and palletizing for Decathlon",
+      "link": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
+      "summary": "<p>Comau's system incorporates its MyCo cobot, ROS2 software architecture, AI-powered vision systems, and a modular gripper.</p>\n<p>The post <a href=\"https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/\">Comau automates picking, handling, and palletizing for Decathlon</a> appeared first on <a href=\"https://",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The mo",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "link": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
