@@ -1,18 +1,4 @@
 {
-  "2026-08-25": [
-    "https://discourse.openrobotics.org/t/ros2-pulse-per-topic-rates-and-node-liveness-including-intra-process-on-stock-binaries/57637",
-    "https://discourse.openrobotics.org/t/running-next-generation-lerobot-policies-using-lerobot-robot-ros2-zenoh-sdk/57625",
-    "https://discourse.openrobotics.org/t/aeron-systems-pollux-3-ins-integration-with-ros2-for-autonomous-robotics/57639",
-    "https://openai.com/index/gpt-5-6-in-kiro",
-    "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "https://github.com/l3a0/claude-plugins",
-    "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-    "https://picomq.com/",
-    "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-    "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-    "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-    "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
-  ],
   "2026-08-26": [
     "https://discourse.openrobotics.org/t/next-gen-open-rmf-traffic-management/57646",
     "https://discourse.openrobotics.org/t/regular-price-roscon-tickets-extended-until-august-27th/57652",
@@ -252,5 +238,23 @@
     "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
     "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
     "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/"
+  ],
+  "2026-09-14": [
+    "https://discourse.openrobotics.org/t/ros2-apt-source-bumped-to-v-1-3-0/58084",
+    "https://discourse.openrobotics.org/t/debug-visualize-and-teleoperate-anything-ros2-with-phantom-bridge/58088",
+    "https://github.com/ros2/rosbag2/releases/tag/0.35.0",
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "https://openai.com/index/cognition-devin-testing-with-astra",
+    "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+    "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+    "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+    "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
+    "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+    "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+    "https://spectrum.ieee.org/video-friday-disaster-response-robots",
+    "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
+    "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
+    "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
   ]
 }
