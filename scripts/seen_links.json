@@ -1,20 +1,4 @@
 {
-  "2026-08-26": [
-    "https://discourse.openrobotics.org/t/next-gen-open-rmf-traffic-management/57646",
-    "https://discourse.openrobotics.org/t/regular-price-roscon-tickets-extended-until-august-27th/57652",
-    "https://discourse.openrobotics.org/t/announcement-ros2-visual-servoing-controllers/57661",
-    "https://discourse.openrobotics.org/t/open-source-mech-integrated-with-ros-noetic/57645",
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-august-18th-2026/57664",
-    "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-    "https://openai.com/index/jalapeno-first-results",
-    "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-    "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
-    "https://spectrum.ieee.org/ollobot-ai-companion-robot",
-    "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
-    "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
-    "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/"
-  ],
   "2026-08-27": [
     "https://discourse.openrobotics.org/t/meet-booster-t2-an-open-humanoid-platform-for-embodied-ai-development/57683",
     "https://discourse.openrobotics.org/t/suggestion-free-look-camera-control/57672",
@@ -256,5 +240,23 @@
     "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
     "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
     "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
+  ],
+  "2026-09-15": [
+    "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-september-15/58116",
+    "https://discourse.openrobotics.org/t/nav2-ready-v0-1-0-a-cli-readiness-checker-for-custom-nav2-robots/58095",
+    "https://discourse.openrobotics.org/t/new-packages-and-patch-release-for-humble-hawksbill-2026-09-14/58121",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-09-14/58127",
+    "https://discourse.openrobotics.org/t/cra-reporting-starts-tomorrow-how-do-you-tell-an-exploited-vulnerability-from-a-normal-robot-failure-inside-24-hours/58097",
+    "https://github.com/ros2/ros2/releases/tag/release-humble-20260914",
+    "https://openai.com/index/fyxer",
+    "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+    "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+    "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.101.0",
+    "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+    "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
+    "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
+    "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
   ]
 }
