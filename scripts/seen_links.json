@@ -1,23 +1,4 @@
 {
-  "2026-08-27": [
-    "https://discourse.openrobotics.org/t/meet-booster-t2-an-open-humanoid-platform-for-embodied-ai-development/57683",
-    "https://discourse.openrobotics.org/t/suggestion-free-look-camera-control/57672",
-    "https://discourse.openrobotics.org/t/interop-sig-03-september-2026-discrete-event-simulation-des-in-bevy/57674",
-    "https://discourse.openrobotics.org/t/friendly-ros-2-humble-integration-for-controlling-fanuc-robots-through-fanucpy-mappdk-includes-robot-state-teleoperation-i-o-tp-programs-rviz2-visualization-and-moveit-2-execution/57682",
-    "https://discourse.openrobotics.org/t/bridging-the-gap-a-dockerized-ros-1-noetic-ros-2-jazzy-bridge-ubuntu-24-04-for-gradual-migration/57681",
-    "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-    "https://openai.com/index/learning-never-stops",
-    "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-    "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-    "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-    "https://www.risklytics.ai/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.1",
-    "https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/",
-    "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
-    "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
-    "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
-  ],
   "2026-08-28": [
     "https://discourse.openrobotics.org/t/bringing-ros-into-your-native-c-c-workflow-with-conan/57697",
     "https://discourse.openrobotics.org/t/tecgihan-driver-0-3-0-not-syncing-to-main-repo-for-jazzy-ubuntu-noble/57701",
@@ -258,5 +239,22 @@
     "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
     "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
     "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+  ],
+  "2026-09-16": [
+    "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-09-16/58128",
+    "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-09-17/58150",
+    "https://discourse.openrobotics.org/t/dropping-armhf-32-bit-arm-binary-packages-for-gazebo/58156",
+    "https://discourse.openrobotics.org/t/lyrical-tutorial-docker-container/58147",
+    "https://discourse.openrobotics.org/t/aerial-robotics-meetup-roscon-global-2026/58137",
+    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.4.10",
+    "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "https://dank.systems/posts/2026-09-15-ai-bear.html",
+    "https://mnoukhov.github.io/posts/ngu/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
+    "https://spectrum.ieee.org/humanoid-robot-safety",
+    "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+    "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
   ]
 }

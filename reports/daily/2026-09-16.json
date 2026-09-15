@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-16T08:14:55+09:00",
+  "items": [
+    {
+      "title": "Preparing for Kilted sync 2026-09-16",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-09-16/58128",
+      "summary": "<p>There have been several new and updated packages in Kilted since it was released, and it’s time to sync those new features and fixes to the main apt and dnf repositories.</p>\n<p>There are currently <a href=\"http://repo.ros2.org/status_page/ros_kilted_default.html?q=REGRESSION\" rel=\"noopener nofollow ugc\">regressions</a> and <a href=\"http://repo.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Preparing for Lyrical Sync 2026-09-17",
+      "link": "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-09-17/58150",
+      "summary": "<p>Hello Lyrical maintainers!</p>\n<p>Starting now, I will be holding new Lyrical <a href=\"https://github.com/ros/rosdistro/\" rel=\"noopener nofollow ugc\">ros/rosdistro</a> release PRs with a plan to sync ROS Lyrical packages to the main apt repo on 2026-09-17. Please comment here if there are any issues I should know about before performing the sync",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Dropping armhf (32-bit ARM) binary packages for Gazebo",
+      "link": "https://discourse.openrobotics.org/t/dropping-armhf-32-bit-arm-binary-packages-for-gazebo/58156",
+      "summary": "<p>Hi all,</p>\n<p>The Gazebo team is going to stop producing <code>.deb</code> packages for the <strong>armhf</strong> (32-bit ARM hard-float) architecture. Going forward, the supported Debian/Ubuntu architectures for Gazebo binaries are <strong>amd64</strong> and <strong>arm64</strong>.</p>\n<h3><a class=\"anchor\" href=\"https://discourse.openrobotic",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Lyrical tutorial docker container",
+      "link": "https://discourse.openrobotics.org/t/lyrical-tutorial-docker-container/58147",
+      "summary": "<p>I setup this repo to leverage docker so interns new to ROS 2 Lyrical can dive right into the ROS docs tutorial. The README has a checklist they can use as they progress though the documentation. I didn’t see a tutorial section in the Lyrical docs, similar to the Jazzy docs, but I did check to ensure the lyrical equivalent repos for the Jazzy tut",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Aerial Robotics Meetup @ ROSCon Global 2026",
+      "link": "https://discourse.openrobotics.org/t/aerial-robotics-meetup-roscon-global-2026/58137",
+      "summary": "<p>Hi everyone! If you are attending <strong>ROSCon 2026</strong> in Toronto, join us for an evening of technical exchange, open-source flight tech discussions, and networking.</p>\n<p>We’ll be diving into real-world <strong>ROS 2</strong> integrations, control architectures, state estimation, and community updates across the ecosystem. Complimentar",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 9.4.10",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/9.4.10",
+      "summary": "9.4.10",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "summary": "",
+      "source": "Google DeepMind",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49715947\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "link": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49715927\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "link": "https://mnoukhov.github.io/posts/ngu/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49717280\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.6.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
+      "summary": "1.6.0 (2026-09-15) Full Changelog: v1.5.0...v1.6.0 Features api: add auto mode tool permissions for Managed Agents ( 909d92f ) api: add compaction parameter and signed compaction blocks (beta) ( 8689179 ) api: add enum types for workspace data-residency geo fields ( 3dc6dbf ) api: add thinking_mismatch_allowed entries to input_transformations (beta) ( 14d1792 ) api: add url_sources to the web fetch tool ( 4ba7115 ) api: add workspace_id parameter to user profiles methods ( 1c359b2 ) client: supp",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
+      "summary": "What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
+      "link": "https://spectrum.ieee.org/humanoid-robot-safety",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progr",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "InOrbit.AI releases OpenRobOps ISO 21423 reference implementation",
+      "link": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+      "summary": "<p>OpenRobOps gives robotics developers a foundation to deliver a fleet manager with support for the upcoming interoperability standard. </p>\n<p>The post <a href=\"https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/\">InOrbit.AI releases OpenRobOps ISO 21423 reference implementation</a> appeared first on ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
+      "link": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
+      "summary": "<p>The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/\">Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades</a> appeared first on <a href=\"https://ww",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}
