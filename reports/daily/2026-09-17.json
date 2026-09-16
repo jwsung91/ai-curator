@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-17T08:19:56+09:00",
+  "items": [
+    {
+      "title": "ROS PMC Minutes for September 15, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-15-2026/58167",
+      "summary": "<p>The <a href=\"https://osralliance.org/staging/wp-content/uploads/2024/03/ros_project_charter.pdf\">ROS PMC</a> meeting for this week was on Tuesday, September 15, 2026. The notes from the meeting are available at <a href=\"https://docs.google.com/document/d/1TGXYp33N00ZJtilsRzfClFXcSyMa4QKVNmA03Lx9D7w/edit?tab=t.0\">ROS PMC weekly meeting agenda</a>",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Colcon-buildx: cross-compiling ROS 2 workspaces for arm64 and armhf boards, with prebuilt images for Kria, Pynq and Raspberry Pi",
+      "link": "https://discourse.openrobotics.org/t/colcon-buildx-cross-compiling-ros-2-workspaces-for-arm64-and-armhf-boards-with-prebuilt-images-for-kria-pynq-and-raspberry-pi/58181",
+      "summary": "<p>Hi all,</p>\n<p>I’m Sergio, and I work on ROS 2 on small ARM boards: Kria SOMs, Pynq and Raspberry Pi, and of the sort. I want here to share a tool and a set of images that came out of that, in the hope it may be helpful to anyone <img alt=\":slight_smile:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/slight_smile.png?v=15\" ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Robotics Software Engineer (ROS 2 & GUI Systems) @ Kineshia Robotics in Chennai, India (On-site / Full-time)",
+      "link": "https://discourse.openrobotics.org/t/robotics-software-engineer-ros-2-gui-systems-kineshia-robotics-in-chennai-india-on-site-full-time/58194",
+      "summary": "<blockquote>\n<p><strong>About Us</strong> <a href=\"https://discourse.openrobotics.org/c/jobs/15?ascending=false&amp;order=activity\">Kineshia Robotics</a> is an IIT Madras spinoff incubated at the IITM Research Park. We focus on developing academic and research robotic platforms—including modular multi-modal manipulators and locomotion systems.</p>\n",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Rosbag2 dynamic recorder (dynrec)",
+      "link": "https://discourse.openrobotics.org/t/rosbag2-dynamic-recorder-dynrec/58192",
+      "summary": "<p>Earlier this year I had to prepare a ROS2 course for undergraduate students as part of my work, where I had to debug a series of robots over different exercises where topics often changed, which made rosbag2 debugging rather tedious to set up each time.</p>\n<p>For this reason, I am currently developing <strong>dynrec</strong> (short for rosbag2 ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS medical community updates",
+      "link": "https://discourse.openrobotics.org/t/ros-medical-community-updates/58184",
+      "summary": "<p>Ahead of ROSCon, anyone using ROS in a medical context is welcome to update the community here with a quick status update. I’ll go first on behalf of Vexev!</p>\n<hr />\n<p><em>Ps if you haven’t seen, there will be a Birds of a Feather session at ROSCon Toronto! 9am Tuesday. Followed by a community meeting online in October.</em></p>\n<hr />\n<p><st",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Nav2 1.5.2",
+      "link": "https://github.com/ros-navigation/navigation2/releases/tag/1.5.2",
+      "summary": "Lyrical Sync 1: Sept 15, 2026",
+      "source": "GitHub (Nav2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MoveIt2 2.15.2",
+      "link": "https://github.com/moveit/moveit2/releases/tag/2.15.2",
+      "summary": "2.15.2",
+      "source": "GitHub (MoveIt2)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "rmw_fastrtps 9.6.0",
+      "link": "https://github.com/ros2/rmw_fastrtps/releases/tag/9.6.0",
+      "summary": "9.6.0",
+      "source": "GitHub (rmw_fastrtps)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "summary": "<p><strong><a href=\"https://claude.com/blog/cowork-is-now-claude\">Claude Cowork and chat are now one Claude</a></strong></p>\nIn hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>\n<blockquote>\n<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question,",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Live audio",
+      "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p>\n        <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech ",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "link": "https://arxiv.org/abs/2609.16338",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49732931\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
+      "summary": "What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Rethinking Robot Safety in the Age of AI",
+      "link": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&amp;width=1200&amp;height=400&amp;coordinates=0%2C229%2C0%2C230\" /><br /><br /><p><em>This article is brought to you by <a href=\"https://vicone.com/\" target=\"_blank\">VicOne</a>.</em></p><p>Robot safe",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
+      "link": "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
+      "summary": "<p>OLogic CEO Ted Larson will explore the foundations of egocentric robot learning and the technical challenges involved in building these systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/\">OLogic to share how robots can learn from human demonstrations at",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
+      "link": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+      "summary": "<p>From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. </p>\n<p>The post <a href=\"https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/\">The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5</a> appeared first ",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users a",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}

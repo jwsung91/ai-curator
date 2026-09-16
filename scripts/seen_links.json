@@ -1,24 +1,4 @@
 {
-  "2026-08-28": [
-    "https://discourse.openrobotics.org/t/bringing-ros-into-your-native-c-c-workflow-with-conan/57697",
-    "https://discourse.openrobotics.org/t/tecgihan-driver-0-3-0-not-syncing-to-main-repo-for-jazzy-ubuntu-noble/57701",
-    "https://discourse.openrobotics.org/t/micipsa-ros2-jazzy-autonomous-mobile-robot/57702",
-    "https://discourse.openrobotics.org/t/first-vio-demo-global-shutter-camera-imu-streamed-over-one-gmsl2-coax-mapped-live-in-ros-2/57700",
-    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-    "https://openai.com/index/expanding-our-presence-in-brazil",
-    "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-    "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-    "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-    "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-    "https://github.com/calmrocks/ai-engineer-notebooks",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
-    "https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/",
-    "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
-    "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
-    "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
-  ],
   "2026-08-31": [
     "https://github.com/moveit/moveit2/releases/tag/2.15.1",
     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
@@ -256,5 +236,26 @@
     "https://spectrum.ieee.org/humanoid-robot-safety",
     "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
     "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
+  ],
+  "2026-09-17": [
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-15-2026/58167",
+    "https://discourse.openrobotics.org/t/colcon-buildx-cross-compiling-ros-2-workspaces-for-arm64-and-armhf-boards-with-prebuilt-images-for-kria-pynq-and-raspberry-pi/58181",
+    "https://discourse.openrobotics.org/t/robotics-software-engineer-ros-2-gui-systems-kineshia-robotics-in-chennai-india-on-site-full-time/58194",
+    "https://discourse.openrobotics.org/t/rosbag2-dynamic-recorder-dynrec/58192",
+    "https://discourse.openrobotics.org/t/ros-medical-community-updates/58184",
+    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.2",
+    "https://github.com/moveit/moveit2/releases/tag/2.15.2",
+    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.6.0",
+    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+    "https://openai.com/index/reimagining-advertising-with-ai",
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "https://simonwillison.net/2026/Sep/16/one-claude/",
+    "https://simonwillison.net/2026/Sep/15/gemini-live/",
+    "https://arxiv.org/abs/2609.16338",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
+    "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+    "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
+    "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+    "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
   ]
 }
