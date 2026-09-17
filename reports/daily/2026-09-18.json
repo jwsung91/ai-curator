@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-18T08:11:10+09:00",
+  "items": [
+    {
+      "title": "Native ROS 2 on Zephyr with Cyclone DDS",
+      "link": "https://discourse.openrobotics.org/t/native-ros-2-on-zephyr-with-cyclone-dds/58222",
+      "summary": "<p>Hi,</p>\n<p>I have been experimenting with native DDS for ROS 2 on Zephyr and recently got the standard ROS 2 C client stack running on an ESP32-S3 over Wi-Fi.</p>\n<p>The current stack is:</p>\n<pre><code class=\"lang-auto\">rclc -&gt; rcl -&gt; rmw_cyclonedds_c -&gt; Cyclone DDS -&gt; Zephyr\n</code></pre>\n<p>The board joins the DDS/RTPS network dir",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "NEW! Physical AI Robotics Masterclass — 2026 Cohort",
+      "link": "https://discourse.openrobotics.org/t/new-physical-ai-robotics-masterclass-2026-cohort/58217",
+      "summary": "<p>Hello community,</p>\n<p>We are pleased to announce the launch of the <strong><a href=\"https://www.theconstruct.ai/physical-ai-for-robotics-masterclass/?utm_source=discourse.ros.org&amp;utm_medium=discourse.ros.org_post&amp;utm_campaign=discourse.ros.org_post_ARMC_2026_november_enrollment_open\" rel=\"noopener nofollow ugc\">Physical AI Robotics Mas",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Ported the arduinobot manipulator workspace from Humble to ROS 2 Jazzy — notes on what broke",
+      "link": "https://discourse.openrobotics.org/t/ported-the-arduinobot-manipulator-workspace-from-humble-to-ros-2-jazzy-notes-on-what-broke/58225",
+      "summary": "<p>I teach ROS 2 at an engineering college in India, and this semester we moved to<br />\nJazzy on Ubuntu 24.04. A lot of the good learning material out there is written for<br />\nHumble, so I’ve been porting AntoBrandi’s arduinobot workspace across and<br />\ndocumenting it as I go.</p>\n<p>Repo: <a class=\"inline-onebox\" href=\"https://github.com/pras",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "AssemblyGrid v1: benchmarking multi-robot production, handoffs, coalitions, and concurrency",
+      "link": "https://discourse.openrobotics.org/t/assemblygrid-v1-benchmarking-multi-robot-production-handoffs-coalitions-and-concurrency/58223",
+      "summary": "<p>Hi everyone,</p>\n<p>we have recently released <strong>AssemblyGrid v1</strong>, an open benchmark for studying decentralized multi-robot production.</p>\n<p>The motivation is that many multi-agent and multi-robot benchmarks abstract away some of the interactions that become important in production systems. In AssemblyGrid, robots operate with loc",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "link": "https://openai.com/index/astra-for-law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Self-generated prompt injections in compaction summaries",
+      "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "summary": "<p><strong><a href=\"https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/\">Self-generated prompt injections in compaction summaries</a></strong></p>\nIn <a href=\"https://openai.com/index/model-misalignment-reporting-framework/\">Our framework for reporting model misalignment</a> OpenAI provide \"si",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How to Write with an LLM",
+      "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49747070\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "link": "https://arxiv.org/abs/2609.18842",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49743483\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "The American Religion of Self-Storage Facilities",
+      "link": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49740260\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.2",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+      "summary": "What's Changed Added first-run setup when running ollama , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with MLX speculative decoding. Updated llama.cpp. Full Changelog : v0.34.1...v0.34.2",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors",
+      "link": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
+      "summary": "<p>When long-travel motion demands more than ball screws and linear motors can deliver, rack-and-pinion systems can offer a compelling combination of speed, precision, scalability, and cost. Here’s when engineers should consider the tradeoff.</p>\n<p>The post <a href=\"https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-out",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Robotics investments reach $4.9B in August 2026",
+      "link": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+      "summary": "<p>The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/\">Robotics investments reach $4.9B in August 2026</a> appeared first on <a h",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Arm Total Design for Physical AI brings more than 80 developers together",
+      "link": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+      "summary": "<p>With its new program and its Robotics Capability Framework, Arm aims to bring more clarity and unity to the robotics industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/\">Arm Total Design for Physical AI brings more than 80 developers together</a> appeared fir",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

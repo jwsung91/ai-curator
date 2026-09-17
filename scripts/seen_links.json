@@ -1,16 +1,4 @@
 {
-  "2026-08-31": [
-    "https://github.com/moveit/moveit2/releases/tag/2.15.1",
-    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-    "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-    "https://simonwillison.net/2026/Aug/29/hy4/",
-    "https://academa.ai/",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.2",
-    "https://spectrum.ieee.org/video-friday-microduck-robot",
-    "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
-    "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
-    "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/"
-  ],
   "2026-09-01": [
     "https://discourse.openrobotics.org/t/zulip-hits-1000-open-roboticists/57768",
     "https://discourse.openrobotics.org/t/embodied-sync-synchronize-calibrate-align-and-validate-multimodal-robot-learning-data-across-sensors-clocks-live-sessions-and-recordings/57766",
@@ -257,5 +245,20 @@
     "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
     "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
     "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
+  ],
+  "2026-09-18": [
+    "https://discourse.openrobotics.org/t/native-ros-2-on-zephyr-with-cyclone-dds/58222",
+    "https://discourse.openrobotics.org/t/new-physical-ai-robotics-masterclass-2026-cohort/58217",
+    "https://discourse.openrobotics.org/t/ported-the-arduinobot-manipulator-workspace-from-humble-to-ros-2-jazzy-notes-on-what-broke/58225",
+    "https://discourse.openrobotics.org/t/assemblygrid-v1-benchmarking-multi-robot-production-handoffs-coalitions-and-concurrency/58223",
+    "https://openai.com/index/astra-for-law",
+    "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+    "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "https://arxiv.org/abs/2609.18842",
+    "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+    "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
+    "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+    "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/"
   ]
 }
