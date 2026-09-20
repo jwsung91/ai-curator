@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T07:46:22+09:00",
+  "items": [
+    {
+      "title": "Camera calibration without a checkerboard",
+      "link": "https://discourse.openrobotics.org/t/camera-calibration-without-a-checkerboard/58282",
+      "summary": "<p>I created the website <a href=\"https://online-camera-calibration.com/\" rel=\"noopener nofollow ugc\">https://online-camera-calibration.com/</a> where you can calibrate a camera without a checkerboard or any other custom-made calibration target. All you need is a flat, textured surface. Upload the images directly, or point it at a ROS bag and it wi",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS2 launch 3.8.9",
+      "link": "https://github.com/ros2/launch/releases/tag/3.8.9",
+      "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+      "source": "GitHub (ROS2 launch)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "link": "https://openai.com/index/cooley-gopublic",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Quoting voxium",
+      "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "summary": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to shi",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-keys-ui 0.1",
+      "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p>\n        <p>This plugin solves a very specific problem.</p>\n<p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>\n<p",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "datasette-auth-github 1.0",
+      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-github/releases/tag/1.0\">datasette-auth-github 1.0</a></p>\n        <p>I run this GitHub login plugin on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that t",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+      "summary": "<p><strong><a href=\"https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2\">Gemini Hacked Three Companies in First Known Breakout by Google’s AI</a></strong></p>\nGemini finally caught up on <a href=\"https://www.felonybench.com/\">Felony Bench</a>!</p>\n<blockquote>\n<p>The hacks, which the company conf",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Note on 18th September 2026",
+      "link": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "summary": "<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>\n<p>Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.\"</p>\n\n    <p>Tags: <a href",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "link": "https://pirateface.co/",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49776699\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.7.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
+      "summary": "1.7.0 (2026-09-18) Full Changelog: v1.6.0...v1.7.0 Features api: add group with display_name to rate limits, deprecate group_type ( 28f0a83 ) tools: add compact_before_next_turn() to the tool runner ( #641 ) ( 8b23fb3 ) Bug Fixes bedrock: raise an API error for eventstream exception and error frames ( #769 ) ( 8ec9cc9 ) client: accept X | Y union types when parsing responses ( b366fa5 ) client: don't raise TypeError for X | Y fields with unknown data ( 30ebd69 ) client: join multiple anthropic-b",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.3",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+      "summary": "What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Fix for model pulls from HuggingFace Full Changelog : v0.34.2...v0.34.3-rc0",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Video Friday: Two Birotors Make a Quadrotor",
+      "link": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&amp;width=1245&amp;height=700&amp;coordinates=103%2C0%2C103%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spe",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "What do you do with a humanoid robot when it breaks down?",
+      "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+      "summary": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">What do you do with a humanoid robot when it breaks down?</a> appeared first on <a href=\"https://www.",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+      "link": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+      "summary": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "The picks-and-shovels strategy behind the robotics boom",
+      "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+      "summary": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks-and-shovels strategy behind the robotics boom</a> appeared first on <a href=\"https://www.therobotre",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    }
+  ]
+}

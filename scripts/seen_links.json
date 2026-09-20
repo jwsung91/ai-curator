@@ -1,21 +1,4 @@
 {
-  "2026-09-01": [
-    "https://discourse.openrobotics.org/t/zulip-hits-1000-open-roboticists/57768",
-    "https://discourse.openrobotics.org/t/embodied-sync-synchronize-calibrate-align-and-validate-multimodal-robot-learning-data-across-sensors-clocks-live-sessions-and-recordings/57766",
-    "https://discourse.openrobotics.org/t/gsoc-2026-qa-of-reset-of-core-systems/57775",
-    "https://discourse.openrobotics.org/t/humanoid-robotics-use-in-manufacturing/57784",
-    "https://discourse.openrobotics.org/t/remote-teleop-for-arms/57788",
-    "https://github.com/ros2/rclcpp/releases/tag/33.1.0",
-    "https://openai.com/index/polimill",
-    "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-    "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-    "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-    "https://dmitrybrant.com/2026/08/23/claude-x-retrocomputing-emulating-a-qic-117-tape-drive",
-    "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-    "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
-    "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
-    "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"
-  ],
   "2026-09-02": [
     "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-1st-2026/57808",
     "https://discourse.openrobotics.org/t/upcoming-webinar-on-using-ouster-colored-lidar/57811",
@@ -260,5 +243,23 @@
     "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
     "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
     "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/"
+  ],
+  "2026-09-21": [
+    "https://discourse.openrobotics.org/t/camera-calibration-without-a-checkerboard/58282",
+    "https://github.com/ros2/launch/releases/tag/3.8.9",
+    "https://openai.com/index/australian-youth-safety-blueprint",
+    "https://openai.com/index/cooley-gopublic",
+    "https://simonwillison.net/2026/Sep/20/voxium/",
+    "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+    "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+    "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+    "https://pirateface.co/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+    "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+    "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/"
   ]
 }
