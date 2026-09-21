@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-22T08:42:23+09:00",
+  "items": [
+    {
+      "title": "Oh noes! What's going on with Anubis?",
+      "link": "https://discourse.openrobotics.org/t/oh-noes-whats-going-on-with-anubis/58302",
+      "summary": "<p>Lately I’ve been intermittently but often getting this message when trying to access ROS documentation (like c++ API etc). Am I the only one running into this? I definitely have browser cookies enabled, and I’m not going through a VPN. The below messages was obtained by browsing to <a href=\"https://docs.ros.org/en/jazzy/p/rclcpp/generated/index.",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "ROS Meetings for Week of September 21, 2026",
+      "link": "https://discourse.openrobotics.org/t/ros-meetings-for-week-of-september-21-2026/58291",
+      "summary": "<p>Because a large majority of the contributors will be at ROSCon, there will be no meetings this week:</p>\n<ul>\n<li>Tuesday ROS PMC Meeting</li>\n<li>Thursday Waffle Meeting</li>\n<li>Friday ROS-ffice hours</li>\n</ul>\n<p>Looking forward to seeing many of you in person in Toronto and then back to regularly scheduled meetings next week!</p>\n          ",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "MOOS-IvP Skills plugin for coding agents: v1.4.12",
+      "link": "https://discourse.openrobotics.org/t/moos-ivp-skills-plugin-for-coding-agents-v1-4-12/58296",
+      "summary": "<p>Hey everyone, I’m Charles Benjamin, a CS undergrad from McGill and core contributor to the MOOS-IvP community.</p>\n<p>I’ve been building <a href=\"https://github.com/cbenjamin23/moos-ivp-skills\" rel=\"noopener nofollow ugc\">MOOS-IvP Skills</a>, a collection of agent skills for developing and validating software in <a href=\"https://oceanai.mit.edu/",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "From CT Scan to Robotic Surgery Prototype: Kidney Stone Detection & PCNL Planning in ROS 2",
+      "link": "https://discourse.openrobotics.org/t/from-ct-scan-to-robotic-surgery-prototype-kidney-stone-detection-pcnl-planning-in-ros-2/58308",
+      "summary": "<p>Hi all,<br />\nI’d like to share a research prototype that connects <strong>medical CT imaging</strong> to <strong>ROS 2 visualization and robot simulation</strong>.<br />\nThe pipeline starts from a DICOM / NIfTI CT scan, segments kidneys and nearby organs, finds stone candidates, builds 3D meshes, ranks <strong>PCNL</strong> (percutaneous nephro",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "link": "https://openai.com/index/building-standards-next-phase-ai",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "link": "https://simonwillison.net/2026/Sep/21/jev/",
+      "summary": "<p>Last week <a href=\"https://typesafe.ai/\">TypeSafe AI</a> unveiled <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\">Jev</a>, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is <a href=\"https://twitter.com/Mappletons/status/2101560",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "MCP was always a bad idea?",
+      "link": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "summary": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>\n<p>Sure, there's almost no reason to use MCPs if you are running a full-blown termin",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "IAC completes autonomous racing event at Laguna Seca",
+      "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+      "summary": "<p>At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.</p>\n<p>The post <a href=\"https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/\">IAC completes autonomous racing event at Laguna Seca</a> appeared first on <a href=\"https://www.therobo",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
+      "link": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
+      "summary": "<p>The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/\">Boston Dynamics opens Metaplant Application Center to train Atlas humanoids</a> appeared fi",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work.  As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster.  Technology Changes, Security Fundamentals Endure The i",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
