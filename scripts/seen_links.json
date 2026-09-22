@@ -1,24 +1,4 @@
 {
-  "2026-09-03": [
-    "https://discourse.openrobotics.org/t/three-bugs-that-changed-how-our-sensor-board-talks-to-ros-2/57825",
-    "https://discourse.openrobotics.org/t/robotics-software-engineer-austin-tx-valstad-shipworks/57814",
-    "https://discourse.openrobotics.org/t/gps-says-5m-accuracy-but-the-fixes-agree-to-9-cm-anyone-else-seen-this/57831",
-    "https://github.com/ros2/launch/releases/tag/3.10.1",
-    "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-    "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-    "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-    "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-    "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-    "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "https://blog.cloudflare.com/cache-transcoding/",
-    "https://github.com/mlc-ai/web-llm",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
-    "https://github.com/BerriAI/litellm/releases/tag/backup-pr38765-restack-20260902",
-    "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
-    "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
-    "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"
-  ],
   "2026-09-04": [
     "https://discourse.openrobotics.org/t/a-one-command-installer-for-the-apt-based-ros-2-path/57843",
     "https://discourse.openrobotics.org/t/bimo-an-open-source-bipedal-robotics-kit-with-sim-to-real-transfer/57846",
@@ -255,5 +235,26 @@
     "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
     "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
     "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+  ],
+  "2026-09-23": [
+    "https://discourse.openrobotics.org/t/stress-testing-a-moral-execution-guard-beyond-direct-language-qerra-v2-classical/58314",
+    "https://discourse.openrobotics.org/t/collision-aware-motion-planning-with-nvidia-isaac-ros-cumotion/58330",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v5.0-0",
+    "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v5.0-0",
+    "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "https://www.anthropic.com/claude-opus-5-5",
+    "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+    "https://artificialanalysis.ai/models/claude-opus-5-5",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.102.0",
+    "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+    "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+    "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+    "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
   ]
 }

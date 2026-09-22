@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-23T08:20:03+09:00",
+  "items": [
+    {
+      "title": "Stress-testing a moral execution guard beyond direct language (QERRA-v2 Classical)",
+      "link": "https://discourse.openrobotics.org/t/stress-testing-a-moral-execution-guard-beyond-direct-language-qerra-v2-classical/58314",
+      "summary": "<p>Hi There !</p>\n<p>I have been evaluating an execution guard <strong>for robot Behavior Trees (QERRA-v2 Classical,</strong> tested in Webots simulation on a PAL Robotics TIAGo) that screens prospective text directives before an action is committed.</p>\n<p>While <strong>direct ethical violations</strong> (overt fraud, explicit harm) are straightfo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Collision Aware Motion Planning with NVIDIA Isaac™ ROS cuMotion",
+      "link": "https://discourse.openrobotics.org/t/collision-aware-motion-planning-with-nvidia-isaac-ros-cumotion/58330",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=fmZdMV72IR0\">AI WORKER #20: Collision Aware Motion Planning with NVIDIA Isaac™ ROS cuMotion</a></p>\n\n<p>Getting a robot arm to a target pose is only part of the problem in real-world manipulation. The planner also needs to account for self-collision, fixed structures, newly observed obstacles, and the geo",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS Common 5.0.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v5.0-0",
+      "summary": "Merge pull request #244 from NVIDIA-ISAAC-ROS/release-5.0 Release Isaac ROS 5.0",
+      "source": "GitHub (Isaac ROS Common)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Isaac ROS NITROS 5.0.0",
+      "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v5.0-0",
+      "summary": "Merge pull request #79 from NVIDIA-ISAAC-ROS/release-5.0 Release Isaac ROS 5.0",
+      "source": "GitHub (Isaac ROS NITROS)",
+      "section_hint": "로보틱스"
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "source": "OpenAI News",
+      "section_hint": "AI"
+    },
+    {
+      "title": "llm-typesafe 0.1a0",
+      "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p>\n        <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p>\n<pre><code>l",
+      "source": "Simon Willison",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Opus 5.5",
+      "link": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49803892\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49801324\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=49804316\">Comments</a>",
+      "source": "HackerNews",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Anthropic SDK v1.8.0",
+      "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
+      "summary": "1.8.0 (2026-09-22) Full Changelog: v1.7.0...v1.8.0 Features api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ( b5cc700 ) Bug Fixes api: share one evaluated_permission enum across Managed Agents events ( f4f51c8 ) streaming: avoid a Python 3.13 crash at exit when a stream is left open ( af029bd ) tools: add_tools() takes effect straight away ( #874 ) ( 06d0a6b ) tools: leave reply-only params off the tool runner's compaction request ( #871 ) ( 4687310",
+      "source": "GitHub (Anthropic SDK)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Ollama v0.34.3",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+      "summary": "What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: ollama show gemma4 thinking levels false, true default true Available in the API with: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Also available on ollama.com directly for cloud models. Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's m",
+      "source": "GitHub (Ollama)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "LiteLLM v1.102.0",
+      "link": "https://github.com/BerriAI/litellm/releases/tag/v1.102.0",
+      "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.102.0 Verify usin",
+      "source": "GitHub (LiteLLM)",
+      "section_hint": "AI"
+    },
+    {
+      "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+      "link": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>Throughout her career, roboticist <a href=\"https://www.iit.it/people-details/-/people/barbara-mazzolai\" rel=\"n",
+      "source": "IEEE Spectrum",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+      "link": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+      "summary": "<p>Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/\">Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Why outdoor robots fail (and how to build systems that survive)",
+      "link": "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+      "summary": "<p>Learn practical strategies for building reliable outdoor robots from WiBotic, Burro, and Nextpower at RoboBusiness in Silicon Valley.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/\">Why outdoor robots fail (and how to build systems that survive)</a> appeared first on <a href=\"ht",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+      "link": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+      "summary": "<p>The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. </p>\n<p>The post <a href=\"https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/\">Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA</a> appeared first",
+      "source": "The Robot Report",
+      "section_hint": "트렌드"
+    },
+    {
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&",
+      "source": "NVIDIA Blog",
+      "section_hint": "트렌드"
+    }
+  ]
+}
