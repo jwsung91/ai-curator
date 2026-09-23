@@ -1,25 +1,4 @@
 {
-  "2026-09-04": [
-    "https://discourse.openrobotics.org/t/a-one-command-installer-for-the-apt-based-ros-2-path/57843",
-    "https://discourse.openrobotics.org/t/bimo-an-open-source-bipedal-robotics-kit-with-sim-to-real-transfer/57846",
-    "https://discourse.openrobotics.org/t/ui-ux-improvements-to-the-crossflow-diagram-editor/57838",
-    "https://discourse.openrobotics.org/t/ament-index-ressources-through-unified-cli-interface/57841",
-    "https://openai.com/index/daybreak-for-frontline-defenders",
-    "https://openai.com/index/legora-financial-statement-review-with-astra",
-    "https://openai.com/index/playco-game-prototyping-with-astra",
-    "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-    "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-    "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
-    "https://armature.tech/blog/which-tools-coding-agents-install",
-    "https://arcprize.org/blog/astra",
-    "https://github.com/ollama/ollama/releases/tag/v0.33.3",
-    "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
-    "https://spectrum.ieee.org/moon-ball-robot",
-    "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
-    "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
-    "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
-    "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
-  ],
   "2026-09-07": [
     "https://discourse.openrobotics.org/t/new-cli-tool-fastdds-transport-viz-predict-measure-per-topic-dds-transport-in-ros-2/57900",
     "https://openai.com/index/an-alien-mind",
@@ -256,5 +235,30 @@
     "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
     "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
     "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+  ],
+  "2026-09-24": [
+    "https://discourse.openrobotics.org/t/roscon-global-2026-live-stream/58340",
+    "https://discourse.openrobotics.org/t/fifteen-years-of-moveit-and-the-next-fifteen/58349",
+    "https://discourse.openrobotics.org/t/announcement-rclrs-0-8-0-release/58347",
+    "https://discourse.openrobotics.org/t/roscon-toronto-followup-kubernetes-kubeedge-with-ros-2/58350",
+    "https://discourse.openrobotics.org/t/orbital-space-robotics-with-ros2-isaac-sim/58342",
+    "https://openai.com/index/two-years-of-openai-academy",
+    "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+    "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+    "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "https://simonwillison.net/2026/Sep/22/llm/",
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+    "https://fly.io/blog/vscode-ssh-wtf/",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.102.1",
+    "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
+    "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+    "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/"
   ]
 }
