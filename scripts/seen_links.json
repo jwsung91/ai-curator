@@ -1,23 +1,4 @@
 {
-  "2026-09-07": [
-    "https://discourse.openrobotics.org/t/new-cli-tool-fastdds-transport-viz-predict-measure-per-topic-dds-transport-in-ros-2/57900",
-    "https://openai.com/index/an-alien-mind",
-    "https://openai.com/index/research-acceleration-view-inside-openai",
-    "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-    "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-    "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-    "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-    "https://blog.glazer.ee/posts/converting-cronos/",
-    "https://openai.com/index/research-acceleration-view-inside-openai",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.100.0",
-    "https://spectrum.ieee.org/cyborg-rescue-roach",
-    "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
-    "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
-    "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
-    "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"
-  ],
   "2026-09-08": [
     "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-2026-09-09/57926",
     "https://discourse.openrobotics.org/t/logging-and-observability-guide-review-part-3-cloud-robotics-wg-meeting-2026-10-05/57930",
@@ -260,5 +241,16 @@
     "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
     "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
     "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/"
+  ],
+  "2026-09-25": [
+    "https://discourse.openrobotics.org/t/ros2-unbag-is-now-available-via-the-ros-2-buildfarm/58367",
+    "https://discourse.openrobotics.org/t/webots-demo-6-compound-physical-safety-reflex-on-tiago-qerra-v2-classical/58372",
+    "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+    "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+    "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+    "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
+    "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
+    "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/"
   ]
 }
