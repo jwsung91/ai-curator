@@ -1,0 +1,175 @@
+{
+  "baseline": "89354fdaad3fc08b88daa6fb2f0301281922e14e",
+  "candidate": "5329f271c5969d3065ae5ac9169a3cd4b7dda39b",
+  "startedAt": "2026-09-26T05:09:08.534178+00:00",
+  "modelRequested": "gemini-flash-latest",
+  "config": {
+    "response_mime_type": "application/json",
+    "temperature": 0.2
+  },
+  "runsPerVariant": 1,
+  "results": [
+    {
+      "case": "daily-2026-09-25",
+      "variant": "before",
+      "promptSha256": "c22f8a6128ac630c993ae1dcd06708d82e468e024746d582c79ed913acf03fde",
+      "seconds": 8.72,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 510,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1871,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1871
+          }
+        ],
+        "thoughts_token_count": 1634,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 4015,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "pass"
+    },
+    {
+      "case": "daily-2026-09-25",
+      "variant": "after",
+      "promptSha256": "6207a08852711aa5d659a0056c598fefc3eeaf85f5dd2bd3298eea1eaf3b49d4",
+      "seconds": 2.17,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 389,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 3094,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 3094
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 3483,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "pass"
+    },
+    {
+      "case": "daily-2026-09-24",
+      "variant": "after",
+      "promptSha256": "7dc7d3a2fad9a4f9783a01525046c58d725d0c74ba13fd363eed3e1d5eff0085",
+      "seconds": 9.72,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 538,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 5494,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 5494
+          }
+        ],
+        "thoughts_token_count": 1834,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 7866,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "pass"
+    },
+    {
+      "case": "daily-2026-09-24",
+      "variant": "before",
+      "promptSha256": "2d98fce262170d9ab2aeea82e252ed988a70f4277d4067982bd8ea5bf7089514",
+      "seconds": 4.13,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 896,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 3270,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 3270
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 4166,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "pass"
+    },
+    {
+      "case": "weekly-2026-W39",
+      "variant": "before",
+      "promptSha256": "78a970cd17ea085c58c6211aebf717bdac543d0a1800a9d2403457b12dacdefb",
+      "seconds": 16.67,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 1077,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 7944,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 7944
+          }
+        ],
+        "thoughts_token_count": 3139,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 12160,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "weekly_themes exceeds 3 bullet limit"
+    },
+    {
+      "case": "weekly-2026-W39",
+      "variant": "after",
+      "promptSha256": "6e60c59daf6dcebb47cf1a46d9de8ead315d46cfc266de1b14ef4a55e66ec2ed",
+      "seconds": 18.11,
+      "modelVersion": "gemini-3.8-flash",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 1046,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 15580,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 15580
+          }
+        ],
+        "thoughts_token_count": 1507,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 18133,
+        "traffic_type": null
+      },
+      "jsonValid": true,
+      "candidateValidation": "pass"
+    }
+  ]
+}
