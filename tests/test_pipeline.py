@@ -825,3 +825,14 @@ def test_quality_model_fallback_retains_configured_order():
     response, model = quality._generate(client, ['missing', 'available'], 'prompt')
     assert model == 'available'
     assert calls == ['missing', 'available']
+
+
+def test_review_can_reclassify_but_cannot_drop_selected_source():
+    from quality_pipeline import validate_grounded_report
+    items, plan, report = quality_fixture()
+    report['section_industry'] = report['section_devtools']
+    report['section_devtools'] = ''
+    validate_grounded_report(report, items, 'daily', plan, reviewed=True)
+    report['section_industry'] = ''
+    with pytest.raises(ValueError, match='preserve selected entry'):
+        validate_grounded_report(report, items, 'daily', plan, reviewed=True)

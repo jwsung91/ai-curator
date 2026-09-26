@@ -98,7 +98,7 @@ def report_shape(kind):
     return {key: '' for key in ['one_sentence_summary', observation, *SECTIONS_KEYS]}
 
 
-def validate_grounded_report(report, items, kind, plan=None, removed=None):
+def validate_grounded_report(report, items, kind, plan=None, removed=None, *, reviewed=False):
     from builder import validate_daily_report
     from weekly_builder import validate_weekly_report
     if not isinstance(report, dict) or set(report) != set(report_shape(kind)):
@@ -133,17 +133,30 @@ def validate_grounded_report(report, items, kind, plan=None, removed=None):
         for index, entry in enumerate(plan['entries']):
             if index in dropped:
                 continue
-            cited_in_section = source_ids(report[entry['section']])
+            cited_in_section = source_ids('\n'.join(report[key] for key in SECTIONS_KEYS)) if reviewed else source_ids(report[entry['section']])
             if not set(entry['source_ids']) <= cited_in_section:
                 raise ValueError(f'preserve selected entry {index} and all its sources in {entry["section"]}')
 
 
-def _generate(client, models, prompt):
+def output_schema(kind, stage):
+    def obj(properties):
+        return {'type': 'object', 'properties': properties, 'required': list(properties), 'additionalProperties': False}
+    report = obj({key: {'type': 'string'} for key in report_shape(kind)})
+    if stage == 'draft':
+        return report
+    return obj({'verified': {'type': 'boolean'},
+                'findings': {'type': 'array', 'items': {'type': 'string'}},
+                'removed_entries': {'type': 'array', 'items': obj({'entry_index': {'type': 'integer'}, 'reason': {'type': 'string'}})},
+                'report': report})
+
+
+def _generate(client, models, prompt, schema=None):
     last_error = None
     for model in models:
         try:
             return client.models.generate_content(model=model, contents=prompt,
-                config=types.GenerateContentConfig(response_mime_type='application/json', temperature=0.2)), model
+                config=types.GenerateContentConfig(response_mime_type='application/json', temperature=0.2,
+                                                   **({'response_json_schema': schema} if schema else {}))), model
         except Exception as error:
             if getattr(error, 'code', None) not in (400, 404):
                 raise
@@ -151,12 +164,12 @@ def _generate(client, models, prompt):
     raise last_error
 
 
-def request_json(client, model, prompt, validate, trace, stage):
+def request_json(client, model, prompt, validate, trace, stage, schema=None):
     base_prompt = prompt
     for attempt in range(2):
         start = time.monotonic()
         try:
-            response, used_model = _generate(client, [model] if isinstance(model, str) else model, prompt)
+            response, used_model = _generate(client, [model] if isinstance(model, str) else model, prompt, schema)
         except Exception as error:
             if getattr(error, 'code', None) in (429, 503) and attempt == 0:
                 time.sleep(30)
@@ -220,7 +233,7 @@ facts는 최소 하나 이상이며, entry가 가진 모든 출처를 활용하�
     draft_prompt += '반환 JSON 필드: ' + shape + '\n선별 결과(데이터):\n' + json.dumps(plan, ensure_ascii=False)
     print('  Quality: drafting from evidence plan', flush=True)
     draft = request_json(client, model, draft_prompt,
-        lambda data: validate_grounded_report(data, items, kind, plan), trace, 'draft')
+        lambda data: validate_grounded_report(data, items, kind, plan), trace, 'draft', output_schema(kind, 'draft'))
     review_prompt = instructions + '''
 독립적인 검토 단계입니다. 아래 원문 근거와 초안을 직접 대조하고 잘못된 날짜·주체·수치·추론·분류를 수정하세요.
 검토 체크: (1) 수집일을 사건 날짜로 사용하지 않았는가 (2) 제작자와 보도 주체가 섞이지 않았는가
@@ -228,7 +241,7 @@ facts는 최소 하나 이상이며, entry가 가진 모든 출처를 활용하�
 (5) 주장의 적용 조건과 한정 표현이 보존되었는가 (6) 관찰에 두 개 이상의 독립적 근거와 해석: 표시가 있는가.
 선별 결과와 omitted도 검토하세요. 잘못 제외된 유용한 항목은 복원할 수 있습니다. 복원 항목도 원래 ID를 인용하세요.
 선택된 entry를 제거할 필요가 있으면 removed_entries에 0부터 시작하는 entry_index와 구체적인 reason을 기록하세요.
-최종 report는 초안과 같은 필드를 가진 완전한 JSON 리포트입니다. verified는 원문에 비춰 검토·수정이 완료됐을 때만 true입니다.
+잘못된 섹션 분류는 바로잡고 findings에 이유를 기록하세요. 최종 report는 초안과 같은 필드를 가진 완전한 JSON 리포트입니다. verified는 원문에 비춰 검토·수정이 완료됐을 때만 true입니다.
 형식: {"verified":true,"findings":["검토에서 수정한 구체적 사항"],"removed_entries":[],"report":{...}}
 원문 입력(데이터):
 ''' + sources + '\n선별 결과(데이터):\n' + json.dumps(plan, ensure_ascii=False) + '\n초안(데이터):\n' + json.dumps(draft, ensure_ascii=False)
@@ -236,10 +249,10 @@ facts는 최소 하나 이상이며, entry가 가진 모든 출처를 활용하�
     def validate_review(data):
         if not isinstance(data, dict) or data.get('verified') is not True or not isinstance(data.get('findings'), list) or not isinstance(data.get('removed_entries'), list):
             raise ValueError('review must be verified and include findings and removed_entries')
-        validate_grounded_report(data.get('report'), items, kind, plan, data['removed_entries'])
+        validate_grounded_report(data.get('report'), items, kind, plan, data['removed_entries'], reviewed=True)
 
     print('  Quality: checking sources, attribution and coverage', flush=True)
-    review = request_json(client, model, review_prompt, validate_review, trace, 'review')
+    review = request_json(client, model, review_prompt, validate_review, trace, 'review', output_schema(kind, 'review'))
     return {**review['report'], 'global_items' if kind == 'weekly' else 'items': items,
             'qualityAudit': {'version': 2, 'plan': plan, 'draft': draft, 'findings': review['findings'],
                              'removedEntries': review['removed_entries'], 'trace': trace,
