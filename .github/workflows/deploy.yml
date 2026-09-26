@@ -8,6 +8,10 @@ on:
     - cron: '0 0 * * 6'     # Weekly: Sat 09:00 KST (Sat 00:00 UTC)
   workflow_dispatch:
     inputs:
+      compare_prompts:
+        description: 'Compare baseline and candidate prompts only (6 Gemini requests)'
+        type: boolean
+        default: false
       run_daily:
         description: 'Run Daily Report'
         type: boolean
@@ -24,11 +28,38 @@ permissions:
   issues: write
 
 concurrency:
-  group: pages
+  group: ${{ github.event.inputs.compare_prompts == 'true' && format('prompt-comparison-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 jobs:
+  compare-prompts:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.compare_prompts == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r scripts/requirements.txt
+      - name: Compare prompts on fixed inputs
+        run: python scripts/compare_prompts.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: prompt-comparison
+          path: artifacts/prompt-comparison/
+          retention-days: 14
+
   build-and-deploy:
+    if: github.event.inputs.compare_prompts != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

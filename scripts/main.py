@@ -97,7 +97,7 @@ def main():
             return
 
         print("🤖 Generating report...")
-        data = generate_summary(all_items)
+        data = generate_summary(all_items, report_date=date_str)
         validate_daily_report(data, item_count=len(all_items))
 
         if dry_run:
