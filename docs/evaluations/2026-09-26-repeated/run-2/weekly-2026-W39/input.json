@@ -1,0 +1,642 @@
+[
+  {
+    "title": "Camera calibration without a checkerboard",
+    "link": "https://discourse.openrobotics.org/t/camera-calibration-without-a-checkerboard/58282",
+    "summary": "<p>I created the website <a href=\"https://online-camera-calibration.com/\" rel=\"noopener nofollow ugc\">https://online-camera-calibration.com/</a> where you can calibrate a camera without a checkerboard or any other custom-made calibration target. All you need is a flat, textured surface. Upload the images directly, or point it at a ROS bag and it wi",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "ROS2 launch 3.8.9",
+    "link": "https://github.com/ros2/launch/releases/tag/3.8.9",
+    "summary": "Signed-off-by: Christophe Bedard bedard.christophe@gmail.com",
+    "source": "GitHub (ROS2 launch)",
+    "section_hint": "로보틱스",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "link": "https://openai.com/index/australian-youth-safety-blueprint",
+    "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "How Cooley is accelerating IPO work with ChatGPT",
+    "link": "https://openai.com/index/cooley-gopublic",
+    "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Quoting voxium",
+    "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+    "summary": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to shi",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "llm-keys-ui 0.1",
+    "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p>\n        <p>This plugin solves a very specific problem.</p>\n<p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>\n<p",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "datasette-auth-github 1.0",
+    "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-github/releases/tag/1.0\">datasette-auth-github 1.0</a></p>\n        <p>I run this GitHub login plugin on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that t",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+    "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+    "summary": "<p><strong><a href=\"https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2\">Gemini Hacked Three Companies in First Known Breakout by Google’s AI</a></strong></p>\nGemini finally caught up on <a href=\"https://www.felonybench.com/\">Felony Bench</a>!</p>\n<blockquote>\n<p>The hacks, which the company conf",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Note on 18th September 2026",
+    "link": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+    "summary": "<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>\n<p>Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.\"</p>\n\n    <p>Tags: <a href",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Pirate Face Rescues LLM Models from Deletion",
+    "link": "https://pirateface.co/",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49776699\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Anthropic SDK v1.7.0",
+    "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
+    "summary": "1.7.0 (2026-09-18) Full Changelog: v1.6.0...v1.7.0 Features api: add group with display_name to rate limits, deprecate group_type ( 28f0a83 ) tools: add compact_before_next_turn() to the tool runner ( #641 ) ( 8b23fb3 ) Bug Fixes bedrock: raise an API error for eventstream exception and error frames ( #769 ) ( 8ec9cc9 ) client: accept X | Y union types when parsing responses ( b366fa5 ) client: don't raise TypeError for X | Y fields with unknown data ( 30ebd69 ) client: join multiple anthropic-b",
+    "source": "GitHub (Anthropic SDK)",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Ollama v0.34.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+    "summary": "What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Fix for model pulls from HuggingFace Full Changelog : v0.34.2...v0.34.3-rc0",
+    "source": "GitHub (Ollama)",
+    "section_hint": "AI",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Video Friday: Two Birotors Make a Quadrotor",
+    "link": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+    "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&amp;width=1245&amp;height=700&amp;coordinates=103%2C0%2C103%2C0\" /><br /><br /><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spe",
+    "source": "IEEE Spectrum",
+    "section_hint": "트렌드",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "What do you do with a humanoid robot when it breaks down?",
+    "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "summary": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">What do you do with a humanoid robot when it breaks down?</a> appeared first on <a href=\"https://www.",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+    "link": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "summary": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"ht",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "The picks-and-shovels strategy behind the robotics boom",
+    "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+    "summary": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks-and-shovels strategy behind the robotics boom</a> appeared first on <a href=\"https://www.therobotre",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "Oh noes! What's going on with Anubis?",
+    "link": "https://discourse.openrobotics.org/t/oh-noes-whats-going-on-with-anubis/58302",
+    "summary": "<p>Lately I’ve been intermittently but often getting this message when trying to access ROS documentation (like c++ API etc). Am I the only one running into this? I definitely have browser cookies enabled, and I’m not going through a VPN. The below messages was obtained by browsing to <a href=\"https://docs.ros.org/en/jazzy/p/rclcpp/generated/index.",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "ROS Meetings for Week of September 21, 2026",
+    "link": "https://discourse.openrobotics.org/t/ros-meetings-for-week-of-september-21-2026/58291",
+    "summary": "<p>Because a large majority of the contributors will be at ROSCon, there will be no meetings this week:</p>\n<ul>\n<li>Tuesday ROS PMC Meeting</li>\n<li>Thursday Waffle Meeting</li>\n<li>Friday ROS-ffice hours</li>\n</ul>\n<p>Looking forward to seeing many of you in person in Toronto and then back to regularly scheduled meetings next week!</p>\n          ",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "MOOS-IvP Skills plugin for coding agents: v1.4.12",
+    "link": "https://discourse.openrobotics.org/t/moos-ivp-skills-plugin-for-coding-agents-v1-4-12/58296",
+    "summary": "<p>Hey everyone, I’m Charles Benjamin, a CS undergrad from McGill and core contributor to the MOOS-IvP community.</p>\n<p>I’ve been building <a href=\"https://github.com/cbenjamin23/moos-ivp-skills\" rel=\"noopener nofollow ugc\">MOOS-IvP Skills</a>, a collection of agent skills for developing and validating software in <a href=\"https://oceanai.mit.edu/",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "From CT Scan to Robotic Surgery Prototype: Kidney Stone Detection & PCNL Planning in ROS 2",
+    "link": "https://discourse.openrobotics.org/t/from-ct-scan-to-robotic-surgery-prototype-kidney-stone-detection-pcnl-planning-in-ros-2/58308",
+    "summary": "<p>Hi all,<br />\nI’d like to share a research prototype that connects <strong>medical CT imaging</strong> to <strong>ROS 2 visualization and robot simulation</strong>.<br />\nThe pipeline starts from a DICOM / NIfTI CT scan, segments kidneys and nearby organs, finds stone candidates, builds 3D meshes, ranks <strong>PCNL</strong> (percutaneous nephro",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Advisory Group on Mathematics and Artificial Intelligence",
+    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+    "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Building standards for the next phase of AI",
+    "link": "https://openai.com/index/building-standards-next-phase-ai",
+    "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "link": "https://simonwillison.net/2026/Sep/21/jev/",
+    "summary": "<p>Last week <a href=\"https://typesafe.ai/\">TypeSafe AI</a> unveiled <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\">Jev</a>, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is <a href=\"https://twitter.com/Mappletons/status/2101560",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "MCP was always a bad idea?",
+    "link": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+    "summary": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>\n<p>Sure, there's almost no reason to use MCPs if you are running a full-blown termin",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "IAC completes autonomous racing event at Laguna Seca",
+    "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+    "summary": "<p>At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.</p>\n<p>The post <a href=\"https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/\">IAC completes autonomous racing event at Laguna Seca</a> appeared first on <a href=\"https://www.therobo",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
+    "link": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
+    "summary": "<p>The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/\">Boston Dynamics opens Metaplant Application Center to train Atlas humanoids</a> appeared fi",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+    "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+    "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments",
+    "source": "NVIDIA Blog",
+    "section_hint": "트렌드",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+    "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+    "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work.  As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster.  Technology Changes, Security Fundamentals Endure The i",
+    "source": "NVIDIA Blog",
+    "section_hint": "트렌드",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "Stress-testing a moral execution guard beyond direct language (QERRA-v2 Classical)",
+    "link": "https://discourse.openrobotics.org/t/stress-testing-a-moral-execution-guard-beyond-direct-language-qerra-v2-classical/58314",
+    "summary": "<p>Hi There !</p>\n<p>I have been evaluating an execution guard <strong>for robot Behavior Trees (QERRA-v2 Classical,</strong> tested in Webots simulation on a PAL Robotics TIAGo) that screens prospective text directives before an action is committed.</p>\n<p>While <strong>direct ethical violations</strong> (overt fraud, explicit harm) are straightfo",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Collision Aware Motion Planning with NVIDIA Isaac™ ROS cuMotion",
+    "link": "https://discourse.openrobotics.org/t/collision-aware-motion-planning-with-nvidia-isaac-ros-cumotion/58330",
+    "summary": "<p><a href=\"https://www.youtube.com/watch?v=fmZdMV72IR0\">AI WORKER #20: Collision Aware Motion Planning with NVIDIA Isaac™ ROS cuMotion</a></p>\n\n<p>Getting a robot arm to a target pose is only part of the problem in real-world manipulation. The planner also needs to account for self-collision, fixed structures, newly observed obstacles, and the geo",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Isaac ROS Common 5.0.0",
+    "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/releases/tag/v5.0-0",
+    "summary": "Merge pull request #244 from NVIDIA-ISAAC-ROS/release-5.0 Release Isaac ROS 5.0",
+    "source": "GitHub (Isaac ROS Common)",
+    "section_hint": "로보틱스",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Isaac ROS NITROS 5.0.0",
+    "link": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros/releases/tag/v5.0-0",
+    "summary": "Merge pull request #79 from NVIDIA-ISAAC-ROS/release-5.0 Release Isaac ROS 5.0",
+    "source": "GitHub (Isaac ROS NITROS)",
+    "section_hint": "로보틱스",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Better prompt caching for GPT-6",
+    "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Introducing GPT-6 Sol and Luna",
+    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+    "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "llm-typesafe 0.1a0",
+    "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p>\n        <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p>\n<pre><code>l",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Claude Opus 5.5",
+    "link": "https://www.anthropic.com/claude-opus-5-5",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49803892\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+    "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49801324\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+    "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49804316\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Anthropic SDK v1.8.0",
+    "link": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
+    "summary": "1.8.0 (2026-09-22) Full Changelog: v1.7.0...v1.8.0 Features api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ( b5cc700 ) Bug Fixes api: share one evaluated_permission enum across Managed Agents events ( f4f51c8 ) streaming: avoid a Python 3.13 crash at exit when a stream is left open ( af029bd ) tools: add_tools() takes effect straight away ( #874 ) ( 06d0a6b ) tools: leave reply-only params off the tool runner's compaction request ( #871 ) ( 4687310",
+    "source": "GitHub (Anthropic SDK)",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Ollama v0.34.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+    "summary": "What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: ollama show gemma4 thinking levels false, true default true Available in the API with: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Also available on ollama.com directly for cloud models. Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's m",
+    "source": "GitHub (Ollama)",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "LiteLLM v1.102.0",
+    "link": "https://github.com/BerriAI/litellm/releases/tag/v1.102.0",
+    "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.102.0 Verify usin",
+    "source": "GitHub (LiteLLM)",
+    "section_hint": "AI",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+    "link": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+    "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>Throughout her career, roboticist <a href=\"https://www.iit.it/people-details/-/people/barbara-mazzolai\" rel=\"n",
+    "source": "IEEE Spectrum",
+    "section_hint": "트렌드",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+    "link": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+    "summary": "<p>Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/\">Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Why outdoor robots fail (and how to build systems that survive)",
+    "link": "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+    "summary": "<p>Learn practical strategies for building reliable outdoor robots from WiBotic, Burro, and Nextpower at RoboBusiness in Silicon Valley.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/\">Why outdoor robots fail (and how to build systems that survive)</a> appeared first on <a href=\"ht",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+    "link": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "summary": "<p>The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. </p>\n<p>The post <a href=\"https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/\">Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA</a> appeared first",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+    "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+    "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&",
+    "source": "NVIDIA Blog",
+    "section_hint": "트렌드",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "ROSCon Global 2026 Live Stream",
+    "link": "https://discourse.openrobotics.org/t/roscon-global-2026-live-stream/58340",
+    "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-118357-roscon-global-2026-live-from-toronto-canada-1\" name=\"p-118357-roscon-global-2026-live-from-toronto-canada-1\"></a>ROSCon Global 2026 live from Toronto! <img alt=\":canada:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/canada.png?v=15\" title=\":canada:\" width",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Fifteen Years of MoveIt, and the Next Fifteen",
+    "link": "https://discourse.openrobotics.org/t/fifteen-years-of-moveit-and-the-next-fifteen/58349",
+    "summary": "<p>Today we announced that <a href=\"https://www.qualcomm.com/news/releases\" rel=\"noopener nofollow ugc\">PickNik Inc. and Qualcomm Technologies, Inc. are joining forces</a>. Before I go into that, I want to talk about MoveIt, because MoveIt is the reason any of this happened.</p>\n<p>If you have learned about robotic arm manipulation in the past deca",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Announcement: rclrs 0.8.0 Release",
+    "link": "https://discourse.openrobotics.org/t/announcement-rclrs-0-8-0-release/58347",
+    "summary": "<p>We’re happy to announce the release of <code>rclrs</code> v0.8.0!</p>\n<p>Continuing our proud tradition of Conference-Driven Development (CDD), this release arrives just in time for ROSCon Global 2026 ( <a class=\"inline-onebox\" href=\"https://roscon.ros.org/2026/\">Making sure you're not a bot!</a> ) in Toronto.</p>\n<p>If you are at ROSCon, do not",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "ROSCon Toronto FollowUp: Kubernetes/KubeEdge with ROS 2",
+    "link": "https://discourse.openrobotics.org/t/roscon-toronto-followup-kubernetes-kubeedge-with-ros-2/58350",
+    "summary": "<p>Hi All</p>\n<p>those who joined the k8s/kubeedge with ROS 2 meetup at ROSCon Toronto, here is the thread that we follow up more information.<br />\nplease subscribe this thread so that you will not miss the notification.</p>\n<p>as we mentioned, let’s follow up more details about this topic after ROSCon.<br />\ni will send the online meeting once i ",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Orbital space robotics with ROS2 & Isaac Sim",
+    "link": "https://discourse.openrobotics.org/t/orbital-space-robotics-with-ros2-isaac-sim/58342",
+    "summary": "<p>I want to show off my work for a NASA proposal / USSF contract. (Approved for public release). I utilized Isaac Sim 5.1 and ROS2 Jazzy for avionics and orbit dynamics.</p>\n<p>I work for a satelite company, and we submitted our proposal to NASA, phase 2 will hopefully implement agentic ROS for this project. This is the first project that I know o",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Two years of OpenAI Academy",
+    "link": "https://openai.com/index/two-years-of-openai-academy",
+    "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+    "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Sam Altman’s remarks at the United Nations Security Council",
+    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "source": "OpenAI News",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Advancing Private AI Compute with secure, server-side memory",
+    "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+    "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+    "source": "Google DeepMind",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Gemini 3.8 text-to-speech says hello",
+    "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Gemini 3.8 TTS Playground",
+    "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p>\n        <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <co",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Shadow roots, explained with live examples",
+    "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p>\n        <p>Prompt to Fable 5.1 Medium:</p>\n<blockquote>\n<p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwill",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "summary": "<p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p>\nI'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p>\n<p>Think of it as an agentic sh",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "summary": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropi",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "llm 0.36",
+    "link": "https://simonwillison.net/2026/Sep/22/llm/",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p>\n        <blockquote>\n<ul>\n<li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt",
+    "source": "Simon Willison",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49820134\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Linux support is coming to Snapdragon X2 Series",
+    "link": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49823582\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "VSCode's SSH Agent Is Bananas (2025)",
+    "link": "https://fly.io/blog/vscode-ssh-wtf/",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49822555\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Ollama v0.34.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+    "summary": "What's Changed server: fix intermittent \"model not found\" errors. by @rick-github in #18438 server: apply structured outputs in a single pass on thinking models by @jessegross in #18479 app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in #18601 llama.cpp: version update by @dhiltgen in #18577 MLX: version bump by @dhiltgen in #18576 mlx: select Gemma 4 image resolution dynamically by @dhiltgen in #18603 mlx: speed up Qwen 3.8 prompt processing by @dhiltgen in #18550 Full Changelo",
+    "source": "GitHub (Ollama)",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "LiteLLM v1.102.1",
+    "link": "https://github.com/BerriAI/litellm/releases/tag/v1.102.1",
+    "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.102.1 Verify usin",
+    "source": "GitHub (LiteLLM)",
+    "section_hint": "AI",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
+    "link": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
+    "summary": "<p>While this is the first intentional step by Arduino into robotics, the company has over 20 years of experience working with robotics developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/\">With the new VENTUNO Q board, Arduino hopes to make robotics development easi",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Helicon brings automation to high-volume composites manufacturing",
+    "link": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+    "summary": "<p>Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/\">Helicon brings automation to high-volume composites manufacturing</a> appeared first on <a href=\"https://www.t",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+    "link": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+    "summary": "<p>At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/\">State of Humanoids keynote brings industry leaders to RoboBusiness</a> appeared first o",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "Ros2_unbag is now available via the ROS 2 buildfarm 📦",
+    "link": "https://discourse.openrobotics.org/t/ros2-unbag-is-now-available-via-the-ros-2-buildfarm/58367",
+    "summary": "<p>Hi everyone,</p>\n<p>A small-but-important update for <strong><a href=\"https://github.com/ika-rwth-aachen/ros2_unbag\" rel=\"noopener nofollow ugc\"><code>ros2_unbag</code></a></strong></p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/6/5/65557949e63874af777eaa1e94f36a52",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Webots Demo 6: Compound Physical Safety Reflex on TIAGo (QERRA-v2 Classical)",
+    "link": "https://discourse.openrobotics.org/t/webots-demo-6-compound-physical-safety-reflex-on-tiago-qerra-v2-classical/58372",
+    "summary": "<p>Hi everyone,</p>\n<p>Following up on my previous posts on deterministic safety layers, I wanted to share the latest <strong>simulation demo (Demo 6)</strong> from my work on <strong>QERRA-v2 Classical,</strong> focusing on <strong>Layer 1</strong> (the physical safety reflex, <strong>QERRA-HSR v0.1</strong>).</p>\n<p>The purpose of this layer is t",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Introducing Gemini 3.8 Live with Live Avatar",
+    "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "section_hint": "AI",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+    "link": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49835531\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Ollama v0.34.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+    "summary": "What's Changed Structured outputs on thinking models now apply in a single pass, making them faster and more reliable. Fixed intermittent \"model not found\" errors with a large local library Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running. Qwen 3.8 prompt processing is faster on Apple Silicon. Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images. Updated llama.cpp, MLX, and XGrammar. Full Chang",
+    "source": "GitHub (Ollama)",
+    "section_hint": "AI",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+    "link": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+    "summary": "<img src=\"https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&amp;width=1245&amp;height=700&amp;coordinates=0%2C156%2C0%2C157\" /><br /><br /><p>In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an ",
+    "source": "IEEE Spectrum",
+    "section_hint": "트렌드",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "5 million robots are now at work in factories worldwide, reports the IFR",
+    "link": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
+    "summary": "<p>China still leads the world in industrial robot installations, but the U.S. and Germany are also significant markets, found the IFR.</p>\n<p>The post <a href=\"https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/\">5 million robots are now at work in factories worldwide, reports the IFR</a> appeared first on ",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Why you should look beyond the spec sheet when choosing motion architecture",
+    "link": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
+    "summary": "<p>Choosing the right motion architecture is about understanding how the entire system will behave in use, explains Kollmorgen.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/\">Why you should look beyond the spec sheet when choosing motion architecture</a> appeared fir",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+    "link": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+    "summary": "<p>Epson Robots has expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.</p>\n<p>The post <a href=\"https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/\">Epson introduces AX6 cobot with compact design, no-code programming</a> appeared first on <a href=\"https://www.therobot",
+    "source": "The Robot Report",
+    "section_hint": "트렌드",
+    "date": "2026-09-25"
+  }
+]

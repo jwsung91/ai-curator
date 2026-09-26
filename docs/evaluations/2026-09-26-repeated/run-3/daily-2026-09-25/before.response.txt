@@ -1,0 +1,7 @@
+{
+  "one_sentence_summary": "로봇 안전 및 런타임 인프라와 엣지 AI 도구의 지속적 진화",
+  "cross_insight": "- 로컬 추론 성능을 개선한 Ollama[5]와 Webots 기반의 물리적 안전 반사 계층 검증[2]은 고차원 AI 기능과 결정론적 제어 루프를 분리하여 통합하려는 실무적 접근을 보여주는 것으로 해석할 수 있습니다.",
+  "section_robotics": "- **ros2_unbag**: ROS 2 빌드팜(buildfarm)을 통해 배포되어 패키지 설치가 가능해짐 [1]\n- **QERRA-v2 Classical**: TIAGo 로봇 기반 Webots 시뮬레이션 환경에서 QERRA-HSR v0.1 물리적 안전 반사 계층을 검증하는 데모 6 공개 [2]",
+  "section_devtools": "- **Gemini 3.8 Live**: 라이브 아바타 기능을 탑재한 Gemini 3.8 Live 공개 (제목 기반) [3]\n- **Ollama v0.34.4**: 생각 모델에 싱글 패스 구조화 출력 적용, Apple Silicon 환경 성능 개선, 대규모 라이브러리 오류 수정 및 llama.cpp·MLX 업데이트가 포함된 릴리스 배포 [5]",
+  "section_industry": "- **IFR**: 전 세계 공장에서 500만 대의 로봇이 운용 중이며 중국이 보급을 주도하고 미국과 독일이 주요 시장으로 확인됨 [7]\n- **Kollmorgen**: 모션 아키텍처 선택 시 단순 사양표 수치보다 실제 가동 환경에서의 전체 시스템 거동을 고려해야 함을 강조 [8]\n- **Epson**: 콤팩트한 설계와 노코드 프로그래밍을 지원하는 6축 경량 협동로봇 AX6 출시 [9]"
+}

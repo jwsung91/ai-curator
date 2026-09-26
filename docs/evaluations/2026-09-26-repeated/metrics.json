@@ -1,0 +1,198 @@
+{
+  "models": [
+    "gemini-3.8-flash"
+  ],
+  "identicalPromptsAndInputs": true,
+  "tokens": {
+    "before": {
+      "input": 39255,
+      "total": 57482
+    },
+    "after": {
+      "input": 72504,
+      "total": 89857
+    }
+  },
+  "results": [
+    {
+      "run": 1,
+      "case": "daily-2026-09-25",
+      "variant": "before",
+      "observations": 2,
+      "items": 7,
+      "candidateValidation": "pass",
+      "inputTokens": 1871,
+      "totalTokens": 4015
+    },
+    {
+      "run": 1,
+      "case": "daily-2026-09-25",
+      "variant": "after",
+      "observations": 0,
+      "items": 6,
+      "candidateValidation": "pass",
+      "inputTokens": 3094,
+      "totalTokens": 3483
+    },
+    {
+      "run": 1,
+      "case": "daily-2026-09-24",
+      "variant": "after",
+      "observations": 0,
+      "items": 11,
+      "candidateValidation": "pass",
+      "inputTokens": 5494,
+      "totalTokens": 7866
+    },
+    {
+      "run": 1,
+      "case": "daily-2026-09-24",
+      "variant": "before",
+      "observations": 3,
+      "items": 14,
+      "candidateValidation": "pass",
+      "inputTokens": 3270,
+      "totalTokens": 4166
+    },
+    {
+      "run": 1,
+      "case": "weekly-2026-W39",
+      "variant": "before",
+      "observations": 4,
+      "items": 14,
+      "candidateValidation": "weekly_themes exceeds 3 bullet limit",
+      "inputTokens": 7944,
+      "totalTokens": 12160
+    },
+    {
+      "run": 1,
+      "case": "weekly-2026-W39",
+      "variant": "after",
+      "observations": 2,
+      "items": 15,
+      "candidateValidation": "pass",
+      "inputTokens": 15580,
+      "totalTokens": 18133
+    },
+    {
+      "run": 2,
+      "case": "daily-2026-09-25",
+      "variant": "before",
+      "observations": 2,
+      "items": 7,
+      "candidateValidation": "pass",
+      "inputTokens": 1871,
+      "totalTokens": 3943
+    },
+    {
+      "run": 2,
+      "case": "daily-2026-09-25",
+      "variant": "after",
+      "observations": 0,
+      "items": 6,
+      "candidateValidation": "pass",
+      "inputTokens": 3094,
+      "totalTokens": 4850
+    },
+    {
+      "run": 2,
+      "case": "daily-2026-09-24",
+      "variant": "after",
+      "observations": 0,
+      "items": 12,
+      "candidateValidation": "pass",
+      "inputTokens": 5494,
+      "totalTokens": 7628
+    },
+    {
+      "run": 2,
+      "case": "daily-2026-09-24",
+      "variant": "before",
+      "observations": 4,
+      "items": 19,
+      "candidateValidation": "cross_insight exceeds 3 bullet limit",
+      "inputTokens": 3270,
+      "totalTokens": 7206
+    },
+    {
+      "run": 2,
+      "case": "weekly-2026-W39",
+      "variant": "before",
+      "observations": 3,
+      "items": 12,
+      "candidateValidation": "pass",
+      "inputTokens": 7944,
+      "totalTokens": 8874
+    },
+    {
+      "run": 2,
+      "case": "weekly-2026-W39",
+      "variant": "after",
+      "observations": 2,
+      "items": 15,
+      "candidateValidation": "pass",
+      "inputTokens": 15580,
+      "totalTokens": 17812
+    },
+    {
+      "run": 3,
+      "case": "daily-2026-09-25",
+      "variant": "before",
+      "observations": 1,
+      "items": 7,
+      "candidateValidation": "pass",
+      "inputTokens": 1871,
+      "totalTokens": 3685
+    },
+    {
+      "run": 3,
+      "case": "daily-2026-09-25",
+      "variant": "after",
+      "observations": 0,
+      "items": 6,
+      "candidateValidation": "pass",
+      "inputTokens": 3094,
+      "totalTokens": 4500
+    },
+    {
+      "run": 3,
+      "case": "daily-2026-09-24",
+      "variant": "after",
+      "observations": 0,
+      "items": 12,
+      "candidateValidation": "pass",
+      "inputTokens": 5494,
+      "totalTokens": 8915
+    },
+    {
+      "run": 3,
+      "case": "daily-2026-09-24",
+      "variant": "before",
+      "observations": 3,
+      "items": 20,
+      "candidateValidation": "section_devtools exceeds 5 bullet limit",
+      "inputTokens": 3270,
+      "totalTokens": 4436
+    },
+    {
+      "run": 3,
+      "case": "weekly-2026-W39",
+      "variant": "before",
+      "observations": 4,
+      "items": 13,
+      "candidateValidation": "weekly_themes exceeds 3 bullet limit",
+      "inputTokens": 7944,
+      "totalTokens": 8997
+    },
+    {
+      "run": 3,
+      "case": "weekly-2026-W39",
+      "variant": "after",
+      "observations": 2,
+      "items": 15,
+      "candidateValidation": "pass",
+      "inputTokens": 15580,
+      "totalTokens": 16670
+    }
+  ]
+}
