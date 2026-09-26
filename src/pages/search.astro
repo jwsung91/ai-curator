@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { plainText, topicIds, topics } from '../lib/discovery';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const [daily, weekly] = await Promise.all([getCollection('curation'), getCollection('weekly')]);
+const reports = [
+  ...daily.map(entry => ({ entry, kind: 'daily', path: 'curation' })),
+  ...weekly.map(entry => ({ entry, kind: 'weekly', path: 'weekly' })),
+].sort((a, b) => b.entry.data.date.localeCompare(a.entry.data.date));
+const months = [...new Set(reports.map(({ entry }) => entry.data.date.slice(0, 7)))];
+---
+
+<BaseLayout title="검색·주제별 탐색 — AI Curator" description="기술명과 주제로 데일리·위클리 리포트를 찾아보세요.">
+  <h1 class="mb-4 text-3xl font-bold">검색·주제별 탐색</h1>
+  <p class="mb-6">기술명·본문·출처를 검색하거나 관심 주제로 좁혀보세요. 주제는 본문 키워드로 자동 분류합니다.</p>
+  <form id="search-form" role="search" class="mb-6 grid gap-4 sm:grid-cols-3">
+    <label class="sm:col-span-3">검색어
+      <input type="search" name="q" placeholder="예: Nav2, DDS, Ollama" class="discovery-input" />
+    </label>
+    <label>주제
+      <select name="topic" class="discovery-input">
+        <option value="">모든 주제</option>
+        {topics.map(topic => <option value={topic.id}>{topic.label}</option>)}
+      </select>
+    </label>
+    <label>리포트 유형
+      <select name="kind" class="discovery-input">
+        <option value="">데일리 + 위클리</option>
+        <option value="daily">데일리</option>
+        <option value="weekly">위클리</option>
+      </select>
+    </label>
+    <label>발행 월
+      <select name="month" class="discovery-input">
+        <option value="">전체 기간</option>
+        {months.map(month => <option value={month}>{month}</option>)}
+      </select>
+    </label>
+    <button type="reset" class="justify-self-start underline">필터 초기화</button>
+  </form>
+  <noscript><p>검색과 필터는 JavaScript가 필요합니다. 아래에서 전체 리포트를 읽을 수 있습니다.</p></noscript>
+  <p id="search-status" role="status" aria-live="polite" class="mb-4">전체 {reports.length}개 리포트</p>
+  <ul id="search-results" class="divide-y divide-stone-200 dark:divide-stone-800">
+    {reports.map(({ entry, kind, path }) => {
+      const ids = topicIds(entry.body ?? '');
+      return <li data-search-entry data-kind={kind} data-date={entry.data.date} data-topics={ids.join(',')}
+        data-text={plainText(`${entry.data.title} ${entry.data.summary} ${entry.body ?? ''}`)} class="py-5">
+        <p class="mb-1 text-sm text-stone-500">{kind === 'daily' ? '데일리' : '위클리'} · <time datetime={entry.data.date}>{entry.data.date}</time></p>
+        <a href={`${base}/${path}/${entry.id}/`} class="text-xl font-semibold hover:underline">{entry.data.title}</a>
+        <p class="mt-2">{entry.data.summary}</p>
+        <p class="mt-2 text-sm text-stone-500">{topics.filter(topic => ids.includes(topic.id)).map(topic => topic.label).join(' · ')}</p>
+      </li>;
+    })}
+  </ul>
+  <p id="search-empty" hidden class="py-8">일치하는 리포트가 없습니다. 검색어를 줄이거나 필터를 초기화해 보세요.</p>
+  <button id="search-more" type="button" hidden class="mt-6 rounded border px-5 py-3">더 보기</button>
+</BaseLayout>
+
+<script>
+  import { matchesEntry } from '../lib/discovery';
+  const form = document.querySelector<HTMLFormElement>('#search-form')!;
+  const rows = Array.from(document.querySelectorAll<HTMLElement>('[data-search-entry]'));
+  const entries = rows.map(row => ({ text: row.dataset.text ?? '', topics: (row.dataset.topics ?? '').split(','), kind: row.dataset.kind ?? '', date: row.dataset.date ?? '' }));
+  const more = document.querySelector<HTMLButtonElement>('#search-more')!;
+  let limit = 12;
+  const field = (name: string) => form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement;
+  function restore() {
+    const params = new URLSearchParams(location.search);
+    for (const name of ['q', 'topic', 'kind', 'month']) field(name).value = params.get(name) ?? '';
+    limit = 12;
+    update(false);
+  }
+  function update(writeURL = true) {
+    const filters = { query: field('q').value, topic: field('topic').value, kind: field('kind').value, month: field('month').value };
+    let count = 0;
+    rows.forEach((row, index) => {
+      const matches = matchesEntry(entries[index], filters);
+      if (matches) count++;
+      row.hidden = !matches || count > limit;
+    });
+    document.querySelector('#search-status')!.textContent = `${count}개 리포트 중 ${Math.min(count, limit)}개 표시`;
+    (document.querySelector('#search-empty') as HTMLElement).hidden = count !== 0;
+    more.hidden = count <= limit;
+    if (writeURL) {
+      const url = new URL(location.href);
+      for (const name of ['q', 'topic', 'kind', 'month']) {
+        const value = field(name).value;
+        if (value) url.searchParams.set(name, value); else url.searchParams.delete(name);
+      }
+      history.replaceState(null, '', url);
+    }
+  }
+  form.addEventListener('input', () => { limit = 12; update(); });
+  form.addEventListener('submit', event => { event.preventDefault(); limit = 12; update(); });
+  form.addEventListener('reset', () => { setTimeout(() => { limit = 12; update(); }, 0); });
+  more.addEventListener('click', () => { limit += 12; update(); });
+  window.addEventListener('popstate', restore);
+  restore();
+</script>

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<BaseLayout title="서비스 소개 — AI Curator" description="AI Curator의 정보 소스와 편집 기준">
+  <article class="prose prose-stone dark:prose-invert max-w-none">
+    <h1>AI Curator 소개</h1>
+    <p>로보틱스 소프트웨어 엔지니어가 기술 변화를 빠르게 확인하고 원문을 찾아볼 수 있도록 한국어 브리핑을 제공합니다.</p>
+    <h2>읽는 방법</h2>
+    <ul>
+      <li>데일리: 평일 오전 6시 KST에 생성 작업을 시작합니다. 새로운 수집 항목이 없으면 발행을 건너뜁니다.</li>
+      <li>위클리: 토요일 오전 9시 KST에 해당 주 월~금의 수집 자료를 종합합니다.</li>
+      <li>발행 시각은 자동화 실행 상황에 따라 늦어질 수 있습니다. 리포트 날짜는 기사 원문 발행일과 다릅니다.</li>
+    </ul>
+    <h2>정보 소스와 역할</h2>
+    <ul>
+      <li>공식 변경 소식: ROS 2·Nav2·MoveIt 2·Gazebo·DDS/RMW·rosbag2·Open-RMF·Isaac ROS와 AI 도구의 GitHub 릴리스.</li>
+      <li>공식 발표: OpenAI News, Google DeepMind, NVIDIA 개발자 블로그와 기업 블로그.</li>
+      <li>발견과 해설: ROS Discourse, Simon Willison, Hacker News. 커뮤니티 글은 공식 프로젝트 입장과 다를 수 있습니다.</li>
+      <li>산업 동향: IEEE Spectrum, The Robot Report. 기업 발표와 독립 보도는 각각의 원문에서 확인할 수 있습니다.</li>
+    </ul>
+    <h2>요약과 선별 기준</h2>
+    <p>AI가 피드에 제공된 제목과 요약을 바탕으로 작성합니다. 모든 원문의 전문을 읽거나 사람이 모든 내용을 검증한 리포트는 아닙니다. 본문 근거가 없는 새 항목은 제목 기반임을 표시하도록 지시하며, 인용 링크로 근거를 확인할 수 있습니다.</p>
+    <p>로보틱스 개발 환경과 실행 인프라, 사용할 수 있는 AI 도구, 산업·정책 소식을 구분합니다. 새 릴리스 수집에서는 프리릴리스를 제외하며, 검색의 주제는 본문 키워드로 자동 분류하므로 누락될 수 있습니다.</p>
+    <p>출처별 수집량에 제한이 있어 모든 변경을 포괄하지 않습니다. 수집 수와 인용 수는 다르며, 과거 리포트에는 원문 날짜나 릴리스 상태가 없을 수 있습니다.</p>
+    <h2>구독</h2>
+    <p><a href={`${base}/rss.xml`}>RSS로 데일리와 위클리를 함께 구독하기</a></p>
+  </article>
+</BaseLayout>

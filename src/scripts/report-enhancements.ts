@@ -186,6 +186,9 @@ export function initCitationTooltips() {
     opacity: '0', transition: 'opacity 0.12s ease', display: 'none',
     boxShadow: '0 6px 24px rgba(0,0,0,0.13)'
   });
+  tip.id = 'citation-preview';
+  tip.setAttribute('role', 'region');
+  tip.setAttribute('aria-label', '출처 미리보기');
   document.body.appendChild(tip);
 
   function syncTheme() {
@@ -200,6 +203,8 @@ export function initCitationTooltips() {
   themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 
   let hideTimer: ReturnType<typeof setTimeout>;
+  let dismissTimer: ReturnType<typeof setTimeout>;
+  let activeAnchor: HTMLAnchorElement | null = null;
 
   function buildTipContent(ref: { title: string; url: string; source: string }) {
     tip.textContent = '';
@@ -228,6 +233,10 @@ export function initCitationTooltips() {
 
   function showTip(anchor: HTMLAnchorElement, id: string) {
     clearTimeout(hideTimer);
+    clearTimeout(dismissTimer);
+    activeAnchor?.removeAttribute('aria-details');
+    activeAnchor = anchor;
+    anchor.setAttribute('aria-details', 'citation-preview');
     const ref = refMap[id];
     if (!ref) return;
 
@@ -258,16 +267,33 @@ export function initCitationTooltips() {
   function hideTip() {
     hideTimer = setTimeout(() => {
       tip.style.opacity = '0';
-      setTimeout(() => { tip.style.display = 'none'; }, 120);
+      dismissTimer = setTimeout(() => {
+        tip.style.display = 'none';
+        activeAnchor?.removeAttribute('aria-details');
+      }, 120);
     }, 80);
   }
 
-  tip.addEventListener('mouseenter', () => clearTimeout(hideTimer));
+  const keepOpen = () => { clearTimeout(hideTimer); clearTimeout(dismissTimer); };
+  tip.addEventListener('mouseenter', keepOpen);
+  tip.addEventListener('focusin', keepOpen);
+  tip.addEventListener('focusout', hideTip);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && tip.style.display !== 'none') {
+      clearTimeout(hideTimer);
+      clearTimeout(dismissTimer);
+      if (tip.contains(document.activeElement)) activeAnchor?.focus();
+      tip.style.display = 'none';
+      activeAnchor?.removeAttribute('aria-details');
+    }
+  });
   tip.addEventListener('mouseleave', hideTip);
 
   document.querySelectorAll<HTMLAnchorElement>('a[href^="#ref-"]').forEach(anchor => {
     const id = anchor.getAttribute('href')!.slice(1);
     anchor.addEventListener('mouseenter', () => showTip(anchor, id));
+    anchor.addEventListener('focus', () => showTip(anchor, id));
+    anchor.addEventListener('blur', hideTip);
     anchor.addEventListener('mouseleave', hideTip);
   });
 }

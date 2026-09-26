@@ -1,4 +1,4 @@
-import re
+from source_utils import clean_summary, entry_dates, release_metadata
 import feedparser
 import urllib.request
 import urllib.error
@@ -18,12 +18,6 @@ NVIDIA_KEYWORDS = {  # NVIDIA 블로그 필터 키워드
     'physical ai', 'manipulation', 'llm', 'generative ai', 'foundation model',
     'inference', 'agent', 'simulation', 'omniverse', 'cuda', 'groot',
 }
-
-# GitHub 릴리스 프리릴리스 패턴 (nightly, rc, dev, alpha, beta)
-_PRERELEASE_RE = re.compile(
-    r'[-.]?(nightly|rc\.?\d*|dev\.?\d*|alpha\.?\d*|beta\.?\d*)',
-    re.IGNORECASE,
-)
 
 _HEADERS = {'User-Agent': 'ai-curator/1.0 (github.com/jwsung91/ai-curator)'}
 
@@ -48,7 +42,8 @@ def fetch_rss(url, source_name, limit=3, max_age_days=14):
             result.append({
                 'title': getattr(entry, 'title', 'No Title'),
                 'link': getattr(entry, 'link', ''),
-                'summary': getattr(entry, 'summary', '')[:350],
+                'summary': clean_summary(getattr(entry, 'summary', '')),
+                **entry_dates(entry),
                 'source': source_name,
             })
         return result
@@ -66,13 +61,14 @@ def fetch_github_releases(repo, label, limit=1, max_age_days=14, skip_prerelease
         feed = feedparser.parse(content)
         result = []
         now = datetime.now(timezone.utc)
-        # skip_prerelease 시 후보를 넉넉히 확보한 뒤 필터
-        candidates = feed.entries[:limit * 5 if skip_prerelease else limit]
+        # 제목에 rc가 생략되어도 태그로 판별하고 안정판이 나올 때까지 탐색
+        candidates = feed.entries
         for entry in candidates:
             if len(result) >= limit:
                 break
             title_raw = getattr(entry, 'title', '').strip()
-            if skip_prerelease and _PRERELEASE_RE.search(title_raw):
+            release = release_metadata(title_raw, getattr(entry, 'link', ''))
+            if skip_prerelease and release['isPrerelease']:
                 continue
             parsed = getattr(entry, 'updated_parsed', None) or getattr(entry, 'published_parsed', None)
             if parsed:
@@ -84,13 +80,14 @@ def fetch_github_releases(repo, label, limit=1, max_age_days=14, skip_prerelease
                 body_html = entry.content[0].get('value', '')
             elif hasattr(entry, 'summary'):
                 body_html = entry.summary
-            body_text = re.sub(r'<[^>]+>', ' ', body_html)
-            body_text = re.sub(r'\s+', ' ', body_text).strip()[:500]
+            body_text = clean_summary(body_html)
             result.append({
                 'title': f"{label} {title_raw}",
                 'link': getattr(entry, 'link', ''),
                 'summary': body_text,
                 'source': f"GitHub ({label})",
+                **entry_dates(entry),
+                **release,
             })
         return result
     except Exception as e:
@@ -113,7 +110,7 @@ def fetch_ros2_releases():
     ]
     items = []
     for repo, label in repos:
-        items.extend(fetch_github_releases(repo, label))
+        items.extend(fetch_github_releases(repo, label, skip_prerelease=True))
     return items
 
 
@@ -133,7 +130,7 @@ def fetch_robotics_infra_releases():
     items = []
     for repo, label, skip_pre in repos:
         items.extend(fetch_github_releases(repo, label, skip_prerelease=skip_pre))
-    return items[:6]
+    return items
 
 
 # ── Section 2: AI ────────────────────────────────────────────────
@@ -192,7 +189,8 @@ def fetch_hackernews_devai():
                 matched.append({
                     'title': entry.title,
                     'link': getattr(entry, 'link', ''),
-                    'summary': getattr(entry, 'summary', '')[:350],
+                    'summary': clean_summary(getattr(entry, 'summary', '')),
+                    **entry_dates(entry),
                     'source': 'HackerNews',
                 })
         return matched[:3]
@@ -203,10 +201,10 @@ def fetch_hackernews_devai():
 def fetch_devai_releases():
     repos = [
         # (repo,                              label,           skip_prerelease)
-        ('anthropics/anthropic-sdk-python', 'Anthropic SDK', False),
-        ('modelcontextprotocol/servers',    'MCP Servers',   False),
-        ('ollama/ollama',                   'Ollama',        False),
-        ('continuedev/continue',            'Continue',      False),
+        ('anthropics/anthropic-sdk-python', 'Anthropic SDK', True),
+        ('modelcontextprotocol/servers',    'MCP Servers',   True),
+        ('ollama/ollama',                   'Ollama',        True),
+        ('continuedev/continue',            'Continue',      True),
         ('BerriAI/litellm',                 'LiteLLM',       True),   # nightly/rc/dev 제외
     ]
     items = []

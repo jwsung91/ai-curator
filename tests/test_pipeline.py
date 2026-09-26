@@ -177,7 +177,7 @@ def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
     assert list(reports_dir.iterdir()) == []
 
 
-def test_robotics_infra_releases_skip_prereleases_and_limit_results(monkeypatch):
+def test_robotics_infra_releases_preserve_all_sources(monkeypatch):
     calls = []
 
     def fake_fetch_github_releases(repo, label, limit=1, max_age_days=14, skip_prerelease=False):
@@ -206,7 +206,8 @@ def test_robotics_infra_releases_skip_prereleases_and_limit_results(monkeypatch)
     assert all(call['skip_prerelease'] is True for call in calls)
     assert all(call['limit'] == 1 for call in calls)
     assert all(call['max_age_days'] == 14 for call in calls)
-    assert len(items) == 6
+    assert len(items) == 20
+    assert items[-1]["source"] == "GitHub (Isaac ROS NITROS)"
 
 
 def test_robotics_infra_source_is_registered_as_robotics():
@@ -242,10 +243,10 @@ def test_weekly_theme_citations_are_stripped_and_validated():
     validate_weekly_report(data)
 
 
-def test_validate_weekly_report_rejects_citations_in_themes():
+def test_validate_weekly_report_rejects_out_of_range_theme_citations():
     data = {
         'one_sentence_summary': '주간 요약',
-        'weekly_themes': '- 흐름 [1]',
+        'weekly_themes': '- 흐름 [2]',
         'section_robotics': '- **ROS2**: 업데이트 [1]',
         'section_devtools': '',
         'section_industry': '',
@@ -254,7 +255,7 @@ def test_validate_weekly_report_rejects_citations_in_themes():
         ],
     }
 
-    with pytest.raises(ValueError, match='weekly_themes'):
+    with pytest.raises(ValueError, match='out-of-range'):
         validate_weekly_report(data)
 
 
@@ -516,3 +517,99 @@ def test_fetch_simon_willison_matches_summary_keyword(monkeypatch):
 
     assert len(items) == 1
     assert items[0]['title'] == 'Interesting notes'
+
+
+def test_evidence_normalizes_html_and_does_not_treat_comments_as_content():
+    from source_utils import clean_summary, evidence_text, source_reference
+    assert clean_summary('<img src="long-image"><p>ROS <b>2</b> &amp; DDS</p><script>bad()</script>') == 'ROS 2 & DDS'
+    assert clean_summary('<a href="https://example.com">Comments</a>') == ''
+    assert '본문 근거 없음' in evidence_text({'summary': ''})
+    item = {'title': '<Example> "title"', 'link': 'https://example.com/?a=1&b=2', 'source': 'A&B', 'publishedAt': '2026-09-25T00:00:00+00:00'}
+    rendered = source_reference(item, 1)
+    assert '&lt;Example&gt; &quot;title&quot;' in rendered
+    assert 'a=1&amp;b=2' in rendered
+    assert '원문 발행: 2026-09-25' in rendered
+
+
+@pytest.mark.parametrize('tag, expected', [('v1.2.3-rc1', True), ('v1.2.3-beta.2', True), ('nightly', True), ('v1.2.3', False), ('release-humble-20260914', False)])
+def test_release_metadata_uses_tag_even_when_title_hides_prerelease(tag, expected):
+    from source_utils import release_metadata, evidence_text
+    item = {'title': 'Ollama v1.2.3', 'link': f'https://github.com/ollama/ollama/releases/tag/{tag}'}
+    assert release_metadata(item['title'], item['link'])['isPrerelease'] is expected
+    assert tag in evidence_text(item)
+    assert ('프리릴리스' in evidence_text(item)) is expected
+
+
+def test_release_fetch_finds_stable_after_many_prereleases(monkeypatch):
+    from datetime import timezone
+    now = datetime.now(timezone.utc).timetuple()
+    entries = [types.SimpleNamespace(title='v1.2.3', link=f'https://github.com/a/b/releases/tag/v1.2.3-rc{i}', summary='candidate', updated_parsed=now) for i in range(8)]
+    entries.append(types.SimpleNamespace(title='v1.2.2', link='https://github.com/a/b/releases/tag/v1.2.2', summary='<p>Fix &amp; improve</p>', published_parsed=now))
+    class Response:
+        def read(self): return b''
+        def __enter__(self): return self
+        def __exit__(self, *args): pass
+    monkeypatch.setattr(fetcher.urllib.request, 'urlopen', lambda *args, **kwargs: Response())
+    monkeypatch.setattr(fetcher.feedparser, 'parse', lambda _: types.SimpleNamespace(entries=entries))
+    result = fetcher.fetch_github_releases('a/b', 'Tool', skip_prerelease=True)
+    assert len(result) == 1
+    assert result[0]['releaseTag'] == 'v1.2.2'
+    assert result[0]['summary'] == 'Fix & improve'
+    assert result[0]['publishedAt']
+    assert result[0]['isPrerelease'] is False
+
+
+def test_daily_observation_citations_share_numbering_with_sections(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(builder, '__file__', str(scripts_dir / 'builder.py'))
+    data = _daily_data()
+    data['cross_insight'] = '- 연결되는 관찰 [2, 1]'
+    save_to_markdown(data, date_str='2026-09-25')
+    text = (tmp_path / 'reports/daily/2026-09-25.md').read_text()
+    assert '관찰 [<a href="#ref-1">1</a>, <a href="#ref-2">2</a>]' in text
+    assert '**ROS2**: 업데이트 [<a href="#ref-2">2</a>]' in text
+    assert 'id="ref-1" data-title="시장"' in text
+    data['cross_insight'] = '- 잘못된 근거 [3]'
+    with pytest.raises(ValueError, match='out-of-range'):
+        validate_daily_report(data)
+
+
+def test_weekly_theme_citations_survive_saving(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(weekly_builder, '__file__', str(scripts_dir / 'weekly_builder.py'))
+    data = _daily_data()
+    data['weekly_themes'] = '- 해석 [2, 1]'
+    data['global_items'] = data['items']
+    save_weekly_to_markdown(data, [], datetime(2026, 9, 26))
+    text = (tmp_path / 'reports/weekly/2026-W39.md').read_text()
+    assert '해석 [<a href="#ref-1">1</a>, <a href="#ref-2">2</a>]' in text
+    assert '**ROS2**: 업데이트 [<a href="#ref-2">2</a>]' in text
+    assert 'id="ref-1" data-title="시장"' in text
+
+
+def test_daily_archive_preserves_source_indices_and_only_selects_cited_items():
+    data = _daily_data()
+    data['cross_insight'] = '- 관찰 [2]'
+    data['section_robotics'] = ''
+    archive = builder.build_daily_archive(data, '2026-09-25', '2026-09-25T06:00:00+09:00')
+    assert archive['items'] == data['items']
+    assert archive['report']['cross_insight'] == '- 관찰 [2]'
+    assert archive['selectedItems'] == [{**data['items'][1], 'citationIndex': 2}]
+
+
+def test_backfill_reads_new_html_references_without_losing_metadata(tmp_path, monkeypatch):
+    import json
+    import backfill_json
+    scripts_dir = tmp_path / 'scripts'
+    scripts_dir.mkdir()
+    monkeypatch.setattr(builder, '__file__', str(scripts_dir / 'builder.py'))
+    monkeypatch.setattr(backfill_json, 'REPORTS_DIR', tmp_path / 'reports/daily')
+    data = _daily_data()
+    data['items'][0].update(title='ROS2 <release> & DDS', publishedAt='2026-09-24T00:00:00+00:00')
+    save_to_markdown(data, date_str='2026-09-25')
+    assert backfill_json.backfill('2026-09-25') == 2
+    items = json.loads((tmp_path / 'reports/daily/2026-09-25.json').read_text())['items']
+    assert items[0]['title'] == 'ROS2 <release> & DDS'
+    assert items[0]['publishedAt'] == '2026-09-24T00:00:00+00:00'

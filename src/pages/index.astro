@@ -15,20 +15,32 @@ const sortedWeekly = allWeekly
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<BaseLayout title="AI Curator — Daily & Weekly Tech Reports" description="AI가 수집하고 요약한 데일리 & 위클리 테크 리포트">
+<BaseLayout title="AI Curator — Daily & Weekly Tech Reports" description="로보틱스와 AI 분야의 읽을거리를 모아 한국어로 요약합니다. ROS 2와 로봇 개발 도구, AI 모델과 개발 도구, 로봇 산업 동향을 다룹니다.">
   <section class="mb-12 border-b border-stone-100 pb-8 dark:border-stone-900">
     <h1 class="mb-4 text-4xl font-bold text-stone-900 dark:text-stone-100 md:text-5xl">AI Curator</h1>
-    <p class="max-w-2xl text-lg leading-relaxed text-stone-600 dark:text-stone-400">
-      AI가 로보틱스와 AI 기술 소식을 수집하고 요약해 매일 읽기 좋은 리포트로 정리합니다.
+    <p class="max-w-2xl break-keep text-pretty text-lg leading-relaxed text-stone-600 dark:text-stone-400">
+      AI Curator는 로보틱스와 AI 분야의 읽을거리를 모아 한국어로 요약하는 큐레이션입니다.
+    </p>
+    <p class="mt-4 max-w-2xl break-keep text-pretty text-base leading-relaxed text-stone-600 dark:text-stone-400">
+      ROS 2와 로봇 개발 도구의 업데이트부터 AI 모델과 개발 도구, 로봇 산업 동향까지 다룹니다.
+      각 리포트에서 핵심 내용과 원문을 함께 살펴볼 수 있습니다.
     </p>
   </section>
 
+  {sortedCuration[0] && <section class="mb-10 rounded-xl border border-stone-200 p-6 dark:border-stone-800">
+    <p class="mb-2 text-sm">최신 데일리 · <time datetime={sortedCuration[0].data.date}>{sortedCuration[0].data.date}</time></p>
+    <h2 class="mb-4 text-2xl font-semibold">{sortedCuration[0].data.summary}</h2>
+    <div class="flex flex-wrap gap-5">
+      <a class="font-semibold underline" href={`${base}/curation/${sortedCuration[0].id}/`}>최신 브리핑 읽기 →</a>
+      <a class="underline" href={`${base}/search/`}>검색·주제별 탐색 →</a>
+    </div>
+  </section>}
   <div class="grid gap-12 lg:grid-cols-2">
-    <!-- Latest Weekly Section -->
+    <!-- 최근 위클리 Section -->
     <section>
       <div class="mb-6 flex items-baseline justify-between border-b border-stone-100 dark:border-stone-900 pb-4">
-        <h2 class="font-mono text-xs uppercase tracking-wider text-azure-600 dark:text-azure-400 font-bold">Latest Weekly</h2>
-        <a href={`${base}/weekly/`} class="text-[10px] font-mono text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition-colors">View All →</a>
+        <h2 class="font-sans text-xs uppercase tracking-wider text-azure-600 dark:text-azure-400 font-bold">최근 위클리</h2>
+        <a href={`${base}/weekly/`} class="text-[10px] font-sans text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition-colors">전체 보기 →</a>
       </div>
 
       {sortedWeekly.length === 0 ? (
@@ -56,11 +68,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       )}
     </section>
 
-    <!-- Latest Daily Section -->
+    <!-- 최근 데일리 Section -->
     <section>
       <div class="mb-6 flex items-baseline justify-between border-b border-stone-100 dark:border-stone-900 pb-4">
-        <h2 class="font-mono text-xs uppercase tracking-wider text-stone-500 font-bold">Latest Daily</h2>
-        <a href={`${base}/curation/`} class="text-[10px] font-mono text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition-colors">View All →</a>
+        <h2 class="font-sans text-xs uppercase tracking-wider text-stone-500 font-bold">최근 데일리</h2>
+        <a href={`${base}/curation/`} class="text-[10px] font-sans text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition-colors">전체 보기 →</a>
       </div>
 
       {sortedCuration.length === 0 ? (
