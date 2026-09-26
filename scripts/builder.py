@@ -73,7 +73,7 @@ def validate_daily_report(data: dict, item_count: int | None = None) -> None:
 
     validate_bullets(data['cross_insight'], 'cross_insight', CITATION_RE, 3)
     for key, _ in SECTION_DEFS:
-        validate_bullets(data[key], key, CITATION_RE, 5, section=True)
+        validate_bullets(data[key], key, CITATION_RE, None, section=True)
 
 
 def build_prompt(items, report_date: str | None = None):
@@ -111,58 +111,8 @@ one_sentence_summary는 제목 아래에 붙는 **서브타이틀**처럼 작성
 
 
 def generate_summary(items, report_date: str | None = None):
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        raise ValueError("GEMINI_API_KEY is not set.")
-
-    configured_models = os.getenv("GEMINI_MODEL_NAMES", "gemini-flash-latest")
-    model_names = [name.strip() for name in configured_models.split(",") if name.strip()]
-    if not model_names:
-        raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
-
-    client = genai.Client(api_key=api_key)
-    prompt = build_prompt(items, report_date)
-    last_exception = None
-
-    for model_name in model_names:
-        for attempt in range(2):
-            try:
-                print(f"  🤖 {model_name} (attempt {attempt + 1})")
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type='application/json',
-                    ),
-                )
-                data, _ = json.JSONDecoder().raw_decode(response.text.strip())
-                data['items'] = items
-                return data
-            except (errors.ClientError, errors.ServerError) as e:
-                last_exception = e
-                err_str = str(e)
-                if '429' in err_str or '503' in err_str:
-                    if attempt == 0:
-                        print(f"  ⚠ Rate limited. Retrying in 30s...")
-                        time.sleep(30)
-                        continue
-                if '404' in err_str or '400' in err_str:
-                    print(f"  ⏭ {model_name} unavailable, trying next...")
-                    break
-                raise e
-            except json.JSONDecodeError as e:
-                print(f"  ✗ JSON parse error: {e}. Retrying...")
-                last_exception = e
-                if attempt == 0:
-                    time.sleep(5)
-                    continue
-                break
-            except Exception as e:
-                print(f"  ✗ {e}")
-                last_exception = e
-                break
-
-    raise last_exception
+    from quality_pipeline import generate_quality_report
+    return generate_quality_report(items, 'daily', report_date)
 
 
 def _renumber_citations(section_contents):
@@ -207,6 +157,7 @@ def build_daily_archive(data: dict, date_str: str, published_at: str) -> dict:
         'publishedAt': published_at,
         'items': data['items'],
         'report': report,
+        **({'qualityAudit': data['qualityAudit']} if 'qualityAudit' in data else {}),
         'selectedItems': [
             {**data['items'][idx - 1], 'citationIndex': idx} for idx in indices
         ],

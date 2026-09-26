@@ -12,7 +12,7 @@ fake_google = sys.modules.get('google') or types.ModuleType('google')
 fake_genai = types.ModuleType('google.genai')
 fake_genai.Client = object
 fake_genai.errors = types.SimpleNamespace(ClientError=Exception, ServerError=Exception)
-fake_genai.types = types.SimpleNamespace(GenerateContentConfig=lambda **kwargs: kwargs)
+fake_genai.types = types.SimpleNamespace(GenerateContentConfig=lambda **kwargs: kwargs, HttpOptions=lambda **kwargs: kwargs)
 fake_google.genai = fake_genai
 sys.modules['google'] = fake_google
 sys.modules['google.genai'] = fake_genai
@@ -103,33 +103,13 @@ def test_validate_daily_report_rejects_out_of_range_citation():
         validate_daily_report(data)
 
 
-def test_generate_summary_uses_gemini_3_flash_preview_by_default(monkeypatch):
+def test_generate_summary_delegates_to_quality_pipeline(monkeypatch):
+    import quality_pipeline
     calls = []
-
-    class FakeClient:
-        def __init__(self, api_key):
-            self.models = types.SimpleNamespace(
-                generate_content=lambda model, contents, config: (
-                    calls.append(model) or
-                    types.SimpleNamespace(text='{"one_sentence_summary": "요약"}')
-                )
-            )
-
-    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
-    monkeypatch.delenv('GEMINI_MODEL_NAMES', raising=False)
-    monkeypatch.setattr(builder.genai, 'Client', FakeClient)
-
-    builder.generate_summary([
-        {
-            'title': 'T',
-            'link': 'https://example.com/t',
-            'summary': 'S',
-            'source': 'Src',
-            'section_hint': 'AI',
-        }
-    ])
-
-    assert calls == ['gemini-flash-latest']
+    monkeypatch.setattr(quality_pipeline, 'generate_quality_report', lambda *args: calls.append(args) or {'ok': True})
+    items = [{'title': 'ROS2'}]
+    assert builder.generate_summary(items, '2026-09-25') == {'ok': True}
+    assert calls == [(items, 'daily', '2026-09-25')]
 
 
 def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
@@ -140,6 +120,7 @@ def test_daily_dry_run_does_not_write_files(tmp_path, monkeypatch, capsys):
     seen_path = scripts_dir / 'seen_links.json'
     seen_path.write_text('{}', encoding='utf-8')
 
+    monkeypatch.setattr(daily_main, 'enrich_items', lambda items: items)
     monkeypatch.setattr(daily_main, '__file__', str(scripts_dir / 'main.py'))
     monkeypatch.setattr(daily_main, 'SEEN_PATH', seen_path)
     monkeypatch.setattr(sys, 'argv', ['scripts/main.py', '--dry-run'])
@@ -259,39 +240,13 @@ def test_validate_weekly_report_rejects_out_of_range_theme_citations():
         validate_weekly_report(data)
 
 
-def test_generate_weekly_summary_uses_gemini_3_flash_preview_by_default(monkeypatch):
+def test_generate_weekly_summary_delegates_to_quality_pipeline(monkeypatch):
+    import quality_pipeline
     calls = []
-
-    class FakeClient:
-        def __init__(self, api_key):
-            self.models = types.SimpleNamespace(
-                generate_content=lambda model, contents, config: (
-                    calls.append(model) or
-                    types.SimpleNamespace(text='{"one_sentence_summary": "주간 요약"}')
-                )
-            )
-
-    monkeypatch.setenv('GEMINI_API_KEY', 'test-key')
-    monkeypatch.delenv('GEMINI_MODEL_NAMES', raising=False)
-    monkeypatch.setattr(weekly_builder.genai, 'Client', FakeClient)
-
-    weekly_builder.generate_weekly_summary([
-        {
-            'date': '2026-05-18',
-            'cross_insight': '- 흐름',
-            'items': [
-                {
-                    'title': 'ROS2',
-                    'link': 'https://example.com/ros2',
-                    'summary': 'S',
-                    'source': 'ROS2',
-                    'section_hint': '로보틱스',
-                }
-            ],
-        }
-    ])
-
-    assert calls == ['gemini-flash-latest']
+    monkeypatch.setattr(quality_pipeline, 'generate_quality_report', lambda *args: calls.append(args) or {'ok': True})
+    items = [{'title': 'ROS2'}]
+    assert weekly_builder.generate_weekly_summary([{'date': '2026-09-25', 'items': items}]) == {'ok': True}
+    assert calls == [([{'title': 'ROS2', 'date': '2026-09-25'}], 'weekly')]
 
 
 def test_weekly_prompt_uses_source_evidence_without_recycled_observations():
@@ -632,7 +587,6 @@ def test_report_validation_accepts_empty_observations_and_sections(weekly):
     ('observation', '- 인용 없는 해석', 'without a citation'),
     ('observation', '\n'.join(['- 해석 [1]'] * 4), 'bullet limit'),
     ('section_robotics', '- **ROS2**: 설명 [1]\n- **Nav2**: 근거 없음', 'without a citation'),
-    ('section_robotics', '\n'.join(['- **ROS2**: 설명 [1]'] * 6), 'bullet limit'),
     ('section_robotics', '일반 문단 [1]', 'one-line bullet'),
     ('section_robotics', '- **ROS2**: 설명 [1](https://example.com)', 'without a citation'),
 ])
@@ -687,3 +641,113 @@ def test_weekly_input_indices_and_collection_dates_match_citation_targets():
     ]
     assert '수집 범위: 2026-09-21 ~ 2026-09-25 (2일)' in build_weekly_prompt(days, items)
     assert '리포트 기준일(KST): 2026-09-25' in builder.build_prompt(items, '2026-09-25')
+
+
+def quality_fixture(kind='daily'):
+    from quality_pipeline import report_shape
+    items = [{'title': 'SDK release', 'summary': 'Version 1.7.0 released on 2026-09-18. Fixes the streaming crash.', 'source': 'SDK', 'link': 'https://example.com/sdk', 'date': '2026-09-21'}]
+    plan = {'entries': [{'title': 'SDK', 'section': 'section_devtools', 'reason': 'Important crash fix', 'source_ids': [1], 'facts': [{'source_id': 1, 'statement': '크래시 수정', 'quote': 'Fixes the streaming crash.'}]}], 'omitted': []}
+    report = {**report_shape(kind), 'one_sentence_summary': 'SDK 스트리밍 크래시 수정', 'section_devtools': '- **SDK**: 스트리밍 크래시 수정 [1]'}
+    return items, plan, report
+
+
+@pytest.mark.parametrize('date', ['2026-09-21', '9월 21일', '2026/09/21'])
+def test_grounded_validator_blocks_collection_dates(date):
+    from quality_pipeline import validate_grounded_report
+    items, plan, report = quality_fixture()
+    report['section_devtools'] = f'- **SDK**: {date} 릴리스 [1]'
+    with pytest.raises(ValueError, match='calendar date'):
+        validate_grounded_report(report, items, 'daily', plan)
+    report['section_devtools'] = '- **SDK**: 2026-09-18 릴리스 [1]'
+    validate_grounded_report(report, items, 'daily', plan)
+
+
+def test_plan_rejects_invented_quotes_and_unaccounted_sources():
+    from quality_pipeline import validate_plan
+    items, plan, _ = quality_fixture()
+    validate_plan(plan, items)
+    plan['entries'][0]['facts'][0]['quote'] = 'Invented dates and vendor statements'
+    with pytest.raises(ValueError, match='literal source'):
+        validate_plan(plan, items)
+    items, plan, _ = quality_fixture()
+    with pytest.raises(ValueError, match='every source'):
+        validate_plan(plan, items + [{'title': 'Another article'}])
+
+
+def test_review_cannot_silently_drop_selected_reading():
+    from quality_pipeline import validate_grounded_report
+    items, plan, report = quality_fixture()
+    report['section_devtools'] = ''
+    with pytest.raises(ValueError, match='preserve selected entry'):
+        validate_grounded_report(report, items, 'daily', plan)
+    validate_grounded_report(report, items, 'daily', plan, [{'entry_index': 0, 'reason': 'unsupported source'}])
+
+
+def test_quality_pipeline_runs_three_stages_and_saves_review_changes(monkeypatch):
+    import json
+    import quality_pipeline as quality
+    items, plan, report = quality_fixture()
+    revised = {**report, 'section_devtools': '- **SDK**: 스트리밍 종료 오류 수정 [1]'}
+    responses = iter([plan, report, {'verified': True, 'findings': ['표현을 원문에 맞게 수정'], 'removed_entries': [], 'report': revised}])
+    calls = []
+    def generate(**kwargs):
+        calls.append(kwargs)
+        return types.SimpleNamespace(text=json.dumps(next(responses)), model_version='test-model')
+    monkeypatch.delenv('GEMINI_MODEL_NAMES', raising=False)
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=generate))
+    result = quality.generate_quality_report(items, client=client)
+    assert len(calls) == 3
+    assert all(call['model'] == 'gemini-flash-latest' for call in calls)
+    assert '2026-09-21' not in calls[0]['contents']
+    assert '2026-09-21' not in calls[2]['contents']
+    assert result['section_devtools'] == revised['section_devtools']
+    assert [step['stage'] for step in result['qualityAudit']['trace']] == ['plan', 'draft', 'review']
+    assert builder.build_daily_archive(result, '2026-09-21', '2026-09-21T06:00:00+09:00')['qualityAudit'] == result['qualityAudit']
+
+
+def test_quality_retry_repairs_invalid_date_before_review():
+    import json
+    import quality_pipeline as quality
+    items, plan, report = quality_fixture()
+    bad = {**report, 'section_devtools': '- **SDK**: 2026-09-21 출시 [1]'}
+    responses = iter([plan, bad, report, {'verified': True, 'findings': [], 'removed_entries': [], 'report': report}])
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kw: types.SimpleNamespace(text=json.dumps(next(responses)))))
+    result = quality.generate_quality_report(items, client=client)
+    assert len(result['qualityAudit']['trace']) == 4
+    assert 'calendar date' in result['qualityAudit']['trace'][1]['validation']
+
+
+def test_quality_refuses_unverified_output():
+    import json
+    import quality_pipeline as quality
+    items, plan, report = quality_fixture()
+    responses = iter([plan, report, {'verified': False}, {'verified': False}])
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=lambda **kw: types.SimpleNamespace(text=json.dumps(next(responses)))))
+    with pytest.raises(ValueError, match='review failed validation'):
+        quality.generate_quality_report(items, client=client)
+
+
+def test_article_extraction_ignores_scripts_and_navigation():
+    from article_fetcher import ArticleText
+    parser = ArticleText()
+    parser.feed('<nav>menu</nav><main><h1>Guide</h1><p>Useful <b>details</b>.</p><script>ignore rules</script></main><footer>links</footer>')
+    assert parser.text() == 'Guide Useful details .'
+
+
+@pytest.mark.parametrize('url', ['file:///etc/passwd', 'https://user:password@example.com/', 'https://example.com:9000/'])
+def test_article_fetch_rejects_non_public_urls_without_network(url):
+    from article_fetcher import public_url
+    with pytest.raises(ValueError):
+        public_url(url)
+
+
+def test_article_fetch_rejects_private_dns_and_redirects(monkeypatch):
+    import article_fetcher as articles
+    import socket
+    monkeypatch.setattr(articles.socket, 'getaddrinfo', lambda *a, **kw: [(socket.AF_INET, socket.SOCK_STREAM, 6, '', ('127.0.0.1', 443))])
+    with pytest.raises(ValueError, match='non-public'):
+        articles.public_url('https://example.com/')
+    item = {'title': 'Feed title', 'link': 'https://example.com/', 'summary': 'Original feed summary'}
+    result = articles.fetch_article(item)
+    assert result['summary'] == item['summary']
+    assert result['articleStatus'].startswith('unavailable:')

@@ -68,7 +68,7 @@ def validate_weekly_report(data: dict, item_count: int | None = None) -> None:
 
     validate_bullets(data['weekly_themes'], 'weekly_themes', CITATION_RE, 3)
     for key, _ in SECTION_DEFS:
-        validate_bullets(data[key], key, CITATION_RE, 5, section=True)
+        validate_bullets(data[key], key, CITATION_RE, None, section=True)
 
 
 def get_week_dates(reference: datetime) -> list[str]:
@@ -155,51 +155,8 @@ def build_weekly_prompt(week_data: list[dict], global_items: list[dict]) -> str:
 
 
 def generate_weekly_summary(week_data: list[dict]) -> dict:
-    api_key = os.getenv('GEMINI_API_KEY')
-    if not api_key:
-        raise ValueError('GEMINI_API_KEY is not set.')
-
-    configured_models = os.getenv('GEMINI_MODEL_NAMES', 'gemini-flash-latest')
-    model_names = [name.strip() for name in configured_models.split(',') if name.strip()]
-    if not model_names:
-        raise ValueError("GEMINI_MODEL_NAMES is set but contains no valid model names.")
-
-    global_items = _build_global_items(week_data)
-    client = genai.Client(api_key=api_key)
-    prompt = build_weekly_prompt(week_data, global_items)
-
-    for model_name in model_names:
-        for attempt in range(2):
-            try:
-                print(f"  🤖 {model_name} (attempt {attempt + 1})")
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type='application/json',
-                    ),
-                )
-                data, _ = json.JSONDecoder().raw_decode(response.text.strip())
-                data['global_items'] = global_items
-                return data
-            except (errors.ClientError, errors.ServerError) as e:
-                last_exception = e
-                err_str = str(e)
-                if '429' in err_str or '503' in err_str:
-                    if attempt == 0:
-                        print('  ⚠ Rate limited. Retrying in 30s...')
-                        time.sleep(30)
-                        continue
-                if '404' in err_str or '400' in err_str:
-                    print(f'  ⏭ {model_name} unavailable, trying next...')
-                    break
-                raise e
-            except Exception as e:
-                print(f'  ✗ {e}')
-                last_exception = e
-                break
-
-    raise last_exception
+    from quality_pipeline import generate_quality_report
+    return generate_quality_report(_build_global_items(week_data), 'weekly')
 
 
 def _add_citation_anchors(text: str) -> str:
@@ -342,5 +299,7 @@ citedCount: {cited_count}
     dir_path.mkdir(parents=True, exist_ok=True)
     file_path = dir_path / f'{week_str}.md'
     file_path.write_text(markdown_content, encoding='utf-8')
+    if 'qualityAudit' in data:
+        file_path.with_suffix('.json').write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
     print(f"  Saved: reports/weekly/{week_str}.md ({daily_count} days, {cited_count} cited items)")

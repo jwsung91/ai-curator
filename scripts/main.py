@@ -14,6 +14,7 @@ from fetcher import (
     fetch_simon_willison, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
+from article_fetcher import enrich_items
 from builder import generate_summary, save_to_markdown, validate_daily_report, build_daily_archive
 
 SOURCES = [
@@ -96,6 +97,8 @@ def main():
             print("⚠️  Nothing new today. Exiting.")
             return
 
+        print("📄 Enriching source excerpts...")
+        all_items = enrich_items(all_items)
         print("🤖 Generating report...")
         data = generate_summary(all_items, report_date=date_str)
         validate_daily_report(data, item_count=len(all_items))

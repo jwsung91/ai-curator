@@ -25,7 +25,7 @@ SELECTION = """## 선별 기준 (우선순위 순)
 3. 새로운 기술 접근, 실용적인 튜토리얼·해설·재현 가능한 연구
 4. 산업·정책 동향
 - 반복 언급과 보도량은 보조 기준입니다. 한 번 발표된 중요한 변경을 밀어내지 마세요.
-- 각 섹션은 중요도순으로 0~5개 항목만 작성하세요. 최소 개수는 없으며, 적합한 항목이 없으면 빈 문자열을 반환하세요.
+- 각 섹션은 중요도순으로 작성하세요. 항목 수를 줄이기 위해 유용한 기능 설명이나 튜토리얼을 제외하지 마세요. 적합한 항목이 없으면 빈 문자열을 반환하세요.
 - 프리릴리스는 일반 업데이트에서 제외하세요. 다만 중요한 지원 종료·호환성 예고라면 시험판임을 명시해 소개할 수 있습니다."""
 
 SECTIONS = """## 섹션 분류 기준
@@ -62,9 +62,9 @@ def input_records(items: list[dict], collected_date: str | None = None) -> str:
     ], ensure_ascii=False, indent=2)
 
 
-def validate_bullets(text: str, field: str, citation_re, max_items: int, *, section: bool = False) -> None:
+def validate_bullets(text: str, field: str, citation_re, max_items: int | None, *, section: bool = False) -> None:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
-    if len(lines) > max_items:
+    if max_items is not None and len(lines) > max_items:
         raise ValueError(f'{field} exceeds {max_items} bullet limit')
     for line in lines:
         if not line.startswith('- ') or (section and not re.match(r'^- \*\*.+?\*\*:\s+\S', line)):

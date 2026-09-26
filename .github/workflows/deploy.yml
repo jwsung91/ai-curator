@@ -8,6 +8,10 @@ on:
     - cron: '0 0 * * 6'     # Weekly: Sat 09:00 KST (Sat 00:00 UTC)
   workflow_dispatch:
     inputs:
+      quality_pipeline:
+        description: 'Evaluate quality-first pipeline (with compare_prompts enabled)'
+        type: boolean
+        default: false
       compare_prompts:
         description: 'Compare baseline and candidate prompts only (6 Gemini requests)'
         type: boolean
@@ -35,7 +39,7 @@ jobs:
   compare-prompts:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.compare_prompts == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     permissions:
       contents: read
     steps:
@@ -48,9 +52,15 @@ jobs:
           cache: pip
       - run: pip install -r scripts/requirements.txt
       - name: Compare prompts on fixed inputs
-        run: python scripts/compare_prompts.py
+        run: |
+          if [ "$QUALITY_PIPELINE" = "true" ]; then
+            python scripts/evaluate_quality.py
+          else
+            python scripts/compare_prompts.py
+          fi
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          QUALITY_PIPELINE: ${{ github.event.inputs.quality_pipeline }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -102,7 +112,7 @@ jobs:
         with:
           commit_message: "chore: auto-generate reports"
           branch: main
-          file_pattern: "reports/daily/*.md reports/daily/*.json reports/weekly/*.md scripts/seen_links.json"
+          file_pattern: "reports/daily/*.md reports/daily/*.json reports/weekly/*.md reports/weekly/*.json scripts/seen_links.json"
 
       - name: Notify Issue (Daily)
         if: steps.daily.outcome == 'success'
