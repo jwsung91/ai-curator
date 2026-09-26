@@ -751,3 +751,77 @@ def test_article_fetch_rejects_private_dns_and_redirects(monkeypatch):
     result = articles.fetch_article(item)
     assert result['summary'] == item['summary']
     assert result['articleStatus'].startswith('unavailable:')
+
+
+def test_article_fetch_preserves_release_evidence_and_feed_summary(monkeypatch):
+    import json
+    from email.message import Message
+    import article_fetcher as articles
+    monkeypatch.setattr(articles, 'public_url', lambda url: url)
+    class Response:
+        url = 'https://api.github.com/repos/a/b/releases/tags/v1.0'
+        headers = Message()
+        headers['Content-Type'] = 'application/json; charset=utf-8'
+        def __enter__(self): return self
+        def __exit__(self, *args): pass
+        def read(self, limit):
+            assert limit == articles.MAX_BYTES + 1
+            return json.dumps({'tag_name': 'v1.0-rc1', 'prerelease': True, 'published_at': '2026-09-18T12:00:00Z', 'body': 'Detailed release information. ' * 8}).encode()
+    monkeypatch.setattr(articles.urllib.request, 'build_opener', lambda *args: types.SimpleNamespace(open=lambda *args, **kw: Response()))
+    item = {'title': 'SDK v1.0', 'summary': 'RSS evidence', 'link': 'https://github.com/a/b/releases/tag/v1.0'}
+    result = articles.fetch_article(item)
+    assert result['summary'] == 'RSS evidence'
+    assert result['isPrerelease'] is True
+    assert result['releaseTag'] == 'v1.0-rc1'
+    assert result['articleStatus'] == 'fetched'
+    assert result['publishedAt'] == '2026-09-18T12:00:00Z'
+    assert item == {'title': 'SDK v1.0', 'summary': 'RSS evidence', 'link': 'https://github.com/a/b/releases/tag/v1.0'}
+
+
+def test_article_enrichment_fetches_duplicate_url_once_and_keeps_each_feed(monkeypatch):
+    import article_fetcher as articles
+    calls = []
+    def fetch(item):
+        calls.append(item['link'])
+        return {**item, 'articleText': 'Article evidence', 'articleStatus': 'fetched'}
+    monkeypatch.setattr(articles, 'fetch_article', fetch)
+    items = [{'link': 'https://example.com/x', 'summary': 'first'}, {'link': 'https://example.com/x', 'summary': 'second'}]
+    result = articles.enrich_items(items)
+    assert calls == ['https://example.com/x']
+    assert [item['summary'] for item in result] == ['first', 'second']
+    assert all(item['articleText'] == 'Article evidence' for item in result)
+
+
+def test_quality_packet_identifies_title_only_and_prerelease():
+    from quality_pipeline import source_packet
+    packet = source_packet([{'title': 'SDK 1.0', 'link': 'https://github.com/a/b/releases/tag/v1.0-rc1', 'summary': '<a>Comments</a>', 'date': '2026-09-21'}])[0]
+    assert packet['evidence_level'] == 'title_only'
+    assert packet['prerelease'] is True
+    assert packet['release_tag'] == 'v1.0-rc1'
+    assert '2026-09-21' not in str(packet)
+
+
+def test_plan_excludes_ordinary_prereleases():
+    from quality_pipeline import validate_plan
+    items, plan, _ = quality_fixture()
+    items[0]['link'] = 'https://github.com/a/b/releases/tag/v1.7.0-rc1'
+    with pytest.raises(ValueError, match='omit ordinary prereleases'):
+        validate_plan(plan, items)
+    plan['entries'][0]['prerelease_exception'] = {'kind': 'breaking_change', 'reason': 'Evidence of compatibility change'}
+    validate_plan(plan, items)
+
+
+def test_quality_model_fallback_retains_configured_order():
+    import quality_pipeline as quality
+    calls = []
+    class Unavailable(Exception):
+        code = 404
+    def generate(**kwargs):
+        calls.append(kwargs['model'])
+        if kwargs['model'] == 'missing':
+            raise Unavailable()
+        return types.SimpleNamespace(text='{}')
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=generate))
+    response, model = quality._generate(client, ['missing', 'available'], 'prompt')
+    assert model == 'available'
+    assert calls == ['missing', 'available']

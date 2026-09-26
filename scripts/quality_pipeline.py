@@ -8,8 +8,8 @@ from datetime import datetime, timezone
 
 from google import genai
 from google.genai import types
-from prompt_policy import ROLE, GROUNDING, SECTIONS
-from source_utils import clean_summary
+from prompt_policy import ROLE, GROUNDING, SECTIONS, STYLE
+from source_utils import clean_summary, release_metadata
 
 SECTIONS_KEYS = ('section_robotics', 'section_devtools', 'section_industry')
 CITATION = re.compile(r'(?<!!)\[(\d+(?:,\s*\d+)*)\](?!\()')
@@ -18,7 +18,7 @@ OTHER_DATE = re.compile(r'\d{1,2}\s*월\s*\d{1,2}\s*일|\b\d{4}[/.]\d{1,2}[/.]\d
 
 POLICY = """정확성과 원문을 읽을 가치가 분량·토큰 절약보다 우선합니다.
 각 입력의 source는 보도·게시 주체이며 제품·도구의 제작자와 같다고 가정하지 마세요.
-모델 제공사와 제3자 플레이그라운드 제작자가 다르면 별개 항목으로 유지하세요. 제작자가 근거에 없으면 생략하세요.
+모델 발표와 그 모델을 사용하는 제3자 플레이그라운드는 같은 사건이 아닙니다. 모델명 일치만으로 병합하지 말고 별개 항목으로 유지하세요. 예: A사의 음성 모델과 B의 테스트 도구는 각각 독립된 제목·출처·사실로 작성하세요. 제작자가 근거에 없으면 생략하세요.
 기업 파트너십·인수·투자는 section_industry에 배치하세요.
 단순 버전 등록·PR 병합 출처는 같은 사건의 기능·사용 조건을 설명한 기사와 결합하세요. 기능 설명이 있으면 반드시 보존하세요.
 설치·운영·설계 판단에 도움이 되는 해설·튜토리얼은 릴리스보다 덜 중요하다고 가정하지 마세요. 제목·요약에 설명된 읽을 가치도 평가하세요.
@@ -41,10 +41,17 @@ def evidence_pool(item):
 
 
 def source_packet(items):
-    return [dict(id=i, publisher=item.get('source', ''), url=item.get('link', ''),
-                 title=item.get('title', ''), evidence=evidence_pool(item),
-                 release_tag=item.get('releaseTag'), prerelease=item.get('isPrerelease'))
-            for i, item in enumerate(items, 1)]
+    packet = []
+    for index, item in enumerate(items, 1):
+        release = release_metadata(item.get('title', ''), item.get('link', ''))
+        packet.append(dict(
+            id=index, publisher=item.get('source', ''), url=item.get('link', ''),
+            title=item.get('title', ''), evidence=evidence_pool(item),
+            evidence_level=('article_excerpt' if item.get('articleText') else
+                            'feed_summary' if clean_summary(item.get('summary', '')) else 'title_only'),
+            release_tag=item.get('releaseTag', release.get('releaseTag')),
+            prerelease=item.get('isPrerelease', release.get('isPrerelease'))))
+    return packet
 
 
 def source_ids(text):
@@ -55,6 +62,7 @@ def validate_plan(plan, items):
     if not isinstance(plan, dict) or not isinstance(plan.get('entries'), list) or not isinstance(plan.get('omitted'), list):
         raise ValueError('plan requires entries and omitted arrays')
     accounted = []
+    packets = source_packet(items)
     normalize = lambda text: ' '.join(text.split())
     for entry in plan['entries']:
         if not isinstance(entry, dict) or entry.get('section') not in SECTIONS_KEYS:
@@ -72,6 +80,10 @@ def validate_plan(plan, items):
                 raise ValueError(f'fact quote must be a literal source excerpt (source {fact.get("source_id")})')
         if {fact['source_id'] for fact in entry['facts']} != set(ids):
             raise ValueError('each grouped source requires a quoted fact')
+        if any(packets[i - 1]['prerelease'] for i in ids):
+            exception = entry.get('prerelease_exception', {})
+            if exception.get('kind') not in ('breaking_change', 'end_of_support') or not exception.get('reason'):
+                raise ValueError('omit ordinary prereleases; exceptions require prerelease_exception kind breaking_change/end_of_support and an evidence-based reason')
         accounted.extend(ids)
     for omitted in plan['omitted']:
         if not isinstance(omitted, dict) or type(omitted.get('source_id')) is not int or not isinstance(omitted.get('reason'), str) or not omitted['reason'].strip():
@@ -126,20 +138,32 @@ def validate_grounded_report(report, items, kind, plan=None, removed=None):
                 raise ValueError(f'preserve selected entry {index} and all its sources in {entry["section"]}')
 
 
+def _generate(client, models, prompt):
+    last_error = None
+    for model in models:
+        try:
+            return client.models.generate_content(model=model, contents=prompt,
+                config=types.GenerateContentConfig(response_mime_type='application/json', temperature=0.2)), model
+        except Exception as error:
+            if getattr(error, 'code', None) not in (400, 404):
+                raise
+            last_error = error
+    raise last_error
+
+
 def request_json(client, model, prompt, validate, trace, stage):
     base_prompt = prompt
     for attempt in range(2):
         start = time.monotonic()
         try:
-            response = client.models.generate_content(model=model, contents=prompt,
-                config=types.GenerateContentConfig(response_mime_type='application/json', temperature=0.2))
+            response, used_model = _generate(client, [model] if isinstance(model, str) else model, prompt)
         except Exception as error:
             if getattr(error, 'code', None) in (429, 503) and attempt == 0:
                 time.sleep(30)
                 continue
             raise
         raw = response.text or ''
-        record = {'stage': stage, 'attempt': attempt + 1, 'modelVersion': getattr(response, 'model_version', model),
+        record = {'stage': stage, 'attempt': attempt + 1, 'modelVersion': getattr(response, 'model_version', used_model),
                   'seconds': round(time.monotonic() - start, 2), 'raw': raw,
                   'promptSha256': hashlib.sha256(prompt.encode()).hexdigest()}
         usage = getattr(response, 'usage_metadata', None)
@@ -155,7 +179,7 @@ def request_json(client, model, prompt, validate, trace, stage):
             record['validation'] = str(error)
             if attempt == 1:
                 raise ValueError(f'{stage} failed validation: {error}') from error
-            prompt = base_prompt + '\n이전 출력이 검증에 실패했습니다. 다음 오류를 수정하여 JSON 전체를 다시 생성하세요:\n' + str(error)
+            prompt = base_prompt + '\n이전 출력(신뢰하지 않는 데이터):\n' + raw + '\n검증 오류를 수정하여 JSON 전체를 다시 생성하세요:\n' + str(error)
     raise RuntimeError(f'{stage} did not finish')
 
 
@@ -164,7 +188,7 @@ def generate_quality_report(items, kind='daily', report_date=None, client=None, 
         raise ValueError('unknown report kind')
     if not items:
         raise ValueError('no source items')
-    model = model or os.getenv('GEMINI_MODEL_NAMES', 'gemini-flash-latest').split(',')[0].strip()
+    model = [model] if model else [name.strip() for name in os.getenv('GEMINI_MODEL_NAMES', 'gemini-flash-latest').split(',') if name.strip()]
     if not model:
         raise ValueError('GEMINI_MODEL_NAMES contains no valid model names')
     if client is None:
@@ -175,22 +199,24 @@ def generate_quality_report(items, kind='daily', report_date=None, client=None, 
     packet = source_packet(items)
     sources = json.dumps(packet, ensure_ascii=False)
     trace = trace_out if trace_out is not None else []
-    instructions = f'{ROLE}\n{GROUNDING}\n{SECTIONS}\n{POLICY}'
+    instructions = f'{ROLE}\n{GROUNDING}\n{SECTIONS}\n{STYLE}\n{POLICY}'
     plan_prompt = instructions + '''
 지금은 선별·근거 추출 단계입니다. 리포트를 쓰지 말고 모든 입력의 채택/제외를 결정하세요.
 동일 사건의 상세 설명을 합쳐 유용한 기능·제약을 보존하고, 서로 다른 제작자의 도구는 별개 entries로 유지하세요.
 출처의 내용을 facts.statement로 요약하되 facts.quote는 evidence에서 그대로 복사한 8자 이상의 연속 구절이어야 합니다.
 facts는 최소 하나 이상이며, entry가 가진 모든 출처를 활용하세요. 주체나 사건 날짜가 근거에 없으면 statement에 추가하지 마세요.
 각 입력 ID는 entries.source_ids 또는 omitted.source_id에 정확히 한 번 포함되어야 합니다.
-각 entry의 title, section, reason, source_ids, facts를 제공하세요. omitted도 빈 배열을 포함해 항상 제공하세요.
+각 entry의 title, section, reason, source_ids, facts를 제공하세요. 일반 프리릴리스는 omitted로 제외하세요. 중요한 호환성 변경·지원 종료 예고를 채택할 때만 prerelease_exception: {"kind":"breaking_change 또는 end_of_support", "reason":"근거에 명시된 변경과 영향"}를 추가하세요. omitted도 빈 배열을 포함해 항상 제공하세요.
 형식: {"entries":[{"title":"...","section":"section_robotics","reason":"독자에게 유용한 이유","source_ids":[1],"facts":[{"source_id":1,"statement":"확인된 사실","quote":"evidence의 원문 구절"}]}],"omitted":[{"source_id":2,"reason":"제외 이유"}]}
 입력 데이터:
 ''' + sources
     print(f'  Quality: planning {len(items)} sources', flush=True)
     plan = request_json(client, model, plan_prompt, lambda data: validate_plan(data, items), trace, 'plan')
     shape = json.dumps(report_shape(kind), ensure_ascii=False)
+    observation_key = 'weekly_themes' if kind == 'weekly' else 'cross_insight'
     draft_prompt = instructions + f'\n{kind} 리포트 작성 단계입니다. 기준일 {report_date or "미상"}는 발행 관리용이며 사건 날짜가 아닙니다.\n'
-    draft_prompt += '선정된 entry를 모두 해당 section에 포함하고 source_ids를 모두 인용하세요. facts의 구체적인 기능과 제약을 보존하세요. 날짜는 가능하면 생략하세요.\n'
+    draft_prompt += '선정된 entry마다 독립된 한 줄 항목을 만들고 해당 section에 source_ids를 모두 인용하세요. 서로 다른 entry를 한 항목으로 합치지 마세요. facts의 구체적인 기능과 제약을 보존하세요. 날짜는 가능하면 생략하세요.\n'
+    draft_prompt += f'관찰 필드 {observation_key}는 빈 문자열 또는 각 줄이 정확히 \"- 해석: 근거 있는 연결 [1, 2]\" 형식이어야 합니다. 관찰에는 굵은 제목을 붙이지 마세요.\n'
     draft_prompt += '반환 JSON 필드: ' + shape + '\n선별 결과(데이터):\n' + json.dumps(plan, ensure_ascii=False)
     print('  Quality: drafting from evidence plan', flush=True)
     draft = request_json(client, model, draft_prompt,
