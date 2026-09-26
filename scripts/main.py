@@ -14,7 +14,7 @@ from fetcher import (
     fetch_simon_willison, fetch_hackernews_devai, fetch_devai_releases,
     fetch_ieee_robotics, fetch_the_robot_report,
 )
-from builder import generate_summary, save_to_markdown, validate_daily_report
+from builder import generate_summary, save_to_markdown, validate_daily_report, build_daily_archive
 
 SOURCES = [
     ('로보틱스', fetch_ros2_discourse),
@@ -117,7 +117,7 @@ def main():
         json_path = Path(__file__).parent.parent / 'reports' / 'daily' / f'{date_str}.json'
         json_path.write_text(
             json.dumps(
-                {'date': date_str, 'publishedAt': published_at, 'items': all_items},
+                build_daily_archive(data, date_str, published_at),
                 ensure_ascii=False,
                 indent=2,
             ),

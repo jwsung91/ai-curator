@@ -47,7 +47,9 @@ scripts/
 
 src/
   pages/
-    index.astro     데일리 리포트 아카이브 (/)
+    index.astro     최신 데일리·위클리 홈 (/)
+    search.astro    본문 검색·주제·유형·발행 월 필터
+    about.astro     정보 소스·편집 기준·구독 안내
     weekly/
       index.astro   위클리 리포트 아카이브 (/weekly)
       [id].astro    위클리 상세 페이지
@@ -81,5 +83,26 @@ GitHub Actions에 등록 필요:
 ## 기술 스택
 
 - **Python**: feedparser, google-genai
-- **Frontend**: Astro 6, Tailwind CSS v4, @tailwindcss/typography
+- **Frontend**: Astro 7, Tailwind CSS v4, @tailwindcss/typography
 - **CI/CD**: GitHub Actions, stefanzweifel/git-auto-commit-action
+
+## 탐색과 편집 기준
+
+- `/search/`: 기존 데일리·위클리의 제목, 본문, 출처를 검색합니다. 주제·리포트 유형·발행 월 필터를 함께 적용할 수 있으며, 검색 조건은 URL에 보존됩니다. 결과는 12개씩 표시합니다.
+- 주제는 본문 키워드로 자동 분류하는 보조 탐색 수단입니다. 뉴스별 수동 분류나 완전한 기술 분류 체계를 의미하지 않습니다.
+- 데일리와 해당 기간의 위클리는 서로 연결됩니다. 아직 위클리가 없는 날짜에는 링크를 표시하지 않습니다.
+- `/about/`에서 출처 유형, 자동 요약의 범위, 발행 일정과 RSS 구독 방법을 안내합니다.
+- 수집 시 HTML을 정리한 최대 1,200자의 요약과 원문 발행·수정일을 보존합니다. 댓글 링크만 있는 요약은 빈 근거로 취급하고, 모델에 제목 기반임을 표시하도록 지시합니다. 기사 전문을 추가로 가져오지는 않습니다.
+- GitHub 릴리스는 제목 대신 URL의 태그로 프리릴리스를 판별하고, 피드 내 다음 안정판 후보를 탐색합니다. 태그 명명 규칙에 기반한 판별이므로 GitHub API의 prerelease 플래그 검증과 같지는 않습니다.
+- 관찰·주간 흐름의 인용도 본문과 함께 검증·재번호화합니다. 원문 발행일을 모르면 리포트 날짜로 대체하지 않습니다.
+- 새 데일리 JSON은 원시 `items`와 함께 편집 결과 `report`, 인용된 원시 항목 `selectedItems`를 저장합니다. `citationIndex`는 `report`에서 사용한 원래 `items`의 1부터 시작하는 번호입니다. 화면용 Markdown은 등장 순서로 다시 번호를 매깁니다. 기존 JSON은 재생성하지 않으며 주간 파이프라인과 호환됩니다.
+
+## 검증
+
+```bash
+python3 -m pytest -q
+node --experimental-strip-types --test tests/discovery.test.ts
+npm run build
+```
+
+Python 테스트 실행에는 개발 환경에 `pytest`가 필요합니다. 테스트는 실제 Gemini API를 호출하지 않습니다.

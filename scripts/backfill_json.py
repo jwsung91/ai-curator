@@ -3,6 +3,7 @@
 import re
 import json
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
@@ -15,6 +16,25 @@ SECTION_KEYWORDS = {
     'AI':       'AI',
     '트렌드':   '트렌드',
 }
+
+
+class ReferenceParser(HTMLParser):
+    """Read escaped reference metadata from both old and new report templates."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.refs = {}
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        match = re.fullmatch(r'ref-(\d+)', attrs.get('id', ''))
+        if tag != 'span' or not match:
+            return
+        if not all(attrs.get(key) for key in ('data-title', 'data-url', 'data-source')):
+            return
+        item = {key: attrs[f'data-{attr}'] for key, attr in [('title', 'title'), ('link', 'url'), ('source', 'source')]}
+        if attrs.get('data-published-at'):
+            item['publishedAt'] = attrs['data-published-at']
+        self.refs[int(match.group(1))] = item
 
 
 def backfill(date_str: str, force: bool = False) -> int:
@@ -38,6 +58,9 @@ def backfill(date_str: str, force: bool = False) -> int:
             'link':   m.group(3),
             'source': m.group(4),
         }
+    parser = ReferenceParser()
+    parser.feed(content)
+    refs.update(parser.refs)
 
     items: list[dict] = []
     current_section = ''

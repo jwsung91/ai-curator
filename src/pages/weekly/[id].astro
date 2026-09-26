@@ -17,6 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { entry, prev, next } = Astro.props;
+const relatedDaily = (await getCollection('curation')).filter(report => report.data.date >= entry.data.weekStart && report.data.date <= entry.data.weekEnd).sort((a, b) => a.data.date.localeCompare(b.data.date));
 const { Content, headings } = await render(entry);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const tocHeadings = headings.filter(h => h.depth === 2);
@@ -81,6 +82,10 @@ const displayRange = `${formatDisplayDate(entry.data.weekStart)} - ${formatDispl
       <Content />
     </div>
 
+    {relatedDaily.length > 0 && <nav aria-label="이번 주 데일리" class="my-8 rounded border border-stone-200 p-4 dark:border-stone-800">
+      <p class="mb-2 font-semibold">이번 주 데일리 리포트</p>
+      <ul class="space-y-2">{relatedDaily.map(report => <li><a class="underline" href={`${base}/curation/${report.id}/`}>{report.data.date} · {report.data.summary}</a></li>)}</ul>
+    </nav>}
     <footer class="reader-footer">
       <p class="reader-meta-title">리포트 정보</p>
       <dl class="reader-meta-list">
@@ -94,33 +99,33 @@ const displayRange = `${formatDisplayDate(entry.data.weekStart)} - ${formatDispl
 
   {(prev || next) && (
     <nav class="mx-auto flex max-w-[920px] items-center justify-between border-t border-stone-200 pt-8 dark:border-stone-800 gap-4">
-      <div class="flex-1">
+      <div class="min-w-0 flex-1">
         {prev && (
           <a
             href={`${base}/weekly/${prev.id}/`}
-            class="group flex flex-col gap-1 rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
+            class="group flex min-w-0 w-full flex-col gap-1 rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
           >
-            <span class="font-mono text-xs text-stone-400 flex items-center gap-1">
+            <span class="font-sans text-xs text-stone-400 flex items-center gap-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
               이전 위클리
             </span>
-            <span class="font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
+            <span class="max-w-full font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
               {prev.data.title.replace('위클리 리포트 - ', '')}
             </span>
           </a>
         )}
       </div>
-      <div class="flex-1 flex justify-end">
+      <div class="min-w-0 flex-1 flex justify-end">
         {next && (
           <a
             href={`${base}/weekly/${next.id}/`}
-            class="group flex flex-col gap-1 items-end rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
+            class="group flex min-w-0 w-full flex-col gap-1 items-end rounded-lg border border-stone-200 dark:border-stone-800 bg-stone-100/50 dark:bg-zinc-900/50 px-4 py-3 transition-colors hover:border-stone-300 dark:hover:border-stone-700"
           >
-            <span class="font-mono text-xs text-stone-400 flex items-center gap-1">
+            <span class="font-sans text-xs text-stone-400 flex items-center gap-1">
               다음 위클리
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </span>
-            <span class="font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
+            <span class="max-w-full font-medium text-sm text-stone-600 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-stone-100 transition-colors truncate">
               {next.data.title.replace('위클리 리포트 - ', '')}
             </span>
           </a>
