@@ -1,0 +1,54 @@
+{
+  "baseline": "055b7cf",
+  "candidate": "3fd25a2a79e1b3c68d3652eeb992a7decb4f9c65",
+  "modelRequested": "gemini-flash-latest",
+  "startedAt": "2026-09-26T07:00:26.375209+00:00",
+  "results": [
+    {
+      "case": "daily-2026-09-25",
+      "variant": "before",
+      "modelVersion": "gemini-3.8-flash",
+      "status": "pass"
+    },
+    {
+      "case": "daily-2026-09-25",
+      "variant": "after",
+      "status": "pass"
+    },
+    {
+      "case": "daily-2026-09-24",
+      "variant": "before",
+      "modelVersion": "gemini-3.8-flash",
+      "status": "pass"
+    },
+    {
+      "case": "daily-2026-09-24",
+      "variant": "after",
+      "status": "pass"
+    },
+    {
+      "case": "daily-2026-09-10",
+      "variant": "before",
+      "modelVersion": "gemini-3.8-flash",
+      "status": "pass"
+    },
+    {
+      "case": "daily-2026-09-10",
+      "variant": "after",
+      "status": "pass"
+    },
+    {
+      "case": "weekly-2026-W39",
+      "variant": "before",
+      "modelVersion": "gemini-3.8-flash",
+      "status": "pass"
+    },
+    {
+      "case": "weekly-2026-W39",
+      "variant": "after",
+      "status": "failed",
+      "errorType": "ValueError",
+      "validationError": "draft failed validation: observations require 해석: and two distinct citations"
+    }
+  ]
+}

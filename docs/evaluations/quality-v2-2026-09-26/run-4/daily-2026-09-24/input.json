@@ -1,0 +1,163 @@
+[
+  {
+    "title": "ROSCon Global 2026 Live Stream",
+    "link": "https://discourse.openrobotics.org/t/roscon-global-2026-live-stream/58340",
+    "summary": "<h1><a class=\"anchor\" href=\"https://discourse.openrobotics.org#p-118357-roscon-global-2026-live-from-toronto-canada-1\" name=\"p-118357-roscon-global-2026-live-from-toronto-canada-1\"></a>ROSCon Global 2026 live from Toronto! <img alt=\":canada:\" class=\"emoji\" height=\"20\" src=\"https://emoji.discourse-cdn.com/noto/canada.png?v=15\" title=\":canada:\" width",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스"
+  },
+  {
+    "title": "Fifteen Years of MoveIt, and the Next Fifteen",
+    "link": "https://discourse.openrobotics.org/t/fifteen-years-of-moveit-and-the-next-fifteen/58349",
+    "summary": "<p>Today we announced that <a href=\"https://www.qualcomm.com/news/releases\" rel=\"noopener nofollow ugc\">PickNik Inc. and Qualcomm Technologies, Inc. are joining forces</a>. Before I go into that, I want to talk about MoveIt, because MoveIt is the reason any of this happened.</p>\n<p>If you have learned about robotic arm manipulation in the past deca",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스"
+  },
+  {
+    "title": "Announcement: rclrs 0.8.0 Release",
+    "link": "https://discourse.openrobotics.org/t/announcement-rclrs-0-8-0-release/58347",
+    "summary": "<p>We’re happy to announce the release of <code>rclrs</code> v0.8.0!</p>\n<p>Continuing our proud tradition of Conference-Driven Development (CDD), this release arrives just in time for ROSCon Global 2026 ( <a class=\"inline-onebox\" href=\"https://roscon.ros.org/2026/\">Making sure you're not a bot!</a> ) in Toronto.</p>\n<p>If you are at ROSCon, do not",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스"
+  },
+  {
+    "title": "ROSCon Toronto FollowUp: Kubernetes/KubeEdge with ROS 2",
+    "link": "https://discourse.openrobotics.org/t/roscon-toronto-followup-kubernetes-kubeedge-with-ros-2/58350",
+    "summary": "<p>Hi All</p>\n<p>those who joined the k8s/kubeedge with ROS 2 meetup at ROSCon Toronto, here is the thread that we follow up more information.<br />\nplease subscribe this thread so that you will not miss the notification.</p>\n<p>as we mentioned, let’s follow up more details about this topic after ROSCon.<br />\ni will send the online meeting once i ",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스"
+  },
+  {
+    "title": "Orbital space robotics with ROS2 & Isaac Sim",
+    "link": "https://discourse.openrobotics.org/t/orbital-space-robotics-with-ros2-isaac-sim/58342",
+    "summary": "<p>I want to show off my work for a NASA proposal / USSF contract. (Approved for public release). I utilized Isaac Sim 5.1 and ROS2 Jazzy for avionics and orbit dynamics.</p>\n<p>I work for a satelite company, and we submitted our proposal to NASA, phase 2 will hopefully implement agentic ROS for this project. This is the first project that I know o",
+    "source": "ROS2 Discourse",
+    "section_hint": "로보틱스"
+  },
+  {
+    "title": "Two years of OpenAI Academy",
+    "link": "https://openai.com/index/two-years-of-openai-academy",
+    "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+    "source": "OpenAI News",
+    "section_hint": "AI"
+  },
+  {
+    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+    "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+    "source": "OpenAI News",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Sam Altman’s remarks at the United Nations Security Council",
+    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "source": "OpenAI News",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Advancing Private AI Compute with secure, server-side memory",
+    "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+    "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+    "source": "Google DeepMind",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Gemini 3.8 text-to-speech says hello",
+    "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Gemini 3.8 TTS Playground",
+    "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p>\n        <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <co",
+    "source": "Simon Willison",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Shadow roots, explained with live examples",
+    "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p>\n        <p>Prompt to Fable 5.1 Medium:</p>\n<blockquote>\n<p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwill",
+    "source": "Simon Willison",
+    "section_hint": "AI"
+  },
+  {
+    "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "summary": "<p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p>\nI'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p>\n<p>Think of it as an agentic sh",
+    "source": "Simon Willison",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "summary": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropi",
+    "source": "Simon Willison",
+    "section_hint": "AI"
+  },
+  {
+    "title": "llm 0.36",
+    "link": "https://simonwillison.net/2026/Sep/22/llm/",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p>\n        <blockquote>\n<ul>\n<li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt",
+    "source": "Simon Willison",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49820134\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Linux support is coming to Snapdragon X2 Series",
+    "link": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49823582\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI"
+  },
+  {
+    "title": "VSCode's SSH Agent Is Bananas (2025)",
+    "link": "https://fly.io/blog/vscode-ssh-wtf/",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=49822555\">Comments</a>",
+    "source": "HackerNews",
+    "section_hint": "AI"
+  },
+  {
+    "title": "Ollama v0.34.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+    "summary": "What's Changed server: fix intermittent \"model not found\" errors. by @rick-github in #18438 server: apply structured outputs in a single pass on thinking models by @jessegross in #18479 app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in #18601 llama.cpp: version update by @dhiltgen in #18577 MLX: version bump by @dhiltgen in #18576 mlx: select Gemma 4 image resolution dynamically by @dhiltgen in #18603 mlx: speed up Qwen 3.8 prompt processing by @dhiltgen in #18550 Full Changelo",
+    "source": "GitHub (Ollama)",
+    "section_hint": "AI"
+  },
+  {
+    "title": "LiteLLM v1.102.1",
+    "link": "https://github.com/BerriAI/litellm/releases/tag/v1.102.1",
+    "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.102.1 Verify usin",
+    "source": "GitHub (LiteLLM)",
+    "section_hint": "AI"
+  },
+  {
+    "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
+    "link": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
+    "summary": "<p>While this is the first intentional step by Arduino into robotics, the company has over 20 years of experience working with robotics developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/\">With the new VENTUNO Q board, Arduino hopes to make robotics development easi",
+    "source": "The Robot Report",
+    "section_hint": "트렌드"
+  },
+  {
+    "title": "Helicon brings automation to high-volume composites manufacturing",
+    "link": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+    "summary": "<p>Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/\">Helicon brings automation to high-volume composites manufacturing</a> appeared first on <a href=\"https://www.t",
+    "source": "The Robot Report",
+    "section_hint": "트렌드"
+  },
+  {
+    "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+    "link": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+    "summary": "<p>At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/\">State of Humanoids keynote brings industry leaders to RoboBusiness</a> appeared first o",
+    "source": "The Robot Report",
+    "section_hint": "트렌드"
+  }
+]

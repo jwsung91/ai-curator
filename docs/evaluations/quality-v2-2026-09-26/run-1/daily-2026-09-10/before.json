@@ -1,0 +1,7 @@
+{
+  "one_sentence_summary": "ROS 2 로깅·저장소 플러그인 개발과 GPT-6 Astra 발표",
+  "cross_insight": "",
+  "section_robotics": "- **rcl_logging_journal**: ROS 2 환경에서 systemd-journald를 로깅 백엔드로 활용할 수 있는 rcl_logging_journal이 개발되었습니다 [2].\n- **Rerun rosbag2 저장소 플러그인**: Rerun 팀이 rosbag2 데이터를 직접 쿼리하고 학습에 활용할 수 있도록 지원하는 실험적 rosbag2 storage plugin을 개발 중이라고 밝혔습니다 [3].\n- **Open Source Safety Consortium**: Polymath Robotics가 창립 멤버로 참여하여 자율 시스템의 코드뿐만 아니라 기본 안전 분석 증거를 공유하는 오픈소스 안전 컨소시엄이 출범했습니다 [5].",
+  "section_devtools": "- **GPT-6 Astra**: OpenAI가 향상된 추론, 컴퓨터 제어(computer use), 문서 작성 및 디자인 판단력을 지원한다고 주장하는 기업 업무용 모델 GPT-6 Astra를 발표했습니다 [6].",
+  "section_industry": "- **Unitree 주가 하락**: 유니트리(Unitree)가 지난달 상하이 증권거래소 상장 시 기록한 660억 달러의 밸류에이션에서 53% 하락했습니다 [14].\n- **Monumental**: Monumental이 대규모 확산이 정체된 건설 현장에서 벽돌 조적 로봇을 운용하며 얻은 경험을 공유했습니다 [13]."
+}

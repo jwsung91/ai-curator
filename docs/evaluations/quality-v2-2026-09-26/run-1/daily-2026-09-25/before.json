@@ -1,0 +1,7 @@
+{
+  "one_sentence_summary": "ros2_unbag 빌드팜 배포와 Ollama v0.34.4 업데이트",
+  "cross_insight": "",
+  "section_robotics": "- **ros2_unbag**: ROS 2 buildfarm을 통한 패키지 배포 개시 [1]\n- **QERRA-v2 Classical**: Webots 시뮬레이션 환경에서 TIAGo 로봇 대상 Layer 1 물리적 안전 반사(QERRA-HSR v0.1) 데모 공개 [2]",
+  "section_devtools": "- **Ollama v0.34.4**: 사고 모델의 구조화된 출력 단일 패스 적용 및 Apple Silicon 기반 Qwen 3.8·Gemma 4 성능 개선 [5]\n- **Gemini 3.8 Live**: Live Avatar 기능을 갖춘 모델 발표 (제목 기반) [3]",
+  "section_industry": "- **IFR**: 전 세계 공장에 500만 대의 산업용 로봇이 배치되었으며 중국이 설치를 주도하고 있다고 보고 [7]\n- **Epson AX6**: 소형 디자인과 노코드 프로그래밍을 지원하는 6축 경량 협동로봇 출시 [9]\n- **Kollmorgen**: 모션 아키텍처 선정 시 단순 사양표 수치 외 시스템의 실제 동작 특성 검토 권고 [8]"
+}

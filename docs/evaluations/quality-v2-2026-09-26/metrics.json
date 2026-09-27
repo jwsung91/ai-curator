@@ -1,0 +1,276 @@
+[
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-10",
+    "variant": "before",
+    "bullets": 6,
+    "citedSources": 6
+  },
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-10",
+    "variant": "after",
+    "bullets": 7,
+    "citedSources": 7,
+    "requests": 4,
+    "validationRetries": 1
+  },
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-24",
+    "variant": "before",
+    "bullets": 12,
+    "citedSources": 14,
+    "modelAndToolSeparate": false,
+    "ordinaryPrereleaseIncluded": false
+  },
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-24",
+    "variant": "after",
+    "bullets": 10,
+    "citedSources": 11,
+    "modelAndToolSeparate": false,
+    "ordinaryPrereleaseIncluded": true,
+    "requests": 5,
+    "validationRetries": 2
+  },
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-25",
+    "variant": "before",
+    "bullets": 7,
+    "citedSources": 7,
+    "motionGuideIncluded": true
+  },
+  {
+    "run": "run-1",
+    "case": "daily-2026-09-25",
+    "variant": "after",
+    "bullets": 6,
+    "citedSources": 6,
+    "motionGuideIncluded": true,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-1",
+    "case": "weekly-2026-W39",
+    "variant": "before",
+    "bullets": 15,
+    "citedSources": 17,
+    "isaacFeatureArticleCited": false,
+    "sdkCollectionDateUsed": false
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-10",
+    "variant": "before",
+    "bullets": 9,
+    "citedSources": 9
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-10",
+    "variant": "after",
+    "bullets": 7,
+    "citedSources": 7,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-24",
+    "variant": "before",
+    "bullets": 11,
+    "citedSources": 12,
+    "modelAndToolSeparate": false,
+    "ordinaryPrereleaseIncluded": false
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-24",
+    "variant": "after",
+    "bullets": 10,
+    "citedSources": 10,
+    "modelAndToolSeparate": true,
+    "ordinaryPrereleaseIncluded": false,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-25",
+    "variant": "before",
+    "bullets": 6,
+    "citedSources": 6,
+    "motionGuideIncluded": false
+  },
+  {
+    "run": "run-2",
+    "case": "daily-2026-09-25",
+    "variant": "after",
+    "bullets": 6,
+    "citedSources": 6,
+    "motionGuideIncluded": false,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-2",
+    "case": "weekly-2026-W39",
+    "variant": "before",
+    "bullets": 15,
+    "citedSources": 17,
+    "isaacFeatureArticleCited": false,
+    "sdkCollectionDateUsed": false
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-10",
+    "variant": "before",
+    "bullets": 9,
+    "citedSources": 9
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-10",
+    "variant": "after",
+    "bullets": 9,
+    "citedSources": 9,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-24",
+    "variant": "before",
+    "bullets": 11,
+    "citedSources": 12,
+    "modelAndToolSeparate": false,
+    "ordinaryPrereleaseIncluded": false
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-24",
+    "variant": "after",
+    "bullets": 13,
+    "citedSources": 13,
+    "modelAndToolSeparate": true,
+    "ordinaryPrereleaseIncluded": false,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-25",
+    "variant": "before",
+    "bullets": 6,
+    "citedSources": 6,
+    "motionGuideIncluded": false
+  },
+  {
+    "run": "run-3",
+    "case": "daily-2026-09-25",
+    "variant": "after",
+    "bullets": 7,
+    "citedSources": 7,
+    "motionGuideIncluded": true,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-3",
+    "case": "weekly-2026-W39",
+    "variant": "before",
+    "bullets": 15,
+    "citedSources": 18,
+    "isaacFeatureArticleCited": false,
+    "sdkCollectionDateUsed": false
+  },
+  {
+    "run": "run-3",
+    "case": "weekly-2026-W39",
+    "variant": "after",
+    "bullets": 25,
+    "citedSources": 33,
+    "isaacFeatureArticleCited": true,
+    "sdkCollectionDateUsed": false,
+    "requests": 4,
+    "validationRetries": 1
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-10",
+    "variant": "before",
+    "bullets": 8,
+    "citedSources": 8
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-10",
+    "variant": "after",
+    "bullets": 8,
+    "citedSources": 8,
+    "requests": 4,
+    "validationRetries": 1
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-24",
+    "variant": "before",
+    "bullets": 11,
+    "citedSources": 12,
+    "modelAndToolSeparate": false,
+    "ordinaryPrereleaseIncluded": false
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-24",
+    "variant": "after",
+    "bullets": 11,
+    "citedSources": 11,
+    "modelAndToolSeparate": true,
+    "ordinaryPrereleaseIncluded": false,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-25",
+    "variant": "before",
+    "bullets": 6,
+    "citedSources": 6,
+    "motionGuideIncluded": false
+  },
+  {
+    "run": "run-4",
+    "case": "daily-2026-09-25",
+    "variant": "after",
+    "bullets": 7,
+    "citedSources": 7,
+    "motionGuideIncluded": true,
+    "requests": 3,
+    "validationRetries": 0
+  },
+  {
+    "run": "run-4",
+    "case": "weekly-2026-W39",
+    "variant": "before",
+    "bullets": 15,
+    "citedSources": 17,
+    "isaacFeatureArticleCited": false,
+    "sdkCollectionDateUsed": false
+  },
+  {
+    "run": "run-4",
+    "case": "weekly-2026-W39",
+    "variant": "after",
+    "bullets": 30,
+    "citedSources": 33,
+    "isaacFeatureArticleCited": true,
+    "sdkCollectionDateUsed": false,
+    "requests": 3,
+    "validationRetries": 0
+  }
+]

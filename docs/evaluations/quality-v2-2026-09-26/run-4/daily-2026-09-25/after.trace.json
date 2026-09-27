@@ -1,0 +1,83 @@
+[
+  {
+    "stage": "plan",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 11.12,
+    "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"ros2_unbag 빌드팜 배포\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"ROS 2 공식 빌드팜을 통해 ros2_unbag 도구를 직접 설치하고 활용할 수 있게 되어 패키지 배포 및 관리 편의성을 제공합니다.\",\n      \"source_ids\": [1],\n      \"facts\": [\n        {\n          \"source_id\": 1,\n          \"statement\": \"ros2_unbag 패키지가 ROS 2 빌드팜을 통해 제공되기 시작함.\",\n          \"quote\": \"Ros2_unbag is now available via the ROS 2 buildfarm\"\n        }\n      ]\n    },\n    {\n      \"title\": \"TIAGo 기반 복합 물리적 안전 반사 레이어 시뮬레이션 데모 (QERRA-v2 Classical)\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"Webots 시뮬레이터 환경에서 TIAGo 로봇을 대상으로 한 결정론적 물리 안전 반사 계층(Layer 1, QERRA-HSR v0.1)의 구현 방식을 확인할 수 있습니다.\",\n      \"source_ids\": [2],\n      \"facts\": [\n        {\n          \"source_id\": 2,\n          \"statement\": \"QERRA-v2 Classical 연구의 물리적 안전 반사 계층(Layer 1, QERRA-HSR v0.1)을 다루는 Webots 시뮬레이션 데모 6이 공개됨.\",\n          \"quote\": \"focusing on Layer 1 (the physical safety reflex, QERRA-HSR v0.1 )\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Live Avatar 기능 포함 Gemini 3.8 Live 소개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"실시간 아바타 기능을 결합한 신규 멀티모달 모델 공개 소식을 파악할 수 있습니다.\",\n      \"source_ids\": [3],\n      \"facts\": [\n        {\n          \"source_id\": 3,\n          \"statement\": \"Google DeepMind가 Live Avatar 기능이 포함된 Gemini 3.8 Live를 소개함 (제목 기반).\",\n          \"quote\": \"Introducing Gemini 3.8 Live with Live Avatar\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Ollama v0.34.4 릴리스\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"사고형 모델의 구조화된 출력 처리 단일 패스 적용, Apple Silicon 환경에서의 프롬프트 처리 및 해상도 최적화 등 성능 및 안정성 개선 사항을 제공합니다.\",\n      \"source_ids\": [5],\n      \"facts\": [\n        {\n          \"source_id\": 5,\n          \"statement\": \"사고형 모델(thinking models)의 구조화된 출력이 단일 패스로 적용되어 속도와 신뢰성이 향상됨.\",\n          \"quote\": \"Structured outputs on thinking models now apply in a single pass\"\n        },\n        {\n          \"source_id\": 5,\n          \"statement\": \"Apple Silicon 환경에서 Qwen 3.8 프롬프트 처리가 가속화되고, Gemma 4의 고해상도 이미지 처리 최적화가 적용됨.\",\n          \"quote\": \"Qwen 3.8 prompt processing is faster on Apple Silicon\"\n        }\n      ]\n    },\n    {\n      \"title\": \"IFR 보고서: 전 세계 공장 내 산업용 로봇 운용 대수 500만 대 도달\",\n      \"section\": \"section_industry\",\n      \"reason\": \"국제 로봇 연맹(IFR)의 최신 통계를 바탕으로 전 세계 공장의 자동화 보급 규모와 주요 국가별 설치 동향을 파악할 수 있습니다.\",\n      \"source_ids\": [7],\n      \"facts\": [\n        {\n          \"source_id\": 7,\n          \"statement\": \"IFR 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇 수가 500만 대에 달하며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 나타남.\",\n          \"quote\": \"5 million robots are now at work in factories worldwide, reports the IFR\"\n        }\n      ]\n    },\n    {\n      \"title\": \"모션 아키텍처 선정 시 전체 시스템 거동 분석의 중요성 해설\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"로봇 및 자동화 기계의 모션 시스템을 설계할 때 단순 사양서 수치 확인을 넘어 실제 사용 시 전체 시스템 거동을 분석하는 설계 판단 기준을 제공합니다.\",\n      \"source_ids\": [8],\n      \"facts\": [\n        {\n          \"source_id\": 8,\n          \"statement\": \"Kollmorgen에 따르면 적절한 모션 아키텍처를 선택하기 위해서는 단순 사양표를 넘어 실제 사용 환경에서 전체 시스템이 어떻게 동작하는지 이해해야 함.\",\n          \"quote\": \"Choosing the right motion architecture is about understanding how the entire system will behave in use\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Epson, 경량 6축 협동로봇 AX6 발표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"경량 힘 및 동력 제한 설계와 노코드 프로그래밍을 지원하는 상용 협동로봇 신제품 정보를 확인할 수 있습니다.\",\n      \"source_ids\": [9],\n      \"facts\": [\n        {\n          \"source_id\": 9,\n          \"statement\": \"Epson Robots가 경량 힘 및 동력 제한 암인 6축 협동로봇 AX6를 출시하여 라인업을 확장함.\",\n          \"quote\": \"Epson Robots has expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 4,\n      \"reason\": \"LLM을 활용한 고문헌 및 연금술 기록 분석 사례로, 개발 도구 및 로보틱스 기술과의 관련성이 낮고 본문 근거가 제목 외에 부족함.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"학생 대상 휴대용 교육 플랫폼 제작 소식으로 로보틱스 및 AI 개발·운영 관련 핵심 기술 정보가 부족함.\"\n    }\n  ]\n}",
+    "promptSha256": "fb22b29f7d9e7caa49f39f082c3f52034f19fd4f668524563adce941ce55f3fc",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1502,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3446,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3446
+        }
+      ],
+      "thoughts_token_count": 1559,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 6507,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "draft",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 2.27,
+    "raw": "{\n  \"one_sentence_summary\": \"ros2_unbag의 빌드팜 배포와 TIAGo 기반 물리 안전 계층 시뮬레이션 데모가 공개되고, Ollama v0.34.4 릴리스 및 Epson AX6 협동로봇 출시 소식이 전해졌습니다.\",\n  \"cross_insight\": \"\",\n  \"section_robotics\": \"- **ros2_unbag 빌드팜 배포**: ros2_unbag 패키지가 ROS 2 빌드팜을 통해 공식 제공되기 시작하여 패키지 설치 및 관리 환경이 마련되었습니다 [1].\\n- **TIAGo 기반 복합 물리적 안전 반사 레이어 시뮬레이션 데모 (QERRA-v2 Classical)**: QERRA-v2 Classical 연구에서 물리적 안전 반사 계층(Layer 1, QERRA-HSR v0.1)을 다루는 Webots 시뮬레이션 데모 6이 공개되었습니다 [2].\\n- **모션 아키텍처 선정 시 전체 시스템 거동 분석의 중요성 해설**: Kollmorgen의 기술 해설에 따르면, 적절한 모션 아키텍처를 선택하기 위해서는 단순 사양표 수치 확인을 넘어 실제 사용 환경에서 전체 시스템이 어떻게 동작하는지 분석하고 이해해야 합니다 [8].\",\n  \"section_devtools\": \"- **Google DeepMind, Live Avatar 기능 포함 Gemini 3.8 Live 소개**: Google DeepMind가 Live Avatar 기능이 포함된 Gemini 3.8 Live를 소개했습니다 (제목 기반) [3].\\n- **Ollama v0.34.4 릴리스**: 사고형 모델(thinking models)의 구조화된 출력이 단일 패스로 적용되어 속도와 신뢰성을 높였으며, Apple Silicon 환경에서 Qwen 3.8 프롬프트 처리 가속 및 Gemma 4의 고해상도 이미지 처리 최적화가 적용되었습니다 [5].\",\n  \"section_industry\": \"- **IFR 보고서: 전 세계 공장 내 산업용 로봇 운용 대수 500만 대 도달**: 국제 로봇 연맹(IFR) 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇 수가 500만 대에 도달했으며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 나타났습니다 [7].\\n- **Epson, 경량 6축 협동로봇 AX6 발표**: Epson Robots가 경량 힘 및 동력 제한 암 형태의 6축 협동로봇 AX6를 출시하여 라인업을 확장했습니다 [9].\"\n}",
+    "promptSha256": "f579549a259212fbf923aa8403404e6b2d341be73769d29ad5f010fe4e668053",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 575,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3050,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3050
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 3625,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "review",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 6.63,
+    "raw": "{\n  \"verified\": true,\n  \"findings\": [\n    \"Gemini 3.8 Live 항목의 본문 근거 부재에 따른 (제목 기반) 표기 준수 확인\",\n    \"ros2_unbag 항목의 원문 표현에 맞추어 과도한 수식 없이 빌드팜 등록 사실 위주로 정제\",\n    \"근거 간 인위적인 인과 연결을 배제하고 cross_insight를 빈 문자열로 유지\"\n  ],\n  \"removed_entries\": [],\n  \"report\": {\n    \"one_sentence_summary\": \"ros2_unbag의 빌드팜 배포와 TIAGo 물리 안전 반사 데모가 공개되고, Ollama v0.34.4 릴리스 및 IFR의 글로벌 로봇 가동 현황 보고가 발표되었습니다.\",\n    \"cross_insight\": \"\",\n    \"section_robotics\": \"- **ros2_unbag 빌드팜 배포**: ros2_unbag 패키지가 ROS 2 빌드팜을 통해 제공되기 시작했습니다 [1].\\n- **TIAGo 기반 복합 물리적 안전 반사 레이어 시뮬레이션 데모 (QERRA-v2 Classical)**: QERRA-v2 Classical 연구에서 물리적 안전 반사 계층(Layer 1, QERRA-HSR v0.1)을 다루는 Webots 시뮬레이션 데모 6이 공개되었습니다 [2].\\n- **모션 아키텍처 선정 시 전체 시스템 거동 분석의 중요성 해설**: Kollmorgen의 해설에 따르면, 적절한 모션 아키텍처를 선택하기 위해서는 단순 사양표 확인을 넘어 실제 사용 환경에서 전체 시스템이 어떻게 동작하는지 이해해야 합니다 [8].\",\n    \"section_devtools\": \"- **Google DeepMind, Live Avatar 기능 포함 Gemini 3.8 Live 소개**: Google DeepMind가 Live Avatar 기능을 포함한 Gemini 3.8 Live를 소개했습니다 (제목 기반) [3].\\n- **Ollama v0.34.4 릴리스**: 사고형 모델(thinking models)의 구조화된 출력이 단일 패스로 적용되어 속도와 신뢰성을 높였으며, Apple Silicon 환경에서 Qwen 3.8 프롬프트 처리 가속 및 Gemma 4의 고해상도 이미지 처리 최적화가 적용되었습니다 [5].\",\n    \"section_industry\": \"- **IFR 보고서: 전 세계 공장 내 산업용 로봇 운용 대수 500만 대 도달**: 국제 로봇 연맹(IFR) 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇 수가 500만 대에 도달했으며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 나타났습니다 [7].\\n- **Epson, 경량 6축 협동로봇 AX6 발표**: Epson Robots가 경량 힘 및 동력 제한 암인 6축 협동로봇 AX6를 발표하며 제품 라인업을 확장했습니다 [9].\"\n  }\n}",
+    "promptSha256": "b0168b073d26b4980279fbf7fcbe75f28d5ddec75eb767c7ed4f447539bf6830",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 676,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 5243,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5243
+        }
+      ],
+      "thoughts_token_count": 1242,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 7161,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  }
+]

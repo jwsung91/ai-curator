@@ -1,0 +1,7 @@
+{
+  "one_sentence_summary": "rclrs 0.8.0 릴리스와 PickNik-퀄컴 제휴 및 AI 도구 업데이트",
+  "cross_insight": "",
+  "section_robotics": "- **rclrs 0.8.0 릴리스**: ROSCon Global 2026 시점에 맞춰 ROS 2 Rust 클라이언트 라이브러리 rclrs v0.8.0이 릴리스되었습니다 [3].\n- **PickNik과 Qualcomm Technologies 제휴 발표**: PickNik Inc.와 Qualcomm Technologies, Inc.가 로봇 매니퓰레이션 프레임워크인 MoveIt 관련 협력을 위해 제휴를 발표했습니다 [2].\n- **ROS 2 및 Isaac Sim 활용 우주 로보틱스 프로젝트**: Isaac Sim 5.1과 ROS 2 Jazzy를 항공전자 및 궤도 동역학 시뮬레이션에 활용한 위성 프로젝트 사례가 공개되었습니다 [5].",
+  "section_devtools": "- **LiteLLM v1.102.1 릴리스**: cosign을 사용해 서명된 Docker 이미지를 검증할 수 있는 가이드와 함께 v1.102.1 버전이 배포되었습니다 [20].\n- **Google Gemini 3.8 TTS 모델 출시**: gemini-3.8-flash-tts 등 신규 텍스트-음성 변환(TTS) 모델이 출시되고 관련 플레이그라운드가 공유되었습니다 [10, 11].\n- **llm 0.36 릴리스**: OpenAI의 gpt-6-sol 및 gpt-6-luna 모델 지원이 추가된 llm 0.36 버전이 출시되었습니다 [15].\n- **Google DeepMind Private AI Compute**: 개인용 AI 환경을 위해 Private AI Compute에 서버 측 보안 메모리 기능이 도입되었습니다 [9].\n- **Snapdragon X2 시리즈 Linux 지원 예정**: (제목 기반) Qualcomm의 Snapdragon X2 시리즈에 Linux 지원이 제공될 예정입니다 [17].",
+  "section_industry": "- **Arduino VENTUNO Q 보드 발표**: Arduino가 로보틱스 개발을 지원하기 위한 신규 VENTUNO Q 보드를 선보였습니다 [21].\n- **Helicon, 복합재 제조 자동화 시드 투자 유치**: 복합재 제조 리드 타임 단축을 목표로 자동화 솔루션을 개발하는 Helicon이 시드 투자를 유치했습니다 [22].\n- **OpenAI, 우크라이나 민간 인프라 사이버 방어 지원**: OpenAI가 민간 인프라의 사이버 방어를 지원하기 위해 Daybreak 프로그램에 대한 접근 권한을 우크라이나 정부에 제공합니다 [7]."
+}

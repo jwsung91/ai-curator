@@ -1,0 +1,7 @@
+{
+  "one_sentence_summary": "ROS 2 RRD 스토리지 플러그인과 OpenAI GPT-6 Astra 발표",
+  "cross_insight": "",
+  "section_robotics": "- **RRD rosbag2 플러그인**: Rerun이 rosbag2 데이터에서 직접 쿼리와 학습을 수행할 수 있도록 지원하는 실험적 RRD 스토리지 플러그인을 공개함 [3]\n- **rcl_logging_journal**: ROS 2 환경을 위한 systemd-journald 기반의 새로운 대체 로깅 백엔드가 개발되어 공개됨 [2]\n- **Open Source Safety Consortium**: Polymath Robotics를 창립 멤버로 하여 단순 코드 공유를 넘어 안전성 분석 근거를 공유하는 오픈소스 안전 컨소시엄이 출범함 [5]\n- **ROS PMC**: 9월 8일 위원회 회의 결과에 따라 ROS 프로젝트 관리 위원회(PMC)에 신규 위원 3명이 추가됨 [1]",
+  "section_devtools": "- **GPT-6 Astra**: OpenAI가 향상된 추론 능력과 컴퓨터 제어 기능, 문서 작성 및 디자인 판단력을 갖추었다고 주장하는 업무용 모델 GPT-6 Astra를 발표함 [6]\n- **OpenAI 미공개 모델의 나비에-스톡스 연구**: OpenAI가 미공개 모델을 활용해 밀레니엄 난제인 나비에-스톡스 존재성 및 매끄러움 문제의 해결 결과를 제시했다고 전해짐 [8]",
+  "section_industry": "- **Unitree**: 지난달 상하이 증권거래소 상장 당시 660억 달러의 기업 가치를 기록했던 유니트리의 주가가 데뷔 시점 대비 53% 하락함 [14]\n- **Monumental**: 대규모 도입이 지연되고 있는 건설 로봇 분야에서 벽돌 쌓기 로봇을 개발하며 얻은 실무 교훈을 공유함 [13]"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "stage": "plan",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 7.62,
+    "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"PickNik과 Qualcomm, 로봇 매니퓰레이션 분야 협력 발표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"MoveIt 기반 매니퓰레이션 기술을 이끄는 PickNik과 Qualcomm의 산업 파트너십 소식으로 독자에게 중요한 산업 동향입니다.\",\n      \"source_ids\": [2],\n      \"facts\": [\n        {\n          \"source_id\": 2,\n          \"statement\": \"PickNik과 Qualcomm Technologies는 협력 관계를 구축한다고 발표했다.\",\n          \"quote\": \"PickNik Inc. and Qualcomm Technologies, Inc. are joining forces\"\n        }\n      ]\n    },\n    {\n      \"title\": \"rclrs 0.8.0 릴리스\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"ROS 2 Rust 클라이언트 라이브러리의 신규 버전 릴리스 소식으로 ROS 개발자에게 유용합니다.\",\n      \"source_ids\": [3],\n      \"facts\": [\n        {\n          \"source_id\": 3,\n          \"statement\": \"ROS 2 클라이언트 라이브러리 rclrs v0.8.0이 릴리스되었다.\",\n          \"quote\": \"release of rclrs v0.8.0\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Isaac Sim 5.1 및 ROS 2 Jazzy를 활용한 궤도 우주 로보틱스 프로젝트\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"NASA 제안서 및 USSF 계약을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 구체적인 우주 항공/궤도 동역학 구현 사례입니다.\",\n      \"source_ids\": [5],\n      \"facts\": [\n        {\n          \"source_id\": 5,\n          \"statement\": \"NASA 제안서 및 USSF 계약 프로젝트에서 항공 전자공학과 궤도 역학을 다루기 위해 Isaac Sim 5.1과 ROS 2 Jazzy가 사용되었다.\",\n          \"quote\": \"utilized Isaac Sim 5.1 and ROS2 Jazzy for avionics and orbit dynamics\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OpenAI, 우크라이나 민간 방어를 위해 Daybreak 프로그램 지원 확대\",\n      \"section\": \"section_industry\",\n      \"reason\": \"AI 기술의 사이버 안보 및 정부 인프라 지원 정책에 대한 구체적인 산업 뉴스입니다.\",\n      \"source_ids\": [7],\n      \"facts\": [\n        {\n          \"source_id\": 7,\n          \"statement\": \"OpenAI는 민간 인프라의 사이버 방어를 지원하기 위해 우크라이나 정부에 Daybreak 프로그램에 대한 접근 권한을 확장한다.\",\n          \"quote\": \"extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Private AI Compute를 위한 서버 사이드 보안 메모리 도입\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"개인용 AI를 위한 서버 사이드 보안 메모리 도입 및 프라이빗 AI 연산 기술에 관한 발표입니다.\",\n      \"source_ids\": [9],\n      \"facts\": [\n        {\n          \"source_id\": 9,\n          \"statement\": \"개인용 AI를 위해 Private AI Compute에 비공개 서버 측 메모리가 도입되었다.\",\n          \"quote\": \"private, server-side memory to Private AI Compute for personal AI\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Gemini 3.8 Text-to-Speech 발표\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"새로운 Gemini 기반 TTS 음성 모델의 공식 발표입니다.\",\n      \"source_ids\": [10],\n      \"facts\": [\n        {\n          \"source_id\": 10,\n          \"statement\": \"Gemini 3.8 text-to-speech 모델이 공개되었다 (제목 기반).\",\n          \"quote\": \"Gemini 3.8 text-to-speech says hello\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Simon Willison, Gemini 3.8 TTS Playground 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"gemini-3.8-flash-tts 등 구글 신규 모델을 테스트할 수 있는 제3자 도구에 대한 정보입니다.\",\n      \"source_ids\": [11],\n      \"facts\": [\n        {\n          \"source_id\": 11,\n          \"statement\": \"gemini-3.8-flash-tts 등 신규 음성 모델을 테스트할 수 있는 Gemini 3.8 TTS Playground 도구가 제공된다.\",\n          \"quote\": \"Tool: Gemini 3.8 TTS Playground\"\n        }\n      ]\n    },\n    {\n      \"title\": \"llm 0.36 릴리스, GPT-6 Sol 및 Luna 모델 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"llm 도구 릴리스에서 신규 모델(gpt-6-sol, gpt-6-luna) 지원을 추가한 개발 소식입니다.\",\n      \"source_ids\": [15],\n      \"facts\": [\n        {\n          \"source_id\": 15,\n          \"statement\": \"llm 0.36 릴리스에 OpenAI의 신규 모델 gpt-6-sol 및 gpt-6-luna 지원이 추가되었다.\",\n          \"quote\": \"New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for\"\n        }\n      ]\n    },\n    {\n      \"title\": \"LiteLLM v1.102.1 릴리스 및 Docker 이미지 cosign 서명\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"LiteLLM의 릴리스와 배포판 Docker 이미지에 대한 cosign 검증 세부 정보를 안내합니다.\",\n      \"source_ids\": [20],\n      \"facts\": [\n        {\n          \"source_id\": 20,\n          \"statement\": \"모든 LiteLLM Docker 이미지는 cosign을 통해 서명되며 고정된 커밋 해시 키를 사용해 검증할 수 있다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Arduino, 로봇 개발 지원을 위한 신규 VENTUNO Q 보드 발표\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"아두이노가 로보틱스 개발을 간소화하기 위해 출시한 새로운 하드웨어 보드 관련 소식입니다.\",\n      \"source_ids\": [21],\n      \"facts\": [\n        {\n          \"source_id\": 21,\n          \"statement\": \"Arduino가 로보틱스 개발을 쉽게 만들기 위해 새로운 VENTUNO Q 보드를 선보였다.\",\n          \"quote\": \"new VENTUNO Q board, Arduino hopes to make robotics development easier\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Helicon, 복합재 제조 자동화를 위한 시드 투자 유치\",\n      \"section\": \"section_industry\",\n      \"reason\": \"복합재 제조 리드 타임 단축을 위한 자동화 기술 스타트업의 투자 소식입니다.\",\n      \"source_ids\": [22],\n      \"facts\": [\n        {\n          \"source_id\": 22,\n          \"statement\": \"Helicon은 복합재 제조 리드 타임을 몇 개월에서 몇 주로 단축하기 위해 자동화 기술 적용 시드 투자를 유치했다.\",\n          \"quote\": \"obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 1,\n      \"reason\": \"단순 행사 라이브 스트리밍 안내(ROSCon Global 2026 Live Stream)로 기술 개발이나 배포 내용이 없습니다.\"\n    },\n    {\n      \"source_id\": 4,\n      \"reason\": \"ROSCon 밋업 참석자 대상 후속 스레드 등록 안내로 구체적인 기술 명세나 내용이 부족합니다.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"OpenAI Academy 프로그램의 2주년 기념 일반 홍보 소식으로 개발·기술적 가치가 부족합니다.\"\n    },\n    {\n      \"source_id\": 8,\n      \"reason\": \"CEO의 UN 연설에 관한 일반 외교·정책 발언 소식으로 인물 중심 소식에 해당합니다.\"\n    },\n    {\n      \"source_id\": 12,\n      \"reason\": \"Fable 5.1을 사용해 작성된 Shadow roots 프론트엔드 개념 설명 예제로 로보틱스/AI 엔지니어링 범위를 벗어납니다.\"\n    },\n    {\n      \"source_id\": 13,\n      \"reason\": \"샌프란시스코에서 열리는 저녁 밋업 행사 안내 소식입니다.\"\n    },\n    {\n      \"source_id\": 14,\n      \"reason\": \"다양한 모델 출시에 대한 짧은 소견 글이며 구체적인 기술 세부정보가 본문에 부족합니다.\"\n    },\n    {\n      \"source_id\": 16,\n      \"reason\": \"본문 근거가 전혀 없는 제목 전용(title_only) 학술 발견 소식입니다.\"\n    },\n    {\n      \"source_id\": 17,\n      \"reason\": \"본문 내용이 없는 제목 전용(title_only) 지원 예고 기사입니다.\"\n    },\n    {\n      \"source_id\": 18,\n      \"reason\": \"본문 내용이 없는 제목 전용(title_only) 링크 기사입니다.\"\n    },\n    {\n      \"source_id\": 19,\n      \"reason\": \"릴리스 태그 v0.34.4-rc0으로 프리릴리스(prerelease: true)이며 중요한 호환성 파괴 변경 예고가 아닙니다.\"\n    },\n    {\n      \"source_id\": 23,\n      \"reason\": \"RoboBusiness 컨퍼런스 키노트 세션 홍보 및 일반 행사 안내 소식입니다.\"\n    }\n  ]\n}",
+    "promptSha256": "d62aa91c79675abc6e4070922fc3fc20f8b4b2567db300c0b72a2cfa88513b88",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2431,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 5678,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5678
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 8109,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "draft",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 2.64,
+    "raw": "{\n  \"one_sentence_summary\": \"ROS 2 클라이언트 라이브러리 rclrs 0.8.0 릴리스와 Isaac Sim 5.1 기반 우주 로보틱스 사례, Gemini 3.8 TTS 모델 및 LiteLLM·llm 도구 업데이트가 공개되었습니다.\",\n  \"cross_insight\": \"\",\n  \"section_robotics\": \"- **rclrs v0.8.0 릴리스**: ROS 2 Rust 클라이언트 라이브러리 rclrs의 v0.8.0 버전이 릴리스되었습니다 [3].\\n- **Isaac Sim 5.1 및 ROS 2 Jazzy 기반 궤도 우주 로보틱스 적용 사례**: NASA 제안서 및 USSF 계약 프로젝트의 항공 전자공학 및 궤도 역학 시뮬레이션에 Isaac Sim 5.1과 ROS 2 Jazzy가 사용되었습니다 [5].\\n- **Arduino, 로봇 개발 지원을 위한 VENTUNO Q 보드 발표**: 로보틱스 개발을 쉽게 만들기 위한 하드웨어로 VENTUNO Q 보드가 공개되었습니다 [21].\",\n  \"section_devtools\": \"- **Google DeepMind, Private AI Compute 보안 메모리 도입**: 개인용 AI 연산을 위해 Private AI Compute에 비공개 서버 측 메모리가 도입되었습니다 [9].\\n- **Google DeepMind, Gemini 3.8 Text-to-Speech 공개 (제목 기반)**: 새로운 Gemini 3.8 text-to-speech 모델이 공개되었습니다 [10].\\n- **Simon Willison, Gemini 3.8 TTS Playground 공개**: gemini-3.8-flash-tts 등 구글 신규 음성 모델을 테스트할 수 있는 제3자 도구인 Gemini 3.8 TTS Playground가 제공됩니다 [11].\\n- **llm 0.36 릴리스**: OpenAI의 신규 모델 gpt-6-sol 및 gpt-6-luna에 대한 지원이 추가되었습니다 [15].\\n- **LiteLLM v1.102.1 Docker 이미지 cosign 서명 배포**: 모든 LiteLLM Docker 이미지는 cosign을 통해 서명되며 고정된 커밋 해시 키로 무결성을 검증할 수 있습니다 [20].\",\n  \"section_industry\": \"- **PickNik과 Qualcomm Technologies, 협력 발표**: PickNik Inc.와 Qualcomm Technologies, Inc.가 로봇 매니퓰레이션 분야에서 협력 관계를 구축한다고 발표했습니다 [2].\\n- **OpenAI, 우크라이나 대상 Daybreak 프로그램 접근 확대**: 민간 인프라의 사이버 방어를 지원하기 위해 우크라이나 정부에 Daybreak 프로그램 접근 권한을 확장합니다 [7].\\n- **Helicon, 복합재 제조 자동화 시드 투자 유치**: 복합재 제조 리드 타임을 몇 개월에서 몇 주로 단축하기 위해 자동화 기술을 적용하는 시드 투자를 유치했습니다 [22].\"\n}",
+    "promptSha256": "7c461e960a8b5fdc557553fd51f104f2e9707436a28a087227f847111a971d1a",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 649,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3767,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3767
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 4416,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "review",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 10.28,
+    "raw": "{\n  \"verified\": true,\n  \"findings\": [\n    \"상대적 시점(오늘, 이번 주 등) 표현 배제 확인\",\n    \"Gemini 3.8 text-to-speech 모델 발표(출처 10)와 제3자 도구인 Gemini 3.8 TTS Playground(출처 11)를 별개 항목으로 분리 유지\",\n    \"제목 전용 출처인 Gemini 3.8 text-to-speech 항목에 (제목 기반) 표기 적용 확인\",\n    \"PickNik과 Qualcomm Technologies의 파트너십 소식을 산업(section_industry) 섹션으로 적절히 분류\",\n    \"프리릴리스(v0.34.4-rc0) 및 단순 밋업·행사 소식 제외 유지\"\n  ],\n  \"removed_entries\": [],\n  \"report\": {\n    \"one_sentence_summary\": \"ROS 2 클라이언트 라이브러리 rclrs 0.8.0 릴리스와 Isaac Sim 5.1 기반 우주 로보틱스 적용 사례, Gemini 3.8 TTS 모델 및 LiteLLM·llm 도구 업데이트가 공개되었습니다.\",\n    \"cross_insight\": \"\",\n    \"section_robotics\": \"- **rclrs v0.8.0 릴리스**: ROS 2 Rust 클라이언트 라이브러리 rclrs의 v0.8.0 버전이 릴리스되었습니다 [3].\\n- **Isaac Sim 5.1 및 ROS 2 Jazzy 기반 우주 로보틱스 적용 사례**: NASA 제안서 및 USSF 계약 프로젝트의 항공 전자공학 및 궤도 역학 시뮬레이션에 Isaac Sim 5.1과 ROS 2 Jazzy가 활용되었습니다 [5].\\n- **Arduino VENTUNO Q 보드 발표**: 로보틱스 개발을 간소화하기 위한 새로운 하드웨어 보드로 VENTUNO Q가 공개되었습니다 [21].\",\n    \"section_devtools\": \"- **Google DeepMind, Private AI Compute 보안 메모리 도입**: 개인용 AI 연산 환경을 위해 Private AI Compute에 비공개 서버 측 메모리(server-side memory)가 도입되었습니다 [9].\\n- **Google DeepMind, Gemini 3.8 Text-to-Speech 발표 (제목 기반)**: 새로운 Gemini 3.8 text-to-speech 음성 모델이 공개되었습니다 [10].\\n- **Simon Willison, Gemini 3.8 TTS Playground 공개**: gemini-3.8-flash-tts 등 신규 음성 모델을 테스트할 수 있는 제3자 도구인 Gemini 3.8 TTS Playground가 제공됩니다 [11].\\n- **llm 0.36 릴리스**: OpenAI의 신규 모델 gpt-6-sol 및 gpt-6-luna에 대한 지원이 추가되었습니다 [15].\\n- **LiteLLM v1.102.1 Docker 이미지 cosign 서명 배포**: 모든 LiteLLM Docker 이미지는 cosign을 통해 서명되며 고정된 커밋 해시 키로 무결성을 검증할 수 있습니다 [20].\",\n    \"section_industry\": \"- **PickNik과 Qualcomm Technologies 파트너십**: MoveIt 기반 로봇 매니퓰레이션 기술을 이끄는 PickNik Inc.와 Qualcomm Technologies, Inc.가 협력 관계를 구축한다고 발표했습니다 [2].\\n- **OpenAI, 우크라이나 대상 Daybreak 프로그램 접근 확대**: 민간 인프라의 사이버 방어를 지원하기 위해 우크라이나 정부에 Daybreak 프로그램 접근 권한을 확장합니다 [7].\\n- **Helicon, 복합재 제조 자동화 시드 투자 유치**: 복합재 제조 리드 타임을 몇 개월에서 몇 주로 단축하기 위해 자동화 기술을 적용하는 시드 투자를 유치했습니다 [22].\"\n  }\n}",
+    "promptSha256": "15458db7648f9b2b9757015f3f5a66f7cc29326b42ec3cc9ae0d4cc3c46cac0a",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 856,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 8266,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 8266
+        }
+      ],
+      "thoughts_token_count": 1782,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10904,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  }
+]

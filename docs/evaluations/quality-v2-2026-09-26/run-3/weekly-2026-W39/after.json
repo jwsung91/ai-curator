@@ -1,0 +1,758 @@
+{
+  "one_sentence_summary": "Isaac ROS 5.0 릴리스와 주요 모델 API 업데이트 및 협동로봇·우주 시뮬레이션 활용 사례가 공개되었습니다.",
+  "weekly_themes": "- 해석: Isaac Sim과 ROS 2 Jazzy 연동 사례 및 Isaac ROS 5.0 릴리스는 로보틱스 개발 전반에서 시뮬레이션과 온로봇 가속 파이프라인의 연계를 보여줍니다 [47, 53]\n- 해석: OpenAI의 GPT-6 계열 모델 출시와 llm CLI의 신속한 전용 모델 플래그 추가는 프론티어 LLM의 로컬 개발 도구 수용 흐름을 나타냅니다 [35, 63]",
+  "section_robotics": "- **Online Camera Calibration**: 체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라 파라미터와 왜곡을 보정할 수 있으며, 이미지 직접 업로드와 ROS bag 지정을 지원하는 웹 도구입니다 [1]\n- **Isaac ROS 5.0**: Isaac ROS Common 5.0.0 및 NITROS 5.0.0 릴리스와 함께 에이전틱 워크플로 및 신규 플랫폼 지원을 도입했습니다 [32, 33, 47, 48]\n- **Isaac ROS cuMotion 가이드**: 매니퓰레이션 환경에서 목표 포즈 도달 시 자가 충돌 방지, 고정 구조물 회피, 신규 관측 장애물 회피를 지원하는 GPU 가속 모션 플래닝 파이프라인 적용 원리를 다룹니다 [31]\n- **rclrs 0.8.0**: 안전한 시스템 프로그래밍 언어인 Rust 기반의 공식 ROS 2 클라이언트 라이브러리 v0.8.0이 릴리스되었습니다 [51]\n- **ros2_unbag**: rosbag 데이터 추출 유틸리티인 ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 배포되기 시작했습니다 [72]\n- **신장 결석 수술 계획 ROS 2 프로토타입**: CT 영상(DICOM/NIfTI)의 장기 분할, 결석 후보 검출, 3D 메시 생성부터 PCNL 수술 계획을 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 파이프라인 사례입니다 [20]\n- **궤도 우주 로보틱스 시뮬레이션 사례**: 위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 결합한 연구 프로젝트 구현 내용이 공유되었습니다 [53]\n- **Arduino VENTUNO Q**: 로보틱스 개발을 단순화하기 위해 설계된 새로운 하드웨어 보드 VENTUNO Q가 공개되었습니다 [69]\n- **TIAGo 로봇용 QERRA-v2 Classical 실험**: Webots 시뮬레이터 내 PAL Robotics TIAGo 환경에서 행동 트리의 지시 실행 전 위험을 차단하는 가드와 물리적 충돌 회피 반사 계층(QERRA-HSR v0.1)의 동작을 시연했습니다 [30, 73]",
+  "section_devtools": "- **Ollama v0.34.3 / v0.34.4**: 생각 모델에 대한 구조화 출력(JSON 등) 단일 패스 처리, thinking 제어값 조회 API, Apple Silicon 상의 Qwen 3.8 프롬프트 처리 가속 및 MLX 기반 Nemotron H 비전 모델 지원이 추가되었습니다 [42, 76]\n- **Anthropic Python SDK v1.7.0 / v1.8.0**: claude-opus-5-5 모델 호출, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능 및 도구 압축 최적화(compact_before_next_turn)가 도입되었습니다 [11, 41]\n- **OpenAI GPT-6 프롬프트 캐싱**: 높은 캐시 적중률과 새로운 진단 기능, 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 절감하는 캐싱 제어 기능이 공개되었습니다 [34]\n- **OpenAI GPT-6 Sol 및 Luna**: 일상 업무 환경을 목표로 성능과 비용의 균형을 다르게 맞춘 신규 프론티어 모델 2종이 발표되었습니다 [35]\n- **LiteLLM v1.102.0 / v1.102.1**: 컨테이너 이미지 무결성 검증을 위해 cosign 기반 Docker 이미지 서명 및 고정 커밋 해시 키 검증 절차가 적용되었습니다 [43, 68]\n- **llm CLI 0.36**: 터미널 LLM 도구 llm에서 신규 OpenAI 모델인 gpt-6-sol 및 gpt-6-luna를 직접 지정해 호출할 수 있는 지원이 추가되었습니다 [63]\n- **Google DeepMind Private AI Compute 보안 메모리**: 개인화 AI 처리를 지원하기 위해 Private AI Compute 인프라에 서버 측 보안 메모리 기술을 도입했습니다 [57]\n- **Gemini 3.8 TTS Playground**: Google이 발표한 gemini-3.8-flash-tts 등 2종의 음성 합성 모델을 웹 브라우저에서 직접 시험해볼 수 있는 제3자 대화형 테스트 도구입니다 [59]\n- **TypeSafe AI Jev 모델 및 llm-typesafe**: 의사결정 모델 카테고리를 표방하는 Jev 모델이 공개되었으며, 이를 로컬 CLI에서 호출할 수 있는 llm 플러그인(0.1a0)이 제공됩니다 [24, 37]",
+  "section_industry": "- **PickNik Robotics - Qualcomm Technologies 파트너십**: 로봇 매니퓰레이션 기술 역량 확장을 위한 양사 협력이 발표되었습니다 [50]\n- **Boston Dynamics 메타플랜트 트레이닝 센터**: 조지아주 현대차 메타플랜트 아메리카(HMGMA) 내에 Atlas 인간형 로봇의 현장 공정 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 개소했습니다 [27]\n- **Epson AX6 6축 협동로봇**: 힘·동력 제한 기능을 탑재한 경량 6축 협동로봇 AX6와 노코드 프로그래밍 환경이 공개되었습니다 [80]\n- **Hirebotics 협동로봇 기능 업데이트**: 라인 트래킹 및 리니어 레일 기능을 추가하여 생산 현장에서 협동로봇의 작업 반경과 공정 유연성을 확장했습니다 [15]\n- **IFR 글로벌 산업용 로봇 현황 보고**: 전 세계 제조 공장에서 가동 중인 산업용 로봇이 500만 대를 돌파했으며, 중국이 설치를 주도하고 미국과 독일이 그 뒤를 잇고 있습니다 [78]\n- **Indy Autonomous Challenge 라구나 세카 자율 추월**: Unimore Racing이 우승을 차지하며 대회 역사상 로드 코스 최초의 자율주행 차량 간 추월 기록을 수립했습니다 [26]\n- **Helicon 시드 투자 유치**: 복합재 제조 리드타임을 수개월에서 수주 단위로 단축하기 위한 자동화 솔루션 구축 목적으로 시드 펀딩을 확보했습니다 [70]",
+  "qualityAudit": {
+    "version": 2,
+    "plan": {
+      "entries": [
+        {
+          "title": "Online Camera Calibration: 체커보드 없는 평면 기반 카메라 캘리브레이션 웹 도구",
+          "section": "section_robotics",
+          "reason": "체커보드 등의 특수 타깃 없이 질감이 있는 평면과 ROS bag 또는 이미지만으로 카메라 왜곡 및 파라미터를 보정할 수 있어 현장 보정 작업에 유용합니다.",
+          "source_ids": [
+            1
+          ],
+          "facts": [
+            {
+              "source_id": 1,
+              "statement": "체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라를 보정할 수 있는 온라인 웹 도구가 공개되었으며, 직접 이미지 업로드 또는 ROS bag 지정을 지원합니다.",
+              "quote": "calibrate a camera without a checkerboard or any other custom-made calibration target. All you need is a flat, textured surface."
+            }
+          ]
+        },
+        {
+          "title": "Isaac ROS 5.0 릴리스: 에이전틱 워크플로 및 플랫폼 지원 확장",
+          "section": "section_robotics",
+          "reason": "NVIDIA Isaac ROS의 메이저 5.0 업데이트로 자율 로봇 개발을 위한 에이전틱 워크플로와 공통 라이브러리 및 NITROS 성능 개선 사항을 제공합니다.",
+          "source_ids": [
+            32,
+            33,
+            47,
+            48
+          ],
+          "facts": [
+            {
+              "source_id": 32,
+              "statement": "Isaac ROS Common 5.0.0 버전이 공식 릴리스되었습니다.",
+              "quote": "Release Isaac ROS 5.0"
+            },
+            {
+              "source_id": 33,
+              "statement": "Isaac ROS NITROS 5.0.0 버전이 공식 릴리스되었습니다.",
+              "quote": "Release Isaac ROS 5.0"
+            },
+            {
+              "source_id": 47,
+              "statement": "Isaac ROS 5.0은 개발자가 로보틱스 애플리케이션을 더 빠르게 배포할 수 있도록 새로운 에이전틱 워크플로와 플랫폼 지원을 도입했습니다.",
+              "quote": "brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster."
+            },
+            {
+              "source_id": 48,
+              "statement": "NVIDIA가 에이전틱 및 오픈소스 로보틱스 개발을 진전시키는 Isaac ROS 5.0을 발표했습니다 (제목 기반).",
+              "quote": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development"
+            }
+          ]
+        },
+        {
+          "title": "Isaac ROS cuMotion 기반 충돌 인지 로봇 모션 플래닝 가이드",
+          "section": "section_robotics",
+          "reason": "실제 매니퓰레이션 환경에서 자가 충돌 방지 및 고정·신규 장애물 회피를 지원하는 GPU 가속 cuMotion 계획 파이프라인의 적용 원리를 설명합니다.",
+          "source_ids": [
+            31
+          ],
+          "facts": [
+            {
+              "source_id": 31,
+              "statement": "매니퓰레이션 작업 시 목표 포즈 도달뿐 아니라 자가 충돌, 고정 구조물, 새로 관측된 장애물 등을 고려하는 NVIDIA Isaac ROS cuMotion 모션 플래닝 기법이 소개되었습니다.",
+              "quote": "Getting a robot arm to a target pose is only part of the problem in real-world manipulation. The planner also needs to account for self-collision"
+            }
+          ]
+        },
+        {
+          "title": "rclrs 0.8.0 릴리스: ROS 2 Rust 공식 클라이언트 라이브러리 업데이트",
+          "section": "section_robotics",
+          "reason": "안전한 시스템 프로그래밍 언어인 Rust로 ROS 2 노드를 개발하는 rclrs 프로젝트의 최신 업데이트입니다.",
+          "source_ids": [
+            51
+          ],
+          "facts": [
+            {
+              "source_id": 51,
+              "statement": "ROS 2를 위한 Rust 클라이언트 라이브러리 rclrs v0.8.0이 릴리스되었습니다.",
+              "quote": "We’re happy to announce the release of rclrs v0.8.0!"
+            }
+          ]
+        },
+        {
+          "title": "ros2_unbag: ROS 2 공식 빌드팜 배포 개시",
+          "section": "section_robotics",
+          "reason": "rosbag 데이터 추출 유틸리티를 패키지 관리자를 통해 쉽게 설치하고 파이프라인에 통합할 수 있습니다.",
+          "source_ids": [
+            72
+          ],
+          "facts": [
+            {
+              "source_id": 72,
+              "statement": "ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 제공되기 시작했습니다.",
+              "quote": "Ros2_unbag is now available via the ROS 2 buildfarm"
+            }
+          ]
+        },
+        {
+          "title": "CT 영상 기반 신장 결석 감지 및 PCNL 수술 계획 ROS 2 프로토타입",
+          "section": "section_robotics",
+          "reason": "의료 DICOM/NIfTI 데이터를 ROS 2 시각화와 로봇 시뮬레이션 환경으로 직접 연동하는 파이프라인 구현 사례입니다.",
+          "source_ids": [
+            20
+          ],
+          "facts": [
+            {
+              "source_id": 20,
+              "statement": "CT 스캔에서 장기 분할, 결석 후보 검출, 3D 메시 생성, PCNL 수술 계획을 수행하여 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 프로토타입 파이프라인이 공개되었습니다.",
+              "quote": "connects medical CT imaging to ROS 2 visualization and robot simulation . The pipeline starts from a DICOM / NIfTI CT scan"
+            }
+          ]
+        },
+        {
+          "title": "ROS 2 및 Isaac Sim 기반 궤도 우주 로보틱스 시뮬레이션 사례",
+          "section": "section_robotics",
+          "reason": "항공전자 및 궤도 동역학 검증에 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 우주 로보틱스 프로젝트 사례를 다룹니다.",
+          "source_ids": [
+            53
+          ],
+          "facts": [
+            {
+              "source_id": 53,
+              "statement": "위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 연구 프로젝트 내용이 공유되었습니다.",
+              "quote": "I utilized Isaac Sim 5.1 and ROS2 Jazzy for avionics and orbit dynamics"
+            }
+          ]
+        },
+        {
+          "title": "Arduino VENTUNO Q: 로보틱스 개발 지원 신규 하드웨어 보드 발표",
+          "section": "section_robotics",
+          "reason": "소형 로봇 제어 및 센서 인터페이스 구축에 널리 쓰이는 아두이노 생태계의 전용 로보틱스 보드 출시 소식입니다.",
+          "source_ids": [
+            69
+          ],
+          "facts": [
+            {
+              "source_id": 69,
+              "statement": "Arduino가 로보틱스 개발을 단순화하기 위한 새로운 VENTUNO Q 보드를 공개했습니다.",
+              "quote": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier"
+            }
+          ]
+        },
+        {
+          "title": "TIAGo 로봇용 QERRA-v2 Classical 결정론적 안전 반사 및 도덕 실행 가드레일 실험",
+          "section": "section_robotics",
+          "reason": "Webots 시뮬레이터 환경에서 행동 트리에 텍스트 지시 검증 및 물리적 충돌 회피 반사 계층을 적용한 안전 실험 결과를 다룹니다.",
+          "source_ids": [
+            30,
+            73
+          ],
+          "facts": [
+            {
+              "source_id": 30,
+              "statement": "로봇 행동 트리의 텍스트 지시 실행 전 위험을 차단하는 QERRA-v2 Classical 실행 가드를 PAL Robotics TIAGo 시뮬레이션 환경에서 스트레스 테스트했습니다.",
+              "quote": "evaluating an execution guard for robot Behavior Trees (QERRA-v2 Classical, tested in Webots simulation on a PAL Robotics TIAGo)"
+            },
+            {
+              "source_id": 73,
+              "statement": "QERRA-v2 Classical의 레이어 1 물리적 안전 반사(QERRA-HSR v0.1)를 TIAGo 로봇 Webots 시뮬레이션으로 시연했습니다.",
+              "quote": "simulation demo (Demo 6) from my work on QERRA-v2 Classical, focusing on Layer 1 (the physical safety reflex, QERRA-HSR v0.1 )"
+            }
+          ]
+        },
+        {
+          "title": "Ollama v0.34.3 및 v0.34.4: 생각 모델 구조화 출력 단일 패스 지원 및 Apple Silicon 가속",
+          "section": "section_devtools",
+          "reason": "추론 모델의 think 파라미터 제어, 구조화된 출력(JSON 등) 단일 패스 처리, Apple Silicon 상의 비전 모델 및 처리 속도 최적화가 포함되어 로컬 추론 성능이 개선되었습니다.",
+          "source_ids": [
+            42,
+            76
+          ],
+          "facts": [
+            {
+              "source_id": 42,
+              "statement": "GET /api/show 엔드포인트와 CLI에서 모델의 thinking 제어값 및 기본값을 조회할 수 있게 되었으며, MLX 기반 Nemotron H 비전 모델이 지원됩니다.",
+              "quote": "GET /api/show now advertises each model's thinking controls and default"
+            },
+            {
+              "source_id": 76,
+              "statement": "생각 모델에 대한 구조화 출력을 단일 패스로 적용해 속도와 안정성을 개선했으며, Apple Silicon에서 Qwen 3.8 프롬프트 처리 가속 및 Gemma 4 최적 해상도 동적 선택을 지원합니다.",
+              "quote": "Structured outputs on thinking models now apply in a single pass, making them faster and more reliable."
+            }
+          ]
+        },
+        {
+          "title": "Anthropic Python SDK v1.7.0 및 v1.8.0: Claude Opus 5.5 지원 및 MCP 도구 고정 기능 추가",
+          "section": "section_devtools",
+          "reason": "신규 claude-opus-5-5 모델 호출, 인라인 도구 정의, MCP 도구 목록 고정(베타), 도구 압축 최적화 등 에이전트 개발 기능이 확장되었습니다.",
+          "source_ids": [
+            11,
+            41
+          ],
+          "facts": [
+            {
+              "source_id": 11,
+              "statement": "Anthropic SDK v1.7.0에서 도구 실행기에 compact_before_next_turn()이 추가되었고 속도 제한 API에 group 정보가 추가되었습니다.",
+              "quote": "tools: add compact_before_next_turn() to the tool runner"
+            },
+            {
+              "source_id": 41,
+              "statement": "Anthropic SDK v1.8.0에서 claude-opus-5-5 지원, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능이 추가되었습니다.",
+              "quote": "api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta)"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI GPT-6 프롬프트 캐싱 개선: 명시적 브레이크포인트 및 제어 기능 추가",
+          "section": "section_devtools",
+          "reason": "GPT-6 API 사용 시 높은 캐시 적중률과 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 줄이는 방안을 제시합니다.",
+          "source_ids": [
+            34
+          ],
+          "facts": [
+            {
+              "source_id": 34,
+              "statement": "GPT-6에서 높은 캐시 적중률, 새로운 진단 기능, 명시적 브레이크포인트를 통해 지연 시간과 비용을 줄일 수 있는 프롬프트 캐싱 개선 사항이 공개되었습니다.",
+              "quote": "higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
+            }
+          ]
+        },
+        {
+          "title": "OpenAI GPT-6 Sol 및 Luna 모델 공개",
+          "section": "section_devtools",
+          "reason": "성능과 비용 균형을 다르게 맞춘 GPT-6 패밀리의 신규 모델 2종이 출시되었습니다.",
+          "source_ids": [
+            35
+          ],
+          "facts": [
+            {
+              "source_id": 35,
+              "statement": "성능과 비용의 균형을 다르게 맞춘 업무용 프론티어 인텔리전스 모델 GPT-6 Sol과 Luna가 발표되었습니다.",
+              "quote": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work"
+            }
+          ]
+        },
+        {
+          "title": "LiteLLM v1.102.0 / v1.102.1: cosign 기반 Docker 이미지 암호화 서명 검증 지원",
+          "section": "section_devtools",
+          "reason": "컨테이너 배포 환경에서 LiteLLM 이미지의 무결성과 보안을 cosign 서명 검증을 통해 확인할 수 있습니다.",
+          "source_ids": [
+            43,
+            68
+          ],
+          "facts": [
+            {
+              "source_id": 43,
+              "statement": "모든 LiteLLM Docker 이미지가 cosign으로 서명되며 고정 커밋 해시 키를 사용한 검증 절차가 안내되었습니다.",
+              "quote": "All LiteLLM Docker images are signed with cosign . Every release is signed with the same key"
+            },
+            {
+              "source_id": 68,
+              "statement": "LiteLLM v1.102.1 버전에서도 동일한 고정 커밋 기반 cosign 공개 키를 통한 서명 검증이 유지됩니다.",
+              "quote": "All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53"
+            }
+          ]
+        },
+        {
+          "title": "llm CLI 0.36 릴리스: GPT-6 Sol 및 Luna 모델 지원",
+          "section": "section_devtools",
+          "reason": "로컬 터미널 도구 llm에서 OpenAI의 최신 GPT-6 계열 모델을 직접 지정해 호출할 수 있습니다.",
+          "source_ids": [
+            63
+          ],
+          "facts": [
+            {
+              "source_id": 63,
+              "statement": "llm 0.36 릴리스에서 gpt-6-sol 및 gpt-6-luna 신규 OpenAI 모델 지원이 추가되었습니다.",
+              "quote": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for"
+            }
+          ]
+        },
+        {
+          "title": "Google DeepMind, Private AI Compute에 서버 측 보안 메모리 기술 도입",
+          "section": "section_devtools",
+          "reason": "개인화 AI 처리를 위해 프라이빗 AI 컴퓨팅 환경에 기밀 서버 측 메모리를 결합하는 인프라 아키텍처를 공개했습니다.",
+          "source_ids": [
+            57
+          ],
+          "facts": [
+            {
+              "source_id": 57,
+              "statement": "DeepMind가 개인화 AI 처리를 위한 Private AI Compute에 보안 서버 측 메모리 기술을 도입했습니다.",
+              "quote": "Introducing private, server-side memory to Private AI Compute for personal AI."
+            }
+          ]
+        },
+        {
+          "title": "Gemini 3.8 TTS 모델 기반 대화형 웹 테스트 도구 공개",
+          "section": "section_devtools",
+          "reason": "Google의 gemini-3.8-flash-tts 등 신규 음성 합성 모델을 웹에서 직접 시험해볼 수 있는 플레이그라운드 도구입니다.",
+          "source_ids": [
+            59
+          ],
+          "facts": [
+            {
+              "source_id": 59,
+              "statement": "Google이 출시한 gemini-3.8-flash-tts 등 두 음성 모델을 테스트할 수 있는 제3자 웹 도구 'Gemini 3.8 TTS Playground'가 공개되었습니다.",
+              "quote": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts"
+            }
+          ]
+        },
+        {
+          "title": "TypeSafe AI의 Jev 의사결정 모델 및 llm 플러그인 연동",
+          "section": "section_devtools",
+          "reason": "새로운 '시스템 1 의사결정 모델' 카테고리를 표방하는 Jev 모델의 개념과 이를 llm CLI에서 호출할 수 있는 전용 플러그인이 공개되었습니다.",
+          "source_ids": [
+            24,
+            37
+          ],
+          "facts": [
+            {
+              "source_id": 24,
+              "statement": "TypeSafe AI가 System One 의사결정 모델 카테고리의 첫 모델인 Jev를 공개했습니다.",
+              "quote": "TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\""
+            },
+            {
+              "source_id": 37,
+              "statement": "Jev 모델을 llm CLI 도구에서 사용할 수 있도록 지원하는 플러그인 llm-typesafe 0.1a0이 공개되었습니다.",
+              "quote": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model"
+            }
+          ]
+        },
+        {
+          "title": "PickNik Robotics와 Qualcomm Technologies, 로봇 매니퓰레이션 협력 발표",
+          "section": "section_industry",
+          "reason": "MoveIt 핵심 개발사인 PickNik과 퀄컴의 협력을 통해 로봇 조작 소프트웨어의 칩셋 가속 및 상용 배포 기반이 확장될 수 있습니다.",
+          "source_ids": [
+            50
+          ],
+          "facts": [
+            {
+              "source_id": 50,
+              "statement": "PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결하고 로봇 매니퓰레이션 분야에서 협력한다고 발표했습니다.",
+              "quote": "PickNik Inc. and Qualcomm Technologies, Inc. are joining forces"
+            }
+          ]
+        },
+        {
+          "title": "Boston Dynamics, 현대차 메타플랜트에 Atlas 휴머노이드 트레이닝 센터 오픈",
+          "section": "section_industry",
+          "reason": "현대자동차 조지아 메타플랜트 내에 전기식 Atlas 인간형 로봇의 현장 공정 훈련 시설을 구축하여 상용 배포를 준비합니다.",
+          "source_ids": [
+            27
+          ],
+          "facts": [
+            {
+              "source_id": 27,
+              "statement": "Boston Dynamics가 조지아주 현대차 메타플랜트 아메리카 내에 Atlas 인간형 로봇 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 열었습니다.",
+              "quote": "Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia."
+            }
+          ]
+        },
+        {
+          "title": "Epson, 경량 AX6 협동로봇 및 노코드 프로그래밍 환경 공개",
+          "section": "section_industry",
+          "reason": "작업자 안전을 위한 힘·동력 제한 기능을 탑재한 6축 협동로봇 신제품 소식입니다.",
+          "source_ids": [
+            80
+          ],
+          "facts": [
+            {
+              "source_id": 80,
+              "statement": "Epson Robots가 콤팩트한 설계와 노코드 프로그래밍을 지원하는 경량 힘·동력 제한 6축 협동로봇 AX6를 발표했습니다.",
+              "quote": "expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm."
+            }
+          ]
+        },
+        {
+          "title": "Hirebotics 협동로봇, 라인 트래킹 및 리니어 레일 기능 추가",
+          "section": "section_industry",
+          "reason": "협동로봇의 작업 반경을 확장하고 이송 라인 상의 작업 유연성을 높이는 상용 솔루션 업데이트입니다.",
+          "source_ids": [
+            15
+          ],
+          "facts": [
+            {
+              "source_id": 15,
+              "statement": "Hirebotics가 자사 협동로봇에 작업 반경을 넓히고 유연성을 제공하는 라인 트래킹과 리니어 레일 기능을 추가했습니다.",
+              "quote": "Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility."
+            }
+          ]
+        },
+        {
+          "title": "IFR 보고서: 전 세계 제조 현장 가동 산업용 로봇 500만 대 돌파",
+          "section": "section_industry",
+          "reason": "국제 로봇 연맹(IFR)의 최신 글로벌 로봇 도입 현황 및 시장 통계 자료입니다.",
+          "source_ids": [
+            78
+          ],
+          "facts": [
+            {
+              "source_id": 78,
+              "statement": "IFR 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇이 500만 대를 기록했으며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 뒤를 이었습니다.",
+              "quote": "5 million robots are now at work in factories worldwide, reports the IFR"
+            }
+          ]
+        },
+        {
+          "title": "Indy Autonomous Challenge, 라구나 세카에서 도로 코스 최초 자율 추월 완료",
+          "section": "section_industry",
+          "reason": "고속 자율주행 레이싱에서 로드 코스 최초의 실시간 추월 기록이 달성되었습니다.",
+          "source_ids": [
+            26
+          ],
+          "facts": [
+            {
+              "source_id": 26,
+              "statement": "라구나 세카에서 열린 Indy Autonomous Challenge에서 Unimore Racing이 우승했으며, 로드 코스 최초로 자율주행 차량 추월을 기록했습니다.",
+              "quote": "marking the IAC's first autonomous car overtakes on a road course."
+            }
+          ]
+        },
+        {
+          "title": "Helicon, 복합재 제조 자동화를 위한 시드 투자 유치",
+          "section": "section_industry",
+          "reason": "복합재 생산 리드타임을 자동화로 대폭 단축하려는 제조 스타트업의 투자 유치 소식입니다.",
+          "source_ids": [
+            70
+          ],
+          "facts": [
+            {
+              "source_id": 70,
+              "statement": "Helicon이 복합재 제조 리드타임을 수개월에서 수주로 단축하는 자동화 구현을 위해 시드 투자를 유치했습니다.",
+              "quote": "Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks."
+            }
+          ]
+        }
+      ],
+      "omitted": [
+        {
+          "source_id": 2,
+          "reason": "기능 변경 내용이나 릴리스 노트 근거가 전혀 없는 단순 서명 커밋 정보입니다."
+        },
+        {
+          "source_id": 3,
+          "reason": "호주 청소년 안전 정책 및 로드맵 발표로 기술적 변경 사항이 아닙니다."
+        },
+        {
+          "source_id": 4,
+          "reason": "ChatGPT 엔터프라이즈 도입 기업의 비즈니스 활용 홍보성 기사입니다."
+        },
+        {
+          "source_id": 5,
+          "reason": "Claude Code 도입에 대한 커뮤니티 개발자의 개인적 푸념 및 인용글입니다."
+        },
+        {
+          "source_id": 6,
+          "reason": "개인 휴대폰 제어 목적의 소규모 커스텀 플러그인으로 보편적 기술 정보가 부족합니다."
+        },
+        {
+          "source_id": 7,
+          "reason": "특정 사이트 세션 버그 수정을 다룬 소규모 웹 플러그인 업데이트입니다."
+        },
+        {
+          "source_id": 8,
+          "reason": "구체적 기술 분석이 결여된 풍자 및 벤치마크 관련 외부 인용 소식입니다."
+        },
+        {
+          "source_id": 9,
+          "reason": "LLM에 대한 개인적 비유와 감상을 적은 짧은 칼럼성 노트입니다."
+        },
+        {
+          "source_id": 10,
+          "reason": "본문 설명과 근거가 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 12,
+          "reason": "v0.34.3-rc1 프리릴리스 버전으로 제외 기준에 해당합니다."
+        },
+        {
+          "source_id": 13,
+          "reason": "주간 외부 로봇 동영상 큐레이션 링크 모음입니다."
+        },
+        {
+          "source_id": 14,
+          "reason": "휴머노이드 폐기 절차에 관한 일반 오피니언 칼럼 기사입니다."
+        },
+        {
+          "source_id": 16,
+          "reason": "로보틱스 패키징 사업 기회에 관한 일반 비즈니스 논평 칼럼입니다."
+        },
+        {
+          "source_id": 17,
+          "reason": "ROS 문서 사이트 접속 불량에 관한 커뮤니티 문제 문의 게시글입니다."
+        },
+        {
+          "source_id": 18,
+          "reason": "ROSCon 일정으로 인한 주간 회의 취소 안내 공지입니다."
+        },
+        {
+          "source_id": 19,
+          "reason": "해양 소프트웨어 에이전트 플러그인 개발 시작을 알리는 학부생 소개 글로 구체적 기술 정보가 부족합니다."
+        },
+        {
+          "source_id": 21,
+          "reason": "외부 수학-AI 자문그룹 구성에 관한 일반 홍보 공지입니다."
+        },
+        {
+          "source_id": 22,
+          "reason": "동영상 광고 제작 업체의 GPT-6 파트너십 활용 홍보 기사입니다."
+        },
+        {
+          "source_id": 23,
+          "reason": "글로벌 AI 표준 및 거버넌스 촉구에 관한 일반 정책 제안문입니다."
+        },
+        {
+          "source_id": 25,
+          "reason": "MCP 프로토콜 논쟁에 대한 커뮤니티 댓글 및 개인 의견 게시글입니다."
+        },
+        {
+          "source_id": 28,
+          "reason": "Physical AI 안전 계층의 중요성을 논하는 NVIDIA 기업 블로그 칼럼입니다."
+        },
+        {
+          "source_id": 29,
+          "reason": "AI 보안 엔지니어링 접근법을 다룬 원론적 기업 블로그 칼럼입니다."
+        },
+        {
+          "source_id": 36,
+          "reason": "고객사의 GPT-6 활용 비용 절감 사례 홍보 기사입니다."
+        },
+        {
+          "source_id": 38,
+          "reason": "본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 39,
+          "reason": "본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 40,
+          "reason": "본문 근거가 전혀 없는 벤치마크 분석 페이지 링크(title_only)입니다."
+        },
+        {
+          "source_id": 44,
+          "reason": "로봇 연구자 개인에 대한 인터뷰 및 인물 소개 기사입니다."
+        },
+        {
+          "source_id": 45,
+          "reason": "RoboBusiness 컨퍼런스 발표 예정 세션에 대한 사전 행사 안내입니다."
+        },
+        {
+          "source_id": 46,
+          "reason": "RoboBusiness 컨퍼런스 패널 토의 사전 행사 안내입니다."
+        },
+        {
+          "source_id": 49,
+          "reason": "ROSCon 2026 실시간 스트리밍 시청 안내 링크입니다."
+        },
+        {
+          "source_id": 52,
+          "reason": "ROSCon 오프라인 밋업 참석자 대상 후속 모임 스레드 공지입니다."
+        },
+        {
+          "source_id": 54,
+          "reason": "OpenAI Academy 2주년 기념 교육 지원 일반 홍보 기사입니다."
+        },
+        {
+          "source_id": 55,
+          "reason": "우크라이나 민간 사이버 인프라 지원에 대한 비기술 뉴스입니다."
+        },
+        {
+          "source_id": 56,
+          "reason": "UN 안전보장이사회 연설문 전문으로 정책성 발언입니다."
+        },
+        {
+          "source_id": 58,
+          "reason": "본문 내용과 기술 설명이 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 60,
+          "reason": "CSS Shadow roots 설명 아티팩트로 AI 및 로보틱스 주제와 관련이 없습니다."
+        },
+        {
+          "source_id": 61,
+          "reason": "샌프란시스코 현지 오프라인 밋업(BoF) 참가자 모집 공지입니다."
+        },
+        {
+          "source_id": 62,
+          "reason": "신규 모델 출시 상황에 대한 개인 개발자의 짧은 촌평입니다."
+        },
+        {
+          "source_id": 64,
+          "reason": "본문 근거와 재현 방법이 없는 제목 전용(title_only) 학술 소식입니다."
+        },
+        {
+          "source_id": 65,
+          "reason": "본문 설명이 제공되지 않는 제목 전용(title_only) 하드웨어 지원 소식입니다."
+        },
+        {
+          "source_id": 66,
+          "reason": "2025년 과거 게시글 인용이며 본문 근거가 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 67,
+          "reason": "v0.34.4-rc0 프리릴리스 버전으로 제외 기준에 해당합니다."
+        },
+        {
+          "source_id": 71,
+          "reason": "RoboBusiness 기조연설 참가자 및 행사 사전 안내입니다."
+        },
+        {
+          "source_id": 74,
+          "reason": "본문 근거와 제품 상세 설명이 없는 제목 전용(title_only) 링크입니다."
+        },
+        {
+          "source_id": 75,
+          "reason": "본문 내용이 없는 제목 전용(title_only) 외부 인문학 블로그 링크입니다."
+        },
+        {
+          "source_id": 77,
+          "reason": "멕시코 고등학교 교육용 플랫폼 제작에 관한 일반 지역 프로젝트 소개 기사입니다."
+        },
+        {
+          "source_id": 79,
+          "reason": "모션 아키텍처 선택에 관한 공급업체 기술 마케팅 칼럼입니다."
+        }
+      ]
+    },
+    "draft": {
+      "one_sentence_summary": "Isaac ROS 5.0 릴리스와 주요 모델 API 업데이트 및 협동로봇·우주 시뮬레이션 활용 사례가 공개되었습니다.",
+      "weekly_themes": "- 해석: Isaac Sim과 ROS 2 Jazzy 연동 사례 및 Isaac ROS 5.0 릴리스는 로보틱스 개발 전반에서 시뮬레이션과 온로봇 가속 파이프라인의 연계를 보여줍니다 [47, 53]\n- 해석: OpenAI의 GPT-6 계열 모델 출시와 llm CLI의 신속한 전용 모델 플래그 추가는 프론티어 LLM의 로컬 개발 도구 수용 흐름을 나타냅니다 [35, 63]",
+      "section_robotics": "- **Online Camera Calibration**: 체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라 파라미터와 왜곡을 보정할 수 있으며, 이미지 직접 업로드와 ROS bag 지정을 지원하는 웹 도구입니다 [1]\n- **Isaac ROS 5.0**: Isaac ROS Common 5.0.0 및 NITROS 5.0.0 릴리스와 함께 에이전틱 워크플로 및 신규 플랫폼 지원을 도입했습니다 [32, 33, 47, 48]\n- **Isaac ROS cuMotion 가이드**: 매니퓰레이션 환경에서 목표 포즈 도달 시 자가 충돌 방지, 고정 구조물 회피, 신규 관측 장애물 회피를 지원하는 GPU 가속 모션 플래닝 파이프라인 적용 원리를 다룹니다 [31]\n- **rclrs 0.8.0**: 안전한 시스템 프로그래밍 언어인 Rust 기반의 공식 ROS 2 클라이언트 라이브러리 v0.8.0이 릴리스되었습니다 [51]\n- **ros2_unbag**: rosbag 데이터 추출 유틸리티인 ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 배포되기 시작했습니다 [72]\n- **신장 결석 수술 계획 ROS 2 프로토타입**: CT 영상(DICOM/NIfTI)의 장기 분할, 결석 후보 검출, 3D 메시 생성부터 PCNL 수술 계획을 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 파이프라인 사례입니다 [20]\n- **궤도 우주 로보틱스 시뮬레이션 사례**: 위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 결합한 연구 프로젝트 구현 내용이 공유되었습니다 [53]\n- **Arduino VENTUNO Q**: 로보틱스 개발을 단순화하기 위해 설계된 새로운 하드웨어 보드 VENTUNO Q가 공개되었습니다 [69]\n- **TIAGo 로봇용 QERRA-v2 Classical 실험**: Webots 시뮬레이터 내 PAL Robotics TIAGo 환경에서 행동 트리의 지시 실행 전 위험을 차단하는 가드와 물리적 충돌 회피 반사 계층(QERRA-HSR v0.1)의 동작을 시연했습니다 [30, 73]",
+      "section_devtools": "- **Ollama v0.34.3 / v0.34.4**: 생각 모델에 대한 구조화 출력(JSON 등) 단일 패스 처리, thinking 제어값 조회 API, Apple Silicon 상의 Qwen 3.8 프롬프트 처리 가속 및 MLX 기반 Nemotron H 비전 모델 지원이 추가되었습니다 [42, 76]\n- **Anthropic Python SDK v1.7.0 / v1.8.0**: claude-opus-5-5 모델 호출, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능 및 도구 압축 최적화(compact_before_next_turn)가 도입되었습니다 [11, 41]\n- **OpenAI GPT-6 프롬프트 캐싱**: 높은 캐시 적중률과 새로운 진단 기능, 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 절감하는 캐싱 제어 기능이 공개되었습니다 [34]\n- **OpenAI GPT-6 Sol 및 Luna**: 일상 업무 환경을 목표로 성능과 비용의 균형을 다르게 맞춘 신규 프론티어 모델 2종이 발표되었습니다 [35]\n- **LiteLLM v1.102.0 / v1.102.1**: 컨테이너 이미지 무결성 검증을 위해 cosign 기반 Docker 이미지 서명 및 고정 커밋 해시 키 검증 절차가 적용되었습니다 [43, 68]\n- **llm CLI 0.36**: 터미널 LLM 도구 llm에서 신규 OpenAI 모델인 gpt-6-sol 및 gpt-6-luna를 직접 지정해 호출할 수 있는 지원이 추가되었습니다 [63]\n- **Google DeepMind Private AI Compute 보안 메모리**: 개인화 AI 처리를 지원하기 위해 Private AI Compute 인프라에 서버 측 보안 메모리 기술을 도입했습니다 [57]\n- **Gemini 3.8 TTS Playground**: Google이 발표한 gemini-3.8-flash-tts 등 2종의 음성 합성 모델을 웹 브라우저에서 직접 시험해볼 수 있는 제3자 대화형 테스트 도구입니다 [59]\n- **TypeSafe AI Jev 모델 및 llm-typesafe**: 의사결정 모델 카테고리를 표방하는 Jev 모델이 공개되었으며, 이를 로컬 CLI에서 호출할 수 있는 llm 플러그인(0.1a0)이 제공됩니다 [24, 37]",
+      "section_industry": "- **PickNik Robotics - Qualcomm Technologies 파트너십**: 로봇 매니퓰레이션 기술 역량 확장을 위한 양사 협력이 발표되었습니다 [50]\n- **Boston Dynamics 메타플랜트 트레이닝 센터**: 조지아주 현대차 메타플랜트 아메리카(HMGMA) 내에 Atlas 인간형 로봇의 현장 공정 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 개소했습니다 [27]\n- **Epson AX6 6축 협동로봇**: 힘·동력 제한 기능을 탑재한 경량 6축 협동로봇 AX6와 노코드 프로그래밍 환경이 공개되었습니다 [80]\n- **Hirebotics 협동로봇 기능 업데이트**: 라인 트래킹 및 리니어 레일 기능을 추가하여 생산 현장에서 협동로봇의 작업 반경과 공정 유연성을 확장했습니다 [15]\n- **IFR 글로벌 산업용 로봇 현황 보고**: 전 세계 제조 공장에서 가동 중인 산업용 로봇이 500만 대를 돌파했으며, 중국이 설치를 주도하고 미국과 독일이 그 뒤를 잇고 있습니다 [78]\n- **Indy Autonomous Challenge 라구나 세카 자율 추월**: Unimore Racing이 우승을 차지하며 대회 역사상 로드 코스 최초의 자율주행 차량 간 추월 기록을 수립했습니다 [26]\n- **Helicon 시드 투자 유치**: 복합재 제조 리드타임을 수개월에서 수주 단위로 단축하기 위한 자동화 솔루션 구축 목적으로 시드 펀딩을 확보했습니다 [70]"
+    },
+    "findings": [
+      "수집일자를 임의의 사건 발생일로 추정하지 않고 버전 및 기능 중심의 서술을 유지했습니다.",
+      "Ollama 프리릴리스(rc) 버전 대신 정식 태그(v0.34.3, v0.34.4)의 변경 내역을 바탕으로 기술 사실을 정확하게 통합했습니다.",
+      "Gemini 3.8 TTS 모델 발표와 제3자 플레이그라운드 웹 도구(Simon Willison)의 주체를 명확히 구분하여 기술했습니다.",
+      "Isaac ROS 5.0 릴리스의 공식 커밋 및 보도자료를 상호 보완하여 플랫폼 및 에이전틱 워크플로 변경 사항을 보존했습니다.",
+      "관찰(weekly_themes) 항목에 서로 다른 2개 이상의 독립 출처를 명시하고 '해석:' 표기를 적용했습니다."
+    ],
+    "removedEntries": [],
+    "trace": [
+      {
+        "stage": "plan",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 33.79,
+        "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"Online Camera Calibration: 체커보드 없는 평면 기반 카메라 캘리브레이션 웹 도구\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"체커보드 등의 특수 타깃 없이 질감이 있는 평면과 ROS bag 또는 이미지만으로 카메라 왜곡 및 파라미터를 보정할 수 있어 현장 보정 작업에 유용합니다.\",\n      \"source_ids\": [1],\n      \"facts\": [\n        {\n          \"source_id\": 1,\n          \"statement\": \"체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라를 보정할 수 있는 온라인 웹 도구가 공개되었으며, 직접 이미지 업로드 또는 ROS bag 지정을 지원합니다.\",\n          \"quote\": \"calibrate a camera without a checkerboard or any other custom-made calibration target. All you need is a flat, textured surface.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Isaac ROS 5.0 릴리스: 에이전틱 워크플로 및 플랫폼 지원 확장\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"NVIDIA Isaac ROS의 메이저 5.0 업데이트로 자율 로봇 개발을 위한 에이전틱 워크플로와 공통 라이브러리 및 NITROS 성능 개선 사항을 제공합니다.\",\n      \"source_ids\": [32, 33, 47, 48],\n      \"facts\": [\n        {\n          \"source_id\": 32,\n          \"statement\": \"Isaac ROS Common 5.0.0 버전이 공식 릴리스되었습니다.\",\n          \"quote\": \"Release Isaac ROS 5.0\"\n        },\n        {\n          \"source_id\": 33,\n          \"statement\": \"Isaac ROS NITROS 5.0.0 버전이 공식 릴리스되었습니다.\",\n          \"quote\": \"Release Isaac ROS 5.0\"\n        },\n        {\n          \"source_id\": 47,\n          \"statement\": \"Isaac ROS 5.0은 개발자가 로보틱스 애플리케이션을 더 빠르게 배포할 수 있도록 새로운 에이전틱 워크플로와 플랫폼 지원을 도입했습니다.\",\n          \"quote\": \"brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster.\"\n        },\n        {\n          \"source_id\": 48,\n          \"statement\": \"NVIDIA가 에이전틱 및 오픈소스 로보틱스 개발을 진전시키는 Isaac ROS 5.0을 발표했습니다 (제목 기반).\",\n          \"quote\": \"NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Isaac ROS cuMotion 기반 충돌 인지 로봇 모션 플래닝 가이드\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"실제 매니퓰레이션 환경에서 자가 충돌 방지 및 고정·신규 장애물 회피를 지원하는 GPU 가속 cuMotion 계획 파이프라인의 적용 원리를 설명합니다.\",\n      \"source_ids\": [31],\n      \"facts\": [\n        {\n          \"source_id\": 31,\n          \"statement\": \"매니퓰레이션 작업 시 목표 포즈 도달뿐 아니라 자가 충돌, 고정 구조물, 새로 관측된 장애물 등을 고려하는 NVIDIA Isaac ROS cuMotion 모션 플래닝 기법이 소개되었습니다.\",\n          \"quote\": \"Getting a robot arm to a target pose is only part of the problem in real-world manipulation. The planner also needs to account for self-collision\"\n        }\n      ]\n    },\n    {\n      \"title\": \"rclrs 0.8.0 릴리스: ROS 2 Rust 공식 클라이언트 라이브러리 업데이트\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"안전한 시스템 프로그래밍 언어인 Rust로 ROS 2 노드를 개발하는 rclrs 프로젝트의 최신 업데이트입니다.\",\n      \"source_ids\": [51],\n      \"facts\": [\n        {\n          \"source_id\": 51,\n          \"statement\": \"ROS 2를 위한 Rust 클라이언트 라이브러리 rclrs v0.8.0이 릴리스되었습니다.\",\n          \"quote\": \"We’re happy to announce the release of rclrs v0.8.0!\"\n        }\n      ]\n    },\n    {\n      \"title\": \"ros2_unbag: ROS 2 공식 빌드팜 배포 개시\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"rosbag 데이터 추출 유틸리티를 패키지 관리자를 통해 쉽게 설치하고 파이프라인에 통합할 수 있습니다.\",\n      \"source_ids\": [72],\n      \"facts\": [\n        {\n          \"source_id\": 72,\n          \"statement\": \"ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 제공되기 시작했습니다.\",\n          \"quote\": \"Ros2_unbag is now available via the ROS 2 buildfarm\"\n        }\n      ]\n    },\n    {\n      \"title\": \"CT 영상 기반 신장 결석 감지 및 PCNL 수술 계획 ROS 2 프로토타입\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"의료 DICOM/NIfTI 데이터를 ROS 2 시각화와 로봇 시뮬레이션 환경으로 직접 연동하는 파이프라인 구현 사례입니다.\",\n      \"source_ids\": [20],\n      \"facts\": [\n        {\n          \"source_id\": 20,\n          \"statement\": \"CT 스캔에서 장기 분할, 결석 후보 검출, 3D 메시 생성, PCNL 수술 계획을 수행하여 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 프로토타입 파이프라인이 공개되었습니다.\",\n          \"quote\": \"connects medical CT imaging to ROS 2 visualization and robot simulation . The pipeline starts from a DICOM / NIfTI CT scan\"\n        }\n      ]\n    },\n    {\n      \"title\": \"ROS 2 및 Isaac Sim 기반 궤도 우주 로보틱스 시뮬레이션 사례\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"항공전자 및 궤도 동역학 검증에 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 우주 로보틱스 프로젝트 사례를 다룹니다.\",\n      \"source_ids\": [53],\n      \"facts\": [\n        {\n          \"source_id\": 53,\n          \"statement\": \"위성 항공전자 및 궤도 동역학 모사를 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 연구 프로젝트가 승인 및 공유되었습니다.\",\n          \"quote\": \"I utilized Isaac Sim 5.1 and ROS 2 Jazzy for avionics and orbit dynamics.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Arduino VENTUNO Q: 로보틱스 개발 지원 신규 하드웨어 보드 발표\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"소형 로봇 제어 및 센서 인터페이스 구축에 널리 쓰이는 아두이노 생태계의 전용 로보틱스 보드 출시 소식입니다.\",\n      \"source_ids\": [69],\n      \"facts\": [\n        {\n          \"source_id\": 69,\n          \"statement\": \"Arduino가 로보틱스 개발을 단순화하기 위한 새로운 VENTUNO Q 보드를 공개했습니다.\",\n          \"quote\": \"With the new VENTUNO Q board, Arduino hopes to make robotics development easier\"\n        }\n      ]\n    },\n    {\n      \"title\": \"TIAGo 로봇용 QERRA-v2 Classical 결정론적 안전 반사 및 도덕 실행 가드레일 실험\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"Webots 시뮬레이터 환경에서 행동 트리에 텍스트 지시 검증 및 물리적 충돌 회피 반사 계층을 적용한 안전 실험 결과를 다룹니다.\",\n      \"source_ids\": [30, 73],\n      \"facts\": [\n        {\n          \"source_id\": 30,\n          \"statement\": \"로봇 행동 트리의 텍스트 지시 실행 전 위험을 차단하는 QERRA-v2 Classical 실행 가드를 PAL Robotics TIAGo 시뮬레이션 환경에서 스트레스 테스트했습니다.\",\n          \"quote\": \"evaluating an execution guard for robot Behavior Trees (QERRA-v2 Classical, tested in Webots simulation on a PAL Robotics TIAGo)\"\n        },\n        {\n          \"source_id\": 73,\n          \"statement\": \"QERRA-v2 Classical의 레이어 1 물리적 안전 반사(QERRA-HSR v0.1)를 TIAGo 로봇 Webots 시뮬레이션으로 시연했습니다.\",\n          \"quote\": \"simulation demo (Demo 6) from my work on QERRA-v2 Classical, focusing on Layer 1 (the physical safety reflex, QERRA-HSR v0.1 )\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Ollama v0.34.3 및 v0.34.4: 생각 모델 구조화 출력 단일 패스 지원 및 Apple Silicon 가속\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"추론 모델의 think 파라미터 제어, 구조화된 출력(JSON 등) 단일 패스 처리, Apple Silicon 상의 비전 모델 및 처리 속도 최적화가 포함되어 로컬 추론 성능이 개선되었습니다.\",\n      \"source_ids\": [42, 76],\n      \"facts\": [\n        {\n          \"source_id\": 42,\n          \"statement\": \"GET /api/show 엔드포인트와 CLI에서 모델의 thinking 제어값 및 기본값을 조회할 수 있게 되었으며, MLX 기반 Nemotron H 비전 모델이 지원됩니다.\",\n          \"quote\": \"GET /api/show now advertises each model's thinking controls and default\"\n        },\n        {\n          \"source_id\": 76,\n          \"statement\": \"생각 모델에 대한 구조화 출력을 단일 패스로 적용해 속도와 안정성을 개선했으며, Apple Silicon에서 Qwen 3.8 프롬프트 처리 가속 및 Gemma 4 최적 해상도 동적 선택을 지원합니다.\",\n          \"quote\": \"Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Anthropic Python SDK v1.7.0 및 v1.8.0: Claude Opus 5.5 지원 및 MCP 도구 고정 기능 추가\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"신규 claude-opus-5-5 모델 호출, 인라인 도구 정의, MCP 도구 목록 고정(베타), 도구 압축 최적화 등 에이전트 개발 기능이 확장되었습니다.\",\n      \"source_ids\": [11, 41],\n      \"facts\": [\n        {\n          \"source_id\": 11,\n          \"statement\": \"Anthropic SDK v1.7.0에서 도구 실행기에 compact_before_next_turn()이 추가되었고 속도 제한 API에 group 정보가 추가되었습니다.\",\n          \"quote\": \"tools: add compact_before_next_turn() to the tool runner\"\n        },\n        {\n          \"source_id\": 41,\n          \"statement\": \"Anthropic SDK v1.8.0에서 claude-opus-5-5 지원, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능이 추가되었습니다.\",\n          \"quote\": \"api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta)\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OpenAI GPT-6 프롬프트 캐싱 개선: 명시적 브레이크포인트 및 제어 기능 추가\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"GPT-6 API 사용 시 높은 캐시 적중률과 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 줄이는 방안을 제시합니다.\",\n      \"source_ids\": [34],\n      \"facts\": [\n        {\n          \"source_id\": 34,\n          \"statement\": \"GPT-6에서 높은 캐시 적중률, 새로운 진단 기능, 명시적 브레이크포인트를 통해 지연 시간과 비용을 줄일 수 있는 프롬프트 캐싱 개선 사항이 공개되었습니다.\",\n          \"quote\": \"higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OpenAI GPT-6 Sol 및 Luna 모델 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"성능과 비용 균형을 다르게 맞춘 GPT-6 패밀리의 신규 모델 2종이 출시되었습니다.\",\n      \"source_ids\": [35],\n      \"facts\": [\n        {\n          \"source_id\": 35,\n          \"statement\": \"성능과 비용의 균형을 다르게 맞춘 업무용 프론티어 인텔리전스 모델 GPT-6 Sol과 Luna가 발표되었습니다.\",\n          \"quote\": \"Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work\"\n        }\n      ]\n    },\n    {\n      \"title\": \"LiteLLM v1.102.0 / v1.102.1: cosign 기반 Docker 이미지 암호화 서명 검증 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"컨테이너 배포 환경에서 LiteLLM 이미지의 무결성과 보안을 cosign 서명 검증을 통해 확인할 수 있습니다.\",\n      \"source_ids\": [43, 68],\n      \"facts\": [\n        {\n          \"source_id\": 43,\n          \"statement\": \"모든 LiteLLM Docker 이미지가 cosign으로 서명되며 고정 커밋 해시 키를 사용한 검증 절차가 안내되었습니다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign . Every release is signed with the same key\"\n        },\n        {\n          \"source_id\": 68,\n          \"statement\": \"LiteLLM v1.102.1 버전에서도 동일한 고정 커밋 기반 cosign 공개 키를 통한 서명 검증이 유지됩니다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53\"\n        }\n      ]\n    },\n    {\n      \"title\": \"llm CLI 0.36 릴리스: GPT-6 Sol 및 Luna 모델 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"로컬 터미널 도구 llm에서 OpenAI의 최신 GPT-6 계열 모델을 직접 지정해 호출할 수 있습니다.\",\n      \"source_ids\": [63],\n      \"facts\": [\n        {\n          \"source_id\": 63,\n          \"statement\": \"llm 0.36 릴리스에서 gpt-6-sol 및 gpt-6-luna 신규 OpenAI 모델 지원이 추가되었습니다.\",\n          \"quote\": \"Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Private AI Compute에 서버 측 보안 메모리 기술 도입\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"개인화 AI 처리를 위해 프라이빗 AI 컴퓨팅 환경에 기밀 서버 측 메모리를 결합하는 인프라 아키텍처를 공개했습니다.\",\n      \"source_ids\": [57],\n      \"facts\": [\n        {\n          \"source_id\": 57,\n          \"statement\": \"DeepMind가 개인화 AI 처리를 위한 Private AI Compute에 보안 서버 측 메모리 기술을 도입했습니다.\",\n          \"quote\": \"Introducing private, server-side memory to Private AI Compute for personal AI.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Gemini 3.8 TTS 모델 기반 대화형 웹 테스트 도구 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"Google의 gemini-3.8-flash-tts 등 신규 음성 합성 모델을 웹에서 직접 시험해볼 수 있는 플레이그라운드 도구입니다.\",\n      \"source_ids\": [59],\n      \"facts\": [\n        {\n          \"source_id\": 59,\n          \"statement\": \"Google이 출시한 gemini-3.8-flash-tts 등 두 음성 모델을 테스트할 수 있는 제3자 웹 도구 'Gemini 3.8 TTS Playground'가 공개되었습니다.\",\n          \"quote\": \"Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts\"\n        }\n      ]\n    },\n    {\n      \"title\": \"TypeSafe AI의 Jev 의사결정 모델 및 llm 플러그인 연동\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"새로운 '시스템 1 의사결정 모델' 카테고리를 표방하는 Jev 모델의 개념과 이를 llm CLI에서 호출할 수 있는 전용 플러그인이 공개되었습니다.\",\n      \"source_ids\": [24, 37],\n      \"facts\": [\n        {\n          \"source_id\": 24,\n          \"statement\": \"TypeSafe AI가 System One 의사결정 모델 카테고리의 첫 모델인 Jev를 공개했습니다.\",\n          \"quote\": \"TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \\\"System One models\\\"\"\n        },\n        {\n          \"source_id\": 37,\n          \"statement\": \"Jev 모델을 llm CLI 도구에서 사용할 수 있도록 지원하는 플러그인 llm-typesafe 0.1a0이 공개되었습니다.\",\n          \"quote\": \"Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model\"\n        }\n      ]\n    },\n    {\n      \"title\": \"PickNik Robotics와 Qualcomm Technologies, 로봇 매니퓰레이션 협력 발표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"MoveIt 핵심 개발사인 PickNik과 퀄컴의 협력을 통해 로봇 조작 소프트웨어의 칩셋 가속 및 상용 배포 기반이 확장될 수 있습니다.\",\n      \"source_ids\": [50],\n      \"facts\": [\n        {\n          \"source_id\": 50,\n          \"statement\": \"PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결하고 로봇 매니퓰레이션 분야에서 협력한다고 발표했습니다.\",\n          \"quote\": \"PickNik Inc. and Qualcomm Technologies, Inc. are joining forces\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Boston Dynamics, 현대차 메타플랜트에 Atlas 휴머노이드 트레이닝 센터 오픈\",\n      \"section\": \"section_industry\",\n      \"reason\": \"현대자동차 조지아 메타플랜트 내에 전기식 Atlas 인간형 로봇의 현장 공정 훈련 시설을 구축하여 상용 배포를 준비합니다.\",\n      \"source_ids\": [27],\n      \"facts\": [\n        {\n          \"source_id\": 27,\n          \"statement\": \"Boston Dynamics가 조지아주 현대차 메타플랜트 아메리카 내에 Atlas 인간형 로봇 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 열었습니다.\",\n          \"quote\": \"Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Epson, 경량 AX6 협동로봇 및 노코드 프로그래밍 환경 공개\",\n      \"section\": \"section_industry\",\n      \"reason\": \"작업자 안전을 위한 힘·동력 제한 기능을 탑재한 6축 협동로봇 신제품 소식입니다.\",\n      \"source_ids\": [80],\n      \"facts\": [\n        {\n          \"source_id\": 80,\n          \"statement\": \"Epson Robots가 콤팩트한 설계와 노코드 프로그래밍을 지원하는 경량 힘·동력 제한 6축 협동로봇 AX6를 발표했습니다.\",\n          \"quote\": \"expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Hirebotics 협동로봇, 라인 트래킹 및 리니어 레일 기능 추가\",\n      \"section\": \"section_industry\",\n      \"reason\": \"협동로봇의 작업 반경을 확장하고 이송 라인 상의 작업 유연성을 높이는 상용 솔루션 업데이트입니다.\",\n      \"source_ids\": [15],\n      \"facts\": [\n        {\n          \"source_id\": 15,\n          \"statement\": \"Hirebotics가 자사 협동로봇에 작업 반경을 넓히고 유연성을 제공하는 라인 트래킹과 리니어 레일 기능을 추가했습니다.\",\n          \"quote\": \"Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"IFR 보고서: 전 세계 제조 현장 가동 산업용 로봇 500만 대 돌파\",\n      \"section\": \"section_industry\",\n      \"reason\": \"국제 로봇 연맹(IFR)의 최신 글로벌 로봇 도입 현황 및 시장 통계 자료입니다.\",\n      \"source_ids\": [78],\n      \"facts\": [\n        {\n          \"source_id\": 78,\n          \"statement\": \"IFR 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇이 500만 대를 기록했으며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 뒤를 이었습니다.\",\n          \"quote\": \"5 million robots are now at work in factories worldwide, reports the IFR\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Indy Autonomous Challenge, 라구나 세카에서 도로 코스 최초 자율 추월 완료\",\n      \"section\": \"section_industry\",\n      \"reason\": \"고속 자율주행 레이싱에서 로드 코스 최초의 실시간 추월 기록이 달성되었습니다.\",\n      \"source_ids\": [26],\n      \"facts\": [\n        {\n          \"source_id\": 26,\n          \"statement\": \"라구나 세카에서 열린 Indy Autonomous Challenge에서 Unimore Racing이 우승했으며, 로드 코스 최초로 자율주행 차량 추월을 기록했습니다.\",\n          \"quote\": \"marking the IAC's first autonomous car overtakes on a road course.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Helicon, 복합재 제조 자동화를 위한 시드 투자 유치\",\n      \"section\": \"section_industry\",\n      \"reason\": \"복합재 생산 리드타임을 자동화로 대폭 단축하려는 제조 스타트업의 투자 유치 소식입니다.\",\n      \"source_ids\": [70],\n      \"facts\": [\n        {\n          \"source_id\": 70,\n          \"statement\": \"Helicon이 복합재 제조 리드타임을 수개월에서 수주로 단축하는 자동화 구현을 위해 시드 투자를 유치했습니다.\",\n          \"quote\": \"Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 2,\n      \"reason\": \"기능 변경 내용이나 릴리스 노트 근거가 전혀 없는 단순 서명 커밋 정보입니다.\"\n    },\n    {\n      \"source_id\": 3,\n      \"reason\": \"호주 청소년 안전 정책 및 로드맵 발표로 기술적 변경 사항이 아닙니다.\"\n    },\n    {\n      \"source_id\": 4,\n      \"reason\": \"ChatGPT 엔터프라이즈 도입 기업의 비즈니스 활용 홍보성 기사입니다.\"\n    },\n    {\n      \"source_id\": 5,\n      \"reason\": \"Claude Code 도입에 대한 커뮤니티 개발자의 개인적 푸념 및 인용글입니다.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"개인 휴대폰 제어 목적의 소규모 커스텀 플러그인으로 보편적 기술 정보가 부족합니다.\"\n    },\n    {\n      \"source_id\": 7,\n      \"reason\": \"특정 사이트 세션 버그 수정을 다룬 소규모 웹 플러그인 업데이트입니다.\"\n    },\n    {\n      \"source_id\": 8,\n      \"reason\": \"구체적 기술 분석이 결여된 풍자 및 벤치마크 관련 외부 인용 소식입니다.\"\n    },\n    {\n      \"source_id\": 9,\n      \"reason\": \"LLM에 대한 개인적 비유와 감상을 적은 짧은 칼럼성 노트입니다.\"\n    },\n    {\n      \"source_id\": 10,\n      \"reason\": \"본문 설명과 근거가 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 12,\n      \"reason\": \"v0.34.3-rc1 프리릴리스 버전으로 제외 기준에 해당합니다.\"\n    },\n    {\n      \"source_id\": 13,\n      \"reason\": \"주간 외부 로봇 동영상 큐레이션 링크 모음입니다.\"\n    },\n    {\n      \"source_id\": 14,\n      \"reason\": \"휴머노이드 폐기 절차에 관한 일반 오피니언 칼럼 기사입니다.\"\n    },\n    {\n      \"source_id\": 16,\n      \"reason\": \"로보틱스 패키징 사업 기회에 관한 일반 비즈니스 논평 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 17,\n      \"reason\": \"ROS 문서 사이트 접속 불량에 관한 커뮤니티 문제 문의 게시글입니다.\"\n    },\n    {\n      \"source_id\": 18,\n      \"reason\": \"ROSCon 일정으로 인한 주간 회의 취소 안내 공지입니다.\"\n    },\n    {\n      \"source_id\": 19,\n      \"reason\": \"해양 소프트웨어 에이전트 플러그인 개발 시작을 알리는 학부생 소개 글로 구체적 기술 정보가 부족합니다.\"\n    },\n    {\n      \"source_id\": 21,\n      \"reason\": \"외부 수학-AI 자문그룹 구성에 관한 일반 홍보 공지입니다.\"\n    },\n    {\n      \"source_id\": 22,\n      \"reason\": \"동영상 광고 제작 업체의 GPT-6 파트너십 활용 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 23,\n      \"reason\": \"글로벌 AI 표준 및 거버넌스 촉구에 관한 일반 정책 제안문입니다.\"\n    },\n    {\n      \"source_id\": 25,\n      \"reason\": \"MCP 프로토콜 논쟁에 대한 커뮤니티 댓글 및 개인 의견 게시글입니다.\"\n    },\n    {\n      \"source_id\": 28,\n      \"reason\": \"Physical AI 안전 계층의 중요성을 논하는 NVIDIA 기업 블로그 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 29,\n      \"reason\": \"AI 보안 엔지니어링 접근법을 다룬 원론적 기업 블로그 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 36,\n      \"reason\": \"고객사의 GPT-6 활용 비용 절감 사례 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 38,\n      \"reason\": \"본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 39,\n      \"reason\": \"본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 40,\n      \"reason\": \"본문 근거가 전혀 없는 벤치마크 분석 페이지 링크(title_only)입니다.\"\n    },\n    {\n      \"source_id\": 44,\n      \"reason\": \"로봇 연구자 개인에 대한 인터뷰 및 인물 소개 기사입니다.\"\n    },\n    {\n      \"source_id\": 45,\n      \"reason\": \"RoboBusiness 컨퍼런스 발표 예정 세션에 대한 사전 행사 안내입니다.\"\n    },\n    {\n      \"source_id\": 46,\n      \"reason\": \"RoboBusiness 컨퍼런스 패널 토의 사전 행사 안내입니다.\"\n    },\n    {\n      \"source_id\": 49,\n      \"reason\": \"ROSCon 2026 실시간 스트리밍 시청 안내 링크입니다.\"\n    },\n    {\n      \"source_id\": 52,\n      \"reason\": \"ROSCon 오프라인 밋업 참석자 대상 후속 모임 스레드 공지입니다.\"\n    },\n    {\n      \"source_id\": 54,\n      \"reason\": \"OpenAI Academy 2주년 기념 교육 지원 일반 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 55,\n      \"reason\": \"우크라이나 민간 사이버 인프라 지원에 대한 비기술 뉴스입니다.\"\n    },\n    {\n      \"source_id\": 56,\n      \"reason\": \"UN 안전보장이사회 연설문 전문으로 정책성 발언입니다.\"\n    },\n    {\n      \"source_id\": 58,\n      \"reason\": \"본문 내용과 기술 설명이 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 60,\n      \"reason\": \"CSS Shadow roots 설명 아티팩트로 AI 및 로보틱스 주제와 관련이 없습니다.\"\n    },\n    {\n      \"source_id\": 61,\n      \"reason\": \"샌프란시스코 현지 오프라인 밋업(BoF) 참가자 모집 공지입니다.\"\n    },\n    {\n      \"source_id\": 62,\n      \"reason\": \"신규 모델 출시 상황에 대한 개인 개발자의 짧은 촌평입니다.\"\n    },\n    {\n      \"source_id\": 64,\n      \"reason\": \"본문 근거와 재현 방법이 없는 제목 전용(title_only) 학술 소식입니다.\"\n    },\n    {\n      \"source_id\": 65,\n      \"reason\": \"본문 설명이 제공되지 않는 제목 전용(title_only) 하드웨어 지원 소식입니다.\"\n    },\n    {\n      \"source_id\": 66,\n      \"reason\": \"2025년 과거 게시글 인용이며 본문 근거가 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 67,\n      \"reason\": \"v0.34.4-rc0 프리릴리스 버전으로 제외 기준에 해당합니다.\"\n    },\n    {\n      \"source_id\": 71,\n      \"reason\": \"RoboBusiness 기조연설 참가자 및 행사 사전 안내입니다.\"\n    },\n    {\n      \"source_id\": 74,\n      \"reason\": \"본문 근거와 제품 상세 설명이 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 75,\n      \"reason\": \"본문 내용이 없는 제목 전용(title_only) 외부 인문학 블로그 링크입니다.\"\n    },\n    {\n      \"source_id\": 77,\n      \"reason\": \"멕시코 고등학교 교육용 플랫폼 제작에 관한 일반 지역 프로젝트 소개 기사입니다.\"\n    },\n    {\n      \"source_id\": 79,\n      \"reason\": \"모션 아키텍처 선택에 관한 공급업체 기술 마케팅 칼럼입니다.\"\n    }\n  ]\n}",
+        "promptSha256": "6df86affef3a3f5d311c246b89520f500c8cc26363503d247937ab6a9c3f5323",
+        "usage": {
+          "cache_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 12208
+            }
+          ],
+          "cached_content_token_count": 12208,
+          "candidates_token_count": 7637,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 15229,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 15229
+            }
+          ],
+          "thoughts_token_count": 2446,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 25312,
+          "traffic_type": null
+        },
+        "validation": "fact quote must be a literal source excerpt (source 53)"
+      },
+      {
+        "stage": "plan",
+        "attempt": 2,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 66.89,
+        "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"Online Camera Calibration: 체커보드 없는 평면 기반 카메라 캘리브레이션 웹 도구\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"체커보드 등의 특수 타깃 없이 질감이 있는 평면과 ROS bag 또는 이미지만으로 카메라 왜곡 및 파라미터를 보정할 수 있어 현장 보정 작업에 유용합니다.\",\n      \"source_ids\": [1],\n      \"facts\": [\n        {\n          \"source_id\": 1,\n          \"statement\": \"체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라를 보정할 수 있는 온라인 웹 도구가 공개되었으며, 직접 이미지 업로드 또는 ROS bag 지정을 지원합니다.\",\n          \"quote\": \"calibrate a camera without a checkerboard or any other custom-made calibration target. All you need is a flat, textured surface.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Isaac ROS 5.0 릴리스: 에이전틱 워크플로 및 플랫폼 지원 확장\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"NVIDIA Isaac ROS의 메이저 5.0 업데이트로 자율 로봇 개발을 위한 에이전틱 워크플로와 공통 라이브러리 및 NITROS 성능 개선 사항을 제공합니다.\",\n      \"source_ids\": [32, 33, 47, 48],\n      \"facts\": [\n        {\n          \"source_id\": 32,\n          \"statement\": \"Isaac ROS Common 5.0.0 버전이 공식 릴리스되었습니다.\",\n          \"quote\": \"Release Isaac ROS 5.0\"\n        },\n        {\n          \"source_id\": 33,\n          \"statement\": \"Isaac ROS NITROS 5.0.0 버전이 공식 릴리스되었습니다.\",\n          \"quote\": \"Release Isaac ROS 5.0\"\n        },\n        {\n          \"source_id\": 47,\n          \"statement\": \"Isaac ROS 5.0은 개발자가 로보틱스 애플리케이션을 더 빠르게 배포할 수 있도록 새로운 에이전틱 워크플로와 플랫폼 지원을 도입했습니다.\",\n          \"quote\": \"brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster.\"\n        },\n        {\n          \"source_id\": 48,\n          \"statement\": \"NVIDIA가 에이전틱 및 오픈소스 로보틱스 개발을 진전시키는 Isaac ROS 5.0을 발표했습니다 (제목 기반).\",\n          \"quote\": \"NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Isaac ROS cuMotion 기반 충돌 인지 로봇 모션 플래닝 가이드\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"실제 매니퓰레이션 환경에서 자가 충돌 방지 및 고정·신규 장애물 회피를 지원하는 GPU 가속 cuMotion 계획 파이프라인의 적용 원리를 설명합니다.\",\n      \"source_ids\": [31],\n      \"facts\": [\n        {\n          \"source_id\": 31,\n          \"statement\": \"매니퓰레이션 작업 시 목표 포즈 도달뿐 아니라 자가 충돌, 고정 구조물, 새로 관측된 장애물 등을 고려하는 NVIDIA Isaac ROS cuMotion 모션 플래닝 기법이 소개되었습니다.\",\n          \"quote\": \"Getting a robot arm to a target pose is only part of the problem in real-world manipulation. The planner also needs to account for self-collision\"\n        }\n      ]\n    },\n    {\n      \"title\": \"rclrs 0.8.0 릴리스: ROS 2 Rust 공식 클라이언트 라이브러리 업데이트\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"안전한 시스템 프로그래밍 언어인 Rust로 ROS 2 노드를 개발하는 rclrs 프로젝트의 최신 업데이트입니다.\",\n      \"source_ids\": [51],\n      \"facts\": [\n        {\n          \"source_id\": 51,\n          \"statement\": \"ROS 2를 위한 Rust 클라이언트 라이브러리 rclrs v0.8.0이 릴리스되었습니다.\",\n          \"quote\": \"We’re happy to announce the release of rclrs v0.8.0!\"\n        }\n      ]\n    },\n    {\n      \"title\": \"ros2_unbag: ROS 2 공식 빌드팜 배포 개시\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"rosbag 데이터 추출 유틸리티를 패키지 관리자를 통해 쉽게 설치하고 파이프라인에 통합할 수 있습니다.\",\n      \"source_ids\": [72],\n      \"facts\": [\n        {\n          \"source_id\": 72,\n          \"statement\": \"ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 제공되기 시작했습니다.\",\n          \"quote\": \"Ros2_unbag is now available via the ROS 2 buildfarm\"\n        }\n      ]\n    },\n    {\n      \"title\": \"CT 영상 기반 신장 결석 감지 및 PCNL 수술 계획 ROS 2 프로토타입\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"의료 DICOM/NIfTI 데이터를 ROS 2 시각화와 로봇 시뮬레이션 환경으로 직접 연동하는 파이프라인 구현 사례입니다.\",\n      \"source_ids\": [20],\n      \"facts\": [\n        {\n          \"source_id\": 20,\n          \"statement\": \"CT 스캔에서 장기 분할, 결석 후보 검출, 3D 메시 생성, PCNL 수술 계획을 수행하여 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 프로토타입 파이프라인이 공개되었습니다.\",\n          \"quote\": \"connects medical CT imaging to ROS 2 visualization and robot simulation . The pipeline starts from a DICOM / NIfTI CT scan\"\n        }\n      ]\n    },\n    {\n      \"title\": \"ROS 2 및 Isaac Sim 기반 궤도 우주 로보틱스 시뮬레이션 사례\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"항공전자 및 궤도 동역학 검증에 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 우주 로보틱스 프로젝트 사례를 다룹니다.\",\n      \"source_ids\": [53],\n      \"facts\": [\n        {\n          \"source_id\": 53,\n          \"statement\": \"위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 활용한 연구 프로젝트 내용이 공유되었습니다.\",\n          \"quote\": \"I utilized Isaac Sim 5.1 and ROS2 Jazzy for avionics and orbit dynamics\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Arduino VENTUNO Q: 로보틱스 개발 지원 신규 하드웨어 보드 발표\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"소형 로봇 제어 및 센서 인터페이스 구축에 널리 쓰이는 아두이노 생태계의 전용 로보틱스 보드 출시 소식입니다.\",\n      \"source_ids\": [69],\n      \"facts\": [\n        {\n          \"source_id\": 69,\n          \"statement\": \"Arduino가 로보틱스 개발을 단순화하기 위한 새로운 VENTUNO Q 보드를 공개했습니다.\",\n          \"quote\": \"With the new VENTUNO Q board, Arduino hopes to make robotics development easier\"\n        }\n      ]\n    },\n    {\n      \"title\": \"TIAGo 로봇용 QERRA-v2 Classical 결정론적 안전 반사 및 도덕 실행 가드레일 실험\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"Webots 시뮬레이터 환경에서 행동 트리에 텍스트 지시 검증 및 물리적 충돌 회피 반사 계층을 적용한 안전 실험 결과를 다룹니다.\",\n      \"source_ids\": [30, 73],\n      \"facts\": [\n        {\n          \"source_id\": 30,\n          \"statement\": \"로봇 행동 트리의 텍스트 지시 실행 전 위험을 차단하는 QERRA-v2 Classical 실행 가드를 PAL Robotics TIAGo 시뮬레이션 환경에서 스트레스 테스트했습니다.\",\n          \"quote\": \"evaluating an execution guard for robot Behavior Trees (QERRA-v2 Classical, tested in Webots simulation on a PAL Robotics TIAGo)\"\n        },\n        {\n          \"source_id\": 73,\n          \"statement\": \"QERRA-v2 Classical의 레이어 1 물리적 안전 반사(QERRA-HSR v0.1)를 TIAGo 로봇 Webots 시뮬레이션으로 시연했습니다.\",\n          \"quote\": \"simulation demo (Demo 6) from my work on QERRA-v2 Classical, focusing on Layer 1 (the physical safety reflex, QERRA-HSR v0.1 )\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Ollama v0.34.3 및 v0.34.4: 생각 모델 구조화 출력 단일 패스 지원 및 Apple Silicon 가속\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"추론 모델의 think 파라미터 제어, 구조화된 출력(JSON 등) 단일 패스 처리, Apple Silicon 상의 비전 모델 및 처리 속도 최적화가 포함되어 로컬 추론 성능이 개선되었습니다.\",\n      \"source_ids\": [42, 76],\n      \"facts\": [\n        {\n          \"source_id\": 42,\n          \"statement\": \"GET /api/show 엔드포인트와 CLI에서 모델의 thinking 제어값 및 기본값을 조회할 수 있게 되었으며, MLX 기반 Nemotron H 비전 모델이 지원됩니다.\",\n          \"quote\": \"GET /api/show now advertises each model's thinking controls and default\"\n        },\n        {\n          \"source_id\": 76,\n          \"statement\": \"생각 모델에 대한 구조화 출력을 단일 패스로 적용해 속도와 안정성을 개선했으며, Apple Silicon에서 Qwen 3.8 프롬프트 처리 가속 및 Gemma 4 최적 해상도 동적 선택을 지원합니다.\",\n          \"quote\": \"Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Anthropic Python SDK v1.7.0 및 v1.8.0: Claude Opus 5.5 지원 및 MCP 도구 고정 기능 추가\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"신규 claude-opus-5-5 모델 호출, 인라인 도구 정의, MCP 도구 목록 고정(베타), 도구 압축 최적화 등 에이전트 개발 기능이 확장되었습니다.\",\n      \"source_ids\": [11, 41],\n      \"facts\": [\n        {\n          \"source_id\": 11,\n          \"statement\": \"Anthropic SDK v1.7.0에서 도구 실행기에 compact_before_next_turn()이 추가되었고 속도 제한 API에 group 정보가 추가되었습니다.\",\n          \"quote\": \"tools: add compact_before_next_turn() to the tool runner\"\n        },\n        {\n          \"source_id\": 41,\n          \"statement\": \"Anthropic SDK v1.8.0에서 claude-opus-5-5 지원, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능이 추가되었습니다.\",\n          \"quote\": \"api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta)\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OpenAI GPT-6 프롬프트 캐싱 개선: 명시적 브레이크포인트 및 제어 기능 추가\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"GPT-6 API 사용 시 높은 캐시 적중률과 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 줄이는 방안을 제시합니다.\",\n      \"source_ids\": [34],\n      \"facts\": [\n        {\n          \"source_id\": 34,\n          \"statement\": \"GPT-6에서 높은 캐시 적중률, 새로운 진단 기능, 명시적 브레이크포인트를 통해 지연 시간과 비용을 줄일 수 있는 프롬프트 캐싱 개선 사항이 공개되었습니다.\",\n          \"quote\": \"higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OpenAI GPT-6 Sol 및 Luna 모델 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"성능과 비용 균형을 다르게 맞춘 GPT-6 패밀리의 신규 모델 2종이 출시되었습니다.\",\n      \"source_ids\": [35],\n      \"facts\": [\n        {\n          \"source_id\": 35,\n          \"statement\": \"성능과 비용의 균형을 다르게 맞춘 업무용 프론티어 인텔리전스 모델 GPT-6 Sol과 Luna가 발표되었습니다.\",\n          \"quote\": \"Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work\"\n        }\n      ]\n    },\n    {\n      \"title\": \"LiteLLM v1.102.0 / v1.102.1: cosign 기반 Docker 이미지 암호화 서명 검증 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"컨테이너 배포 환경에서 LiteLLM 이미지의 무결성과 보안을 cosign 서명 검증을 통해 확인할 수 있습니다.\",\n      \"source_ids\": [43, 68],\n      \"facts\": [\n        {\n          \"source_id\": 43,\n          \"statement\": \"모든 LiteLLM Docker 이미지가 cosign으로 서명되며 고정 커밋 해시 키를 사용한 검증 절차가 안내되었습니다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign . Every release is signed with the same key\"\n        },\n        {\n          \"source_id\": 68,\n          \"statement\": \"LiteLLM v1.102.1 버전에서도 동일한 고정 커밋 기반 cosign 공개 키를 통한 서명 검증이 유지됩니다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53\"\n        }\n      ]\n    },\n    {\n      \"title\": \"llm CLI 0.36 릴리스: GPT-6 Sol 및 Luna 모델 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"로컬 터미널 도구 llm에서 OpenAI의 최신 GPT-6 계열 모델을 직접 지정해 호출할 수 있습니다.\",\n      \"source_ids\": [63],\n      \"facts\": [\n        {\n          \"source_id\": 63,\n          \"statement\": \"llm 0.36 릴리스에서 gpt-6-sol 및 gpt-6-luna 신규 OpenAI 모델 지원이 추가되었습니다.\",\n          \"quote\": \"Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Private AI Compute에 서버 측 보안 메모리 기술 도입\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"개인화 AI 처리를 위해 프라이빗 AI 컴퓨팅 환경에 기밀 서버 측 메모리를 결합하는 인프라 아키텍처를 공개했습니다.\",\n      \"source_ids\": [57],\n      \"facts\": [\n        {\n          \"source_id\": 57,\n          \"statement\": \"DeepMind가 개인화 AI 처리를 위한 Private AI Compute에 보안 서버 측 메모리 기술을 도입했습니다.\",\n          \"quote\": \"Introducing private, server-side memory to Private AI Compute for personal AI.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Gemini 3.8 TTS 모델 기반 대화형 웹 테스트 도구 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"Google의 gemini-3.8-flash-tts 등 신규 음성 합성 모델을 웹에서 직접 시험해볼 수 있는 플레이그라운드 도구입니다.\",\n      \"source_ids\": [59],\n      \"facts\": [\n        {\n          \"source_id\": 59,\n          \"statement\": \"Google이 출시한 gemini-3.8-flash-tts 등 두 음성 모델을 테스트할 수 있는 제3자 웹 도구 'Gemini 3.8 TTS Playground'가 공개되었습니다.\",\n          \"quote\": \"Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts\"\n        }\n      ]\n    },\n    {\n      \"title\": \"TypeSafe AI의 Jev 의사결정 모델 및 llm 플러그인 연동\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"새로운 '시스템 1 의사결정 모델' 카테고리를 표방하는 Jev 모델의 개념과 이를 llm CLI에서 호출할 수 있는 전용 플러그인이 공개되었습니다.\",\n      \"source_ids\": [24, 37],\n      \"facts\": [\n        {\n          \"source_id\": 24,\n          \"statement\": \"TypeSafe AI가 System One 의사결정 모델 카테고리의 첫 모델인 Jev를 공개했습니다.\",\n          \"quote\": \"TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \\\"System One models\\\"\"\n        },\n        {\n          \"source_id\": 37,\n          \"statement\": \"Jev 모델을 llm CLI 도구에서 사용할 수 있도록 지원하는 플러그인 llm-typesafe 0.1a0이 공개되었습니다.\",\n          \"quote\": \"Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model\"\n        }\n      ]\n    },\n    {\n      \"title\": \"PickNik Robotics와 Qualcomm Technologies, 로봇 매니퓰레이션 협력 발표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"MoveIt 핵심 개발사인 PickNik과 퀄컴의 협력을 통해 로봇 조작 소프트웨어의 칩셋 가속 및 상용 배포 기반이 확장될 수 있습니다.\",\n      \"source_ids\": [50],\n      \"facts\": [\n        {\n          \"source_id\": 50,\n          \"statement\": \"PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결하고 로봇 매니퓰레이션 분야에서 협력한다고 발표했습니다.\",\n          \"quote\": \"PickNik Inc. and Qualcomm Technologies, Inc. are joining forces\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Boston Dynamics, 현대차 메타플랜트에 Atlas 휴머노이드 트레이닝 센터 오픈\",\n      \"section\": \"section_industry\",\n      \"reason\": \"현대자동차 조지아 메타플랜트 내에 전기식 Atlas 인간형 로봇의 현장 공정 훈련 시설을 구축하여 상용 배포를 준비합니다.\",\n      \"source_ids\": [27],\n      \"facts\": [\n        {\n          \"source_id\": 27,\n          \"statement\": \"Boston Dynamics가 조지아주 현대차 메타플랜트 아메리카 내에 Atlas 인간형 로봇 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 열었습니다.\",\n          \"quote\": \"Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Epson, 경량 AX6 협동로봇 및 노코드 프로그래밍 환경 공개\",\n      \"section\": \"section_industry\",\n      \"reason\": \"작업자 안전을 위한 힘·동력 제한 기능을 탑재한 6축 협동로봇 신제품 소식입니다.\",\n      \"source_ids\": [80],\n      \"facts\": [\n        {\n          \"source_id\": 80,\n          \"statement\": \"Epson Robots가 콤팩트한 설계와 노코드 프로그래밍을 지원하는 경량 힘·동력 제한 6축 협동로봇 AX6를 발표했습니다.\",\n          \"quote\": \"expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Hirebotics 협동로봇, 라인 트래킹 및 리니어 레일 기능 추가\",\n      \"section\": \"section_industry\",\n      \"reason\": \"협동로봇의 작업 반경을 확장하고 이송 라인 상의 작업 유연성을 높이는 상용 솔루션 업데이트입니다.\",\n      \"source_ids\": [15],\n      \"facts\": [\n        {\n          \"source_id\": 15,\n          \"statement\": \"Hirebotics가 자사 협동로봇에 작업 반경을 넓히고 유연성을 제공하는 라인 트래킹과 리니어 레일 기능을 추가했습니다.\",\n          \"quote\": \"Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"IFR 보고서: 전 세계 제조 현장 가동 산업용 로봇 500만 대 돌파\",\n      \"section\": \"section_industry\",\n      \"reason\": \"국제 로봇 연맹(IFR)의 최신 글로벌 로봇 도입 현황 및 시장 통계 자료입니다.\",\n      \"source_ids\": [78],\n      \"facts\": [\n        {\n          \"source_id\": 78,\n          \"statement\": \"IFR 보고서에 따르면 전 세계 공장에서 가동 중인 산업용 로봇이 500만 대를 기록했으며, 중국이 설치를 주도하고 미국과 독일이 주요 시장으로 뒤를 이었습니다.\",\n          \"quote\": \"5 million robots are now at work in factories worldwide, reports the IFR\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Indy Autonomous Challenge, 라구나 세카에서 도로 코스 최초 자율 추월 완료\",\n      \"section\": \"section_industry\",\n      \"reason\": \"고속 자율주행 레이싱에서 로드 코스 최초의 실시간 추월 기록이 달성되었습니다.\",\n      \"source_ids\": [26],\n      \"facts\": [\n        {\n          \"source_id\": 26,\n          \"statement\": \"라구나 세카에서 열린 Indy Autonomous Challenge에서 Unimore Racing이 우승했으며, 로드 코스 최초로 자율주행 차량 추월을 기록했습니다.\",\n          \"quote\": \"marking the IAC's first autonomous car overtakes on a road course.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Helicon, 복합재 제조 자동화를 위한 시드 투자 유치\",\n      \"section\": \"section_industry\",\n      \"reason\": \"복합재 생산 리드타임을 자동화로 대폭 단축하려는 제조 스타트업의 투자 유치 소식입니다.\",\n      \"source_ids\": [70],\n      \"facts\": [\n        {\n          \"source_id\": 70,\n          \"statement\": \"Helicon이 복합재 제조 리드타임을 수개월에서 수주로 단축하는 자동화 구현을 위해 시드 투자를 유치했습니다.\",\n          \"quote\": \"Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 2,\n      \"reason\": \"기능 변경 내용이나 릴리스 노트 근거가 전혀 없는 단순 서명 커밋 정보입니다.\"\n    },\n    {\n      \"source_id\": 3,\n      \"reason\": \"호주 청소년 안전 정책 및 로드맵 발표로 기술적 변경 사항이 아닙니다.\"\n    },\n    {\n      \"source_id\": 4,\n      \"reason\": \"ChatGPT 엔터프라이즈 도입 기업의 비즈니스 활용 홍보성 기사입니다.\"\n    },\n    {\n      \"source_id\": 5,\n      \"reason\": \"Claude Code 도입에 대한 커뮤니티 개발자의 개인적 푸념 및 인용글입니다.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"개인 휴대폰 제어 목적의 소규모 커스텀 플러그인으로 보편적 기술 정보가 부족합니다.\"\n    },\n    {\n      \"source_id\": 7,\n      \"reason\": \"특정 사이트 세션 버그 수정을 다룬 소규모 웹 플러그인 업데이트입니다.\"\n    },\n    {\n      \"source_id\": 8,\n      \"reason\": \"구체적 기술 분석이 결여된 풍자 및 벤치마크 관련 외부 인용 소식입니다.\"\n    },\n    {\n      \"source_id\": 9,\n      \"reason\": \"LLM에 대한 개인적 비유와 감상을 적은 짧은 칼럼성 노트입니다.\"\n    },\n    {\n      \"source_id\": 10,\n      \"reason\": \"본문 설명과 근거가 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 12,\n      \"reason\": \"v0.34.3-rc1 프리릴리스 버전으로 제외 기준에 해당합니다.\"\n    },\n    {\n      \"source_id\": 13,\n      \"reason\": \"주간 외부 로봇 동영상 큐레이션 링크 모음입니다.\"\n    },\n    {\n      \"source_id\": 14,\n      \"reason\": \"휴머노이드 폐기 절차에 관한 일반 오피니언 칼럼 기사입니다.\"\n    },\n    {\n      \"source_id\": 16,\n      \"reason\": \"로보틱스 패키징 사업 기회에 관한 일반 비즈니스 논평 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 17,\n      \"reason\": \"ROS 문서 사이트 접속 불량에 관한 커뮤니티 문제 문의 게시글입니다.\"\n    },\n    {\n      \"source_id\": 18,\n      \"reason\": \"ROSCon 일정으로 인한 주간 회의 취소 안내 공지입니다.\"\n    },\n    {\n      \"source_id\": 19,\n      \"reason\": \"해양 소프트웨어 에이전트 플러그인 개발 시작을 알리는 학부생 소개 글로 구체적 기술 정보가 부족합니다.\"\n    },\n    {\n      \"source_id\": 21,\n      \"reason\": \"외부 수학-AI 자문그룹 구성에 관한 일반 홍보 공지입니다.\"\n    },\n    {\n      \"source_id\": 22,\n      \"reason\": \"동영상 광고 제작 업체의 GPT-6 파트너십 활용 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 23,\n      \"reason\": \"글로벌 AI 표준 및 거버넌스 촉구에 관한 일반 정책 제안문입니다.\"\n    },\n    {\n      \"source_id\": 25,\n      \"reason\": \"MCP 프로토콜 논쟁에 대한 커뮤니티 댓글 및 개인 의견 게시글입니다.\"\n    },\n    {\n      \"source_id\": 28,\n      \"reason\": \"Physical AI 안전 계층의 중요성을 논하는 NVIDIA 기업 블로그 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 29,\n      \"reason\": \"AI 보안 엔지니어링 접근법을 다룬 원론적 기업 블로그 칼럼입니다.\"\n    },\n    {\n      \"source_id\": 36,\n      \"reason\": \"고객사의 GPT-6 활용 비용 절감 사례 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 38,\n      \"reason\": \"본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 39,\n      \"reason\": \"본문 근거가 전혀 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 40,\n      \"reason\": \"본문 근거가 전혀 없는 벤치마크 분석 페이지 링크(title_only)입니다.\"\n    },\n    {\n      \"source_id\": 44,\n      \"reason\": \"로봇 연구자 개인에 대한 인터뷰 및 인물 소개 기사입니다.\"\n    },\n    {\n      \"source_id\": 45,\n      \"reason\": \"RoboBusiness 컨퍼런스 발표 예정 세션에 대한 사전 행사 안내입니다.\"\n    },\n    {\n      \"source_id\": 46,\n      \"reason\": \"RoboBusiness 컨퍼런스 패널 토의 사전 행사 안내입니다.\"\n    },\n    {\n      \"source_id\": 49,\n      \"reason\": \"ROSCon 2026 실시간 스트리밍 시청 안내 링크입니다.\"\n    },\n    {\n      \"source_id\": 52,\n      \"reason\": \"ROSCon 오프라인 밋업 참석자 대상 후속 모임 스레드 공지입니다.\"\n    },\n    {\n      \"source_id\": 54,\n      \"reason\": \"OpenAI Academy 2주년 기념 교육 지원 일반 홍보 기사입니다.\"\n    },\n    {\n      \"source_id\": 55,\n      \"reason\": \"우크라이나 민간 사이버 인프라 지원에 대한 비기술 뉴스입니다.\"\n    },\n    {\n      \"source_id\": 56,\n      \"reason\": \"UN 안전보장이사회 연설문 전문으로 정책성 발언입니다.\"\n    },\n    {\n      \"source_id\": 58,\n      \"reason\": \"본문 내용과 기술 설명이 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 60,\n      \"reason\": \"CSS Shadow roots 설명 아티팩트로 AI 및 로보틱스 주제와 관련이 없습니다.\"\n    },\n    {\n      \"source_id\": 61,\n      \"reason\": \"샌프란시스코 현지 오프라인 밋업(BoF) 참가자 모집 공지입니다.\"\n    },\n    {\n      \"source_id\": 62,\n      \"reason\": \"신규 모델 출시 상황에 대한 개인 개발자의 짧은 촌평입니다.\"\n    },\n    {\n      \"source_id\": 64,\n      \"reason\": \"본문 근거와 재현 방법이 없는 제목 전용(title_only) 학술 소식입니다.\"\n    },\n    {\n      \"source_id\": 65,\n      \"reason\": \"본문 설명이 제공되지 않는 제목 전용(title_only) 하드웨어 지원 소식입니다.\"\n    },\n    {\n      \"source_id\": 66,\n      \"reason\": \"2025년 과거 게시글 인용이며 본문 근거가 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 67,\n      \"reason\": \"v0.34.4-rc0 프리릴리스 버전으로 제외 기준에 해당합니다.\"\n    },\n    {\n      \"source_id\": 71,\n      \"reason\": \"RoboBusiness 기조연설 참가자 및 행사 사전 안내입니다.\"\n    },\n    {\n      \"source_id\": 74,\n      \"reason\": \"본문 근거와 제품 상세 설명이 없는 제목 전용(title_only) 링크입니다.\"\n    },\n    {\n      \"source_id\": 75,\n      \"reason\": \"본문 내용이 없는 제목 전용(title_only) 외부 인문학 블로그 링크입니다.\"\n    },\n    {\n      \"source_id\": 77,\n      \"reason\": \"멕시코 고등학교 교육용 플랫폼 제작에 관한 일반 지역 프로젝트 소개 기사입니다.\"\n    },\n    {\n      \"source_id\": 79,\n      \"reason\": \"모션 아키텍처 선택에 관한 공급업체 기술 마케팅 칼럼입니다.\"\n    }\n  ]\n}",
+        "promptSha256": "31ec1bab0db90fff1f2bae9e64aac5980ad14611487d6d5837c764bd51a162dc",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 7634,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 22907,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 22907
+            }
+          ],
+          "thoughts_token_count": 14078,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 44619,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      },
+      {
+        "stage": "draft",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 6.52,
+        "raw": "{\n  \"one_sentence_summary\": \"Isaac ROS 5.0 릴리스와 주요 모델 API 업데이트 및 협동로봇·우주 시뮬레이션 활용 사례가 공개되었습니다.\",\n  \"weekly_themes\": \"- 해석: Isaac Sim과 ROS 2 Jazzy 연동 사례 및 Isaac ROS 5.0 릴리스는 로보틱스 개발 전반에서 시뮬레이션과 온로봇 가속 파이프라인의 연계를 보여줍니다 [47, 53]\\n- 해석: OpenAI의 GPT-6 계열 모델 출시와 llm CLI의 신속한 전용 모델 플래그 추가는 프론티어 LLM의 로컬 개발 도구 수용 흐름을 나타냅니다 [35, 63]\",\n  \"section_robotics\": \"- **Online Camera Calibration**: 체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라 파라미터와 왜곡을 보정할 수 있으며, 이미지 직접 업로드와 ROS bag 지정을 지원하는 웹 도구입니다 [1]\\n- **Isaac ROS 5.0**: Isaac ROS Common 5.0.0 및 NITROS 5.0.0 릴리스와 함께 에이전틱 워크플로 및 신규 플랫폼 지원을 도입했습니다 [32, 33, 47, 48]\\n- **Isaac ROS cuMotion 가이드**: 매니퓰레이션 환경에서 목표 포즈 도달 시 자가 충돌 방지, 고정 구조물 회피, 신규 관측 장애물 회피를 지원하는 GPU 가속 모션 플래닝 파이프라인 적용 원리를 다룹니다 [31]\\n- **rclrs 0.8.0**: 안전한 시스템 프로그래밍 언어인 Rust 기반의 공식 ROS 2 클라이언트 라이브러리 v0.8.0이 릴리스되었습니다 [51]\\n- **ros2_unbag**: rosbag 데이터 추출 유틸리티인 ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 배포되기 시작했습니다 [72]\\n- **신장 결석 수술 계획 ROS 2 프로토타입**: CT 영상(DICOM/NIfTI)의 장기 분할, 결석 후보 검출, 3D 메시 생성부터 PCNL 수술 계획을 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 파이프라인 사례입니다 [20]\\n- **궤도 우주 로보틱스 시뮬레이션 사례**: 위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 결합한 연구 프로젝트 구현 내용이 공유되었습니다 [53]\\n- **Arduino VENTUNO Q**: 로보틱스 개발을 단순화하기 위해 설계된 새로운 하드웨어 보드 VENTUNO Q가 공개되었습니다 [69]\\n- **TIAGo 로봇용 QERRA-v2 Classical 실험**: Webots 시뮬레이터 내 PAL Robotics TIAGo 환경에서 행동 트리의 지시 실행 전 위험을 차단하는 가드와 물리적 충돌 회피 반사 계층(QERRA-HSR v0.1)의 동작을 시연했습니다 [30, 73]\",\n  \"section_devtools\": \"- **Ollama v0.34.3 / v0.34.4**: 생각 모델에 대한 구조화 출력(JSON 등) 단일 패스 처리, thinking 제어값 조회 API, Apple Silicon 상의 Qwen 3.8 프롬프트 처리 가속 및 MLX 기반 Nemotron H 비전 모델 지원이 추가되었습니다 [42, 76]\\n- **Anthropic Python SDK v1.7.0 / v1.8.0**: claude-opus-5-5 모델 호출, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능 및 도구 압축 최적화(compact_before_next_turn)가 도입되었습니다 [11, 41]\\n- **OpenAI GPT-6 프롬프트 캐싱**: 높은 캐시 적중률과 새로운 진단 기능, 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 절감하는 캐싱 제어 기능이 공개되었습니다 [34]\\n- **OpenAI GPT-6 Sol 및 Luna**: 일상 업무 환경을 목표로 성능과 비용의 균형을 다르게 맞춘 신규 프론티어 모델 2종이 발표되었습니다 [35]\\n- **LiteLLM v1.102.0 / v1.102.1**: 컨테이너 이미지 무결성 검증을 위해 cosign 기반 Docker 이미지 서명 및 고정 커밋 해시 키 검증 절차가 적용되었습니다 [43, 68]\\n- **llm CLI 0.36**: 터미널 LLM 도구 llm에서 신규 OpenAI 모델인 gpt-6-sol 및 gpt-6-luna를 직접 지정해 호출할 수 있는 지원이 추가되었습니다 [63]\\n- **Google DeepMind Private AI Compute 보안 메모리**: 개인화 AI 처리를 지원하기 위해 Private AI Compute 인프라에 서버 측 보안 메모리 기술을 도입했습니다 [57]\\n- **Gemini 3.8 TTS Playground**: Google이 발표한 gemini-3.8-flash-tts 등 2종의 음성 합성 모델을 웹 브라우저에서 직접 시험해볼 수 있는 제3자 대화형 테스트 도구입니다 [59]\\n- **TypeSafe AI Jev 모델 및 llm-typesafe**: 의사결정 모델 카테고리를 표방하는 Jev 모델이 공개되었으며, 이를 로컬 CLI에서 호출할 수 있는 llm 플러그인(0.1a0)이 제공됩니다 [24, 37]\",\n  \"section_industry\": \"- **PickNik Robotics - Qualcomm Technologies 파트너십**: 로봇 매니퓰레이션 기술 역량 확장을 위한 양사 협력이 발표되었습니다 [50]\\n- **Boston Dynamics 메타플랜트 트레이닝 센터**: 조지아주 현대차 메타플랜트 아메리카(HMGMA) 내에 Atlas 인간형 로봇의 현장 공정 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 개소했습니다 [27]\\n- **Epson AX6 6축 협동로봇**: 힘·동력 제한 기능을 탑재한 경량 6축 협동로봇 AX6와 노코드 프로그래밍 환경이 공개되었습니다 [80]\\n- **Hirebotics 협동로봇 기능 업데이트**: 라인 트래킹 및 리니어 레일 기능을 추가하여 생산 현장에서 협동로봇의 작업 반경과 공정 유연성을 확장했습니다 [15]\\n- **IFR 글로벌 산업용 로봇 현황 보고**: 전 세계 제조 공장에서 가동 중인 산업용 로봇이 500만 대를 돌파했으며, 중국이 설치를 주도하고 미국과 독일이 그 뒤를 잇고 있습니다 [78]\\n- **Indy Autonomous Challenge 라구나 세카 자율 추월**: Unimore Racing이 우승을 차지하며 대회 역사상 로드 코스 최초의 자율주행 차량 간 추월 기록을 수립했습니다 [26]\\n- **Helicon 시드 투자 유치**: 복합재 제조 리드타임을 수개월에서 수주 단위로 단축하기 위한 자동화 솔루션 구축 목적으로 시드 펀딩을 확보했습니다 [70]\"\n}",
+        "promptSha256": "fcc9fd91990376d50ab89ef08e20e8bba13c226c5440b93d4a49c693f7108ddb",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 1657,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 8083,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 8083
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 9740,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      },
+      {
+        "stage": "review",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 10.68,
+        "raw": "{\n  \"verified\": true,\n  \"findings\": [\n    \"수집일자를 임의의 사건 발생일로 추정하지 않고 버전 및 기능 중심의 서술을 유지했습니다.\",\n    \"Ollama 프리릴리스(rc) 버전 대신 정식 태그(v0.34.3, v0.34.4)의 변경 내역을 바탕으로 기술 사실을 정확하게 통합했습니다.\",\n    \"Gemini 3.8 TTS 모델 발표와 제3자 플레이그라운드 웹 도구(Simon Willison)의 주체를 명확히 구분하여 기술했습니다.\",\n    \"Isaac ROS 5.0 릴리스의 공식 커밋 및 보도자료를 상호 보완하여 플랫폼 및 에이전틱 워크플로 변경 사항을 보존했습니다.\",\n    \"관찰(weekly_themes) 항목에 서로 다른 2개 이상의 독립 출처를 명시하고 '해석:' 표기를 적용했습니다.\"\n  ],\n  \"removed_entries\": [],\n  \"report\": {\n    \"one_sentence_summary\": \"Isaac ROS 5.0 릴리스와 주요 모델 API 업데이트 및 협동로봇·우주 시뮬레이션 활용 사례가 공개되었습니다.\",\n    \"weekly_themes\": \"- 해석: Isaac Sim과 ROS 2 Jazzy 연동 사례 및 Isaac ROS 5.0 릴리스는 로보틱스 개발 전반에서 시뮬레이션과 온로봇 가속 파이프라인의 연계를 보여줍니다 [47, 53]\\n- 해석: OpenAI의 GPT-6 계열 모델 출시와 llm CLI의 신속한 전용 모델 플래그 추가는 프론티어 LLM의 로컬 개발 도구 수용 흐름을 나타냅니다 [35, 63]\",\n    \"section_robotics\": \"- **Online Camera Calibration**: 체커보드나 맞춤 타깃 없이 질감이 있는 평평한 표면만으로 카메라 파라미터와 왜곡을 보정할 수 있으며, 이미지 직접 업로드와 ROS bag 지정을 지원하는 웹 도구입니다 [1]\\n- **Isaac ROS 5.0**: Isaac ROS Common 5.0.0 및 NITROS 5.0.0 릴리스와 함께 에이전틱 워크플로 및 신규 플랫폼 지원을 도입했습니다 [32, 33, 47, 48]\\n- **Isaac ROS cuMotion 가이드**: 매니퓰레이션 환경에서 목표 포즈 도달 시 자가 충돌 방지, 고정 구조물 회피, 신규 관측 장애물 회피를 지원하는 GPU 가속 모션 플래닝 파이프라인 적용 원리를 다룹니다 [31]\\n- **rclrs 0.8.0**: 안전한 시스템 프로그래밍 언어인 Rust 기반의 공식 ROS 2 클라이언트 라이브러리 v0.8.0이 릴리스되었습니다 [51]\\n- **ros2_unbag**: rosbag 데이터 추출 유틸리티인 ros2_unbag 도구가 ROS 2 공식 빌드팜을 통해 정식 배포되기 시작했습니다 [72]\\n- **신장 결석 수술 계획 ROS 2 프로토타입**: CT 영상(DICOM/NIfTI)의 장기 분할, 결석 후보 검출, 3D 메시 생성부터 PCNL 수술 계획을 ROS 2 시각화 및 로봇 시뮬레이션으로 연결하는 파이프라인 사례입니다 [20]\\n- **궤도 우주 로보틱스 시뮬레이션 사례**: 위성 항공전자 및 궤도 동역학 검증을 위해 Isaac Sim 5.1과 ROS 2 Jazzy를 결합한 연구 프로젝트 구현 내용이 공유되었습니다 [53]\\n- **Arduino VENTUNO Q**: 로보틱스 개발을 단순화하기 위해 설계된 새로운 하드웨어 보드 VENTUNO Q가 공개되었습니다 [69]\\n- **TIAGo 로봇용 QERRA-v2 Classical 실험**: Webots 시뮬레이터 내 PAL Robotics TIAGo 환경에서 행동 트리의 지시 실행 전 위험을 차단하는 가드와 물리적 충돌 회피 반사 계층(QERRA-HSR v0.1)의 동작을 시연했습니다 [30, 73]\",\n    \"section_devtools\": \"- **Ollama v0.34.3 / v0.34.4**: 생각 모델에 대한 구조화 출력(JSON 등) 단일 패스 처리, thinking 제어값 조회 API, Apple Silicon 상의 Qwen 3.8 프롬프트 처리 가속 및 MLX 기반 Nemotron H 비전 모델 지원이 추가되었습니다 [42, 76]\\n- **Anthropic Python SDK v1.7.0 / v1.8.0**: claude-opus-5-5 모델 호출, 인라인 도구 정의, 베타 MCP 도구 목록 고정 기능 및 도구 압축 최적화(compact_before_next_turn)가 도입되었습니다 [11, 41]\\n- **OpenAI GPT-6 프롬프트 캐싱**: 높은 캐시 적중률과 새로운 진단 기능, 명시적 브레이크포인트 설정을 통해 지연 시간과 토큰 비용을 절감하는 캐싱 제어 기능이 공개되었습니다 [34]\\n- **OpenAI GPT-6 Sol 및 Luna**: 일상 업무 환경을 목표로 성능과 비용의 균형을 다르게 맞춘 신규 프론티어 모델 2종이 발표되었습니다 [35]\\n- **LiteLLM v1.102.0 / v1.102.1**: 컨테이너 이미지 무결성 검증을 위해 cosign 기반 Docker 이미지 서명 및 고정 커밋 해시 키 검증 절차가 적용되었습니다 [43, 68]\\n- **llm CLI 0.36**: 터미널 LLM 도구 llm에서 신규 OpenAI 모델인 gpt-6-sol 및 gpt-6-luna를 직접 지정해 호출할 수 있는 지원이 추가되었습니다 [63]\\n- **Google DeepMind Private AI Compute 보안 메모리**: 개인화 AI 처리를 지원하기 위해 Private AI Compute 인프라에 서버 측 보안 메모리 기술을 도입했습니다 [57]\\n- **Gemini 3.8 TTS Playground**: Google이 발표한 gemini-3.8-flash-tts 등 2종의 음성 합성 모델을 웹 브라우저에서 직접 시험해볼 수 있는 제3자 대화형 테스트 도구입니다 [59]\\n- **TypeSafe AI Jev 모델 및 llm-typesafe**: 의사결정 모델 카테고리를 표방하는 Jev 모델이 공개되었으며, 이를 로컬 CLI에서 호출할 수 있는 llm 플러그인(0.1a0)이 제공됩니다 [24, 37]\",\n    \"section_industry\": \"- **PickNik Robotics - Qualcomm Technologies 파트너십**: 로봇 매니퓰레이션 기술 역량 확장을 위한 양사 협력이 발표되었습니다 [50]\\n- **Boston Dynamics 메타플랜트 트레이닝 센터**: 조지아주 현대차 메타플랜트 아메리카(HMGMA) 내에 Atlas 인간형 로봇의 현장 공정 훈련을 위한 로보틱스 메타플랜트 애플리케이션 센터를 개소했습니다 [27]\\n- **Epson AX6 6축 협동로봇**: 힘·동력 제한 기능을 탑재한 경량 6축 협동로봇 AX6와 노코드 프로그래밍 환경이 공개되었습니다 [80]\\n- **Hirebotics 협동로봇 기능 업데이트**: 라인 트래킹 및 리니어 레일 기능을 추가하여 생산 현장에서 협동로봇의 작업 반경과 공정 유연성을 확장했습니다 [15]\\n- **IFR 글로벌 산업용 로봇 현황 보고**: 전 세계 제조 공장에서 가동 중인 산업용 로봇이 500만 대를 돌파했으며, 중국이 설치를 주도하고 미국과 독일이 그 뒤를 잇고 있습니다 [78]\\n- **Indy Autonomous Challenge 라구나 세카 자율 추월**: Unimore Racing이 우승을 차지하며 대회 역사상 로드 코스 최초의 자율주행 차량 간 추월 기록을 수립했습니다 [26]\\n- **Helicon 시드 투자 유치**: 복합재 제조 리드타임을 수개월에서 수주 단위로 단축하기 위한 자동화 솔루션 구축 목적으로 시드 펀딩을 확보했습니다 [70]\"\n  }\n}",
+        "promptSha256": "f3ed6350d7dc5e35df9162c06357a145e89618ae248897b5bbe6dfa5a5507905",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 1885,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 23134,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 23134
+            }
+          ],
+          "thoughts_token_count": 1185,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 26204,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      }
+    ],
+    "completedAt": "2026-09-26T11:53:15.469097+00:00"
+  }
+}

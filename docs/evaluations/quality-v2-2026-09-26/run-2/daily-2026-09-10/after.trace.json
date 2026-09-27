@@ -1,0 +1,83 @@
+[
+  {
+    "stage": "plan",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 12.43,
+    "raw": "{\"entries\":[{\"title\":\"rcl_logging_journal: ROS 2를 위한 systemd-journald 로깅 백엔드 공개\",\"section\":\"section_robotics\",\"reason\":\"기존 텍스트 로그 파일 대신 systemd-journald를 통해 노드별 필터링과 구조화된 로그 관리를 가능하게 하는 백엔드 구현체를 소개함\",\"source_ids\":[2],\"facts\":[{\"source_id\":2,\"statement\":\"rcl_logging_journal은 rcl_logging_interface를 통해 ROS 2 애플리케이션의 로그를 systemd-journald에 구조화된 인덱스 항목으로 직접 기록하는 로깅 백엔드이다.\",\"quote\":\"writes ROS 2 log records straight into systemd-journald\"}]},{\"title\":\"RRD 파일 포맷을 지원하는 실험적 rosbag2 스토리지 플러그인\",\"section\":\"section_robotics\",\"reason\":\"별도 내보내기 없이 rosbag 기록과 Rerun 시각화 및 PyTorch 데이터로더 연계를 직접 수행할 수 있는 플러그인 정보를 제공함\",\"source_ids\":[3],\"facts\":[{\"source_id\":3,\"statement\":\"Rerun은 rosbag2를 사용해 Rerun의 네이티브 파일 포맷인 RRD로 직접 기록할 수 있는 실험적 rosbag2 스토리지 플러그인을 개발했다.\",\"quote\":\"rosbag2 to record directly to RRD , Rerun’s native file format\"}]},{\"title\":\"오픈소스 안전 컨소시엄(OSSC) 출범 및 보호 정지 프로토타입 공개\",\"section\":\"section_robotics\",\"reason\":\"오픈소스 로보틱스 부품의 위험 분석, 안전 요구사항 등 안전 증거를 코드와 함께 공유하는 협의체 및 첫 프로토타입 정보를 다룸\",\"source_ids\":[5],\"facts\":[{\"source_id\":5,\"statement\":\"Open Source Safety Consortium은 Polymath Robotics를 창립 멤버로 하여 오픈소스 컴포넌트의 위험 분석, 안전 요구사항, 테스트 등 재사용 가능한 안전 증거를 개발하고 있다.\",\"quote\":\"reusable evidence for open-source components: hazard analyses\"}]},{\"title\":\"OpenAI, 비즈니스용 모델 GPT-6 Astra 공개\",\"section\":\"section_devtools\",\"reason\":\"고급 추론 및 컴퓨터 사용 기능을 갖춘 새로운 업무용 AI 모델의 특성을 전달함\",\"source_ids\":[6],\"facts\":[{\"source_id\":6,\"statement\":\"OpenAI는 고급 추론, 컴퓨터 사용, 향상된 글쓰기 및 디자인 판단력을 갖춘 비즈니스용 모델 GPT-6 Astra를 발표했다.\",\"quote\":\"advanced reasoning, computer use, and stronger writing and design judgment\"}]},{\"title\":\"OtoDock: Claude Code 및 Codex 기반 자체 호스팅 에이전트 OS\",\"section\":\"section_devtools\",\"reason\":\"조직 내 부서별 AI 에이전트 협업 및 도구 연동을 지원하는 셀프 호스팅 플랫폼의 기능과 아키텍처를 안내함\",\"source_ids\":[11],\"facts\":[{\"source_id\":11,\"statement\":\"OtoDock은 Claude Code 및 Codex를 기반으로 구축되어 Anthropic과 OpenAI 구독 또는 로컬 모델로 동작하는 자체 호스팅 멀티테넌트 에이전트 플랫폼이다.\",\"quote\":\"agentic company OS. The brains of your company, built on Claude Code & Codex\"}]},{\"title\":\"Monumental, 건설 현장 벽돌 조적 자동화 로봇 운용 사례 및 교훈 공유\",\"section\":\"section_industry\",\"reason\":\"건설 현장 환경에서 벽돌 조적 및 자재 운반 로봇을 실증하며 축적한 과제와 배포 경험을 제공함\",\"source_ids\":[13],\"facts\":[{\"source_id\":13,\"statement\":\"Monumental은 조적 로봇 Pisa와 자재 및 모르타르 공급을 보조하는 Petra, Panama 등 3종의 로봇을 구축하여 현장 작업을 수행하고 있다.\",\"quote\":\"Monumental has built three robots to handle the bricklaying process\"}]},{\"title\":\"유니트리, 상하이 증시 상장 후 주가 53% 하락 및 규제 동향\",\"section\":\"section_industry\",\"reason\":\"휴머노이드 로봇 제조사 유니트리의 상장 이후 주가 변동 및 중국 규제 당국의 관련 상장 심사 기준 강화를 설명함\",\"source_ids\":[14],\"facts\":[{\"source_id\":14,\"statement\":\"유니트리 로보틱스의 주가는 2026년 8월 상장 첫날 장중 최고가 대비 약 53% 하락했다.\",\"quote\":\"Shares of Unitree Robotics have fallen nearly 40% from their first-day closing price\"}]}],\"omitted\":[{\"source_id\":1,\"reason\":\"ROS PMC 위원 추가 영입에 관한 단순 인물 및 거버넌스 소식으로 제외 기준에 부합\"},{\"source_id\":4,\"reason\":\"ROSCon 준비 및 조직 내부 행정을 다룬 일반 조직 소식으로 제외 기준에 부합\"},{\"source_id\":7,\"reason\":\"이사회 및 위원회 인물 합류 소식으로 인물 소개 제외 기준에 부합\"},{\"source_id\":8,\"reason\":\"미공개 모델 기반의 학술 문제 해결 및 우선권 분쟁에 대한 해설로 코드 공개나 재현 도구가 없음\"},{\"source_id\":9,\"reason\":\"LLM 에이전트 구조에 관한 학술 논문 요약으로 코드 공개 및 직접 설치·사용 가능 여부가 불명확함\"},{\"source_id\":10,\"reason\":\"본문 근거가 극히 부족하고 구체적인 도구 설명이 없는 데모성 웹페이지\"},{\"source_id\":12,\"reason\":\"v0.34.0-rc5 프리릴리스 소식으로 호환성 변경이나 지원 종료 예고가 없어 프리릴리스 제외 기준에 해당\"},{\"source_id\":15,\"reason\":\"컨퍼런스(RoboBusiness) 행사 발표 세션을 예고하는 홍보성 기사로 일반 행사 제외 기준에 부합\"}]}",
+    "promptSha256": "852f5a1b7ade839663d39180d15daab2d94925c0d02d062a36efa9fa6e6cf30d",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1299,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 16902,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 16902
+        }
+      ],
+      "thoughts_token_count": 1917,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 20118,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "draft",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 2.09,
+    "raw": "{\"one_sentence_summary\": \"ROS 2 로깅·데이터 저장 플러그인과 오픈소스 안전 컨소시엄이 발표되었고, 비즈니스 AI 모델 및 에이전트 플랫폼 공개와 함께 건설 로봇 운용 사례 및 로봇 기업 상장 후 주가 변동이 보도되었습니다.\", \"cross_insight\": \"\", \"section_robotics\": \"- **rcl_logging_journal**: ROS 2 애플리케이션의 로그를 rcl_logging_interface를 통해 systemd-journald에 구조화된 인덱스 항목으로 직접 기록하는 로깅 백엔드 구현체입니다 [2].\\n- **RRD 지원 rosbag2 스토리지 플러그인**: rosbag2를 사용해 Rerun의 네이티브 파일 포맷인 RRD로 직접 데이터를 기록할 수 있는 실험적 스토리지 플러그인입니다 [3].\\n- **Open Source Safety Consortium(OSSC)**: Polymath Robotics를 창립 멤버로 출범하여 오픈소스 로보틱스 컴포넌트의 위험 분석, 안전 요구사항, 테스트 등 재사용 가능한 안전 증거를 개발하고 있습니다 [5].\", \"section_devtools\": \"- **OpenAI GPT-6 Astra**: 고급 추론, 컴퓨터 사용, 향상된 글쓰기 및 디자인 판단력을 갖춘 비즈니스용 AI 모델입니다 [6].\\n- **OtoDock**: Claude Code 및 Codex를 기반으로 구축되었으며 Anthropic과 OpenAI 구독 또는 로컬 모델로 동작하는 자체 호스팅 멀티테넌트 에이전트 플랫폼입니다 [11].\", \"section_industry\": \"- **Monumental 건설 현장 로봇 운용**: 조적 로봇 Pisa와 자재 및 모르타르 공급을 담당하는 Petra, Panama 등 3종의 로봇을 구축하여 현장 작업을 수행하고 있습니다 [13].\\n- **유니트리 로보틱스 상장 후 주가 변동**: 2026년 8월 상장 이후 첫날 장중 최고가 대비 주가가 약 53% 하락했습니다 [14].\"}",
+    "promptSha256": "5a66b491b3d1e67a573c84fd8ce6c9307cc75266405279101dbfb645dec082db",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 451,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3234,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3234
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 3685,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "review",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 7.08,
+    "raw": "{\n  \"verified\": true,\n  \"findings\": [\n    \"각 항목에 변경 사항, 적용 조건, 제약 및 한정 표현을 원문에 기반하여 구체적으로 보강했습니다.\",\n    \"rcl_logging_journal[2]에 journalctl을 통한 노드별 필터링, 추가 데몬 불필요, 핫패스 비동기 링 버퍼 등 기술적 특성과 제약을 명시했습니다.\",\n    \"RRD 플러그인[3]에 '실험적' 상태 명시 및 별도 export 없이 PyTorch 데이터로더와 직결되어 모델 학습이 가능하다는 핵심 효용을 추가했습니다.\",\n    \"Open Source Safety Consortium[5]의 첫 프로토타입(보호 정지)이 아직 인증되지 않았으며(SIL 3/PLr=e 목표), 단위 컴포넌트 증거 재사용이 전체 장비의 자동 승인을 의미하지 않는다는 한계와 적용 조건을 명시했습니다.\",\n    \"GPT-6 Astra[6]는 요약 피드 기반(제목/요약 기반)임을 명시하고 성능을 단정하지 않도록 표현을 정제했습니다.\",\n    \"OtoDock[11]의 커널 샌드박스 격리, 최대 5인 무료(FSL-1.1-Apache-2.0 라이선스) 등 운영 제약과 구조를 기술했습니다.\",\n    \"Monumental[13]의 건설 로봇 3종(Pisa, Petra, Panama) 역할과 현장 자재 의존성, 비정형 자재(검은 벽돌)에 따른 비전 모델 재학습 등 실제 배포 과제를 기술했습니다.\",\n    \"유니트리[14]의 상하이 증시 상장 후 최고가 대비 53% 하락 수치와 함께 공모가 대비 3배 이상 유지, 2025년 매출 구성(산업용 비중 10% 미만) 및 중국 당국의 상장 심사 강화 정황을 객관적으로 명시했습니다.\"\n  ],\n  \"removed_entries\": [],\n  \"report\": {\n    \"one_sentence_summary\": \"ROS 2 환경을 위한 systemd 로깅 백엔드와 RRD 스토리지 플러그인, 오픈소스 기능 안전 컨소시엄이 공개되었으며 업무용 AI 모델 출시와 자체 호스팅 에이전트 플랫폼, 건설 로봇 현장 실증 사례 및 휴머노이드 제조사의 상장 후 시장 동향이 공유되었습니다.\",\n    \"cross_insight\": \"\",\n    \"section_robotics\": \"- **rcl_logging_journal**: ROS 2 애플리케이션의 로그를 rcl_logging_interface를 통해 systemd-journald에 구조화된 인덱스 항목으로 직접 기록하여 별도 데몬 없이 journalctl로 노드별 실시간 필터링과 로그 보존을 지원하며, 핫패스에는 비동기 링 버퍼를 사용하고 치명적(FATAL) 오류는 동기 fsync로 처리하는 대안 로깅 백엔드입니다 [2].\\n- **RRD 지원 rosbag2 스토리지 플러그인**: rosbag2 기록 시 Rerun의 네이티브 포맷인 RRD로 직접 저장할 수 있는 실험적 플러그인으로, 기록 중 뷰어 스트리밍이 가능하고 컬럼형 Apache Arrow 청크 구조를 활용해 별도 내보내기 단계 없이 PyTorch 데이터로더로 모델 훈련에 직접 연계할 수 있습니다 [3].\\n- **Open Source Safety Consortium(OSSC)**: Polymath Robotics 등이 참여하여 오픈소스 컴포넌트의 위험 분석, 안전 요구사항, 테스트 등 안전 증거를 코드와 함께 버전 관리하는 협의체로, SIL 3/PLr=e 수준을 목표로 하는 보호 정지 프로토타입을 공개했으나 현재 인증 완료 상태는 아니며 단위 증거 재사용이 장비 전체의 안전 승인을 보장하지는 않는다고 밝혔습니다 [5].\",\n    \"section_devtools\": \"- **OpenAI GPT-6 Astra**: 고급 추론, 컴퓨터 사용, 글쓰기 및 디자인 판단력을 갖추었다고 발표된 비즈니스 업무 대상 AI 모델입니다 (제목 및 요약 기반) [6].\\n- **OtoDock**: Claude Code 및 Codex 기반으로 동작하며 사용자 구독 계정 또는 로컬 모델을 연결해 부서별 에이전트 협업과 도구 제어를 제공하는 자체 호스팅 플랫폼으로, 세션별 커널 샌드박스와 네트워크 격리를 기본 적용하며 최대 5인까지 무료 셀프 호스팅이 가능합니다 [11].\",\n    \"section_industry\": \"- **Monumental 건설 현장 로봇 운용**: 벽돌 조적 로봇 Pisa와 자재 공급 로봇 Petra, Panama 등 동일 플랫폼 기반 비인간형 로봇 3종을 현장 하청 형태로 투입하고 있으며, 현장 배포 시 자재 납품 종속성과 검은 벽돌 인식 오류로 인한 컴퓨터 비전 모델 재학습 등 실제 운영상의 제약과 과제를 공유했습니다 [13].\\n- **유니트리 로보틱스 상장 후 주가 변동**: 2026년 8월 상하이 STAR 마켓 상장 첫날 장중 최고가 대비 주가가 약 53% 하락했으나 여전히 공모가의 3배 이상 수준을 유지하고 있으며, 2025년 매출 중 산업용 비중이 10% 미만인 점과 함께 중국 규제 당국이 휴머노이드 업체의 상장 심사 기준을 비공식적으로 강화하고 있다는 보도가 이어졌습니다 [14].\"\n  }\n}",
+    "promptSha256": "032ef35979f2ac2c6383fab9ddfc4e49347bb0799f310b23f7f9a61c70777554",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1248,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 18755,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 18755
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 20003,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  }
+]

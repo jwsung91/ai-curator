@@ -1,0 +1,83 @@
+[
+  {
+    "stage": "plan",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 8.3,
+    "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"PickNik과 Qualcomm Technologies의 파트너십 발표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"로봇 매니퓰레이션 프레임워크 MoveIt 관련 기업 PickNik과 반도체 기업 Qualcomm의 협력 발표로 로보틱스 산업 생태계에 영향이 있는 소식입니다.\",\n      \"source_ids\": [2],\n      \"facts\": [\n        {\n          \"source_id\": 2,\n          \"statement\": \"PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결했다고 발표했습니다.\",\n          \"quote\": \"PickNik Inc. and Qualcomm Technologies, Inc. are joining forces\"\n        }\n      ]\n    },\n    {\n      \"title\": \"rclrs v0.8.0 릴리스\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"ROS 2의 Rust 클라이언트 라이브러리인 rclrs의 공식 신규 버전 배포 소식입니다.\",\n      \"source_ids\": [3],\n      \"facts\": [\n        {\n          \"source_id\": 3,\n          \"statement\": \"ROS 2 클라이언트 라이브러리 rclrs의 v0.8.0 버전이 릴리스되었습니다.\",\n          \"quote\": \"release of rclrs v0.8.0!\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google DeepMind, Private AI Compute에 서버 측 보안 메모리 도입\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"개인용 AI 연산 환경을 위한 서버 측 보안 메모리 기술 도입 소식으로 AI 개발 및 인프라 보안에 관련된 내용입니다.\",\n      \"source_ids\": [9],\n      \"facts\": [\n        {\n          \"source_id\": 9,\n          \"statement\": \"Google DeepMind가 개인용 AI를 위한 Private AI Compute에 비공개 서버 측 메모리를 도입했습니다.\",\n          \"quote\": \"private, server-side memory to Private AI Compute for personal AI.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Google, Gemini 3.8 텍스트 음성 변환(TTS) 모델 출시 (제목 기반)\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"Google DeepMind의 새로운 음성 합성 모델 Gemini 3.8 텍스트 음성 변환 모델 발표 소식입니다.\",\n      \"source_ids\": [10],\n      \"facts\": [\n        {\n          \"source_id\": 10,\n          \"statement\": \"Gemini 3.8 text-to-speech 모델이 공개되었습니다 (제목 기반).\",\n          \"quote\": \"Gemini 3.8 text-to-speech says hello\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Gemini 3.8 TTS Playground 도구 공개\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"새로 출시된 gemini-3.8-flash-tts 등 Gemini 음성 모델을 테스트할 수 있는 제3자 플레이그라운드 도구 안내입니다.\",\n      \"source_ids\": [11],\n      \"facts\": [\n        {\n          \"source_id\": 11,\n          \"statement\": \"gemini-3.8-flash-tts 등의 모델을 테스트할 수 있는 Gemini 3.8 TTS Playground 도구가 공개되었습니다.\",\n          \"quote\": \"Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts\"\n        }\n      ]\n    },\n    {\n      \"title\": \"LLM CLI 0.36 릴리스 및 GPT-6 Sol·Luna 모델 지원 추가\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"LLM CLI 도구에서 신규 OpenAI 모델인 GPT-6 Sol 및 GPT-6 Luna 지원이 추가된 버전 배포 소식입니다.\",\n      \"source_ids\": [15],\n      \"facts\": [\n        {\n          \"source_id\": 15,\n          \"statement\": \"llm 0.36 버전이 릴리스되었으며 gpt-6-sol 및 gpt-6-luna 모델 지원이 추가되었습니다.\",\n          \"quote\": \"llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Snapdragon X2 시리즈의 Linux 지원 예정 (제목 기반)\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"Snapdragon X2 시리즈 칩셋에 대한 Linux 지원 계획 발표 소식입니다.\",\n      \"source_ids\": [17],\n      \"facts\": [\n        {\n          \"source_id\": 17,\n          \"statement\": \"Qualcomm Snapdragon X2 시리즈에 Linux 지원이 제공될 예정입니다 (제목 기반).\",\n          \"quote\": \"Linux support is coming to Snapdragon X2 Series\"\n        }\n      ]\n    },\n    {\n      \"title\": \"LiteLLM v1.102.1 릴리스 및 Docker 이미지 cosign 서명 검증 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"LiteLLM 신규 릴리스와 함께 cosign을 통한 공식 Docker 이미지 무결성 검증 절차가 안내되었습니다.\",\n      \"source_ids\": [20],\n      \"facts\": [\n        {\n          \"source_id\": 20,\n          \"statement\": \"LiteLLM v1.102.1이 릴리스되었으며 모든 Docker 이미지는 cosign으로 서명되어 지정된 커밋 해시 키로 검증할 수 있습니다.\",\n          \"quote\": \"All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Arduino, 로보틱스 개발을 위한 VENTUNO Q 보드 발표\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"Arduino가 로보틱스 개발 편의성을 목표로 선보인 신규 하드웨어 보드 출시 소식입니다.\",\n      \"source_ids\": [21],\n      \"facts\": [\n        {\n          \"source_id\": 21,\n          \"statement\": \"Arduino가 로보틱스 개발을 용이하게 하기 위해 새로운 VENTUNO Q 보드를 선보였습니다.\",\n          \"quote\": \"With the new VENTUNO Q board, Arduino hopes to make robotics development easier\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Helicon, 복합재 대량 제조 자동화를 위한 시드 투자 유치\",\n      \"section\": \"section_industry\",\n      \"reason\": \"제조 공정 자동화를 통해 리드 타임을 단축하려는 로보틱스/자동화 스타트업의 시드 투자 소식입니다.\",\n      \"source_ids\": [22],\n      \"facts\": [\n        {\n          \"source_id\": 22,\n          \"statement\": \"Helicon이 복합재 제조 리드 타임을 수개월에서 수주일로 단축하기 위한 시드 투자를 유치했습니다.\",\n          \"quote\": \"Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 1,\n      \"reason\": \"행사 라이브 스트리밍 안내로 일반 행사 소식에 해당하여 제외합니다.\"\n    },\n    {\n      \"source_id\": 4,\n      \"reason\": \"행사 밋업 후속 논의를 위한 포럼 안내 글로 기술 변경이나 개발 정보 근거가 부족합니다.\"\n    },\n    {\n      \"source_id\": 5,\n      \"reason\": \"개인 프로젝트/제안서 작업 소개 글로 공식 출시, 재현 가능한 코드 배포 정보가 부족합니다.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"교육 프로그램 2주년 기념 글로 기술적 변경이나 개발 관련성이 부족합니다.\"\n    },\n    {\n      \"source_id\": 7,\n      \"reason\": \"사이버 방어 지원 프로그램 확장 소식으로 로보틱스 및 AI 개발 도구와 직접적인 관련성이 낮습니다.\"\n    },\n    {\n      \"source_id\": 8,\n      \"reason\": \"국제기구 연설문 소식으로 일반 담론에 해당하여 기술 변경 정보가 없습니다.\"\n    },\n    {\n      \"source_id\": 12,\n      \"reason\": \"CSS shadow roots에 관한 튜토리얼 아티팩트 소개로 로보틱스 및 주요 AI 개발 도구 범주에 부합하지 않습니다.\"\n    },\n    {\n      \"source_id\": 13,\n      \"reason\": \"오프라인 밋업/행사 안내 글로 기준에 따라 제외합니다.\"\n    },\n    {\n      \"source_id\": 14,\n      \"reason\": \"본문 요약의 내용이 불완전하고 단순 단편적 언급에 그쳐 구체적인 근거가 부족합니다.\"\n    },\n    {\n      \"source_id\": 16,\n      \"reason\": \"제목만 제공된 일반 학술/연구 성과 소식으로 재현 방법이나 개발 관련 근거가 없습니다.\"\n    },\n    {\n      \"source_id\": 18,\n      \"reason\": \"2025년 과거 블로그 글이며 제목만 제공되어 신규 개발 소식 근거가 부족합니다.\"\n    },\n    {\n      \"source_id\": 19,\n      \"reason\": \"v0.34.4-rc0 프리릴리스(Release Candidate) 소식이며 주요 호환성 단절 등의 예외 사유가 명시되지 않았습니다.\"\n    },\n    {\n      \"source_id\": 23,\n      \"reason\": \"컨퍼런스 키노트 세션 홍보 기사로 일반 행사 소식에 해당하여 제외합니다.\"\n    }\n  ]\n}",
+    "promptSha256": "d62aa91c79675abc6e4070922fc3fc20f8b4b2567db300c0b72a2cfa88513b88",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2334,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 5678,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5678
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 8012,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "draft",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 16.51,
+    "raw": "{\n  \"one_sentence_summary\": \"ROS 2 Rust 라이브러리 rclrs v0.8.0 릴리스, Arduino VENTUNO Q 보드 발표, PickNik과 Qualcomm의 파트너십 및 신규 AI 모델과 개발 도구 배포 소식이 공개되었습니다.\",\n  \"cross_insight\": \"- 해석: Qualcomm이 PickNik과의 협력 발표와 Snapdragon X2 시리즈의 Linux 지원 계획을 통해 로보틱스 및 개방형 OS 환경을 포괄하는 개발 플랫폼 지원 범위를 넓히고 있습니다 [2, 17].\\n- 해석: Gemini 3.8 TTS 모델 발표와 맞물려 플레이그라운드 도구가 독립적으로 공개되면서 신규 음성 모델에 대한 실험 및 검증 접근성이 구성되고 있습니다 [10, 11].\",\n  \"section_robotics\": \"- **rclrs v0.8.0**: ROS 2 Rust 클라이언트 라이브러리 rclrs의 v0.8.0 버전이 공식 릴리스되었습니다 [3].\\n- **Arduino VENTUNO Q**: Arduino가 로보틱스 개발 지원을 용이하게 하기 위한 신규 하드웨어인 VENTUNO Q 보드를 선보였습니다 [21].\",\n  \"section_devtools\": \"- **Google DeepMind Private AI Compute**: 개인용 AI 연산 환경을 구성하는 Private AI Compute에 비공개 서버 측 메모리 기술이 도입되었습니다 [9].\\n- **Gemini 3.8 text-to-speech**: Google의 Gemini 3.8 텍스트 음성 변환(TTS) 모델이 공개되었습니다 (제목 기반) [10].\\n- **Gemini 3.8 TTS Playground**: gemini-3.8-flash-tts 등 새로 출시된 음성 모델을 테스트할 수 있는 플레이그라운드 도구가 공개되었습니다 [11].\\n- **llm 0.36**: LLM CLI 0.36 버전이 배포되었으며 OpenAI의 gpt-6-sol 및 gpt-6-luna 모델 지원이 추가되었습니다 [15].\\n- **Snapdragon X2 시리즈 Linux 지원**: Qualcomm Snapdragon X2 시리즈 프로세서에 Linux 지원이 제공될 예정입니다 (제목 기반) [17].\\n- **LiteLLM v1.102.1**: v1.102.1 배포와 함께 모든 Docker 이미지가 cosign으로 서명되며 커밋 0112e53에서 도입된 공개 키로 무결성을 검증할 수 있습니다 [20].\",\n  \"section_industry\": \"- **PickNik·Qualcomm 파트너십**: PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결했다고 공식 발표했습니다 [2].\\n- **Helicon 시드 투자 유치**: 제조 자동화를 통해 복합재 생산 리드 타임을 수개월에서 수주일 단위로 단축하기 위한 시드 자금을 확보했습니다 [22].\"\n}",
+    "promptSha256": "9d0f10289c56d37a80f44d002542e132d2d17eb8dce05882133a6a3f2818816c",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 646,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3691,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3691
+        }
+      ],
+      "thoughts_token_count": 1392,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 5729,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "review",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 8.02,
+    "raw": "{\"verified\":true,\"findings\":[\"수집일 및 임의의 날짜를 사건 발생일로 추정하지 않고 상대적 시점 표현(오늘, 이번 주 등)을 제거했습니다.\",\"본문 내용 없이 제목만 제공된 항목([10], [17])에 '(제목 기반)' 표시를 명확히 유지하고 과도한 추론을 배제했습니다.\",\"Gemini 3.8 모델 출시([10])와 Simon Willison의 테스트 플레이그라운드 도구([11])를 별개 항목으로 분리 유지했습니다.\",\"PickNik과 Qualcomm의 협력 발표([2]) 및 Helicon 시드 투자([22])를 산업 섹션(section_industry)으로 올바르게 분류했습니다.\",\"Ollama 프리릴리스(rc0)([19]) 및 단순 밋업·행사 안내([1], [4], [13], [23])의 제외 사유가 타당함을 확인했습니다.\"],\"removed_entries\":[],\"report\":{\"one_sentence_summary\":\"ROS 2 Rust 라이브러리 rclrs v0.8.0 릴리스, Arduino VENTUNO Q 보드 발표, PickNik과 Qualcomm의 파트너십 및 신규 AI 모델과 개발 도구 배포 소식이 공개되었습니다.\",\"cross_insight\":\"- 해석: Qualcomm이 PickNik과의 협력 발표와 Snapdragon X2 시리즈의 Linux 지원 계획을 통해 로보틱스 및 개방형 OS 환경을 포괄하는 개발 플랫폼 지원 범위를 넓히고 있습니다 [2, 17].\\n- 해석: Gemini 3.8 TTS 모델 발표와 맞물려 플레이그라운드 도구가 독립적으로 공개되면서 신규 음성 모델에 대한 실험 및 검증 접근성이 구성되고 있습니다 [10, 11].\",\"section_robotics\":\"- **rclrs v0.8.0**: ROS 2 Rust 클라이언트 라이브러리 rclrs의 v0.8.0 버전이 공식 릴리스되었습니다 [3].\\n- **Arduino VENTUNO Q**: Arduino가 로보틱스 개발 지원을 용이하게 하기 위한 신규 하드웨어인 VENTUNO Q 보드를 선보였습니다 [21].\",\"section_devtools\":\"- **Google DeepMind Private AI Compute**: 개인용 AI 연산 환경을 구성하는 Private AI Compute에 비공개 서버 측 메모리 기술이 도입되었습니다 [9].\\n- **Gemini 3.8 text-to-speech**: Google의 Gemini 3.8 텍스트 음성 변환(TTS) 모델이 공개되었습니다 (제목 기반) [10].\\n- **Gemini 3.8 TTS Playground**: gemini-3.8-flash-tts 등 새로 출시된 음성 모델을 테스트할 수 있는 플레이그라운드 도구가 공개되었습니다 [11].\\n- **llm 0.36**: LLM CLI 0.36 버전이 배포되었으며 OpenAI의 gpt-6-sol 및 gpt-6-luna 모델 지원이 추가되었습니다 [15].\\n- **Snapdragon X2 시리즈 Linux 지원**: Qualcomm Snapdragon X2 시리즈 프로세서에 Linux 지원이 제공될 예정입니다 (제목 기반) [17].\\n- **LiteLLM v1.102.1**: v1.102.1 배포와 함께 모든 Docker 이미지가 cosign으로 서명되며 커밋 0112e53에서 도입된 공개 키로 무결성을 검증할 수 있습니다 [20].\",\"section_industry\":\"- **PickNik·Qualcomm 파트너십**: PickNik Inc.와 Qualcomm Technologies, Inc.가 파트너십을 체결했다고 공식 발표했습니다 [2].\\n- **Helicon 시드 투자 유치**: 제조 자동화를 통해 복합재 생산 리드 타임을 수개월에서 수주일 단위로 단축하기 위한 시드 자금을 확보했습니다 [22].\"}}",
+    "promptSha256": "cfac48028137bfb287243e3b0be1ed743448d2700cc928970f6d01b7ed8aadc1",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 842,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 8171,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 8171
+        }
+      ],
+      "thoughts_token_count": 1361,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10374,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  }
+]

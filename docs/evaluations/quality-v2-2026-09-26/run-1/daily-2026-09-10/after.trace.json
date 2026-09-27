@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "plan",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 26.62,
+    "raw": "{\n  \"entries\": [\n    {\n      \"title\": \"rcl_logging_journal: systemd-journald 기반 ROS 2 대안 로깅 백엔드 공개\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"기존 파일 기반 로그 대신 systemd-journald를 사용하여 구조화된 로그 기록과 노드 단위 실시간 필터링을 지원하는 로깅 백엔드를 제공합니다.\",\n      \"source_ids\": [2],\n      \"facts\": [\n        {\n          \"source_id\": 2,\n          \"statement\": \"rcl_logging_journal은 ROS 2 로그 레코드를 ~/.ros/log 텍스트 파일 대신 systemd-journald에 구조화되고 색인된 항목으로 직접 기록하여 journalctl로 필터링할 수 있도록 구현되었습니다.\",\n          \"quote\": \"writes ROS 2 log records straight into systemd-journald as structured, indexed entries\"\n        }\n      ]\n    },\n    {\n      \"title\": \"rosbag2용 RRD 스토리지 플러그인: 별도 변환 없는 Rerun 및 PyTorch 데이터로더 연동\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"rosbag2 데이터를 Rerun 네이티브 포맷인 RRD로 직접 저장하여 기록 중 실시간 스트리밍과 모델 훈련 데이터로더 직접 호출을 가능하게 합니다.\",\n      \"source_ids\": [3],\n      \"facts\": [\n        {\n          \"source_id\": 3,\n          \"statement\": \"RRD용 실험적 rosbag2 스토리지 플러그인을 사용하면 rosbag2로 Rerun의 기본 파일 포맷에 직접 데이터를 기록하고 별도 내보내기 없이 쿼리 및 학습에 활용할 수 있습니다.\",\n          \"quote\": \"rosbag2 to record directly to RRD , Rerun’s native file format\"\n        }\n      ]\n    },\n    {\n      \"title\": \"오픈소스 안전 컨소시엄(OSSC) 발족 및 보호 정지(protective-stop) 프로토타입 공개\",\n      \"section\": \"section_robotics\",\n      \"reason\": \"자율주행 및 로봇 시스템의 안전 인증 재사용성을 검증하기 위해 SIL 3/PLr=e 목표 수준의 오픈소스 보호 정지 하드웨어 설계와 안전 케이스 초안을 공개했습니다.\",\n      \"source_ids\": [5],\n      \"facts\": [\n        {\n          \"source_id\": 5,\n          \"statement\": \"컨소시엄은 첫 작업 사례로 펌웨어, 하드웨어 설계, 초안 안전 케이스가 함께 공개되는 오픈소스 보호 정지 프로토타입을 개발하고 있습니다.\",\n          \"quote\": \"first worked example is an open-source protective-stop prototype, with firmware, hardware designs, and a draft safety case all getting published together.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"OtoDock: Claude Code 및 Codex 연동 셀프 호스팅 다중 에이전트 OS\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"개인 구독 계정을 활용해 서버 격리 샌드박스에서 여러 AI 에이전트를 부서별로 배포하고 도구를 제어할 수 있는 오픈 플랫폼을 제공합니다.\",\n      \"source_ids\": [11],\n      \"facts\": [\n        {\n          \"source_id\": 11,\n          \"statement\": \"OtoDock은 사용자의 API 키나 구독, 로컬 모델을 연결하여 Claude Code와 Codex 프로세스를 세션별 커널 샌드박스 환경에서 실행하는 에이전트 운영 플랫폼입니다.\",\n          \"quote\": \"Runs on Claude Code · Codex · your API keys · local models\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Ollama v0.34.0 프리릴리스 (v0.34.0-rc5): ChatGPT Desktop 모델 직접 연동 지원\",\n      \"section\": \"section_devtools\",\n      \"reason\": \"ChatGPT 데스크톱 앱 내에서 로컬 Ollama 모델을 바로 호출할 수 있는 기능과 Apple Silicon 구조화 출력 성능 개선을 지원합니다.\",\n      \"source_ids\": [12],\n      \"facts\": [\n        {\n          \"source_id\": 12,\n          \"statement\": \"Ollama 모델을 ChatGPT Desktop에서 직접 사용할 수 있는 설정이 macOS 앱에 추가되었으며 Apple Silicon의 구조화 출력 성능이 향상되었습니다.\",\n          \"quote\": \"Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"모뉴멘털(Monumental), 건설 현장 벽돌 시공 로봇 'Pisa' 상용 배포 및 운영 방식 공유\",\n      \"section\": \"section_industry\",\n      \"reason\": \"건설 현장의 인력 부족에 대응해 벽돌 쌓기 로봇과 자재 운반 보조 로봇으로 구성된 팀을 하도급 형태로 현장에 투입하는 사업 및 기술 전략을 다룹니다.\",\n      \"source_ids\": [13],\n      \"facts\": [\n        {\n          \"source_id\": 13,\n          \"statement\": \"모뉴멘털이 개발한 로봇 Pisa는 한 팔로 벽돌을 집어 배치하고 다른 팔로 모르타르를 압출하는 비인간형 시공 로봇입니다.\",\n          \"quote\": \"Pisa has one arm that picks and places the bricks while the other extrudes mortar to place in between the bricks.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"유니트리(Unitree), 상장 직후 최고가 대비 주가 53% 하락 및 실적 지표\",\n      \"section\": \"section_industry\",\n      \"reason\": \"상하이 증시 상장 후 초기 기업가치 조정 과정과 함께 2025년 휴머노이드 매출 비중 및 산업 현장 도입 비중 등 실제 재무 데이터를 공개합니다.\",\n      \"source_ids\": [14],\n      \"facts\": [\n        {\n          \"source_id\": 14,\n          \"statement\": \"유니트리는 2025년 총 매출 17억 위안 중 휴머노이드 부문에서 8억 6,800만 위안을 올려 매출의 51.78%를 차지하고 5,500대 이상을 출하했으나, 상장 첫날 최고가 대비 주가가 53% 하락했습니다.\",\n          \"quote\": \"Revenue from humanoid robots reached 868 million yuan in 2025, or 51.78% of total revenue. Unitree shipped more than 5,500 humanoids during the year.\"\n        }\n      ]\n    }\n  ],\n  \"omitted\": [\n    {\n      \"source_id\": 1,\n      \"reason\": \"ROS PMC 신규 위원 선임에 관한 거버넌스 인사 공지로, 도구 출시나 구체적인 기술 명세 변경이 아닙니다.\"\n    },\n    {\n      \"source_id\": 4,\n      \"reason\": \"ROSCon 행사 준비, 설문조사, 링크 단축기 등 일반 재단 운영 및 행사 준비 소식입니다.\"\n    },\n    {\n      \"source_id\": 6,\n      \"reason\": \"본문이 두 문장의 마케팅 소개 문구에 불과하여 세부 기능이나 적용 조건 등 구체적인 기술 근거가 부족합니다.\"\n    },\n    {\n      \"source_id\": 7,\n      \"reason\": \"재단 이사회 및 위원회 인물 영입 소식으로 인사 공지에 해당합니다.\"\n    },\n    {\n      \"source_id\": 8,\n      \"reason\": \"미공개 모델을 이용한 연구 성과 발표와 데이터 참조 의혹에 대한 개인 블로그 사설로, 공식 출시나 검증된 산업 정책 발표가 아닙니다.\"\n    },\n    {\n      \"source_id\": 9,\n      \"reason\": \"코드 공개나 즉시 재현 가능한 개발 환경이 제공되지 않은 일반 학술 논문 초록입니다.\"\n    },\n    {\n      \"source_id\": 10,\n      \"reason\": \"세부 기술 설명이나 본문 근거가 전혀 없는 단문 웹페이지입니다.\"\n    },\n    {\n      \"source_id\": 15,\n      \"reason\": \"RoboBusiness 컨퍼런스 발표 및 강연 예고 소식으로 실제 기술 릴리스나 상용 발표가 아닙니다.\"\n    }\n  ]\n}",
+    "promptSha256": "79124c889f233d845a9ed7bac2de24a00352da2b32cabd738cba7a8d6e2d6125",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1959,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 16233,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 16233
+        }
+      ],
+      "thoughts_token_count": 4823,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 23015,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "draft",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 2.66,
+    "raw": "{\n  \"one_sentence_summary\": \"ROS 2 기반 로깅·스토리지 및 오픈소스 안전 프로토타입 공개와 로컬 AI 개발 도구 확장 및 상용 로봇 실적 지표가 발표되었습니다.\",\n  \"cross_insight\": \"해석: 오픈소스 로보틱스 생태계는 systemd-journald 연동이나 RRD 직접 기록과 같이 기존 Linux 시스템 도구 및 머신러닝 파이프라인과의 통합을 강화하고 있습니다 [2, 3].\",\n  \"section_robotics\": \"- **rcl_logging_journal**: ROS 2 로그 레코드를 ~/.ros/log 텍스트 파일 대신 systemd-journald에 구조화되고 색인된 항목으로 직접 기록하여 journalctl을 통한 필터링을 지원하는 대안 로깅 백엔드입니다 [2].\\n- **rosbag2 RRD 스토리지 플러그인**: Rerun의 기본 파일 포맷인 RRD에 rosbag2 데이터를 직접 기록할 수 있도록 지원하는 실험적 플러그인으로, 별도의 내보내기 단계 없이 데이터 쿼리 및 학습에 활용할 수 있습니다 [3].\\n- **오픈소스 안전 컨소시엄(OSSC) 보호 정지 프로토타입**: 자율 시스템의 안전 인증 재사용성을 목표로 펌웨어, 하드웨어 설계, 초안 안전 케이스를 함께 제공하는 오픈소스 보호 정지(protective-stop) 프로토타입을 개발하고 있습니다 [5].\",\n  \"section_devtools\": \"- **OtoDock**: 사용자의 API 키, 구독 계정, 로컬 모델을 연결하여 Claude Code와 Codex 프로세스를 세션별 커널 샌드박스 환경에서 실행할 수 있는 셀프 호스팅 다중 에이전트 플랫폼입니다 [11].\\n- **Ollama v0.34.0-rc5**: Ollama 모델을 ChatGPT Desktop macOS 앱에서 직접 사용할 수 있는 설정이 추가되었으며, Apple Silicon 환경에서의 구조화 출력 성능이 향상된 프리릴리스입니다 [12].\",\n  \"section_industry\": \"- **모뉴멘털(Monumental) Pisa**: 한 팔로 벽돌을 배치하고 다른 팔로 모르타르를 압출하는 건설 현장 벽돌 시공 로봇 Pisa를 하도급 형태로 현장에 배포하고 있습니다 [13].\\n- **유니트리(Unitree) 실적 및 주가 지표**: 2025년 총 매출 17억 위안 중 휴머노이드 부문이 8억 6,800만 위안(51.78%)을 기록하고 5,500대 이상을 출하했으나, 상장 첫날 최고가 대비 주가가 53% 하락했습니다 [14].\"\n}",
+    "promptSha256": "6a449925b0c78c22faa2c4c4115f29ed95f18d30befd4a7658c4d7a6919b1875",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 612,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3127,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3127
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 3739,
+      "traffic_type": null
+    },
+    "validation": "cross_insight must contain one-line bullet items"
+  },
+  {
+    "stage": "draft",
+    "attempt": 2,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 9.15,
+    "raw": "{\n  \"one_sentence_summary\": \"ROS 2 로깅 및 스토리지 백엔드 신규 플러그인 공개, 데스크톱 및 샌드박스 AI 개발 도구 확장, 건설 시공 및 휴머노이드 로봇의 현장 상용화 실적이 발표되었습니다.\",\n  \"cross_insight\": \"- 해석: 로보틱스 산업 현장 도입 측면에서 모뉴멘털의 특화 시공 로봇 배포와 유니트리의 대량 출하 실적처럼, 특정 공정 전용 장비와 범용 휴머노이드 폼팩터의 현장 검증이 병행되고 있습니다 [13] [14].\",\n  \"section_robotics\": \"- **rcl_logging_journal**: ROS 2 로그 레코드를 기본 파일(~/.ros/log) 대신 systemd-journald에 구조화되고 색인된 항목으로 직접 기록하여 journalctl 기반 실시간 필터링을 지원하는 대안 로깅 백엔드입니다 [2].\\n- **rosbag2용 RRD 스토리지 플러그인**: rosbag2 기록 시 Rerun의 네이티브 포맷인 RRD에 데이터를 직접 저장하는 실험적 스토리지 플러그인으로, 별도 파일 변환 없이 Rerun 뷰어 스트리밍과 PyTorch 훈련 데이터로더 직접 연동을 지원합니다 [3].\\n- **오픈소스 안전 컨소시엄(OSSC) 보호 정지 프로토타입**: 자율주행 및 로봇 시스템의 안전 인증 재사용성을 검증하기 위해 펌웨어, 하드웨어 설계, 초안 안전 케이스가 함께 포함된 오픈소스 보호 정지(protective-stop) 프로토타입이 공개되었습니다 [5].\",\n  \"section_devtools\": \"- **OtoDock**: 사용자의 API 키, 구독 계정, 로컬 모델을 연결하여 Claude Code와 Codex 프로세스를 세션별 커널 격리 샌드박스 환경에서 실행할 수 있는 셀프 호스팅 다중 에이전트 운영 플랫폼입니다 [11].\\n- **Ollama v0.34.0 프리릴리스 (v0.34.0-rc5)**: macOS의 ChatGPT Desktop 앱에서 로컬 Ollama 모델을 직접 선택해 호출할 수 있는 연동 설정이 추가되었으며, Apple Silicon 환경의 구조화 출력 성능이 향상되었습니다 [12].\",\n  \"section_industry\": \"- **모뉴멘털(Monumental) 벽돌 시공 로봇 'Pisa'**: 한 팔로 벽돌을 배치하고 다른 팔로 모르타르를 압출하는 비인간형 시공 로봇 Pisa와 자재 운반 보조 로봇으로 팀을 구성해 건설 현장에 하도급 방식으로 투입하는 상용 운영 방식을 발표했습니다 [13].\\n- **유니트리(Unitree) 상장 및 2025년 실적**: 2025년 총 매출 17억 위안 중 휴머노이드 부문이 8억 6,800만 위안(51.78%)을 기록하고 5,500대 이상을 출하했으나, 상하이 증시 상장 직후 최고가 대비 주가가 53% 하락했습니다 [14].\"\n}",
+    "promptSha256": "557996eed6cea9a821941672f67af62a07c46cc4b20ad949b89d6748a281c0a6",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 724,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 3161,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3161
+        }
+      ],
+      "thoughts_token_count": 1821,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 5706,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  },
+  {
+    "stage": "review",
+    "attempt": 1,
+    "modelVersion": "gemini-3.8-flash",
+    "seconds": 7.24,
+    "raw": "{\"verified\":true,\"findings\":[\"Ollama v0.34.0-rc5의 프리릴리스(Release Candidate) 상태와 macOS 전용 ChatGPT Desktop 연동 지원 조건을 명확히 반영했습니다.\",\"RRD rosbag2 스토리지 플러그인과 오픈소스 안전 컨소시엄(OSSC) 보호 정지 프로토타입의 실험적·미인증 상태를 명시하여 독립 검증이나 즉시 양산 배포로 오인되지 않도록 한정했습니다.\",\"수집 시각에 기반한 상대적 시점 표현(오늘, 이번 주 등)을 일체 배제하고 원문의 기술적 사실과 수치(매출, 출하 대수, 주가 변동률)만 보존했습니다.\"],\"removed_entries\":[],\"report\":{\"one_sentence_summary\":\"ROS 2 대안 로깅 및 RRD 기반 rosbag2 스토리지 플러그인 공개, 데스크톱 AI 도구 연동 확장, 건설 시공 및 휴머노이드 로봇의 현장 배포 실적이 발표되었습니다.\",\"cross_insight\":\"- 해석: 로보틱스 상용화 전개에서 모뉴멘털의 특화 시공 로봇 현장 배치와 유니트리의 대량 출하 실적 사례를 보면, 단일 공정 목적의 전용 자동화 시스템과 범용 휴머노이드 폼팩터의 현장 검증이 병행되어 진행되고 있습니다 [13] [14].\",\"section_robotics\":\"- **rcl_logging_journal**: ROS 2 로그 레코드를 기본 파일(~/.ros/log) 대신 systemd-journald에 구조화되고 색인된 항목으로 직접 기록하여 journalctl 기반 실시간 노드별 필터링과 자동 로테이션을 지원하는 대안 로깅 백엔드입니다 [2].\\n- **rosbag2용 RRD 스토리지 플러그인**: rosbag2 기록 시 Rerun의 네이티브 포맷인 RRD에 데이터를 직접 저장하는 실험적 플러그인으로, 별도 파일 변환 없이 Rerun 뷰어 실시간 스트리밍과 PyTorch 훈련 데이터로더 직접 호출을 지원합니다 [3].\\n- **오픈소스 안전 컨소시엄(OSSC) 보호 정지 프로토타입**: 자율주행 및 로봇 시스템의 안전 인증 재사용성을 검증하기 위해 SIL 3/PLr=e 설계를 목표로 펌웨어, 하드웨어 도면, 초안 안전 케이스를 함께 제공하는 미인증 오픈소스 보호 정지(protective-stop) 프로토타입이 공개되었습니다 [5].\",\"section_devtools\":\"- **OtoDock**: 사용자의 API 키, 구독 계정, 로컬 모델을 연결하여 Claude Code와 Codex 프로세스를 세션별 커널 격리 샌드박스 환경에서 실행할 수 있는 셀프 호스팅 다중 에이전트 운영 플랫폼입니다 [11].\\n- **Ollama v0.34.0 프리릴리스 (v0.34.0-rc5)**: macOS의 ChatGPT Desktop 앱에서 로컬 Ollama 모델을 직접 선택해 호출할 수 있는 연동 설정이 추가되었으며, Apple Silicon 환경의 구조화 출력 성능이 개선되었습니다 [12].\",\"section_industry\":\"- **모뉴멘털(Monumental) 벽돌 시공 로봇 'Pisa'**: 한 팔로 벽돌을 배치하고 다른 팔로 모르타르를 압출하는 비인간형 시공 로봇 Pisa와 자재 운반 보조 로봇으로 팀을 구성해 건설 현장에 전문 하도급 형태로 직접 진입하는 상용 운영 전략을 공개했습니다 [13].\\n- **유니트리(Unitree) 상장 및 2025년 실적 지표**: 2025년 총 매출 17억 위안 중 휴머노이드 부문이 8억 6,800만 위안(51.78%)을 차지하며 5,500대 이상을 출하했으나, 상하이 증시 상장 직후 최고가 대비 주가가 53% 하락했습니다 [14].\"}}",
+    "promptSha256": "2fab3f9abdf4fc24b62a1f530a85d67e568c4c91aeebf2417390fe78fce5a325",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 907,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 18634,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 18634
+        }
+      ],
+      "thoughts_token_count": 685,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 20226,
+      "traffic_type": null
+    },
+    "validation": "pass"
+  }
+]
