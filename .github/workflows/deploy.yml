@@ -112,7 +112,7 @@ jobs:
         with:
           commit_message: "chore: auto-generate reports"
           branch: main
-          file_pattern: "reports/daily/*.md reports/daily/*.json reports/weekly/*.md reports/weekly/*.json scripts/seen_links.json"
+          file_pattern: "reports/daily reports/weekly scripts/seen_links.json"
 
       - name: Notify Issue (Daily)
         if: steps.daily.outcome == 'success'
