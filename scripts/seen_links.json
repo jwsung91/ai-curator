@@ -1,21 +1,4 @@
 {
-  "2026-09-08": [
-    "https://discourse.openrobotics.org/t/preparing-for-jazzy-sync-2026-09-09/57926",
-    "https://discourse.openrobotics.org/t/logging-and-observability-guide-review-part-3-cloud-robotics-wg-meeting-2026-10-05/57930",
-    "https://discourse.openrobotics.org/t/2026-09-09-jenkins-version-upgrade-of-ci-ros2-org-scheduled-buildfarm-downtime/57939",
-    "https://discourse.openrobotics.org/t/what-is-the-hardest-part-of-learning-ros-2-as-a-beginner/57917",
-    "https://discourse.openrobotics.org/t/slam-benchmark-on-livox-mid-360-public-dataset-our-own-uav-flight-data-kiss-icp-dlio-fast-lio2-glim/57912",
-    "https://github.com/ros2/rclcpp/releases/tag/16.0.21",
-    "https://github.com/ros2/launch/releases/tag/1.0.15",
-    "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-    "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-    "https://simonwillison.net/2026/Sep/7/equal-earth/",
-    "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-    "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
-    "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
-    "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-    "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
-  ],
   "2026-09-09": [
     "https://discourse.openrobotics.org/t/luxonis-solutions-luxonis-agent-toolkit/57956",
     "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957",
@@ -252,5 +235,28 @@
     "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
     "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
     "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/"
+  ],
+  "2026-10-01": [
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518",
+    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "https://openai.com/index/introducing-gpt-6-1-sol",
+    "https://simonwillison.net/2026/Oct/1/matthew-green/",
+    "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+    "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+    "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+    "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+    "https://github.com/magnitudedev/magnitude",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.11.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.35.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.103.2",
+    "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+    "https://spectrum.ieee.org/video-friday-goose-household-robots",
+    "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
+    "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
+    "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
+    "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
   ]
 }
