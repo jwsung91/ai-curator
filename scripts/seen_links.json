@@ -1,24 +1,4 @@
 {
-  "2026-09-09": [
-    "https://discourse.openrobotics.org/t/luxonis-solutions-luxonis-agent-toolkit/57956",
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957",
-    "https://discourse.openrobotics.org/t/autonomous-navigation-and-interaction-bot-fini/57947",
-    "https://discourse.openrobotics.org/t/founding-robotics-engineer-merista-ai-in-barcelona-spain/57950",
-    "https://discourse.openrobotics.org/t/placeauth-spp-v0-3-0/57963",
-    "https://github.com/eProsima/Fast-DDS/releases/tag/v2.14.7",
-    "https://github.com/ros2/rosbag2/releases/tag/0.15.17",
-    "https://openai.com/index/codex-quantum-computing-experiments",
-    "https://openai.com/index/the-work-now-within-reach",
-    "https://openai.com/index/introducing-chatgpt-images-2-5",
-    "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-    "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-    "https://simonwillison.net/2026/Sep/7/llm/",
-    "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
-    "https://ishamf.dev/p/llm-attention-visualizer/",
-    "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
-    "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
-    "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/"
-  ],
   "2026-09-10": [
     "https://discourse.openrobotics.org/t/new-ros-pmc-members/57984",
     "https://discourse.openrobotics.org/t/rcl-logging-journal-a-systemd-journald-logging-backend-for-ros-2/57971",
@@ -258,5 +238,19 @@
     "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
     "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
     "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
+  ],
+  "2026-10-02": [
+    "https://github.com/ros2/launch/releases/tag/3.10.2",
+    "https://openai.com/index/the-eternal-complement",
+    "https://openai.com/index/albertsons-reimagining-retail",
+    "https://openai.com/index/the-den-family-social",
+    "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "https://deepmind.google/blog/introducing-synthid-bio/",
+    "https://blog.cloudflare.com/clef-decision-models/",
+    "https://spectrum.ieee.org/robust-robot-hand",
+    "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
+    "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+    "https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/",
+    "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
   ]
 }
