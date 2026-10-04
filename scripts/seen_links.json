@@ -1,21 +1,4 @@
 {
-  "2026-09-10": [
-    "https://discourse.openrobotics.org/t/new-ros-pmc-members/57984",
-    "https://discourse.openrobotics.org/t/rcl-logging-journal-a-systemd-journald-logging-backend-for-ros-2/57971",
-    "https://discourse.openrobotics.org/t/query-and-train-directly-from-rosbags-with-a-rosbag2-storage-plugin-for-rrd/57982",
-    "https://discourse.openrobotics.org/t/this-fortnight-at-open-robotics-headquarters-2026-08-24/57970",
-    "https://discourse.openrobotics.org/t/open-source-safety-consortium-sharing-safety-evidence-not-just-code/57992",
-    "https://openai.com/index/gpt-6-astra-next-generation-work",
-    "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-    "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-    "https://arxiv.org/abs/2609.09153",
-    "https://opusfived.dev/",
-    "https://github.com/OtoDock/oto-dock",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
-    "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
-    "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-    "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"
-  ],
   "2026-09-11": [
     "https://discourse.openrobotics.org/t/ros2-fault-injection-c-fault-injection-framework-for-ros-2-topics-services-and-assertions/57998",
     "https://discourse.openrobotics.org/t/roscon-global-2026-sponsors-and-exhibitors/58020",
@@ -252,5 +235,20 @@
     "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
     "https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/",
     "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+  ],
+  "2026-10-05": [
+    "https://discourse.openrobotics.org/t/robotcad-v12-10-0-is-released/58566",
+    "https://discourse.openrobotics.org/t/tuning-stereosgbm-on-ps5-camera-ros-2-galactic-for-dense-depth-maps/58568",
+    "https://openai.com/index/practical-guide-building-gpt-6",
+    "https://openai.com/index/chatham-financial",
+    "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "https://simonwillison.net/2026/Oct/3/newsletter/",
+    "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.104.0",
+    "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
+    "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/",
+    "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+    "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
+    "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
   ]
 }
