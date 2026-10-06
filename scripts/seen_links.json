@@ -1,25 +1,4 @@
 {
-  "2026-09-11": [
-    "https://discourse.openrobotics.org/t/ros2-fault-injection-c-fault-injection-framework-for-ros-2-topics-services-and-assertions/57998",
-    "https://discourse.openrobotics.org/t/roscon-global-2026-sponsors-and-exhibitors/58020",
-    "https://discourse.openrobotics.org/t/ros-2-engineering-skills-for-coding-agents-v1-5-0/58016",
-    "https://github.com/ros2/rosbag2/releases/tag/0.33.4",
-    "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-    "https://openai.com/index/put-data-to-work",
-    "https://openai.com/index/introducing-chatgpt-financial-services",
-    "https://simonwillison.net/2026/Sep/9/blender-viewer/",
-    "https://mathstodon.xyz/@andreasthom/117240535270608201",
-    "https://developers.openai.com/api/docs/guides/agents-api/overview",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.100.1",
-    "https://spectrum.ieee.org/tactile-data-robots",
-    "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
-    "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
-    "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
-    "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-    "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/"
-  ],
   "2026-09-14": [
     "https://discourse.openrobotics.org/t/ros2-apt-source-bumped-to-v-1-3-0/58084",
     "https://discourse.openrobotics.org/t/debug-visualize-and-teleoperate-anything-ros2-with-phantom-bridge/58088",
@@ -250,5 +229,18 @@
     "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
     "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
     "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+  ],
+  "2026-10-06": [
+    "https://discourse.openrobotics.org/t/mid-senior-mechanical-engineer-turin-italy/58597",
+    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-10-05/58605",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-10-05/58601",
+    "https://openai.com/index/eu-text-provenance",
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+    "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+    "https://simonwillison.net/2026/Oct/1/pwasm/",
+    "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+    "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+    "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/"
   ]
 }
