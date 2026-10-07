@@ -1,22 +1,4 @@
 {
-  "2026-09-14": [
-    "https://discourse.openrobotics.org/t/ros2-apt-source-bumped-to-v-1-3-0/58084",
-    "https://discourse.openrobotics.org/t/debug-visualize-and-teleoperate-anything-ros2-with-phantom-bridge/58088",
-    "https://github.com/ros2/rosbag2/releases/tag/0.35.0",
-    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-    "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-    "https://openai.com/index/cognition-devin-testing-with-astra",
-    "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-    "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-    "https://simonwillison.net/2026/Sep/11/boris-cherny/",
-    "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
-    "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-    "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-    "https://spectrum.ieee.org/video-friday-disaster-response-robots",
-    "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
-    "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
-    "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"
-  ],
   "2026-09-15": [
     "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-september-15/58116",
     "https://discourse.openrobotics.org/t/nav2-ready-v0-1-0-a-cli-readiness-checker-for-custom-nav2-robots/58095",
@@ -242,5 +224,29 @@
     "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
     "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
     "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/"
+  ],
+  "2026-10-07": [
+    "https://discourse.openrobotics.org/t/dialostack-task-oriented-spoken-dialogue-for-ros-2-with-the-llm-kept-out-of-the-control-flow/58631",
+    "https://discourse.openrobotics.org/t/new-packages-for-jazzy-jalisco-2026-10-05/58622",
+    "https://discourse.openrobotics.org/t/university-of-waterloo-user-study-on-understanding-cmake-changes/58616",
+    "https://discourse.openrobotics.org/t/robot-brain-a-memory-runtime-for-task-experience-with-a-ros-2-reference-bridge-public-alpha-closed-core/58618",
+    "https://discourse.openrobotics.org/t/hold-and-weld-v0-3-0-configurable-dual-arm-welding-grasping-framework/58628",
+    "https://openai.com/index/jump-trading",
+    "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+    "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+    "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+    "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+    "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
+    "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/",
+    "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
+    "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
   ]
 }
