@@ -1,22 +1,4 @@
 {
-  "2026-09-15": [
-    "https://discourse.openrobotics.org/t/moveit-community-meeting-tuesday-september-15/58116",
-    "https://discourse.openrobotics.org/t/nav2-ready-v0-1-0-a-cli-readiness-checker-for-custom-nav2-robots/58095",
-    "https://discourse.openrobotics.org/t/new-packages-and-patch-release-for-humble-hawksbill-2026-09-14/58121",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-09-14/58127",
-    "https://discourse.openrobotics.org/t/cra-reporting-starts-tomorrow-how-do-you-tell-an-exploited-vulnerability-from-a-normal-robot-failure-inside-24-hours/58097",
-    "https://github.com/ros2/ros2/releases/tag/release-humble-20260914",
-    "https://openai.com/index/fyxer",
-    "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-    "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-    "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.101.0",
-    "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-    "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-    "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-    "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
-  ],
   "2026-09-16": [
     "https://discourse.openrobotics.org/t/preparing-for-kilted-sync-2026-09-16/58128",
     "https://discourse.openrobotics.org/t/preparing-for-lyrical-sync-2026-09-17/58150",
@@ -248,5 +230,31 @@
     "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/",
     "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
     "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
+  ],
+  "2026-10-08": [
+    "https://discourse.openrobotics.org/t/roscon-jp-2026/58635",
+    "https://discourse.openrobotics.org/t/rokoko-ros-2-bridge-for-smartgloves-ii-is-released/58658",
+    "https://discourse.openrobotics.org/t/tesseract-monthly-check-in/58671",
+    "https://discourse.openrobotics.org/t/tenure-line-faculty-positions-in-physical-ai-penn-state-college-of-ist-in-university-park-pa/58673",
+    "https://discourse.openrobotics.org/t/ros-i-americas-ros-2-training/58670",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim11_11.0.0-pre2",
+    "https://openai.com/index/teens-learn-and-plan",
+    "https://openai.com/index/radisson",
+    "https://openai.com/index/gpt-6-for-everyone",
+    "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+    "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+    "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "https://www.anthropic.com/claude-haiku-5-5",
+    "https://tidesdb.com/articles/tidesdb-now-available-for-mysql/",
+    "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.104.1",
+    "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+    "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
+    "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
+    "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
+    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
   ]
 }
