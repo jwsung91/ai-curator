@@ -51,13 +51,9 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r scripts/requirements.txt
-      - name: Compare prompts on fixed inputs
+      - name: Regenerate 2026-W41 from archived daily inputs
         run: |
-          if [ "$QUALITY_PIPELINE" = "true" ]; then
-            python scripts/evaluate_quality.py
-          else
-            python scripts/compare_prompts.py
-          fi
+          python scripts/replay_w41.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           QUALITY_PIPELINE: ${{ github.event.inputs.quality_pipeline }}
