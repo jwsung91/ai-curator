@@ -35,3 +35,7 @@ __pycache__/
 /AGENTS.md
 /GEMINI.md
 /.agent-rules/bases/
+/.claude/skills/investigate-bug/
+/.claude/skills/review-change/
+/.claude/skills/validate-change/
+/.claude/skills/prepare-commit/
