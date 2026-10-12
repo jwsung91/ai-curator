@@ -674,6 +674,73 @@ def test_plan_rejects_invented_quotes_and_unaccounted_sources():
         validate_plan(plan, items + [{'title': 'Another article'}])
 
 
+@pytest.mark.parametrize('kind', ['daily', 'weekly'])
+@pytest.mark.parametrize('failure', ['missing_arrays', 'missing_grouped_fact'])
+def test_quality_plan_repairs_ci_failures_with_schema(kind, failure):
+    import copy
+    import json
+    import quality_pipeline as quality
+    items, plan, report = quality_fixture(kind)
+    items.append({'title': 'SDK guide', 'summary': 'Explains how to avoid streaming crashes.'})
+    plan['entries'][0]['source_ids'].append(2)
+    plan['entries'][0]['facts'].append({
+        'source_id': 2, 'statement': '크래시 회피 가이드',
+        'quote': 'Explains how to avoid streaming crashes.',
+    })
+    report['section_devtools'] = '- **SDK**: 스트리밍 크래시 수정과 회피 가이드 [1, 2]'
+    bad = copy.deepcopy(plan)
+    if failure == 'missing_arrays':
+        del bad['omitted']
+    else:
+        bad['entries'][0]['facts'].pop()
+    responses = iter([bad, plan, report, {
+        'verified': True, 'findings': [], 'removed_entries': [], 'report': report,
+    }])
+    calls = []
+    def generate(**kwargs):
+        calls.append(kwargs)
+        return types.SimpleNamespace(text=json.dumps(next(responses)))
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=generate))
+    result = quality.generate_quality_report(items, kind=kind, client=client)
+    schema = calls[0]['config']['response_json_schema']
+    assert schema['required'] == ['entries', 'omitted']
+    entry = schema['properties']['entries']['items']
+    assert entry['required'] == ['title', 'section', 'reason', 'source_ids', 'facts']
+    assert 'prerelease_exception' in entry['properties']
+    assert entry['properties']['facts']['items']['required'] == ['source_id', 'statement', 'quote']
+    assert calls[1]['config']['response_json_schema'] == schema
+    if failure == 'missing_grouped_fact':
+        assert 'entry 0; missing source IDs: [2]' in calls[1]['contents']
+    assert result['qualityAudit']['plan'] == plan
+    trace = result['qualityAudit']['trace']
+    assert [step['stage'] for step in trace] == ['plan', 'plan', 'draft', 'review']
+    assert trace[0]['validation'] != 'pass'
+    assert all(step['validation'] == 'pass' for step in trace[1:])
+
+
+@pytest.mark.parametrize('failure', ['missing_arrays', 'missing_grouped_fact'])
+def test_quality_plan_stops_after_one_failed_repair(failure):
+    import json
+    import quality_pipeline as quality
+    items, plan, _ = quality_fixture()
+    if failure == 'missing_arrays':
+        del plan['omitted']
+    else:
+        items.append({'title': 'Another source'})
+        plan['entries'][0]['source_ids'].append(2)
+    calls = []
+    def generate(**kwargs):
+        calls.append(kwargs)
+        return types.SimpleNamespace(text=json.dumps(plan))
+    trace = []
+    client = types.SimpleNamespace(models=types.SimpleNamespace(generate_content=generate))
+    with pytest.raises(ValueError, match='plan failed validation'):
+        quality.generate_quality_report(items, client=client, trace_out=trace)
+    assert len(calls) == 2
+    assert [step['stage'] for step in trace] == ['plan', 'plan']
+    assert all(step['validation'] != 'pass' for step in trace)
+
+
 def test_review_cannot_silently_drop_selected_reading():
     from quality_pipeline import validate_grounded_report
     items, plan, report = quality_fixture()

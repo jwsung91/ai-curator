@@ -64,7 +64,7 @@ def validate_plan(plan, items):
     accounted = []
     packets = source_packet(items)
     normalize = lambda text: ' '.join(text.split())
-    for entry in plan['entries']:
+    for entry_index, entry in enumerate(plan['entries']):
         if not isinstance(entry, dict) or entry.get('section') not in SECTIONS_KEYS:
             raise ValueError('invalid planned section')
         ids = entry.get('source_ids', [])
@@ -78,8 +78,9 @@ def validate_plan(plan, items):
             quote = fact.get('quote', '')
             if not isinstance(quote, str) or len(quote.strip()) < 8 or normalize(quote) not in normalize(evidence_pool(items[fact['source_id'] - 1])):
                 raise ValueError(f'fact quote must be a literal source excerpt (source {fact.get("source_id")})')
-        if {fact['source_id'] for fact in entry['facts']} != set(ids):
-            raise ValueError('each grouped source requires a quoted fact')
+        missing = set(ids) - {fact['source_id'] for fact in entry['facts']}
+        if missing:
+            raise ValueError(f'each grouped source requires a quoted fact (entry {entry_index}; missing source IDs: {sorted(missing)})')
         if any(packets[i - 1]['prerelease'] for i in ids):
             exception = entry.get('prerelease_exception', {})
             if exception.get('kind') not in ('breaking_change', 'end_of_support') or not exception.get('reason'):
@@ -141,6 +142,17 @@ def validate_grounded_report(report, items, kind, plan=None, removed=None, *, re
 def output_schema(kind, stage):
     def obj(properties):
         return {'type': 'object', 'properties': properties, 'required': list(properties), 'additionalProperties': False}
+    if stage == 'plan':
+        fact = obj({'source_id': {'type': 'integer'}, 'statement': {'type': 'string'}, 'quote': {'type': 'string'}})
+        entry = obj({'title': {'type': 'string'}, 'section': {'type': 'string', 'enum': list(SECTIONS_KEYS)},
+                     'reason': {'type': 'string'}, 'source_ids': {'type': 'array', 'items': {'type': 'integer'}},
+                     'facts': {'type': 'array', 'items': fact}})
+        entry['properties']['prerelease_exception'] = obj({
+            'kind': {'type': 'string', 'enum': ['breaking_change', 'end_of_support']},
+            'reason': {'type': 'string'},
+        })
+        return obj({'entries': {'type': 'array', 'items': entry},
+                    'omitted': {'type': 'array', 'items': obj({'source_id': {'type': 'integer'}, 'reason': {'type': 'string'}})}})
     report = obj({key: {'type': 'string'} for key in report_shape(kind)})
     if stage == 'draft':
         return report
@@ -217,14 +229,14 @@ def generate_quality_report(items, kind='daily', report_date=None, client=None, 
 지금은 선별·근거 추출 단계입니다. 리포트를 쓰지 말고 모든 입력의 채택/제외를 결정하세요.
 동일 사건의 상세 설명을 합쳐 유용한 기능·제약을 보존하고, 서로 다른 제작자의 도구는 별개 entries로 유지하세요.
 출처의 내용을 facts.statement로 요약하되 facts.quote는 evidence에서 그대로 복사한 8자 이상의 연속 구절이어야 합니다.
-facts는 최소 하나 이상이며, entry가 가진 모든 출처를 활용하세요. 주체나 사건 날짜가 근거에 없으면 statement에 추가하지 마세요.
+facts는 최소 하나 이상이며, source_ids의 각 ID마다 해당 출처의 evidence를 인용한 fact가 하나 이상 있어야 합니다. 예: source_ids가 [1, 2]라면 facts에 source_id가 1인 fact와 2인 fact를 모두 포함하세요. 한 출처의 quote로 다른 출처의 fact를 대신하지 마세요. 주체나 사건 날짜가 근거에 없으면 statement에 추가하지 마세요.
 각 입력 ID는 entries.source_ids 또는 omitted.source_id에 정확히 한 번 포함되어야 합니다.
 각 entry의 title, section, reason, source_ids, facts를 제공하세요. 일반 프리릴리스는 omitted로 제외하세요. 중요한 호환성 변경·지원 종료 예고를 채택할 때만 prerelease_exception: {"kind":"breaking_change 또는 end_of_support", "reason":"근거에 명시된 변경과 영향"}를 추가하세요. omitted도 빈 배열을 포함해 항상 제공하세요.
 형식: {"entries":[{"title":"...","section":"section_robotics","reason":"독자에게 유용한 이유","source_ids":[1],"facts":[{"source_id":1,"statement":"확인된 사실","quote":"evidence의 원문 구절"}]}],"omitted":[{"source_id":2,"reason":"제외 이유"}]}
 입력 데이터:
 ''' + sources
     print(f'  Quality: planning {len(items)} sources', flush=True)
-    plan = request_json(client, model, plan_prompt, lambda data: validate_plan(data, items), trace, 'plan')
+    plan = request_json(client, model, plan_prompt, lambda data: validate_plan(data, items), trace, 'plan', output_schema(kind, 'plan'))
     shape = json.dumps(report_shape(kind), ensure_ascii=False)
     observation_key = 'weekly_themes' if kind == 'weekly' else 'cross_insight'
     draft_prompt = instructions + f'\n{kind} 리포트 작성 단계입니다. 기준일 {report_date or "미상"}는 발행 관리용이며 사건 날짜가 아닙니다.\n'
