@@ -1,25 +1,4 @@
 {
-  "2026-09-17": [
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-15-2026/58167",
-    "https://discourse.openrobotics.org/t/colcon-buildx-cross-compiling-ros-2-workspaces-for-arm64-and-armhf-boards-with-prebuilt-images-for-kria-pynq-and-raspberry-pi/58181",
-    "https://discourse.openrobotics.org/t/robotics-software-engineer-ros-2-gui-systems-kineshia-robotics-in-chennai-india-on-site-full-time/58194",
-    "https://discourse.openrobotics.org/t/rosbag2-dynamic-recorder-dynrec/58192",
-    "https://discourse.openrobotics.org/t/ros-medical-community-updates/58184",
-    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.2",
-    "https://github.com/moveit/moveit2/releases/tag/2.15.2",
-    "https://github.com/ros2/rmw_fastrtps/releases/tag/9.6.0",
-    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-    "https://openai.com/index/reimagining-advertising-with-ai",
-    "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-    "https://simonwillison.net/2026/Sep/16/one-claude/",
-    "https://simonwillison.net/2026/Sep/15/gemini-live/",
-    "https://arxiv.org/abs/2609.16338",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
-    "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-    "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
-    "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
-    "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
-  ],
   "2026-09-18": [
     "https://discourse.openrobotics.org/t/native-ros-2-on-zephyr-with-cyclone-dds/58222",
     "https://discourse.openrobotics.org/t/new-physical-ai-robotics-masterclass-2026-cohort/58217",
@@ -260,5 +239,30 @@
     "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
     "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
     "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+  ],
+  "2026-10-13": [
+    "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-10-12/58802",
+    "https://discourse.openrobotics.org/t/rokoko-device-sdk-update-more-robust-usb-stream-ota-ready-smartgloves-ii-and-a-pinch-detector-example/58800",
+    "https://discourse.openrobotics.org/t/dendros-colored-ros2-terminal-output-with-utils/58797",
+    "https://discourse.openrobotics.org/t/advice-on-ros-2-glim-and-nvblox-for-autonomous-drones/58781",
+    "https://github.com/ros2/rclcpp/releases/tag/16.0.22",
+    "https://openai.com/index/sophos",
+    "https://openai.com/index/asana-browser-agent",
+    "https://simonwillison.net/2026/Oct/12/python-3-15/",
+    "https://simonwillison.net/2026/Oct/12/web-edit/",
+    "https://simonwillison.net/2026/Oct/10/python-actions/",
+    "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+    "https://simonwillison.net/2026/Oct/9/matthew-green/",
+    "https://github.com/prabanta-dev/janas",
+    "https://brickbrag.com/",
+    "https://github.com/andrewfader/blokkily",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.105.0",
+    "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+    "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
+    "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
+    "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/"
   ]
 }
