@@ -1,19 +1,4 @@
 {
-  "2026-09-18": [
-    "https://discourse.openrobotics.org/t/native-ros-2-on-zephyr-with-cyclone-dds/58222",
-    "https://discourse.openrobotics.org/t/new-physical-ai-robotics-masterclass-2026-cohort/58217",
-    "https://discourse.openrobotics.org/t/ported-the-arduinobot-manipulator-workspace-from-humble-to-ros-2-jazzy-notes-on-what-broke/58225",
-    "https://discourse.openrobotics.org/t/assemblygrid-v1-benchmarking-multi-robot-production-handoffs-coalitions-and-concurrency/58223",
-    "https://openai.com/index/astra-for-law",
-    "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-    "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "https://arxiv.org/abs/2609.18842",
-    "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.2",
-    "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
-    "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
-    "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/"
-  ],
   "2026-09-21": [
     "https://discourse.openrobotics.org/t/camera-calibration-without-a-checkerboard/58282",
     "https://github.com/ros2/launch/releases/tag/3.8.9",
@@ -264,5 +249,29 @@
     "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
     "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
     "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/"
+  ],
+  "2026-10-14": [
+    "https://discourse.openrobotics.org/t/rclnodejs-2-3-0-ros-2-actions-over-websocket-and-http-sse/58817",
+    "https://discourse.openrobotics.org/t/plansys2-moves-to-kairos-and-stn/58838",
+    "https://discourse.openrobotics.org/t/vizmini2-rviz-teleop-and-ros-2-tools-on-your-android-phone-or-tablet/58822",
+    "https://discourse.openrobotics.org/t/roboshield-v2-an-inline-command-firewall-gateway-for-ros-2-rust-rclrs-two-domain-bridge-sros2/58826",
+    "https://discourse.openrobotics.org/t/introducing-robotlens-a-connected-engineering-workspace-for-ros-2/58825",
+    "https://openai.com/index/higgsfield-longer-videos-voice",
+    "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "https://simonwillison.net/2026/Oct/13/web-edit/",
+    "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+    "https://deepmind.google/models/gemini/",
+    "https://www.anthropic.com/engineering/redesigning-source-control",
+    "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "https://spectrum.ieee.org/mars-rover-distance-record",
+    "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+    "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
+    "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
+    "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
   ]
 }
