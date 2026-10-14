@@ -1,22 +1,4 @@
 {
-  "2026-09-21": [
-    "https://discourse.openrobotics.org/t/camera-calibration-without-a-checkerboard/58282",
-    "https://github.com/ros2/launch/releases/tag/3.8.9",
-    "https://openai.com/index/australian-youth-safety-blueprint",
-    "https://openai.com/index/cooley-gopublic",
-    "https://simonwillison.net/2026/Sep/20/voxium/",
-    "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-    "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-    "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-    "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-    "https://pirateface.co/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
-    "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
-    "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
-    "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
-    "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/"
-  ],
   "2026-09-22": [
     "https://discourse.openrobotics.org/t/oh-noes-whats-going-on-with-anubis/58302",
     "https://discourse.openrobotics.org/t/ros-meetings-for-week-of-september-21-2026/58291",
@@ -273,5 +255,23 @@
     "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
     "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
     "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
+  ],
+  "2026-10-15": [
+    "https://discourse.openrobotics.org/t/these-weeks-at-open-robotics-hq-since-pre-roscon-global/58845",
+    "https://discourse.openrobotics.org/t/ros2-pulse-topic-rates-on-a-grafana-dashboard-now-counting-rclpy-nodes-and-loaned-messages/58863",
+    "https://discourse.openrobotics.org/t/ai-assisted-inspection-of-ros-2-systems-a-preview-of-dds-monitor-pro-s-mcp-integration/58853",
+    "https://discourse.openrobotics.org/t/robotics-prototyping-intern-nestack-technologies-in-hyderabad-india-on-site/58861",
+    "https://openai.com/index/amp-beyond-coding",
+    "https://openai.com/index/sentinelone",
+    "https://openai.com/index/third-moment-research",
+    "https://sunshowers.io/posts/anthropic-mononoke/",
+    "https://github.com/enes-alatas/spool",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.105.1",
+    "https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/",
+    "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
+    "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+    "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/"
   ]
 }
