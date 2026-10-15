@@ -1,19 +1,4 @@
 {
-  "2026-09-22": [
-    "https://discourse.openrobotics.org/t/oh-noes-whats-going-on-with-anubis/58302",
-    "https://discourse.openrobotics.org/t/ros-meetings-for-week-of-september-21-2026/58291",
-    "https://discourse.openrobotics.org/t/moos-ivp-skills-plugin-for-coding-agents-v1-4-12/58296",
-    "https://discourse.openrobotics.org/t/from-ct-scan-to-robotic-surgery-prototype-kidney-stone-detection-pcnl-planning-in-ros-2/58308",
-    "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-    "https://openai.com/index/building-standards-next-phase-ai",
-    "https://simonwillison.net/2026/Sep/21/jev/",
-    "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-    "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-    "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-    "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-    "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
-  ],
   "2026-09-23": [
     "https://discourse.openrobotics.org/t/stress-testing-a-moral-execution-guard-beyond-direct-language-qerra-v2-classical/58314",
     "https://discourse.openrobotics.org/t/collision-aware-motion-planning-with-nvidia-isaac-ros-cumotion/58330",
@@ -273,5 +258,22 @@
     "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
     "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
     "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/"
+  ],
+  "2026-10-16": [
+    "https://discourse.openrobotics.org/t/rfc-consolidating-and-modernizing-integration-test-architecture-for-gz-ros2-control/58883",
+    "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+    "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.5",
+    "https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/",
+    "https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale-2/",
+    "https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/",
+    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+    "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
   ]
 }
