@@ -1,15 +1,4 @@
 {
-  "2026-09-25": [
-    "https://discourse.openrobotics.org/t/ros2-unbag-is-now-available-via-the-ros-2-buildfarm/58367",
-    "https://discourse.openrobotics.org/t/webots-demo-6-compound-physical-safety-reflex-on-tiago-qerra-v2-classical/58372",
-    "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-    "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-    "https://github.com/ollama/ollama/releases/tag/v0.34.4",
-    "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
-    "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
-    "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
-    "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/"
-  ],
   "2026-10-01": [
     "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518",
     "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
@@ -264,5 +253,25 @@
     "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
     "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/",
     "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
+  ],
+  "2026-10-21": [
+    "https://discourse.openrobotics.org/t/help-us-make-image-transport-and-point-cloud-transport-better-for-makoa/58979",
+    "https://discourse.openrobotics.org/t/roscon-turkiye-2026/58981",
+    "https://discourse.openrobotics.org/t/amazon-robotics-open-positions/58967",
+    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-10-19/58995",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-october-06-2026/58974",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim11_11.0.0-pre3",
+    "https://openai.com/index/ted-taylor-restaurant",
+    "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "https://simonwillison.net/2026/Oct/20/battledrones/",
+    "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+    "https://github.com/deepseek-ai/DeepInfer",
+    "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.17.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.106.1",
+    "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
+    "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
+    "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"
   ]
 }
