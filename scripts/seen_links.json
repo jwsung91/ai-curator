@@ -1,27 +1,4 @@
 {
-  "2026-10-01": [
-    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518",
-    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-    "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-    "https://openai.com/index/introducing-gpt-6-1-sol",
-    "https://simonwillison.net/2026/Oct/1/matthew-green/",
-    "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-    "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-    "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-    "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-    "https://github.com/magnitudedev/magnitude",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.11.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.35.0",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.103.2",
-    "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
-    "https://spectrum.ieee.org/video-friday-goose-household-robots",
-    "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
-    "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
-    "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
-    "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
-  ],
   "2026-10-02": [
     "https://github.com/ros2/launch/releases/tag/3.10.2",
     "https://openai.com/index/the-eternal-complement",
@@ -273,5 +250,25 @@
     "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
     "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
     "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"
+  ],
+  "2026-10-22": [
+    "https://discourse.openrobotics.org/t/this-week-at-open-robotics-headquarters-2026-10-12/59003",
+    "https://discourse.openrobotics.org/t/beyond-callback-scheduling-choosing-where-computation-executes-in-ros-2-with-c-26/59021",
+    "https://discourse.openrobotics.org/t/ros-developer-studio-a-browser-based-workspace-for-ros-2-inspection-and-bag-analysis/59023",
+    "https://discourse.openrobotics.org/t/founding-robotics-engineer-subsea-autonomy/59020",
+    "https://discourse.openrobotics.org/t/webots-demo-8-supervisory-gate-multi-fault-lifecycle-watchdog-hardening-qerra-v2-classical/59014",
+    "https://openai.com/index/att-legal",
+    "https://openai.com/index/broad-access-through-consistent-standards",
+    "https://openai.com/index/openai-models-google-cloud",
+    "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+    "https://claude.com/product/claude-duet",
+    "https://openai.com/index/openai-models-google-cloud/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.106.2",
+    "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+    "https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/",
+    "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+    "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
   ]
 }
