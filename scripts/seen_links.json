@@ -1,18 +1,4 @@
 {
-  "2026-10-02": [
-    "https://github.com/ros2/launch/releases/tag/3.10.2",
-    "https://openai.com/index/the-eternal-complement",
-    "https://openai.com/index/albertsons-reimagining-retail",
-    "https://openai.com/index/the-den-family-social",
-    "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-    "https://deepmind.google/blog/introducing-synthid-bio/",
-    "https://blog.cloudflare.com/clef-decision-models/",
-    "https://spectrum.ieee.org/robust-robot-hand",
-    "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
-    "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
-    "https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/",
-    "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-  ],
   "2026-10-05": [
     "https://discourse.openrobotics.org/t/robotcad-v12-10-0-is-released/58566",
     "https://discourse.openrobotics.org/t/tuning-stereosgbm-on-ps5-camera-ros-2-galactic-for-dense-depth-maps/58568",
@@ -270,5 +256,19 @@
     "https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/",
     "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
     "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+  ],
+  "2026-10-23": [
+    "https://discourse.openrobotics.org/t/recordings-now-available-for-roscon-global-2026-in-toronto/59071",
+    "https://discourse.openrobotics.org/t/how-to-get-a-review-on-joystick-drivers/59049",
+    "https://discourse.openrobotics.org/t/conduit-3-sneak-peek-drive-robots-and-move-arms-from-your-iphone/59063",
+    "https://discourse.openrobotics.org/t/october-cwg-meeting-deep-venture-and-resq-rov-from-cots-to-capability/59056",
+    "https://openai.com/index/decisions-api",
+    "https://openai.com/index/uber-chatgpt-work-rollout",
+    "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+    "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+    "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+    "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+    "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+    "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
   ]
 }
