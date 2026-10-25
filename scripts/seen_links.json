@@ -1,19 +1,4 @@
 {
-  "2026-10-05": [
-    "https://discourse.openrobotics.org/t/robotcad-v12-10-0-is-released/58566",
-    "https://discourse.openrobotics.org/t/tuning-stereosgbm-on-ps5-camera-ros-2-galactic-for-dense-depth-maps/58568",
-    "https://openai.com/index/practical-guide-building-gpt-6",
-    "https://openai.com/index/chatham-financial",
-    "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-    "https://simonwillison.net/2026/Oct/3/newsletter/",
-    "https://github.com/ollama/ollama/releases/tag/v0.35.1",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.104.0",
-    "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
-    "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/",
-    "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
-    "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
-    "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
-  ],
   "2026-10-06": [
     "https://discourse.openrobotics.org/t/mid-senior-mechanical-engineer-turin-italy/58597",
     "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-10-05/58605",
@@ -270,5 +255,27 @@
     "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
     "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
     "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+  ],
+  "2026-10-26": [
+    "https://discourse.openrobotics.org/t/roscon-china-2026-a-tremendous-success-for-the-ros-community/59154",
+    "https://discourse.openrobotics.org/t/radar-plugin-for-gazebo/59153",
+    "https://discourse.openrobotics.org/t/robotheca-an-open-catalogue-of-475-buildable-open-source-robots-with-ros-2-support-urdfs-and-licences-checked/59166",
+    "https://discourse.openrobotics.org/t/can-a-social-reflex-stop-a-robot-but-never-restart-it-testing-a-dual-dwell-safety-gate-webots/59167",
+    "https://github.com/ros2/launch/releases/tag/3.10.3",
+    "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "https://simonwillison.net/2026/Oct/24/battledrones/",
+    "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+    "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "https://lynchlab.net/llm-skin-cancer",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.106.4",
+    "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+    "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
+    "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+    "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/"
   ]
 }
