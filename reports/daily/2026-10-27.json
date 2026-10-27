@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-27T09:07:29+09:00",
+  "items": [
+    {
+      "title": "New Project Lead for ROS PMC!",
+      "link": "https://discourse.openrobotics.org/t/new-project-lead-for-ros-pmc/59192",
+      "summary": "Hello ROS Community! I’m Alejandro Hernández Cordero (@ahcorde ), and I’m happy to share that the ROS PMC has selected me as the new ROS project lead. It’s an honor to take on this role for a project that has shaped so much of my career. First, a big thank you to Michael Carroll (@mjcarroll ). He took on the interim role at a moment of change, shipped Kilted and Lyrical, and worked with the TGC to define what the project lead role should look like. That work made this transition possible, and I’m grateful to be building on the foundation he left. A bit about me: I wrote my first ROS node in 2012 for my master’s final project, and I never really left. I spent several years at Open Robotics maintaining ROS 2 core packages and the ROS 2 and Gazebo integration, and today I’m at Honu Robotics , where I see every day what it takes to bring ROS from a prototype to a real product. A lot of what I know about ROS I learned in review threads, from people all over the world, and that collaborative spirit is something I want to protect and grow. What I’ll be working on: Shipping ROS 2 Makoa Mata-mata on World Turtle Day, May 23, 2027, with a release process that is predictable and easy to follo",
+      "publishedAt": "2026-10-26T09:00:23+00:00",
+      "updatedAt": "2026-10-26T09:00:23+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "New Project Lead for ROS PMC! - Projects - Open Robotics Discourse New Project Lead for ROS PMC! Projects ros2 , pmc ahcorde October 26, 2026, 9:00am 1 Hello ROS Community! I’m Alejandro Hernández Cordero (@ahcorde ), and I’m happy to share that the ROS PMC has selected me as the new ROS project lead. It’s an honor to take on this role for a project that has shaped so much of my career. First, a big thank you to Michael Carroll (@mjcarroll ). He took on the interim role at a moment of change, shipped Kilted and Lyrical, and worked with the TGC to define what the project lead role should look like. That work made this transition possible, and I’m grateful to be building on the foundation he left. A bit about me: I wrote my first ROS node in 2012 for my master’s final project, and I never really left. I spent several years at Open Robotics maintaining ROS 2 core packages and the ROS 2 and Gazebo integration, and today I’m at Honu Robotics , where I see every day what it takes to bring ROS from a prototype to a real product. A lot of what I know about ROS I learned in review threads, from people all over the world, and that collaborative spirit is something I want to protect and grow. What I’ll be working on: Shipping ROS 2 Makoa Mata-mata on World Turtle Day, May 23, 2027, with a release process that is predictable and easy to follow. Growing the maintainer base, so ROS doesn’t depend on a handful of people, and making the path from first contribution to maintainer clearer. Keeping ROS and Gazebo working smoothly together, from simulation to real robots. Working with OSRA members, the TGC and the PMC on the project’s priorities, and making sure the community’s voice is part of those decisions. How you can help: join a PMC meeting (observers are welcome, and the minutes are public), get involved with a working group, or pick up an issue on GitHub. Reviewing pull requests, improving documentation and answering questions are just as valuable as writing code. Discourse and Discord are great places to start a conversation, and if you’re not sure where to begin, ask, and we’ll help you find a good fit. My door is open. Reach out on Discourse, GitHub (ahcorde (Alejandro Hernández Cordero) · GitHub ) or LinkedIn (Alejandro Hernández Cordero - Intrinsic | LinkedIn ) with ideas, questions or concerns. I’d especially like to hear from people using ROS in production, in research and in the classroom about what’s working and what isn’t. Let’s keep building! Alejandro Hernández Cordero 13 Likes Related topics Topic Replies Views Activity New Project Lead for ROS PMC ROS General ros2 , osra , pmc 3 900 February 17, 2025 ROS PMC Meeting minutes 2024-11-26 ROS General ros2 , pmc 0 96 November 26, 2024 ROS PMC Minutes for July 21, 2026 ROS PMC ros , minutes , pmc 0 100 July 27, 2026 ROS PMC Minutes for September 29, 2026 ROS PMC 4 220 October 2, 2026 ROS PMC Minutes for July 14, 2026 ROS PMC ros , minutes , pmc 0 134 July 14, 2026",
+      "articleUrl": "https://discourse.openrobotics.org/t/new-project-lead-for-ros-pmc/59192",
+      "articleFetchedAt": "2026-10-27T00:07:42.450484+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "RoboStack moved to a Monorepo",
+      "link": "https://discourse.openrobotics.org/t/robostack-moved-to-a-monorepo/59196",
+      "summary": "Hi everyone, RoboStack has moved to a monorepo approach! You can read all about it in this document . Why? All the major distros are now managed from one repo. This removes a lot of duplication and makes maintaining the distro channels much easier. Patches, new packages, testing and rebuilds can now be done for all distros at once, in a single PR. Easier to contribute We added several features to help new maintainers get started. The biggest one is the new robostack-bot . It takes care of some of the regular maintenance work and can generate PR’s for standardized functions like adding a new package. You can ask it for help by commenting @robostack-bot add-package <pkg>... [<distro>...] on GitHub. Is your package already there? Check the package lists, for example for Lyrical: ROS 2 Lyrical | RoboStack If something is missing, open an issue and the bot can help get it added. Feedback and new contributors are very welcome! 1 post - 1 participant Read full topic",
+      "publishedAt": "2026-10-26T10:10:44+00:00",
+      "updatedAt": "2026-10-26T10:10:44+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "RoboStack moved to a Monorepo - Mirrors - Open Robotics Discourse RoboStack moved to a Monorepo Infrastructure Project Mirrors ruben-arts October 26, 2026, 10:10am 1 Hi everyone, RoboStack has moved to a monorepo approach! You can read all about it in this document . Why? All the major distros are now managed from one repo. This removes a lot of duplication and makes maintaining the distro channels much easier. Patches, new packages, testing and rebuilds can now be done for all distros at once, in a single PR. Easier to contribute We added several features to help new maintainers get started. The biggest one is the new robostack-bot . It takes care of some of the regular maintenance work and can generate PR’s for standardized functions like adding a new package. You can ask it for help by commenting @robostack-bot add-package <pkg>... [<distro>...] on GitHub. Is your package already there? Check the package lists, for example for Lyrical: ROS 2 Lyrical | RoboStack If something is missing, open an issue and the bot can help get it added. Feedback and new contributors are very welcome! 5 Likes Related topics Topic Replies Views Activity Best practice on maintaining a repository Projects 6 3887 July 15, 2017 Invité ROSConFr 2022 Francophone Users Group 0 484 March 24, 2022 Migration to one GitHub repo for MoveIt! Manipulation 38 9654 August 16, 2018 Releasing repositories form \"other\" people Packaging and Release Management 19 5326 February 10, 2018 New way of installing ROS ROS General 7 1680 October 6, 2023",
+      "articleUrl": "https://discourse.openrobotics.org/t/robostack-moved-to-a-monorepo/59196",
+      "articleFetchedAt": "2026-10-27T00:07:42.432719+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "We made a new ROS robot: Mini Pupper 4",
+      "link": "https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197",
+      "summary": "YouTube Full Video : ROS2 Jazzy and micro-ros 1 post - 1 participant Read full topic",
+      "publishedAt": "2026-10-26T10:34:02+00:00",
+      "updatedAt": "2026-10-26T10:34:02+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "We made a new ROS robot: Mini Pupper 4 - Projects - Open Robotics Discourse We made a new ROS robot: Mini Pupper 4 Projects release , ros2 mangdang October 26, 2026, 10:34am 1 YouTube Full Video : ROS2 Jazzy and micro-ros 3 Likes Related topics Topic Replies Views Activity Mini Pupper(mini legged robot) can run ROS2 Humble now ROS General ros2 5 1351 January 3, 2023 MiniPupper - ROS, Open-source, Low-cost Robot Dog Education Kit Projects melodic 5 3144 August 25, 2021 New ROS 2 Features for Mini Pupper 2 ROS General release , ros2 6 794 June 8, 2026 ROS News For the Week of 9/27/2021 Community News weekly-update 4 1513 October 18, 2021 A tutorial to make your quadruped robot on ROS ROS General ros2 , tutorial , quadruped 0 211 June 25, 2026",
+      "articleUrl": "https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197",
+      "articleFetchedAt": "2026-10-27T00:07:42.426006+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "BTick — Behavior Tree Monitoring & Debugging for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/btick-behavior-tree-monitoring-debugging-for-ros-2/59220",
+      "summary": "Hi ROS community! Working with Behavior Trees in robotics? Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive. Key Features Unlimited Nodes & Multi-Tree Support — Automatically discover and monitor multiple trees and nested subtrees in real time. Live Monitoring & Interactive Debugging — Track execution, use breakpoints and step execution, and inspect node states. Runtime Control & Testing — Override node statuses, inject delays, edit supported ports, and inspect or modify Blackboard variables. Recording, Replay & Performance Analysis — Record sessions, replay execution through a timeline, export logs, and analyze execution timing. Integrated XML Editor — Create and edit BehaviorTree.CPP v4 XML files with interactive visualization and navigation. Three Protocols & Integrations BTick Protocol — Native monitoring and interactive debugging. Groot2 Protocol — Groot2-compatible communication and supported Pro features. Nav2 Integration — Visualize Behavior Trees through the ROS 2 Nav2 logging topic. Web & Desktop Applications — Access BTick through a browser or a standalone desktop application. Expl",
+      "publishedAt": "2026-10-26T15:08:44+00:00",
+      "updatedAt": "2026-10-26T15:08:44+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "BTick — Behavior Tree Monitoring & Debugging for ROS 2 - Projects - Open Robotics Discourse BTick — Behavior Tree Monitoring & Debugging for ROS 2 Projects ros2 , nav2 , behaviortrees Sherif_Fathey October 26, 2026, 3:08pm 1 Hi ROS community! Working with Behavior Trees in robotics? Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive. Key Features Unlimited Nodes & Multi-Tree Support — Automatically discover and monitor multiple trees and nested subtrees in real time. Live Monitoring & Interactive Debugging — Track execution, use breakpoints and step execution, and inspect node states. Runtime Control & Testing — Override node statuses, inject delays, edit supported ports, and inspect or modify Blackboard variables. Recording, Replay & Performance Analysis — Record sessions, replay execution through a timeline, export logs, and analyze execution timing. Integrated XML Editor — Create and edit BehaviorTree.CPP v4 XML files with interactive visualization and navigation. Three Protocols & Integrations BTick Protocol — Native monitoring and interactive debugging. Groot2 Protocol — Groot2-compatible communication and supported Pro features. Nav2 Integration — Visualize Behavior Trees through the ROS 2 Nav2 logging topic. Web & Desktop Applications — Access BTick through a browser or a standalone desktop application. Explore BTick Full Demo: [Demo Link] Documentation: BTick: Behavior Tree Visualizer & Debugger — BTick 1.0.0 documentation Application Repository: GitHub - SherifFathey/btick_app · GitHub Core Integration: GitHub - SherifFathey/btick · GitHub Built for developers working with ROS 2, BehaviorTree.CPP, and Nav2. The goal is simple: bring Behavior Tree visualization, monitoring, debugging, recording, and analysis together in one interface. Feedback and contributions are welcome! Monitor 1920×1080 306 KB xml_editor 1854×1048 202 KB 2 Likes chfritz October 26, 2026, 4:51pm 2 Looks awesome! Is this only useful for development or would it also make sense for monitoring/operating deployed robots? If the latter then I think this would make for a great Transitive capability . It would help spread the word and, on the technical side, would move the UI to the cloud with a remote connection to the robot for monitoring from the web without the need for a VPN or similar. 1 Like Sherif_Fathey October 26, 2026, 5:17pm 3 BTick — Behavior Tree Monitoring & Debugging for ROS 2 Projects Looks awesome! Is this only useful for development or would it also make sense for monitoring/operating deployed robots? If the latter then I think this would make for a great Transitive capability . It would help spread the word and, on the technical side, would move the UI to the cloud with a remote connection to the robot for monitoring from the web without the need for a VPN or similar. Thanks for the suggestion! This is definitely just the beginning for BTick. On the development side, BTick allows you to modify the Behavior Tree at runtime, making debugging, testing, and experimenting with different behaviors much easier. For deployed robots, I believe it could also be valuable for remote monitoring, troubleshooting, and diagnosing unexpected behavior in real-world operation. Integrating BTick with Transitive is a great idea, and I’ll definitely explore this direction. I’d also really appreciate it if you could try BTick on one of your real-world robotics projects and share your feedback. It would be great to hear your thoughts on how well it fits into an actual robotics workflow and what improvements would make it more useful. Related topics Topic Replies Views Activity Groot1Publisher: Visualize and Monitor BehaviorTree v4 trees in Groot 1 Projects ros2 , tools , humble , deliberation 0 308 March 6, 2026 Open Class - Behavior Trees for ROS2 Training & Education ros2 0 1120 December 22, 2022 BT-Studio 0.3 available (with video) ROS General ros2 , humble , wg-delib 0 931 May 16, 2024 Nav2 BT Editor: a VS Code extension for editing and previewing Nav2 behavior trees Projects ros2 , nav2 , vscode , behaviortrees 0 241 June 29, 2026 BT-Studio 0.2 available (with video) ROS General ros2 , humble , wg-delib 0 1283 November 6, 2023",
+      "articleUrl": "https://discourse.openrobotics.org/t/btick-behavior-tree-monitoring-debugging-for-ros-2/59220",
+      "articleFetchedAt": "2026-10-27T00:07:42.459369+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Head of Robotics (Co-Founder & Partner), ROS 2 Micro-Manufacturing @ BuildShare, Remote (worldwide)",
+      "link": "https://discourse.openrobotics.org/t/head-of-robotics-co-founder-partner-ros-2-micro-manufacturing-buildshare-remote-worldwide/59180",
+      "summary": "Hi all, BuildShare (https://buildshare.ai ) is hiring a Head of Robotics to lead RoMi, our robotic micro-manufacturing system for building components and modules. Fully remote, worldwide. What we’re building Through Ingelica, our R&D unit, we are developing the robotics IP behind RoMi: robotic cells and production workflows that will be replicated in 500+ micro-factories across the US and run by our general-contractor partners. Our construction company, BuilderK (https://builderk.com ), delivers the homes, so the robots have real demand from day one. Where ROS / ROS 2 comes in Architect the RoMi software stack on ROS 2: cell orchestration, motion planning (MoveIt 2), perception, and hardware interfaces (ros2_control) for industrial arms and fixtures Simulate cells and workflows in Gazebo / Isaac before building hardware Turn one working cell into a repeatable, deployable package (launch, config, CI) that can run in hundreds of sites You’ll also Own the robotics roadmap, IP and team, like a CEO of the robotics business Design, prototype and test the micro-manufacturing system Present demos to partners and investors What you bring Hands-on robotics work: robots you’ve built, research",
+      "publishedAt": "2026-10-26T02:50:51+00:00",
+      "updatedAt": "2026-10-26T02:50:51+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "Head of Robotics (Co-Founder & Partner), ROS 2 Micro-Manufacturing @ BuildShare, Remote (worldwide) - Jobs - Open Robotics Discourse Head of Robotics (Co-Founder & Partner), ROS 2 Micro-Manufacturing @ BuildShare, Remote (worldwide) Jobs fulltime richard1 October 26, 2026, 2:50am 1 Hi all, BuildShare (https://buildshare.ai ) is hiring a Head of Robotics to lead RoMi, our robotic micro-manufacturing system for building components and modules. Fully remote, worldwide. What we’re building Through Ingelica, our R&D unit, we are developing the robotics IP behind RoMi: robotic cells and production workflows that will be replicated in 500+ micro-factories across the US and run by our general-contractor partners. Our construction company, BuilderK (https://builderk.com ), delivers the homes, so the robots have real demand from day one. Where ROS / ROS 2 comes in Architect the RoMi software stack on ROS 2: cell orchestration, motion planning (MoveIt 2), perception, and hardware interfaces (ros2_control) for industrial arms and fixtures Simulate cells and workflows in Gazebo / Isaac before building hardware Turn one working cell into a repeatable, deployable package (launch, config, CI) that can run in hundreds of sites You’ll also Own the robotics roadmap, IP and team, like a CEO of the robotics business Design, prototype and test the micro-manufacturing system Present demos to partners and investors What you bring Hands-on robotics work: robots you’ve built, research, competitions, labs or startup projects ROS / ROS 2 experience, plus some of: industrial arms, controls, computer vision, CAD, embedded, automation/manufacturing Ownership: you like taking things from zero to working hardware Fluent English; at least 3 hours of overlap with US Eastern Time Early-career engineers and current students (BSc/MSc/PhD) welcome Offer Co-founder & partner role with a seat at the leadership table $150,000/year from your start date + stock options (4-year vesting, 1-year cliff) Health/dental/vision, 401(k), flexible PTO, home-office stipend, equipment and AI tools, learning budget Work from anywhere; minimum 4 hours/day, full-time welcome Apply Email richard@buildshare.ai with: CV or LinkedIn Links to your ROS / robotics work (GitHub, videos, papers, competition results) A 60-90 second intro video on why this role Subject: “Head of Robotics – ROS Discourse – Your Name” BuildShare is an equal opportunity employer. 1 Like Related topics Topic Replies Views Activity ROS2 Developer - Remote | Ctrl Robotics Jobs fulltime , ros2 , part-time , rmf , open-rmf 0 2756 October 3, 2023 Senior Robotics Architect (ROS 2) — Remote (US) | ~15% Travel Jobs ros2 , real-time , robotics , python 1 395 July 22, 2026 [Paid Contract] Robotics Engineer - Household Manipulation Prototype - Hamilton, Canada / Hybrid Jobs ros2 , ros 5 537 September 19, 2026 Robotics Software Engineer @ Logivations (ROS2, Munich, Germany and remote) Jobs fulltime , ros2 , navigation 0 1332 December 23, 2021 Senior Robotics Software Engineer at Locus Robotics (Remote or Hybrid) Jobs fulltime , ros2 , ros 0 498 October 19, 2024",
+      "articleUrl": "https://discourse.openrobotics.org/t/head-of-robotics-co-founder-partner-ros-2-micro-manufacturing-buildshare-remote-worldwide/59180",
+      "articleFetchedAt": "2026-10-27T00:07:42.601056+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "link": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "publishedAt": "2026-10-26T22:00:00+00:00",
+      "updatedAt": "2026-10-26T22:00:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError"
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "publishedAt": "2026-10-26T14:30:00+00:00",
+      "updatedAt": "2026-10-26T14:30:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError"
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "publishedAt": "2026-10-26T13:45:00+00:00",
+      "updatedAt": "2026-10-26T13:45:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError"
+    },
+    {
+      "title": "Quoting Jason Koebler",
+      "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them. — Jason Koebler , ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems Tags: jason-koebler , openai , journalism , ai , llms , ai-ethics , ai-misuse , generative-ai , chatgpt , 404-media",
+      "publishedAt": "2026-10-26T19:00:25+00:00",
+      "updatedAt": "2026-10-26T19:00:25+00:00",
+      "source": "Simon Willison",
+      "section_hint": "AI",
+      "articleText": "A quote from Jason Koebler Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 26th October 2026 Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them. — Jason Koebler , ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems Posted 26th October 2026 at 7 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a quotation collected by Simon Willison, posted on 26th October 2026 . journalism 52 ai 2,294 openai 476 generative-ai 2,035 chatgpt 206 llms 2,000 jason-koebler 9 ai-ethics 346 ai-misuse 67 404-media 9 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+      "articleUrl": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "articleFetchedAt": "2026-10-27T00:07:42.536297+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Seam Cutter",
+      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
+      "publishedAt": "2026-10-25T15:10:19+00:00",
+      "updatedAt": "2026-10-25T15:10:19+00:00",
+      "source": "Simon Willison",
+      "section_hint": "AI",
+      "articleText": "Tool: Seam Cutter Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 25th October 2026 Tool Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Posted 25th October 2026 at 3:10 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a beat by Simon Willison, posted on 25th October 2026 . tools 82 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+      "articleUrl": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "articleFetchedAt": "2026-10-27T00:07:42.544245+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "link": "https://github.com/FrigadeHQ/hob",
+      "summary": "",
+      "publishedAt": "2026-10-26T16:12:29+00:00",
+      "updatedAt": "2026-10-26T16:12:29+00:00",
+      "source": "HackerNews",
+      "section_hint": "AI",
+      "articleText": "main Branches Tags Go to file Code Open more actions menu Latest commit History 191 Commits 191 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows app app catalog catalog docs docs packages/ picker packages/ picker site site .gitattributes .gitattributes .gitignore .gitignore .npmrc .npmrc .nvmrc .nvmrc CONTRIBUTING.md CONTRIBUTING.md LICENSE LICENSE README.md README.md package.json package.json pnpm-lock.yaml pnpm-lock.yaml pnpm-workspace.yaml pnpm-workspace.yaml tsconfig.base.json tsconfig.base.json View all files Repository files navigation Hob An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT. Visit hob.chat → · Download for Mac · Windows · Linux Fill out PDFs, work through documents, and much more. Free, private, and works offline. Hob picks the best frontier open-weight model that fits your computer and sets everything up for you. Help · Contributing · MIT license Made by Frigade . About An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline. hob.chat Topics ai-agent ai-assistant chatgpt-alternative claude-alternative desktop-app electron gemma gpt-oss linux llama-cpp llm local-ai local-llm macos mcp offline-ai open-source privacy private-ai windows Resources Readme MIT license Contributing Contributing Activity Custom properties Stars 97 stars Watchers 1 watching Forks 3 forks Report repository Releases Packages Contributors Languages",
+      "articleUrl": "https://github.com/FrigadeHQ/hob",
+      "articleFetchedAt": "2026-10-27T00:07:43.023997+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Anthropic S-1",
+      "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "summary": "",
+      "publishedAt": "2026-10-26T13:04:50+00:00",
+      "updatedAt": "2026-10-26T13:04:50+00:00",
+      "source": "HackerNews",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError"
+    },
+    {
+      "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+      "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+      "summary": "Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages. The post Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T21:15:00+00:00",
+      "updatedAt": "2026-10-26T21:15:00+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "Bedrock Robotics automates large excavators to improve construction site economics. | Credit: Bedrock Robotics San Francisco-based Bedrock Robotics has raised $600 million in Series C funding, co-led by CapitalG and Emergence Capital, at a $4.1 billion valuation. The round brings its total funding to nearly $1 billion as it scales fully autonomous heavy equipment to address nationwide construction labor shortages. The round included new investors US Innovative Technology Fund (USIT), Bessemer Venture Partners, and Temasek, alongside existing investors 8VC, Georgian, Valor Equity Partners, Xora, Eclipse, Perry Creek Capital, NVIDIA, and others. Bedrock said this will accelerate the deployment of Bedrock-equipped machines across commercial construction sites across the U.S., helping contractors use existing heavy equipment more safely, predictably, and at greater capacity. The new capital follows a rapid commercial expansion beyond the company ’s initial footprint in the West and Central South into the Midwest and South Atlantic. Anchored by a major partnership with Southwest contractor Haydon to automate earthwork in Texas, Bedrock has added regional partners across Minnesota, Florida, Georgia, Missouri, and Virginia—pushing its autonomous retrofits onto live job sites spanning data centers, healthcare facilities, and heavy civil infrastructure. “We have proven that fully autonomous excavators can perform real work of value alongside the crews and workflows already in place on job sites,” said Boris Sofman, co-founder and CEO of Bedrock Robotics. “The next challenge is delivering that capability to more contractors as a dependable part of how projects get built.” “This funding allows us to expand deployments, strengthen the field operations behind every machine, and work with more partners as they integrate intelligent systems into everyday work,” he added. “The opportunity is to help the industry’s experienced crews safely take on more projects, deliver with greater consistency, and quickly deliver more of the infrastructure this country needs.” Sofman told The Robot Report , “New customer demand is very high. We’re responsibly growing into the demand, bringing on new customers we can serve alongside our longtime design partners. We’re scaling across the board, from operations to hardware to supply chain operations, to keep pace with the needs of our customers.” Bedrock Robotics adds leadership In the midst of securing new funding, the company also added two new individuals to the management team. Amy Jones Satrom joins the leadership team as vice president of operations. She brings operations experience from Amazon, Nuro, and Uber to lead the company in the next phase of scaling to meet demand. “Amy is instrumental in strengthening our operations and building the systems and support that make successful deployments repeatable,” according to Sofman. “She’s still early in her tenure, but her leadership will be central to growing our deployment and production teams and preparing them to support customers across the country. “Ajay Gummalla, a co-founder and VP of engineering, is also intimately involved on the hardware side of things, adding resilience to our supply chain so we’re ready to build the hardware we need to meet customer demand,” he explained. Lando Juarez has joined Bedrock Robotics in the role of general counsel. He was formerly head of legal for Uber’s Autonomous Mobility & Delivery business, overseeing commercial partnerships and regulatory pathways. Submit your innovation now! Looking to the future of construction When asked bout how the company is planning to grow, Sofman responded, “Short term, our growth market remains construction. It is a massive market — 4% to 5% of U.S. GDP — so we’re thinking about expanding use cases. Haydon will test our excavators for autonomous trench work.” “We’re also thinking about automating larger machine models — Haydon and others will explore bulldozers, ADTs, and wheel loaders as possible heavy machines to automate next,” he said. “Long term: We’re looking at the other industries, like mining and agriculture, that are 1) also dealing with labor constraints and 2) use the same kinds of heavy machines GCs do.” “For 2027, we are relentlessly focused on getting more Bedrock-equipped machines on more job sites around the country,” Sofman continued. “It was just a few months ago that we first launched fully autonomous excavators on live, commercial job sites, just two years after Bedrock came out of stealth. 2027 is about doubling down on that progress, getting to triple-digit machines working autonomously across the country.” When asked about the installed base and economic opportunity for Bedrock Robotics’ systems, Sofman was more reserved. “It’s a bit early to give concrete numbers,” said Sofman, “However, given the labor constraints on general contractors, the math pencils out: Imagine a job that can be completed two months faster because autonomous machines are running around the clock, seven days a week.” “The developer paying 9% interest on a $400 million loan would save $6 million on that project they can invest into future projects,” he observed. “In turn, construction crews and all the downstream trades, like plumbing and electrical, would see an increasing volume of steady work because there are more projects that can be funded.” Some data on labor constraints that have opened the market for Bedrock: Twenty percent of construction workers are over the age of 55, and estimates suggest that more than 40% of the construction workers will retire in the next five years. Large projects already run an average of 20% over schedule and 80% over budget. In construction specifically, 87% of firms report openings for hourly craft positions, and 88% say the roles are as hard or harder to fill than a year ago. About The Author Mike Oitzman Mike Oitzman is a robotics industry veteran and Senior Editor of WTWH Media’s Robotics Group, covering automation for The Robot Report and co-hosting its podcast. With 25+ years of experience, including leadership roles at Adept Technology, Mike founded the Mobile Robot Guide (acquired by WTWH). He is a leading expert on Autonomous Mobile Robots (AMRs), physical AI, and RaaS business models, holding a Systems Engineering degree and an MBA. He can be reached at [email protected] . Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > OMRON to acquire OnLogic to address edge AI applications Agility and GXO Logistics plan expanded deployment of Digit humanoid Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics Eka Robotics raises $150M to scale its vision-force-action model for robots",
+      "articleUrl": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+      "articleFetchedAt": "2026-10-27T00:07:42.877053+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "OMRON to acquire OnLogic to address edge AI applications",
+      "link": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+      "summary": "OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications. The post OMRON to acquire OnLogic to address edge AI applications appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T20:13:13+00:00",
+      "updatedAt": "2026-10-26T20:13:13+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "OnLogic will keep its Vermont headquarters, as well as its global offices, as part of OMRON. Source: OnLogic As manufacturers increasingly use data and AI at the edge, they need reliable computing that works alongside real-time automation and control. OMRON Corp. this month said it has agreed to acquire 100% of OnLogic this week, worth $675 million, to combine its proven automation with OnLogic’s industrial computing expertise. “This acquisition is an important step in advancing our SF2030 vision and our evolution toward GEMBA DX,” stated Junta Tsujinaga, president and CEO of OMRON. “North America is a key growth market for OMRON, and this investment strengthens our foundation there while building the capabilities our customers will increasingly need.” “OnLogic’s industrial computing expertise, flexibility and strong customer relationships complement our strengths in automation and control,” he added. “Together, we see an opportunity to create new value for customers as manufacturing becomes more connected, data-driven and intelligent.” Founded in 1933, OMRON Automation creates, sells, and services fully integrated automation solutions that include sensing , control , safety , vision , and motion . The Kyoto, Japan-based company said its 30,000 employees creatively help businesses solve problems in more than 110 countries. Its Americas office is in Hoffman Estates, Ill. Submit your innovation now! OnLogic to continue computing brand Founded in 2003, OnLogic designs and makes configurable, solution-focused, AI -capable computers engineered for reliability at the Internet of Things (IoT ) edge. The South Burlington, Vt.-based company said it has helped more than 70,000 customers worldwide with their complex computing challenges with systems that are built to order, delivered in days, and designed to last. OnLogic noted that its systems operate in the world’s harshest environments across industries. It said joining OMRON will provide industrial automation expertise and access to new markets. “We built OnLogic to help engineers and innovators solve tough technology challenges by making custom, rugged hardware easy to configure, build, and deploy,” said Sean Larkin, CEO of OnLogic. “Joining OMRON provides the global scale, supply chain depth, and capital resources to accelerate our product roadmaps while preserving our culture, direct sales approach, and operations around the world. Together, we are giving our customers the tools they need to deploy physical AI with confidence.” Following the acquisition, OnLogic will continue to operate as an independent business within the OMRON Group. It will keep its offices in the U.S., the Netherlands, Germany, Taiwan, and Malaysia, as well as its brand identity and direct sales model. OnLogic’s management team, led by Larkin, will remain in place to drive day-to-day operations and strategic growth. OMRON sees opportunities for manufacturers The companies said they will help customers address increasingly complex applications that require greater processing power, connectivity, and intelligence at the edge. OMRON has experience in control, robotics, and safety. OnLogic brings configurable computing platforms designed for demanding applications and environments, as well as its flexible build-to-order model and customer reach across manufacturing and other markets. The companies said they expect to more closely connect machine data, edge computing, and AI with real-time automation and control. Over time, the combination is expected to create systems that help turn data, insights, and AI into faster, more informed actions to optimize manufacturing. OMRON added that the acquisition is an investment in its Industrial Automation Business and strengthens the company’s position in the Americas and Europe . OnLogic has relationships with customers across both traditional automation markets and industries where OMRON sees additional opportunities for growth. In addition, OMRON said it remains committed to its established channel strategy and to continuing to invest in and support the partners that help it serve customers and grow in the market. The companies said they expect the acquisition to close in or around January 2027, subject to regulatory approval. Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > Boston Dynamics gives more insight into its redesigned humanoid hand Runway introduces Praxis-1 world action model for robotics Hirebotics adds line tracking and linear rail capabilities to its cobots Report covers advances in surgical robots, deploying warehouse automation in the real world",
+      "articleUrl": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+      "articleFetchedAt": "2026-10-27T00:07:42.850513+00:00",
+      "articleStatus": "fetched"
+    },
+    {
+      "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+      "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+      "summary": "GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites. The post Agility and GXO Logistics plan expanded deployment of Digit humanoid appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T14:05:21+00:00",
+      "updatedAt": "2026-10-26T14:05:21+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "Agility and GXO have been collaborating since 2023. Source: Agility Robotics Agility Robotics and GXO Logistics today said they are expanding their partnership to deploy Agility’s Digit humanoid robot in GXO sites in North Carolina and Tennessee. “GXO was the first customer to put Digit to work in live operations under a commercial agreement, and expanding to additional sites is the clearest signal that the value is real,” stated Peggy Johnson, CEO of Agility. “Customers are moving beyond asking whether humanoid robots can work to deciding where they can scale them. Years of experience performing real work in GXO’s operations have shaped how we build, deploy and support Digit, and we’re focused on disciplined execution as we grow this partnership.” Founded in 2015, Agility Robotics said it has more than 65,000 hours of real-world operation working with industry safety standards. The Salem, Ore.-based company recently got U.S. Securities and Exchange Commission approval for its planned merger with special-purpose acquisition company (SPAC ) Churchill Capital Corp. XI as it prepares to go public. In 2024, Digit earned Agility the inaugural RBR50 Robot of the Year award for being one of the first humanoids to enter commercial trials. It received 2026 honors for moving more than 100,000 totes for GXO last year. This month, the company chose Nyobolt for fast charging , expanded its partnership with NVIDIA, and said it plans to deploy Digit at an AGCO factory for agricultural equipment in 2027. Submit your innovation now! GXO and Agility continue collaboration Spun out of XPO Inc. in 2021, GXO Logistics claimed that it is “the world’s largest pure-play contract logistics provider.” The third-party logistics provider (3PL ) has more than 150,000 employees across over 1,000 facilities, totaling more than 200 million sq. ft. (18.5 million sq. m). The Greenwich, Conn.-based company last month partnered with Exotec to automate fulfillment for Guess in the Netherlands, and like Agility , its executives participated in keynote panels last week’s RoboBusiness event. GXO and Agility first deployed Digit in late 2023 in at a facility in Flowery Branch, Ga. The companies asserted that it was the industry’s first commercial deployment of humanoid robots in live operations and the first robotics-as-a-service (RaaS ) agreement for humanoid robots. Since then, Digit has moved more than 100,000 totes at the Flowery Branch facility, demonstrating its ability to perform repetitive material handling tasks reliably in an active logistics environment. The robot uses the Agility Arc cloud-based fleet management and integration platform. It has worked alongside existing automation to move totes and place them onto conveyors. “Innovation is most powerful when it delivers practical solutions that create value for our customers and our people,” said GXO CEO Patrick Kelleher. “Our partnership with Agility Robotics has been defined by a shared commitment to turning emerging technologies into real-world operational advantage. Together, we’ve helped pioneer the use of humanoid robotics in the warehouse and this expansion reflects our confidence in the technology’s ability to create measurable value for our customers and a better working environment for our teams.” Digit will move from handling bins to more applications. Source: Agility GXO Logistics has tested other humanoids GXO has also tested humanoid robots including Apollo from Apptronik and Reflex from Reflex Robotics . In the company’s second-quarter earnings call in August, Kelleher acknowledged that it had not yet deployed humanoids in production, nor had they produced a return on investment (ROI). “We’ve done 45 pilots on humanoids so far. We have an additional pilot launching in Europe very shortly,” he said at the time. “We have not achieved ROI on humanoids yet. I think we are a couple of years away from that, but we’re seeing such great progress with our partners around the efficacy of that technology and the application opportunities that it has in the warehouse environment.” GXO did not say how much it is investing in the Digit expansion or when and if it expects ROI. The Robot Report has reached out and will share any additional comment or clarification. Partners plan to deploy Digit to more U.S. sites Under the expanded agreement, Digit will support e-commerce fulfillment at GXO sites in Statesville, Tenn., and Lebanon, Ind. The companies said they expect to begin deployments of Digit 4 in in early 2027. Digit 5, which Agility unveiled last month, is designed with new legs, to operate safely near people, and to address a wider range of industrial workflows. GXO said it will migrate to Digit 5 when it becomes commercially available. “The expansion reflects GXO’s long-standing approach to advancing warehouse automation through practical implementation at scale,” said GXO. “As an industry leader in advanced automation and physical AI, GXO partners with leading technology developers to test, refine and deploy emerging solutions in live operating environments. The expanded partnership underscores GXO’s and Agility’s shared commitment to accelerating innovation through real-world application and continuous learning.” Agility also noted that it has invested in infrastructure to manufacture, deploy, and support humanoid robots at scale, including its 70,000 sq. ft. (6,503.2 sq. m) RoboFab facility to manufacture up to 10,000 robots per year. The company has also expanded software and service capabilities, as well as announced plans for a new 50,000 sq. ft. (4,645 sq. m) facility in Pittsburgh to support commercial deployments. A spokesperson told The Robot Report that Agility has paid programs with a global automaker, a major automotive component supplier, and a global consumer products maker. The company said it has more than 30 prospective customers in its pipeline across manufacturing, logistics, aerospace, defense, and consumer products. About The Author Eugene Demaitre Eugene Demaitre is editorial director of the robotics group at Arrowfly (previously WTWH Media). He was senior editor of The Robot Report from 2019 to 2020 and editorial director of Robotics 24/7 from 2020 to 2023. Prior to working at Arrowfly, Demaitre was an editor at BNA (now part of Bloomberg), Computerworld, TechTarget, and Robotics Business Review. Demaitre has participated in robotics webcasts, podcasts, and conferences worldwide. He has a master's from the George Washington University and lives in the Boston area. Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > Webinar to discuss how the FCC robotics ruling affects automation buyers Generative Bionics to launch Physical AI Data Factory in Italy AGCO to deploy Agility Digit humanoid in Kansas factory A guide to Day 1 of RoboBusiness 2026",
+      "articleUrl": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+      "articleFetchedAt": "2026-10-27T00:07:42.939544+00:00",
+      "articleStatus": "fetched"
+    }
+  ],
+  "report": {
+    "one_sentence_summary": "RoboStack의 모노레포 전환 및 BTick 디버깅 도구 공개와 함께 Greptile·CodeRabbit의 최신 AI 모델 기반 코드 분석 적용, Bedrock Robotics 투자 및 OMRON 인수가 진행되었습니다.",
+    "cross_insight": "- 해석: AI 기반 소프트웨어 개발 도구들이 단순 코드 완성을 넘어 GPT-6 계열 모델을 활용한 런타임 워크플로 결함 탐지 및 복잡한 코드베이스의 보안 위험 분석으로 자동화 범위를 확장하고 있습니다 [6, 8].",
+    "section_robotics": "- **RoboStack**: 주요 배포판 관리를 단일 리포지토리에서 수행하는 모노레포 구조로 전환하고 단일 PR 일괄 빌드 및 패키지 추가를 지원하는 robostack-bot을 도입했습니다 [2].\n- **BTick**: BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 중단점 설정 기반 대화형 디버깅, 런타임 제어 및 Nav2 로깅 토픽 연동을 지원하는 시각화 도구가 공개되었습니다 [4].",
+    "section_devtools": "- **Greptile**: 코드 리뷰 단계를 넘어 사용자 워크플로를 테스트하고 버그 탐지 범위를 확장하기 위해 GPT-6 Astra를 도입했습니다 [6].\n- **OpenAI**: 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과와 연구자 검증 방안을 과학 커뮤니티와 공유했습니다 [7].\n- **CodeRabbit**: 복잡한 코드베이스 전반의 보안 위험을 조사하고 취약점 검토 및 수정을 지원하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했습니다 [8].\n- **Hob**: Mac, Windows, Linux 환경에서 외부 API 의존 없이 Gemma 및 gpt-oss 등 오픈 가중치 모델을 오프라인 로컬로 구동하는 무료 오픈소스 데스크톱 애플리케이션이 공개되었습니다 [11].",
+    "section_industry": "- **Bedrock Robotics**: 건설 현장 인력난에 대응한 자율 중장비 개조 및 상용 배치를 위해 41억 달러 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했습니다 [13].\n- **OMRON**: 산업 현장의 엣지 AI 역량 강화를 목적으로 산업용 컴퓨팅 제조 기업 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했습니다 [14].\n- **Agility Robotics**: GXO Logistics와의 파트너십을 확장하여 물류 물품 이송 현장인 노스캐롤라이나와 테네시 거점에 Digit 휴머노이드 로봇 추가 배치를 추진합니다 [15]."
+  },
+  "qualityAudit": {
+    "version": 2,
+    "plan": {
+      "entries": [
+        {
+          "title": "RoboStack, 배포판 관리 단일 모노레포 이전 및 관리 봇 도입",
+          "section": "section_robotics",
+          "reason": "ROS 배포판 패키징 관리 방식이 모노레포로 통합되어 기여 및 유지보수 워크플로가 크게 단순화되었기 때문입니다.",
+          "source_ids": [
+            2
+          ],
+          "facts": [
+            {
+              "source_id": 2,
+              "statement": "RoboStack이 주요 배포판을 단일 리포지토리에서 관리하는 모노레포 구조로 전환하고 robostack-bot을 도입했다.",
+              "quote": "RoboStack has moved to a monorepo approach!"
+            }
+          ]
+        },
+        {
+          "title": "BTick, BehaviorTree.CPP 및 Nav2를 위한 실시간 모니터링·디버깅 도구 공개",
+          "section": "section_robotics",
+          "reason": "ROS 2 및 Nav2 환경에서 Behavior Tree의 실시간 디버깅, 런타임 제어, XML 편집을 통합 제공하는 실무 도구이기 때문입니다.",
+          "source_ids": [
+            4
+          ],
+          "facts": [
+            {
+              "source_id": 4,
+              "statement": "BTick은 BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 대화형 디버깅, 런타임 제어 및 Nav2 통합을 지원하는 도구로 공개되었다.",
+              "quote": "Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive."
+            }
+          ]
+        },
+        {
+          "title": "Greptile, 코드 리뷰를 넘어선 버그 탐지에 GPT-6 Astra 도입",
+          "section": "section_devtools",
+          "reason": "AI 모델을 활용한 자동화 코드 리뷰 및 워크플로 테스트 확장 사례를 다루기 때문입니다.",
+          "source_ids": [
+            6
+          ],
+          "facts": [
+            {
+              "source_id": 6,
+              "statement": "Greptile이 사용자 워크플로 테스트를 위해 GPT-6 Astra를 도입해 버그 탐지를 확장했다.",
+              "quote": "Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
+            }
+          ]
+        },
+        {
+          "title": "OpenAI, 수학 및 물리학 연구 커뮤니티와의 과학적 검증 협업 결과 공개",
+          "section": "section_devtools",
+          "reason": "프론티어 모델이 수학적 추측 및 물리학 문제 해결에 기여하는 방식과 검증 가능성을 설명하기 때문입니다.",
+          "source_ids": [
+            7
+          ],
+          "facts": [
+            {
+              "source_id": 7,
+              "statement": "OpenAI가 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과를 공유했다.",
+              "quote": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics"
+            }
+          ]
+        },
+        {
+          "title": "CodeRabbit, 복잡한 코드베이스 보안 분석에 GPT-6.1 Sol 적용",
+          "section": "section_devtools",
+          "reason": "보안 전문 에이전트와 LLM을 결합해 대규모 코드베이스의 취약점을 탐지하고 수정을 지원하는 실무 적용 소식이기 때문입니다.",
+          "source_ids": [
+            8
+          ],
+          "facts": [
+            {
+              "source_id": 8,
+              "statement": "CodeRabbit이 복잡한 코드베이스 전반의 보안 위험을 조사하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했다.",
+              "quote": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases."
+            }
+          ]
+        },
+        {
+          "title": "Hob, 로컬 오픈 가중치 모델 실행 지원 오픈소스 온디바이스 AI 도구 공개",
+          "section": "section_devtools",
+          "reason": "외부 API 의존 없이 로컬 장치에서 오프라인으로 오픈 모델을 직접 실행할 수 있는 클라이언트 도구이기 때문입니다.",
+          "source_ids": [
+            11
+          ],
+          "facts": [
+            {
+              "source_id": 11,
+              "statement": "Hob은 Mac, Windows, Linux 환경에서 오픈 가중치 모델을 로컬로 구동하는 무료 오픈소스 데스크톱 애플리케이션이다.",
+              "quote": "runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux."
+            }
+          ]
+        },
+        {
+          "title": "Bedrock Robotics, 자율 중장비 상용화를 위해 6억 달러 시리즈 C 투자 유치",
+          "section": "section_industry",
+          "reason": "건설 현장 인력난에 대응해 자율 중장비 개조 및 상용 배치를 확대하기 위한 대규모 펀딩 소식이기 때문입니다.",
+          "source_ids": [
+            13
+          ],
+          "facts": [
+            {
+              "source_id": 13,
+              "statement": "Bedrock Robotics가 41억 달러의 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했다.",
+              "quote": "raised $600 million in Series C funding, co-led by CapitalG and Emergence Capital, at a $4.1 billion valuation."
+            }
+          ]
+        },
+        {
+          "title": "OMRON, 엣지 AI 역량 강화를 위해 산업용 컴퓨팅 기업 OnLogic 6억 7,500만 달러에 인수",
+          "section": "section_industry",
+          "reason": "자동화 제어 하드웨어와 엣지 컴퓨팅 기술의 대규모 기업 결합으로 현장 실시간 제어와 AI 통합을 도모하기 때문입니다.",
+          "source_ids": [
+            14
+          ],
+          "facts": [
+            {
+              "source_id": 14,
+              "statement": "OMRON이 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했다.",
+              "quote": "agreed to acquire 100% of OnLogic this week, worth $675 million"
+            }
+          ]
+        },
+        {
+          "title": "Agility Robotics와 GXO Logistics, Digit 휴머노이드 로봇 추가 배치 협력 확대",
+          "section": "section_industry",
+          "reason": "물류 물품 이송 현장에서 휴머노이드 로봇의 실증 단계를 넘어 추가 거점으로 실제 배치를 확장하는 상용화 사례이기 때문입니다.",
+          "source_ids": [
+            15
+          ],
+          "facts": [
+            {
+              "source_id": 15,
+              "statement": "Agility Robotics와 GXO Logistics가 파트너십을 확장하여 추가 물류 현장에 Digit 로봇 배치를 추진한다.",
+              "quote": "expanding their partnership to deploy Agility’s Digit humanoid robot in GXO sites in North Carolina and Tennessee."
+            }
+          ]
+        }
+      ],
+      "omitted": [
+        {
+          "source_id": 1,
+          "reason": "ROS PMC의 신임 프로젝트 리드 선임 및 개인 배경 소개 글로, 인물 소개 및 거버넌스 인사 공지에 해당하여 제외합니다."
+        },
+        {
+          "source_id": 3,
+          "reason": "단순 유튜브 영상 링크만 포함되어 구체적인 기술 명세나 신규 기능에 대한 본문 근거가 부족하여 제외합니다."
+        },
+        {
+          "source_id": 5,
+          "reason": "특정 기업의 채용 공고 글로 기술 및 산업 보도 기준에 부합하지 않아 제외합니다."
+        },
+        {
+          "source_id": 9,
+          "reason": "외부 기자의 발언을 인용한 단순 인용문 블로그 글로, AI나 로보틱스 개발 도구 및 기술 보도로 볼 수 없어 제외합니다."
+        },
+        {
+          "source_id": 10,
+          "reason": "개인 용도의 특정 이미지 크롭 도구에 관한 글로, 로보틱스 및 AI 개발 생태계와의 관련성이 부족하여 제외합니다."
+        },
+        {
+          "source_id": 12,
+          "reason": "증권신고서(S-1) 문서의 제목만 있고 본문 근거가 전혀 없는 제목 전용 입력이므로 제외합니다."
+        }
+      ]
+    },
+    "draft": {
+      "one_sentence_summary": "RoboStack 모노레포 전환 및 BTick 디버깅 도구 공개와 함께 Greptile·CodeRabbit의 GPT 모델 기반 코드 분석 적용, Bedrock Robotics 투자 및 OMRON 인수가 진행되었습니다.",
+      "cross_insight": "- 해석: Greptile과 CodeRabbit이 각각 GPT-6 Astra와 GPT-6.1 Sol을 워크플로 버그 탐지와 코드베이스 보안 분석에 도입하고 있습니다 [6, 8].",
+      "section_robotics": "- **RoboStack**: 주요 배포판 관리를 단일 리포지토리에서 수행하는 모노레포 구조로 전환하고 패키징 관리를 위한 robostack-bot을 도입했습니다 [2].\n- **BTick**: BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 대화형 디버깅, 런타임 제어 및 Nav2 통합을 지원하는 도구가 공개되었습니다 [4].",
+      "section_devtools": "- **Greptile**: 사용자 워크플로 테스트를 수행하고 버그 탐지 범위를 확장하기 위해 GPT-6 Astra를 도입했습니다 [6].\n- **OpenAI**: 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과를 과학 커뮤니티와 공유했습니다 [7].\n- **CodeRabbit**: 복잡한 코드베이스 전반의 보안 위험을 조사하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했습니다 [8].\n- **Hob**: Mac, Windows, Linux 환경에서 외부 API 없이 오픈 가중치 모델을 로컬로 구동할 수 있는 무료 오픈소스 데스크톱 애플리케이션이 공개되었습니다 [11].",
+      "section_industry": "- **Bedrock Robotics**: 자율 중장비 상용화를 위해 41억 달러의 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했습니다 [13].\n- **OMRON**: 엣지 AI 역량 강화를 목적으로 산업용 컴퓨팅 기업 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했습니다 [14].\n- **Agility Robotics**: GXO Logistics와의 파트너십을 확장하여 노스캐롤라이나와 테네시 거점에 Digit 휴머노이드 로봇 추가 배치를 추진합니다 [15]."
+    },
+    "findings": [
+      "수집 시점을 사건 발생일로 오인하지 않도록 시간 서술을 배제하고 기능 변경 중심으로 서술을 정돈했습니다.",
+      "cross_insight를 단순 사실 나열에서 벗어나 Greptile과 CodeRabbit이 각각 GPT-6 계열 모델을 통해 워크플로 테스트와 보안 분석으로 자동화 영역을 넓히고 있음을 짚는 분석적 해석으로 정제했습니다.",
+      "기술명 및 도구명(BTick, BehaviorTree.CPP, Nav2, robostack-bot, GPT-6 Astra, GPT-6.1 Sol, Hob, Digit 등)을 원문 그대로 유지하고 수치 및 통계 근거를 원문에 맞게 대조 확인했습니다."
+    ],
+    "removedEntries": [],
+    "trace": [
+      {
+        "stage": "plan",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 31.01,
+        "raw": "{\"entries\":[{\"title\":\"RoboStack, 배포판 관리 단일 모노레포 이전 및 관리 봇 도입\",\"section\":\"section_robotics\",\"reason\":\"ROS 배포판 패키징 관리 방식이 모노레포로 통합되어 기여 및 유지보수 워크플로가 크게 단순화되었기 때문입니다.\",\"source_ids\":[2],\"facts\":[{\"source_id\":2,\"statement\":\"RoboStack이 주요 배포판을 단일 리포지토리에서 관리하는 모노레포 구조로 전환하고 robostack-bot을 도입했다.\",\"quote\":\"RoboStack has moved to a monorepo approach!\"}]},{\"title\":\"BTick, BehaviorTree.CPP 및 Nav2를 위한 실시간 모니터링·디버깅 도구 공개\",\"section\":\"section_robotics\",\"reason\":\"ROS 2 및 Nav2 환경에서 Behavior Tree의 실시간 디버깅, 런타임 제어, XML 편집을 통합 제공하는 실무 도구이기 때문입니다.\",\"source_ids\":[4],\"facts\":[{\"source_id\":4,\"statement\":\"BTick은 BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 대화형 디버깅, 런타임 제어 및 Nav2 통합을 지원하는 도구로 공개되었다.\",\"quote\":\"Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive.\"}]},{\"title\":\"Greptile, 코드 리뷰를 넘어선 버그 탐지에 GPT-6 Astra 도입\",\"section\":\"section_devtools\",\"reason\":\"AI 모델을 활용한 자동화 코드 리뷰 및 워크플로 테스트 확장 사례를 다루기 때문입니다.\",\"source_ids\":[6],\"facts\":[{\"source_id\":6,\"statement\":\"Greptile이 사용자 워크플로 테스트를 위해 GPT-6 Astra를 도입해 버그 탐지를 확장했다.\",\"quote\":\"Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.\"}]},{\"title\":\"OpenAI, 수학 및 물리학 연구 커뮤니티와의 과학적 검증 협업 결과 공개\",\"section\":\"section_devtools\",\"reason\":\"프론티어 모델이 수학적 추측 및 물리학 문제 해결에 기여하는 방식과 검증 가능성을 설명하기 때문입니다.\",\"source_ids\":[7],\"facts\":[{\"source_id\":7,\"statement\":\"OpenAI가 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과를 공유했다.\",\"quote\":\"OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics\"}]},{\"title\":\"CodeRabbit, 복잡한 코드베이스 보안 분석에 GPT-6.1 Sol 적용\",\"section\":\"section_devtools\",\"reason\":\"보안 전문 에이전트와 LLM을 결합해 대규모 코드베이스의 취약점을 탐지하고 수정을 지원하는 실무 적용 소식이기 때문입니다.\",\"source_ids\":[8],\"facts\":[{\"source_id\":8,\"statement\":\"CodeRabbit이 복잡한 코드베이스 전반의 보안 위험을 조사하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했다.\",\"quote\":\"CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases.\"}]},{\"title\":\"Hob, 로컬 오픈 가중치 모델 실행 지원 오픈소스 온디바이스 AI 도구 공개\",\"section\":\"section_devtools\",\"reason\":\"외부 API 의존 없이 로컬 장치에서 오프라인으로 오픈 모델을 직접 실행할 수 있는 클라이언트 도구이기 때문입니다.\",\"source_ids\":[11],\"facts\":[{\"source_id\":11,\"statement\":\"Hob은 Mac, Windows, Linux 환경에서 오픈 가중치 모델을 로컬로 구동하는 무료 오픈소스 데스크톱 애플리케이션이다.\",\"quote\":\"runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux.\"}]},{\"title\":\"Bedrock Robotics, 자율 중장비 상용화를 위해 6억 달러 시리즈 C 투자 유치\",\"section\":\"section_industry\",\"reason\":\"건설 현장 인력난에 대응해 자율 중장비 개조 및 상용 배치를 확대하기 위한 대규모 펀딩 소식이기 때문입니다.\",\"source_ids\":[13],\"facts\":[{\"source_id\":13,\"statement\":\"Bedrock Robotics가 41억 달러의 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했다.\",\"quote\":\"raised $600 million in Series C funding, co-led by CapitalG and Emergence Capital, at a $4.1 billion valuation.\"}]},{\"title\":\"OMRON, 엣지 AI 역량 강화를 위해 산업용 컴퓨팅 기업 OnLogic 6억 7,500만 달러에 인수\",\"section\":\"section_industry\",\"reason\":\"자동화 제어 하드웨어와 엣지 컴퓨팅 기술의 대규모 기업 결합으로 현장 실시간 제어와 AI 통합을 도모하기 때문입니다.\",\"source_ids\":[14],\"facts\":[{\"source_id\":14,\"statement\":\"OMRON이 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했다.\",\"quote\":\"agreed to acquire 100% of OnLogic this week, worth $675 million\"}]},{\"title\":\"Agility Robotics와 GXO Logistics, Digit 휴머노이드 로봇 추가 배치 협력 확대\",\"section\":\"section_industry\",\"reason\":\"물류 물품 이송 현장에서 휴머노이드 로봇의 실증 단계를 넘어 추가 거점으로 실제 배치를 확장하는 상용화 사례이기 때문입니다.\",\"source_ids\":[15],\"facts\":[{\"source_id\":15,\"statement\":\"Agility Robotics와 GXO Logistics가 파트너십을 확장하여 추가 물류 현장에 Digit 로봇 배치를 추진한다.\",\"quote\":\"expanding their partnership to deploy Agility’s Digit humanoid robot in GXO sites in North Carolina and Tennessee.\"}]}],\"omitted\":[{\"source_id\":1,\"reason\":\"ROS PMC의 신임 프로젝트 리드 선임 및 개인 배경 소개 글로, 인물 소개 및 거버넌스 인사 공지에 해당하여 제외합니다.\"},{\"source_id\":3,\"reason\":\"단순 유튜브 영상 링크만 포함되어 구체적인 기술 명세나 신규 기능에 대한 본문 근거가 부족하여 제외합니다.\"},{\"source_id\":5,\"reason\":\"특정 기업의 채용 공고 글로 기술 및 산업 보도 기준에 부합하지 않아 제외합니다.\"},{\"source_id\":9,\"reason\":\"외부 기자의 발언을 인용한 단순 인용문 블로그 글로, AI나 로보틱스 개발 도구 및 기술 보도로 볼 수 없어 제외합니다.\"},{\"source_id\":10,\"reason\":\"개인 용도의 특정 이미지 크롭 도구에 관한 글로, 로보틱스 및 AI 개발 생태계와의 관련성이 부족하여 제외합니다.\"},{\"source_id\":12,\"reason\":\"증권신고서(S-1) 문서의 제목만 있고 본문 근거가 전혀 없는 제목 전용 입력이므로 제외합니다.\"}]}",
+        "promptSha256": "b36bc09093ef97a5c58103b82c41683c8b524e092ba3afddede6a0bf0de373bb",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 1546,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 13595,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 13595
+            }
+          ],
+          "thoughts_token_count": 2663,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 17804,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      },
+      {
+        "stage": "draft",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 37.24,
+        "raw": "{\"one_sentence_summary\":\"RoboStack 모노레포 전환 및 BTick 디버깅 도구 공개와 함께 Greptile·CodeRabbit의 GPT 모델 기반 코드 분석 적용, Bedrock Robotics 투자 및 OMRON 인수가 진행되었습니다.\",\"cross_insight\":\"- 해석: Greptile과 CodeRabbit이 각각 GPT-6 Astra와 GPT-6.1 Sol을 워크플로 버그 탐지와 코드베이스 보안 분석에 도입하고 있습니다 [6, 8].\",\"section_robotics\":\"- **RoboStack**: 주요 배포판 관리를 단일 리포지토리에서 수행하는 모노레포 구조로 전환하고 패키징 관리를 위한 robostack-bot을 도입했습니다 [2].\\n- **BTick**: BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 대화형 디버깅, 런타임 제어 및 Nav2 통합을 지원하는 도구가 공개되었습니다 [4].\",\"section_devtools\":\"- **Greptile**: 사용자 워크플로 테스트를 수행하고 버그 탐지 범위를 확장하기 위해 GPT-6 Astra를 도입했습니다 [6].\\n- **OpenAI**: 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과를 과학 커뮤니티와 공유했습니다 [7].\\n- **CodeRabbit**: 복잡한 코드베이스 전반의 보안 위험을 조사하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했습니다 [8].\\n- **Hob**: Mac, Windows, Linux 환경에서 외부 API 없이 오픈 가중치 모델을 로컬로 구동할 수 있는 무료 오픈소스 데스크톱 애플리케이션이 공개되었습니다 [11].\",\"section_industry\":\"- **Bedrock Robotics**: 자율 중장비 상용화를 위해 41억 달러의 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했습니다 [13].\\n- **OMRON**: 엣지 AI 역량 강화를 목적으로 산업용 컴퓨팅 기업 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했습니다 [14].\\n- **Agility Robotics**: GXO Logistics와의 파트너십을 확장하여 노스캐롤라이나와 테네시 거점에 Digit 휴머노이드 로봇 추가 배치를 추진합니다 [15].\"}",
+        "promptSha256": "4e2da9abb46caedcc72b0a4a962e1810e9bad35e146a117abf70d5b33ca3d09c",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 524,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 3485,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 3485
+            }
+          ],
+          "thoughts_token_count": 4354,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 8363,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      },
+      {
+        "stage": "review",
+        "attempt": 1,
+        "modelVersion": "gemini-3.8-flash",
+        "seconds": 30.07,
+        "raw": "{\"verified\": true, \"findings\": [\"수집 시점을 사건 발생일로 오인하지 않도록 시간 서술을 배제하고 기능 변경 중심으로 서술을 정돈했습니다.\", \"cross_insight를 단순 사실 나열에서 벗어나 Greptile과 CodeRabbit이 각각 GPT-6 계열 모델을 통해 워크플로 테스트와 보안 분석으로 자동화 영역을 넓히고 있음을 짚는 분석적 해석으로 정제했습니다.\", \"기술명 및 도구명(BTick, BehaviorTree.CPP, Nav2, robostack-bot, GPT-6 Astra, GPT-6.1 Sol, Hob, Digit 등)을 원문 그대로 유지하고 수치 및 통계 근거를 원문에 맞게 대조 확인했습니다.\"], \"removed_entries\": [], \"report\": {\"one_sentence_summary\": \"RoboStack의 모노레포 전환 및 BTick 디버깅 도구 공개와 함께 Greptile·CodeRabbit의 최신 AI 모델 기반 코드 분석 적용, Bedrock Robotics 투자 및 OMRON 인수가 진행되었습니다.\", \"cross_insight\": \"- 해석: AI 기반 소프트웨어 개발 도구들이 단순 코드 완성을 넘어 GPT-6 계열 모델을 활용한 런타임 워크플로 결함 탐지 및 복잡한 코드베이스의 보안 위험 분석으로 자동화 범위를 확장하고 있습니다 [6, 8].\", \"section_robotics\": \"- **RoboStack**: 주요 배포판 관리를 단일 리포지토리에서 수행하는 모노레포 구조로 전환하고 단일 PR 일괄 빌드 및 패키지 추가를 지원하는 robostack-bot을 도입했습니다 [2].\\n- **BTick**: BehaviorTree.CPP 애플리케이션의 실시간 모니터링, 중단점 설정 기반 대화형 디버깅, 런타임 제어 및 Nav2 로깅 토픽 연동을 지원하는 시각화 도구가 공개되었습니다 [4].\", \"section_devtools\": \"- **Greptile**: 코드 리뷰 단계를 넘어 사용자 워크플로를 테스트하고 버그 탐지 범위를 확장하기 위해 GPT-6 Astra를 도입했습니다 [6].\\n- **OpenAI**: 카케야 추측, 지수 시간 가설, 양자색역학 연구에서 도출된 모델 결과와 연구자 검증 방안을 과학 커뮤니티와 공유했습니다 [7].\\n- **CodeRabbit**: 복잡한 코드베이스 전반의 보안 위험을 조사하고 취약점 검토 및 수정을 지원하기 위해 GPT-6.1 Sol 기반 보안 에이전트를 적용했습니다 [8].\\n- **Hob**: Mac, Windows, Linux 환경에서 외부 API 의존 없이 Gemma 및 gpt-oss 등 오픈 가중치 모델을 오프라인 로컬로 구동하는 무료 오픈소스 데스크톱 애플리케이션이 공개되었습니다 [11].\", \"section_industry\": \"- **Bedrock Robotics**: 건설 현장 인력난에 대응한 자율 중장비 개조 및 상용 배치를 위해 41억 달러 기업가치로 6억 달러 규모의 시리즈 C 투자를 유치했습니다 [13].\\n- **OMRON**: 산업 현장의 엣지 AI 역량 강화를 목적으로 산업용 컴퓨팅 제조 기업 OnLogic의 지분 100%를 6억 7,500만 달러에 인수하기로 합의했습니다 [14].\\n- **Agility Robotics**: GXO Logistics와의 파트너십을 확장하여 물류 물품 이송 현장인 노스캐롤라이나와 테네시 거점에 Digit 휴머노이드 로봇 추가 배치를 추진합니다 [15].\"}}",
+        "promptSha256": "c8b8e1b6b7f4735b5a644e08020f790fd53a2701f09bd14611e747148ac2d730",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 796,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 15730,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 15730
+            }
+          ],
+          "thoughts_token_count": 3738,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 20264,
+          "traffic_type": null
+        },
+        "validation": "pass"
+      }
+    ],
+    "completedAt": "2026-10-27T00:09:22.351469+00:00"
+  },
+  "selectedItems": [
+    {
+      "title": "RoboStack moved to a Monorepo",
+      "link": "https://discourse.openrobotics.org/t/robostack-moved-to-a-monorepo/59196",
+      "summary": "Hi everyone, RoboStack has moved to a monorepo approach! You can read all about it in this document . Why? All the major distros are now managed from one repo. This removes a lot of duplication and makes maintaining the distro channels much easier. Patches, new packages, testing and rebuilds can now be done for all distros at once, in a single PR. Easier to contribute We added several features to help new maintainers get started. The biggest one is the new robostack-bot . It takes care of some of the regular maintenance work and can generate PR’s for standardized functions like adding a new package. You can ask it for help by commenting @robostack-bot add-package <pkg>... [<distro>...] on GitHub. Is your package already there? Check the package lists, for example for Lyrical: ROS 2 Lyrical | RoboStack If something is missing, open an issue and the bot can help get it added. Feedback and new contributors are very welcome! 1 post - 1 participant Read full topic",
+      "publishedAt": "2026-10-26T10:10:44+00:00",
+      "updatedAt": "2026-10-26T10:10:44+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "RoboStack moved to a Monorepo - Mirrors - Open Robotics Discourse RoboStack moved to a Monorepo Infrastructure Project Mirrors ruben-arts October 26, 2026, 10:10am 1 Hi everyone, RoboStack has moved to a monorepo approach! You can read all about it in this document . Why? All the major distros are now managed from one repo. This removes a lot of duplication and makes maintaining the distro channels much easier. Patches, new packages, testing and rebuilds can now be done for all distros at once, in a single PR. Easier to contribute We added several features to help new maintainers get started. The biggest one is the new robostack-bot . It takes care of some of the regular maintenance work and can generate PR’s for standardized functions like adding a new package. You can ask it for help by commenting @robostack-bot add-package <pkg>... [<distro>...] on GitHub. Is your package already there? Check the package lists, for example for Lyrical: ROS 2 Lyrical | RoboStack If something is missing, open an issue and the bot can help get it added. Feedback and new contributors are very welcome! 5 Likes Related topics Topic Replies Views Activity Best practice on maintaining a repository Projects 6 3887 July 15, 2017 Invité ROSConFr 2022 Francophone Users Group 0 484 March 24, 2022 Migration to one GitHub repo for MoveIt! Manipulation 38 9654 August 16, 2018 Releasing repositories form \"other\" people Packaging and Release Management 19 5326 February 10, 2018 New way of installing ROS ROS General 7 1680 October 6, 2023",
+      "articleUrl": "https://discourse.openrobotics.org/t/robostack-moved-to-a-monorepo/59196",
+      "articleFetchedAt": "2026-10-27T00:07:42.432719+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 2
+    },
+    {
+      "title": "BTick — Behavior Tree Monitoring & Debugging for ROS 2",
+      "link": "https://discourse.openrobotics.org/t/btick-behavior-tree-monitoring-debugging-for-ros-2/59220",
+      "summary": "Hi ROS community! Working with Behavior Trees in robotics? Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive. Key Features Unlimited Nodes & Multi-Tree Support — Automatically discover and monitor multiple trees and nested subtrees in real time. Live Monitoring & Interactive Debugging — Track execution, use breakpoints and step execution, and inspect node states. Runtime Control & Testing — Override node statuses, inject delays, edit supported ports, and inspect or modify Blackboard variables. Recording, Replay & Performance Analysis — Record sessions, replay execution through a timeline, export logs, and analyze execution timing. Integrated XML Editor — Create and edit BehaviorTree.CPP v4 XML files with interactive visualization and navigation. Three Protocols & Integrations BTick Protocol — Native monitoring and interactive debugging. Groot2 Protocol — Groot2-compatible communication and supported Pro features. Nav2 Integration — Visualize Behavior Trees through the ROS 2 Nav2 logging topic. Web & Desktop Applications — Access BTick through a browser or a standalone desktop application. Expl",
+      "publishedAt": "2026-10-26T15:08:44+00:00",
+      "updatedAt": "2026-10-26T15:08:44+00:00",
+      "source": "ROS2 Discourse",
+      "section_hint": "로보틱스",
+      "articleText": "BTick — Behavior Tree Monitoring & Debugging for ROS 2 - Projects - Open Robotics Discourse BTick — Behavior Tree Monitoring & Debugging for ROS 2 Projects ros2 , nav2 , behaviortrees Sherif_Fathey October 26, 2026, 3:08pm 1 Hi ROS community! Working with Behavior Trees in robotics? Meet BTick, a powerful tool designed to make monitoring, debugging, and analyzing BehaviorTree.CPP applications easier and more interactive. Key Features Unlimited Nodes & Multi-Tree Support — Automatically discover and monitor multiple trees and nested subtrees in real time. Live Monitoring & Interactive Debugging — Track execution, use breakpoints and step execution, and inspect node states. Runtime Control & Testing — Override node statuses, inject delays, edit supported ports, and inspect or modify Blackboard variables. Recording, Replay & Performance Analysis — Record sessions, replay execution through a timeline, export logs, and analyze execution timing. Integrated XML Editor — Create and edit BehaviorTree.CPP v4 XML files with interactive visualization and navigation. Three Protocols & Integrations BTick Protocol — Native monitoring and interactive debugging. Groot2 Protocol — Groot2-compatible communication and supported Pro features. Nav2 Integration — Visualize Behavior Trees through the ROS 2 Nav2 logging topic. Web & Desktop Applications — Access BTick through a browser or a standalone desktop application. Explore BTick Full Demo: [Demo Link] Documentation: BTick: Behavior Tree Visualizer & Debugger — BTick 1.0.0 documentation Application Repository: GitHub - SherifFathey/btick_app · GitHub Core Integration: GitHub - SherifFathey/btick · GitHub Built for developers working with ROS 2, BehaviorTree.CPP, and Nav2. The goal is simple: bring Behavior Tree visualization, monitoring, debugging, recording, and analysis together in one interface. Feedback and contributions are welcome! Monitor 1920×1080 306 KB xml_editor 1854×1048 202 KB 2 Likes chfritz October 26, 2026, 4:51pm 2 Looks awesome! Is this only useful for development or would it also make sense for monitoring/operating deployed robots? If the latter then I think this would make for a great Transitive capability . It would help spread the word and, on the technical side, would move the UI to the cloud with a remote connection to the robot for monitoring from the web without the need for a VPN or similar. 1 Like Sherif_Fathey October 26, 2026, 5:17pm 3 BTick — Behavior Tree Monitoring & Debugging for ROS 2 Projects Looks awesome! Is this only useful for development or would it also make sense for monitoring/operating deployed robots? If the latter then I think this would make for a great Transitive capability . It would help spread the word and, on the technical side, would move the UI to the cloud with a remote connection to the robot for monitoring from the web without the need for a VPN or similar. Thanks for the suggestion! This is definitely just the beginning for BTick. On the development side, BTick allows you to modify the Behavior Tree at runtime, making debugging, testing, and experimenting with different behaviors much easier. For deployed robots, I believe it could also be valuable for remote monitoring, troubleshooting, and diagnosing unexpected behavior in real-world operation. Integrating BTick with Transitive is a great idea, and I’ll definitely explore this direction. I’d also really appreciate it if you could try BTick on one of your real-world robotics projects and share your feedback. It would be great to hear your thoughts on how well it fits into an actual robotics workflow and what improvements would make it more useful. Related topics Topic Replies Views Activity Groot1Publisher: Visualize and Monitor BehaviorTree v4 trees in Groot 1 Projects ros2 , tools , humble , deliberation 0 308 March 6, 2026 Open Class - Behavior Trees for ROS2 Training & Education ros2 0 1120 December 22, 2022 BT-Studio 0.3 available (with video) ROS General ros2 , humble , wg-delib 0 931 May 16, 2024 Nav2 BT Editor: a VS Code extension for editing and previewing Nav2 behavior trees Projects ros2 , nav2 , vscode , behaviortrees 0 241 June 29, 2026 BT-Studio 0.2 available (with video) ROS General ros2 , humble , wg-delib 0 1283 November 6, 2023",
+      "articleUrl": "https://discourse.openrobotics.org/t/btick-behavior-tree-monitoring-debugging-for-ros-2/59220",
+      "articleFetchedAt": "2026-10-27T00:07:42.459369+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 4
+    },
+    {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "link": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "publishedAt": "2026-10-26T22:00:00+00:00",
+      "updatedAt": "2026-10-26T22:00:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError",
+      "citationIndex": 6
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "publishedAt": "2026-10-26T14:30:00+00:00",
+      "updatedAt": "2026-10-26T14:30:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError",
+      "citationIndex": 7
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "publishedAt": "2026-10-26T13:45:00+00:00",
+      "updatedAt": "2026-10-26T13:45:00+00:00",
+      "source": "OpenAI News",
+      "section_hint": "AI",
+      "articleStatus": "unavailable:HTTPError",
+      "citationIndex": 8
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "link": "https://github.com/FrigadeHQ/hob",
+      "summary": "",
+      "publishedAt": "2026-10-26T16:12:29+00:00",
+      "updatedAt": "2026-10-26T16:12:29+00:00",
+      "source": "HackerNews",
+      "section_hint": "AI",
+      "articleText": "main Branches Tags Go to file Code Open more actions menu Latest commit History 191 Commits 191 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows app app catalog catalog docs docs packages/ picker packages/ picker site site .gitattributes .gitattributes .gitignore .gitignore .npmrc .npmrc .nvmrc .nvmrc CONTRIBUTING.md CONTRIBUTING.md LICENSE LICENSE README.md README.md package.json package.json pnpm-lock.yaml pnpm-lock.yaml pnpm-workspace.yaml pnpm-workspace.yaml tsconfig.base.json tsconfig.base.json View all files Repository files navigation Hob An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT. Visit hob.chat → · Download for Mac · Windows · Linux Fill out PDFs, work through documents, and much more. Free, private, and works offline. Hob picks the best frontier open-weight model that fits your computer and sets everything up for you. Help · Contributing · MIT license Made by Frigade . About An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline. hob.chat Topics ai-agent ai-assistant chatgpt-alternative claude-alternative desktop-app electron gemma gpt-oss linux llama-cpp llm local-ai local-llm macos mcp offline-ai open-source privacy private-ai windows Resources Readme MIT license Contributing Contributing Activity Custom properties Stars 97 stars Watchers 1 watching Forks 3 forks Report repository Releases Packages Contributors Languages",
+      "articleUrl": "https://github.com/FrigadeHQ/hob",
+      "articleFetchedAt": "2026-10-27T00:07:43.023997+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 11
+    },
+    {
+      "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+      "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+      "summary": "Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages. The post Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T21:15:00+00:00",
+      "updatedAt": "2026-10-26T21:15:00+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "Bedrock Robotics automates large excavators to improve construction site economics. | Credit: Bedrock Robotics San Francisco-based Bedrock Robotics has raised $600 million in Series C funding, co-led by CapitalG and Emergence Capital, at a $4.1 billion valuation. The round brings its total funding to nearly $1 billion as it scales fully autonomous heavy equipment to address nationwide construction labor shortages. The round included new investors US Innovative Technology Fund (USIT), Bessemer Venture Partners, and Temasek, alongside existing investors 8VC, Georgian, Valor Equity Partners, Xora, Eclipse, Perry Creek Capital, NVIDIA, and others. Bedrock said this will accelerate the deployment of Bedrock-equipped machines across commercial construction sites across the U.S., helping contractors use existing heavy equipment more safely, predictably, and at greater capacity. The new capital follows a rapid commercial expansion beyond the company ’s initial footprint in the West and Central South into the Midwest and South Atlantic. Anchored by a major partnership with Southwest contractor Haydon to automate earthwork in Texas, Bedrock has added regional partners across Minnesota, Florida, Georgia, Missouri, and Virginia—pushing its autonomous retrofits onto live job sites spanning data centers, healthcare facilities, and heavy civil infrastructure. “We have proven that fully autonomous excavators can perform real work of value alongside the crews and workflows already in place on job sites,” said Boris Sofman, co-founder and CEO of Bedrock Robotics. “The next challenge is delivering that capability to more contractors as a dependable part of how projects get built.” “This funding allows us to expand deployments, strengthen the field operations behind every machine, and work with more partners as they integrate intelligent systems into everyday work,” he added. “The opportunity is to help the industry’s experienced crews safely take on more projects, deliver with greater consistency, and quickly deliver more of the infrastructure this country needs.” Sofman told The Robot Report , “New customer demand is very high. We’re responsibly growing into the demand, bringing on new customers we can serve alongside our longtime design partners. We’re scaling across the board, from operations to hardware to supply chain operations, to keep pace with the needs of our customers.” Bedrock Robotics adds leadership In the midst of securing new funding, the company also added two new individuals to the management team. Amy Jones Satrom joins the leadership team as vice president of operations. She brings operations experience from Amazon, Nuro, and Uber to lead the company in the next phase of scaling to meet demand. “Amy is instrumental in strengthening our operations and building the systems and support that make successful deployments repeatable,” according to Sofman. “She’s still early in her tenure, but her leadership will be central to growing our deployment and production teams and preparing them to support customers across the country. “Ajay Gummalla, a co-founder and VP of engineering, is also intimately involved on the hardware side of things, adding resilience to our supply chain so we’re ready to build the hardware we need to meet customer demand,” he explained. Lando Juarez has joined Bedrock Robotics in the role of general counsel. He was formerly head of legal for Uber’s Autonomous Mobility & Delivery business, overseeing commercial partnerships and regulatory pathways. Submit your innovation now! Looking to the future of construction When asked bout how the company is planning to grow, Sofman responded, “Short term, our growth market remains construction. It is a massive market — 4% to 5% of U.S. GDP — so we’re thinking about expanding use cases. Haydon will test our excavators for autonomous trench work.” “We’re also thinking about automating larger machine models — Haydon and others will explore bulldozers, ADTs, and wheel loaders as possible heavy machines to automate next,” he said. “Long term: We’re looking at the other industries, like mining and agriculture, that are 1) also dealing with labor constraints and 2) use the same kinds of heavy machines GCs do.” “For 2027, we are relentlessly focused on getting more Bedrock-equipped machines on more job sites around the country,” Sofman continued. “It was just a few months ago that we first launched fully autonomous excavators on live, commercial job sites, just two years after Bedrock came out of stealth. 2027 is about doubling down on that progress, getting to triple-digit machines working autonomously across the country.” When asked about the installed base and economic opportunity for Bedrock Robotics’ systems, Sofman was more reserved. “It’s a bit early to give concrete numbers,” said Sofman, “However, given the labor constraints on general contractors, the math pencils out: Imagine a job that can be completed two months faster because autonomous machines are running around the clock, seven days a week.” “The developer paying 9% interest on a $400 million loan would save $6 million on that project they can invest into future projects,” he observed. “In turn, construction crews and all the downstream trades, like plumbing and electrical, would see an increasing volume of steady work because there are more projects that can be funded.” Some data on labor constraints that have opened the market for Bedrock: Twenty percent of construction workers are over the age of 55, and estimates suggest that more than 40% of the construction workers will retire in the next five years. Large projects already run an average of 20% over schedule and 80% over budget. In construction specifically, 87% of firms report openings for hourly craft positions, and 88% say the roles are as hard or harder to fill than a year ago. About The Author Mike Oitzman Mike Oitzman is a robotics industry veteran and Senior Editor of WTWH Media’s Robotics Group, covering automation for The Robot Report and co-hosting its podcast. With 25+ years of experience, including leadership roles at Adept Technology, Mike founded the Mobile Robot Guide (acquired by WTWH). He is a leading expert on Autonomous Mobile Robots (AMRs), physical AI, and RaaS business models, holding a Systems Engineering degree and an MBA. He can be reached at [email protected] . Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > OMRON to acquire OnLogic to address edge AI applications Agility and GXO Logistics plan expanded deployment of Digit humanoid Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics Eka Robotics raises $150M to scale its vision-force-action model for robots",
+      "articleUrl": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+      "articleFetchedAt": "2026-10-27T00:07:42.877053+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 13
+    },
+    {
+      "title": "OMRON to acquire OnLogic to address edge AI applications",
+      "link": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+      "summary": "OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications. The post OMRON to acquire OnLogic to address edge AI applications appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T20:13:13+00:00",
+      "updatedAt": "2026-10-26T20:13:13+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "OnLogic will keep its Vermont headquarters, as well as its global offices, as part of OMRON. Source: OnLogic As manufacturers increasingly use data and AI at the edge, they need reliable computing that works alongside real-time automation and control. OMRON Corp. this month said it has agreed to acquire 100% of OnLogic this week, worth $675 million, to combine its proven automation with OnLogic’s industrial computing expertise. “This acquisition is an important step in advancing our SF2030 vision and our evolution toward GEMBA DX,” stated Junta Tsujinaga, president and CEO of OMRON. “North America is a key growth market for OMRON, and this investment strengthens our foundation there while building the capabilities our customers will increasingly need.” “OnLogic’s industrial computing expertise, flexibility and strong customer relationships complement our strengths in automation and control,” he added. “Together, we see an opportunity to create new value for customers as manufacturing becomes more connected, data-driven and intelligent.” Founded in 1933, OMRON Automation creates, sells, and services fully integrated automation solutions that include sensing , control , safety , vision , and motion . The Kyoto, Japan-based company said its 30,000 employees creatively help businesses solve problems in more than 110 countries. Its Americas office is in Hoffman Estates, Ill. Submit your innovation now! OnLogic to continue computing brand Founded in 2003, OnLogic designs and makes configurable, solution-focused, AI -capable computers engineered for reliability at the Internet of Things (IoT ) edge. The South Burlington, Vt.-based company said it has helped more than 70,000 customers worldwide with their complex computing challenges with systems that are built to order, delivered in days, and designed to last. OnLogic noted that its systems operate in the world’s harshest environments across industries. It said joining OMRON will provide industrial automation expertise and access to new markets. “We built OnLogic to help engineers and innovators solve tough technology challenges by making custom, rugged hardware easy to configure, build, and deploy,” said Sean Larkin, CEO of OnLogic. “Joining OMRON provides the global scale, supply chain depth, and capital resources to accelerate our product roadmaps while preserving our culture, direct sales approach, and operations around the world. Together, we are giving our customers the tools they need to deploy physical AI with confidence.” Following the acquisition, OnLogic will continue to operate as an independent business within the OMRON Group. It will keep its offices in the U.S., the Netherlands, Germany, Taiwan, and Malaysia, as well as its brand identity and direct sales model. OnLogic’s management team, led by Larkin, will remain in place to drive day-to-day operations and strategic growth. OMRON sees opportunities for manufacturers The companies said they will help customers address increasingly complex applications that require greater processing power, connectivity, and intelligence at the edge. OMRON has experience in control, robotics, and safety. OnLogic brings configurable computing platforms designed for demanding applications and environments, as well as its flexible build-to-order model and customer reach across manufacturing and other markets. The companies said they expect to more closely connect machine data, edge computing, and AI with real-time automation and control. Over time, the combination is expected to create systems that help turn data, insights, and AI into faster, more informed actions to optimize manufacturing. OMRON added that the acquisition is an investment in its Industrial Automation Business and strengthens the company’s position in the Americas and Europe . OnLogic has relationships with customers across both traditional automation markets and industries where OMRON sees additional opportunities for growth. In addition, OMRON said it remains committed to its established channel strategy and to continuing to invest in and support the partners that help it serve customers and grow in the market. The companies said they expect the acquisition to close in or around January 2027, subject to regulatory approval. Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > Boston Dynamics gives more insight into its redesigned humanoid hand Runway introduces Praxis-1 world action model for robotics Hirebotics adds line tracking and linear rail capabilities to its cobots Report covers advances in surgical robots, deploying warehouse automation in the real world",
+      "articleUrl": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+      "articleFetchedAt": "2026-10-27T00:07:42.850513+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 14
+    },
+    {
+      "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+      "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+      "summary": "GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites. The post Agility and GXO Logistics plan expanded deployment of Digit humanoid appeared first on The Robot Report .",
+      "publishedAt": "2026-10-26T14:05:21+00:00",
+      "updatedAt": "2026-10-26T14:05:21+00:00",
+      "source": "The Robot Report",
+      "section_hint": "트렌드",
+      "articleText": "Agility and GXO have been collaborating since 2023. Source: Agility Robotics Agility Robotics and GXO Logistics today said they are expanding their partnership to deploy Agility’s Digit humanoid robot in GXO sites in North Carolina and Tennessee. “GXO was the first customer to put Digit to work in live operations under a commercial agreement, and expanding to additional sites is the clearest signal that the value is real,” stated Peggy Johnson, CEO of Agility. “Customers are moving beyond asking whether humanoid robots can work to deciding where they can scale them. Years of experience performing real work in GXO’s operations have shaped how we build, deploy and support Digit, and we’re focused on disciplined execution as we grow this partnership.” Founded in 2015, Agility Robotics said it has more than 65,000 hours of real-world operation working with industry safety standards. The Salem, Ore.-based company recently got U.S. Securities and Exchange Commission approval for its planned merger with special-purpose acquisition company (SPAC ) Churchill Capital Corp. XI as it prepares to go public. In 2024, Digit earned Agility the inaugural RBR50 Robot of the Year award for being one of the first humanoids to enter commercial trials. It received 2026 honors for moving more than 100,000 totes for GXO last year. This month, the company chose Nyobolt for fast charging , expanded its partnership with NVIDIA, and said it plans to deploy Digit at an AGCO factory for agricultural equipment in 2027. Submit your innovation now! GXO and Agility continue collaboration Spun out of XPO Inc. in 2021, GXO Logistics claimed that it is “the world’s largest pure-play contract logistics provider.” The third-party logistics provider (3PL ) has more than 150,000 employees across over 1,000 facilities, totaling more than 200 million sq. ft. (18.5 million sq. m). The Greenwich, Conn.-based company last month partnered with Exotec to automate fulfillment for Guess in the Netherlands, and like Agility , its executives participated in keynote panels last week’s RoboBusiness event. GXO and Agility first deployed Digit in late 2023 in at a facility in Flowery Branch, Ga. The companies asserted that it was the industry’s first commercial deployment of humanoid robots in live operations and the first robotics-as-a-service (RaaS ) agreement for humanoid robots. Since then, Digit has moved more than 100,000 totes at the Flowery Branch facility, demonstrating its ability to perform repetitive material handling tasks reliably in an active logistics environment. The robot uses the Agility Arc cloud-based fleet management and integration platform. It has worked alongside existing automation to move totes and place them onto conveyors. “Innovation is most powerful when it delivers practical solutions that create value for our customers and our people,” said GXO CEO Patrick Kelleher. “Our partnership with Agility Robotics has been defined by a shared commitment to turning emerging technologies into real-world operational advantage. Together, we’ve helped pioneer the use of humanoid robotics in the warehouse and this expansion reflects our confidence in the technology’s ability to create measurable value for our customers and a better working environment for our teams.” Digit will move from handling bins to more applications. Source: Agility GXO Logistics has tested other humanoids GXO has also tested humanoid robots including Apollo from Apptronik and Reflex from Reflex Robotics . In the company’s second-quarter earnings call in August, Kelleher acknowledged that it had not yet deployed humanoids in production, nor had they produced a return on investment (ROI). “We’ve done 45 pilots on humanoids so far. We have an additional pilot launching in Europe very shortly,” he said at the time. “We have not achieved ROI on humanoids yet. I think we are a couple of years away from that, but we’re seeing such great progress with our partners around the efficacy of that technology and the application opportunities that it has in the warehouse environment.” GXO did not say how much it is investing in the Digit expansion or when and if it expects ROI. The Robot Report has reached out and will share any additional comment or clarification. Partners plan to deploy Digit to more U.S. sites Under the expanded agreement, Digit will support e-commerce fulfillment at GXO sites in Statesville, Tenn., and Lebanon, Ind. The companies said they expect to begin deployments of Digit 4 in in early 2027. Digit 5, which Agility unveiled last month, is designed with new legs, to operate safely near people, and to address a wider range of industrial workflows. GXO said it will migrate to Digit 5 when it becomes commercially available. “The expansion reflects GXO’s long-standing approach to advancing warehouse automation through practical implementation at scale,” said GXO. “As an industry leader in advanced automation and physical AI, GXO partners with leading technology developers to test, refine and deploy emerging solutions in live operating environments. The expanded partnership underscores GXO’s and Agility’s shared commitment to accelerating innovation through real-world application and continuous learning.” Agility also noted that it has invested in infrastructure to manufacture, deploy, and support humanoid robots at scale, including its 70,000 sq. ft. (6,503.2 sq. m) RoboFab facility to manufacture up to 10,000 robots per year. The company has also expanded software and service capabilities, as well as announced plans for a new 50,000 sq. ft. (4,645 sq. m) facility in Pittsburgh to support commercial deployments. A spokesperson told The Robot Report that Agility has paid programs with a global automaker, a major automotive component supplier, and a global consumer products maker. The company said it has more than 30 prospective customers in its pipeline across manufacturing, logistics, aerospace, defense, and consumer products. About The Author Eugene Demaitre Eugene Demaitre is editorial director of the robotics group at Arrowfly (previously WTWH Media). He was senior editor of The Robot Report from 2019 to 2020 and editorial director of Robotics 24/7 from 2020 to 2023. Prior to working at Arrowfly, Demaitre was an editor at BNA (now part of Bloomberg), Computerworld, TechTarget, and Robotics Business Review. Demaitre has participated in robotics webcasts, podcasts, and conferences worldwide. He has a master's from the George Washington University and lives in the Boston area. Tell Us What You Think! Cancel reply This site uses Akismet to reduce spam. Learn how your comment data is processed. Related Articles Read More > Webinar to discuss how the FCC robotics ruling affects automation buyers Generative Bionics to launch Physical AI Data Factory in Italy AGCO to deploy Agility Digit humanoid in Kansas factory A guide to Day 1 of RoboBusiness 2026",
+      "articleUrl": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+      "articleFetchedAt": "2026-10-27T00:07:42.939544+00:00",
+      "articleStatus": "fetched",
+      "citationIndex": 15
+    }
+  ]
+}

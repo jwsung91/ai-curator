@@ -1,17 +1,4 @@
 {
-  "2026-10-06": [
-    "https://discourse.openrobotics.org/t/mid-senior-mechanical-engineer-turin-italy/58597",
-    "https://discourse.openrobotics.org/t/new-packages-for-lyrical-2026-10-05/58605",
-    "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-10-05/58601",
-    "https://openai.com/index/eu-text-provenance",
-    "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-    "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-    "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-    "https://simonwillison.net/2026/Oct/1/pwasm/",
-    "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-    "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
-    "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/"
-  ],
   "2026-10-07": [
     "https://discourse.openrobotics.org/t/dialostack-task-oriented-spoken-dialogue-for-ros-2-with-the-llm-kept-out-of-the-control-flow/58631",
     "https://discourse.openrobotics.org/t/new-packages-for-jazzy-jalisco-2026-10-05/58622",
@@ -277,5 +264,22 @@
     "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
     "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
     "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/"
+  ],
+  "2026-10-27": [
+    "https://discourse.openrobotics.org/t/new-project-lead-for-ros-pmc/59192",
+    "https://discourse.openrobotics.org/t/robostack-moved-to-a-monorepo/59196",
+    "https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197",
+    "https://discourse.openrobotics.org/t/btick-behavior-tree-monitoring-debugging-for-ros-2/59220",
+    "https://discourse.openrobotics.org/t/head-of-robotics-co-founder-partner-ros-2-micro-manufacturing-buildshare-remote-worldwide/59180",
+    "https://openai.com/index/greptile-code-review-codex-astra",
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+    "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+    "https://github.com/FrigadeHQ/hob",
+    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+    "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+    "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
   ]
 }
