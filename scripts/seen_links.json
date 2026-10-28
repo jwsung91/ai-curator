@@ -1,28 +1,4 @@
 {
-  "2026-10-07": [
-    "https://discourse.openrobotics.org/t/dialostack-task-oriented-spoken-dialogue-for-ros-2-with-the-llm-kept-out-of-the-control-flow/58631",
-    "https://discourse.openrobotics.org/t/new-packages-for-jazzy-jalisco-2026-10-05/58622",
-    "https://discourse.openrobotics.org/t/university-of-waterloo-user-study-on-understanding-cmake-changes/58616",
-    "https://discourse.openrobotics.org/t/robot-brain-a-memory-runtime-for-task-experience-with-a-ros-2-reference-bridge-public-alpha-closed-core/58618",
-    "https://discourse.openrobotics.org/t/hold-and-weld-v0-3-0-configurable-dual-arm-welding-grasping-framework/58628",
-    "https://openai.com/index/jump-trading",
-    "https://openai.com/index/sharing-ai-progress-in-mathematics",
-    "https://openai.com/index/advancing-computer-use-with-ironclad",
-    "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-    "https://simonwillison.net/2026/Oct/6/victoria-kim/",
-    "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-    "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-    "https://simonwillison.net/2026/Oct/6/le-chonk/",
-    "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-    "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-    "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
-    "https://github.com/ollama/ollama/releases/tag/v0.40.0",
-    "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
-    "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/",
-    "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
-    "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
-  ],
   "2026-10-08": [
     "https://discourse.openrobotics.org/t/roscon-jp-2026/58635",
     "https://discourse.openrobotics.org/t/rokoko-ros-2-bridge-for-smartgloves-ii-is-released/58658",
@@ -281,5 +257,27 @@
     "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
     "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
     "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
+  ],
+  "2026-10-28": [
+    "https://discourse.openrobotics.org/t/luxonis-new-silver-osra-member-and-a-new-product-release-that-you-can-win/59245",
+    "https://discourse.openrobotics.org/t/drone-companion-controller-prototype-arduino-mega-ina219-payload-release-looking-for-feedback/59242",
+    "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-october-20-2026/59241",
+    "https://discourse.openrobotics.org/t/new-course-agentic-robotics-with-ros-2-from-ai-agents-to-vla-models-code-on-github/59239",
+    "https://discourse.openrobotics.org/t/ros2-driver-for-blueprint-subsea-oculus-m3000d/59261",
+    "https://openai.com/index/retell-ai",
+    "https://openai.com/index/oracle-apps-in-chatgpt",
+    "https://openai.com/index/check-point-daybreak",
+    "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+    "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+    "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+    "https://www.brangus.io/survival-llm",
+    "https://www.anthropic.com/research/early-progress-drug-development",
+    "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.12",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.106.5",
+    "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+    "https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/",
+    "https://www.therobotreport.com/xpanner-launches-new-autonomous-pile-driver-solar-farm-contruction/"
   ]
 }
