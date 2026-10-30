@@ -1,25 +1,4 @@
 {
-  "2026-10-09": [
-    "https://discourse.openrobotics.org/t/upcoming-breaking-changes-in-ros2-control-deprecated-handle-export-apis-removed/58708",
-    "https://discourse.openrobotics.org/t/guidance-on-robot-coordination-in-narrow-bidirectional-corridors-with-yielding-bays/58684",
-    "https://discourse.openrobotics.org/t/air-ground-teaming-with-a-humanoid-robot-ros-2-patterns-for-a-shared-event-record/58681",
-    "https://discourse.openrobotics.org/t/uranus-exploring-a-data-driven-approach-to-robot-simulation/58702",
-    "https://discourse.openrobotics.org/t/kyvern-signed-verifiable-records-of-why-your-robot-did-what-it-did-ros-2-example/58711",
-    "https://openai.com/index/oracle",
-    "https://openai.com/index/pollo-ai",
-    "https://openai.com/index/legalon-halves-codex-costs",
-    "https://karagila.org/2026/openai-pp/",
-    "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-    "https://github.com/edrisranjbar/lifeos",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.1",
-    "https://github.com/ollama/ollama/releases/tag/v0.40.2",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.104.2",
-    "https://spectrum.ieee.org/walking-robotic-hand",
-    "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
-    "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
-    "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
-    "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
-  ],
   "2026-10-13": [
     "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-10-12/58802",
     "https://discourse.openrobotics.org/t/rokoko-device-sdk-update-more-robust-usb-stream-ota-ready-smartgloves-ii-and-a-pinch-detector-example/58800",
@@ -276,5 +255,25 @@
     "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
     "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/",
     "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+  ],
+  "2026-10-30": [
+    "https://discourse.openrobotics.org/t/dedicated-meeting-to-discuss-rep-0157-wednesday-4-november-2026/59331",
+    "https://discourse.openrobotics.org/t/fosdem-2027-robotics-simulation-devroom-3rd-edition/59333",
+    "https://discourse.openrobotics.org/t/string-command-and-state-interfaces-in-ros2-control/59304",
+    "https://discourse.openrobotics.org/t/ros-deliberation-community-group-meeting-november-2-2026/59323",
+    "https://discourse.openrobotics.org/t/community-meeting-how-otto-by-rockwell-automation-uses-gazebo/59334",
+    "https://openai.com/index/updated-model-spec",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "https://openai.com/index/ropes-gray-ai-diligence",
+    "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+    "https://martinfowler.com/bliki/LLM-Voice.html",
+    "https://divergencelabs.com/publications/ige-preprint.pdf",
+    "https://fig.blue/posts/duet-is-the-future/",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.13",
+    "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+    "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
+    "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/"
   ]
 }
