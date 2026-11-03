@@ -1,28 +1,4 @@
 {
-  "2026-10-14": [
-    "https://discourse.openrobotics.org/t/rclnodejs-2-3-0-ros-2-actions-over-websocket-and-http-sse/58817",
-    "https://discourse.openrobotics.org/t/plansys2-moves-to-kairos-and-stn/58838",
-    "https://discourse.openrobotics.org/t/vizmini2-rviz-teleop-and-ros-2-tools-on-your-android-phone-or-tablet/58822",
-    "https://discourse.openrobotics.org/t/roboshield-v2-an-inline-command-firewall-gateway-for-ros-2-rust-rclrs-two-domain-bridge-sros2/58826",
-    "https://discourse.openrobotics.org/t/introducing-robotlens-a-connected-engineering-workspace-for-ros-2/58825",
-    "https://openai.com/index/higgsfield-longer-videos-voice",
-    "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-    "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "https://deepmind.google/blog/introducing-gemini-4-argon/",
-    "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-    "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-    "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-    "https://simonwillison.net/2026/Oct/13/web-edit/",
-    "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-    "https://deepmind.google/models/gemini/",
-    "https://www.anthropic.com/engineering/redesigning-source-control",
-    "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-    "https://spectrum.ieee.org/mars-rover-distance-record",
-    "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
-    "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
-    "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
-    "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
-  ],
   "2026-10-15": [
     "https://discourse.openrobotics.org/t/these-weeks-at-open-robotics-hq-since-pre-roscon-global/58845",
     "https://discourse.openrobotics.org/t/ros2-pulse-topic-rates-on-a-grafana-dashboard-now-counting-rclpy-nodes-and-loaned-messages/58863",
@@ -271,5 +247,22 @@
     "https://www.therobotreport.com/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-for-motion-density-and-uptime/",
     "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
     "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+  ],
+  "2026-11-03": [
+    "https://discourse.openrobotics.org/t/intrinsic-core-released-open-source-ros-compatible-real-time-control-motion-planning-and-more/59457",
+    "https://discourse.openrobotics.org/t/data-collection-framework-update-to-lyrical-jazzy-and-rolling/59439",
+    "https://discourse.openrobotics.org/t/gsoc-2026-scalable-multi-robot-simulation-in-ros-2-and-gazebo/59454",
+    "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.6.0",
+    "https://openai.com/index/scaling-git-at-openai",
+    "https://openai.com/index/grid-protectors-program",
+    "https://openai.com/index/lifeval",
+    "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "https://simonwillison.net/2026/Nov/2/llm/",
+    "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+    "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
+    "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+    "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+    "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"
   ]
 }
