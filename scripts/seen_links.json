@@ -1,21 +1,4 @@
 {
-  "2026-10-16": [
-    "https://discourse.openrobotics.org/t/rfc-consolidating-and-modernizing-integration-test-architecture-for-gz-ros2-control/58883",
-    "https://openai.com/index/introducing-the-rosalind-academic-plan",
-    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-    "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-    "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-    "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-    "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-    "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
-    "https://github.com/ollama/ollama/releases/tag/v0.40.5",
-    "https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/",
-    "https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale-2/",
-    "https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/",
-    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-    "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
-  ],
   "2026-10-19": [
     "https://discourse.openrobotics.org/t/moveit-community-meeting-october-20th-2026/58928",
     "https://github.com/ros-navigation/navigation2/releases/tag/1.5.3",
@@ -269,5 +252,30 @@
     "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
     "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/",
     "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+  ],
+  "2026-11-05": [
+    "https://discourse.openrobotics.org/t/christophe-bedard-is-the-ros-boss-for-ros-2-makoa-mata-mata/59531",
+    "https://discourse.openrobotics.org/t/build-ros-2-lyrical-with-bazel-new-ros-central-registry-release-and-a-call-for-a-working-group/59532",
+    "https://discourse.openrobotics.org/t/request-to-remove-archived-package-documentation/59514",
+    "https://discourse.openrobotics.org/t/ai-agents-ai-tools-ai-slop-on-open-robotics-discourse-and-elsewhere/59530",
+    "https://discourse.openrobotics.org/t/interop-sig-05-november-2026-behavior-declarations/59512",
+    "https://openai.com/index/openai-to-acquire-pierre",
+    "https://openai.com/index/daybreak-red-aws-govcloud",
+    "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+    "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+    "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+    "https://simonwillison.net/2026/Nov/3/llm/",
+    "https://www.ricursive.com/ripple",
+    "https://openai.com/index/openai-to-acquire-pierre/",
+    "https://news.ycombinator.com/item?id=50366117",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.5.0",
+    "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.108.0",
+    "https://spectrum.ieee.org/drone-delivery-noise",
+    "https://www.therobotreport.com/robotics-startup-radar-2026/",
+    "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
+    "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"
   ]
 }
