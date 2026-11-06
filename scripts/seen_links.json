@@ -1,23 +1,4 @@
 {
-  "2026-10-19": [
-    "https://discourse.openrobotics.org/t/moveit-community-meeting-october-20th-2026/58928",
-    "https://github.com/ros-navigation/navigation2/releases/tag/1.5.3",
-    "https://openai.com/index/itau-generative-ai",
-    "https://openai.com/index/benefit-street-partners",
-    "https://openai.com/index/stack-overflow-chatgpt-plugin",
-    "https://simonwillison.net/2026/Oct/17/web-edit/",
-    "https://simonwillison.net/2026/Oct/16/code-review/",
-    "https://simonwillison.net/2026/Oct/15/latex/",
-    "https://arxiv.org/abs/2610.18861",
-    "https://blog.picheta.me/post/killswitch-lang/",
-    "https://api-docs.deepseek.com/guides/search/",
-    "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-    "https://github.com/BerriAI/litellm/releases/tag/v1.106.0",
-    "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
-    "https://www.therobotreport.com/how-to-choose-bldc-motor-robotic-arms-mobile-robots/",
-    "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
-    "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/"
-  ],
   "2026-10-20": [
     "https://discourse.openrobotics.org/t/42-gazebo-harmonic-simulation-worlds-for-navigation-exploration-and-slam-workflows/58934",
     "https://discourse.openrobotics.org/t/swift-ros2-3-0-native-swift-ros-2-client-library-now-with-generated-common-interfaces-and-its-own-org/58955",
@@ -277,5 +258,24 @@
     "https://www.therobotreport.com/robotics-startup-radar-2026/",
     "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
     "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"
+  ],
+  "2026-11-06": [
+    "https://discourse.openrobotics.org/t/manyforge-a-new-manipulation-framework/59559",
+    "https://discourse.openrobotics.org/t/robotiq-description-and-robotiq-controllers-releases-moving-from-ros2-robotiq-gripper-to-robotiq-ros/59562",
+    "https://discourse.openrobotics.org/t/community-meeting-66-november-9-2026-3pm-utc/59560",
+    "https://discourse.openrobotics.org/t/looking-for-research-gaps-in-cooperative-auvs-and-underwater-communication/59573",
+    "https://openai.com/index/cultfit-builds-with-codex",
+    "https://openai.com/index/introducing-gpt-6-cyber",
+    "https://openai.com/index/merge-builds-with-openai",
+    "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "https://github.com/anthropics/claude-code/issues/107757",
+    "https://mcp-explained.com/",
+    "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0",
+    "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+    "https://github.com/BerriAI/litellm/releases/tag/v1.108.1",
+    "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+    "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
+    "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+    "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
   ]
 }
